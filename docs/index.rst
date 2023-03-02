@@ -12,7 +12,7 @@ The components of a directed graph :math:`G(V,E)`, and the attributes of these c
 
 .. csv-table::
     :header: Notation, Definition
-    :widths: 10, 60
+    :widths: 9, 40
     :class: tight-table
 
     ":math:`V=\{v_1,v_2,...,v_N\}`", "a set of :math:`N` nodes :math:`v_i (i=1,...,N)`, each assigned to one model *element*, where each element represents a component of the system being modeled"
@@ -44,7 +44,7 @@ The edge attribute vector can also include the :math:`a^{\mathrm{cellline}}`, :m
 
 Finally, provenance attributes can be used. The :math:`a^{\mathrm{score}}` attribute provides a summary score for confidence in the interaction, or the amount of available evidence for the interaction. The :math:`a^{\mathrm{source}}` attribute indicates the source of evidence, which can be literature, expert knowledge, databases, or data. The :math:`a^{\mathrm{statement}}` attribute is used to store the statements, parts of sentences or sentences where the interaction is mentioned. The :math:`a^{\mathrm{paperIDs}}` attribute holds paper IDs (e.g., PMCID [8]) where the sentences mentioning the interaction are found. When the information about the additional non-essential attributes is not available, these attributes are assigned an “empty” value.
 
-In :numref:`figure_1`, we show an example biological interaction, with all node and edge attributes, and Table 1 summarizes the node and edge attributes in a directed graph :math:`G(V,E)`:
+In :numref:`figure_1`, we show an example biological interaction, with all node and edge attributes, and Table 1 summarizes the node and edge attributes in a directed graph :math:`G(V,E)`.
 
 .. _figure_1:
 
@@ -53,6 +53,11 @@ In :numref:`figure_1`, we show an example biological interaction, with all node 
     :alt: internal figure
 
     An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes.
+
+
+.. figure:: table1.png
+    :align: center
+
 
 Representation of Individual Events and Interactions
 ------------------------------------------------------
@@ -64,7 +69,62 @@ The BioRECIPE format supports individual event and interaction representation fo
 #. interactions inferred from data
 #. interactions entered manually by experts.
 
-In the BioRECIPE format, a list of interactions is written such that each interaction is one row in a table (or a spreadsheet) and attributes are assigned to columns, as illustrated below:
+These interactions are written as a list in a spreadsheet, where the list may have one or many interactions, each interaction is assigned one row. We refer to such spreadsheets as Interaction Lists. The column headers in the Interaction List match the attribute names as shown in the table below
+
+In the Interaction List, the attribute values are written according to the following syntax.
+
+.. csv-table:: Element (node) Attributes
+    :header: Attribute, Value Instances
+    :widths: 9, 40
+
+    ":math:`a^{\mathrm{name}}`", <element name>
+    ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
+    ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
+  | ":math:`a^{\mathrm{HGNC ID}}`", <HGNC unique gene symbol>
+    ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | ``Ensembl`` | ``GENCODE`` | ``RefSeq`` | ``GO`` | ``MeSH``
+    ":math:`a^{\mathrm{ID}}`", <unique identifier>
+    ":math:`a^{\mathrm{location}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
+    ":math:`a^{\mathrm{locationID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
+
+.. csv-table:: Interaction (edge) attributes
+    :header: Attribute, Value Instances
+    :widths: 9, 40
+
+    ":math:`a^{\mathrm{sign}}`", ``positive`` | ``negative``
+    ":math:`a^{\mathrm{connectiontype}}`",``D`` | ``I``
+    ":math:`a^{\mathrm{mechanism}}`", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``acetylation`` | ``methylation`` | ``transcription`` | ``translocation`` | ``transcription`` | ``translation``
+    ":math:`a^{\mathrm{site}}`", <molecular site name>
+
+.. csv-table:: Context attributes
+    :header: Attribute, Value Instances
+    :widths: 9, 40
+
+    ":math:`a^{\mathrm{cellline}}`", <cell line name>
+    ":math:`a^{\mathrm{celltype}}`", <cell type name>
+    ":math:`a^{\mathrm{tissuetype}}`", <tissue type name>
+    ":math:`a^{\mathrm{organism}}`", <organism name>
+
+.. csv-table::
+    :header: Attribute, Value Instances
+    :widths: 9, 40
+
+    ":math:`a^{\mathrm{score}}`", <number>
+    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
+    ":math:`a^{\mathrm{statements}}`", <text>; <text>; <text>; ...; <text>
+    ":math:`a^{\mathrm{paperIDs}}`", ""<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>""
+
+<element name> ::=
+<subtype name> ::=
+<unique identifier> ::=
+<molecular site name> ::=
+<cell line name> ::=
+<cell type name> ::=
+<tissue type name> ::=
+<organism name> ::=
+<number> ::=
+<text> ::=
+<PMCID | PMID> ::=
+
 
 Model Structure and Attributes
 --------------------------------
@@ -132,48 +192,12 @@ Other examples of commonly used element-based models are Bayesian Networks [35, 
 
 Given that the element-based modeling approach can be used for indirect influences and it can abstract away from detailed reaction mechanisms, additional methods have been introduced to account for the timing in biological systems, rates at which elements change, or delays in element updating and delays in pathways [38].
 
-Representation of Element-based Models
-----------------------------------------
+Representation of Hybrid Element-based Models
+-----------------------------------------------
 
-Although the BioRECIPE format can be used for the representation of a list of interactions, its main purpose is the representation of hybrid element-based models. For each element :math:`v_i \in V`, in model :math:`\mathcal{M}`, we define the following attributes that correspond to columns in the tabular format.
+In the BioRECIPE format, **hybrid element-based** models are represented such that each element :math:`v_i \in V` in a model :math:`\mathcal{M}`, is assigned a row in the model spreadsheet, and the column names in the spreadsheet are defined as listed in the table below.
 
-**All relevant attributes from** :math:`G(V,E)`
-
-a. All element (node) attributes are included.
-
-.. csv-table::
-    :header: Attribute, Value Instances
-    :widths: 10, 60
-
-    ":math:`a^{\mathrm{name}}`", <element name>
-    ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
-    ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
-    ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | ``Ensembl`` | ``GENCODE`` | ``RefSeq`` | ``GO`` | ``MeSH``
-    ":math:`a^{\mathrm{ID}}`", <unique identifier>
-    ":math:`a^{\mathrm{location}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
-    ":math:`a^{\mathrm{locationID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
-
-b. All context attributes are included (their values can be inherited or inferred from edges in graph :math:`G(V,E)` that have :math:`v_i` as a target node).
-
-.. csv-table::
-    :header: Attribute, Value Instances
-    :widths: 10, 60
-
-    ":math:`a^{\mathrm{cellline}}`", <cell line name>
-    ":math:`a^{\mathrm{celltype}}`", <cell type name>
-    ":math:`a^{\mathrm{tissuetype}}`", <tissue type name>
-    ":math:`a^{\mathrm{organism}}`", <organism name>
-
-c. All evidence attributes are included (their values can be inherited or inferred from edges in graph :math:`G(V,E)` that have :math:`v_i` as a target node).
-
-.. csv-table::
-    :header: Attribute, Value Instances
-    :widths: 10, 60
-
-    ":math:`a^{\mathrm{score}}`", <number>
-    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
-    ":math:`a^{\mathrm{statements}}`", <text>; <text>; <text>; ...; <text>
-    ":math:`a^{\mathrm{paperIDs}}`", <PMCID | PMID>; <PMCID | PMID>; ...; <PMCID | PMID>
+All element (node), context and provenance attributes defined for interactions are also included for element :math:`v_i` and written following the same syntax rules. In addition to
 
 **Regulators**
 
@@ -184,14 +208,14 @@ e. An influence set of element :math:`v_i`, denoted as :math:`V_i^{\mathrm{influ
 f. Source nodes of all edges in graph :math:`G(V,E)` that have :math:`v_i` as a target node and :math:`a^{\mathrm{sign}}`="+" will belong to the positive list of regulators of element :math:`v_i`, denoted as :math:`V_i^{\mathrm{influence},+} \in V_i^{\mathrm{influence}}`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{positivelist}}`", "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator k>"
 
 g. Source nodes of all edges in graph :math:`G(V,E)` that have :math:`v_i` as a target node and :math:`a^{\mathrm{sign}}`="-" will belong to the negative list of regulators of element :math:`v_i`, denoted as :math:`V_i^{\mathrm{influence},-} \in V_i^{\mathrm{influence}}`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{negativelist}}`", "<negative regulator 1>, <negative regulator 2>, ..., <negative regulator l>"
 
@@ -200,7 +224,7 @@ h. The set of state variables :math:`x_j` that correspond to elements in :math:`
 i. The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \in X_i^{\mathrm{influence}}`, and are used for creating a positive regulations string for :math:`v_i`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{positiveregulationstring}}`", <string>
 
@@ -209,53 +233,55 @@ The rules for creating these positive regulation strings are written separately
 j. The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \in X_i^{\mathrm{influence}}`, and are used for creating a negative regulations string for :math:`v_i`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{negativeregulationstring}}`", <string>
 
 The rules for creating these negative regulation strings are written separately
+
+*binding; phosphorylation; dephosphorylation ubiquitination, acetylation, methylation, transcription, translocation*
 
 **Value-related attributes**
 
 k. The state variable :math:`x_i \in \mathcal{X}` can represent either the amount or activity of :math:`v_i`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{valuetype}}`", ``amount`` | ``activity``
 
 l. The state variable :math:`x_i \in \mathcal{X}` can take any value from a given set, or interval, of values :math:`X_i`. When :math:`X_i` is a set of discrete values, :math:`|X_i|` is referred to as the number of levels of :math:`v_i`.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{levels}}`", <number of distinct levels> | ``inf``
 
 m. State list is an array of k states :math:`(x_i^{t_0},x_i^{t_1},x_i^{t_2},...,x_i^{t_{k-1}})` that are assigned to :math:`v_i` at time steps :math:`(t_0,t_1,t_2,…,t_{k-1})` during simulation
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{statelist}}`", "<value>,<value>[time],...,<value>[time]"
 
 n. When the state variable :math:`x_i` has a constant 0 value throughout the entire simulation, it is a constant OFF state.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{constOFF}}`", empty | :math:`\checkmark`
 
 o. When the state variable :math:`x_i` has a constant non-0 value (e.g., highest value from :math:`X_i`) throughout the entire simulation, it is a constant ON state.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{constON}}`", empty | :math:`\checkmark`
 
 p. Increment :math:`\Delta x_i` by which the state of :math:`v_i` can change in consecutive steps during simulation.
 
 .. csv-table::
-    :widths: 10, 60
+    :widths: 9, 40
 
     ":math:`a^{\mathrm{increment}}`", ":math:`\Delta \mathrm{value}`"
 
@@ -276,6 +302,10 @@ u. Update rate
 v. Update rank
 
 The BioRECIPE format supports several different model representation schemes, ranging from less detailed to more detailed, from static graph attributes to dynamic attributes and parameters necessary for analysis of dynamic behaviors, as illustrated in the table below:
+
+.. figure:: table2.png
+    :align: center
+
 
 Acknowledgements
 ------------------
