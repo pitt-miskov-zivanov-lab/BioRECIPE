@@ -16,6 +16,7 @@ import os
 import sys
 import sphinx_rtd_theme
 import sphinx_copybutton
+numfig = True
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'src/')))
 
