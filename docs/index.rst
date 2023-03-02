@@ -58,6 +58,7 @@ In :numref:`figure_1`, we show an example biological interaction, with all node 
 .. figure:: table1.png
     :align: center
 
+..
 
 Representation of Individual Events and Interactions
 ------------------------------------------------------
@@ -80,7 +81,7 @@ In the Interaction List, the attribute values are written according to the follo
     ":math:`a^{\mathrm{name}}`", <element name>
     ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
     ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
-  | ":math:`a^{\mathrm{HGNC ID}}`", <HGNC unique gene symbol>
+    ":math:`a^{\mathrm{HGNC ID}}`", <HGNC unique gene symbol>
     ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | ``Ensembl`` | ``GENCODE`` | ``RefSeq`` | ``GO`` | ``MeSH``
     ":math:`a^{\mathrm{ID}}`", <unique identifier>
     ":math:`a^{\mathrm{location}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
@@ -114,15 +115,25 @@ In the Interaction List, the attribute values are written according to the follo
     ":math:`a^{\mathrm{paperIDs}}`", ""<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>""
 
 <element name> ::=
+
 <subtype name> ::=
+
 <unique identifier> ::=
+
 <molecular site name> ::=
+
 <cell line name> ::=
+
 <cell type name> ::=
+
 <tissue type name> ::=
+
 <organism name> ::=
+
 <number> ::=
+
 <text> ::=
+
 <PMCID | PMID> ::=
 
 
