@@ -25,9 +25,14 @@ Here, we provide formal definitions of the components of a biological interactio
 
 .. admonition:: Definition 1
 
-An element (node), v=v(a^v ), is defined by its name, type, and unique identifier (ID) and these attributes are written as a vector a^v=(a^name,a^type,a^ID ).
+ - Feel free to only install python dependencies first via ``cd ACCORDION && pip install -e .``
+ - And build non-python packages using your package managers. For MCL, try |br| ``sudo apt-get install mcl`` or ``conda install -c "bioconda/label/cf201901" mcl``; For GSL, try ``sudo apt-get install libgsl-dev`` or ``conda install -c conda-forge gsl`` or ``brew install gsl``
+ - Compile two C++ files to executables via |br| ``cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap && make && cd ../monitor && make``
+ - The following libraries might also be required to compile successfully: ``boost``, ``flex``, ``bison``; install them via apt-get / conda / brew and update your system ``CPLUS_INCLUDE_PATH`` when there are related errors
 
-..
+.. admonition:: Definition 1
+
+ - An element(node), :math:`v=v(a^v)`, is defined by its name, type, and unique identifier (ID) and these attributes are written as a vector :math:`a^v=(a^{name},a^{type},a^{ID})`.
 
 The attribute a^name is an element name, usually following the standard nomenclature used by biologists and in the literature (e.g., acronym ERK1 is used instead of a longer name “extracellular signal-regulated kinase 1”). The attribute a^type represents element type, usually genes, RNAs, proteins, chemicals, or biological processes. Biological entity names often have multiple synonyms (e.g., ERK1 may also be referred to as MAPK3), and therefore, unique identifiers (IDs) are used, which are stored in attribute a^ID. These IDs can be obtained from standard databases such as UniProt [5], PubChem [6], or the Gene Ontology Databases (GO) [7].
 In addition to these three required attributes, the node attribute vector a^v may also include other attributes that help describe the element. For example, attributes a^location and a^locationID hold information about the cellular compartment where the element is found and the compartment ID, respectively. We use the GO database to obtain these location IDs [7]. A subtype attribute, a^subtype, may be used to indicate additional type of an element, such as a^subtype = “receptor” for an element with a^type = “protein”. Additionally, the unique ID attribute may be split into two attributes, the name of the database from which the ID is retrieved, a^database, and the ID, a^ID.
