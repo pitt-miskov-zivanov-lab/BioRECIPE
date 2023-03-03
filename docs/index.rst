@@ -92,15 +92,15 @@ The attribute values for interactions are written according to the following syn
 
     <element name>, "<name> //user-defined, typically a commonly used name for the biological species or component"
     <subtype name>, "<name> //user-defined, used to specify element beyond just its type"
-    <unique DB identifier>, "test"
-    <molecular site name>,  "test"
-    <cell line name>,  "test"
-    <cell type name>,  "test"
-    <tissue type name>,  "test"
-    <organism name>,  "test"
-    <number>,  "test"
-    <text>,  "test"
-    <PMCID | PMID>,  "test"
+    <unique DB identifier>, 
+    <molecular site name>,  
+    <cell line name>,  
+    <cell type name>,  
+    <tissue type name>,  
+    <organism name>,  
+    <number>,  
+    <text>,  
+    <PMCID | PMID>,  
 
 In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
 
