@@ -46,7 +46,7 @@ The BioRECIPE format supports individual event and interaction representation fo
 
 The attribute values for interactions are written according to the following syntax.
 
-.. csv-table:: Element (node) Attributes
+.. csv-table:: Element (node) attributes
     :header: Attribute, Value Instances
     :widths: 9, 40
 
@@ -54,10 +54,10 @@ The attribute values for interactions are written according to the following syn
     ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
     ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
     ":math:`a^{\mathrm{HGNC ID}}`", <HGNC unique gene symbol>
-    ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | ``Ensembl`` | ``GENCODE`` | ``RefSeq`` | ``GO`` | ``MeSH``
-    ":math:`a^{\mathrm{ID}}`", <unique identifier>
-    ":math:`a^{\mathrm{location}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
-    ":math:`a^{\mathrm{locationID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
+    ":math:`a^{\mathrm{database}}`", <protein DB> | <gene DB> | <chemical DB> | <RNA DB> | <protein family DB> | <biological process DB>
+    ":math:`a^{\mathrm{ID}}`", <unique DB identifier>
+    ":math:`a^{\mathrm{compartment}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
+    ":math:`a^{\mathrm{compartmentID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
 
 .. csv-table:: Interaction (edge) attributes
     :header: Attribute, Value Instances
@@ -86,28 +86,21 @@ The attribute values for interactions are written according to the following syn
     ":math:`a^{\mathrm{statements}}`", <text>; <text>; <text>; ...; <text>
     ":math:`a^{\mathrm{paperIDs}}`", ""<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>""
 
+.. csv-table:: Other
+    :header: Expression, Description
+    :widths: 9, 40
 
-<element name> ::=
-
-<subtype name> ::=
-
-<unique identifier> ::=
-
-<molecular site name> ::=
-
-<cell line name> ::=
-
-<cell type name> ::=
-
-<tissue type name> ::=
-
-<organism name> ::=
-
-<number> ::=
-
-<text> ::=
-
-<PMCID | PMID> ::=
+    <element name>, <name> "//user-defined, typically a commonly used name for the biological species or component"
+    <subtype name>, <name> //user-defined, used to specify element beyond just its type
+    <unique DB identifier>,
+    <molecular site name>,
+    <cell line name>,
+    <cell type name>,
+    <tissue type name>,
+    <organism name>,
+    <number>,
+    <text>,
+    <PMCID | PMID>,
 
 In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
 
