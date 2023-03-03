@@ -310,11 +310,11 @@ Many previous and current members of MeLoDy Lab have contributed to the brainsto
 
 The first version of the BioRECIPE format was developed by Dr. Khaled Sayed, Dr. Cheryl Telmer, Adam Butchy, and Dr. Natasa Miskov-Zivanov, and it was presented at the Machine Learning, Optimization, and Big Data (MOD) conference, where it received the Best Paper Award.
 
-The current version of the BioRECIPE format has been developed thanks to the additional efforts of Dr. Kara Bocan, Dr. Casey Hansen, Emilee Holtzapple, Gaoxiang Zhou, Difei Tang, Dr. Yasmine Ahmed, and Stefan Andjelkovic.
+The current version of the BioRECIPE format has been developed thanks to all of the authors of the original paper as well as the additional efforts of Dr. Kara Bocan, Dr. Casey Hansen, Emilee Holtzapple, Gaoxiang Zhou, Difei Tang, Dr. Yasmine Ahmed, and Stefan Andjelkovic. 
 
-The authors of this document are Dr. Natasa Miskov-Zivanov, Dr. Casey Hansen, Gaoxiang Zhou, and Emilee Holtzapple.
+The authors of this document are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, Emilee Holtzapple, and Difei Tang. Several descriptions included here have been adopted from Dr. Casey Hansen's PhD thesis.
 
-The BioRECIPE format is compatible with the MeLoDy Lab tools, DiSH simulator, FLUTE, VIOLIN, CLARINET, ACCORDION, FIDDLE, PIANO, and it has been used for modeling, simulation, and analysis of T cells, CAR T cells, macrophages, melanoma cells, pancreatic cancer cells, glioblastoma multiforme stem cells, colon cancer cells, and ovarian cells.
+The BioRECIPE format is compatible with the MeLoDy Lab tools, DiSH simulator, FLUTE, VIOLIN, CLARINET, ACCORDION, FIDDLE, PIANO, and it has been used for modeling, simulation, and analysis of T cells, CAR T cells, macrophages, melanoma cells, pancreatic cancer cells, glioblastoma multiforme stem cells, colon cancer cells, and ovarian cancer cells.
 
 .. toctree::
    :maxdepth: 2
