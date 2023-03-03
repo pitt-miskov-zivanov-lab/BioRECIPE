@@ -1,7 +1,7 @@
 Welcome to BioRECIPE's documentation!
 =======================================
-.. image:: https://readthedocs.org/projects/test-biorecipe/badge/?version=latest
-    :target: https://test-biorecipe.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/melody-biorecipe/badge/?version=latest
+    :target: https://melody-biorecipe.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling when studying immune system and diseases. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
@@ -185,35 +185,35 @@ In other words, for each element :math:`v_i`, any element :math:`v_j` that influ
 
 .. admonition:: Definition 11
 
- Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, a_e^sign= “positive”, also belongs to the positive list of regulators of element :math:`v_i`, denoted as v_j∈V_i^(influence,+) 〖⊂V〗_i^influence, represented with attribute a^poslist.
+ Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}`= “positive”, also belongs to the positive list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{poslist}}`.
 
 .. admonition:: Definition 12
 
- The state variables :math:`x_j` that correspond to elements in V_i^(influence,+) form set X_i^(influence,+)⊂X_i^influence, and are used for creating a positive regulation rule for :math:`v_i`, represented with attribute a^posregulation.
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \subset X_i^{\mathrm{influence}}`, and are used for creating a positive regulation rule for :math:`v_i`, represented with attribute :math:`a^{\mathrm{posregulation}}`.
 
 .. admonition:: Definition 13
 
- Any element :math:`v_j \in V_i^influence`, for which the edge :math:`e(v_j,v_i,a^e)` has a negative sign, a_e^sign= “negative”, also belongs to the negative list of regulators of element :math:`v_i`, denoted as  v_j∈V_i^(influence,-) 〖⊂V〗_i^influence, represented with attribute a^neglist.
+ Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a negative sign, :math:`a_e^{\mathrm{sign}}` = “negative”, also belongs to the negative list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},-} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{neglist}}`.
 
 .. admonition:: Definition 14
 
- The state variables :math:`x_j` that correspond to elements in V_i^(influence,-) form set X_i^(influence,-)⊂X_i^influence, and are used for creating a negative regulation rule for :math:`v_i`, represented with attribute a^negregulation.
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a negative regulation rule for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregulation}}`.
 
 .. admonition:: Definition 15
 
- An array of :math:`k` state values X_i^{t_0},X_i^{t_1},X_i^{t_2},…,X_i^{t_{k-1}} that are assigned to :math:`v_i` at :math:`\{t_0,t_1,t_2,...,t_{k-1}\}` time steps during simulation, where :math:`t_0` is the initial time step, and 〖t_0<t_1<t〗_2<⋯<t_(k-1), is called state list and is represented with attribute a^statelist.  
+ An array of :math:`k` state values :math:`X_i^{t_0},X_i^{t_1},X_i^{t_2},...,X_i^{t_{k-1}}` that are assigned to :math:`v_i` at :math:`\{t_0,t_1,t_2,...,t_{k-1}\}` time steps during simulation, where :math:`t_0` is the initial time step, and :math:`t_0<t_1<t_2<...<t_{k-1}`, is called state list and is represented with attribute :math:`a^{\mathrm{statelist}}`.  
 
 .. admonition:: Definition 16
 
- When the state variable :math:`x_i` has a constant 0 value throughout the entire simulation, this is referred to as a constant OFF state, and represented with attribute a^constOFF.
+ When the state variable :math:`x_i` has a constant 0 value throughout the entire simulation, this is referred to as a constant OFF state, and represented with attribute :math:`a^{\mathrm{a^constOFF}}`.
 
 .. admonition:: Definition 17
 
- When the state variable :math:`x_i` has a constant non-0 value (e.g., the highest value from X_i) throughout the entire simulation, this is referred to as a constant ON state, and represented with attribute a^constON.
+ When the state variable :math:`x_i` has a constant non-0 value (e.g., the highest value from :math:`X_i`) throughout the entire simulation, this is referred to as a constant ON state, and represented with attribute :math:`a^{\mathrm{constON}}`.
 
 .. admonition:: Definition 18
 
- The next state of element :math:`v_i`, denoted as :math:`x_i^{*}`, is computed given current states of all elements in its influence set, that is, given values of all variables in X_i^influence: x_i^*=f_i(X_i^influence).
+ The next state of element :math:`v_i`, denoted as :math:`x_i^{*}`, is computed given current states of all elements in its influence set, that is, given values of all variables in :math:`X_i^{\mathrm{influence}}`: :math:`x_i^{*}=f_i(X_i^{\mathrm{influence}})`.
 
 In general, functions in :math:`\mathcal{F}` can have different types, discrete or continuous, and moreover, individual elements within the same model could have very different update functions, thus forming hybrid models. The set or interval of possible values, :math:`X_i`, assigned to each model element :math:`x_i` can also vary. The function and element types are usually decided based on the knowledge or the information available about the modeled system and its components.
 
