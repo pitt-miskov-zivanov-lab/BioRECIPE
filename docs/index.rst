@@ -90,8 +90,8 @@ The attribute values for interactions are written according to the following syn
     :header: Expression, Description
     :widths: 9, 40
 
-    <element name>, <name> "user-defined, typically a commonly used name for the biological species or component"
-    <subtype name>, <name> "user-defined, used to specify element beyond just its type"
+    <element name>, "<name> //user-defined, typically a commonly used name for the biological species or component"
+    <subtype name>, "<name> //user-defined, used to specify element beyond just its type"
     <unique DB identifier>, "test"
     <molecular site name>,  "test"
     <cell line name>,  "test"
