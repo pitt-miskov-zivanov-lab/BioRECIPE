@@ -23,5 +23,3 @@ Citation
 ###################
 
 To use and cite the BioRECIPE tool, please use the following:
-
-XXX.
