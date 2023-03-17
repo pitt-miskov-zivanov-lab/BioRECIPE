@@ -2,12 +2,12 @@
 Biological Interactions
 ######################################
 
-The BioRECIPE format supports individual event and interaction representation for:
+The BioRECIPE format can be used to represent interactions obtained from different sources:
 
-- events that are retrieved in an automated manner by NLP-based machine readers
-- interactions found in interaction databases
-- interactions inferred from data
-- interactions entered manually by experts
+- retrieved from text using natural language processing (example)
+- retrieved from interaction databases (example)
+- inferred from data (example)
+- entered manually by experts (example)
 
 .. _figure_example_bio_interaction:
 
