@@ -19,4 +19,4 @@ The components of a directed graph :math:`G(V,E)`, and the attributes of these c
     :align: center
     :alt: internal figure
 
-    A toy example of a model graph, showing input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments. An edge example and a path example with notation details. (ER-endoplasmic reticulum)
+    A toy example of a model graph, showing input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments. (ER-endoplasmic reticulum)
