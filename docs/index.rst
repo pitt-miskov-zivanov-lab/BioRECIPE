@@ -28,7 +28,7 @@ The first version of the BioRECIPE format was developed by Dr. Khaled Sayed, Dr.
 
 The current version of the BioRECIPE format has been developed thanks to the additional efforts of Dr. Kara Bocan, Dr. Casey Hansen, Emilee Holtzapple, Gaoxiang Zhou, Difei Tang, Dr. Yasmine Ahmed, and Stefan Andjelkovic.
 
-The authors of this document are Dr. Natasa Miskov-Zivanov, Dr. Casey Hansen, Gaoxiang Zhou, and Emilee Holtzapple.
+The authors of this document are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, Emilee Holtzapple, and Difei Tang.
 
 .. toctree::
    :maxdepth: 2
