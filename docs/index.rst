@@ -4,7 +4,7 @@ Welcome to BioRECIPE's documentation!
     :target: https://melody-biorecipe.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution
+Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution (BioRECIPE)
 --------------------------------------------------------------------------------------------------------
 
 The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling when studying immune system and diseases. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
