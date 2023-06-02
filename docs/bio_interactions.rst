@@ -2,6 +2,19 @@
 Biological Interactions
 ######################################
 
+The BioRECIPE format includes several groups of attributes:
+
+- node attributes
+- edge attributes
+- context attributes
+- provenance attributes
+
+An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below.
+
+.. figure:: figures/figure_example_bio_interaction.png
+    :align: center
+    :alt: internal figure
+
 The BioRECIPE format can be used to represent interactions obtained from different sources:
 
 - retrieved from text using natural language processing (*TODO: add example*)
@@ -9,13 +22,8 @@ The BioRECIPE format can be used to represent interactions obtained from differe
 - inferred from data (*TODO: add example*)
 - entered manually by experts (*TODO: add example*)
 
-.. figure:: figures/figure_example_bio_interaction.png
-    :align: center
-    :alt: internal figure
-
-    An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes
-
 The attribute values for interactions are written according to the following syntax. (*TODO: a^Variable is now added but documentation is missing*)
+
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Value Instances
