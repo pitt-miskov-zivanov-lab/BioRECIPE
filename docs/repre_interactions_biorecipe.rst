@@ -2,7 +2,7 @@
 Representation of Event and Interaction Lists in a BioRECIPE Spreadsheet
 ############################################################################
 
-These interactions are written as a list in a spreadsheet called Interaction List, which may have one or many interactions. In Interaction List, each interaction is assigned one row and the column headers are matched to attribute names as shown in the table below.
+These interactions are written as a list in a spreadsheet called Interaction List, which may have one or many interactions. In the Interaction List, each interaction is assigned one row and the column headers are matched to attribute names as shown in the table below.
 
 .. figure:: figures/figure_BioRECIPE_ro_format.png
     :align: center
