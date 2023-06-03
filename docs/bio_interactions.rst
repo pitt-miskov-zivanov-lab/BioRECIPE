@@ -3,6 +3,7 @@ Biological Interactions
 ######################################
 
 The BioRECIPE format includes several groups of attributes:
+
 - node attributes
 - edge attributes
 - context attributes
@@ -16,6 +17,7 @@ An example biological interaction represented as a directed signed edge between 
 
 
 The BioRECIPE format can be used to represent interactions obtained from different sources:
+
 - retrieved from text using natural language processing
      Example: “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
 - retrieved from interaction databases
