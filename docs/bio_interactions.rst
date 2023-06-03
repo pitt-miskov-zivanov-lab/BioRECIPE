@@ -16,6 +16,7 @@ An example biological interaction represented as a directed signed edge between 
     :alt: internal figure
 
 
+
 The BioRECIPE format can be used to represent interactions obtained from different sources:
 
 - retrieved from text using natural language processing
