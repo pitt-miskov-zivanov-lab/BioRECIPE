@@ -23,6 +23,7 @@ The BioRECIPE format can be used to represent interactions obtained from differe
      Example: “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
 - retrieved from interaction databases
      Example: From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
+     Note: the interaction is missing direction information, to determine source and target nodes; additional information is needed
 - inferred from data
      Example: "STAMBP deubiquitinates TNFRSF1A" (source: BioGRID)
 - entered manually by experts
