@@ -20,14 +20,19 @@ An example biological interaction represented as a directed signed edge between 
 The BioRECIPE format can be used to represent interactions obtained from different sources:
 
 - retrieved from text using natural language processing
-     Example: “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
+     Example: 
+        “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
 - retrieved from interaction databases
-     Example: From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
-     Note: the interaction is missing direction information, to determine source and target nodes; additional information is needed
+     Example: 
+        From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
+     Note: the interaction is missing direction information, to determine source and target nodes; additional information should be entered
 - inferred from data
-     Example: "STAMBP deubiquitinates TNFRSF1A" (source: BioGRID)
+     Example: 
+        From the BioGRID database, "STAMBP deubiquitinates TNFRSF1A", inferred from data
+     Note: the interaction is missing sign information; additional information should be entered
 - entered manually by experts
-    Example: "NOTCH positively regulates stemness."
+    Example: 
+        "NOTCH positively regulates stemness."
 
 
 The attribute values for interactions are written according to the following syntax. (*TODO: a^Variable is now added but documentation is missing*)
