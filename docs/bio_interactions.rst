@@ -35,7 +35,7 @@ The BioRECIPE format can be used to represent interactions obtained from differe
         "NOTCH positively regulates stemness."
 
 
-The attribute values for interactions are written according to the following syntax. (*TODO: a^Variable is now added but documentation is missing*)
+The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
 
 
 .. csv-table:: Element (node) attributes
