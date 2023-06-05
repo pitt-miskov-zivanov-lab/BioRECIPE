@@ -45,7 +45,7 @@ The BioRECIPE format has been used for modeling, simulation, and analysis of:
 - `pancreatic cancer cells <https://www.nmzlab.pitt.edu/research>`_ 
 - `glioblastoma multiforme stem cells <https://www.nmzlab.pitt.edu/research>`_ 
 - `colon cancer cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `ovarian cancer cells <https://www.nmzlab.pitt.edu/research>`_.
+- `ovarian cancer cells <https://www.nmzlab.pitt.edu/research>`_
 
 Acknowledgements
 ---------------------
