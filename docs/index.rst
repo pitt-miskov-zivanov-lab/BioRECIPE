@@ -17,11 +17,30 @@ BioRECIPE Workflow
 Compatibility
 ---------------------
 
+The BioRECIPE format can be used to represent interactions obtained from different sources:
+
+- retrieved from text using natural language processing
+     Example: 
+        “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
+- retrieved from interaction databases
+     Example: 
+        From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
+     Note: the interaction is missing direction information, to determine source and target nodes; additional information should be entered
+- inferred from data
+     Example: 
+        From the BioGRID database, "STAMBP deubiquitinates TNFRSF1A", inferred from data
+     Note: the interaction is missing sign information; additional information should be entered
+- entered manually by experts
+    Example: 
+        "NOTCH positively regulates stemness."
+
+
 The BioRECIPE format can be translated from/to the following formats:
 
 - SBML (need a link to the translator)
 - machine readers, REACH, TRIPS (need a link to the translator)
 - INDRA (need a link to the translator)
+
 
 The BioRECIPE format is compatible with the MeLoDy Lab tools:
 
