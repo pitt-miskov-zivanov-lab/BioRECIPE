@@ -56,10 +56,10 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
     :header: Attribute, Values
     :widths: 9, 40
 
-    ":math:`a^{\mathrm{score}}`", "<number>"
-    ":math:`a^{\mathrm{source}}`", "``expert`` | ``literature`` | ``database`` | ``data``"
-    ":math:`a^{\mathrm{statements}}`", "<text>; <text>; <text>; ...; <text>"
-    ":math:`a^{\mathrm{paperIDs}}`", "<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>"
+    ":math:`a^{\mathrm{score}}`", <number>
+    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
+    ":math:`a^{\mathrm{statements}}`", "<text>; {<text>;}"
+    ":math:`a^{\mathrm{paperIDs}}`", "<PMCID | PMID> {,<PMCID | PMID>}"
 
 .. csv-table:: Name definitions
     :header: Name, Definition
