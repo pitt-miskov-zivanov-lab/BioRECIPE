@@ -22,7 +22,7 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 
 
 .. csv-table:: Element (node) attributes
-    :header: Attribute, Value Instances
+    :header: Attribute, Values
     :widths: 9, 40
 
     ":math:`a^{\mathrm{name}}`", <element name>
@@ -35,16 +35,16 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
     ":math:`a^{\mathrm{compartmentID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
 
 .. csv-table:: Interaction (edge) attributes
-    :header: Attribute, Value Instances
+    :header: Attribute, Values
     :widths: 9, 40
 
     ":math:`a^{\mathrm{sign}}`", ``positive`` | ``negative``
-    ":math:`a^{\mathrm{connectiontype}}`",``D`` | ``I``
-    ":math:`a^{\mathrm{mechanism}}`", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``acetylation`` | ``methylation`` | ``transcription`` | ``translocation`` | ``transcription`` | ``translation``
+    ":math:`a^{\mathrm{connectiontype}}`",``direct`` | ``indirect``
+    ":math:`a^{\mathrm{mechanism}}`", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``
     ":math:`a^{\mathrm{site}}`", <molecular site name>
 
 .. csv-table:: Context attributes
-    :header: Attribute, Value Instances
+    :header: Attribute, Values
     :widths: 9, 40
 
     ":math:`a^{\mathrm{cellline}}`", <cell line name>
@@ -53,13 +53,13 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
     ":math:`a^{\mathrm{organism}}`", <organism name>
 
 .. csv-table:: Evidence attributes
-    :header: Attribute, Value Instances
+    :header: Attribute, Values
     :widths: 9, 40
 
-    ":math:`a^{\mathrm{score}}`", "<number>"
-    ":math:`a^{\mathrm{source}}`", "``expert`` | ``literature`` | ``database`` | ``data``"
-    ":math:`a^{\mathrm{statements}}`", "<text>; <text>; <text>; ...; <text>"
-    ":math:`a^{\mathrm{paperIDs}}`", "<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>"
+    ":math:`a^{\mathrm{score}}`", <number>
+    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
+    ":math:`a^{\mathrm{statements}}`", <text>; <text>; <text>; ...; <text>
+    ":math:`a^{\mathrm{paperIDs}}`", <PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>
 
 .. csv-table:: Name description
     :header: Name, Description
