@@ -56,17 +56,17 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
     :header: Attribute, Values
     :widths: 9, 40
 
-    ":math:`a^{\mathrm{score}}`", <number>
-    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
-    ":math:`a^{\mathrm{statements}}`", <text>; <text>; <text>; ...; <text>
-    ":math:`a^{\mathrm{paperIDs}}`", <PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>
+    ":math:`a^{\mathrm{score}}`", "<number>"
+    ":math:`a^{\mathrm{source}}`", "``expert`` | ``literature`` | ``database`` | ``data``"
+    ":math:`a^{\mathrm{statements}}`", "<text>; <text>; <text>; ...; <text>"
+    ":math:`a^{\mathrm{paperIDs}}`", "<PMCID | PMID>, <PMCID | PMID>, ..., <PMCID | PMID>"
 
-.. csv-table:: Name description
-    :header: Name, Description
+.. csv-table:: Name definitions
+    :header: Name, Definition
     :widths: 9, 40
 
-    <element name>, "<name> //user-defined, typically a commonly used name for the biological species or component"
-    <subtype name>, "<name> //user-defined, used to specify element beyond just its type"
+    <element name>, "<text> //user-defined, typically a commonly used name for the biological species or component"
+    <subtype name>, "<text> //user-defined, used to specify element beyond just its type"
     <unique DB identifier>,
     <molecular site name>,
     <cell line name>,
