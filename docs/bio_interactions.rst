@@ -2,7 +2,7 @@
 Biological Interactions
 ######################################
 
-The BioRECIPE format includes several groups of attributes:
+The BioRECIPE representation of an interaction contains a list of required or optional attributes. Each attribute belongs to one of the following groups:
 
 - node attributes
 - edge attributes
@@ -16,23 +16,6 @@ An example biological interaction represented as a directed signed edge between 
     :alt: internal figure
 
 
-
-The BioRECIPE format can be used to represent interactions obtained from different sources:
-
-- retrieved from text using natural language processing
-     Example: 
-        “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
-- retrieved from interaction databases
-     Example: 
-        From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
-     Note: the interaction is missing direction information, to determine source and target nodes; additional information should be entered
-- inferred from data
-     Example: 
-        From the BioGRID database, "STAMBP deubiquitinates TNFRSF1A", inferred from data
-     Note: the interaction is missing sign information; additional information should be entered
-- entered manually by experts
-    Example: 
-        "NOTCH positively regulates stemness."
 
 
 The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
