@@ -19,7 +19,7 @@ An example biological interaction represented as a directed signed edge between 
 
 
 The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
-**hidden box**
+
 .. raw:: html
 
    <details>
