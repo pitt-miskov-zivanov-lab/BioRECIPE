@@ -19,7 +19,22 @@ An example biological interaction represented as a directed signed edge between 
 
 
 The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
+**hidden box**
+.. raw:: html
 
+   <details>
+     <summary>Element Name(<var>a<sup>Name</sup></var>) - Brief one line description</summary>
+     <p>Element name: expression<br>
+     Details:<br>
+     Examples:<br>
+   </details>
+
+   <details>
+     <summary>Element Name(<var>a<sup>Name</sup></var>) - Brief one line description</summary>
+     <p>Element name: expression<br>
+     Details:<br>
+     Examples:<br>
+   </details>
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Values
