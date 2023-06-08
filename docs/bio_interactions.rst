@@ -23,18 +23,18 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 .. raw:: html
 
   <details style="font-family:Calibri, sans-serif;">
-     <summary style="background-color:#B3D9FF;width:700px">Element Name (<var>a<sup>name</sup></var>) - a name used for model element </summary>
+     <summary style="background-color:#E6F7FF; width:700px">Element Name (<var>a<sup>name</sup></var>) - a name used for model element </summary>
       <table style="border: 1px solid #E3E3E3; border-collapse:collapse; width: 700px">
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;"> Definition:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#141414;"> Element Name ::= &lt;name&gt;</td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;"> Definition: </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#141414;"> Element Name ::= &lt;<i>name</i>&gt;</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Description   </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Description: </td>
       <td style="border-bottom: 1px solid #E3E3E3; color:#141414;">element name can be informal, typically a name used by experts</td>    
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Example:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Examples: </td>
       <td style="border-bottom: 1px solid #E3E3E3; color:#141414;">RAS; ERK1; p53</td>
       </tr>
       </table>
