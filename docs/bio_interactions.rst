@@ -41,19 +41,19 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
      <summary style="background-color:#B3D9FF;width:700px">Element Name(<var>a<sup>Name</sup></var>) - Brief one line description</summary>
       <table style="border: 1px solid grey; border-collapse:collapse;width: 700px">
       <tr >
-      <td style="border-bottom: 1px solid grey; color:#4DA6FF;">Definition:   </td>
+      <td style="border-bottom: 1px solid grey; color:#F2F2F2;">Definition:   </td>
       <td style="border-bottom: 1px solid grey; color:grey;">Element Name::&lt;Name&gt;</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#4DA6FF;">Description   </td>
+      <td style="border-bottom: 1px solid grey; color:#F2F2F2;">Description   </td>
       <td style="border-bottom: 1px solid grey; color:grey;">Expression:&lt;Name&gt;</td>    
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#4DA6FF;">Example:  </td>
+      <td style="border-bottom: 1px solid grey; color:#F2F2F2;">Example:  </td>
       <td style="border-bottom: 1px solid grey; color:grey;">RAS;ERK1</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#4DA6FF;">Formal Variable:  </td>
+      <td style="border-bottom: 1px solid grey; color:#F2F2F2;">Formal Variable:  </td>
       <td style="border-bottom: 1px solid grey; color:grey;"><var>a<sup>Name</sup></var></td>
       </tr>
       </table>
