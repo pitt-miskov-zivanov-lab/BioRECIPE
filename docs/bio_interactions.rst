@@ -23,10 +23,11 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 .. raw:: html
 
    <details>
-     <summary>Element Name(<var>a<sup>Name</sup></var>) - Brief one line description</summary>
-     <p>Element name: expression<br>
-     Details:<br>
-     Examples:<br>
+     <summary>Element Name - a name used for model element </summary>
+     <p>Element name ::= <name> <br>
+     Formal variable: <var>a<sup>Name</sup></var>
+     Description: Element name can be informal, typically a name used by experts<br>
+     Examples: RAS; ERK1; p53 <br>
    </details>
 
    <details>
