@@ -26,20 +26,20 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
      <summary style="background-color:#B3D9FF;width:700px">Element Name - a name used for model element </summary>
       <table style="border: 1px solid #E3E3E3; border-collapse:collapse;width: 700px">
       <tr >
-      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Definition:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">Element Name ::= &lt;name&gt;</td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Definition:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:141414;">Element Name ::= &lt;name&gt;</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Description   </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">element name can be informal, typically a name used by experts</td>    
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Description   </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:141414;">element name can be informal, typically a name used by experts</td>    
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Example:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">RAS;ERK1</td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Example:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:141414;">RAS; ERK1; p53</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Formal Variable:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:grey;"><var>a<sup>name</sup></var></td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Formal Variable:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:141414;"><var>a<sup>name</sup></var></td>
       </tr>
       </table>
   </details>
