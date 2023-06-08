@@ -23,23 +23,23 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 .. raw:: html
 
   <details style="font-family:Calibri, sans-serif;">
-     <summary style="background-color:#B3D9FF;width:700px">Element Name(<var>a<sup>Name</sup></var>) - Brief one line description</summary>
+     <summary style="background-color:#B3D9FF;width:700px">Element Name - a name used for model element </summary>
       <table style="border: 1px solid #E3E3E3; border-collapse:collapse;width: 700px">
       <tr >
-      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Definition:   </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">Element Name::&lt;Name&gt;</td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Definition:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">Element Name ::= &lt;name&gt;</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#0077B3;">Description   </td>
-      <td style="border-bottom: 1px solid grey; color:grey;">Expression:&lt;Name&gt;</td>    
+      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Description   </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">element name can be informal, typically a name used by experts</td>    
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#0077B3;">Example:  </td>
-      <td style="border-bottom: 1px solid grey; color:grey;">RAS;ERK1</td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Example:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:grey;">RAS;ERK1</td>
       </tr>
       <tr>
-      <td style="border-bottom: 1px solid grey; color:#0077B3;">Formal Variable:  </td>
-      <td style="border-bottom: 1px solid grey; color:grey;"><var>a<sup>Name</sup></var></td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:#0077B3;">Formal Variable:  </td>
+      <td style="border-bottom: 1px solid #E3E3E3; color:grey;"><var>a<sup>name</sup></var></td>
       </tr>
       </table>
   </details>
