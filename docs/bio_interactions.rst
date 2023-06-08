@@ -23,11 +23,11 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 .. raw:: html
 
   <details style="font-family:Calibri, sans-serif;">
-     <summary style="background-color:#B3D9FF;width:700px">Element Name - a name used for model element </summary>
-      <table style="border: 1px solid #E3E3E3; border-collapse:collapse;width: 700px">
-      <tr >
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Definition:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:141414;">Element Name ::= &lt;name&gt;</td>
+     <summary style="background-color:#B3D9FF;width:700px">Element Name (<var>a<sup>name</sup></var>) - a name used for model element </summary>
+      <table style="border: 1px solid #E3E3E3; border-collapse:collapse; width: 700px">
+      <tr>
+      <td color:#008080;"> Definition:  </td>
+      <td color:141414;"> Element Name ::= &lt;name&gt;</td>
       </tr>
       <tr>
       <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Description   </td>
@@ -36,10 +36,6 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
       <tr>
       <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Example:  </td>
       <td style="border-bottom: 1px solid #E3E3E3; color:141414;">RAS; ERK1; p53</td>
-      </tr>
-      <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Formal Variable:  </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:141414;"><var>a<sup>name</sup></var></td>
       </tr>
       </table>
   </details>
