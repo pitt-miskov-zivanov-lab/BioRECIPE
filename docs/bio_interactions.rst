@@ -56,15 +56,16 @@ The following is a list of allowed values for each attribute ('*' indicates a re
     Organism, ":math:`a^{\mathrm{organism}}`", organism where the interaction is observed, <organism name>, "human, mouse"
 
 .. csv-table:: Evidence attributes
-    :header: Attribute, Values
-    :widths: 9, 40
+    :header: Attribute, Symbol, Description, Values, Examples
+    :widths: 5, 3, 34, 38, 20
 
-    ":math:`a^{\mathrm{score}}`", <number>
-    ":math:`a^{\mathrm{source}}`", ``expert`` | ``literature`` | ``database`` | ``data``
-    ":math:`a^{\mathrm{statements}}`", "<text>; {<text>;}"
-    ":math:`a^{\mathrm{paperIDs}}`", "<PMCID | PMID> {,<PMCID | PMID>}"
+    Score, ":math:`a^{\mathrm{score}}`", confidence in interaction, <number>, "a number in the interval [0,1] for sources like INDRA or STRING; present/absent for PCnet"
+    Source, ":math:`a^{\mathrm{source}}`", knowledge or data source where the interaction is found, ``expert`` | ``literature`` | ``database`` | ``data``, listed under Values
+    Statements, ":math:`a^{\mathrm{statements}}`", statements (sentences) where the interaction is found, "<text>; {<text>;}", “Bcl-XL interacts with Apaf-1 and inhibits Apaf-1-dependent caspase-9 activation”
+    Paper IDs, ":math:`a^{\mathrm{paperIDs}}`", "if literature, paper IDs where the interaction is found", "<PMCID | PMID> {,<PMCID | PMID>}", PMID9539746
 
-.. csv-table:: Name definitions
+
+.. csv-table:: Other definitions
     :header: Name, Definition
     :widths: 9, 40
 
