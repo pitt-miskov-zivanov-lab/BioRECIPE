@@ -2,7 +2,7 @@
 Biological Interactions
 ######################################
 
-The BioRECIPE representation of an interaction contains a list of required or optional attributes. Each attribute belongs to one of the following groups:
+The BioRECIPE representation of an interaction contains a list of required and optional attributes. Each attribute belongs to one of the following groups:
 
 - node attributes
 - edge attributes
@@ -20,31 +20,13 @@ An example biological interaction represented as a directed signed edge between 
 
 The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
 
-.. raw:: html
 
-  <details style="font-family:Calibri, sans-serif;">
-     <summary style="background-color:#E6F7FF; width:700px">Element Name (<var>a<sup>name</sup></var>) - a name used for model element </summary>
-      <table style="border: 1px solid #E3E3E3; border-collapse:collapse; width: 700px">
-      <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;"> Definition: </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#141414;"> Element Name ::= &lt;<i>name</i>&gt;</td>
-      </tr>
-      <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Description: </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#141414;">element name can be informal, typically a name used by experts</td>    
-      </tr>
-      <tr>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#008080;">Examples: </td>
-      <td style="border-bottom: 1px solid #E3E3E3; color:#141414;">RAS; ERK1; p53</td>
-      </tr>
-      </table>
-  </details>
 
 .. csv-table:: Element (node) attributes
-    :header: Attribute, Values
-    :widths: 9, 40
+    :header: Attribute, Symbol, Description, Values, Examples
+    :widths: 10, 10, 20, 30, 30
 
-    ":math:`a^{\mathrm{name}}`", <element name>
+    Element name, ":math:`a^{\mathrm{name}}`", a name of biological component used by experts, <element name>, ERK1
     ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
     ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
     ":math:`a^{\mathrm{HGNC_ID}}`", <HGNC unique gene symbol>
