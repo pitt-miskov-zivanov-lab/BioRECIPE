@@ -24,11 +24,11 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
-    :widths: 10, 10, 20, 30, 30
+    :widths: 7, 5, 25, 33, 30
 
-    Element name, ":math:`a^{\mathrm{name}}`", a name of biological component used by experts, <element name>, ERK1
-    ":math:`a^{\mathrm{type}}`", ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``
-    ":math:`a^{\mathrm{subtype}}`", ``receptor`` | <subtype name>
+    Element Name, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
+    Element Type, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
+    Element Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
     ":math:`a^{\mathrm{HGNC_ID}}`", <HGNC unique gene symbol>
     ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}
     ":math:`a^{\mathrm{ID}}`", "<unique identifier> {, <unique identifier>}"
