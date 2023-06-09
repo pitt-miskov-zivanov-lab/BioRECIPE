@@ -9,7 +9,7 @@ The BioRECIPE representation of an interaction contains a list of required and o
 - context attributes
 - provenance attributes
 
-An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below.
+An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: 's' is used for source node, 't' for target node, and 'e' for edge).
 
 .. figure:: figures/figure_example_bio_interaction.png
     :align: center
@@ -18,31 +18,33 @@ An example biological interaction represented as a directed signed edge between 
 
 
 
-The following is a list of allowed values for each attribute. (*TODO: a^Variable is now added but documentation is missing*)
+The following is a list of allowed values for each attribute ('*' indicates a required attribute). 
 
 
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
-    :widths: 9, 3, 30, 38, 20
+    :widths: 5, 3, 34, 38, 20
 
-    Element Name, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
-    Element Type, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
-    Element Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
-    Element HGNC ID, ":math:`a^{\mathrm{HGNC_ID}}`", the corresponding gene symbol from the HGNC database, <HGNC unique gene symbol>, "BCL2L1, APAF1"
-    Element Database, ":math:`a^{\mathrm{database}}`", a database where the element ID is found, ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}, listed under Values
-    Element ID, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
-    Element Compartment, ":math:`a^{\mathrm{compartment}}`", cellular compartment name, ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``, listed under Values
-    Element Compartment ID, ":math:`a^{\mathrm{compartmentID}}`", cellular compartment unique identifier from the GO database,``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``, identifiers are listed unde Values in the same order as compartment names
+    Name*, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
+    Type*, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
+    Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
+    HGNC ID, ":math:`a^{\mathrm{HGNC_ID}}`", the corresponding gene symbol from the HGNC database, <HGNC unique gene symbol>, "BCL2L1, APAF1"
+    Database, ":math:`a^{\mathrm{database}}`", a database where the element ID is found, ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}, listed under Values
+    ID*, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
+    Compartment, ":math:`a^{\mathrm{compartment}}`", cellular compartment name, ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``, listed under Values
+    Compartment ID, ":math:`a^{\mathrm{compartmentID}}`", cellular compartment unique identifier from the GO database,``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``, identifiers are listed under Values in the same order as compartment names
+    
 
 .. csv-table:: Interaction (edge) attributes
-    :header: Attribute, Values
-    :widths: 9, 40
+    :header: Attribute, Symbol, Description, Values, Examples
+    :widths: 9, 3, 30, 38, 20
 
-    ":math:`a^{\mathrm{sign}}`", ``positive`` | ``negative``
-    ":math:`a^{\mathrm{connectiontype}}`",``direct`` | ``indirect``
-    ":math:`a^{\mathrm{mechanism}}`", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``
-    ":math:`a^{\mathrm{site}}`", <molecular site name>
+    Direction, ":math:`a^{\mathrm{direction}}`", this is an implicit attribute, determined as a direction from source to target node 
+    Sign*, ":math:`a^{\mathrm{sign}}`", interaction sign (also referred to as “polarity”) indicates positive or negative influence, ``positive`` | ``negative``, listed under Values
+    Connection Type, ":math:`a^{\mathrm{connectiontype}}`", indicates whether the edge between the source and target nodes represents direct physical interaction between elements or it is expected or known that there is a path of several connected interactions between the source node and target node, ``direct`` | ``indirect``, listed under Values
+    Mechanism, ":math:`a^{\mathrm{mechanism}}`", "indicates the exact physical interaction, i.e., biological mechanism; value usually included when the Connection Type is direct", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``, listed under Values
+    Site, ":math:`a^{\mathrm{site}}`", molecular site where the interaction occurs, <molecular site name>, "T308, T450, S473"
 
 .. csv-table:: Context attributes
     :header: Attribute, Values
