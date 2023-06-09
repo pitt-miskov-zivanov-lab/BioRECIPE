@@ -14,10 +14,12 @@ An example biological interaction represented as a directed signed edge between 
 .. figure:: figures/figure_example_bio_interaction.png
     :align: center
     :alt: internal figure
+    
 
-
-
-
+|
+|
+|
+    
 The following is a list of allowed values for each attribute ('*' indicates a required attribute). 
 
 
