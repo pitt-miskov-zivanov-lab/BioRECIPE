@@ -14,57 +14,70 @@ BioRECIPE Workflow
 
 (Figures & Texts, TODO here)
 
-Compatibility
+Compatibility and Translators
 ---------------------
 
-The BioRECIPE format can be used to represent interactions obtained from different sources:
+The BioRECIPE format is currently compatible with the following representation formats. 
 
-- retrieved from text using natural language processing
-     Example: 
-        “TNFa reduces BMPR-II expression in vitro and in vivo” -  a reading engine extracts the interaction “TNFa negatively regulates BMPR-II”.
-- retrieved from interaction databases
-     Example: 
-        From the STRING database, an interaction between TRADD and TNF is predicted with high confidence.
-     Note: the interaction is missing direction information, to determine source and target nodes; additional information should be entered
-- inferred from data
-     Example: 
-        From the BioGRID database, "STAMBP deubiquitinates TNFRSF1A", inferred from data
-     Note: the interaction is missing sign information; additional information should be entered
-- entered manually by experts
-    Example: 
-        "NOTCH positively regulates stemness."
+.. csv-table:: Representation Format Compatibility
+    :header: Format Name, Translator
+    :widths: 10, 90
+
+    SBML, <link to translator>
+    JSON, <link to translator>
+    other, <link to translator>
+
+The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
+
+.. csv-table:: Tool Compatibility
+    :header: Tool Name, Translator to BioRECIPE, Translator from BioRECIPE 
+    :widths: 10, 45, 45
+
+    REACH, <link to translator>, NA
+    TRIPS, <link to translator>, NA
+    INDRA, <link to translator>, NA
+    `DiSH simulator <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:GFxP56DSvIMC>`_, compatible
+    `FLUTE <https://melody-flute.readthedocs.io>`_, compatible
+    `VIOLIN <https://theviolin.readthedocs.io>`_, compatible
+    `CLARINET <https://theclarinet.readthedocs.io>`_, compatible
+    `ACCORDION <https://accordion.readthedocs.io>`_, compatible 
+    `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, compatible 
+    `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_, compatible
 
 
-The BioRECIPE format can be translated from/to the following formats:
-
-- SBML (need a link to the translator)
-- machine readers, REACH, TRIPS (need a link to the translator)
-- INDRA (need a link to the translator)
-
-
-The BioRECIPE format is compatible with the MeLoDy Lab tools:
-
-- `DiSH simulator <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:GFxP56DSvIMC>`_ 
-- `FLUTE <https://melody-flute.readthedocs.io>`_ 
-- `VIOLIN <https://theviolin.readthedocs.io>`_ 
-- `CLARINET <https://theclarinet.readthedocs.io>`_ 
-- `ACCORDION <https://accordion.readthedocs.io>`_ 
-- `FIDDLE <https://melody-fiddle.readthedocs.io/>`_ 
-- `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_ 
-
-Main Applications
+Examples
 ---------------------
 
-The BioRECIPE format has been used for modeling, simulation, and analysis of:
+Several examples of interactions, their source and representation in the BioRECIPE format are listed in the table below.
 
-- `T cells <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
-- `CAR T cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `macrophages <https://www.nmzlab.pitt.edu/research>`_ 
-- `melanoma cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `pancreatic cancer cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `glioblastoma multiforme stem cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `colon cancer cells <https://www.nmzlab.pitt.edu/research>`_ 
-- `ovarian cancer cells <https://www.nmzlab.pitt.edu/research>`_
+.. csv-table:: Examples
+    :header: Source, Original statement, Translation, BioRECIPE representation
+    :widths: 10, 20, 20, 50
+
+    Text in natural language, "TNFa reduces BMPR-II expression in vitro and in vivo", "a reading engine extracts the interaction that TNFa negatively regulates BMPR-II", "TODO biorecipe example"
+    "Interaction database, STRING", need a copy of the exact example in STRING that an interaction between TRADD and TNF is predicted with high confidence, "TODO: translation procedure", "TODO: biorecipe example"
+    Inferrence from data, "In the BioGRID database, we find that STAMBP deubiquitinates TNFRSF1A", "TODO: translation procedure", "TODO: biorecipe example"
+    Experts enter manually, "NOTCH positively regulates stemness", "TODO: translation procedure", "TODO: biorecipe example"
+
+   
+
+Applications
+---------------------
+
+The BioRECIPE format has been used when modeling, simulating, and analyzing a number of systems.
+
+.. csv-table:: Models
+    :header: System, BioRECIPE representation, Publication 
+    :widths: 20, 20, 60
+    
+    T cell, <link to BioRECIPE file>, `link <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
+    CAR T cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    macrophage, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    melanoma, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    pancreatic cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    GBM stem cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    colon cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    ovarian cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_
 
 Acknowledgements
 ---------------------
@@ -80,9 +93,9 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
-
-   graph_structure
+ 
    bio_interactions
+   graph_structure
    repre_interactions_biorecipe
    hybrid_ebm_def
    repre_model_biorecipe
