@@ -27,7 +27,7 @@ Several examples of interactions, their source and representation in the BioRECI
     :widths: 10, 20, 20, 50
 
     Text in natural language, "TNFa reduces BMPR-II expression in vitro and in vivo", "a reading engine extracts the interaction that TNFa negatively regulates BMPR-II", "TODO biorecipe example"
-    "Interaction database, STRING", need a copy of the exact example in STRING that an interaction between TRADD and TNF is predicted with high confidence, "TODO: translation procedure", "TODO: biorecipe example"
+    "Interaction database, STRING", an interaction between TRADD and TNF is predicted with high confidence, "TODO: translation procedure", "TODO: biorecipe example"
     Inferrence from data, "In the BioGRID database, we find that STAMBP deubiquitinates TNFRSF1A", "TODO: translation procedure", "TODO: biorecipe example"
     Experts enter manually, "NOTCH positively regulates stemness", "TODO: translation procedure", "TODO: biorecipe example"
 
