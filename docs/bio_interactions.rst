@@ -103,28 +103,4 @@ The edge attribute vector can also include the :math:`a^{\mathrm{cellline}}`, :m
 
 Finally, provenance attributes can be used. The :math:`a^{\mathrm{score}}` attribute provides a summary score for confidence in the interaction, or the amount of available evidence for the interaction. The :math:`a^{\mathrm{source}}` attribute indicates the source of evidence, which can be literature, expert knowledge, databases, or data. The :math:`a^{\mathrm{statements}}` attribute is used to store the statements, parts of sentences or sentences where the interaction is mentioned. The :math:`a^{\mathrm{paperIDs}}` attribute holds paper IDs (e.g., PMCID) where the sentences mentioning the interaction are found. When the information about the additional non-essential attributes is not available, these attributes are assigned an “empty” value.
 
-.. csv-table:: All attributes
-    :header: Attribute, Definition, Description, Example
-    :widths: 8, 8, 20, 20
 
-    ":math:`a^{\mathrm{name*}}`",  , "element name, could be informal, typically used by experts", "RAS; ERK1; p53"
-    ":math:`a^{\mathrm{type*}}`",  , "element type", "protein; protein family; RNA; gene; chemical; biological process"
-    ":math:`a^{\mathrm{subtype}}`",  , "element subtype provides additional details for curation", "receptor"
-    ":math:`a^{\mathrm{HGNCID}}`",  , "the gene symbol from the HGNC database", "BCL2L1; APAF1"
-    ":math:`a^{\mathrm{database*}}`",  , "a database where the element ID is found", "UniProt; Pfam; Ensembl; HGNC; PubChem; GO"
-    ":math:`a^{\mathrm{ID*}}`",  , "unique element ID from an open access database", "Q07817; O14727"
-    ":math:`a^{\mathrm{compartment}}`",  , "cellular compartment name", "cytoplasm; plasma membrane; nucleus"
-    ":math:`a^{\mathrm{compartmentID}}`",  , "cellular compartment unique identifier from the GO database", "0005737; 0005886; 0005634 "
-    ":math:`a^{\mathrm{direction*}}`",  , "interaction direction", "this is an implicit attribute, determined as a direction from source to target node"
-    ":math:`a^{\mathrm{sign*}}`",  , "interaction sign (also referred to as *polarity*) indicates positive or negative influence", "positive; negative"
-    ":math:`a^{\mathrm{connectiontype}}`",  , "interaction connection type can be: *direct* (*D*), indicating that the edge between the source and target nodes represents direct physical interaction between elements; *indirect* (*I*), indicating that it is expected or known that there is a path of several connected interactions between the source node and target node", "D; I"
-    ":math:`a^{\mathrm{mechanism}}`",  , "interaction mechanism indicates the exact physical interaction (biological mechanism); value usually included when a^connectiontype=*D*; ", "binding; phosphorylation; ubiquitination"
-    ":math:`a^{\mathrm{site}}`",  , "molecular site where the interaction occurs", "T308; T450; S473  (phosphorylation sites for Akt)"
-    ":math:`a^{\mathrm{cellline}}`",  , "cell line where the interaction is observed", "GS6-22 (glioblastoma multiforme (GBM) cell lines) "
-    ":math:`a^{\mathrm{celltype}}`",  , "cell type where the interaction is observed", "T cell; microphage; pancreatic cancer cell; GBM cell"
-    ":math:`a^{\mathrm{tissuetype}}`",  , "tissue type where the interaction is observed", "pancreas; colon; brain"
-    ":math:`a^{\mathrm{organism}}`",  , "organism where the interaction is observed", "human; mouse"
-    ":math:`a^{\mathrm{score}}`",  , "confidence in interaction, e.g., interval 0-1 (INDRA, STRING), present/absent (PCnet) ", "0.18"
-    ":math:`a^{\mathrm{source}}`",  , "knowledge source(s) where the interaction is found", "Literature; expert; data"
-    ":math:`a^{\mathrm{statements}}`",  , "statements (sentences) where the interaction is found", "Bcl-XL interacts with Apaf-1 and inhibits Apaf-1-dependent caspase-9 activation"
-    ":math:`a^{\mathrm{paperIDs}}`",  , "if literature, paper IDs where the interaction is found", "PMID9539746"
