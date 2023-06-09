@@ -38,7 +38,7 @@ The following is a list of allowed values for each attribute ('*' indicates a re
 
 .. csv-table:: Interaction (edge) attributes
     :header: Attribute, Symbol, Description, Values, Examples
-    :widths: 9, 3, 30, 38, 20
+    :widths: 5, 3, 34, 38, 20
 
     Direction, ":math:`a^{\mathrm{direction}}`", this is an implicit attribute, determined as a direction from source to target node 
     Sign*, ":math:`a^{\mathrm{sign}}`", interaction sign (also referred to as “polarity”) indicates positive or negative influence, ``positive`` | ``negative``, listed under Values
@@ -47,13 +47,13 @@ The following is a list of allowed values for each attribute ('*' indicates a re
     Site, ":math:`a^{\mathrm{site}}`", molecular site where the interaction occurs, <molecular site name>, "T308, T450, S473"
 
 .. csv-table:: Context attributes
-    :header: Attribute, Values
-    :widths: 9, 40
+    :header: Attribute, Symbol, Description, Values, Examples
+    :widths: 5, 3, 34, 38, 20
 
-    ":math:`a^{\mathrm{cellline}}`", <cell line name>
-    ":math:`a^{\mathrm{celltype}}`", <cell type name>
-    ":math:`a^{\mathrm{tissuetype}}`", <tissue type name>
-    ":math:`a^{\mathrm{organism}}`", <organism name>
+    Cell Line, ":math:`a^{\mathrm{cellline}}`", cell line where the interaction is observed, <cell line name>, "GS6-22 (glioblastoma multiforme (GBM) cell line)" 
+    Cell Type, ":math:`a^{\mathrm{celltype}}`", cell type where the interaction is observed, <cell type name>, "T cell, macrophage, pancreatic cancer cell, GBM cell"
+    Tissue Type, ":math:`a^{\mathrm{tissuetype}}`", tissue type where the interaction is observed, <tissue type name>, "pancreas, colon, brain"
+    Organism, ":math:`a^{\mathrm{organism}}`", organism where the interaction is observed, <organism name>, "human, mouse"
 
 .. csv-table:: Evidence attributes
     :header: Attribute, Values
