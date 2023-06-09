@@ -24,16 +24,16 @@ The following is a list of allowed values for each attribute. (*TODO: a^Variable
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
-    :widths: 7, 5, 25, 33, 30
+    :widths: 9, 3, 30, 38, 20
 
     Element Name, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
     Element Type, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
     Element Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
-    ":math:`a^{\mathrm{HGNC_ID}}`", <HGNC unique gene symbol>
-    ":math:`a^{\mathrm{database}}`", ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}
-    ":math:`a^{\mathrm{ID}}`", "<unique identifier> {, <unique identifier>}"
-    ":math:`a^{\mathrm{compartment}}`", ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``
-    ":math:`a^{\mathrm{compartmentID}}`", ``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``
+    Element HGNC ID, ":math:`a^{\mathrm{HGNC_ID}}`", the corresponding gene symbol from the HGNC database, <HGNC unique gene symbol>, "BCL2L1, APAF1"
+    Element Database, ":math:`a^{\mathrm{database}}`", a database where the element ID is found, ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}, listed under Values
+    Element ID, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
+    Element Compartment, ":math:`a^{\mathrm{compartment}}`", cellular compartment name, ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``, listed under Values
+    Element Compartment ID, ":math:`a^{\mathrm{compartmentID}}`", cellular compartment unique identifier from the GO database,``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``, identifiers are listed unde Values in the same order as compartment names
 
 .. csv-table:: Interaction (edge) attributes
     :header: Attribute, Values
