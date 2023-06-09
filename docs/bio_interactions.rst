@@ -42,7 +42,7 @@ The following is a list of allowed values for each attribute ('*' indicates a re
 
     Direction, ":math:`a^{\mathrm{direction}}`", this is an implicit attribute, determined as a direction from source to target node 
     Sign*, ":math:`a^{\mathrm{sign}}`", interaction sign (also referred to as “polarity”) indicates positive or negative influence, ``positive`` | ``negative``, listed under Values
-    Connection Type, ":math:`a^{\mathrm{connectiontype}}`", indicates whether the edge between the source and target nodes represents direct physical interaction between elements or it is expected or known that there is a path of several connected interactions between the source node and target node, ``direct`` | ``indirect``, listed under Values
+    Connection Type, ":math:`a^{\mathrm{connectiontype}}`", "indicates whether the edge between the source and target nodes represents direct physical interaction between elements, or it is expected or known that there is a path of several connected interactions between the source node and target node", ``direct`` | ``indirect``, listed under Values
     Mechanism, ":math:`a^{\mathrm{mechanism}}`", "indicates the exact physical interaction, i.e., biological mechanism; value usually included when the Connection Type is direct", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``, listed under Values
     Site, ":math:`a^{\mathrm{site}}`", molecular site where the interaction occurs, <molecular site name>, "T308, T450, S473"
 
@@ -69,17 +69,17 @@ The following is a list of allowed values for each attribute ('*' indicates a re
     :header: Name, Definition
     :widths: 9, 40
 
-    <element name>, "<text> //user-defined, typically a commonly used name for the biological species or component"
-    <subtype name>, "<text> //user-defined, used to specify element beyond just its type"
-    <unique DB identifier>,
-    <molecular site name>,
-    <cell line name>,
-    <cell type name>,
-    <tissue type name>,
-    <organism name>,
-    <number>,
-    <text>,
-    <PMCID | PMID>,
+    <element name>, "user-defined, typically a commonly used name for the biological species or component"
+    <subtype name>, "user-defined, used to specify element beyond just its type"
+    <HGNC unique gene symbol>, "a gene symbol from the HGNC database that corresponds to the element"
+    <molecular site name>, "commonly used molecular site symbol"
+    <cell line name>, "assigned name of a cell line"
+    <cell type name>, "commonly used cellular type name"
+    <tissue type name>, "commonly used tissue type name"
+    <organism name>, "commonly used organism name"
+    <PMCID | PMID>, "unique paper PMCID or PMID"
+    <number>, "just a number"
+    <text>, "any text"
 
 In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
 
