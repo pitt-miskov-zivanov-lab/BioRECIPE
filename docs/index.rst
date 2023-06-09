@@ -14,35 +14,7 @@ BioRECIPE Workflow
 
 (Figures & Texts, TODO here)
 
-Compatibility and Translators
----------------------
 
-The BioRECIPE format is currently compatible with the following representation formats. 
-
-.. csv-table:: Representation Format Compatibility
-    :header: Format Name, Translator
-    :widths: 10, 90
-
-    SBML, <link to translator>
-    JSON, <link to translator>
-    other, <link to translator>
-
-The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
-
-.. csv-table:: Tool Compatibility
-    :header: Tool Name, Translator to BioRECIPE, Translator from BioRECIPE 
-    :widths: 10, 45, 45
-
-    REACH, <link to translator>, NA
-    TRIPS, <link to translator>, NA
-    INDRA, <link to translator>, NA
-    `DiSH simulator <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:GFxP56DSvIMC>`_, compatible
-    `FLUTE <https://melody-flute.readthedocs.io>`_, compatible
-    `VIOLIN <https://theviolin.readthedocs.io>`_, compatible
-    `CLARINET <https://theclarinet.readthedocs.io>`_, compatible
-    `ACCORDION <https://accordion.readthedocs.io>`_, compatible 
-    `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, compatible 
-    `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_, compatible
 
 
 Examples
@@ -78,6 +50,39 @@ The BioRECIPE format has been used when modeling, simulating, and analyzing a nu
     GBM stem cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
     colon cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
     ovarian cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_
+
+
+
+Compatibility and Translators
+---------------------
+
+The BioRECIPE format is currently compatible with the following representation formats. 
+
+.. csv-table:: Representation Format Compatibility
+    :header: Format Name, Translator
+    :widths: 10, 90
+
+    SBML, <link to translator>
+    JSON, <link to translator>
+    other, <link to translator>
+
+The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
+
+.. csv-table:: Tool Compatibility
+    :header: Tool Name, Translator to BioRECIPE, Translator from BioRECIPE 
+    :widths: 10, 45, 45
+
+    REACH, <link to translator>, NA
+    TRIPS, <link to translator>, NA
+    INDRA, <link to translator>, NA
+    `DiSH simulator <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:GFxP56DSvIMC>`_, compatible
+    `FLUTE <https://melody-flute.readthedocs.io>`_, compatible
+    `VIOLIN <https://theviolin.readthedocs.io>`_, compatible
+    `CLARINET <https://theclarinet.readthedocs.io>`_, compatible
+    `ACCORDION <https://accordion.readthedocs.io>`_, compatible 
+    `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, compatible 
+    `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_, compatible
+
 
 Acknowledgements
 ---------------------
