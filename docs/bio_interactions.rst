@@ -15,7 +15,8 @@ An example biological interaction represented as a directed signed edge between 
     :align: center
     :alt: internal figure
     
-
+|
+|
 
 Interaction attributes
 ----------------------
