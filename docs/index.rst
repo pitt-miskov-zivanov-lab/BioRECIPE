@@ -22,6 +22,16 @@ The BioRECIPE format can be used to represent lists of interactions and models. 
 
 |
 
+Example interaction lists in BioRECIPE format
+----------------------------------
+
+.. csv-table:: Interaction lists
+    :header: Name, BioRECIPE representation
+    :widths: 30, 70
+
+    Reading output example, <link to example>
+
+
 Example models in BioRECIPE format
 ----------------------------------
 
