@@ -18,9 +18,12 @@ A small example of a signaling network that can be represented with the BioRECIP
 
 |
 
+The BioRECIPE format can be used to represent lists of interactions and models. For model representation, the information about the static stucture of the network and about dynamics can be included. 
 
-Examples
----------------------
+|
+
+Example models in BioRECIPE format
+----------------------------------
 
 .. csv-table:: Models
     :header: System, BioRECIPE representation, Publication 
