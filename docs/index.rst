@@ -24,7 +24,7 @@ Examples
 
 .. csv-table:: Models
     :header: System, BioRECIPE representation, Publication 
-    :widths: 20, 20, 60
+    :widths: 30, 30, 40
     
     T cell, <link to BioRECIPE file>, `link <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
     CAR T cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
