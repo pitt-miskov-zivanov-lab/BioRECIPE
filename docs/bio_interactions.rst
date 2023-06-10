@@ -16,13 +16,11 @@ An example biological interaction represented as a directed signed edge between 
     :alt: internal figure
     
 
-|
-|
-|
-    
+
+Writing a biological interaction in the BioRECIPE format
+--------------------------------------------------------
+   
 The following is a list of allowed values for each attribute ('*' indicates a required attribute). 
-
-
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
