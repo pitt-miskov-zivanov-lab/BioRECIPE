@@ -9,11 +9,12 @@ BioRECIPE: Biological system Representation for Evaluation, Curation, Interopera
 
 The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
 
-BioRECIPE Workflow
----------------------
 
-(Figures & Texts, TODO here)
+.. figure:: figures/figure_biorecipe_example_flow.png
+    :align: center
+    :alt: internal figure
 
+A small example of a signaling network that can be represented with the BioRECIPE format (A). Information and data sources for BioRECIPE (B). BioRECIPE format use in modeling and analysis (C).
 
 
 
