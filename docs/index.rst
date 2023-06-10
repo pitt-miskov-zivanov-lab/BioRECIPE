@@ -16,28 +16,11 @@ The BioRECIPE representation format was introduced to facilitate seamless human-
 
 A small example of a signaling network that can be represented with the BioRECIPE format (A). Information and data sources for BioRECIPE (B). BioRECIPE format use in modeling and analysis (C).
 
+|
 
 
 Examples
 ---------------------
-
-Several examples of interactions, their source and representation in the BioRECIPE format are listed in the table below.
-
-.. csv-table:: Examples
-    :header: Source, Original statement, Translation, BioRECIPE representation
-    :widths: 10, 20, 20, 50
-
-    Text in natural language, "TNFa reduces BMPR-II expression in vitro and in vivo", "a reading engine extracts the interaction that TNFa negatively regulates BMPR-II", "TODO biorecipe example"
-    "Interaction database, STRING", an interaction between TRADD and TNF is predicted with high confidence, "TODO: translation procedure", "TODO: biorecipe example"
-    Inferrence from data, "In the BioGRID database, we find that STAMBP deubiquitinates TNFRSF1A", "TODO: translation procedure", "TODO: biorecipe example"
-    Experts enter manually, "NOTCH positively regulates stemness", "TODO: translation procedure", "TODO: biorecipe example"
-
-   
-
-Applications
----------------------
-
-The BioRECIPE format has been used when modeling, simulating, and analyzing a number of systems.
 
 .. csv-table:: Models
     :header: System, BioRECIPE representation, Publication 
