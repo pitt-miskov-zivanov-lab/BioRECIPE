@@ -17,8 +17,8 @@ An example biological interaction represented as a directed signed edge between 
     
 
 
-Writing a biological interaction in the BioRECIPE format
---------------------------------------------------------
+Interaction attributes
+----------------------
    
 The following is a list of allowed values for each attribute ('*' indicates a required attribute). 
 
