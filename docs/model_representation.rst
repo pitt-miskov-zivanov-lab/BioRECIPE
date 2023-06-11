@@ -15,15 +15,14 @@ A toy example of a model graph, showing input and output nodes, directed edges, 
 Model formats
 -------------
 
-The BioRECIPE format supports several different model representation schemes, ranging from less detailed to more detailed, from static graph attributes to dynamic attributes and parameters necessary for analysis of dynamic behaviors, as illustrated in the table below:
+In the BioRECIPE format, as part of model representation, each element in a model is assigned a row in the model table/spreadsheet. Different from *event-based* representation of `interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-representation>`_, in this *element-based* representation multiple interactions can be combined as part of element update rules. The BioRECIPE format supports several different model representation schemes, ranging from less detailed to more detailed, from static graph attributes to dynamic attributes and parameters necessary for analysis of dynamic behaviors, as illustrated in the table below (X indicates attributes included in the scheme):
 
 .. figure:: figures/figure_BioRECIPE_model_format.png
     :align: center
     :alt: internal figure
 
 |
-
-In the BioRECIPE format, as part of model representation, each element in a model is assigned a row in the model table/spreadsheet. Different from *event-based* representation of `interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-representation>`_, in this *element-based* representation multiple interactions can be combined as part of element update rules.
+ 
 
 Besides the `basic <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id3>`_ element (node) attributes, `context <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id5>`_ and `provenance <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id6>`_ are inherited from the interactions in which the element participates, and they are included in the element representation. Additionally, several more attributes are included to define rules for element state changes (regulation attributes) and element state parameters (value and timing attributes) in executable models.
 
