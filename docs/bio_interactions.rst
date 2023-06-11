@@ -9,7 +9,7 @@ The BioRECIPE representation of an interaction contains a list of required and o
 - context attributes
 - provenance attributes
 
-An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: 's' is used for source node, 't' for target node, and 'e' for edge).
+An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge).
 
 .. figure:: figures/figure_example_bio_interaction.png
     :align: center
@@ -21,7 +21,7 @@ An example biological interaction represented as a directed signed edge between 
 Interaction attributes
 ----------------------
    
-The following is a list of allowed values for each attribute ('*' indicates a required attribute). 
+The following is a list of allowed values for each attribute (* indicates a required attribute). 
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
