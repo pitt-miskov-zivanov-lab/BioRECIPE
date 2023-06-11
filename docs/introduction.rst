@@ -13,7 +13,12 @@ Networks such as the one in the figure below (part A) can be represented with th
 
 |
 
-The BioRECIPE format can be used to represent (1) *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id1>`_ and (2) *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#model-formats>`_ , as shown in the examples below. In interaction list tables, each row corresponds to one interaction, and in model tables, each row corresponds to one model elements. In these tables, columns correspond to various element and interaction attributes. The details for all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, and the details for additional element attributes used to represent executable models can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#element-representation>`_. 
+The BioRECIPE format can be used to represent: 
+
+    - *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_ 
+    - *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_ 
+
+These two formats are shown in the examples below. In interaction list tables, each row corresponds to one interaction, and in model tables, each row corresponds to one model elements. In these tables, columns correspond to various element and interaction attributes. The details of all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_, and the details for additional element attributes used to represent executable models can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_. 
 
 |
 
