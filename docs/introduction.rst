@@ -45,7 +45,7 @@ The BioRECIPE format can be used to represent (1) *event-based* `lists of intera
 
 **Citation**
 
-To use and cite the BioRECIPE tool, please use the following:
+When using the BioRECIPE representation format, please cite the following:
 
   - Sayed, Khaled, et al. "Recipes for translating big data machine reading to executable cellular signaling models." Machine Learning, Optimization, and Big Data: Third International Conference, MOD 2017, Volterra, Italy, September 14–17, 2017, Revised Selected Papers 3. Springer International Publishing, 2018.
   - Miskov-Zivanov, Natasa, et al. BioRECIPE format, technical report, 2023.
