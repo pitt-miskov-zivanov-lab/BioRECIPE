@@ -2,7 +2,7 @@
 Interaction representation
 ##########################
 
-In the BioRECIPE format, one or more biological interactions can be written as part of an `interaction list <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-list>`_. The BioRECIPE representation of an interaction allowes for many interaction attributes to be included. Each attribute belongs to one of the following groups:
+In the BioRECIPE format, one or more biological interactions can be written as part of an `interaction list <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id1>`_. The BioRECIPE representation of an interaction allowes for many interaction attributes to be included. Each attribute belongs to one of the following groups:
 
 - node attributes
 - edge attributes
