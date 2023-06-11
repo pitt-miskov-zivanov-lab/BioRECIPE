@@ -18,7 +18,7 @@ A small example of a signaling network that can be represented with the BioRECIP
 
 |
 
-The BioRECIPE format can be used to represent (1) `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/index.html#example-interaction-lists-in-biorecipe-format>`_ and (2) `models <https://melody-biorecipe.readthedocs.io/en/latest/index.html#example-models-in-biorecipe-format>`_ , as shown in the examples below. The details for all interaction attributes used in interaction lists can be found here, and details for additional element attributes used in model files can be found here. 
+The BioRECIPE format can be used to represent (1) `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_ and (2) `models <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id9>`_ , as shown in the examples below. The details for all interaction attributes used in interaction lists can be found here, and the details for additional element attributes used to represent executable models can be found here. 
 
 |
 
