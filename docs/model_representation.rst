@@ -27,8 +27,8 @@ Besides the `basic <https://melody-biorecipe.readthedocs.io/en/latest/bio_intera
 
 |
 
-Regulation attributes
----------------------
+Element regulation attributes
+-----------------------------
 
 .. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
@@ -41,8 +41,8 @@ Regulation attributes
 
 |
 
-Value attributes
-----------------
+Element value attributes
+------------------------
 
 .. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
