@@ -2,12 +2,7 @@
 Introduction
 ############
 
-
-
-BioRECIPE: Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution
---------------------------------------------------------------------------------------------------------
-
-The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
+The BioRECIPE (Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution) representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
 
 Networks such as the one in the figure below (part A) can be represented with the BioRECIPE format. When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part C), either with automated tools, or manually, when human input is needed.
 
@@ -49,9 +44,7 @@ The BioRECIPE format can be used to represent (1) *event-based* `lists of intera
 |
 
 
-Citation
----------
-
+**Citation**
 To use and cite the BioRECIPE tool, please use the following:
 [1] Sayed, Khaled, et al. "Recipes for translating big data machine reading to executable cellular signaling models." Machine Learning, Optimization, and Big Data: Third International Conference, MOD 2017, Volterra, Italy, September 14–17, 2017, Revised Selected Papers 3. Springer International Publishing, 2018.
 [2] Miskov-Zivanov, Natasa, et al. BioRECIPE format, technical report, 2023.
