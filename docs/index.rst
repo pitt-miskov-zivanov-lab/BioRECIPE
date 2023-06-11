@@ -18,12 +18,12 @@ A small example of a signaling network that can be represented with the BioRECIP
 
 |
 
-The BioRECIPE format can be used to represent lists of interactions and models. For model representation, the information about the static stucture of the network and about dynamics can be included. 
+The BioRECIPE format can be used to represent (1) lists of interactions and (2) models. For model representation, the information about the static stucture of the network and about the dynamics can be included. 
 
 |
 
 Example interaction lists in BioRECIPE format
-----------------------------------
+---------------------------------------------
 
 .. csv-table:: Interaction lists
     :header: Name, BioRECIPE representation
@@ -31,6 +31,7 @@ Example interaction lists in BioRECIPE format
 
     Reading output example, <link to example>
 
+|
 
 Example models in BioRECIPE format
 ----------------------------------
@@ -48,10 +49,10 @@ Example models in BioRECIPE format
     colon cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
     ovarian cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_
 
-
+|
 
 Compatibility and Translators
----------------------
+-----------------------------
 
 The BioRECIPE format is currently compatible with the following representation formats. 
 
@@ -97,4 +98,7 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, 
    :caption: Contents
  
    bio_interactions
+   repre_interactions_biorecipe
+   hybrid_ebm_def
+   repre_model_biorecipe
    Legal
