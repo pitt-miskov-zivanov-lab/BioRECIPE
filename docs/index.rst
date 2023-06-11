@@ -95,6 +95,5 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, 
  
    bio_interactions
    model_representation
-   hybrid_ebm_def
-   repre_model_biorecipe
+   definitions
    Legal
