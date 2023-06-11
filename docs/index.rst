@@ -9,7 +9,7 @@ BioRECIPE: Biological system Representation for Evaluation, Curation, Interopera
 
 The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
 
-A small example of a signaling network that can be represented with the BioRECIPE format is shown in figure below (part A). When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part C), either with automated tools, or manually, when human input is needed.
+Networks such as the one in the figure below (part A) can be represented with the BioRECIPE format. When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part C), either with automated tools, or manually, when human input is needed.
 
 .. figure:: figures/figure_biorecipe_example_flow.png
     :align: center
@@ -19,7 +19,7 @@ A small example of a signaling network that can be represented with the BioRECIP
 |
 |
 
-The BioRECIPE format can be used to represent (1) `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_ and (2) `models <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id9>`_ , as shown in the examples below. The details for all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, and the details for additional element attributes used to represent executable models can be found here. 
+The BioRECIPE format can be used to represent (1) *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_ and (2) *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id9>`_ , as shown in the examples below. In interaction list tables, each row corresponds to one interaction, and in model tables, each row corresponds to one model elements. In these tables, columns correspond to various element and interaction attributes. The details for all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, and the details for additional element attributes used to represent executable models can be found here. 
 
 |
 
@@ -47,35 +47,7 @@ The BioRECIPE format can be used to represent (1) `lists of interactions <https:
 
 |
 
-Compatibility and Translators
------------------------------
 
-The BioRECIPE format is currently compatible with the following representation formats. 
-
-.. csv-table:: Representation Format Compatibility
-    :header: Format Name, Translator
-    :widths: 10, 90
-
-    SBML, <link to translator>
-    JSON, <link to translator>
-    other, <link to translator>
-
-The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
-
-.. csv-table:: Tool Compatibility
-    :header: Tool Name, Translator to BioRECIPE, Translator from BioRECIPE 
-    :widths: 10, 45, 45
-
-    REACH, <link to translator>, NA
-    TRIPS, <link to translator>, NA
-    INDRA, <link to translator>, NA
-    `DiSH simulator <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:GFxP56DSvIMC>`_, compatible
-    `FLUTE <https://melody-flute.readthedocs.io>`_, compatible
-    `VIOLIN <https://theviolin.readthedocs.io>`_, compatible
-    `CLARINET <https://theclarinet.readthedocs.io>`_, compatible
-    `ACCORDION <https://accordion.readthedocs.io>`_, compatible 
-    `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, compatible 
-    `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_, compatible
 
 
 Acknowledgements
@@ -96,4 +68,5 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, 
    bio_interactions
    model_representation
    definitions
+   compatibility
    Legal
