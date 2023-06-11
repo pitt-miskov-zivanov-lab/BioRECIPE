@@ -12,7 +12,6 @@ Networks such as the one in the figure below (part A) can be represented with th
 
 
 |
-|
 
 The BioRECIPE format can be used to represent (1) *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id1>`_ and (2) *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#model-formats>`_ , as shown in the examples below. In interaction list tables, each row corresponds to one interaction, and in model tables, each row corresponds to one model elements. In these tables, columns correspond to various element and interaction attributes. The details for all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, and the details for additional element attributes used to represent executable models can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#element-representation>`_. 
 
@@ -49,5 +48,6 @@ The BioRECIPE format can be used to represent (1) *event-based* `lists of intera
 To use and cite the BioRECIPE tool, please use the following:
 
 [1] Sayed, Khaled, et al. "Recipes for translating big data machine reading to executable cellular signaling models." Machine Learning, Optimization, and Big Data: Third International Conference, MOD 2017, Volterra, Italy, September 14–17, 2017, Revised Selected Papers 3. Springer International Publishing, 2018.
-
 [2] Miskov-Zivanov, Natasa, et al. BioRECIPE format, technical report, 2023.
+
+|
