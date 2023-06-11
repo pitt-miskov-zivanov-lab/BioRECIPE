@@ -2,7 +2,7 @@
 Interaction representation
 ##########################
 
-The BioRECIPE representation of an interaction contains a list of required and optional attributes. Each attribute belongs to one of the following groups:
+In the BioRECIPE format, one or more biological interactions can be written as part of an `interaction list <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/edit/main/docs/bio_interactions.rst#interaction-lists>`_. The BioRECIPE representation of an interaction allowes for many interaction attributes to be included. Each attribute belongs to one of the following groups:
 
 - node attributes
 - edge attributes
@@ -21,20 +21,18 @@ An example biological interaction, represented as a directed signed edge between
 Interaction attributes
 ----------------------
    
-The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_.
-
-(* indicates a required attribute). 
+The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_.  
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
-    Name*, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
-    Type*, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
+    Name, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
+    Type, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
     Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
     HGNC ID, ":math:`a^{\mathrm{HGNC_ID}}`", the corresponding gene symbol from the HGNC database, <HGNC unique gene symbol>, "BCL2L1, APAF1"
     Database, ":math:`a^{\mathrm{database}}`", a database where the element ID is found, ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}, listed under Values
-    ID*, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
+    ID, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
     Compartment, ":math:`a^{\mathrm{compartment}}`", cellular compartment name, ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``, listed under Values
     Compartment ID, ":math:`a^{\mathrm{compartmentID}}`", cellular compartment unique identifier from the GO database,``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``, identifiers are listed under Values in the same order as compartment names
     
@@ -44,7 +42,7 @@ The following tables provide details for each attribute, including attribute nam
     :widths: 5, 3, 34, 38, 20
 
     Direction, ":math:`a^{\mathrm{direction}}`", this is an implicit attribute, determined as a direction from source to target node 
-    Sign*, ":math:`a^{\mathrm{sign}}`", interaction sign (also referred to as “polarity”) indicates positive or negative influence, ``positive`` | ``negative``, listed under Values
+    Sign, ":math:`a^{\mathrm{sign}}`", interaction sign (also referred to as “polarity”) indicates positive or negative influence, ``positive`` | ``negative``, listed under Values
     Connection Type, ":math:`a^{\mathrm{connectiontype}}`", "indicates whether the edge between the source and target nodes represents direct physical interaction between elements, or it is expected or known that there is a path of several connected interactions between the source node and target node", ``direct`` | ``indirect``, listed under Values
     Mechanism, ":math:`a^{\mathrm{mechanism}}`", "indicates the exact physical interaction, i.e., biological mechanism; value usually included when the Connection Type is direct", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``, listed under Values
     Site, ":math:`a^{\mathrm{site}}`", molecular site where the interaction occurs, <molecular site name>, "T308, T450, S473"
@@ -85,3 +83,13 @@ The following tables provide details for each attribute, including attribute nam
     <text>, "any text"
 
 
+|
+
+Interaction lists
+----------------------
+
+Using the `interaction attributes <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, one or more interactions can be written in the interaction list table, where each interaction is assigned one row. The column headers match interaction attribute names, as shown in the example table below.
+
+.. figure:: figures/figure_BioRECIPE_ro_format.png
+    :align: center
+    :alt: internal figure
