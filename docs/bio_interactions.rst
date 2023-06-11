@@ -1,6 +1,6 @@
-######################################
-Biological Interactions
-######################################
+##########################
+Interaction representation
+##########################
 
 The BioRECIPE representation of an interaction contains a list of required and optional attributes. Each attribute belongs to one of the following groups:
 
@@ -9,7 +9,7 @@ The BioRECIPE representation of an interaction contains a list of required and o
 - context attributes
 - provenance attributes
 
-An example biological interaction represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge).
+An example biological interaction, represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge). 
 
 .. figure:: figures/figure_example_bio_interaction.png
     :align: center
@@ -21,7 +21,9 @@ An example biological interaction represented as a directed signed edge between 
 Interaction attributes
 ----------------------
    
-The following is a list of allowed values for each attribute (* indicates a required attribute). 
+The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_.
+
+(* indicates a required attribute). 
 
 .. csv-table:: Element (node) attributes
     :header: Attribute, Symbol, Description, Values, Examples
