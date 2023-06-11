@@ -23,8 +23,8 @@ Example of an interaction list in the BioRECIPE format:
 
 As illustrated in the table above, the BioRECIPE representation of an interaction allows for many interaction attributes to be included. Each attribute belongs to one of the following groups:
 
-- node attributes
-- edge attributes
+- basic node attributes
+- basic edge attributes
 - context attributes
 - provenance attributes
 
@@ -32,7 +32,7 @@ As illustrated in the table above, the BioRECIPE representation of an interactio
 |
 
 
-The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_.  
+The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found here (*TODO, this should be a link to examples folder).  
 
 |
 
