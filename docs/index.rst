@@ -9,13 +9,14 @@ BioRECIPE: Biological system Representation for Evaluation, Curation, Interopera
 
 The BioRECIPE representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model components, while it is at the same time readable by machines and can be processed by a range of model development and analysis tools. The BioRECIPE format is a tabular format used for models that have a *directed graph* as their underlying structure.
 
+A small example of a signaling network that can be represented with the BioRECIPE format is shown in figure below (part A). When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part C), either with automated tools, or manually, when human input is needed.
 
 .. figure:: figures/figure_biorecipe_example_flow.png
     :align: center
     :alt: internal figure
 
-A small example of a signaling network that can be represented with the BioRECIPE format (A). Information and data sources for BioRECIPE (B). BioRECIPE format use in modeling and analysis (C).
 
+|
 |
 
 The BioRECIPE format can be used to represent (1) `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_ and (2) `models <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id9>`_ , as shown in the examples below. The details for all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, and the details for additional element attributes used to represent executable models can be found here. 
