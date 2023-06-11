@@ -94,6 +94,7 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, 
    :caption: Contents
  
    bio_interactions
+   model_representation
    hybrid_ebm_def
    repre_model_biorecipe
    Legal
