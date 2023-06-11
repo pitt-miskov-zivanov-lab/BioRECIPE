@@ -29,7 +29,6 @@ As illustrated in the table above, the BioRECIPE representation of an interactio
 - provenance attributes
 
 |
-|
 
 
 The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found here (*TODO, this should be a link to examples folder).  
