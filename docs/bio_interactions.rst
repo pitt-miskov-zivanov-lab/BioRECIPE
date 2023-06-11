@@ -36,7 +36,7 @@ The following tables provide details for each attribute, including attribute nam
 
 |
 
-Element (node) attributes
+Basic element attributes
 -------------------------
 
 .. csv-table:: 
@@ -54,7 +54,7 @@ Element (node) attributes
   
 |  
 
-Interaction (edge) attributes
+Basic interaction attributes
 -----------------------------
 
 .. csv-table:: 
