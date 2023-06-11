@@ -11,6 +11,7 @@ The current version of the BioRECIPE format has been developed thanks to the add
 
 The authors of this documentation are Dr. Natasa Miskov-Zivanov, Gaoxiang Zhou, Dr. Emilee Holtzapple, and Difei Tang.
 
+|
 
 **Funding**
 
