@@ -1,3 +1,7 @@
+###########
+Definitions
+###########
+
 In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
 
 .. admonition:: Definition 1
