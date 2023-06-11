@@ -1,15 +1,10 @@
-##########################
-Interaction representation
-##########################
+#################
+Interaction lists
+#################
 
-In the BioRECIPE format, one or more biological interactions can be written as part of an `interaction list <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#id1>`_. The BioRECIPE representation of an interaction allowes for many interaction attributes to be included. Each attribute belongs to one of the following groups:
+In the BioRECIPE format, interactions can be represented using *event-based* interaction list format where each individual interaction (biological event) is assigned one row. The column headers match interaction attribute names. 
 
-- node attributes
-- edge attributes
-- context attributes
-- provenance attributes
-
-An example biological interaction, represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is shown in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge). 
+An example biological interaction, represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is illustrated in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge). 
 
 .. figure:: figures/figure_example_bio_interaction.png
     :align: center
@@ -18,12 +13,33 @@ An example biological interaction, represented as a directed signed edge between
 |
 |
 
-Interaction attributes
-----------------------
-   
+Example of an interaction list in the BioRECIPE format:
+
+.. figure:: figures/figure_BioRECIPE_ro_format.png
+    :align: center
+    :alt: internal figure
+
+|
+
+As illustrated in the table above, the BioRECIPE representation of an interaction allows for many interaction attributes to be included. Each attribute belongs to one of the following groups:
+
+- node attributes
+- edge attributes
+- context attributes
+- provenance attributes
+
+|
+|
+
+
 The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/index.html#id8>`_.  
 
-.. csv-table:: Element (node) attributes
+|
+
+Element (node) attributes
+-------------------------
+
+.. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
@@ -35,9 +51,13 @@ The following tables provide details for each attribute, including attribute nam
     ID, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
     Compartment, ":math:`a^{\mathrm{compartment}}`", cellular compartment name, ``cytoplasm`` | ``cytosol`` | ``plasma membrane`` | ``nucleus`` | ``mitochondria`` | ``endoplasmic reticulum`` | ``extracellular``, listed under Values
     Compartment ID, ":math:`a^{\mathrm{compartmentID}}`", cellular compartment unique identifier from the GO database,``0005737`` | ``0005829`` | ``0005886`` | ``0005634`` | ``0005739`` | ``0005783`` | ``0005576``, identifiers are listed under Values in the same order as compartment names
-    
+  
+|  
 
-.. csv-table:: Interaction (edge) attributes
+Interaction (edge) attributes
+-----------------------------
+
+.. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
@@ -47,7 +67,12 @@ The following tables provide details for each attribute, including attribute nam
     Mechanism, ":math:`a^{\mathrm{mechanism}}`", "indicates the exact physical interaction, i.e., biological mechanism; value usually included when the Connection Type is direct", ``binding`` | ``phosphorylation`` | ``dephosphorylation`` | ``ubiquitination`` | ``deubiquitination`` | ``acetylation`` | ``deacetylation`` | ``methylation`` | ``demethylation`` | ``transcription`` | ``translation`` | ``translocation``, listed under Values
     Site, ":math:`a^{\mathrm{site}}`", molecular site where the interaction occurs, <molecular site name>, "T308, T450, S473"
 
-.. csv-table:: Context attributes
+|
+
+Context attributes
+------------------
+
+.. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
@@ -56,7 +81,12 @@ The following tables provide details for each attribute, including attribute nam
     Tissue Type, ":math:`a^{\mathrm{tissuetype}}`", tissue type where the interaction is observed, <tissue type name>, "pancreas, colon, brain"
     Organism, ":math:`a^{\mathrm{organism}}`", organism where the interaction is observed, <organism name>, "human, mouse"
 
-.. csv-table:: Evidence attributes
+|
+
+Provenance attributes
+---------------------
+
+.. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
@@ -65,8 +95,12 @@ The following tables provide details for each attribute, including attribute nam
     Statements, ":math:`a^{\mathrm{statements}}`", statements (sentences) where the interaction is found, "<text>; {<text>;}", “Bcl-XL interacts with Apaf-1 and inhibits Apaf-1-dependent caspase-9 activation”
     Paper IDs, ":math:`a^{\mathrm{paperIDs}}`", "if literature, paper IDs where the interaction is found", "<PMCID | PMID> {,<PMCID | PMID>}", PMID9539746
 
+|
 
-.. csv-table:: Other definitions
+Other attribute definitions
+---------------------------
+
+.. csv-table::
     :header: Name, Definition
     :widths: 9, 40
 
@@ -83,13 +117,3 @@ The following tables provide details for each attribute, including attribute nam
     <text>, "any text"
 
 
-|
-
-Interaction list
-----------------
-
-Using the `interaction attributes <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-attributes>`_, one or more interactions can be written in the interaction list table, where each interaction is assigned one row. The column headers match interaction attribute names, as shown in the example table below.
-
-.. figure:: figures/figure_BioRECIPE_ro_format.png
-    :align: center
-    :alt: internal figure
