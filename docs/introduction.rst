@@ -45,10 +45,10 @@ These two formats are shown in the examples below. In interaction list tables, e
     ovarian cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_
 
 |
-|
 
 
-**Citation**
+Citation
+---------
 
 When using the BioRECIPE representation format, please cite the following:
 
