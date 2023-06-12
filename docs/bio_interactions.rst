@@ -13,7 +13,7 @@ An example biological interaction, represented as a directed signed edge between
 |
 |
 
-Example of an interaction list in the BioRECIPE format (current version supports one source node and one target node in each interaction):
+Example of an interaction list in the BioRECIPE format (current version supports one source node and one target node in each interaction). `See real example <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/RAS_reading.xlsx>`_.
 
 .. figure:: figures/figure_BioRECIPE_ro_format.png
     :align: center
