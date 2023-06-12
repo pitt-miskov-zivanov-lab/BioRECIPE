@@ -13,7 +13,7 @@ An example biological interaction, represented as a directed signed edge between
 |
 |
 
-Example of an interaction list in the BioRECIPE format (current version supports one source node and one target node in each interaction). `See real example <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/RAS_reading.xlsx>`_.
+An illustration of the interaction list in the BioRECIPE format, with all the attributes (current version supports one source node and one target node in each interaction). See an example file `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/RAS_reading.xlsx>`_.
 
 .. figure:: figures/figure_BioRECIPE_ro_format.png
     :align: center
@@ -21,10 +21,10 @@ Example of an interaction list in the BioRECIPE format (current version supports
 
 |
 
-As illustrated in the table above, the BioRECIPE representation of an interaction allows for many interaction attributes to be included. Each attribute belongs to one of the following groups:
+As shown in the table above, the BioRECIPE representation of an interaction allows for many interaction attributes to be included. Each attribute belongs to one of the following groups:
 
-- basic node attributes
-- basic edge attributes
+- basic element attributes
+- basic interaction attributes
 - context attributes
 - provenance attributes
 
