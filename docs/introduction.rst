@@ -26,7 +26,7 @@ These two formats are shown in the examples below. In interaction list tables, e
     :header: Name, BioRECIPE representation
     :widths: 30, 70
 
-    Reading output example, <link to example>
+    Reading output example, `link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_
 
 |
 
