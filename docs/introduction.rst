@@ -23,10 +23,10 @@ These two formats are shown in the examples below. In interaction list tables, e
 |
 
 .. csv-table:: Example interaction lists in the BioRECIPE format
-    :header: Name, BioRECIPE representation
+    :header: Description, BioRECIPE representation
     :widths: 30, 70
 
-    Reading output example, `link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_
+    Example 1 (from INDRA), `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_
 
 |
 
@@ -35,14 +35,14 @@ These two formats are shown in the examples below. In interaction list tables, e
     :header: System, BioRECIPE representation, Publication 
     :widths: 30, 30, 40
     
-    T cell, <link to BioRECIPE file>, `link <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
-    CAR T cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    macrophage, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    melanoma, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    pancreatic cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    GBM stem cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    colon cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    ovarian cancer cell, <link to BioRECIPE file>, `link <https://www.nmzlab.pitt.edu/research>`_
+    T cell, download, `Tcell_SciSignal_2013 <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
+    CAR T cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    macrophage, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    melanoma, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    pancreatic cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    GBM stem cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    colon cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
+    ovarian cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_
 
 |
 
