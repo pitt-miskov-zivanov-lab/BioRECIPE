@@ -13,7 +13,7 @@ An example biological interaction, represented as a directed signed edge between
 |
 |
 
-An illustration of the interaction list in the BioRECIPE format, with all the attributes (current version supports one source node and one target node in each interaction). See an example file `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples>`_.
+An illustration of the interaction list in the BioRECIPE format, with all the attributes (current version supports one source node and one target node in each interaction). See an example file `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/RAS_reading.xlsx>`_.
 
 .. figure:: figures/figure_BioRECIPE_ro_format.png
     :align: center
@@ -29,7 +29,7 @@ As shown in the table above, the BioRECIPE representation of an interaction allo
 - provenance attributes
 
 
-The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_.  
+The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in detailed definitions, a brief description of the attribute, allowed values, and a few examples. Additional interaction examples can be found `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples>`_.  
 
 |
 
