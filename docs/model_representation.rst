@@ -24,7 +24,11 @@ In the BioRECIPE format, as part of model representation, each element in a mode
 |
  
 
-Besides the `basic <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#basic-element-attributes>`_ element (node) attributes, `context <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#context-attributes>`_ and `provenance <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#provenance-attributes>`_ are inherited from the interactions in which the element participates, and they are included in the element representation. Additionally, several more attributes are included to define rules for element state changes (regulation attributes) and element state parameters (value and timing attributes) in executable models.
+Besides the `basic <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#basic-element-attributes>`_ element (node) attributes, `context <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#context-attributes>`_ and `provenance <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#provenance-attributes>`_ are inherited from the interactions in which the element participates, and they are included in the element representation. Additionally, several more attributes are included in executable models to define rules for element state changes and element parameters: 
+
+- element regulation attributes
+- element value attributes
+- element timing attributes 
 
 |
 
