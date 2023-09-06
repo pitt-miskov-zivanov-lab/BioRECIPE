@@ -6,7 +6,7 @@ The BioRECIPE format is currently compatible with the following representation f
 
 .. csv-table:: Representation Format Compatibility
     :header: Format Name, Translator
-    :widths: 10, 90
+    :widths: 20, 80
 
     SBML, <link to translator>
     JSON, <link to translator>
@@ -16,7 +16,7 @@ The BioRECIPE format is currently compatible with the following tools, their inp
 
 .. csv-table:: Tool Compatibility
     :header: Tool Name, Translator to BioRECIPE, Translator from BioRECIPE 
-    :widths: 10, 45, 45
+    :widths: 20, 40, 40
 
     REACH, <link to translator>, NA
     TRIPS, <link to translator>, NA
