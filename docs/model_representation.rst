@@ -2,15 +2,11 @@
 Executable models
 #################
 
-The BioRECIPE format supports representation of the static graph structure of models, as well as the attributes necessary to study the dynamics. Models are represented in the BioRECIPE format using *element-based* approach.
+The BioRECIPE format supports representation of the static graph structure of models, as well as attributes necessary to study the dynamics. Models are represented in the BioRECIPE format using *element-based* approach.
 
-A toy example of a model graph, showing input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments is shown in the figure below. (ER-endoplasmic reticulum)
+A toy example of a model graph, showing input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments is shown in the `introduction <https://melody-biorecipe.readthedocs.io/en/latest/introduction.html#introduction>`_. 
 
-.. figure:: figures/figure_toy_model_graph.png
-    :align: center
-    :alt: internal figure
 
-|
 
 Model formats
 -------------
