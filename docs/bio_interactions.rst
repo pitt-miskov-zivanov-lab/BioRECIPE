@@ -99,7 +99,7 @@ Other attribute definitions
 
 .. csv-table::
     :header: Name, Definition
-    :widths: 9, 40
+    :widths: 25, 75
 
     <element name>, "user-defined, typically a commonly used name for the biological species or component"
     <subtype name>, "user-defined, used to specify element beyond just its type"
