@@ -23,10 +23,13 @@ These two formats are shown in the examples below. In interaction list tables, e
 |
 
 .. csv-table:: Example interaction lists in the BioRECIPE format
-    :header: Description, BioRECIPE representation
-    :widths: 30, 70
+    :header: Description, BioRECIPE representation, Notes 
+    :widths: 40, 20, 40
 
-    Example 1 (from INDRA), `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_
+    Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_, translated from INDRA output
+    Example 2, download, tranlsated from REACH output
+    Example 3, download, manually created
+    Example 4, download, obtained using chatGPT
 
 |
 
