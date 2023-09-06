@@ -29,7 +29,7 @@ These two formats are shown in the examples below. In interaction list tables, e
     Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/lee/Reading_Output_Example.xlsx>`_, translated from INDRA output
     Example 2, download, translated from REACH output
     Example 3, download, manually created
-    Example 4, download, obtained using chatGPT
+    Example 4, download, obtained using ChatGPT
 
 |
 
