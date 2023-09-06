@@ -2,7 +2,7 @@
 Interaction lists
 #################
 
-In the BioRECIPE format, interactions can be represented using *event-based* interaction list format where each individual interaction (biological event) is assigned one row. The column headers match interaction attribute names. 
+In the BioRECIPE format, interactions can be represented using the *event-based* interaction list format where each individual interaction (biological event) is assigned one row. The column headers match interaction attribute names. 
 
 An example biological interaction, represented as a directed signed edge between two nodes, including node, edge, context, and provenance attributes is illustrated in the figure below (subscripts: *s* - source node, *t* - target node, *e* - edge). 
 
