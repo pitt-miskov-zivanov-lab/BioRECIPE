@@ -82,25 +82,17 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 
  An element-based executable model is a triple :math:`\mathcal{M}(G,\mathcal{X},\mathcal{F})`, where :math:`G(V,E)` is a static network structure of the model (defined earlier in Definition 3), :math:`\mathcal{X}=\{x_1,x_2,...,x_N\}` is a set of :math:`N` state variables corresponding to nodes in :math:`V=\{v_1,v_2,...,v_N\}`, and :math:`\mathcal{F}=\{f_1,f_2,...,f_N\}` is a set of :math:`N` regulatory (update) functions such that each element :math:`v_i \in V` has a corresponding function :math:`f_i \in \mathcal{F}`.
 
-.. admonition:: Definition 7 - Element state variable
-
- For each element :math:`v_i \in V`, its state variable :math:`x_i \in \mathcal{X}` can take any value from a set or an interval of values :math:`X_i`. The state variable :math:`x_i \in X` can represent either the amount or activity of :math:`v_i`, represented with attribute :math:`a^{\mathrm{valuetype}}`.
-
-.. admonition:: Definition 8 - Number of levels 
-
- When :math:`\mathbb{X}_i` is a set of discrete values, :math:`|\mathbb{X}_i|` is referred to as the number of levels of :math:`v_i`, represented with attribute :math:`a^{\mathrm{levels}}`.
-
-.. admonition:: Definition 9 - Regulators
+.. admonition:: Definition 7 - Regulators
 
  A source node :math:`v_j` of an edge in graph :math:`G(V,E)` that has :math:`v_i` as a target node is called a regulator of :math:`v_i`. In other words, for each element :math:`v_i`, any element :math:`v_j` that influences the state of :math:`v_i` such that the function :math:`f_i` is sensitive to the value of :math:`x_j` is called a regulator of :math:`v_i`.
 
-.. admonition:: Definition 10 - Influence set
+.. admonition:: Definition 8 - Influence set
 
  For each element :math:`v_i`, an influence set, denoted as :math:`V_i^{\mathrm{influence}} \in V`, consists of all regulators of :math:`v_i`. The state variables that correspond to the elements in :math:`V_i^{\mathrm{influence}}` form set :math:`\mathcal{X}_i^{\mathrm{influence}}`
 
-.. admonition:: Definition 11 - Positive regulators
+.. admonition:: Definition 9 - Positive regulators
 
- Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, also belongs to the positive list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{poslist}}`.
+ Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, also belongs to the positive list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{posregulators}}`.
 
 .. admonition:: Definition 12 - Positive regulation rule
 
@@ -113,6 +105,14 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 .. admonition:: Definition 14 - Negative regulation rule
 
  The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a negative regulation rule for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregulation}}`.
+
+.. admonition:: Definition 7 - Element state variable
+
+ For each element :math:`v_i \in V`, its state variable :math:`x_i \in \mathcal{X}` can take any value from a set or an interval of values :math:`X_i`. The state variable :math:`x_i` is represented with attribute :math:`a^{\mathrm{variable}}`, and is assigned either the amount or activity value of :math:`v_i`, represented with attribute :math:`a^{\mathrm{valuetype}}`.
+
+.. admonition:: Definition 8 - Number of levels 
+
+ When :math:`X_i` is a set of discrete values, :math:`|X_i|` is referred to as the number of levels of :math:`v_i`, represented with attribute :math:`a^{\mathrm{levels}}`.
 
 .. admonition:: Definition 15 - 
 
