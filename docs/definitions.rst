@@ -17,9 +17,11 @@ The components of a directed graph :math:`G(V,E)`, and the attributes of these c
     ":math:`v_i=v(\mathbf{a}_i^v)`", "each node :math:`v_i` has an attribute vector :math:`\mathbf{a}^v≡(a^{\mathrm{name}},a^{\mathrm{type}},a^{\mathrm{subtype}},a^{\mathrm{HGNCsymbol}},a^{\mathrm{database}},a^{\mathrm{ID}},a^{\mathrm{compartment}},a^{\mathrm{compartmentID}})`"
     ":math:`e_j=e(V_{s_j},v_{t_j},\mathbf{a}_j^e)`", "each edge :math:`e_j` has one or more source nodes forming a set :math:`V_{s_j}`, a target node :math:`v_{t_j}`, and an attribute vector :math:`\mathbf{a}^e≡(a^{\mathrm{sign}},a^{\mathrm{connectiontype}},a^{\mathrm{mechanism}},a^{\mathrm{site}},a^{\mathrm{cellline}},` :math:`a^{\mathrm{celltype}},a^{\mathrm{tissuetype}},a^{\mathrm{organism}},a^{\mathrm{score}},a^{\mathrm{source}},a^{\mathrm{statements}},a^{\mathrm{paperIDs}})`"
 
+We note here that the BioRECIPE representation format can also be used for undirected graphs - in that case, the distinction between source and target nodes will not be relevant. An undirected graph can be represented in the BioRECIPE format as a `list <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_ of interactions (edges).
+
 |
 
-Biological interaction definitions
+Interaction definitions
 ----------------------------------
 
 In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
@@ -53,11 +55,12 @@ Whenever the information about the non-essential attributes is not available, th
 Executable model definitions
 ----------------------------
 
-All interactions that lead to changes in a single element are combined into an update rule for that element. Since these rules can have different mathematical form, for example, logical, discrete, or continuous functions, we also refer to these models as *hybrid element-based models*.
+All interactions that lead to changes in an element are combined into an update rule for that element. Since these rules can have different mathematical form, for example, logical, discrete, or continuous functions, we also refer to these models as *hybrid element-based models*. 
 
-.. admonition:: Definition 3 - Executable model structure (static)
 
- The static structure of a model can be defined as a directed graph :math:`G(V,E)`, where :math:`V=\{v_1,v_2,...,v_N\}` is a set of nodes, and each node :math:`v_i=v(\mathbf{a}_i^v) (i=1,...,N)` is one model element, while :math:`E=\{e_1,e_2,...,e_M\}` is a set of directed edges, and an edge :math:`e_j=e(v_{s_j},v_{t_j},\mathbf{a}_j^e), (v_{s_j},v_{t_j}\in V,j=1,...,M)` indicates a directed interaction between elements :math:`v_{s_j}` and :math:`v_{t_j}`, in which source node :math:`v_{s_j}` influences target node :math:`v_{t_j}`. Vectors :math:`\mathbf{a}_i^v` and :math:`\mathbf{a}_j^e` are formed following the definitions of node and edge attribute vectors.
+.. admonition:: Definition 3 - Model structure (static)
+
+ The static structure of models represented with the BioRECIPE format is a directed graph :math:`G(V,E)`, where :math:`V=\{v_1,v_2,...,v_N\}` is a set of nodes, and each node :math:`v_i=v(\mathbf{a}_i^v) (i=1,...,N)` is one model element, while :math:`E=\{e_1,e_2,...,e_M\}` is a set of directed edges, and an edge :math:`e_j=e(v_{s_j},v_{t_j},\mathbf{a}_j^e), (v_{s_j},v_{t_j}\in V,j=1,...,M)` indicates a directed interaction between elements :math:`v_{s_j}` and :math:`v_{t_j}`, in which source node :math:`v_{s_j}` influences target node :math:`v_{t_j}`. Vectors :math:`\mathbf{a}_i^v` and :math:`\mathbf{a}_j^e` are formed following the definitions of node and edge attribute vectors.
 
 .. admonition:: Definition 4 - Input and output nodes
 
@@ -77,7 +80,7 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 
 .. admonition:: Definition 6 - Element-based executable model
 
- An element-based model is a triple :math:`\mathcal{M}(G,\mathcal{X},\mathcal{F})`, where :math:`G(V,E)` is a network structure of the model (defined earlier in Definition 3), :math:`\mathcal{X}=\{x_1,x_2,...,x_N\}` is a set of :math:`N` state variables corresponding to nodes in :math:`V=\{v_1,v_2,...,v_N\}`, and :math:`\mathcal{F}=\{f_1,f_2,...,f_N\}` is a set of :math:`N` regulatory (update) functions such that each element :math:`v_i \in V` has a corresponding function :math:`f_i \in \mathcal{F}`.
+ An element-based executable model is a triple :math:`\mathcal{M}(G,\mathcal{X},\mathcal{F})`, where :math:`G(V,E)` is a static network structure of the model (defined earlier in Definition 3), :math:`\mathcal{X}=\{x_1,x_2,...,x_N\}` is a set of :math:`N` state variables corresponding to nodes in :math:`V=\{v_1,v_2,...,v_N\}`, and :math:`\mathcal{F}=\{f_1,f_2,...,f_N\}` is a set of :math:`N` regulatory (update) functions such that each element :math:`v_i \in V` has a corresponding function :math:`f_i \in \mathcal{F}`.
 
 .. admonition:: Definition 7 - Element state variable
 
