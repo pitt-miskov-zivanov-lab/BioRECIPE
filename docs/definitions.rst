@@ -32,6 +32,8 @@ The attribute :math:`a^{\mathrm{name}}` is an element name, usually following th
 
 The node attribute vector :math:`a^v` may also include other attributes that help describe the element. For example, attributes :math:`a^{\mathrm{location}}` and :math:`a^{\mathrm{locationID}}` hold information about the cellular compartment, where the element is found, and the compartment ID, respectively. We use the GO database to obtain these location IDs. A subtype attribute, :math:`a^{\mathrm{subtype}}`, may be used to indicate additional type of an element, such as :math:`a^{\mathrm{subtype}}` = ``receptor`` for an element with :math:`a^{\mathrm{type}}` = ``protein``.
 
+In element-based modeling of biological systems, an element usually represents a biomolecular species, a chemical, or  a biological process. 
+
 .. admonition:: Definition 2 - Interaction (edge) 
 
  A directed signed interaction (also referred to as a directed edge) :math:`e=e(v_s,v_t,\mathbf{a}^e)` is defined with its source element :math:`v_s`, target element :math:`v_t`, and vector of attributes :math:`a^e`. The interaction attribute vector always includes at least the sign :math:`a^{\mathrm{sign}}` and connection type :math:`a^{\mathrm{connectiontype}}` attributes: :math:`\mathbf{a}^e=(a^{\mathrm{sign}},a^{\mathrm{connectiontype}})`. The direction of an interaction is implicitly defined with source and target nodes, and therefore, not explicitly listed among its attributes.
@@ -51,17 +53,15 @@ Whenever the information about the non-essential attributes is not available, th
 Executable model definitions
 ----------------------------
 
-In element-based modeling of biological systems, an element represents a biomolecular species (and in some cases even a biological process) and all reactions that lead to changes in a single species are lumped together within the corresponding element’s update rule. A hybrid element-based model can be more formally defined as follows.
+All interactions that lead to changes in a single element are combined into an update rule for that element. Since these rules can have different mathematical form, for example, logical, discrete, or continuous functions, we also refer to these models as *hybrid element-based models*.
 
 .. admonition:: Definition 3 - Executable model structure (static)
 
  The static structure of a model can be defined as a directed graph :math:`G(V,E)`, where :math:`V=\{v_1,v_2,...,v_N\}` is a set of nodes, and each node :math:`v_i=v(\mathbf{a}_i^v) (i=1,...,N)` is one model element, while :math:`E=\{e_1,e_2,...,e_M\}` is a set of directed edges, and an edge :math:`e_j=e(v_{s_j},v_{t_j},\mathbf{a}_j^e), (v_{s_j},v_{t_j}\in V,j=1,...,M)` indicates a directed interaction between elements :math:`v_{s_j}` and :math:`v_{t_j}`, in which source node :math:`v_{s_j}` influences target node :math:`v_{t_j}`. Vectors :math:`\mathbf{a}_i^v` and :math:`\mathbf{a}_j^e` are formed following the definitions of node and edge attribute vectors.
 
-.. admonition:: Definition 4 - Input node
+.. admonition:: Definition 4 - Input and output node
 
- An input node is a node that is not a target node of any edge in the model, and an output node is a node that is not a source node of any edge in the model.
-
-We also refer to input and output nodes as “hanging” from the rest of the model, and they are often important for modeling outcomes: input nodes are used as pathway catalysts, and output nodes can represent model outcomes.
+ An input node is a node that is not a target node of any edge in the model, and an output node is a node that is not a source node of any edge in the model. In the graph, input and output nodes are “hanging” from the rest of the model.
 
 .. admonition:: Definition 5 - Path
 
