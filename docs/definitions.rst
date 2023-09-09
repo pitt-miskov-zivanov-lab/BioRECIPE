@@ -34,7 +34,7 @@ The attribute :math:`a^{\mathrm{name}}` is an element name, usually following th
 
 The node attribute vector :math:`a^v` may also include other attributes that help describe the element. For example, attributes :math:`a^{\mathrm{location}}` and :math:`a^{\mathrm{locationID}}` hold information about the cellular compartment, where the element is found, and the compartment ID, respectively. We use the GO database to obtain these location IDs. A subtype attribute, :math:`a^{\mathrm{subtype}}`, may be used to indicate additional type of an element, such as :math:`a^{\mathrm{subtype}}` = ``receptor`` for an element with :math:`a^{\mathrm{type}}` = ``protein``.
 
-In element-based modeling of biological systems, an element usually represents a biomolecular species, a chemical, or  a biological process. 
+An element usually represents a biomolecular species, a chemical, or  a biological process. 
 
 .. admonition:: Definition 2 - Interaction (edge) 
 
@@ -52,10 +52,8 @@ Whenever the information about the non-essential attributes is not available, th
 
 |
 
-Executable model definitions
+Model definitions
 ----------------------------
-
-All interactions that lead to changes in an element are combined into an update rule for that element. Since these rules can have different mathematical form, for example, logical, discrete, or continuous functions, we also refer to these models as *hybrid element-based models*. 
 
 
 .. admonition:: Definition 3 - Model structure (static)
@@ -82,54 +80,66 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 
  An element-based executable model is a triple :math:`\mathcal{M}(G,\mathcal{X},\mathcal{F})`, where :math:`G(V,E)` is a static network structure of the model (defined earlier in Definition 3), :math:`\mathcal{X}=\{x_1,x_2,...,x_N\}` is a set of :math:`N` state variables corresponding to nodes in :math:`V=\{v_1,v_2,...,v_N\}`, and :math:`\mathcal{F}=\{f_1,f_2,...,f_N\}` is a set of :math:`N` regulatory (update) functions such that each element :math:`v_i \in V` has a corresponding function :math:`f_i \in \mathcal{F}`.
 
-.. admonition:: Definition 7 - Regulators
+
+.. admonition:: Definition 7 - Hybrid element-based executable model
+
+ When element update function :math:`f_i \in \mathcal{F}` have different mathematical form across elements :math:`v_i \in V` within the same model, for example, logical, discrete, or continuous functions, we refer to these models as *hybrid element-based executable models*. 
+
+.. admonition:: Definition 8 - Regulator
 
  A source node :math:`v_j` of an edge in graph :math:`G(V,E)` that has :math:`v_i` as a target node is called a regulator of :math:`v_i`. In other words, for each element :math:`v_i`, any element :math:`v_j` that influences the state of :math:`v_i` such that the function :math:`f_i` is sensitive to the value of :math:`x_j` is called a regulator of :math:`v_i`.
 
-.. admonition:: Definition 8 - Influence set
+.. admonition:: Definition 9 - Influence set
 
  For each element :math:`v_i`, an influence set, denoted as :math:`V_i^{\mathrm{influence}} \in V`, consists of all regulators of :math:`v_i`. The state variables that correspond to the elements in :math:`V_i^{\mathrm{influence}}` form set :math:`\mathcal{X}_i^{\mathrm{influence}}`
 
-.. admonition:: Definition 9 - Positive and negative regulators
+.. admonition:: Definition 10 - Positive and negative regulators
 
- Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, belongs to the *positive regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{posreglist}}`.  Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a negative sign, :math:`a_e^{\mathrm{sign}}` = ``negative``, belongs to the *negative regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},-} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{neglist}}`.
+ Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, belongs to the *positive regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{posreglist}}`.  Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a negative sign, :math:`a_e^{\mathrm{sign}}` = ``negative``, belongs to the *negative regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},-} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{negreglist}}`.
 
 
-.. admonition:: Definition 10 - Element state variable
+.. admonition:: Definition 11 - Element state variable
 
  For each element :math:`v_i \in V`, its state variable :math:`x_i \in \mathcal{X}` can take any value from a set or an interval of values :math:`X_i`. The state variable :math:`x_i` is represented with attribute :math:`a^{\mathrm{variable}}`, and is assigned either the amount or activity value of :math:`v_i`, represented with attribute :math:`a^{\mathrm{valuetype}}`.
 
 
-.. admonition:: Definition 11 - Positive and negative regulation rules
+.. admonition:: Definition 12 - Positive and negative regulation rules
 
- The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \subset X_i^{\mathrm{influence}}`, and are used for creating a *positive regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{posregulation}}`. 
- The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a *negative regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregulation}}`.
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \subset X_i^{\mathrm{influence}}`, and are used for creating a *positive regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{posregrule}}`. 
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a *negative regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregrule}}`.
 
 
-
-.. admonition:: Definition 8 - Number of levels 
+.. admonition:: Definition 13 - Number of levels 
 
  When :math:`X_i` is a set of discrete values, :math:`|X_i|` is referred to as the number of levels of :math:`v_i`, represented with attribute :math:`a^{\mathrm{levels}}`.
 
-.. admonition:: Definition 15 - 
 
- An array of :math:`k` state values :math:`X_i^{t_0},X_i^{t_1},X_i^{t_2},...,X_i^{t_{k-1}}` that are assigned to :math:`v_i` at :math:`\{t_0,t_1,t_2,...,t_{k-1}\}` time steps during simulation, where :math:`t_0` is the initial time step, and :math:`t_0<t_1<t_2<...<t_{k-1}`, is called state list and is represented with attribute :math:`a^{\mathrm{statelist}}`.
+.. admonition:: Definition 14 - State list
 
-.. admonition:: Definition 16
+ An array of :math:`k` state values :math:`X_i^{t_0},X_i^{t_1},X_i^{t_2},...,X_i^{t_{k-1}}` that are assigned to :math:`v_i` at :math:`\{t_0,t_1,t_2,...,t_{k-1}\}` time steps during simulation, where :math:`t_0` is the initial time step, and :math:`t_0<t_1<t_2<...<t_{k-1}`, is called "state list" and is represented with attribute :math:`a^{\mathrm{statelist}}`.
+
+Multiple state lists are allowed within the BioRECIPE table, in consecutive columns. Columns header include "State list #" where #=0,1,2,...
+
+.. admonition:: Definition 15 - Constant OFF state
 
  When the state variable :math:`x_i` has a constant 0 value throughout the entire simulation, this is referred to as a constant OFF state, and represented with attribute :math:`a^{\mathrm{a^constOFF}}`.
 
-.. admonition:: Definition 17
+.. admonition:: Definition 16 - Constant ON state
 
  When the state variable :math:`x_i` has a constant non-0 value (e.g., the highest value from :math:`X_i`) throughout the entire simulation, this is referred to as a constant ON state, and represented with attribute :math:`a^{\mathrm{constON}}`.
 
-.. admonition:: Definition 18
+.. admonition:: Definition 17 - Next state
 
- The next state of element :math:`v_i`, denoted as :math:`x_i^{*}`, is computed given current states of all elements in its influence set, that is, given values of all variables in :math:`X_i^{\mathrm{influence}}`: :math:`x_i^{*}=f_i(X_i^{\mathrm{influence}})`.
+ The next state of element :math:`v_i`, denoted as :math:`x_i^{*}`, is computed using the element update rule `f_i` and current states of all elements in its influence set, that is, current values of all variables in :math:`X_i^{\mathrm{influence}}`: :math:`x_i^{*}=f_i(X_i^{\mathrm{influence}})`.
 
-In general, functions in :math:`\mathcal{F}` can have different types, discrete or continuous, and moreover, individual elements within the same model could have very different update functions, thus forming hybrid models. The set or interval of possible values, :math:`X_i`, assigned to each model element :math:`x_i` can also vary. The function and element types are usually decided based on the knowledge or the information available about the modeled system and its components.
+|
 
-The element-based modeling approach can represent indirect influences between elements, and it can model systems where the knowledge about element interaction mechanisms is incomplete. Using element update rules in simulations allows for studies of cell dynamics, state transitions, and feedback loops, and does not require full knowledge of the interaction mechanisms. Element-based models can also allow for integration of both prior knowledge and data and analysis of hybrid networks (systems involving protein-protein interactions, gene regulations, and/or metabolic pathways).
+Further notes
+-------------
+
+As stated earlier, functions in :math:`\mathcal{F}` can have different types, discrete or continuous, and moreover, individual elements within the same model could have very different update functions, thus forming hybrid models. The set or interval of possible values, :math:`X_i`, assigned to each model element :math:`x_i` can also vary. The function and element types are usually decided based on the knowledge or the information available about the modeled system and its components. In other words, the element-based modeling approach can represent indirect influences between elements, and it can model systems where the knowledge about element interaction mechanisms is incomplete.
+
+Using such hybrid collection of element update rules across a single model enables model simulation and studies of cell dynamics, state transitions, and feedback loops, with the information that is available, and in the absence of complete knowledge of interaction mechanisms.  Using element update rules in simulations allows for  Element-based models also enable integration of both prior knowledge and data and analysis of hybrid networks (systems involving protein-protein interactions, gene regulations, and/or metabolic pathways).
 
 An example of element-based models are discrete models, where each element state variable :math:`x_i` is assigned a discrete set of values. Following Definition 7, :math:`x_i` can take any value from the set :math:`X_i:\{0,1,2,…,n_{i-1}\}`, where :math:`n_i` is the number of different states that element, :math:`v_i` can have. Often, these different states represent different levels of activity or concentration for element :math:`v_i`. Element update functions in discrete models can be of different type, some examples are ``min`` and ``max`` functions, and (rounded) weighted sums.
 
