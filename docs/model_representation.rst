@@ -4,7 +4,7 @@ Executable models
 
 The BioRECIPE format supports representation of the static graph structure of models, as well as attributes necessary to study the dynamics. Models are represented in the BioRECIPE format using *element-based* approach.
 
-A toy example of a model graph, showing input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments is shown in the `introduction <https://melody-biorecipe.readthedocs.io/en/latest/introduction.html#introduction>`_. 
+A toy example of a model graph, including input and output nodes, directed edges, paths, feedback and feedforward loops, and cellular compartments is shown in the `introduction <https://melody-biorecipe.readthedocs.io/en/latest/introduction.html#introduction>`_. 
 
 
 
@@ -37,10 +37,10 @@ Element regulation attributes
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
-    Positive regulators list, ":math:`a^{\mathrm{poslist}}`", description, "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator :math:`k`>", examples
-    Negative regulators list, ":math:`a^{\mathrm{neglist}}`", description, "<negative regulator 1>, <negative regulator 2>, ..., <negative regulator :math:`l`>", examples
-    Positive regulators, ":math:`a^{\mathrm{posregulation}}`", description, "<string>  //The rules for creating these positive regulation strings are written separately.", examples
-    Negative regulators, ":math:`a^{\mathrm{negregulation}}`", description, "<string>  //The rules for creating these negative regulation strings are written separately.", examples
+    Positive regulators list, ":math:`a^{\mathrm{posreglist}}`", description, "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator :math:`k`>", examples
+    Negative regulators list, ":math:`a^{\mathrm{negreglist}}`", description, "<negative regulator 1>, <negative regulator 2>, ..., <negative regulator :math:`l`>", examples
+    Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", description, "<string>  //The rules for creating these positive regulation strings are written separately.", examples
+    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", description, "<string>  //The rules for creating these negative regulation strings are written separately.", examples
 
 |
 
@@ -51,9 +51,9 @@ Element value attributes
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
 
-    Value Type, ":math:`a^{\mathrm{valuetype}}`", description, ``amount`` | ``activity``, examples
+    Value type, ":math:`a^{\mathrm{valuetype}}`", description, ``amount`` | ``activity``, examples
     Levels, ":math:`a^{\mathrm{levels}}`", description, <number of distinct levels> | ``inf``, examples
-    State List, ":math:`a^{\mathrm{statelist}}`", description, "<value>,<value>[time],...,<value>[time]", examples
+    State list, ":math:`a^{\mathrm{statelist}}`", description, "<value>,<value>[time],...,<value>[time]", examples
     Const OFF, ":math:`a^{\mathrm{constOFF}}`", description, empty | :math:`\checkmark`, examples
     Const ONN, ":math:`a^{\mathrm{constON}}`", description, empty | :math:`\checkmark`, examples
     Increment, ":math:`a^{\mathrm{increment}}`", description, ":math:`\Delta \mathrm{value}`", examples
@@ -70,8 +70,8 @@ Timing attributes
     Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", description, `definition, examples
     Balancing, ":math:`a^{\mathrm{balancing}}`", description, `definition, examples
     Delay, ":math:`a^{\mathrm{delay}}`", description, `definition, examples
-    Update Group, ":math:`a^{\mathrm{updategroup}}`", description, `definition, examples
-    Update Rate, ":math:`a^{\mathrm{updaterate}}`", description, `definition, examples
-    Update Rank, ":math:`a^{\mathrm{updaterank}}`", description, `definition, examples
+    Update group, ":math:`a^{\mathrm{updategroup}}`", description, `definition, examples
+    Update rate, ":math:`a^{\mathrm{updaterate}}`", description, `definition, examples
+    Update rank, ":math:`a^{\mathrm{updaterank}}`", description, `definition, examples
 
 
