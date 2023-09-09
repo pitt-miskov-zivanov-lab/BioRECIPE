@@ -50,7 +50,8 @@ Element value attributes
 .. csv-table:: 
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
-
+    
+    Variable, ":math:`a^{\mathrm{variable}}`", description, <variable_name>, examples
     Value type, ":math:`a^{\mathrm{valuetype}}`", description, ``amount`` | ``activity``, examples
     Levels, ":math:`a^{\mathrm{levels}}`", description, <number of distinct levels> | ``inf``, examples
     State list, ":math:`a^{\mathrm{statelist}}`", description, "<value>,<value>[time],...,<value>[time]", examples
