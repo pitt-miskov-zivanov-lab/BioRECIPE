@@ -24,7 +24,7 @@ We note here that the BioRECIPE representation format can also be used for undir
 Interaction definitions
 ----------------------------------
 
-In the following, we provide formal definitions of the components of a biological interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
+In the following, we provide formal definitions of the components of an interaction, and the attributes of these components. We also include additional details about attributes and examples of their values.
 
 .. admonition:: Definition 1 - Element (node)
 
@@ -90,25 +90,22 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 
  For each element :math:`v_i`, an influence set, denoted as :math:`V_i^{\mathrm{influence}} \in V`, consists of all regulators of :math:`v_i`. The state variables that correspond to the elements in :math:`V_i^{\mathrm{influence}}` form set :math:`\mathcal{X}_i^{\mathrm{influence}}`
 
-.. admonition:: Definition 9 - Positive regulators
+.. admonition:: Definition 9 - Positive and negative regulators
 
- Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, also belongs to the positive list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{posregulators}}`.
+ Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a positive sign, :math:`a_e^{\mathrm{sign}}` = ``positive``, belongs to the *positive regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},+} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{posreglist}}`.  Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a negative sign, :math:`a_e^{\mathrm{sign}}` = ``negative``, belongs to the *negative regulator list* for element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},-} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{neglist}}`.
 
-.. admonition:: Definition 12 - Positive regulation rule
 
- The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \subset X_i^{\mathrm{influence}}`, and are used for creating a positive regulation rule for :math:`v_i`, represented with attribute :math:`a^{\mathrm{posregulation}}`.
-
-.. admonition:: Definition 13 - Negative regulators
-
- Any element :math:`v_j \in V_i^{\mathrm{influence}}`, for which the edge :math:`e(v_j,v_i,\mathbf{a}^e)` has a negative sign, :math:`a_e^{\mathrm{sign}}` = ``negative``, also belongs to the negative list of regulators of element :math:`v_i`, denoted as :math:`v_j \in V_i^{\mathrm{influence},-} \subset V_i^{\mathrm{influence}}`, represented with attribute :math:`a^{\mathrm{neglist}}`.
-
-.. admonition:: Definition 14 - Negative regulation rule
-
- The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a negative regulation rule for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregulation}}`.
-
-.. admonition:: Definition 7 - Element state variable
+.. admonition:: Definition 10 - Element state variable
 
  For each element :math:`v_i \in V`, its state variable :math:`x_i \in \mathcal{X}` can take any value from a set or an interval of values :math:`X_i`. The state variable :math:`x_i` is represented with attribute :math:`a^{\mathrm{variable}}`, and is assigned either the amount or activity value of :math:`v_i`, represented with attribute :math:`a^{\mathrm{valuetype}}`.
+
+
+.. admonition:: Definition 11 - Positive and negative regulation rules
+
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},+}` form set :math:`X_i^{\mathrm{influence},+} \subset X_i^{\mathrm{influence}}`, and are used for creating a *positive regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{posregulation}}`. 
+ The state variables :math:`x_j` that correspond to elements in :math:`V_i^{\mathrm{influence},-}` form set :math:`X_i^{\mathrm{influence},-} \subset X_i^{\mathrm{influence}}`, and are used for creating a *negative regulation rule* for :math:`v_i`, represented with attribute :math:`a^{\mathrm{negregulation}}`.
+
+
 
 .. admonition:: Definition 8 - Number of levels 
 
