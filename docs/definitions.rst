@@ -55,10 +55,11 @@ Whenever the information about the non-essential attributes is not available, th
 Model definitions
 ----------------------------
 
+The BioRECIPE format is most often used to represent models that have a directed graph as their underlying structure, although undirected graphs can be represented as well. 
 
 .. admonition:: Definition 3 - Model structure (static)
 
- The static structure of models represented with the BioRECIPE format is a directed graph :math:`G(V,E)`, where :math:`V=\{v_1,v_2,...,v_N\}` is a set of nodes, and each node :math:`v_i=v(\mathbf{a}_i^v) (i=1,...,N)` is one model element, while :math:`E=\{e_1,e_2,...,e_M\}` is a set of directed edges, and an edge :math:`e_j=e(v_{s_j},v_{t_j},\mathbf{a}_j^e), (v_{s_j},v_{t_j}\in V,j=1,...,M)` indicates a directed interaction between elements :math:`v_{s_j}` and :math:`v_{t_j}`, in which source node :math:`v_{s_j}` influences target node :math:`v_{t_j}`. Vectors :math:`\mathbf{a}_i^v` and :math:`\mathbf{a}_j^e` are formed following the definitions of node and edge attribute vectors.
+ Models that have a directed graph, :math:`G(V,E)`, as their underlying structure, include a set of nodes :math:`V=\{v_1,v_2,...,v_N\}`, where each node :math:`v_i=v(\mathbf{a}_i^v) (i=1,...,N)` is one model element, and a set of directed edges :math:`E=\{e_1,e_2,...,e_M\}`, where an edge :math:`e_j=e(v_{s_j},v_{t_j},\mathbf{a}_j^e), (v_{s_j},v_{t_j}\in V,j=1,...,M)` indicates a directed interaction between elements :math:`v_{s_j}` and :math:`v_{t_j}`, in which source node :math:`v_{s_j}` influences target node :math:`v_{t_j}`. Vectors :math:`\mathbf{a}_i^v` and :math:`\mathbf{a}_j^e` are formed following the definitions of node and edge attribute vectors.
 
 .. admonition:: Definition 4 - Input and output nodes
 
