@@ -56,7 +56,7 @@ Element value attributes
     Levels, ":math:`a^{\mathrm{levels}}`", description, <number of distinct levels> | ``inf``, examples
     State list, ":math:`a^{\mathrm{statelist}}`", description, "<value>,<value>[time],...,<value>[time]", examples
     Const OFF, ":math:`a^{\mathrm{constOFF}}`", description, empty | :math:`\checkmark`, examples
-    Const ONN, ":math:`a^{\mathrm{constON}}`", description, empty | :math:`\checkmark`, examples
+    Const ON, ":math:`a^{\mathrm{constON}}`", description, empty | :math:`\checkmark`, examples
     Increment, ":math:`a^{\mathrm{increment}}`", description, ":math:`\Delta \mathrm{value}`", examples
 
 |
