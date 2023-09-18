@@ -85,7 +85,7 @@ Finally, several new model attributes are included in executable models to defin
     State list number, ":math:`a^{\mathrm{statelist}}`", "State list used in simulation to initialize the element and assign values throughout simulation; multiple state lists can be included and numbered, starting from 0", "<value>,<value>[time],...,<value>[time]", examples
     Const OFF, ":math:`a^{\mathrm{constOFF}}`", "Indicates whether the element is assumed to be at the lowest allowed level (usually 0) for the entire simulation", empty | :math:`\checkmark`, examples
     Const ON, ":math:`a^{\mathrm{constON}}`", "Indicates whether the element is assumed to be at the highest allowed level for the entire simulation", empty | :math:`\checkmark`, examples
-    Increment, ":math:`a^{\mathrm{increment}}`", "When the element is allowed more than two levels, an increment indicates by how many levels it is allowed to increase or decrease in a single time step", ":math:`\Delta \mathrm{value}`", examples
+    Increment, ":math:`a^{\mathrm{increment}}`", "When the element can have more than two different levels, an increment indicates by how many levels it is allowed to increase or decrease in a single time step", ":math:`\Delta \mathrm{value}`", examples
 
 |
 
@@ -94,8 +94,8 @@ Finally, several new model attributes are included in executable models to defin
     :widths: 5, 3, 34, 38, 20
 
 
-    Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has either no positive or no negative regulators", <positive integer>| ``0`` | ``None``, examples
-    Balancing, ":math:`a^{\mathrm{balancing}}`", "Specifies the behavior of the element when its positive and negative regulation levels are equal", ``increase`` {<positive integer> | ``0``} | ``decrease`` {<positive integer> | ``0``} | ``None``, examples
+    Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has only positive or only negative regulators", <non-negative integer> | ``None``, examples
+    Balancing, ":math:`a^{\mathrm{balancing}}`", "Specifies the behavior of the element when its positive and negative regulation levels are equal", {``increase`` <non-negative integer>}  | {``decrease`` <non-negative integer>} | ``None``, examples
     Delay, ":math:`a^{\mathrm{delay}}`", description, definition, examples
     Update group, ":math:`a^{\mathrm{updategroup}}`", description, definition, examples
     Update rate, ":math:`a^{\mathrm{updaterate}}`", description, definition, examples
