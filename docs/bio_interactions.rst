@@ -42,7 +42,7 @@ Basic element attributes
 
     Name, ":math:`a^{\mathrm{name}}`", a common name of a biological component used by experts, <element name>, "ERK1, RAS, p53"
     Type, ":math:`a^{\mathrm{type}}`", biological component type, ``protein`` | ``gene`` | ``chemical`` | ``RNA`` | ``protein family`` | ``biological process``, listed under Values
-    Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, ``receptor`` | <subtype name>, "??"
+    Subtype, ":math:`a^{\mathrm{subtype}}`", element subtype provides additional details for curation, <subtype name>, receptor, kinase, transcription factor
     HGNC Symbol, ":math:`a^{\mathrm{HGNCsymbol}}`", the corresponding gene symbol from the HGNC database, <HGNC unique gene symbol>, "BCL2L1, APAF1"
     Database, ":math:`a^{\mathrm{database}}`", a database where the element ID is found, ``UniProt`` | ``HGNC`` | ``PubChem`` | {``Ensembl`` | ``GENCODE`` | ``RefSeq``} | {``Pfam`` | ``InterPro``} | {``GO`` | ``MeSH``}, listed under Values
     ID, ":math:`a^{\mathrm{ID}}`", unique element ID from an open access database, "<unique identifier> {, <unique identifier>}", "Q07817, O14727"
