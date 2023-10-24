@@ -1,14 +1,15 @@
 # BioRECIPES
 The standard format of model spreadsheet used by MeLoDy Lab
 
-##### Translation from CellDesigner to BioRECIPES
+##### Translation from SBML to BioRECEIPES:
+
+1. First, parse the SBML through CellDesigner software
+2. After you get the converted CellDesigner model file, run the following command: 
 
 ```python
-import celldesigner2qual as casq
-
-casq.map_to_model("examples/map_mapk.xml", "examples/map_mapk_biorecipes.xlsx")
+python run_sbml_biorecipe.py -i [CellDesigner filename] -o [BioRECEIPE filename]
 ```
 
---input: [CellDesigner](https://www.celldesigner.org/models.html) xml file stored in examples/ folder
+--input: Converted [CellDesigner](https://www.celldesigner.org/models.html) xml file stored in examples/ folder
 
 --output: BioRECIPES spreadsheet 

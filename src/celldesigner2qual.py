@@ -65,14 +65,16 @@ Transition = collections.namedtuple(
 INHIBITION = ("INHIBITION", "UNKNOWN_INHIBITION")
 NEGATIVE = ("INHIBITION", "NEGATIVE_INFLUENCE", "UNKNOWN_INHIBITION")
 
-scenario_detailed_col = ['Element Name', 'Element IDs', 'Element Type', 'Element Sub-Type',
-                         'Cell Line', 'Cell Type', 'Tissue Type', 'Location', 'Location ID', 'Variable',
-                         'Positive Regulators', 'Positive Direct', 'Positive Mechanisms',
-                         'Negative Regulators', 'Negative Direct', 'Negative Mechanisms',
-                         'Levels', 'Increment',
-                         'Spontaneous Behavior', 'Balancing Behavior', 'Delay',
-                         'Update Group', 'Update Rate', 'Update Rank',
-                         'Weight', 'scenario']
+# update BioRECEIPE format
+# TODO: multiple scenario translation
+scenario_detailed_col = ['Element Name', 'Element Type', 'Element Subtype', 'Element HGNC Symbol', 'Element Database', 'Element IDs',
+                        'Compartment', 'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism', 'Positive Regulator List',
+                        'Positive Connection Type List', 'Positive Mechanism List', 'Positive Site List', 'Negative Regulator List',
+                        'Negative Connection Type List', 'Negative Mechanism List', 'Negative Site List', 'Score List', 'Source List', 'Statements List', 'Paper IDs List',
+                        'Positive Regulation Rule', 'Negative Regulation Rule', 'Value Type', 'Levels', 'State List 0',
+                         'Increment', 'Spontaneous', 'Balancing',
+                         'Delay', 'Update Group', 'Update Rate', 'Update Rank', 'Const OFF', 'Const ON',
+                         ]
 
 def read_celldesigner(fileobj: IO):
     """Parse the given file."""
@@ -1059,12 +1061,12 @@ def write_biorecipes(filename, info):
 
     for species, data in sorted(info.items()):
         if data["transitions"]:
-            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Location": data["compartment"],
-                            "Variable": data["name"], "Positive Regulators": data["function"][0], "Negative Regulators": data["function"][1],
-                            "Levels": 2, "scenario": 'r'}, ignore_index=True)
+            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
+                            "Variable": data["name"], "Positive Regulation Rule": data["function"][0], "Negative Regulation Rule": data["function"][1],
+                            "Levels": 2, "State List 0": 'r'}, ignore_index=True)
         else:
-            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Location": data["compartment"],
-                            "Variable": data["name"], "Levels": 2, "scenario": 'r'}, ignore_index=True)
+            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
+                            "Variable": data["name"], "Levels": 2, "State List 0": 'r'}, ignore_index=True)
 
     df.to_excel(filename, index=True)
 
