@@ -3,9 +3,7 @@ The standard format of model spreadsheet used by MeLoDy Lab. For more details, p
 
 https://melody-biorecipe.readthedocs.io/en/latest/index.html.
 
-This package 
-
-### Usage
+### SBML translator
 
 To translate files in SBML format to BioRECIPE, you will need to use CellDesigner to convert the pure SBML to CellDesigner extended SBML. 
 
