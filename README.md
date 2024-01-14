@@ -1,15 +1,21 @@
-# BioRECIPES
-The standard format of model spreadsheet used by MeLoDy Lab
+# BioRECIPE Package README
+The standard format of model spreadsheet used by MeLoDy Lab. For more details, please follow the official documentation webpage of BioRECIPE format   
 
-##### Translation from SBML to BioRECEIPES:
+https://melody-biorecipe.readthedocs.io/en/latest/index.html.
 
-1. First, parse the SBML through CellDesigner software
-2. After you get the converted CellDesigner model file, run the following command: 
+This package 
+
+### Usage
+
+To translate files in SBML format to BioRECIPE, you will need to use CellDesigner to convert the pure SBML to CellDesigner extended SBML. 
 
 ```python
-python run_sbml_biorecipe.py -i [CellDesigner filename] -o [BioRECEIPE filename]
+python src/run_sbml_biorecipe.py -i [SBML] -o [BioRECEIPE]
 ```
 
---input: Converted [CellDesigner](https://www.celldesigner.org/models.html) xml file stored in examples/ folder
+Translate SBMLQual to BioRECIPE:
 
---output: BioRECIPES spreadsheet 
+```
+python src/run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
+```
+

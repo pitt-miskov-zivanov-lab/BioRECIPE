@@ -1105,8 +1105,6 @@ def find_neg_regulators(math: Optional[etree.Element], info) -> str:
 
     return ','.join(filter(None, neg_list))
 
-
-
 def add_function_as_rdf(info, species: str, func: str):
     """Add a new RDF element containing the logical function and name."""
     rdf = etree.Element(f"{{{NS['rdf']}}}RDF")
@@ -1132,7 +1130,6 @@ def add_function_as_rdf(info, species: str, func: str):
         },
     )
     add_rdf(info, species, rdf)
-
 
 def map_to_model(map_filename: str, model_filename: str, bma=False):
     """Do the full run with defaults arguments."""
