@@ -2,13 +2,4 @@
     white-space: normal;
 }
 
-.scrollable-table {
-    overflow-x: auto;
-}
 
-.custom-table table thead th {
-    position: sticky;
-    top: 0;
-    background-color: white;
-    z-index: 10;
-}
