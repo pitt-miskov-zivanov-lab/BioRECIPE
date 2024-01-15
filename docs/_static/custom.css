@@ -2,9 +2,13 @@
     white-space: normal;
 }
 
-.rst-content table thead th {
+.scrollable-table {
+    overflow-x: auto;
+}
+
+.custom-table table thead th {
     position: sticky;
     top: 0;
-    background: white;
+    background-color: white;
     z-index: 10;
 }
