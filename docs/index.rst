@@ -16,5 +16,6 @@ Welcome to BioRECIPE's documentation!
    model_representation
    definitions
    compatibility
+   bio_curation
    acknowledgements
    Legal
