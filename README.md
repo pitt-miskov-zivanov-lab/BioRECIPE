@@ -1,19 +1,3 @@
 # BioRECIPE Package README
-The standard format of model spreadsheet used by MeLoDy Lab. For more details, please follow the official documentation webpage of BioRECIPE format   
-
-https://melody-biorecipe.readthedocs.io/en/latest/index.html.
-
-### SBML translator
-
-To translate files in SBML format to BioRECIPE, you will need to use CellDesigner to convert the pure SBML to CellDesigner extended SBML. 
-
-```python
-python src/run_sbml_biorecipe.py -i [SBML] -o [BioRECEIPE]
-```
-
-Translate SBMLQual to BioRECIPE:
-
-```
-python src/run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
-```
-
+The BioRECIPE (Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution) knowledge representation format was introduced to facilitate seamless human-machine interaction while creating, verifying, evaluating, curating, and expanding executable models of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model component, while it is at the same time readable by machines and can be processed by a suite of model development and analysis tools. The BioRECIPE format is compatible with multiple representation formats, machine readers, modeling tools, and databases that are used by the systems biology community. 
+All the details for use of BioRECIPE are provided in the documentation: https://melody-biorecipe.readthedocs.io/en/latest/index.html.
