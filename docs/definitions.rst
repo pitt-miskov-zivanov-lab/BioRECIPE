@@ -84,7 +84,7 @@ For example, in the following figure, on the path from source node :math:`v_6` t
 
 .. admonition:: Definition 7 - Hybrid element-based executable model
 
- When element update function :math:`f_i \in \mathcal{F}` have different mathematical form across elements :math:`v_i \in V` within the same model, for example, logical, discrete, or continuous functions, we refer to these models as *hybrid element-based executable models*. 
+ When element update functions :math:`f_i \in \mathcal{F}` have different mathematical form across elements :math:`v_i \in V` within the same model, for example, logical, discrete, or continuous functions, we refer to these models as *hybrid element-based executable models*. 
 
 .. admonition:: Definition 8 - Regulator
 
