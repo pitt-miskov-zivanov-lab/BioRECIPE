@@ -10,8 +10,8 @@ Biocuration Resource Table - main table
     <div class="sticky-first-column">
 
 .. csv-table::
-    :header: Name,GO (Gene Ontology),miRBase,UniProt,ChEBI (Chemical Entities of Biological Interest),BioGRID (The Biological General Repository for Interaction Datasets),HPRD (Human Protein Reference Database),KEGG (Kyoto Encyclopedia of Genes and Genomes),MINT (Molecular Interaction Database),PathwayCommons ,Reactome,SIGNOR (Signaling Network Open Resource),STITCH (Search Tool for Interacting Chemicals),STRING (Search Tool for Retrieval of Interacting Genes/Proteins),WikiPathways,FLUTE (FiLter for Understanding True Events),INDRA (Integrated Network and Dynamical Reasoning Assembler),IntAct,OmniPath,PCnet (Parsimonius Composite Network),BioModels,CellCollective,Path2Models,MINERVA,BioKC,nDex (The Network Data Exchange),REACH (Reading and Assembling Contextual and Holistic Mechanisms from Text),RLIMS-P (Rule-based Literature Mining System for Protein Phosphorylation),Sparser
-    :widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+    :header: Name,GO (Gene Ontology),miRBase,UniProt,ChEBI,BioGRID,HPRD,KEGG,MINT,PathwayCommons ,Reactome,SIGNOR,STITCH,STRING,WikiPathways,FLUTE,INDRA,IntAct,OmniPath,PCnet,BioModels,CellCollective,Path2Models,MINERVA,BioKC,nDex,REACH,RLIMS-P,Sparser
+    :widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
     Type,Entity database,Entity database,Entity database,Entity database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Interaction database,Metadatabase,Metadatabase,Metadatabase,Metadatabase,Metadatabase,Model repository,Model repository,Model repository,Model repository,Model repository,Model repository/metadatabase,Reader,Reader,Reader
     Curation? (Manual/Automated),Maual and automated,Manual (staff curators),Maual and automated,Manual (staff curators),Manual and automated,Manual (staff curators),Manual (staff curators and data providers),Manual (registered users),Manual (from data providers),Manual (staff curators),Manual (staff curators),Manual and automated,Manual and automated,Manual (registered users),Manual (staff curators),Manual and automated,Manual (staff curators),Manual (staff curators),Manual (staff curators),Manual (registered users),Manual (registered users),Automated (from other databases),Manual (registered users),Manual (registered users),Manual (registered users),N/A,N/A,N/A
@@ -28,6 +28,22 @@ Biocuration Resource Table - main table
 .. raw:: html
 
     </div>
+
+
+- ChEBI: Chemical Entities of Biological Interest
+- BioGRID: The Biological General Repository for Interaction Datasets
+- HPRD: Human Protein Reference Database
+- KEGG: Kyoto Encyclopedia of Genes and Genomes
+- MINT: Molecular Interaction Database
+- SIGNOR: Signaling Network Open Resource
+- STITCH: Search Tool for Interacting Chemicals
+- STRING: Search Tool for Retrieval of Interacting Genes/Proteins
+- FLUTE: FiLter for Understanding True Events
+- INDRA: Integrated Network and Dynamical Reasoning Assembler
+- PCnet: Parsimonius Composite Network
+- nDex: The Network Data Exchange
+- REACH: Reading and Assembling Contextual and Holistic Mechanisms from Text
+- RRLIMS-P: Rule-based Literature Mining System for Protein Phosphorylation
 
 
 | 
