@@ -5,6 +5,12 @@
 # __author__ = "Difei Tang"
 # __email__ = "DIT18@pitt.edu"
 
+# To use this translator
+# python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
+
+# where you need to have the terminal work in the directory of this python script
+# and [SBMLQual] is the path and name of SBMLQual file, and [BioRECIPE] is the generated file in BioRecipes format
+
 import bs4
 import pandas as pd
 import argparse
