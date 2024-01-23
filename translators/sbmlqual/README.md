@@ -4,6 +4,6 @@
 Translate SBMLQual to BioRECIPE:
 
 ```
-python src/run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
+python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
 ```
 
