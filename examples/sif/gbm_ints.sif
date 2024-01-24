@@ -1,0 +1,665 @@
+AKT_prot_act	AKT_prot	POSITIVE	protein	
+AKT_prot_act	mTORc2_prot_act	POSITIVE	protein	
+AKT_gene			Gene	
+AKT_prot	AKT_gene	POSITIVE	protein	
+AMPK_prot_act			protein	
+AMPK_gene			Gene	
+AMPK_prot	AMPK_gene	POSITIVE	protein	
+Apaf1_prot_act	Apaf1_prot	POSITIVE	protein	
+Apaf1_prot_act	CytoC_prot_act	POSITIVE	protein	
+Apaf1_gene			Gene	
+Apaf1_prot	Apaf1_gene	POSITIVE	protein	
+apoptosis	Casp3_6_7_prot_act	POSITIVE	biological	
+apoptosis	Casp8_prot_act	POSITIVE	biological	
+ASCL1_prot_act	ASCL1_prot	POSITIVE	protein	
+ASCL1_prot_act	PRC1_prot_act	NEGATIVE	protein	
+ASCL1_gene			Gene	
+ASCL1_prot	ASCL1_gene	POSITIVE	protein	
+astro_diff	STAT3_prot_act	POSITIVE	biological	
+ATM_prot_act	ATM_prot	POSITIVE	protein	
+ATM_prot_act	FOXO_prot_act	POSITIVE	protein	
+ATM_gene			Gene	
+ATM_prot	ATM_gene	POSITIVE	protein	
+ATP			Chemical	
+AURA_B_prot_act	AURA_B_prot	POSITIVE	protein	
+AURA_B_gene			Gene	
+AURA_B_prot	AURA_B_gene	POSITIVE	protein	
+Bad_prot_act	Bad_prot	POSITIVE	protein	
+Bad_prot_act	AKT_prot_act	NEGATIVE	protein	
+Bad_prot_act	Bcl2_prot_act	NEGATIVE	protein	
+Bad_gene			Gene	
+Bad_prot	Bad_gene	POSITIVE	protein	
+Bax_prot_act	Bad_prot_act	POSITIVE	protein	
+Bax_prot_act	Bax_prot	POSITIVE	protein	
+Bax_prot_act	Bcl2_prot_act	NEGATIVE	protein	
+Bax_prot_act	BclXL_prot_act	NEGATIVE	protein	
+Bax_gene			Gene	
+Bax_prot	Bax_gene	POSITIVE	protein	
+Bcl2_gene	STAT3_prot_act	POSITIVE	Gene	
+Bcl2_prot_act	Bcl2_prot	POSITIVE	protein	
+Bcl2_prot_act	ERK_prot_act	POSITIVE	protein	
+Bcl2_prot_act	Bad_prot_act	NEGATIVE	protein	
+Bcl2_prot	Bcl2_gene	POSITIVE	protein	
+BclXL_gene	STAT3_prot_act	POSITIVE	Gene	
+BclXL_gene	p50_p65_prot_act	POSITIVE	Gene	
+BclXL_prot_act	BclXL_prot	POSITIVE	protein	
+BclXL_prot_act	ERK_prot_act	POSITIVE	protein	
+BclXL_prot_act	Bad_prot_act	NEGATIVE	protein	
+BclXL_prot	BclXL_gene	POSITIVE	protein	
+beta_cat_prot_act	beta_cat_prot	POSITIVE	protein	
+beta_cat_prot_act	AKT_prot_act	POSITIVE	protein	
+beta_cat_prot_act	GSK3B_prot_act	NEGATIVE	protein	
+beta_cat_gene			Gene	
+beta_cat_prot	beta_cat_gene	POSITIVE	protein	
+c_myc_gene	E2F_prot_act	POSITIVE	Gene	
+c_myc_gene	TCF_LEF_prot_act	POSITIVE	Gene	
+c_myc_gene	beta_cat_prot_act	POSITIVE	Gene	
+c_myc_gene	NOTCH_prot_act	POSITIVE	Gene	
+c_myc_prot_act	c_myc_prot	POSITIVE	protein	
+c_myc_prot_act	ERK_prot_act	POSITIVE	protein	
+c_myc_prot	c_myc_gene	POSITIVE	protein	
+Casp3_6_7_prot_act	Casp3_6_7_prot	POSITIVE	protein	
+Casp3_6_7_prot_act	Casp9_prot_act	POSITIVE	protein	
+Casp3_6_7_gene			Gene	
+Casp3_6_7_prot	Casp3_6_7_gene	POSITIVE	protein	
+Casp8_prot_act	Casp8_prot	POSITIVE	protein	
+Casp8_prot_act	FAS_prot_act	POSITIVE	protein	
+Casp8_gene			Gene	
+Casp8_prot	Casp8_gene	POSITIVE	protein	
+Casp9_prot_act	Casp9_prot	POSITIVE	protein	
+Casp9_prot_act	Apaf1_prot_act	POSITIVE	protein	
+Casp9_gene			Gene	
+Casp9_prot	Casp9_gene	POSITIVE	protein	
+CBL_prot_act	CBL_prot	POSITIVE	protein	
+CBL_gene			Gene	
+CBL_prot	CBL_gene	POSITIVE	protein	
+CD44_prot_act	CD44_prot	POSITIVE	protein	
+CD44_gene			Gene	
+CD44_prot	CD44_gene	POSITIVE	protein	
+cdc25A_gene	c_myc_prot_act	POSITIVE	Gene	
+cdc25A_gene	STAT3_prot_act	POSITIVE	Gene	
+cdc25A_prot_act_cyto	cdc25A_prot	POSITIVE	protein	
+cdc25A_prot_act_cyto	Raf_dimer_prot_act	POSITIVE	protein	
+cdc25A_prot_act_cyto	CDK1_cycB_prot_act	POSITIVE	protein	
+cdc25A_prot_act_cyto	Chk1_2_prot_act	NEGATIVE	protein	
+cdc25A_prot_act_nuc	cdc25A_prot_act_cyto	POSITIVE	protein	
+cdc25A_prot_act_nuc	PLK1_prot_act	POSITIVE	protein	
+cdc25A_prot	cdc25A_gene	POSITIVE	protein	
+CDK1_cycB_prot_act	CDK1_cycB_prot	POSITIVE	protein	
+CDK1_cycB_prot_act	cdc25A_prot_act_nuc	POSITIVE	protein	
+CDK1_cycB_prot_act	p21_prot_act	NEGATIVE	protein	
+CDK1_cycB_prot_act	MYT1_prot_act	NEGATIVE	protein	
+CDK1_cycB_gene			Gene	
+CDK1_cycB_prot	CDK1_cycB_gene	POSITIVE	protein	
+CDK2_prot_act	Protein_synthesis	POSITIVE	protein	
+CDK2_prot_act	CDK2_prot	POSITIVE	protein	
+CDK2_prot_act	CDK1_cycB_prot	POSITIVE	protein	
+CDK2_gene			Gene	
+CDK2_prot	CDK2_gene	POSITIVE	protein	
+CDK6_prot_act	CDK6_prot	POSITIVE	protein	
+CDK6_prot_act	Protein_synthesis	POSITIVE	protein	
+CDK6_gene			Gene	
+CDK6_prot	CDK6_gene	POSITIVE	protein	
+Cell_cycle_progression	CDK1_cycB_prot_act	POSITIVE	biological	
+Cell_cycle_progression	E2F_prot_act	POSITIVE	biological	
+Chk1_2_prot_act	ATM_prot_act	POSITIVE	protein	
+Chk1_2_prot_act	Chk1_2_prot	POSITIVE	protein	
+Chk1_2_gene			Gene	
+Chk1_2_prot	Chk1_2_gene	POSITIVE	protein	
+cycD_CDK4_6_prot_act	cycD_prot_act	POSITIVE	protein	
+cycD_CDK4_6_prot_act	CDK6_prot_act	POSITIVE	protein	
+cycD_CDK4_6_prot_act	c_myc_prot_act	POSITIVE	protein	
+cycD_CDK4_6_prot_act	cdc25A_prot_act_nuc	POSITIVE	protein	
+cycD_CDK4_6_prot_act	p15_prot_act	NEGATIVE	protein	
+cycD_CDK4_6_prot_act	p16_prot_act	NEGATIVE	protein	
+cycD_CDK4_6_prot_act	p21_prot_act	NEGATIVE	protein	
+cycD_CDK4_6_prot_act	p27_prot_act	NEGATIVE	protein	
+cycD_gene	E2F_prot_act	POSITIVE	Gene	
+cycD_gene	STAT3_prot_act	POSITIVE	Gene	
+cycD_gene	TCF_LEF_prot_act	POSITIVE	Gene	
+cycD_gene	GLI_prot_act	POSITIVE	Gene	
+cycD_gene	NOTCH_prot_act	POSITIVE	Gene	
+cycD_prot_act	cycD_prot	POSITIVE	protein	
+cycD_prot_act	GSK3B_prot_act	POSITIVE	protein	
+cycD_prot	cycD_gene	POSITIVE	protein	
+cycE_CDK2_prot_act	cycE_prot_act	POSITIVE	protein	
+cycE_CDK2_prot_act	CDK2_prot_act	POSITIVE	protein	
+cycE_CDK2_prot_act	cdc25A_prot_act_nuc	POSITIVE	protein	
+cycE_gene			Gene	
+cycE_prot_act	cycE_prot	POSITIVE	protein	
+cycE_prot_act	CD44_prot_act	POSITIVE	protein	
+cycE_prot	cycE_gene	POSITIVE	protein	
+CytoC_prot_act	CytoC_prot	POSITIVE	protein	
+CytoC_prot_act	Bax_prot_act	POSITIVE	protein	
+CytoC_gene			Gene	
+CytoC_prot	CytoC_gene	POSITIVE	protein	
+DELTA_prot_act	DELTA_prot	POSITIVE	protein	
+DELTA_gene			Gene	
+DELTA_prot	DELTA_gene	POSITIVE	protein	
+DKK_gene	TCF_LEF_prot_act	POSITIVE	Gene	
+DKK_gene	ASCL1_prot_act	NEGATIVE	Gene	
+DKK_prot_act	DKK_prot	POSITIVE	protein	
+DKK_prot	DKK_gene	POSITIVE	protein	
+dna_damage	ROS	POSITIVE	biological	
+dna_damage	PARP1_prot_act	NEGATIVE	biological	
+DVL_prot_act	DVL_prot	POSITIVE	protein	
+DVL_prot_act	LRP_Fz_prot_act	POSITIVE	protein	
+DVL_gene			Gene	
+DVL_prot	DVL_gene	POSITIVE	protein	
+E2F_prot_act	E2F_prot	POSITIVE	protein	
+E2F_prot_act	Rb_prot_act	NEGATIVE	protein	
+E2F_gene			Gene	
+E2F_prot	E2F_gene	POSITIVE	protein	
+EGF_prot_act	EGF_prot	POSITIVE	protein	
+EGF_gene			Gene	
+EGF_prot	EGF_gene	POSITIVE	protein	
+EGFR_prot	EGFR_gene	POSITIVE	protein	
+EGFR_prot_act	EGFR_prot	POSITIVE	protein	
+EGFR_prot_act	EGF_prot_act	POSITIVE	protein	
+EGFR_prot_act	CBL_prot_act	NEGATIVE	protein	
+EGFR_gene			Gene	
+eIF4E_prot_act	eIF4E_prot	POSITIVE	protein	
+eIF4E_prot_act	EIF4EBP1_prot_act	NEGATIVE	protein	
+eIF4E_gene			Gene	
+eIF4E_prot	eIF4E_gene	POSITIVE	protein	
+EIF4EBP1_prot_act	EIF4EBP1_prot	POSITIVE	protein	
+EIF4EBP1_prot_act	eIF4E_prot_act	POSITIVE	protein	
+EIF4EBP1_prot_act	mTORc1_prot_act	NEGATIVE	protein	
+EIF4EBP1_gene			Gene	
+EIF4EBP1_prot	EIF4EBP1_gene	POSITIVE	protein	
+EphA2_prot_act	EphA2_prot	POSITIVE	protein	
+EphA2_gene			Gene	
+EphA2_prot	EphA2_gene	POSITIVE	protein	
+ERBB2_prot_act	ERBB2_prot	POSITIVE	protein	
+ERBB2_gene			Gene	
+ERBB2_prot	ERBB2_gene	POSITIVE	protein	
+ERBB3_prot_act	ERBB3_prot	POSITIVE	protein	
+ERBB3_gene			Gene	
+ERBB3_prot	ERBB3_gene	POSITIVE	protein	
+ERK_gene	CD44_prot_act	POSITIVE	Gene	
+ERK_gene	NF2_prot_act	POSITIVE	Gene	
+ERK_prot_act	ERK_prot	POSITIVE	protein	
+ERK_prot_act	MEK_prot_act	POSITIVE	protein	
+ERK_prot	ERK_gene	POSITIVE	protein	
+F_ACTIN_prot_act	F_ACTIN_prot	POSITIVE	protein	
+F_ACTIN_gene			Gene	
+F_ACTIN_prot	F_ACTIN_gene	POSITIVE	protein	
+FASL_gene			Gene	
+FASL_prot_act	FASL_prot	POSITIVE	protein	
+FASL_prot	FASL_gene	POSITIVE	protein	
+FAS_gene	p53_prot_act	POSITIVE	Gene	
+FAS_prot_act	FAS_prot	POSITIVE	protein	
+FAS_prot_act	FASL_prot_act	POSITIVE	protein	
+FAS_prot	FAS_gene	POSITIVE	protein	
+FOXO_prot_act	FOXO_prot	POSITIVE	protein	
+FOXO_prot_act	AMPK_prot_act	POSITIVE	protein	
+FOXO_prot_act	SKP2_prot_act	NEGATIVE	protein	
+FOXO_gene			Gene	
+FOXO_prot	FOXO_gene	POSITIVE	protein	
+FRINGE_prot_act	FRINGE_prot	POSITIVE	protein	
+FRINGE_gene			Gene	
+FRINGE_prot	FRINGE_gene	POSITIVE	protein	
+FRMD_prot_act	FRMD_prot	POSITIVE	protein	
+FRMD_gene			Gene	
+FRMD_prot	FRMD_gene	POSITIVE	protein	
+GAB1_prot_act	GAB1_prot	POSITIVE	protein	
+GAB1_prot_act	Grb2_prot_act	POSITIVE	protein	
+GAB1_prot_act	ERK_prot_act	NEGATIVE	protein	
+GAB1_gene			Gene	
+GAB1_prot	GAB1_gene	POSITIVE	protein	
+GLI_prot_act	GLI_prot	POSITIVE	protein	
+GLI_gene			Gene	
+GLI_prot	GLI_gene	POSITIVE	protein	
+Grb2_prot_act	Grb2_prot	POSITIVE	protein	
+Grb2_prot_act	IRS_prot_act	POSITIVE	protein	
+Grb2_prot_act	Grb2_prot	POSITIVE	protein	
+Grb2_prot_act	ERBB2_prot_act	POSITIVE	protein	
+Grb2_prot_act	Grb2_prot	POSITIVE	protein	
+Grb2_prot_act	ERBB2_prot_act	POSITIVE	protein	
+Grb2_prot_act	ERBB3_prot_act	POSITIVE	protein	
+Grb2_prot_act	Grb2_prot	POSITIVE	protein	
+Grb2_prot_act	SHC_prot_act	POSITIVE	protein	
+Grb2_gene			Gene	
+Grb2_prot	Grb2_gene	POSITIVE	protein	
+GSK3B_prot_act	GSK3B_prot	POSITIVE	protein	
+GSK3B_gene			Gene	
+GSK3B_prot	GSK3B_gene	POSITIVE	protein	
+HH_prot_act	HH_prot	POSITIVE	protein	
+HH_gene			Gene	
+HH_prot	HH_gene	POSITIVE	protein	
+Hif1a_gene	STAT3_prot_act	POSITIVE	Gene	
+Hif1a_prot_act	Hif1a_prot	POSITIVE	protein	
+Hif1a_prot_act	Hypoxia	POSITIVE	protein	
+Hif1a_prot_act	mTORc1_prot_act	POSITIVE	protein	
+Hif1a_prot	Hif1a_gene	POSITIVE	protein	
+Hypoxia			biological	
+IkB_a_prot_act	IkB_a_prot	POSITIVE	protein	
+IkB_a_prot_act	IKK_prot_act	POSITIVE	protein	
+IkB_a_gene			Gene	
+IkB_a_prot	IkB_a_gene	POSITIVE	protein	
+IKK_prot_act	IKK_prot	POSITIVE	protein	
+IKK_prot_act	MAP3K7_prot_act	POSITIVE	protein	
+IKK_gene			Gene	
+IKK_prot	IKK_gene	POSITIVE	protein	
+INSR_prot	INSR_gene	POSITIVE	protein	
+INSR_prot_act	INSR_prot	POSITIVE	protein	
+INSR_prot_act	Insulin	POSITIVE	protein	
+INSR_prot_act	SOCS_prot_act	NEGATIVE	protein	
+INSR_gene			Gene	
+Insulin			Chemical	
+IRS_prot_act	INSR_prot_act	POSITIVE	protein	
+IRS_prot_act	IRS_prot	POSITIVE	protein	
+IRS_prot_act	AMPK_prot_act	POSITIVE	protein	
+IRS_prot_act	IRS_prot	POSITIVE	protein	
+IRS_prot_act	Insulin	NEGATIVE	protein	
+IRS_gene			Gene	
+IRS_prot	IRS_gene	POSITIVE	protein	
+JAK2_prot_act	JAK2_prot	POSITIVE	protein	
+JAK2_prot_act	SOCS_prot_act	NEGATIVE	protein	
+JAK2_prot_act	CBL_prot_act	NEGATIVE	protein	
+JAK2_gene			Gene	
+JAK2_prot	JAK2_gene	POSITIVE	protein	
+KIBRA_gene	CD44_prot_act	POSITIVE	Gene	
+KIBRA_gene	NF2_prot_act	POSITIVE	Gene	
+KIBRA_prot_act	KIBRA_prot	POSITIVE	protein	
+KIBRA_prot	KIBRA_gene	POSITIVE	protein	
+KIF7_prot_act	KIF7_prot	POSITIVE	protein	
+KIF7_gene			Gene	
+KIF7_prot	KIF7_gene	POSITIVE	protein	
+LATS1_2_prot_act	LATS1_2_prot	POSITIVE	protein	
+LATS1_2_prot_act	MOB_prot_act	POSITIVE	protein	
+LATS1_2_gene			Gene	
+LATS1_2_prot	LATS1_2_gene	POSITIVE	protein	
+LRP_Fz_gene			Gene	
+LRP_Fz_prot	LRP_Fz_gene	POSITIVE	protein	
+LRP_Fz_prot_act	LRP_Fz_prot	POSITIVE	protein	
+LRP_Fz_prot_act	Wnt_prot_act	POSITIVE	protein	
+LRP_Fz_prot_act	DKK_prot_act	NEGATIVE	protein	
+MAP3K7_prot_act	MAP3K7_prot	POSITIVE	protein	
+MAP3K7_prot_act	RIP1_prot_act	POSITIVE	protein	
+MAP3K7_gene			Gene	
+MAP3K7_prot	MAP3K7_gene	POSITIVE	protein	
+MDM2_gene	p53_prot_act	POSITIVE	Gene	
+MDM2_gene	MUT_MDM2	POSITIVE	Gene	
+MDM2_prot_act	MDM2_prot	POSITIVE	protein	
+MDM2_prot_act	AKT_prot_act	POSITIVE	protein	
+MDM2_prot_act	p16_prot_act	NEGATIVE	protein	
+MDM2_prot_act	PTEN_prot_act	NEGATIVE	protein	
+MDM2_prot	MDM2_gene	POSITIVE	protein	
+MDMX_prot_act	MDMX_prot	POSITIVE	protein	
+MDMX_prot_act	dna_damage	POSITIVE	protein	
+MDMX_prot_act	MDM2_prot_act	NEGATIVE	protein	
+MDMX_prot_act	ATM_prot_act	NEGATIVE	protein	
+MDMX_gene			Gene	
+MDMX_prot	MDMX_gene	POSITIVE	protein	
+MEK_prot_act	MEK_prot	POSITIVE	protein	
+MEK_prot_act	Raf_dimer_prot_act	POSITIVE	protein	
+MEK_prot_act	MEK_prot	POSITIVE	protein	
+MEK_prot_act	PKC_prot_act	POSITIVE	protein	
+MEK_gene			Gene	
+MEK_prot	MEK_gene	POSITIVE	protein	
+MER_prot_act	MER_prot	POSITIVE	protein	
+MER_gene			Gene	
+MER_prot	MER_gene	POSITIVE	protein	
+Met_prot_act	Met_prot	POSITIVE	protein	
+Met_gene			Gene	
+Met_prot	Met_gene	POSITIVE	protein	
+MOB_prot_act	MOB_prot	POSITIVE	protein	
+MOB_prot_act	MST1_2_prot_act	POSITIVE	protein	
+MOB_gene			Gene	
+MOB_prot	MOB_gene	POSITIVE	protein	
+MST1_2_prot_act	MST1_2_prot	POSITIVE	protein	
+MST1_2_prot_act	SAV1_prot_act	POSITIVE	protein	
+MST1_2_prot_act	RASSF6_prot_act	NEGATIVE	protein	
+MST1_2_prot_act	PP2A_prot_act	NEGATIVE	protein	
+MST1_2_gene			Gene	
+MST1_2_prot	MST1_2_gene	POSITIVE	protein	
+mTORc1_prot_act	mTORc1_prot	POSITIVE	protein	
+mTORc1_prot_act	PIP3	POSITIVE	protein	
+mTORc1_prot_act	PRAS_prot_act	POSITIVE	protein	
+mTORc1_prot_act	AMPK_prot_act	NEGATIVE	protein	
+mTORc1_prot_act	mTORc1_prot	POSITIVE	protein	
+mTORc1_prot_act	Rheb_prot_act	POSITIVE	protein	
+mTORc1_prot_act	mTORc1_prot	POSITIVE	protein	
+mTORc1_prot_act	RPS6KA1_prot_act	POSITIVE	protein	
+mTORc1_prot_act	Hif1a_prot_act	NEGATIVE	protein	
+mTORc1_gene			Gene	
+mTORc1_prot	mTORc1_gene	POSITIVE	protein	
+mTORc2_prot_act	mTORc2_prot	POSITIVE	protein	
+mTORc2_gene			Gene	
+mTORc2_prot	mTORc2_gene	POSITIVE	protein	
+MUT_CDKN2A			Mutation	
+MUT_MDM2			Mutation	
+MUT_PDGFRA			Mutation	
+MUT_PTEN			Mutation	
+MYT1_prot_act	MYT1_prot	POSITIVE	protein	
+MYT1_prot_act	PLK1_prot_act	NEGATIVE	protein	
+MYT1_prot_act	RPS6KA1_prot_act	NEGATIVE	protein	
+MYT1_gene			Gene	
+MYT1_prot	MYT1_gene	POSITIVE	protein	
+Nestin_prot_act	Nestin_prot	POSITIVE	protein	
+Nestin_prot	Nestin_gene	POSITIVE	protein	
+Nestin_gene	NOTCH_prot_act	POSITIVE	Gene	
+neuronal_diff	ASCL1_prot_act	POSITIVE	biological	
+NF1_prot_act	NF1_prot	POSITIVE	protein	
+NF1_prot_act	Nestin_prot_act	NEGATIVE	protein	
+NF1_gene			Gene	
+NF1_prot	NF1_gene	POSITIVE	protein	
+NF2_prot_act	NF2_prot	POSITIVE	protein	
+NF2_prot_act	AKT_prot_act	NEGATIVE	protein	
+NF2_gene			Gene	
+NF2_prot	NF2_gene	POSITIVE	protein	
+NLK_prot_act	NLK_prot	POSITIVE	protein	
+NLK_prot_act	MAP3K7_prot_act	POSITIVE	protein	
+NLK_gene			Gene	
+NLK_prot	NLK_gene	POSITIVE	protein	
+NOTCH_prot_act	NOTCH_prot	POSITIVE	protein	
+NOTCH_prot_act	GSK3B_prot_act	POSITIVE	protein	
+NOTCH_prot_act	NOTCH_prot	POSITIVE	protein	
+NOTCH_prot_act	DELTA_prot_act	POSITIVE	protein	
+NOTCH_prot_act	FRINGE_prot_act	POSITIVE	protein	
+NOTCH_prot_act	DVL_prot_act	NEGATIVE	protein	
+NOTCH_prot_act	NUMB_prot_act	NEGATIVE	protein	
+NOTCH_prot_act	SERRATE_prot_act	NEGATIVE	protein	
+NOTCH_gene			Gene	
+NOTCH_prot	NOTCH_gene	POSITIVE	protein	
+NSB1_prot_act	NSB1_prot	POSITIVE	protein	
+NSB1_prot_act	ATM_prot_act	POSITIVE	protein	
+NSB1_gene			Gene	
+NSB1_prot	NSB1_gene	POSITIVE	protein	
+NUMB_prot_act	NUMB_prot	POSITIVE	protein	
+NUMB_gene			Gene	
+NUMB_prot	NUMB_gene	POSITIVE	protein	
+p15_gene	FOXO_prot_act	POSITIVE	Gene	
+p15_gene	SMAD2_3_4_prot_act	POSITIVE	Gene	
+p15_gene	SMAD2_3_4_prot_act	NEGATIVE	Gene	
+p15_gene	c_myc_prot_act	NEGATIVE	Gene	
+p15_prot_act	p15_prot	POSITIVE	protein	
+p15_prot	p15_gene	POSITIVE	protein	
+p16_prot_act	p16_prot	POSITIVE	protein	
+p16_prot_act	RAS_prot_act	POSITIVE	protein	
+p16_prot_act	p16_prot	POSITIVE	protein	
+p16_prot_act	c_myc_prot_act	NEGATIVE	protein	
+p16_prot_act	PRC1_prot_act	NEGATIVE	protein	
+p16_prot_act	MUT_CDKN2A	NEGATIVE	protein	
+p16_gene			Gene	
+p16_prot	p16_gene	POSITIVE	protein	
+p21_gene	FOXO_prot_act	POSITIVE	Gene	
+p21_gene	E2F_prot_act	POSITIVE	Gene	
+p21_gene	p53_prot_act	POSITIVE	Gene	
+p21_gene	c_myc_prot_act	NEGATIVE	Gene	
+p21_prot_act	p21_prot	POSITIVE	protein	
+p21_prot_act	Raf_dimer_prot_act	POSITIVE	protein	
+p21_prot_act	SMAD2_3_4_prot_act	POSITIVE	protein	
+p21_prot_act	AKT_prot_act	POSITIVE	protein	
+p21_prot_act	SKP2_prot_act	NEGATIVE	protein	
+p21_prot	p21_gene	POSITIVE	protein	
+p27_gene	FOXO_prot_act	POSITIVE	Gene	
+p27_prot_act	p27_prot	POSITIVE	protein	
+p27_prot_act	SKP2_prot_act	NEGATIVE	protein	
+p27_prot_act	AKT_prot_act	NEGATIVE	protein	
+p27_prot_act	cycE_CDK2_prot_act	NEGATIVE	protein	
+p27_prot	p27_gene	POSITIVE	protein	
+p50_p65_prot_act	p50_p65_prot	POSITIVE	protein	
+p50_p65_prot_act	IkB_a_prot_act	POSITIVE	protein	
+p50_p65_gene			Gene	
+p50_p65_prot	p50_p65_gene	POSITIVE	protein	
+p53_gene	STAT3_prot_act	NEGATIVE	Gene	
+p53_prot_act	p53_prot	POSITIVE	protein	
+p53_prot_act	ATM_prot_act	POSITIVE	protein	
+p53_prot_act	p53_prot	POSITIVE	protein	
+p53_prot_act	ATM_prot_act	POSITIVE	protein	
+p53_prot_act	MDM2_prot_act	NEGATIVE	protein	
+p53_prot_act	MDMX_prot_act	NEGATIVE	protein	
+p53_prot_act	Chk1_2_prot_act	NEGATIVE	protein	
+p53_prot	p53_gene	POSITIVE	protein	
+PARP1_prot_act	PARP1_prot	POSITIVE	protein	
+PARP1_prot_act	ROS	POSITIVE	protein	
+PARP1_gene			Gene	
+PARP1_prot	PARP1_gene	POSITIVE	protein	
+PDGF_prot_act	PDGF_prot	POSITIVE	protein	
+PDGF_gene			Gene	
+PDGF_prot	PDGF_gene	POSITIVE	protein	
+PDGFRA_gene	MUT_PDGFRA	POSITIVE	Gene	
+PDGFRA_prot_act	PDGF_prot_act	POSITIVE	protein	
+PDGFRA_prot_act	PDGFRA_prot	POSITIVE	protein	
+PDGFRA_prot	PDGFRA_gene	POSITIVE	protein	
+PDK_prot_act	PDK_prot	POSITIVE	protein	
+PDK_prot_act	PIP3	POSITIVE	protein	
+PDK_gene			Gene	
+PDK_prot	PDK_gene	POSITIVE	protein	
+PI3K_prot_act	PI3K_prot	POSITIVE	protein	
+PI3K_prot_act	VEGFR_prot_act	POSITIVE	protein	
+PI3K_prot_act	EGFR_prot_act	POSITIVE	protein	
+PI3K_prot_act	PI3K_prot	POSITIVE	protein	
+PI3K_prot_act	VEGFR_prot_act	POSITIVE	protein	
+PI3K_prot_act	PDGFRA_prot_act	POSITIVE	protein	
+PI3K_prot_act	PI3K_prot	POSITIVE	protein	
+PI3K_prot_act	PDGFRA_prot_act	POSITIVE	protein	
+PI3K_prot_act	PTEN_prot_act	NEGATIVE	protein	
+PI3K_gene			Gene	
+PI3K_prot	PI3K_gene	POSITIVE	protein	
+PIAS3_prot_act	PIAS3_prot	POSITIVE	protein	
+PIAS3_prot_act	STAT3_prot_act	POSITIVE	protein	
+PIAS3_gene			Gene	
+PIAS3_prot	PIAS3_gene	POSITIVE	protein	
+PIP3	PI3K_prot_act	POSITIVE	Chemical	
+PIP3	PTEN_prot_act	NEGATIVE	Chemical	
+PKC_prot_act	PKC_prot	POSITIVE	protein	
+PKC_prot_act	PDK_prot_act	POSITIVE	protein	
+PKC_prot_act	PLC_prot_act	POSITIVE	protein	
+PKC_gene			Gene	
+PKC_prot	PKC_gene	POSITIVE	protein	
+PLC_prot_act	PLC_prot	POSITIVE	protein	
+PLC_prot_act	EGFR_prot_act	POSITIVE	protein	
+PLC_prot_act	PLC_prot	POSITIVE	protein	
+PLC_prot_act	VEGFR_prot_act	POSITIVE	protein	
+PLC_prot_act	PLC_prot	POSITIVE	protein	
+PLC_prot_act	PDGFRA_prot_act	POSITIVE	protein	
+PLC_gene			Gene	
+PLC_prot	PLC_gene	POSITIVE	protein	
+PLK1_prot_act	PLK1_prot	POSITIVE	protein	
+PLK1_prot_act	AURA_B_prot_act	POSITIVE	protein	
+PLK1_prot_act	CDK1_cycB_prot_act	POSITIVE	protein	
+PLK1_gene			Gene	
+PLK1_prot	PLK1_gene	POSITIVE	protein	
+PP2A_prot_act	PP2A_prot	POSITIVE	protein	
+PP2A_prot_act	Chk1_2_prot_act	NEGATIVE	protein	
+PP2A_gene			Gene	
+PP2A_prot	PP2A_gene	POSITIVE	protein	
+PRAS_prot_act	PRAS_prot	POSITIVE	protein	
+PRAS_prot_act	AKT_prot_act	NEGATIVE	protein	
+PRAS_gene			Gene	
+PRAS_prot	PRAS_gene	POSITIVE	protein	
+PRC1_gene	c_myc_prot_act	POSITIVE	Gene	
+PRC1_prot_act	PRC1_prot	POSITIVE	protein	
+PRC1_prot	PRC1_gene	POSITIVE	protein	
+Proliferation	Cell_cycle_progression	POSITIVE	biological	
+Proliferation	apoptosis	NEGATIVE	biological	
+Protein_synthesis	S6_prot_act	POSITIVE	biological	
+PTEN_gene	FOXO_prot_act	POSITIVE	Gene	
+PTEN_prot_act	PTEN_prot	POSITIVE	protein	
+PTEN_prot_act	SRC_prot_act	NEGATIVE	protein	
+PTEN_prot	PTEN_gene	POSITIVE	protein	
+PTEN_prot	MUT_PTEN	NEGATIVE	protein	
+Raf_dimer_prot_act	Raf_dimer_prot	POSITIVE	protein	
+Raf_dimer_prot_act	RAS_prot_act	POSITIVE	protein	
+Raf_dimer_prot_act	PKC_prot_act	POSITIVE	protein	
+Raf_dimer_prot_act	AKT_prot_act	NEGATIVE	protein	
+Raf_dimer_gene			Gene	
+Raf_dimer_prot	Raf_dimer_gene	POSITIVE	protein	
+RAS_gene			Gene	
+RAS_prot_act	RAS_prot	POSITIVE	protein	
+RAS_prot_act	SOS_prot_act	POSITIVE	protein	
+RAS_prot_act	EGFR_prot_act	POSITIVE	protein	
+RAS_prot_act	RAS_prot	POSITIVE	protein	
+RAS_prot_act	SOS_prot_act	POSITIVE	protein	
+RAS_prot_act	VEGFR_prot_act	POSITIVE	protein	
+RAS_prot_act	RAS_prot	POSITIVE	protein	
+RAS_prot_act	SOS_prot_act	POSITIVE	protein	
+RAS_prot_act	PDGFRA_prot_act	POSITIVE	protein	
+RAS_prot_act	NF1_prot_act	NEGATIVE	protein	
+RAS_prot	RAS_gene	POSITIVE	protein	
+RASSF6_prot_act	RASSF6_prot	POSITIVE	protein	
+RASSF6_gene			Gene	
+RASSF6_prot	RASSF6_gene	POSITIVE	protein	
+Rb_prot_act	Rb_prot	POSITIVE	protein	
+Rb_prot_act	cycE_CDK2_prot_act	NEGATIVE	protein	
+Rb_prot_act	cycD_CDK4_6_prot_act	NEGATIVE	protein	
+Rb_gene			Gene	
+Rb_prot	Rb_gene	POSITIVE	protein	
+REDD1_prot_act	REDD1_prot	POSITIVE	protein	
+REDD1_prot_act	Hypoxia	POSITIVE	protein	
+REDD1_prot_act	GSK3B_prot_act	NEGATIVE	protein	
+REDD1_gene			Gene	
+REDD1_prot	REDD1_gene	POSITIVE	protein	
+Rheb_prot_act	Rheb_prot	POSITIVE	protein	
+Rheb_prot_act	ATP	POSITIVE	protein	
+Rheb_prot_act	TSC1_2_prot_act	NEGATIVE	protein	
+Rheb_gene			Gene	
+Rheb_prot	Rheb_gene	POSITIVE	protein	
+RIP1_prot_act	RIP1_prot	POSITIVE	protein	
+RIP1_prot_act	TNFR_prot_act	POSITIVE	protein	
+RIP1_gene			Gene	
+RIP1_prot	RIP1_gene	POSITIVE	protein	
+ROS	Hypoxia	NEGATIVE	Chemical	
+RPS6KA1_prot_act	RPS6KA1_prot	POSITIVE	protein	
+RPS6KA1_prot_act	ERK_prot_act	POSITIVE	protein	
+RPS6KA1_gene			Gene	
+RPS6KA1_prot	RPS6KA1_gene	POSITIVE	protein	
+RPS6KB1_2_prot_act	RPS6KB1_2_prot	POSITIVE	protein	
+RPS6KB1_2_prot_act	mTORc1_prot_act	POSITIVE	protein	
+RPS6KB1_2_gene			Gene	
+RPS6KB1_2_prot	RPS6KB1_2_gene	POSITIVE	protein	
+S6_prot_act	S6_prot	POSITIVE	protein	
+S6_prot_act	RPS6KA1_prot_act	POSITIVE	protein	
+S6_prot_act	RPS6KB1_2_prot_act	POSITIVE	protein	
+S6_gene			Gene	
+S6_prot	S6_gene	POSITIVE	protein	
+SAV1_prot_act	SAV1_prot	POSITIVE	protein	
+SAV1_prot_act	F_ACTIN_prot_act	POSITIVE	protein	
+SAV1_gene			Gene	
+SAV1_prot	SAV1_gene	POSITIVE	protein	
+SERRATE_prot_act	SERRATE_prot	POSITIVE	protein	
+SERRATE_gene			Gene	
+SERRATE_prot	SERRATE_gene	POSITIVE	protein	
+SHC_prot_act	SHC_prot	POSITIVE	protein	
+SHC_prot_act	EGFR_prot_act	POSITIVE	protein	
+SHC_prot_act	SHC_prot	POSITIVE	protein	
+SHC_prot_act	INSR_prot_act	POSITIVE	protein	
+SHC_prot_act	SHC_prot	POSITIVE	protein	
+SHC_prot_act	EphA2_prot_act	POSITIVE	protein	
+SHC_prot_act	SHC_prot	POSITIVE	protein	
+SHC_prot_act	MER_prot_act	POSITIVE	protein	
+SHC_prot_act	PTEN_prot_act	NEGATIVE	protein	
+SHC_gene			Gene	
+SHC_prot	SHC_gene	POSITIVE	protein	
+SHP2_prot_act	SHP2_prot	POSITIVE	protein	
+SHP2_gene			Gene	
+SHP2_prot	SHP2_gene	POSITIVE	protein	
+SKP2_prot_act	SKP2_prot	POSITIVE	protein	
+SKP2_prot_act	c_myc_prot_act	POSITIVE	protein	
+SKP2_prot_act	SKP2_prot	POSITIVE	protein	
+SKP2_prot_act	ERK_prot_act	POSITIVE	protein	
+SKP2_gene			Gene	
+SKP2_prot	SKP2_gene	POSITIVE	protein	
+SMAC_prot_act	SMAC_prot	POSITIVE	protein	
+SMAC_prot_act	CytoC_prot_act	POSITIVE	protein	
+SMAC_prot_act	XIAP_prot_act	NEGATIVE	protein	
+SMAC_gene			Gene	
+SMAC_prot	SMAC_gene	POSITIVE	protein	
+SMAD2_3_prot_act	SMAD2_3_prot	POSITIVE	protein	
+SMAD2_3_prot_act	TGFBR_prot_act	POSITIVE	protein	
+SMAD2_3_gene			Gene	
+SMAD2_3_prot	SMAD2_3_gene	POSITIVE	protein	
+SMAD2_3_4_prot_act	SMAD2_3_prot_act	POSITIVE	protein	
+SMAD2_3_4_prot_act	SMAD4_prot	POSITIVE	protein	
+SMAD2_3_4_prot_act	ERK_prot_act	NEGATIVE	protein	
+SMAD4_gene			Gene	
+SMAD4_prot	SMAD4_gene	POSITIVE	protein	
+SOCS_gene	STAT3_prot_act	POSITIVE	Gene	
+SOCS_prot_act	SOCS_prot	POSITIVE	protein	
+SOCS_prot	SOCS_gene	POSITIVE	protein	
+SOS_prot_act	SOS_prot	POSITIVE	protein	
+SOS_prot_act	Grb2_prot_act	POSITIVE	protein	
+SOS_prot_act	SOS_prot	POSITIVE	protein	
+SOS_prot_act	PDGFRA_prot_act	POSITIVE	protein	
+SOS_gene			Gene	
+SOS_prot	SOS_gene	POSITIVE	protein	
+SPRY2_prot	SPRY2_gene	POSITIVE	protein	
+SPRY2_prot_act	SPRY2_prot	POSITIVE	protein	
+SPRY2_gene	ERK_prot_act	POSITIVE	Gene	
+SRC_prot_act	SRC_prot	POSITIVE	protein	
+SRC_prot_act	EGFR_prot_act	POSITIVE	protein	
+SRC_gene			Gene	
+SRC_prot	SRC_gene	POSITIVE	protein	
+STAT3_prot_act	STAT3_prot	POSITIVE	protein	
+STAT3_prot_act	EGFR_prot_act	POSITIVE	protein	
+STAT3_prot_act	STAT3_prot	POSITIVE	protein	
+STAT3_prot_act	Met_prot_act	POSITIVE	protein	
+STAT3_prot_act	STAT3_prot	POSITIVE	protein	
+STAT3_prot_act	SRC_prot_act	POSITIVE	protein	
+STAT3_prot_act	STAT3_prot	POSITIVE	protein	
+STAT3_prot_act	JAK2_prot_act	POSITIVE	protein	
+STAT3_prot_act	SRC_prot_act	POSITIVE	protein	
+STAT3_prot_act	PIAS3_prot_act	NEGATIVE	protein	
+STAT3_gene			Gene	
+STAT3_prot	STAT3_gene	POSITIVE	protein	
+Stemness	NOTCH_prot_act	POSITIVE	biological	
+Stemness	STAT3_prot_act	POSITIVE	biological	
+Stemness	GLI_prot_act	POSITIVE	biological	
+Stemness	TCF_LEF_prot_act	POSITIVE	biological	
+SUFU_prot_act	SUFU_prot	POSITIVE	protein	
+SUFU_gene			Gene	
+SUFU_prot	SUFU_gene	POSITIVE	protein	
+TACE_prot_act	TACE_prot	POSITIVE	protein	
+TACE_gene			Gene	
+TACE_prot	TACE_gene	POSITIVE	protein	
+TCF_LEF_prot_act	TCF_LEF_prot	POSITIVE	protein	
+TCF_LEF_prot_act	SMAD2_3_4_prot_act	POSITIVE	protein	
+TCF_LEF_prot_act	TCF_LEF_prot	POSITIVE	protein	
+TCF_LEF_prot_act	beta_cat_prot_act	POSITIVE	protein	
+TCF_LEF_prot_act	NLK_prot_act	NEGATIVE	protein	
+TCF_LEF_gene			Gene	
+TCF_LEF_prot	TCF_LEF_gene	POSITIVE	protein	
+TGFB_prot_act	TGFB_prot	POSITIVE	protein	
+TGFB_gene			Gene	
+TGFB_prot	TGFB_gene	POSITIVE	protein	
+TGFBR_prot	TGFBR_gene	POSITIVE	protein	
+TGFBR_prot_act	TGFBR_prot	POSITIVE	protein	
+TGFBR_prot_act	TGFB_prot_act	POSITIVE	protein	
+TGFBR_gene			Gene	
+TNF_gene	p50_p65_prot_act	POSITIVE	Gene	
+TNF_prot_act	TNF_prot	POSITIVE	protein	
+TNF_prot	TNF_gene	POSITIVE	protein	
+TNFR_prot	TNFR_gene	POSITIVE	protein	
+TNFR_prot_act	TNFR_prot	POSITIVE	protein	
+TNFR_prot_act	TNF_prot_act	POSITIVE	protein	
+TNFR_gene			Gene	
+TSC1_2_prot_act	TSC1_2_prot	POSITIVE	protein	
+TSC1_2_prot_act	REDD1_prot_act	POSITIVE	protein	
+TSC1_2_prot_act	TSC1_2_prot	POSITIVE	protein	
+TSC1_2_prot_act	AMPK_prot_act	POSITIVE	protein	
+TSC1_2_prot_act	TSC1_2_prot	POSITIVE	protein	
+TSC1_2_prot_act	GSK3B_prot_act	POSITIVE	protein	
+TSC1_2_prot_act	AMPK_prot_act	POSITIVE	protein	
+TSC1_2_prot_act	AKT_prot_act	NEGATIVE	protein	
+TSC1_2_prot_act	ERK_prot_act	NEGATIVE	protein	
+TSC1_2_prot_act	ERK_prot_act	NEGATIVE	protein	
+TSC1_2_prot_act	Insulin	NEGATIVE	protein	
+TSC1_2_gene			Gene	
+TSC1_2_prot	TSC1_2_gene	POSITIVE	protein	
+VEGF_gene	Hif1a_prot_act	POSITIVE	Gene	
+VEGF_prot_act	VEGF_prot	POSITIVE	protein	
+VEGF_prot	VEGF_gene	POSITIVE	protein	
+VEGFR_prot	VEGFR_gene	POSITIVE	protein	
+VEGFR_prot_act	VEGFR_prot	POSITIVE	protein	
+VEGFR_prot_act	VEGF_prot_act	POSITIVE	protein	
+VEGFR_gene			Gene	
+Wnt_prot_act	Wnt_prot	POSITIVE	protein	
+Wnt_gene			Gene	
+Wnt_prot	Wnt_gene	POSITIVE	protein	
+XIAP_prot_act	XIAP_prot	POSITIVE	protein	
+XIAP_prot_act	MDM2_prot_act	POSITIVE	protein	
+XIAP_gene			Gene	
+XIAP_prot	XIAP_gene	POSITIVE	protein	
