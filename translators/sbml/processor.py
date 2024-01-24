@@ -175,10 +175,10 @@ def create_document(input_file):
         check(reaction.setId(f'r{i+1}'), 'set reaction id')
 
         if type(mechanism) is not str and math.isnan(mechanism):
-            check(reaction.setName(mechanism), 'set reaction name')
-        else:
             rt = map_sign_reaction_type[sign]
             check(reaction.setName(rt), 'set reaction name')
+        else:
+            check(reaction.setName(mechanism), 'set reaction name')
 
         check(reaction.setMetaId("metaid_" + f'r{i+1}'), 'set meta ID')
         check(reaction.setReversible(False), 'make irreversible')
