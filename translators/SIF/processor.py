@@ -11,7 +11,7 @@ sys.path.append("..")
 import networkx as nx
 import pandas as pd
 import re
-from utils import get_model, model_to_networkx
+from utils import get_model, model_to_networkx, biorecipe_reading_col
 
 class SIF():
     """SBMLQual processor
@@ -131,4 +131,27 @@ class SIF():
 
     def sif_biorecipeI(self, input_file, output_file):
         """Translate SIF to BioRECIPE interaction lists """
-        pass
+
+        df = pd.read_csv(input_file, sep="\t", header=None, keep_default_na=False)
+        output_df = pd.DataFrame(columns=biorecipe_reading_col)
+
+        row = 0
+        for i in range(len(df)):
+            s = df.loc[i, 0]
+            t = df.loc[i, 1]
+            sign = df.loc[i, 2]
+            type = df.loc[i, 3]
+
+            if not t:
+                continue
+            elif sign:
+                output_df.loc[row, 'Regulator Name'] = s
+                output_df.loc[row, 'Regulated Name'] = t
+                output_df.loc[row, 'Regulated Type'] = type
+                output_df.loc[row, 'Sign'] = sign.lower()
+                row += 1
+            else:
+                raise ValueError("Empty value for relationType")
+
+        with pd.ExcelWriter(output_file) as writer:
+            output_df.to_excel(writer, index=False)
