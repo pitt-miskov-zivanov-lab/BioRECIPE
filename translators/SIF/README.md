@@ -22,4 +22,11 @@ In network analysis or social network research, a SIF file is a format used to r
     python .\run_biorecipe_sif.py -i interactions ..\..\examples\interaction_lists\Reading_biorecipe.xlsx ..\..\examples\sif\Reading_biorecipe.sif
     
     ```
+    
+3) From SIF to BioRECIPE interaction lists:
+
+    ```
+    python .\run_sif_biorecipe.py -i ..\..\examples\sif\gbm_ints.sif.xlsx ..\..\examples\interaction_lists\gbm_ints.xlsx
+    
+    ```
 #### note: You need to have python version 3.8, 3.7 or 3.6
