@@ -1,0 +1,8 @@
+PTEN
+P53
+CTNB1
+PK3CA
+BRAF
+
+
+	
