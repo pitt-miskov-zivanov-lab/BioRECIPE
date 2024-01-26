@@ -1,0 +1,376 @@
+[
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD19",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CXADR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3c2a9764-04f7-4f1b-8d33-6869afe476c4",
+  "matches_hash": "22477641345895327"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "TNFRSF8",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "antigen receptor",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "bae37dfe-345e-4193-af1d-253dd12fe5ca",
+  "matches_hash": "-17051702331839468"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "TNFRSF8",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CCR4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "16aafad9-4ec2-4feb-af56-f38d7ae015f7",
+  "matches_hash": "-4814813416947668"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CCL22",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "LIPC",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "64dcc70c-4797-4eca-a802-8a259a56e466",
+  "matches_hash": "-28719990613597936"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "LIPC",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "antigen receptor",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d21a0f49-e2fd-4521-a23b-219b957ffe67",
+  "matches_hash": "-19231893484453226"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "LIPC",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CCR4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "b8484af0-3765-4826-869f-63b74c449919",
+  "matches_hash": "-2844941003888929"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "b66e3423-63d8-4d06-b95f-74519cea959a",
+  "matches_hash": "-21750987570016668"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD8",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "adf8e7f2-bff7-4301-bc08-d209e0dd454c",
+  "matches_hash": "-4566598124872673"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c6a18699-5b62-4e91-8139-cb49bd532ea4",
+  "matches_hash": "-4147540473268949"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD8",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d8eab02b-0595-437a-8876-8695427eeb48",
+  "matches_hash": "-21790362536853084"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "cell population proliferation",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD276",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "6cd5ebdb-99c7-4ea4-b05d-99cb9c929b3f",
+  "matches_hash": "7864687110108105"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD19",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CARS1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "005564a4-801f-4e35-ad0d-32cca1f44f48",
+  "matches_hash": "6335439576034328"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD19",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "505cb610-4008-42ec-bdb1-b295a90a915a",
+  "matches_hash": "-11078665949620277"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD19",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD8",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1a3f9032-95e0-4bbe-b3f1-1fa6c58ad1db",
+  "matches_hash": "-30066334944602727"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CARS1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1ce82ed4-f064-463b-a383-2ab9b788b65a",
+  "matches_hash": "-23530461975876351"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "growth factor receptor",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "ee2f40cb-4644-4192-8154-b8d9ace6a8bc",
+  "matches_hash": "-6198850696494134"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD19-K562",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "8ccd3802-6aa5-4a97-bc22-66087baa94d6",
+  "matches_hash": "18054132945431300"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "4-1BB",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD276",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "4711b5f8-8e3c-4bff-ae99-28ff50a73b40",
+  "matches_hash": "31696553346342551"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "FMC63-CD828BBZ",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "ecc3d9bb-e629-477b-a78c-0c2e96284e03",
+  "matches_hash": "-6793928097066550"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "NGFR-K562",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d26cbeeb-d8fd-44dd-81ed-f79da9df634f",
+  "matches_hash": "-33700571285484335"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "NGFR-K562",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5214ad89-f228-42c5-a65e-840d8f68400c",
+  "matches_hash": "215928189787122"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CLL",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "anti-CD20 monoclonal antibody rituximab",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "9b0df751-3338-4245-9da8-971bb33fcd67",
+  "matches_hash": "34900290220389502"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "growth factor receptor",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d01a3cbb-3a98-47dc-9aef-d4cd05e10405",
+  "matches_hash": "33403514936912421"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD19-K562",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "a300a4ac-42e6-4705-80ca-36d149f236a7",
+  "matches_hash": "-24912860065836463"
+ },
+ {
+  "type": "IncreaseAmount",
+  "subj": {
+   "name": "IFNG",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD19",
+   "db_refs": {}
+  },
+  "belief": 1,
+  "id": "9c3606d1-8d18-4a91-9fe8-191179b6e51c",
+  "matches_hash": "7104045986029212"
+ }
+]
