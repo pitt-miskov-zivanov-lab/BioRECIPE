@@ -1,7 +1,7 @@
 # This is a part of SBMLqual translator
 
 import pandas as pd
-import libsbml
+#import libsbml
 import re
 from sympy import *
 from sympy import symbols
@@ -193,9 +193,24 @@ class MATH_CONVERTER:
 
             return regulator_list
 
+def get_score_logic_expr(pos_rule:str, neg_rule:str):
+    """
+    This is a function convert string to logic expression. To be noticed, the string should not contain 'space' nearby parentheses
+    :param pos_rule:
+    :param neg_rule:
+    :return: logic expression
+    """
+    pos_expr = MATH_CONVERTER(pos_rule).convert2logic()
+    neg_expr = MATH_CONVERTER(neg_rule).convert2logic()
+    return Or(pos_expr, Not(neg_expr))
+
+def get_score_mathml(score_expr):
+    return mathml(score_expr)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    reg_expr = MATH_CONVERTER('(AKt,CD4),(DDB,(!KD3,ERK))')
-    print(reg_expr.convert2logic())
-    print_mathml(reg_expr.convert2logic())
+    ### test
+    reg_expr = get_score_logic_expr('(AKt,CD4),(DDB,(!KD3,ERK))', '(Akt,CD28),(DDB,AKT)')
+    reg_mathml = get_score_mathml(reg_expr)
+    print(reg_expr)
+    print_mathml(reg_expr)
