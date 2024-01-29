@@ -12,10 +12,15 @@ For in-depth information on utilizing the BioRECIPE format, please refer to the 
 
 "SBMLQual" refers to the Qualitative Models extension of the Systems Biology Markup Language (SBML). SBML is a standard for representing computational models in systems biology, and it provides a way to exchange models between different software tools.
 
-If you want to translate a SBMLQual file with the format .sbml to a BioRECIPE file, you can use run_sbmlqual_biorecipe.py script and run the following command. 
+If you want to translate a SBMLQual file with the format .sbml to a BioRECIPE file, you can use run_sbmlqual_biorecipe.py script and run the following command.
 ```bash
 python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
 ```
-#### note: You need to have python version 3.8, 3.7 or 3.6 
+If you want to translate a BioRECIPE model file to SBMLQual, you can use run_biorecipe_sbmlqual.py script and run the following command:
 
+```
+python run_biorecipe_sbmlqual.py -i ..\..\examples\models\BooleanTcell_biorecipe.xlsx -o ..\..\examples\sbmlqual\BooleanTcell_sbmlqual.xml
+```
+
+#### note: You need to have python version 3.8, 3.7 or 3.6 
 
