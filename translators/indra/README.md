@@ -45,5 +45,6 @@ This repository contains a set of instructions and scripts to retrieve statement
 
 - Run the script with the following command:
   ```bash
-  python run_indra_pmcids_biorecipe.py -i [CSV file of PMCIDs] -o [BioRECIPE]
+  python .\run_indra_pmcids_biorecipe.py -i .\ids.csv -o ..\..\examples\interaction_lists
 
+The extracted statements file will be named as ids_reading.xlsx in this example. 
