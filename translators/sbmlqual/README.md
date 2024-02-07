@@ -16,10 +16,18 @@ If you want to translate a SBMLQual file with the format .sbml to a BioRECIPE fi
 ```bash
 python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
 ```
-If you want to translate a BioRECIPE model file to SBMLQual, you can use run_biorecipe_sbmlqual.py script and run the following command:
+Both BioRECIPE model and interaction lists can be translated into SBMLQual, you can run_biorecipe_sbmlqual.py script and run the following commands:
+
+1. From BioRECIPE model to SBMLQual
 
 ```
-python run_biorecipe_sbmlqual.py -i ..\..\examples\models\BooleanTcell_biorecipe.xlsx -o ..\..\examples\sbmlqual\BooleanTcell_sbmlqual.xml
+python run_biorecipe_sbmlqual.py -i model ..\..\examples\models\BooleanTcell_biorecipe.xlsx  ..\..\examples\sbmlqual\BooleanTcell_sbmlqual.xml
+```
+
+2. From BioRECIPE interaction lists to SBMLQual
+
+```
+python run_biorecipe_sbmlqual.py -i interactions ..\..\examples\interaction_lists\Reading_biorecipe.xlsx ..\..\examples\sbmlqual\Reading_sbmlqual.xml
 ```
 
 #### note: You need to have python version 3.8, 3.7 or 3.6 

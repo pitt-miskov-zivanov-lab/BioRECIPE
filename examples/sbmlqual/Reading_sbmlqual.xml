@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" level="3"
+xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"
+version="1"><model id="None"> 
+     <listOfCompartments>
+       <compartment id="main" constant="true">
+       </compartment>
+     </listOfCompartments>
+<qual:listOfTransitions xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
+<qual:listOfQualitativeSpecies xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cll"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="lipc"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="ifng"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="4-1bb"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="tnfrsf8"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cell population proliferation"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd19"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="ccl22"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="il2"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd8"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="ngfr-k562"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="ccr4_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="fmc63-cd828bbz"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd19-k562"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd19_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="lipc_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd276_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="growth factor receptor"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cxadr_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="antigen receptor"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cars1_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="cd4_pt"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="anti-cd20 monoclonal antibody rituximab"/></qual:listOfQualitativeSpecies><qual:transition qual:id="tcll" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="anti-cd20 monoclonal antibody rituximab"  qual:id="theta_cll_anti-cd20 monoclonal antibody rituximab"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cll"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tlipc" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="antigen receptor"  qual:id="theta_lipc_antigen receptor"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="ccr4_pt"  qual:id="theta_lipc_ccr4_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="lipc"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tifng" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd4_pt"  qual:id="theta_ifng_cd4_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd8"  qual:id="theta_ifng_cd8"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cars1_pt"  qual:id="theta_ifng_cars1_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="fmc63-cd828bbz"  qual:id="theta_ifng_fmc63-cd828bbz"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="ngfr-k562"  qual:id="theta_ifng_ngfr-k562"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="growth factor receptor"  qual:id="theta_ifng_growth factor receptor"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd19-k562"  qual:id="theta_ifng_cd19-k562"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd19_pt"  qual:id="theta_ifng_cd19_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="ifng"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="t4-1bb" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd276_pt"  qual:id="theta_4-1bb_cd276_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="4-1bb"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="ttnfrsf8" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="antigen receptor"  qual:id="theta_tnfrsf8_antigen receptor"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="ccr4_pt"  qual:id="theta_tnfrsf8_ccr4_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="tnfrsf8"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcell population proliferation" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd276_pt"  qual:id="theta_cell population proliferation_cd276_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cell population proliferation"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd19" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cxadr_pt"  qual:id="theta_cd19_cxadr_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cars1_pt"  qual:id="theta_cd19_cars1_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd4_pt"  qual:id="theta_cd19_cd4_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd8"  qual:id="theta_cd19_cd8"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd19"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tccl22" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="lipc_pt"  qual:id="theta_ccl22_lipc_pt"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="ccl22"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="til2" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd4_pt"  qual:id="theta_il2_cd4_pt"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd8"  qual:id="theta_il2_cd8"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="growth factor receptor"  qual:id="theta_il2_growth factor receptor"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="cd19-k562"  qual:id="theta_il2_cd19-k562"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="ngfr-k562"  qual:id="theta_il2_ngfr-k562"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="il2"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd8" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd8"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tngfr-k562" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="ngfr-k562"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tccr4_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="ccr4_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tfmc63-cd828bbz" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="fmc63-cd828bbz"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd19-k562" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd19-k562"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd19_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd19_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tlipc_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="lipc_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd276_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd276_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tgrowth factor receptor" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="growth factor receptor"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcxadr_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cxadr_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tantigen receptor" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="antigen receptor"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcars1_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cars1_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tcd4_pt" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="cd4_pt"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:transition qual:id="tanti-cd20 monoclonal antibody rituximab" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="anti-cd20 monoclonal antibody rituximab"/>
+</qual:listOfOutputs>
+</qual:transition>
+</qual:listOfTransitions>
+</model>
+</sbml>

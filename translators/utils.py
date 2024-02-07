@@ -4,6 +4,7 @@ import pandas as pd
 import logging
 import re
 import networkx as nx
+import warnings
 
 # define regex for valid characters in variable names
 _VALID_CHARS = r'a-zA-Z0-9\_'
@@ -296,3 +297,391 @@ def model_to_networkx(model: pd.DataFrame) -> nx.DiGraph():
         create_using=nx.DiGraph())
 
     return graph
+
+def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
+    """
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+    col_name: str
+
+    Returns
+    -------
+    df
+    """
+    df = df.fillna('nan')
+    entity_attribute_col = ['Name', 'ID', 'Type']
+    entity, attribute = col_name.split(' ')
+    entity_attribute_col.remove(attribute)
+    df = df.astype(str)
+    for row in range(len(df)):
+        value = df.loc[row, col_name]
+        # operate on this column
+        if ',' in value:
+            value_list = value.split(',')
+            value_list = [value_i.strip() for value_i in value_list]
+            df.loc[row, col_name] = '_'.join(value_list)
+            # operate on the other columns
+            for col in entity_attribute_col:
+                if ',' in value:
+                    value_attr_1 = df.loc[row, f'{entity} {col}']
+                    value_attr_1_list = value_attr_1.split(',')
+                    value_attr_1_list = [value_i.strip() for value_i in value_attr_1_list]
+                    df.loc[row, f'{entity} {col}'] = '_'.join(value_attr_1_list)
+                else:
+                    pass
+        else:
+            pass
+
+    return df
+
+def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
+    """This function will make entities name display their type when entity name are the same
+
+    Parameters
+    ----------
+    reading_df: pd.DataFrame
+    entity: str
+
+    Returns
+    -------
+    reading_df
+    """
+    type_dict = {'protein': 'pt', 'gene':'gene', 'chemical': 'ch', 'RNA': 'rna', \
+                 'protein family|protein complex':'pf', 'family':'pf', 'complex':'pf', \
+                 'protein family': 'pf', 'biological process': 'bp'}
+    type_ = list(type_dict.keys())
+    for name_, df in reading_df.groupby(by=f'{entity} Name'):
+        index_list = list(df.index)
+        for row in index_list:
+            entity_type = reading_df.loc[row, f'{entity} Type'].lower()
+
+            if '_' in entity_type:
+                type_multiple = entity_type.split('_')
+                if all(type_i in type_ for type_i in type_multiple):
+                    type_sym = [type_dict[type_i] for type_i in type_multiple]
+                    type_add = '_'.join(type_sym)
+                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_add
+                else:
+                    warnings.warn(
+                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
+                    )
+                    reading_df.drop(row)
+
+            else:
+                if entity_type in type_:
+                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_dict[entity_type]
+                else:
+                    warnings.warn(
+                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
+                    )
+                    reading_df.drop(row)
+    return reading_df
+
+def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    This is a function to normalize the entity name, the entities that are different but have same entity name
+    will be renamed
+    Renaming are following the rule below:
+        1. Entities have different IDs are different
+        2. Entities have same ID and same type but different names, their names should be renamed as the identical
+        3. Entities have same name but different type, the element name should be distinguished
+    Returns
+    reading_output
+    -------
+
+    """
+
+    # check if there are multiple entities in a single row
+    for entity in ['Regulator', 'Regulated']:
+        # check if there are multiple entities in a single row
+        name_empty, id_empty, type_empty = reading_df[f'{entity} Name'].empty, reading_df[f'{entity} ID'].empty, reading_df[f'{entity} Type'].empty
+        if name_empty:
+            raise ValueError(
+                'Column of element name cannot be empty.'
+            )
+        else:
+            if not id_empty and not type_empty:
+                # first, check all the entities that consist of multiple entities
+                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
+                # groupby the element id and get their attributes by index
+                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
+                # follow rule 3 to make name report their type
+                reading_df = change_name_by_type(reading_df, entity)
+                reading_df = reading_df.reset_index()
+                # make entity unique
+                reading_df = check_id_type_and_change_name(reading_df, entity)
+
+
+            elif not id_empty and type_empty:
+                warnings.warn(
+                    f'{entity} type column is empty. entity names is only sort by IDs.'
+                )
+                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
+                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
+                # sort by id only
+                reading_df = check_and_change_name(reading_df, entity, f'{entity} ID')
+            elif id_empty and not type_empty:
+                warnings.warn(
+                    f'{entity} type column is empty. entity names will be sort by type only'
+                )
+                reading_df = check_and_change_name(reading_df, entity, f'{entity} type')
+            else:
+                warnings.warn(
+                    f'type and ID columns are empty'
+                )
+                pass
+
+    return reading_df
+
+def check_id_type_and_change_name(reading_df: pd.DataFrame, entity: str) -> pd.DataFrame:
+    """ This function make sure all the element name are unique based on their attributes ID and type
+
+    Parameters
+    ----------
+    reading_df: pd.Dataframe
+    entity: regulator or regulated
+    Returns
+    -------
+    reading_df
+    """
+    for id_, df in reading_df.groupby(by=f'{entity} ID'):
+        # get all types and name under controlled by the same ID
+        Type_list = list(set(df[f'{entity} Type'].to_numpy()))
+        name_list = list(set(df[f'{entity} Name'].to_numpy()))
+        # add names to make every entity take a unique name
+        if len(name_list) < len(Type_list):
+            add_name_len = len(Type_list) - len(name_list)
+            # FIXME: This could also be named in different ways
+            for i in range(add_name_len): name_list.append(f'{name_list[-1]}_{i}')
+        else:
+            pass
+
+        # assign the entities have same type with the same name
+        counter = 0 # count how many types are processed
+        for Type in Type_list:
+            sub_df = df[df[f'{entity} Type'] == Type]
+            sub_df_index = list(sub_df.index)
+            for i in range(len(sub_df)):
+                reading_df.loc[sub_df_index[i], f'{entity} Name'] = name_list[counter]
+            counter+=1
+
+    return reading_df
+
+def check_and_change_name(reading_df: pd.DataFrame, entity: str, sort_by_attrb: str) -> pd.DataFrame:
+    """ This function make sure all the element name are unique based on their attributes ID or type
+
+    Parameters
+    ----------
+    reading_df: pd.Dataframe
+    entity: regulator or regulated
+    Returns
+    -------
+    reading_df
+    """
+    reading_output_df = reading_df.copy()
+    # make all the names different
+    for name, df in reading_df.groupby(by=f'{entity} name'):
+        same_name_index = df.index
+        for i in range(len(same_name_index)):
+            if i == 0:
+                pass
+            else:
+                reading_output_df.loc[same_name_index[i], f'{entity} name'] = reading_output_df.loc[same_name_index[i], f'{entity} name'] + f'_{i}'
+
+    # compare the names by category attribute
+    for id_, df in reading_df.groupby(by=f'{entity} {sort_by_attrb}'):
+        std_index = list(df.index)[0]
+        for row in range(len(df)):
+            reading_output_df.loc[row, f'{entity} {sort_by_attrb}'] = df.loc[std_index, f'{entity} {sort_by_attrb}']
+    return reading_output_df
+
+def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    """
+    model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
+       'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
+       'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
+       'Positive Regulator List', 'Positive Connection Type List',
+       'Positive Mechanism List', 'Positive Site List',
+       'Negative Regulator List', 'Negative Connection Type List',
+       'Negative Mechanism List', 'Negative Site List', 'Score List',
+       'Source List', 'Statements List', 'Paper IDs List',
+       'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
+       'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
+       'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
+       'Update Group', 'Update Rate', 'Update Rank']
+
+    attrb_cols = ['Element Name', 'Element Type', 'Element Database', 'Element Subtype','Element HGNC Symbol','Element IDs','Compartment'
+             'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism']
+
+    bio_attrb = ['Regulated Name',
+            'Regulated Type',
+            'Regulated Database',
+            'Regulated Subtype',
+            'Regulated HGNC Symbol',
+            'Regulated ID',
+            'Regulated Compartment',
+            'Regulated Compartment ID',
+            'Cell Line',
+            'Cell Type',
+            'Tissue Type',
+            'Organism']
+
+    ele_dict, pos_reg_list,output_df, output_ele_df = {}, str(), pd.DataFrame(columns=model_cols), pd.DataFrame(columns=attrb_cols)
+    category_stack = []
+
+    # preprocess the spreadsheet
+    interaction_df = preprocess_reading(interaction_df)
+    ######clean up the name of regulator and element
+    # Get all unique elements to index
+    category = set(interaction_df['Regulated Name'].str.lower())
+    category = [str(ele) for ele in category]
+    if 'nan' in category:
+        category.remove('nan')
+    else:
+        pass
+
+    # Get the set in which elements are regulators but not regulated
+    category_reg = set(interaction_df['Regulator Name'])
+    category_reg = [ele for ele in category_reg]
+
+    if 'nan' in category_reg:
+        category_reg.remove('nan')
+    else:
+        pass
+
+    k = 0; element_name_list = []
+    for element in category:
+        # Find the sub-dataframe of every unique element
+        element_df = interaction_df.loc[interaction_df['Regulated Name'].str.lower() == element].reset_index(drop=True)
+        element_name = element_df.loc[0, 'Regulated Name']
+        element_name_list.append(element_name)
+        # initialize the variables
+        i, j = 0, 0
+        pos_reg_list, neg_reg_list, paper_id_list, source_list, score_list = str(), str(), str(), str(), str()
+        pos_connection, neg_connection = str(), str()
+        pos_mech, neg_mech = str(), str()
+        pos_site, neg_site = str(), str()
+        pos_reg_stack, neg_reg_stack = [], []
+
+        # get all the positive and negative regulator list for the unique element
+        for row in range(len(element_df)):
+            # get and clean up the name again to put them in positive/negative regulator list
+            reg_name = element_df.loc[row, 'Regulator Name'].strip()
+            #reg_name = reg_name.replace('*', '-')
+            #reg_name = reg_name.replace('+', '')
+            #reg_name = reg_name.replace(',', '_')
+            # connection Type
+            connection_type = element_df.loc[row, 'Connection Type']
+            mech = element_df.loc[row, 'Mechanism']
+            site = element_df.loc[row, 'Site']
+
+            # append positive regulators
+            if element_df.loc[row, 'Sign'].lower() in ['positive', 'positive', 'not positive']:
+                if i != 0:
+                    if reg_name.lower() not in pos_reg_stack:
+                        pos_reg_list = pos_reg_list + f',{reg_name}'
+                        pos_reg_stack.append(reg_name.lower())
+                    else:
+                        pass
+                else:
+                    pos_reg_list = reg_name
+                    pos_reg_stack.append(reg_name.lower()) # store the last reg and compare with next reg to avoid repeat.
+
+                # FIXME: Pos_connection, Pos_mech, Pos_site need to be discuss for repeating
+                pos_connection = pos_connection + f',{connection_type}' if i != 0 else f'{connection_type}'
+                #pos_mech = pos_mech + f',{mech}' if i != 0 else f'{mech}'
+                #pos_site = pos_site + f',{site}' if i != 0 else f'{site}'
+
+                i+=1
+            # append negative regulators
+            else:
+                if j != 0:
+                    if reg_name.lower() not in neg_reg_stack:
+                        neg_reg_list = neg_reg_list + f',{reg_name}'
+                        neg_reg_stack.append(reg_name.lower())
+                    else:
+                        pass
+                else:
+                    neg_reg_list = reg_name
+                    neg_reg_stack.append(reg_name.lower()) # store the last reg and compare with next reg to avoid repeat.
+
+                # FIXME: Pos_connection, Pos_mech, Pos_site need to be discuss for repeating
+                neg_connection = neg_connection + f',{connection_type}' if j != 0 else f'{connection_type}'
+                #neg_mech = neg_mech + f',{mech}' if j != 0 else f'{mech}'
+                #neg_site = neg_site + f',{site}' if j != 0 else f'{site}'
+                j+=1
+
+
+            # append papers ids, source, and score
+            paper_id = str(element_df.loc[row, 'Paper IDs'])
+            source = str(element_df.loc[row, 'Source'])
+            score = str(element_df.loc[row, 'Score'])
+
+            # check if adjecent rows are from same paper id, sousrce, or score
+            if row != 0:
+                paper_id_list = paper_id_list + ',' + paper_id if paper_id != 'nan' else paper_id_list + ','
+                source_list = source_list + ',' + source if source != 'nan' else source_list + ','
+                score_list = score_list + ',' + score if score != 'nan' else score_list + ','
+            else:
+                paper_id_list = paper_id if paper_id != 'nan' else ''
+                source_list = source if source != 'nan' else ''
+                score_list = score if score != 'nan' else ''
+
+
+
+        # copy regulated element attributions
+        element_attribution = element_df.loc[0, bio_attrb]
+        for i in range(len(attrb_cols)):
+            output_ele_df.loc[k,attrb_cols[i]] = element_attribution[bio_attrb[i]]
+
+        # paste the list parsed above
+        output_ele_df.loc[k, 'Variable'] = element_name
+        output_ele_df.loc[k, 'Positive Regulator List'] = pos_reg_list
+        output_ele_df.loc[k, 'Negative Regulator List'] = neg_reg_list
+        output_ele_df.loc[k, 'Positive Connection Type List'] = pos_connection
+        output_ele_df.loc[k, 'Negative Connection Type List'] = neg_connection
+        output_ele_df.loc[k, 'Positive Mechanism List'] = pos_mech
+        output_ele_df.loc[k, 'Negative Mechanism List'] = neg_mech
+        output_ele_df.loc[k, 'Positive Site List'] = pos_site
+        output_ele_df.loc[k, 'Negative Site List'] = neg_site
+        output_ele_df.loc[k, 'Paper IDs List'] = paper_id_list
+        output_ele_df.loc[k, 'Source List'] = source_list
+        output_ele_df.loc[k, 'Score List'] = score_list
+        k+=1
+
+    category_add = list(set(category_reg) - set(element_name_list))
+    # Append the regulators that are never regulated in interactions file
+    for element in category_add:
+        element_df = interaction_df.loc[interaction_df['Regulator Name'] == element].reset_index(drop=True)
+
+        # get attributes
+        ele_ids = set(element_df['Regulator ID'].astype(str).to_list())
+        ele_type = set(element_df['Regulator Type'].astype(str).to_list())
+        ele_subtype = set(element_df['Regulator Subtype'].astype(str).to_list())
+        ele_db = set(element_df['Regulator Database'].astype(str).to_list())
+
+        # append attributes with different names but same elemnt
+        name_list = set(element_df['Regulator Name'].to_list())
+
+        for name in name_list:
+            output_ele_df.loc[k, 'Element Name'] = name
+            output_ele_df.loc[k, 'Variable'] = name
+            # Put them to the model
+            output_ele_df.loc[k, 'Element IDs'] = ','.join(list(ele_ids))
+            output_ele_df.loc[k, 'Element Type'] = ','.join(list(ele_type))
+            output_ele_df.loc[k, 'Element Subtype'] = ','.join(list(ele_subtype))
+            output_ele_df.loc[k, 'Element Database'] = ','.join(list(ele_db))
+            k+=1
+
+    other_cols = list(set(model_cols) - set(output_ele_df.columns))
+    # build BioRECIPE up
+    model_bio_df = pd.concat([output_ele_df, pd.DataFrame(columns=other_cols)], axis = 1)
+
+    # set variable name as the index
+    model_bio_df = model_bio_df[model_cols]
+    model_bio_df.set_index('Variable',inplace=True)
+
+    return model_bio_df

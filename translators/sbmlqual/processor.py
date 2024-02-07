@@ -18,6 +18,9 @@ from __future__ import print_function
 
 __all__ = ["SBML"]
 
+import pandas as pd
+
+
 class SBMLReader(object):
     def __init__(self, filename):
         self.filename = filename
@@ -137,7 +140,7 @@ from processor import SBML
 from mathml_translator import MATH_CONVERTER, get_score_logic_expr, get_score_mathml
 import xml.etree.ElementTree as ET
 import lxml
-from utils import get_model, model_to_dict
+from utils import get_model, model_to_dict, interactions_to_model
 
 __all__ = ["SBMLQual"]
 
@@ -148,6 +151,72 @@ class SBMLQual(object):
     """
     def __init__(self):
         self.and_symbol = "^"
+
+    def to_sbmlqual_interactions(self, input_file, filename):
+        """Exports BioRECIPE interaction lists to SBMLqual format.
+
+        :return: the SBML text
+        This is a level3, version 1 exporter.
+
+        """
+
+        biorecipe_interactions = pd.read_excel(input_file)
+        biorecipe_model = interactions_to_model(biorecipe_interactions)
+        biorecipe_dict = model_to_dict(biorecipe_model)
+
+        s = SBML(self, version="1", model_name='model')
+
+        sbml = s.create_header()
+        sbml += s.create_model_name()
+        sbml += s.create_compartment(id="main", constant="true")
+
+        # Starting list of transitions
+        list_of_transition = ListOfTransitions()
+        sbml += list_of_transition.open()
+
+        # add the qualitativeSpecies list
+
+        qualitativeSpecies = QualitativeSpecies(list(biorecipe_dict.keys()))
+        sbml += qualitativeSpecies.create()
+
+        # Loop over all transitions
+        tid = 0
+        for ele, value in biorecipe_dict.items():
+
+            identifier = "t{0}".format(ele)
+
+            pos = value['Positive Regulator List']
+            neg = value['Negative Regulator List']
+
+            regulators = {'+': None, '-': None}
+
+            if pos and type(pos) == str:
+                regulators['+'] = pos.split(',')
+
+            if neg and type(neg) == str:
+                regulators['-'] = neg.split(',')
+
+            # regulators found and create a Transition for a regulated element
+            transition = Transition(identifier)
+            sbml += transition.open()
+
+            # regulators -> list of inputs
+            list_of_inputs = ListOfInputs(regulators, ele)
+            sbml += list_of_inputs.create()
+
+            # regulated -> the output (only one)
+            list_of_outputs = ListOfOutputs(ele)
+            sbml += list_of_outputs.create()
+
+            sbml += transition.close()
+
+        # The end
+        sbml += list_of_transition.close()
+        sbml += """</model>\n"""
+        sbml += s.create_footer()
+
+        with open(filename, 'w') as f:
+            f.write(sbml)
 
     def to_sbmlqual(self, input_file, filename):
         """Exports BioRECIPE model to SBMLqual format.
@@ -160,7 +229,7 @@ class SBMLQual(object):
         biorecipe_model = get_model(input_file)
         biorecipe_dict = model_to_dict(biorecipe_model)
 
-        s = SBML(self, version="1", model_name='cellnopt_model')
+        s = SBML(self, version="1", model_name='model')
 
         sbml = s.create_header()
         sbml += s.create_model_name()
