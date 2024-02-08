@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input=" Thus, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway.">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02553.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02575.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04914.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05099.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08265.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03546.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01645.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01632.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02572.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03830.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04255.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04854.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06789.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08445.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01689.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03811.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/11355.lisp&quot;
+pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS (&quot;cell%1:03:00::&quot;))
+                                     (:PENN-PARTS-OF-SPEECH (PARSER::NN)
+                                      :TRIPS-PARTS-OF-SPEECH (W::N))) LF: ONT::SHAPE-OBJECT LF-FORM: (W::CELL) domain info: NILpertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS
+                                                                                                                                                                     (&quot;humanity%1:07:02::&quot;))
+                                                                                                                                                                    (:PENN-PARTS-OF-SPEECH
+                                                                                                                                                                     (PARSER::NN)
+                                                                                                                                                                     :TRIPS-PARTS-OF-SPEECH
+                                                                                                                                                                     (W::N)
+                                                                                                                                                                     :DOMAIN-SPECIFIC-INFO
+                                                                                                                                                                     ((PARSER::DRUM
+                                                                                                                                                                       (PARSER::SPECIALIST
+                                                                                                                                                                        :EUI
+                                                                                                                                                                        PARSER::E0032138
+                                                                                                                                                                        :CITATION-FORM
+                                                                                                                                                                        &quot;humanity&quot;
+                                                                                                                                                                        :MATCHES
+                                                                                                                                                                        ((PARSER::MATCH
+                                                                                                                                                                          :SCORE
+                                                                                                                                                                          1.0
+                                                                                                                                                                          :MATCHED
+                                                                                                                                                                          &quot;humanity&quot;
+                                                                                                                                                                          :EXACT
+                                                                                                                                                                          1))
+                                                                                                                                                                        :COMPLEMENTS
+                                                                                                                                                                        (&quot;compl=pphr(of,np)&quot;)
+                                                                                                                                                                        :NOMINALIZATION-OF
+                                                                                                                                                                        ((PARSER::SPECIALIST
+                                                                                                                                                                          :EUI
+                                                                                                                                                                          PARSER::E0032130
+                                                                                                                                                                          :CAT
+                                                                                                                                                                          PARSER::ADJ
+                                                                                                                                                                          :CITATION-FORM
+                                                                                                                                                                          &quot;human&quot;))))))) LF: ONT::ATTRIBUTIVE-SCALE LF-FORM: (W::HUMANITY) domain info: ((PARSER::DRUM
+                                                                                                                                                                                                                                                          (PARSER::SPECIALIST
+                                                                                                                                                                                                                                                           :EUI
+                                                                                                                                                                                                                                                           PARSER::E0032138
+                                                                                                                                                                                                                                                           :CITATION-FORM
+                                                                                                                                                                                                                                                           &quot;humanity&quot;
+                                                                                                                                                                                                                                                           :MATCHES
+                                                                                                                                                                                                                                                           ((PARSER::MATCH
+                                                                                                                                                                                                                                                             :SCORE
+                                                                                                                                                                                                                                                             1.0
+                                                                                                                                                                                                                                                             :MATCHED
+                                                                                                                                                                                                                                                             &quot;humanity&quot;
+                                                                                                                                                                                                                                                             :EXACT
+                                                                                                                                                                                                                                                             1))
+                                                                                                                                                                                                                                                           :COMPLEMENTS
+                                                                                                                                                                                                                                                           (&quot;compl=pphr(of,np)&quot;)
+                                                                                                                                                                                                                                                           :NOMINALIZATION-OF
+                                                                                                                                                                                                                                                           ((PARSER::SPECIALIST
+                                                                                                                                                                                                                                                             :EUI
+                                                                                                                                                                                                                                                             PARSER::E0032130
+                                                                                                                                                                                                                                                             :CAT
+                                                                                                                                                                                                                                                             PARSER::ADJ
+                                                                                                                                                                                                                                                             :CITATION-FORM
+                                                                                                                                                                                                                                                             &quot;human&quot;)))))
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00007_IO-344507" timestamp="20190701T145713"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00007_IO-344507" id="paragraph6"> Thus, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway.
+</paragraph></paragraphs><sentences><sentence id="26" pid="paragraph6">Thus, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway.</sentence></sentences></input><TERM dbid="NCIT:C19060" end="22" id="V344677" lisp="(ONT::TERM ONT::V344677 ONT::BIOLOGICAL-PROCESS :NAME W::TCR-ACTIVATION :DRUM ((:DRUM (TERM :ID NCIT::C19060 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR activation&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::BIOLOGICAL-PROCESS)))))" paragraph="paragraph6" rule="-SIMPLE-REF" start="7" uttnum="26"><type>ONT::BIOLOGICAL-PROCESS</type><name>TCR-ACTIVATION</name><drum-terms><drum-term dbid="NCIT:C19060" match-score="0.70732" matched-name="TCR activation" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;"><types><type>ONT::BIOLOGICAL-PROCESS</type></types></drum-term></drum-terms><text>TCR activation</text></TERM><TERM end="67" id="V344719" lisp="(ONT::TERM ONT::V344719 ONT::INFORMATION :NAME W::RESPONSE)" paragraph="paragraph6" rule="-SIMPLE-REF" start="45" uttnum="26"><type>ONT::INFORMATION</type><name>RESPONSE</name><text>the cellular response</text></TERM><TERM end="58" id="V345000" lisp="(ONT::TERM ONT::V345000 ONT::SHAPE-OBJECT :NAME W::CELL)" paragraph="paragraph6" rule="-SIMPLE-REF" start="49" uttnum="26"><type>ONT::SHAPE-OBJECT</type><name>CELL</name><text>cellular</text></TERM><TERM end="109" id="V344763" lisp="(ONT::TERM ONT::V344763 ONT::INFORMATION :NAME W::SIGNAL)" paragraph="paragraph6" rule="-SIMPLE-REF" start="70" uttnum="26"><type>ONT::INFORMATION</type><name>SIGNAL</name><text>Notch signals in primary human T cells</text></TERM><TERM dbid="FA:02506" end="109" id="V344753" lisp="(ONT::TERM ONT::V344753 ONT::PROTEIN-FAMILY :NAME W::NOTCH :DRUM ((:DRUM (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)))))" paragraph="paragraph6" rule="-SIMPLE-REF" start="70" uttnum="26"><type>ONT::PROTEIN-FAMILY</type><name>NOTCH</name><drum-terms><drum-term dbid="FA:02506" match-score="0.85013" matched-name="NOTCH" name="NOTCH family"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>Notch signals in primary human T cells</text></TERM><TERM dbid="BTO:0000782|CO:0000084" end="109" id="V344860" lisp="(ONT::TERM ONT::V344860 ONT::CELL :NAME W::T-CELLS :DRUM ((:DRUM (TERM :ID CO::|0000084| :NAME &quot;T cell&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;T cell&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2) (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;EXACT synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :NO-DASH-DASH 1 :EXACT 2)) :ONT-TYPES (ONT::CELL)) (TERM :ID BTO::|0000782| :NAME &quot;T-lymphocyte&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;T cell&quot; :STATUS &quot;RELATED synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2) (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;RELATED synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :NO-DASH-DASH 1 :EXACT 2)) :ONT-TYPES (ONT::CELL)))))" paragraph="paragraph6" rule="-SIMPLE-REF" start="87" uttnum="26"><type>ONT::CELL</type><name>T-CELLS</name><drum-terms><drum-term dbid="CO:0000084" match-score="0.85366" matched-name="T cell" name="T cell"><types><type>ONT::CELL</type></types></drum-term><drum-term dbid="BTO:0000782" match-score="0.70732" matched-name="T cell" name="T-lymphocyte"><types><type>ONT::CELL</type></types></drum-term></drum-terms><text>primary human T cells</text></TERM><TERM end="155" id="V344912" lisp="(ONT::TERM ONT::V344912 ONT::DEVICE :NAME W::MECHANISM)" paragraph="paragraph6" rule="-SIMPLE-REF" start="113" uttnum="26"><type>ONT::DEVICE</type><name>MECHANISM</name><text>a mechanism requiring the PI3K-Akt pathway</text></TERM><TERM end="155" id="V344926" paragraph="paragraph6" rule="-EXPLICIT-REF-SEQ0A" start="135" uttnum="26"><type>ONT::SIGNALING-PATHWAY</type><components><component id="V344545"/><component id="V344553"/></components><text normalization="">the PI3K-Akt pathway</text></TERM><TERM dbid="XFAM:PF00792|XFAM:PF00454|UP:P54673|XFAM:PF00794|NCIT:C51162|NCIT:C51161|NCIT:C17270|NCIT:C51160|NCIT:C30170|NCIT:C30171|BE:PI3K|UP:etc|XFAM:PF00613|HGNC:8975|NCIT:C30168|NCIT:C113629|GO:0016303|UP:P42336" end="143" id="V344545" lisp="(ONT::TERM ONT::V344545 ONT::GENE-PROTEIN :NAME W::PI-3-K :DRUM ((:DRUM (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2)) :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C17270 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C30168 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C30170 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C30171 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C51160 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C51161 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C51162 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C113629 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|8975| :NAME &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2)) :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph6" rule="-SIMPLE-REF" start="139" uttnum="26"><type>ONT::GENE-PROTEIN</type><name>PI-3-K</name><drum-terms><drum-term dbid="BE:PI3K" match-score="1.0" matched-name="PI3K" name="PI3K"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="UP:P54673" match-score="0.85366" matched-name="PI3K" name="Phosphatidylinositol 3-kinase 1"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00454"/><xref dbid="XFAM:PF00792"/><xref dbid="XFAM:PF00794"/><xref dbid="XFAM:PF00613"/></xrefs></drum-term><drum-term dbid="GO:0016303" match-score="0.70732" matched-name="PI3K" name="1-phosphatidylinositol-3-kinase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C17270" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C30168" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C30170" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C30171" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C51160" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C51161" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C51162" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C113629" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:8975" match-score="0.56098" matched-name="PI3K" name="phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P42336"/></xrefs></drum-term><drum-term dbid="UP:etc" match-score="0.12195" matched-name="PI3K"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>PI3K</text></TERM><TERM dbid="HGNC:391|UP:Q8INB9|BE:AKT|UP:P31749|XFAM:PF00069|XFAM:PF00169|XFAM:PF00433|NCIT:C41625" end="148" id="V344553" lisp="(ONT::TERM ONT::V344553 ONT::GENE-PROTEIN :NAME W::AKT :DRUM ((:DRUM (TERM :ID BE::AKT :NAME &quot;AKT&quot; :SCORE 0.99647 :MATCHES ((MATCH :SCORE 0.99647 :MATCHED &quot;AKT&quot; :STATUS &quot;name&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C41625 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;AKT&quot; :STATUS &quot;synonym&quot; :INITIAL-CAP-ALL-CAPS 1) (MATCH :SCORE 0.70379 :MATCHED &quot;akt&quot; :STATUS &quot;synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID HGNC::|391| :NAME &quot;AKT serine/threonine kinase 1&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;AKT&quot; :STATUS &quot;Synonym&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (UP::P31749) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::Q8INB9 :NAME &quot;RAC serine/threonine-protein kinase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;akt&quot; :STATUS &quot;AltName: Full&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00169 XFAM::PF00069 XFAM::PF00433) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph6" rule="-SIMPLE-REF" start="144" uttnum="26"><type>ONT::GENE-PROTEIN</type><name>AKT</name><drum-terms><drum-term dbid="BE:AKT" match-score="0.99647" matched-name="AKT" name="AKT"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C41625" match-score="0.70379" matched-name="AKT" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="HGNC:391" match-score="0.55745" matched-name="AKT" name="AKT serine/threonine kinase 1"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P31749"/></xrefs></drum-term><drum-term dbid="UP:Q8INB9" match-score="0.55745" matched-name="akt" name="RAC serine/threonine-protein kinase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00169"/><xref dbid="XFAM:PF00069"/><xref dbid="XFAM:PF00433"/></xrefs></drum-term></drum-terms><text>Akt</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::THUS)</lisp><word>THUS</word></words><tags><lisp>((WORD &quot;Thus&quot; :FRAME (1 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Thus&quot; :FRAME (1 4) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (5 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Thus" start="1" end="4"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="Thus" start="1" end="4" penn-cats="ADVP" /><word lex="," start="5" end="6"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(ADVBL (ADV THUS))</lisp><ADVBL><ADV>THUS</ADV></ADVBL></tree><terms root="#V344652"><lisp>((ONT::F ONT::V344652 (:* ONT::THEREFORE W::THUS) :START 1 :END 5))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V344652">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>THEREFORE</LF:type>
+    <LF:word>THUS</LF:word>
+    <LF:start>1</LF:start>
+    <LF:end>5</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::TCR W::ACTIVATION)</lisp><word>TCR</word><word>ACTIVATION</word></words><tags><lisp>((WORD &quot;TCR&quot; :FRAME (7 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::TCR :NAME &quot;TCR&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;TCR&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::TCR
+              (SENSE (MORPH (POS N) (WORD TCR))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/T.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::A2KF29 :NAME &quot;Sperm motility kinase Tcr mutant form&quot; :SCORE
+       0.83791 :MATCHES
+       ((MATCH :SCORE 0.83791 :MATCHED &quot;tcr&quot; :STATUS &quot;RecName: Short&quot;
+         :ALL-CAPS-NO-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF00069) :ONT-TYPES
+       (ONT::PROTEIN))
+      (TERM :ID NCIT::C17065 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17065&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C21176
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C21176&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02117.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF03638 :NAME &quot;TCR&quot; :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR&quot; :STATUS &quot;ID&quot; :EXACT 1)) :ONT-TYPES
+       (ONT::MOLECULAR-DOMAIN))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;TCR&quot; :FRAME (7 10) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;activation&quot; :FRAME (11 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;activation&quot; :FRAME (11 21) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;TCR activation&quot; :FRAME (7 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::BIOLOGICAL-PROCESS) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C19060 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR activation&quot; :STATUS &quot;synonym&quot;
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17828
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+             :TO ONT::BIOLOGICAL-PROCESS))
+       :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;TCR activation&quot; :FRAME (7 21) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="TCR" start="7" end="10"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:TCR" name="TCR" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="TCR" status="name" exact="1" /><map to="PROTEIN-FAMILY" through="BE:TCR" /></term><term id="UP:A2KF29" name="Sperm motility kinase Tcr mutant form" score="0.83791" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF00069" ont-types="PROTEIN"><match score="0.83791" matched="tcr" status="RecName: Short" all-caps-no-caps="1" /></term><term id="NCIT:C17065" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17065&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="TCR" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C21176" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULAR-DOMAIN" score="0.70732"><term id="XFAM:PF03638" name="TCR" score="0.70732" ont-types="MOLECULAR-DOMAIN"><match score="0.70732" matched="TCR" status="ID" exact="1" /></term></sense-info></word><prefer text="TCR" start="7" end="10" penn-cats="NP" /><word lex="activation" start="11" end="21"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="activation" start="11" end="21" penn-cats="NX,NAC" /><word lex="TCR activation" start="7" end="21"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="BIOLOGICAL-PROCESS" score="0.70732"><term id="NCIT:C19060" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;" score="0.70732" ont-types="BIOLOGICAL-PROCESS"><match score="0.70732" matched="TCR activation" status="synonym" exact="2" /><map to="BIOLOGICAL-PROCESS" through="NCIT:C17828" /></term></sense-info></word><prefer text="TCR activation" start="7" end="21" penn-cats="NP,NX,NAC" /></tags><tree><lisp>(PUNC PUNC-COMMA)</lisp><PUNC>PUNC-COMMA</PUNC></tree><terms root="#V345147"><lisp>((ONT::SPEECHACT ONT::V345147 ONT::SA_IDENTIFY :CONTENT ONT::V344677 :START 7
+  :END 22)
+ (ONT::THE ONT::V344677 (:* ONT::BIOLOGICAL-PROCESS W::TCR-ACTIVATION) :NAME-OF
+  (W::TCR W::ACTIVATION) :START 7 :END 22 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C19060 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR activation&quot; :STATUS &quot;synonym&quot; :EXACT
+       2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17828
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+           :TO ONT::BIOLOGICAL-PROCESS))
+     :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V345147">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V344677" />
+    <LF:start>7</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344677">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>BIOLOGICAL-PROCESS</LF:type>
+    <LF:word>TCR-ACTIVATION</LF:word>
+    <role:NAME-OF>(TCR ACTIVATION)</role:NAME-OF>
+    <LF:start>7</LF:start>
+    <LF:end>22</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C19060 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19060&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;TCR activation&quot; :STATUS &quot;synonym&quot; :EXACT
+     2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17828
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+         :TO BIOLOGICAL-PROCESS))
+   :ONT-TYPES (BIOLOGICAL-PROCESS))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DRAMATICALLY)</lisp><word>DRAMATICALLY</word></words><tags><lisp>((WORD &quot;dramatically&quot; :FRAME (22 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;dramatically&quot; :FRAME (22 34) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="dramatically" start="22" end="34"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="dramatically" start="22" end="34" penn-cats="ADVP" /></tags><tree><lisp>(UTT (NP (NAME TCR ACTIVATION)))</lisp><UTT><NP><NAME>TCR ACTIVATION</NAME></NP></UTT></tree><terms root="#V344680"><lisp>((ONT::F ONT::V344680 (:* ONT::DEGREE-MODIFIER-HIGH W::DRAMATICALLY) :START 22
+  :END 35))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V344680">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DEGREE-MODIFIER-HIGH</LF:type>
+    <LF:word>DRAMATICALLY</LF:word>
+    <LF:start>22</LF:start>
+    <LF:end>35</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::INCREASES W::THE W::CELLULAR W::RESPONSE W::TO W::NOTCH W::SIGNALS W::IN
+ W::PRIMARY W::HUMAN W::T W::CELLS W::VIA W::A W::MECHANISM W::REQUIRING W::THE
+ W::PI 3 W::K W::PUNC-MINUS W::AKT W::PATHWAY)</lisp><word>INCREASES</word><word>THE</word><word>CELLULAR</word><word>RESPONSE</word><word>TO</word><word>NOTCH</word><word>SIGNALS</word><word>IN</word><word>PRIMARY</word><word>HUMAN</word><word>T</word><word>CELLS</word><word>VIA</word><word>A</word><word>MECHANISM</word><word>REQUIRING</word><word>THE</word><word>PI</word><word>3</word><word>K</word><word>PUNC-MINUS</word><word>AKT</word><word>PATHWAY</word></words><tags><lisp>((WORD &quot;increases&quot; :FRAME (35 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (45 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cellular&quot; :FRAME (49 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0015760 :CITATION-FORM &quot;cellular&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;cellular&quot; :EXACT 1)) :NOMINALIZATION
+       ((SPECIALIST :EUI E0015761 :CITATION-FORM &quot;cellularity&quot;)))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cellular&quot; :FRAME (49 57) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;response&quot; :FRAME (58 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;response&quot; :FRAME (58 66) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cellular response&quot; :FRAME (49 66) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (67 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Notch&quot; :FRAME (70 75) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN-FAMILY) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00066 :NAME &quot;notch&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;notch&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-NO-CAPS 1)
+        (MATCH :SCORE 0.26476 :MATCHED &quot;notch&quot; :STATUS &quot;PI&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Notch&quot; :FRAME (70 75) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;signals&quot; :FRAME (76 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;signals&quot; :FRAME (76 83) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Notch signals&quot; :FRAME (70 83) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (84 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;primary&quot; :FRAME (87 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;primary&quot; :FRAME (87 94) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;human&quot; :FRAME (95 100) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;human&quot; :FRAME (95 100) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;T&quot; :FRAME (101 102) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;T&quot; :FRAME (101 102) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cells&quot; :FRAME (103 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cells&quot; :FRAME (103 108) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;T cells&quot; :FRAME (101 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;T_cell%1:08:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0005825 :CITATION-FORM &quot;Tcell&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;T cells&quot; :EXACT 2)) :ABBREVIATION-OF
+       ((SPECIALIST :CITATION-FORM &quot;Thymus cell&quot;))))))
+   (:PENN-PARTS-OF-SPEECH (NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CO::|0000084| :NAME &quot;T cell&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;T cell&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 2)
+        (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;EXACT synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :NO-DASH-DASH 1 :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CO::|0000000|
+              (SENSE (MORPH (POS N) (WORD CELL))
+               (PROVENANCE (NAME LEXICON-DATA::CO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))
+      (TERM :ID BTO::|0000782| :NAME &quot;T-lymphocyte&quot; :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;T cell&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 2)
+        (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :NO-DASH-DASH 1 :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BTO::|0001096|
+              (SENSE (MORPH (POS N) (WORD (LYMPHOID CELL)))
+               (PROVENANCE (NAME LEXICON-DATA::BTO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000109.lisp&quot;))))
+             :TO ONT::CELL)
+        (MAP :THROUGH
+             (CONCEPT BTO::|0000574|
+              (SENSE (MORPH (POS N) (WORD (HEMATOPOIETIC CELL)))
+               (PROVENANCE (NAME LEXICON-DATA::BTO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000057.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;T cells&quot; :FRAME (101 108) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;human T cells&quot; :FRAME (95 108) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;primary human T cells&quot; :FRAME (87 108) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;via&quot; :FRAME (109 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (113 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mechanism&quot; :FRAME (115 124) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;mechanism&quot; :FRAME (115 124) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;requiring&quot; :FRAME (125 134) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (135 138) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI&quot; :FRAME (139 140) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;3&quot; :FRAME (141 141) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI3&quot; :FRAME (139 141) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|8947| :NAME &quot;peptidase inhibitor 3&quot; :SCORE 0.85366
+       :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P19957) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P19400 :NAME &quot;Major pepsin inhibitor 3&quot; :SCORE 0.85361
+       :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;PI-3&quot; :STATUS &quot;RecName: Short&quot;
+         :NO-DASH-DASH 1 :EXACT 1))
+       :DBXREFS (XFAM::PF06394) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C105391 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105391&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70727 :MATCHED &quot;PI-3&quot; :STATUS &quot;synonym&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C105389 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105389&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P19957 :NAME &quot;Elafin&quot; :SCORE 0.56093 :MATCHES
+       ((MATCH :SCORE 0.56093 :MATCHED &quot;PI-3&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-DASH-DASH 1 :EXACT 1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+       (HGNC::|8947| XFAM::PF10511 XFAM::PF00095) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P55928 :NAME &quot;Potassium channel toxin alpha-KTx 7.2&quot; :SCORE
+       0.55812 :MATCHES
+       ((MATCH :SCORE 0.55812 :MATCHED &quot;Pi3&quot; :STATUS &quot;AltName: Short&quot;
+         :ALL-CAPS-INITIAL-CAP 1)
+        (MATCH :SCORE 0.55808 :MATCHED &quot;Pi-3&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-DASH-DASH 1 :ALL-CAPS-INITIAL-CAP 1))
+       :DBXREFS (XFAM::PF00451) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;K&quot; :FRAME (142 142) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;3K&quot; :FRAME (141 142) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 3 :NEW
+       (AMINO-ACID :NAME &quot;Lysine&quot; :LETTER &quot;K&quot;))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI3K&quot; :FRAME (139 142) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::PI3K
+              (SENSE (MORPH (POS N) (WORD PI3K))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE
+       0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+         2))
+       :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+         2))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C17270 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C20130
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C30168 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C30170 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C30171 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C51160 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C51161 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C51162 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C113629 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|8975| :NAME
+       &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+       :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2))
+       :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES
+       ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (143 143) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Akt&quot; :FRAME (144 147) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.99647 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::AKT :NAME &quot;AKT&quot; :SCORE 0.99647 :MATCHES
+       ((MATCH :SCORE 0.99647 :MATCHED &quot;AKT&quot; :STATUS &quot;name&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::AKT
+              (SENSE (MORPH (POS N) (WORD AKT))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/A.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C41625 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;AKT&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;akt&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C21176
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C21176&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02117.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID HGNC::|391| :NAME &quot;AKT serine/threonine kinase 1&quot; :SCORE
+       0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;AKT&quot; :STATUS &quot;Synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::P31749) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::Q8INB9 :NAME &quot;RAC serine/threonine-protein kinase&quot; :SCORE
+       0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;akt&quot; :STATUS &quot;AltName: Full&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00169 XFAM::PF00069 XFAM::PF00433) :ONT-TYPES
+       (ONT::PROTEIN))))))
+  :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI3K-Akt&quot; :FRAME (139 147) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;PI3K-Akt&quot; :FRAME (139 147) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pathway&quot; :FRAME (148 154) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 26
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;pathway&quot; :FRAME (148 154) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;PI3K-Akt pathway&quot; :FRAME (139 154) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the PI3K-Akt pathway&quot; :FRAME (135 154) :ENJU-CATS (NP) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;requiring the PI3K-Akt pathway&quot; :FRAME (125 154) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;a mechanism requiring the PI3K-Akt pathway&quot; :FRAME (113 154)
+  :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 26 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;via a mechanism requiring the PI3K-Akt pathway&quot; :FRAME (109 154)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 26 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway&quot;
+  :FRAME (35 154) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway&quot;
+  :FRAME (22 154) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway&quot;
+  :FRAME (7 154) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 26 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway&quot;
+  :FRAME (5 154) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 26 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (155 155) :UTTNUM 26 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Thus, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway.&quot;
+  :FRAME (1 155) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 26 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="increases" start="35" end="44"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="the" start="45" end="48"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="cellular" start="49" end="57"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0015760" citation-form="cellular"><match score="1.0" matched="cellular" exact="1" /><nominalization><specialist eui="E0015761" citation-form="cellularity" /></nominalization></specialist></sense-info></word><prefer text="cellular" start="49" end="57" penn-cats="ADJP,QP" /><word lex="response" start="58" end="66"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="response" start="58" end="66" penn-cats="NX,NAC" /><prefer text="cellular response" start="49" end="66" penn-cats="NX,NAC" /><word lex="to" start="67" end="69"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="Notch" start="70" end="75"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN-FAMILY" score="0.85013"><term id="FA:02506" name="NOTCH family" score="0.85013" ont-types="PROTEIN-FAMILY"><match score="0.85013" matched="NOTCH" status="ID" initial-cap-all-caps="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULAR-DOMAIN" score="0.70379"><term id="XFAM:PF00066" name="notch" score="0.70379" ont-types="MOLECULAR-DOMAIN"><match score="0.70379" matched="notch" status="ID" initial-cap-no-caps="1" /><match score="0.26476" matched="notch" status="PI" initial-cap-no-caps="1" /></term></sense-info></word><prefer text="Notch" start="70" end="75" penn-cats="NP" /><word lex="signals" start="76" end="83"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="signals" start="76" end="83" penn-cats="NX,NAC" /><prefer text="Notch signals" start="70" end="83" penn-cats="NP,NX,NAC" /><word lex="in" start="84" end="86"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="primary" start="87" end="94"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="primary" start="87" end="94" penn-cats="ADJP,QP" /><word lex="human" start="95" end="100"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="human" start="95" end="100" penn-cats="ADJP,QP" /><word lex="T" start="101" end="102"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="T" start="101" end="102" penn-cats="NP" /><word lex="cells" start="103" end="108"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="cells" start="103" end="108" penn-cats="NX,NAC" /><word lex="T cells" start="101" end="108"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="T_cell%1:08:00"><specialist eui="E0005825" citation-form="Tcell"><match score="1.0" matched="T cells" exact="2" /><abbreviation-of><specialist citation-form="Thymus cell" /></abbreviation-of></specialist></sense-info><sense-info penn-parts-of-speech="NNPS" trips-parts-of-speech="NAME" ont-types="CELL" score="0.85366"><term id="CO:0000084" name="T cell" score="0.85366" ont-types="CELL"><match score="0.85366" matched="T cell" status="name" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /><match score="0.70727" matched="T-cell" status="EXACT synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" no-dash-dash="1" exact="2" /><map to="CELL" through="CO:0000000" /></term><term id="BTO:0000782" name="T-lymphocyte" score="0.70732" ont-types="CELL"><match score="0.70732" matched="T cell" status="RELATED synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /><match score="0.70727" matched="T-cell" status="RELATED synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" no-dash-dash="1" exact="2" /><map to="CELL" through="BTO:0001096" /><map to="CELL" through="BTO:0000574" /></term></sense-info></word><prefer text="T cells" start="101" end="108" penn-cats="NX,NAC" /><prefer text="human T cells" start="95" end="108" penn-cats="NX,NAC" /><prefer text="primary human T cells" start="87" end="108" penn-cats="NP,NX,NAC" /><word lex="via" start="109" end="112"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="113" end="114"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="mechanism" start="115" end="124"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="mechanism" start="115" end="124" penn-cats="NX,NAC" /><word lex="requiring" start="125" end="134"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="the" start="135" end="138"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="PI" start="139" end="140" /><word lex="3" start="141" end="141" /><word lex="PI3" start="139" end="141"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:8947" name="peptidase inhibitor 3" score="0.85366" dbxrefs="UP:P19957" ont-types="GENE"><match score="0.85366" matched="PI3" status="Approved Symbol" exact="1" /></term><term id="UP:P19400" name="Major pepsin inhibitor 3" score="0.85361" dbxrefs="XFAM:PF06394" ont-types="PROTEIN"><match score="0.85361" matched="PI-3" status="RecName: Short" no-dash-dash="1" exact="1" /></term><term id="NCIT:C105391" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105391&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3" status="synonym" exact="1" /><match score="0.70727" matched="PI-3" status="synonym" no-dash-dash="1" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C105389" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105389&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:P19957" name="Elafin" score="0.56093" species="Homo sapiens (Human)" dbxrefs="HGNC:8947,XFAM:PF10511,XFAM:PF00095" ont-types="PROTEIN"><match score="0.56093" matched="PI-3" status="AltName: Short" no-dash-dash="1" exact="1" /></term><term id="UP:P55928" name="Potassium channel toxin alpha-KTx 7.2" score="0.55812" dbxrefs="XFAM:PF00451" ont-types="PROTEIN"><match score="0.55812" matched="Pi3" status="AltName: Short" all-caps-initial-cap="1" /><match score="0.55808" matched="Pi-3" status="AltName: Short" no-dash-dash="1" all-caps-initial-cap="1" /></term></sense-info></word><word lex="K" start="142" end="142" /><word lex="3K" start="141" end="142"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="3"><new><amino-acid name="Lysine" letter="K" /></new></mutation></sense-info></word><word lex="PI3K" start="139" end="142"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:PI3K" name="PI3K" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="PI3K" status="name" exact="2" /><map to="PROTEIN-FAMILY" through="BE:PI3K" /></term><term id="UP:P54673" name="Phosphatidylinositol 3-kinase 1" score="0.85366" dbxrefs="XFAM:PF00454,XFAM:PF00792,XFAM:PF00794,XFAM:PF00613" ont-types="PROTEIN"><match score="0.85366" matched="PI3K" status="RecName: Short" exact="2" /></term><term id="GO:0016303" name="1-phosphatidylinositol-3-kinase activity" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="EXACT synonym" exact="2" /></term><term id="NCIT:C17270" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;" score="0.70732" ont-types="PROTEIN-FAMILY"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN-FAMILY" through="NCIT:C20130" /></term><term id="NCIT:C30168" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C30170" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C30171" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C51160" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C51161" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C51162" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C113629" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:8975" name="phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha" score="0.56098" dbxrefs="UP:P42336" ont-types="GENE"><match score="0.56098" matched="PI3K" status="Synonym" exact="2" /></term><term id="UP:etc" score="0.12195" ont-types="PROTEIN"><match score="0.12195" matched="PI3K" status="fake" exact="2" /></term></sense-info></word><word lex="-" start="143" end="143" /><word lex="Akt" start="144" end="147"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.99647"><term id="BE:AKT" name="AKT" score="0.99647" ont-types="PROTEIN-FAMILY"><match score="0.99647" matched="AKT" status="name" initial-cap-all-caps="1" /><map to="PROTEIN-FAMILY" through="BE:AKT" /></term><term id="NCIT:C41625" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;" score="0.70379" ont-types="PROTEIN"><match score="0.70379" matched="AKT" status="synonym" initial-cap-all-caps="1" /><match score="0.70379" matched="akt" status="synonym" initial-cap-no-caps="1" /><map to="PROTEIN" through="NCIT:C21176" /></term><term id="HGNC:391" name="AKT serine/threonine kinase 1" score="0.55745" dbxrefs="UP:P31749" ont-types="GENE"><match score="0.55745" matched="AKT" status="Synonym" initial-cap-all-caps="1" /></term><term id="UP:Q8INB9" name="RAC serine/threonine-protein kinase" score="0.55745" dbxrefs="XFAM:PF00169,XFAM:PF00069,XFAM:PF00433" ont-types="PROTEIN"><match score="0.55745" matched="akt" status="AltName: Full" initial-cap-no-caps="1" /></term></sense-info></word><word lex="PI3K-Akt" start="139" end="147"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="PI3K-Akt" start="139" end="147" penn-cats="NP" /><word lex="pathway" start="148" end="154"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="pathway" start="148" end="154" penn-cats="NX,NAC" /><prefer text="PI3K-Akt pathway" start="139" end="154" penn-cats="NX,NAC" /><prefer text="the PI3K-Akt pathway" start="135" end="154" penn-cats="NP" /><prefer text="requiring the PI3K-Akt pathway" start="125" end="154" penn-cats="VP" /><prefer text="a mechanism requiring the PI3K-Akt pathway" start="113" end="154" penn-cats="NP" /><prefer text="via a mechanism requiring the PI3K-Akt pathway" start="109" end="154" penn-cats="PP" /><prefer text="increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway" start="35" end="154" penn-cats="VP" /><prefer text="dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway" start="22" end="154" penn-cats="VP" /><prefer text="TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway" start="7" end="154" penn-cats="S" /><prefer text=", TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway" start="5" end="154" penn-cats="S" /><word lex="." start="155" end="155" /><prefer text="Thus, TCR activation dramatically increases the cellular response to Notch signals in primary human T cells via a mechanism requiring the PI3K-Akt pathway." start="1" end="155" penn-cats="S" /></tags><tree><lisp>(ADVBL (ADV DRAMATICALLY))</lisp><ADVBL><ADV>DRAMATICALLY</ADV></ADVBL></tree><terms root="#V344684"><lisp>((ONT::F ONT::V344684 (:* ONT::INCREASE W::INCREASE) :RESULT ONT::V344727
+  :AFFECTED ONT::V344719 :MOD ONT::V344864 :TENSE W::PRES :START 35 :END 155)
+ (ONT::THE ONT::V344719 (:* ONT::INFORMATION W::RESPONSE) :MOD ONT::V344716
+  :START 45 :END 67)
+ (ONT::F ONT::V344716 ONT::ASSOC-WITH :GROUND ONT::V345000 :FIGURE ONT::V344719
+  :START 49 :END 58)
+ (ONT::KIND ONT::V345000 (:* ONT::SHAPE-OBJECT W::CELL) :START 49 :END 58)
+ (ONT::F ONT::V344727 (:* ONT::TO-LOC W::TO) :GROUND ONT::V344763 :FIGURE
+  ONT::V344719 :START 67 :END 109)
+ (ONT::INDEF-SET ONT::V344763 (:* ONT::INFORMATION W::SIGNAL) :ASSOC-WITH
+  ONT::V344753 :LOCATION ONT::V344771 :START 70 :END 109)
+ (ONT::KIND ONT::V344753 (:* ONT::PROTEIN-FAMILY W::NOTCH) :NAME-OF W::NOTCH
+  :START 70 :END 109 :DRUM
+  ((:DRUM
+    (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+       1))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+ (ONT::F ONT::V344771 (:* ONT::IN-LOC W::IN) :GROUND ONT::V344860 :FIGURE
+  ONT::V344763 :START 84 :END 109)
+ (ONT::INDEF-SET ONT::V344860 (:* ONT::CELL W::T-CELLS) :NAME-OF
+  (W::T W::CELLS) :MOD ONT::V344820 :MOD ONT::V344830 :START 87 :END 109 :DRUM
+  ((:DRUM
+    (TERM :ID CO::|0000084| :NAME &quot;T cell&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;T cell&quot; :STATUS &quot;name&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 2)
+      (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;EXACT synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :NO-DASH-DASH 1 :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CO::|0000000|
+            (SENSE (MORPH (POS N) (WORD CELL))
+             (PROVENANCE (NAME LEXICON-DATA::CO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+           :TO ONT::CELL))
+     :ONT-TYPES (ONT::CELL))
+    (TERM :ID BTO::|0000782| :NAME &quot;T-lymphocyte&quot; :SCORE 0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;T cell&quot; :STATUS &quot;RELATED synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 2)
+      (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;RELATED synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :NO-DASH-DASH 1 :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BTO::|0001096|
+            (SENSE (MORPH (POS N) (WORD (LYMPHOID CELL)))
+             (PROVENANCE (NAME LEXICON-DATA::BTO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000109.lisp&quot;))))
+           :TO ONT::CELL)
+      (MAP :THROUGH
+           (CONCEPT BTO::|0000574|
+            (SENSE (MORPH (POS N) (WORD (HEMATOPOIETIC CELL)))
+             (PROVENANCE (NAME LEXICON-DATA::BTO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000057.lisp&quot;))))
+           :TO ONT::CELL))
+     :ONT-TYPES (ONT::CELL)))))
+ (ONT::F ONT::V344820 (:* ONT::PRIMARY W::PRIMARY) :FIGURE ONT::V344860 :START
+  87 :END 95)
+ (ONT::F ONT::V344830 ONT::ASSOC-WITH :GROUND ONT::V345002 :FIGURE ONT::V344860
+  :START 95 :END 101)
+ (ONT::KIND ONT::V345002 (:* ONT::ATTRIBUTIVE-SCALE W::HUMANITY) :DRUM
+  ((ONT::DRUM
+    (ONT::SPECIALIST :EUI ONT::E0032138 :CITATION-FORM &quot;humanity&quot; :MATCHES
+     ((ONT::MATCH :SCORE 1.0 :MATCHED &quot;humanity&quot; :EXACT 1)) :COMPLEMENTS
+     (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+     ((ONT::SPECIALIST :EUI ONT::E0032130 :CAT ONT::ADJ :CITATION-FORM
+       &quot;human&quot;)))))
+  :START 95 :END 101)
+ (ONT::F ONT::V344864 (:* ONT::OBJ-IN-PATH W::VIA) :GROUND ONT::V344912 :FIGURE
+  ONT::V344684 :START 109 :END 155)
+ (ONT::A ONT::V344912 (:* ONT::DEVICE W::MECHANISM) :MOD ONT::V344916 :START
+  113 :END 155)
+ (ONT::F ONT::V344916 (:* ONT::NECESSITY W::REQUIRE) :NEUTRAL ONT::V344912
+  :FORMAL ONT::V344926 :VFORM W::ING :START 125 :END 155)
+ (ONT::THE ONT::V344926 (:* ONT::SIGNALING-PATHWAY W::PATHWAY) :ASSOC-WITH
+  ONT::V344936 :START 135 :END 155)
+ (ONT::THE ONT::V344936 ONT::GENE-PROTEIN :SEQUENCE (ONT::V344545 ONT::V344553)
+  :NAME-OF (W::PI 3 W::K W::PUNC-MINUS W::AKT) :START 135 :END 155)
+ (ONT::THE ONT::V344545 (:* ONT::GENE-PROTEIN W::PI-3-K) :NAME-OF
+  (W::PI 3 W::K) :START 139 :END 143 :DRUM
+  ((:DRUM
+    (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::PI3K
+            (SENSE (MORPH (POS N) (WORD PI3K))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366
+     :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2))
+     :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot;
+     :SCORE 0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C17270 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C20130
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C30168 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C30170 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C30171 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C51160 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C51161 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C51162 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C113629 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|8975| :NAME
+     &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+     :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2))
+     :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES
+     ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2))
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::THE ONT::V344553 (:* ONT::GENE-PROTEIN W::AKT) :NAME-OF (W::AKT) :START
+  144 :END 148 :DRUM
+  ((:DRUM
+    (TERM :ID BE::AKT :NAME &quot;AKT&quot; :SCORE 0.99647 :MATCHES
+     ((MATCH :SCORE 0.99647 :MATCHED &quot;AKT&quot; :STATUS &quot;name&quot; :INITIAL-CAP-ALL-CAPS
+       1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::AKT
+            (SENSE (MORPH (POS N) (WORD AKT))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/A.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C41625 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;AKT&quot; :STATUS &quot;synonym&quot;
+       :INITIAL-CAP-ALL-CAPS 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;akt&quot; :STATUS &quot;synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C21176
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C21176&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02117.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID HGNC::|391| :NAME &quot;AKT serine/threonine kinase 1&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;AKT&quot; :STATUS &quot;Synonym&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (UP::P31749) :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::Q8INB9 :NAME &quot;RAC serine/threonine-protein kinase&quot; :SCORE
+     0.55745 :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;akt&quot; :STATUS &quot;AltName: Full&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00169 XFAM::PF00069 XFAM::PF00433) :ONT-TYPES
+     (ONT::PROTEIN))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V344684">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INCREASE</LF:type>
+    <LF:word>INCREASE</LF:word>
+    <role:RESULT rdf:resource="#V344727" />
+    <role:AFFECTED rdf:resource="#V344719" />
+    <role:MOD rdf:resource="#V344864" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>35</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344719">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>INFORMATION</LF:type>
+    <LF:word>RESPONSE</LF:word>
+    <role:MOD rdf:resource="#V344716" />
+    <LF:start>45</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344716">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V345000" />
+    <role:FIGURE rdf:resource="#V344719" />
+    <LF:start>49</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V345000">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>CELL</LF:word>
+    <LF:start>49</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344727">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TO-LOC</LF:type>
+    <LF:word>TO</LF:word>
+    <role:GROUND rdf:resource="#V344763" />
+    <role:FIGURE rdf:resource="#V344719" />
+    <LF:start>67</LF:start>
+    <LF:end>109</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344763">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>INFORMATION</LF:type>
+    <LF:word>SIGNAL</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V344753" />
+    <role:LOCATION rdf:resource="#V344771" />
+    <LF:start>70</LF:start>
+    <LF:end>109</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344753">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROTEIN-FAMILY</LF:type>
+    <LF:word>NOTCH</LF:word>
+    <role:NAME-OF>NOTCH</role:NAME-OF>
+    <LF:start>70</LF:start>
+    <LF:end>109</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+     1))
+   :ONT-TYPES (PROTEIN-FAMILY))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344771">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V344860" />
+    <role:FIGURE rdf:resource="#V344763" />
+    <LF:start>84</LF:start>
+    <LF:end>109</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344860">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>T-CELLS</LF:word>
+    <role:NAME-OF>(T CELLS)</role:NAME-OF>
+    <role:MOD rdf:resource="#V344820" />
+    <role:MOD rdf:resource="#V344830" />
+    <LF:start>87</LF:start>
+    <LF:end>109</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0000084| :NAME &quot;T cell&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;T cell&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2)
+    (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;EXACT synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :NO-DASH-DASH 1 :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0000000|
+          (SENSE (MORPH (POS N) (WORD CELL))
+           (PROVENANCE (NAME CO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+         :TO CELL))
+   :ONT-TYPES (CELL))
+  (TERM :ID |0000782| :NAME &quot;T-lymphocyte&quot; :SCORE 0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;T cell&quot; :STATUS &quot;RELATED synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :EXACT 2)
+    (MATCH :SCORE 0.70727 :MATCHED &quot;T-cell&quot; :STATUS &quot;RELATED synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :NO-DASH-DASH 1 :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0001096|
+          (SENSE (MORPH (POS N) (WORD (LYMPHOID CELL)))
+           (PROVENANCE (NAME BTO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000109.lisp&quot;))))
+         :TO CELL)
+    (MAP :THROUGH
+         (CONCEPT |0000574|
+          (SENSE (MORPH (POS N) (WORD (HEMATOPOIETIC CELL)))
+           (PROVENANCE (NAME BTO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000057.lisp&quot;))))
+         :TO CELL))
+   :ONT-TYPES (CELL))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344820">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PRIMARY</LF:type>
+    <LF:word>PRIMARY</LF:word>
+    <role:FIGURE rdf:resource="#V344860" />
+    <LF:start>87</LF:start>
+    <LF:end>95</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344830">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V345002" />
+    <role:FIGURE rdf:resource="#V344860" />
+    <LF:start>95</LF:start>
+    <LF:end>101</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V345002">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>ATTRIBUTIVE-SCALE</LF:type>
+    <LF:word>HUMANITY</LF:word>
+    <role:DRUM>((DRUM
+  (SPECIALIST :EUI E0032138 :CITATION-FORM &quot;humanity&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;humanity&quot; :EXACT 1)) :COMPLEMENTS
+   (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+   ((SPECIALIST :EUI E0032130 :CAT ADJ :CITATION-FORM &quot;human&quot;)))))</role:DRUM>
+    <LF:start>95</LF:start>
+    <LF:end>101</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344864">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OBJ-IN-PATH</LF:type>
+    <LF:word>VIA</LF:word>
+    <role:GROUND rdf:resource="#V344912" />
+    <role:FIGURE rdf:resource="#V344684" />
+    <LF:start>109</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344912">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>DEVICE</LF:type>
+    <LF:word>MECHANISM</LF:word>
+    <role:MOD rdf:resource="#V344916" />
+    <LF:start>113</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344916">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NECESSITY</LF:type>
+    <LF:word>REQUIRE</LF:word>
+    <role:NEUTRAL rdf:resource="#V344912" />
+    <role:FORMAL rdf:resource="#V344926" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>125</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344926">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SIGNALING-PATHWAY</LF:type>
+    <LF:word>PATHWAY</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V344936" />
+    <LF:start>135</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344936">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <role:SEQUENCE rdf:resource="#V344545" />
+    <role:SEQUENCE1 rdf:resource="#V344553" />
+    <role:NAME-OF>(PI 3 K PUNC-MINUS AKT)</role:NAME-OF>
+    <LF:start>135</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344545">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>PI-3-K</LF:word>
+    <role:NAME-OF>(PI 3 K)</role:NAME-OF>
+    <LF:start>139</LF:start>
+    <LF:end>143</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT PI3K
+          (SENSE (MORPH (POS N) (WORD PI3K))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366
+   :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2))
+   :DBXREFS (PF00454 PF00792 PF00794 PF00613) :ONT-TYPES (PROTEIN))
+  (TERM :ID |0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C17270 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C20130
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C30168 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C30170 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C30171 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C51160 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C51161 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C51162 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C113629 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |8975| :NAME
+   &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+   :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2)) :DBXREFS
+   (P42336) :ONT-TYPES (GENE))
+  (TERM :ID |etc| :SCORE 0.12195 :MATCHES
+   ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2)) :ONT-TYPES
+   (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V344553">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>AKT</LF:word>
+    <role:NAME-OF>(AKT)</role:NAME-OF>
+    <LF:start>144</LF:start>
+    <LF:end>148</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID AKT :NAME &quot;AKT&quot; :SCORE 0.99647 :MATCHES
+   ((MATCH :SCORE 0.99647 :MATCHED &quot;AKT&quot; :STATUS &quot;name&quot; :INITIAL-CAP-ALL-CAPS
+     1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT AKT
+          (SENSE (MORPH (POS N) (WORD AKT))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/A.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C41625 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41625&gt;&quot; :SCORE 0.70379
+   :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;AKT&quot; :STATUS &quot;synonym&quot;
+     :INITIAL-CAP-ALL-CAPS 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;akt&quot; :STATUS &quot;synonym&quot; :INITIAL-CAP-NO-CAPS
+     1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C21176
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C21176&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02117.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID |391| :NAME &quot;AKT serine/threonine kinase 1&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;AKT&quot; :STATUS &quot;Synonym&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (P31749) :ONT-TYPES (GENE))
+  (TERM :ID Q8INB9 :NAME &quot;RAC serine/threonine-protein kinase&quot; :SCORE 0.55745
+   :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;akt&quot; :STATUS &quot;AltName: Full&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00169 PF00069 PF00433) :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

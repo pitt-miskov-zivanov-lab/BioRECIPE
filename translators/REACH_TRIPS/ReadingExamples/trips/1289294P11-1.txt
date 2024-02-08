@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="GAPDH was immunoblotted as a loading control (bottom panel)..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10440.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07158.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00213_IO-2072129" timestamp="20190708T132636"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00213_IO-2072129" id="paragraph212">GAPDH was immunoblotted as a loading control (bottom panel)..
+</paragraph></paragraphs><sentences><sentence id="239" pid="paragraph212">GAPDH was immunoblotted as a loading control (bottom panel)..</sentence></sentences></input><TERM dbid="NCIT:C104409|XFAM:PF00044|UP:P04406|HGNC:4141|XFAM:PF02800|UP:P16858|GO:0004365" end="6" id="V2072140" lisp="(ONT::TERM ONT::V2072140 ONT::GENE-PROTEIN :NAME W::GAPDH :DRUM ((:DRUM (TERM :ID HGNC::|4141| :NAME &quot;glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)) :DBXREFS (UP::P04406) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::P04406 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT 1)) :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS (HGNC::|4141| XFAM::PF02800 XFAM::PF00044) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P16858 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT 1)) :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF02800 XFAM::PF00044) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0004365| :NAME &quot;glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C104409 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph212" rule="-SIMPLE-REF" start="0" uttnum="239"><type>ONT::GENE-PROTEIN</type><name>GAPDH</name><drum-terms><drum-term dbid="HGNC:4141" match-score="0.85366" matched-name="GAPDH" name="glyceraldehyde-3-phosphate dehydrogenase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P04406"/></xrefs></drum-term><drum-term dbid="UP:P04406" match-score="0.85366" matched-name="GAPDH" name="Glyceraldehyde-3-phosphate dehydrogenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="HGNC:4141"/><xref dbid="XFAM:PF02800"/><xref dbid="XFAM:PF00044"/></xrefs><species>Homo sapiens (Human)</species></drum-term><drum-term dbid="UP:P16858" match-score="0.85366" matched-name="GAPDH" name="Glyceraldehyde-3-phosphate dehydrogenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF02800"/><xref dbid="XFAM:PF00044"/></xrefs><species>Mus musculus (Mouse)</species></drum-term><drum-term dbid="GO:0004365" match-score="0.70732" matched-name="GAPDH" name="glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C104409" match-score="0.70732" matched-name="GAPDH" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;"><types><type>ONT::GENE</type></types></drum-term></drum-terms><text>GAPDH</text></TERM><EVENT end="59" id="V2072262" lisp="(ONT::EVENT ONT::V2072262 ONT::MODULATE :AFFECTED ONT::V2072251)" paragraph="paragraph212" rule="-RULE10_1_AGENT_AFFECTED-AFFECTED" start="27" uttnum="239"><type>ONT::MODULATE</type><predicate end="59" id="V2072262" start="27"><type>ONT::MODULATE</type><text>a loading control (bottom panel)</text></predicate><arg2 end="37" id="V2072251" role=":AFFECTED" start="29"><type>ONT::BIND</type><text normalization="">loading</text></arg2><text>a loading control (bottom panel)</text></EVENT><EVENT end="37" id="V2072251" lisp="(ONT::EVENT ONT::V2072251 ONT::BIND)" paragraph="paragraph212" rule="-RULE40_4_AGENT_AFFECTED-NONE" start="29" uttnum="239"><type>ONT::BIND</type><predicate end="37" id="V2072251" start="29"><type>ONT::BIND</type><text>loading</text></predicate><text>loading</text></EVENT><TERM end="58" id="V2072282" lisp="(ONT::TERM ONT::V2072282 ONT::SHAPE-OBJECT :NAME W::PANEL)" paragraph="paragraph212" rule="-SIMPLE-REF" start="46" uttnum="239"><type>ONT::SHAPE-OBJECT</type><name>PANEL</name><text>bottom panel</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::GAPDH W::WAS)</lisp><word>GAPDH</word><word>WAS</word></words><tags><lisp>((WORD &quot;GAPDH&quot; :FRAME (0 5) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|4141| :NAME &quot;glyceraldehyde-3-phosphate dehydrogenase&quot;
+       :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P04406) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P04406 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot;
+       :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+         1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+       (HGNC::|4141| XFAM::PF02800 XFAM::PF00044) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P16858 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot;
+       :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+         1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF02800 XFAM::PF00044)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0004365| :NAME
+       &quot;glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+         1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C104409 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;GAPDH&quot; :FRAME (0 5) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;was&quot; :FRAME (6 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 239
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="GAPDH" start="0" end="5"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:4141" name="glyceraldehyde-3-phosphate dehydrogenase" score="0.85366" dbxrefs="UP:P04406" ont-types="GENE"><match score="0.85366" matched="GAPDH" status="Approved Symbol" exact="1" /></term><term id="UP:P04406" name="Glyceraldehyde-3-phosphate dehydrogenase" score="0.85366" species="Homo sapiens (Human)" dbxrefs="HGNC:4141,XFAM:PF02800,XFAM:PF00044" ont-types="PROTEIN"><match score="0.85366" matched="GAPDH" status="RecName: Short" exact="1" /></term><term id="UP:P16858" name="Glyceraldehyde-3-phosphate dehydrogenase" score="0.85366" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF02800,XFAM:PF00044" ont-types="PROTEIN"><match score="0.85366" matched="GAPDH" status="RecName: Short" exact="1" /></term><term id="GO:0004365" name="glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="GAPDH" status="EXACT synonym" exact="1" /></term><term id="NCIT:C104409" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="GAPDH" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term></sense-info></word><prefer text="GAPDH" start="0" end="5" penn-cats="NP,NX,NAC" /><word lex="was" start="6" end="9"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT (S (NP (NAME GAPDH)) (VP (VP- (AUX (V WAS))))))</lisp><UTT><S><NP><NAME>GAPDH</NAME></NP><VP><VP-><AUX><V>WAS</V></AUX></VP-></VP></S></UTT></tree><terms root="#V2073303"><lisp>((ONT::SPEECHACT ONT::V2073303 ONT::SA_TELL :CONTENT ONT::V2072144 :START 0
+  :END 10)
+ (ONT::F ONT::V2072144 (:* ONT::ELLIPSIS) :NEUTRAL ONT::V2072140 :TENSE W::PAST
+  :PROGR + :START 0 :END 10)
+ (ONT::THE ONT::V2072140 (:* ONT::GENE-PROTEIN W::GAPDH) :NAME-OF (W::GAPDH)
+  :START 0 :END 6 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|4141| :NAME &quot;glyceraldehyde-3-phosphate dehydrogenase&quot;
+     :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+       1))
+     :DBXREFS (UP::P04406) :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::P04406 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot;
+     :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+       1))
+     :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+     (HGNC::|4141| XFAM::PF02800 XFAM::PF00044) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P16858 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot;
+     :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+       1))
+     :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF02800 XFAM::PF00044)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0004365| :NAME
+     &quot;glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity&quot;
+     :SCORE 0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C104409 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2073303">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2072144" />
+    <LF:start>0</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072144">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ELLIPSIS</LF:type>
+    <role:NEUTRAL rdf:resource="#V2072140" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PROGR>+</role:PROGR>
+    <LF:start>0</LF:start>
+    <LF:end>10</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072140">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>GAPDH</LF:word>
+    <role:NAME-OF>(GAPDH)</role:NAME-OF>
+    <LF:start>0</LF:start>
+    <LF:end>6</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |4141| :NAME &quot;glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1))
+   :DBXREFS (P04406) :ONT-TYPES (GENE))
+  (TERM :ID P04406 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT 1))
+   :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS (|4141| PF02800 PF00044) :ONT-TYPES
+   (PROTEIN))
+  (TERM :ID P16858 :NAME &quot;Glyceraldehyde-3-phosphate dehydrogenase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;GAPDH&quot; :STATUS &quot;RecName: Short&quot; :EXACT 1))
+   :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (PF02800 PF00044) :ONT-TYPES
+   (PROTEIN))
+  (TERM :ID |0004365| :NAME
+   &quot;glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity&quot;
+   :SCORE 0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C104409 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104409&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;GAPDH&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::IMMUNOBLOTTED W::AS W::A W::LOADING W::CONTROL W::START-PAREN W::BOTTOM
+ W::PANEL W::END-PAREN W::PUNC-PERIOD)</lisp><word>IMMUNOBLOTTED</word><word>AS</word><word>A</word><word>LOADING</word><word>CONTROL</word><word>START-PAREN</word><word>BOTTOM</word><word>PANEL</word><word>END-PAREN</word><word>PUNC-PERIOD</word></words><tags><lisp>((PREFIX &quot;immuno&quot; :FRAME (10 15) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blotted&quot; :FRAME (16 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD VBN) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0013547 :CITATION-FORM &quot;blot&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;blotted&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;intran&quot; &quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;))))))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;immunoblotted&quot; :FRAME (10 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0033575 :CITATION-FORM &quot;immunoblot&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-blotted&quot; :NO-DASH-DASH 1 :EXACT
+         2))
+       :COMPLEMENTS (&quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;))))))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;immunoblotted&quot; :FRAME (10 23) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (24 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (27 28) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;loading&quot; :FRAME (29 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG NN) :TRIPS-PARTS-OF-SPEECH (W::V W::N))) :UTTNUM
+  239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;loading&quot; :FRAME (29 36) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;control&quot; :FRAME (37 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 239
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;control&quot; :FRAME (37 44) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;loading control&quot; :FRAME (29 44) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (45 45) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-))) :UTTNUM
+  239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;bottom&quot; :FRAME (46 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ NN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::N)))
+  :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;bottom&quot; :FRAME (46 52) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;panel&quot; :FRAME (53 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 239
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;panel&quot; :FRAME (53 57) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;bottom panel&quot; :FRAME (46 57) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;)&quot; :FRAME (58 58) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-))) :UTTNUM
+  239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;(bottom panel)&quot; :FRAME (45 58) :PENN-CATS (PRN) :UTTNUM 239 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a loading control (bottom panel)&quot; :FRAME (27 58) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;as a loading control (bottom panel)&quot; :FRAME (24 58) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;immunoblotted as a loading control (bottom panel)&quot; :FRAME (10 58)
+  :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 239 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;was immunoblotted as a loading control (bottom panel)&quot; :FRAME (6 58)
+  :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 239 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (59 59) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;GAPDH was immunoblotted as a loading control (bottom panel).&quot; :FRAME
+  (0 59) :PENN-CATS (S) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (60 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 239
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (60 60) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;GAPDH was immunoblotted as a loading control (bottom panel)..&quot; :FRAME
+  (0 60) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 239 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><prefix lex="immuno" start="10" end="15" /><word lex="blotted" start="16" end="23"><sense-info penn-parts-of-speech="VBD,VBN" trips-parts-of-speech="V"><specialist eui="E0013547" citation-form="blot"><match score="1.0" matched="blotted" exact="1" />    <complement>intran</complement>
+    <complement>tran=np</complement>
+    <complement>ditran=np,pphr(with,np)</complement>
+</specialist></sense-info></word><word lex="immunoblotted" start="10" end="23"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V"><specialist eui="E0033575" citation-form="immunoblot"><match score="0.99814" matched="immuno-blotted" no-dash-dash="1" exact="2" />    <complement>tran=np</complement>
+    <complement>ditran=np,pphr(with,np)</complement>
+</specialist></sense-info></word><prefer text="immunoblotted" start="10" end="23" penn-cats="VP" /><word lex="as" start="24" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="27" end="28"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="loading" start="29" end="36"><sense-info penn-parts-of-speech="VBG,NN" trips-parts-of-speech="V,N" /></word><prefer text="loading" start="29" end="36" penn-cats="NP" /><word lex="control" start="37" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="control" start="37" end="44" penn-cats="NX,NAC" /><prefer text="loading control" start="29" end="44" penn-cats="NX,NAC" /><word lex="(" start="45" end="45"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="bottom" start="46" end="52"><sense-info penn-parts-of-speech="JJ,NN" trips-parts-of-speech="ADJ,N" /></word><prefer text="bottom" start="46" end="52" penn-cats="NP" /><word lex="panel" start="53" end="57"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="panel" start="53" end="57" penn-cats="NX,NAC" /><prefer text="bottom panel" start="46" end="57" penn-cats="NP,NX,NAC" /><word lex=")" start="58" end="58"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="(bottom panel)" start="45" end="58" penn-cats="PRN" /><prefer text="a loading control (bottom panel)" start="27" end="58" penn-cats="NP" /><prefer text="as a loading control (bottom panel)" start="24" end="58" penn-cats="PP" /><prefer text="immunoblotted as a loading control (bottom panel)" start="10" end="58" penn-cats="VP" /><prefer text="was immunoblotted as a loading control (bottom panel)" start="6" end="58" penn-cats="VP" /><word lex="." start="59" end="59" /><prefer text="GAPDH was immunoblotted as a loading control (bottom panel)." start="0" end="59" penn-cats="S" /><prefer text="." start="60" end="60" penn-cats="NP" /><word lex="." start="60" end="60" /><prefer text="GAPDH was immunoblotted as a loading control (bottom panel).." start="0" end="60" penn-cats="S" /></tags><tree><lisp>(UTT
+ (UTT
+  (VP
+   (VP- (VP- (V IMMUNOBLOTTED))
+    (ADVBL (ADV AS)
+     (NP (NP (SPEC (DET (ART A))) (N1 (NP (N1 (V LOADING))) (N1 (N CONTROL))))
+      (PARENTHETICAL (PUNC START-PAREN)
+       (UTT (NP (N1 (ADJP (ADJ1 (ADJ BOTTOM))) (N1 (N PANEL)))))
+       (PUNC END-PAREN)))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><VP-><V>IMMUNOBLOTTED</V></VP-><ADVBL><ADV>AS</ADV><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><NP><N1><V>LOADING</V></N1></NP><N1><N>CONTROL</N></N1></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><ADJP><ADJ1><ADJ>BOTTOM</ADJ></ADJ1></ADJP><N1><N>PANEL</N></N1></N1></NP></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></ADVBL></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V2073365"><lisp>((ONT::SPEECHACT ONT::V2073365 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V2072176 :START 10 :END 60 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0033575 :CITATION-FORM &quot;immunoblot&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-blotted&quot; :NO-DASH-DASH 1 :EXACT
+       2))
+     :COMPLEMENTS (&quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;)))))
+ (ONT::F ONT::V2072176 (:* ONT::SITUATION-ROOT W::IMMUNOBLOTTED) :MANNER
+  ONT::V2072196 :TENSE W::PRES :START 10 :END 59 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0033575 :CITATION-FORM &quot;immunoblot&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-blotted&quot; :NO-DASH-DASH 1 :EXACT
+       2))
+     :COMPLEMENTS (&quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;)))))
+ (ONT::IMPRO ONT::V2073366 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 10 :END
+  59)
+ (ONT::F ONT::V2072196 (:* ONT::MANNER W::AS) :GROUND ONT::V2072262 :FIGURE
+  ONT::V2072176 :START 24 :END 59)
+ (ONT::A ONT::V2072262 (:* ONT::CONTROL-MANAGE W::CONTROL) :PARENTHETICAL
+  ONT::V2072282 :AFFECTED ONT::V2072251 :START 27 :END 59)
+ (ONT::BARE ONT::V2072251 (:* ONT::FILL-CONTAINER W::LOAD) :START 29 :END 37)
+ (ONT::SPEECHACT ONT::V2072679 ONT::SA_IDENTIFY :CONTENT ONT::V2072282 :START
+  46 :END 58)
+ (ONT::BARE ONT::V2072282 (:* ONT::SHAPE-OBJECT W::PANEL) :MOD ONT::V2072274
+  :START 46 :END 58)
+ (ONT::F ONT::V2072274 (:* ONT::BOTTOM-LOCATION-VAL W::BOTTOM) :FIGURE
+  ONT::V2072282 :START 46 :END 53))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2073365">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V2072176" />
+    <LF:start>10</LF:start>
+    <LF:end>60</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0033575 :CITATION-FORM &quot;immunoblot&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-blotted&quot; :NO-DASH-DASH 1 :EXACT 2))
+   :COMPLEMENTS (&quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072176">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATION-ROOT</LF:type>
+    <LF:word>IMMUNOBLOTTED</LF:word>
+    <role:MANNER rdf:resource="#V2072196" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>10</LF:start>
+    <LF:end>59</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0033575 :CITATION-FORM &quot;immunoblot&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-blotted&quot; :NO-DASH-DASH 1 :EXACT 2))
+   :COMPLEMENTS (&quot;tran=np&quot; &quot;ditran=np,pphr(with,np)&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2073366">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>10</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072196">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MANNER</LF:type>
+    <LF:word>AS</LF:word>
+    <role:GROUND rdf:resource="#V2072262" />
+    <role:FIGURE rdf:resource="#V2072176" />
+    <LF:start>24</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072262">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CONTROL-MANAGE</LF:type>
+    <LF:word>CONTROL</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V2072282" />
+    <role:AFFECTED rdf:resource="#V2072251" />
+    <LF:start>27</LF:start>
+    <LF:end>59</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072251">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>FILL-CONTAINER</LF:type>
+    <LF:word>LOAD</LF:word>
+    <LF:start>29</LF:start>
+    <LF:end>37</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072679">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2072282" />
+    <LF:start>46</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072282">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>PANEL</LF:word>
+    <role:MOD rdf:resource="#V2072274" />
+    <LF:start>46</LF:start>
+    <LF:end>58</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2072274">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BOTTOM-LOCATION-VAL</LF:type>
+    <LF:word>BOTTOM</LF:word>
+    <role:FIGURE rdf:resource="#V2072282" />
+    <LF:start>46</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

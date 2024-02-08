@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="Inhibition of mTOR by rapamycin has been standard treatment for immunosuppression following organ transplant [15], and the rapamycin derivative CCI-779 is now being clinically tested as a cancer chemotherapy [18-20].Thus, B-Raf and mTOR are acknowledged targets for anti-proliferative therapy [29]..">
+<debug>
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to times not implemented yet
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00243_IO-3083922" timestamp="20190708T140413"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00243_IO-3083922" id="paragraph242">Inhibition of mTOR by rapamycin has been standard treatment for immunosuppression following organ transplant [15], and the rapamycin derivative CCI-779 is now being clinically tested as a cancer chemotherapy [18-20].Thus, B-Raf and mTOR are acknowledged targets for anti-proliferative therapy [29]..
+</paragraph></paragraphs><sentences><sentence id="269" pid="paragraph242">Inhibition of mTOR by rapamycin has been standard treatment for immunosuppression following organ transplant [15], and the rapamycin derivative CCI-779 is now being clinically tested as a cancer chemotherapy [18-20].Thus, B-Raf and mTOR are acknowledged targets for anti-proliferative therapy [29]..</sentence></sentences></input><EVENT end="32" id="V3083936" lisp="(ONT::EVENT ONT::V3083936 ONT::INHIBIT :AGENT ONT::V3084008 :AFFECTED ONT::V3083978)" paragraph="paragraph242" rule="-RULE30_1_AGENT_AFFECTED" start="0" uttnum="269"><type>ONT::INHIBIT</type><predicate end="32" id="V3083936" start="0"><type>ONT::INHIBIT</type><text>Inhibition of mTOR by rapamycin</text></predicate><arg1 end="32" id="V3084008" role=":AGENT" start="19"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><text normalization="">by rapamycin</text></arg1><arg2 end="19" id="V3083978" role=":AFFECTED" start="11"><type>ONT::GENE-PROTEIN</type><text normalization="">of mTOR</text></arg2><text>Inhibition of mTOR by rapamycin</text></EVENT><EVENT end="113" id="V3084056" lisp="(ONT::EVENT ONT::V3084056 ONT::MODULATE :AFFECTED ONT::V3084087)" paragraph="paragraph242" rule="-RULE10_1_AGENT_AFFECTED-AFFECTED" start="41" uttnum="269"><type>ONT::MODULATE</type><predicate end="113" id="V3084056" start="41"><type>ONT::MODULATE</type><text>standard treatment for immunosuppression following organ transplant [15]</text></predicate><arg2 end="113" id="V3084087" role=":AFFECTED" start="60"><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type><text normalization="">for immunosuppression following organ transplant [15]</text></arg2><text>standard treatment for immunosuppression following organ transplant [15]</text></EVENT><TERM dbid="XFAM:PF02259|XFAM:PF00454|NCIT:C38928|NCIT:C38929|XFAM:PF11865|UP:Q9JLN9|HGNC:3942|UP:P42345|XFAM:PF02260|XFAM:PF08771|UP:P42346" end="19" id="V3083978" lisp="(ONT::TERM ONT::V3083978 ONT::GENE-PROTEIN :NAME W::MTOR :DRUM ((:DRUM (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot; :SCORE 0.84606 :MATCHES ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot; :MIXED-CAPS-ALL-CAPS 1) (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-ALL-CAPS 1)) :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C38929 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C38928 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE 0.69971 :MATCHES ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MIXED-CAPS-ALL-CAPS 1) (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :DBXREFS (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="11" uttnum="269"><type>ONT::GENE-PROTEIN</type><name>MTOR</name><drum-terms><drum-term dbid="HGNC:3942" match-score="0.84606" matched-name="MTOR" name="mechanistic target of rapamycin kinase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P42345"/></xrefs></drum-term><drum-term dbid="NCIT:C38929" match-score="0.70732" matched-name="mTOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C38928" match-score="0.69971" matched-name="MTOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="UP:P42345" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="HGNC:3942"/><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs><species>Homo sapiens (Human)</species></drum-term><drum-term dbid="UP:Q9JLN9" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs><species>Mus musculus (Mouse)</species></drum-term><drum-term dbid="UP:P42346" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs></drum-term></drum-terms><text>of mTOR</text></TERM><TERM dbid="NCIT:C1212|PC:5040" end="32" id="V3084008" lisp="(ONT::TERM ONT::V3084008 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::RAPAMYCIN :DRUM ((:DRUM (TERM :ID NCIT::C1212 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot; :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot; :NO-CAPS-INITIAL-CAP 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="19" uttnum="269"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>RAPAMYCIN</name><drum-terms><drum-term dbid="NCIT:C1212" match-score="0.70732" matched-name="rapamycin" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="PC:5040" match-score="0.70379" matched-name="Rapamycin" name="Sirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>by rapamycin</text></TERM><TERM end="113" id="V3084087" lisp="(ONT::TERM ONT::V3084087 ONT::MEDICAL-DISORDERS-AND-CONDITIONS :INEVENT ONT::V3084093 :NAME W::IMMUNOSUPPRESSION)" paragraph="paragraph242" rule="-INEVENT2B,-SIMPLE-REF" start="60" uttnum="269"><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type><name>IMMUNOSUPPRESSION</name><features><inevent id="V3084093"/></features><text>for immunosuppression following organ transplant [15]</text></TERM><EVENT end="113" id="V3084093" lisp="(ONT::EVENT ONT::V3084093 ONT::TRANSLOCATE :AGENT ONT::V3084087 :FORCE ONT::TRUE :NEUTRAL ONT::V3084112)" paragraph="paragraph242" rule="-RULE10_4_AGENT_AFFECTED-AGENT" start="60" uttnum="269"><type>ONT::TRANSLOCATE</type><force>ONT::TRUE</force><predicate end="113" id="V3084093" start="60"><type>ONT::TRANSLOCATE</type><text>for immunosuppression following organ transplant [15]</text></predicate><arg1 end="113" id="V3084087" role=":AGENT" start="60"><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type><text normalization="">for immunosuppression following organ transplant [15]</text></arg1><arg2 end="113" id="V3084112" role=":NEUTRAL" start="92"><type>ONT::MEDICAL-PROCEDURE</type><text normalization="">organ transplant [15]</text></arg2><text>for immunosuppression following organ transplant [15]</text></EVENT><TERM end="113" id="V3084112" lisp="(ONT::TERM ONT::V3084112 ONT::MEDICAL-PROCEDURE :NAME W::ORGAN-TRANSPLANT)" paragraph="paragraph242" rule="-SIMPLE-REF" start="92" uttnum="269"><type>ONT::MEDICAL-PROCEDURE</type><name>ORGAN-TRANSPLANT</name><text>organ transplant [15]</text></TERM><TERM dbid="MESH:C401859|NCIT:C1844" end="152" id="V3086058" lisp="(ONT::TERM ONT::V3086058 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::CCI-PUNC-MINUS-779 :DRUM ((:DRUM (TERM :ID NCIT::C1844 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1) (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1) (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="119" uttnum="269"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>CCI-779</name><drum-terms><drum-term dbid="NCIT:C1844" match-score="0.70732" matched-name="CCI-779" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="MESH:C401859" match-score="0.56098" matched-name="CCI-779" name="temsirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>the rapamycin derivative CCI-779</text></TERM><TERM end="165" id="V3086094" lisp="(ONT::TERM ONT::V3086094 ONT::ORGANISM :NAME W::BEING)" paragraph="paragraph242" rule="-SIMPLE-REF" start="155" uttnum="269"><type>ONT::ORGANISM</type><name>BEING</name><text>now being</text></TERM><TERM dbid="NCIT:C1212|PC:5040" end="152" id="V3086030" lisp="(ONT::TERM ONT::V3086030 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::RAPAMYCIN :DRUM ((:DRUM (TERM :ID NCIT::C1212 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot; :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot; :NO-CAPS-INITIAL-CAP 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="119" uttnum="269"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>RAPAMYCIN</name><drum-terms><drum-term dbid="NCIT:C1212" match-score="0.70732" matched-name="rapamycin" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="PC:5040" match-score="0.70379" matched-name="Rapamycin" name="Sirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>the rapamycin derivative CCI-779</text></TERM><TERM end="159" id="V3086085" lisp="(ONT::TERM ONT::V3086085 (:* ONT::DATE-OBJECT W::NOW) :PRO W::NOW)" paragraph="paragraph242" rule="-ROBUSTPRO" start="155" uttnum="269"><type>ONT::DATE-OBJECT</type><text>now</text></TERM><TERM end="215" id="V3086190" lisp="(ONT::TERM ONT::V3086190 ONT::TREATMENT :NAME W::CHEMOTHERAPY)" paragraph="paragraph242" rule="-SIMPLE-REF" start="186" uttnum="269"><type>ONT::TREATMENT</type><name>CHEMOTHERAPY</name><text>a cancer chemotherapy [18-20]</text></TERM><TERM end="215" id="V3086186" lisp="(ONT::TERM ONT::V3086186 ONT::CANCER :NAME W::CANCER)" paragraph="paragraph242" rule="-SIMPLE-REF" start="186" uttnum="269"><type>ONT::CANCER</type><name>CANCER</name><text>a cancer chemotherapy [18-20]</text></TERM><TERM end="237" id="V3099795" paragraph="paragraph242" rule="-LOGICALOP-REF" start="222" uttnum="269"><type>ONT::GENE-PROTEIN</type><aggregate operator="AND"><member id="V3099791"/><member id="V3099833"/></aggregate><text normalization="">B-Raf and mTOR</text></TERM><TERM end="297" id="V3099866" lisp="(ONT::TERM ONT::V3099866 ONT::GOAL :NAME W::TARGET)" paragraph="paragraph242" rule="-SIMPLE-REF" start="241" uttnum="269"><type>ONT::GOAL</type><name>TARGET</name><text>acknowledged targets for anti-proliferative therapy [29]</text></TERM><TERM dbid="UP:P15056|NCIT:C17476|HGNC:1097|NCIT:C18363" end="228" id="V3099791" lisp="(ONT::TERM ONT::V3099791 ONT::GENE-PROTEIN :NAME W::B-PUNC-MINUS-RAF :DRUM ((:DRUM (TERM :ID HGNC::|1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1) (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C17476 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C18363 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="222" uttnum="269"><type>ONT::GENE-PROTEIN</type><name>B-RAF</name><drum-terms><drum-term dbid="HGNC:1097" match-score="0.85366" matched-name="BRAF" name="B-Raf proto-oncogene, serine/threonine kinase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P15056"/></xrefs></drum-term><drum-term dbid="NCIT:C17476" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C18363" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;"><types><type>ONT::GENE</type></types></drum-term></drum-terms><text>B-Raf</text></TERM><TERM dbid="XFAM:PF02259|XFAM:PF00454|NCIT:C38928|NCIT:C38929|XFAM:PF11865|UP:Q9JLN9|HGNC:3942|UP:P42345|XFAM:PF02260|XFAM:PF08771|UP:P42346" end="237" id="V3099833" lisp="(ONT::TERM ONT::V3099833 ONT::GENE-PROTEIN :NAME W::MTOR :DRUM ((:DRUM (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot; :SCORE 0.84606 :MATCHES ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot; :MIXED-CAPS-ALL-CAPS 1) (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-ALL-CAPS 1)) :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C38929 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C38928 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE 0.69971 :MATCHES ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MIXED-CAPS-ALL-CAPS 1) (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1) (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169 :MIXED-CAPS-MIXED-CAPS 1)) :DBXREFS (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph242" rule="-SIMPLE-REF" start="232" uttnum="269"><type>ONT::GENE-PROTEIN</type><name>MTOR</name><drum-terms><drum-term dbid="HGNC:3942" match-score="0.84606" matched-name="MTOR" name="mechanistic target of rapamycin kinase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P42345"/></xrefs></drum-term><drum-term dbid="NCIT:C38929" match-score="0.70732" matched-name="mTOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C38928" match-score="0.69971" matched-name="MTOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="UP:P42345" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="HGNC:3942"/><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs><species>Homo sapiens (Human)</species></drum-term><drum-term dbid="UP:Q9JLN9" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs><species>Mus musculus (Mouse)</species></drum-term><drum-term dbid="UP:P42346" match-score="0.56098" matched-name="mTOR" name="Serine/threonine-protein kinase mTOR"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF11865"/><xref dbid="XFAM:PF02259"/><xref dbid="XFAM:PF02260"/><xref dbid="XFAM:PF08771"/><xref dbid="XFAM:PF00454"/></xrefs></drum-term></drum-terms><text>mTOR</text></TERM><TERM end="297" id="V3099916" lisp="(ONT::TERM ONT::V3099916 ONT::TREATMENT :NAME W::THERAPY)" paragraph="paragraph242" rule="-SIMPLE-REF" start="266" uttnum="269"><type>ONT::TREATMENT</type><name>THERAPY</name><text>anti-proliferative therapy [29]</text></TERM></ekb><utt><words><lisp>(W::INHIBITION W::OF W::MTOR W::BY W::RAPAMYCIN W::HAS W::BEEN W::STANDARD
+ W::TREATMENT W::FOR W::IMMUNOSUPPRESSION W::FOLLOWING W::ORGAN W::TRANSPLANT
+ W::START-SQUARE-PAREN W::FIFTEEN W::END-SQUARE-PAREN W::PUNC-COMMA)</lisp><word>INHIBITION</word><word>OF</word><word>MTOR</word><word>BY</word><word>RAPAMYCIN</word><word>HAS</word><word>BEEN</word><word>STANDARD</word><word>TREATMENT</word><word>FOR</word><word>IMMUNOSUPPRESSION</word><word>FOLLOWING</word><word>ORGAN</word><word>TRANSPLANT</word><word>START-SQUARE-PAREN</word><word>FIFTEEN</word><word>END-SQUARE-PAREN</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Inhibition&quot; :FRAME (0 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Inhibition&quot; :FRAME (0 10) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (11 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;m&quot; :FRAME (14 14) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;TOR&quot; :FRAME (15 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GENE-PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0050626| :NAME
+       &quot;trimethylamine-N-oxide reductase (cytochrome c) activity&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TOR&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;TOR&quot; :STATUS &quot;EXACT synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C104246 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104246&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;TOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|10260| :NAME &quot;RAR related orphan receptor C&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;TOR&quot; :STATUS &quot;Synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.55745 :MATCHED &quot;TOR&quot; :STATUS &quot;Synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::P51449) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P51450 :NAME &quot;Nuclear receptor ROR-gamma&quot; :SCORE 0.56098
+       :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;TOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+        (MATCH :SCORE 0.55745 :MATCHED &quot;TOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF00104 XFAM::PF00105)
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mTOR&quot; :FRAME (14 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GENE-PROTEIN) :SCORE 0.84606 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot;
+       :SCORE 0.84606 :MATCHES
+       ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+         :MIXED-CAPS-ALL-CAPS 1)
+        (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+       :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C38929 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C38928 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE
+       0.69971 :MATCHES
+       ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+         :MIXED-CAPS-ALL-CAPS 1)
+        (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+       (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771
+        XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+       (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :DBXREFS
+       (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;mTOR&quot; :FRAME (14 18) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;by&quot; :FRAME (19 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rapamycin&quot; :FRAME (22 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1212 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|9168| :NAME &quot;sirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;rapamycin&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin&quot; :FRAME (22 31) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;by rapamycin&quot; :FRAME (19 31) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Inhibition of mTOR by rapamycin&quot; :FRAME (0 31) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;has&quot; :FRAME (32 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;been&quot; :FRAME (36 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;standard&quot; :FRAME (41 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standard&quot; :FRAME (41 49) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;treatment&quot; :FRAME (50 59) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;treatment&quot; :FRAME (50 59) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;standard treatment&quot; :FRAME (41 59) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;for&quot; :FRAME (60 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;immunosuppression&quot; :FRAME (64 81) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0400458 :CITATION-FORM &quot;immunosuppression&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;immuno-suppression&quot; :NO-DASH-DASH 1
+         :EXACT 2))
+       :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0033686 :CAT VERB :CITATION-FORM
+         &quot;immunosuppress&quot;)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;immunosuppression&quot; :FRAME (64 81) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;following&quot; :FRAME (82 91) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;organ&quot; :FRAME (92 97) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;organ&quot; :FRAME (92 97) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;transplant&quot; :FRAME (98 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0061842 :CITATION-FORM &quot;transplant&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;trans-plant&quot; :NO-DASH-DASH 1 :EXACT
+         2)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;transplant&quot; :FRAME (98 108) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;organ transplant&quot; :FRAME (92 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;organ_transplant%1:04:00&quot;)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;organ transplant&quot; :FRAME (92 108) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;[&quot; :FRAME (109 109) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;15&quot; :FRAME (110 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;15&quot; :FRAME (110 111) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;]&quot; :FRAME (112 112) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;15]&quot; :FRAME (110 112) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;[15]&quot; :FRAME (109 112) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;organ transplant [15]&quot; :FRAME (92 112) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;following organ transplant [15]&quot; :FRAME (82 112) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;immunosuppression following organ transplant [15]&quot; :FRAME (64 112)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for immunosuppression following organ transplant [15]&quot; :FRAME
+  (60 112) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;standard treatment for immunosuppression following organ transplant [15]&quot;
+  :FRAME (41 112) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS
+  (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;been standard treatment for immunosuppression following organ transplant [15]&quot;
+  :FRAME (36 112) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;has been standard treatment for immunosuppression following organ transplant [15]&quot;
+  :FRAME (32 112) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Inhibition of mTOR by rapamycin has been standard treatment for immunosuppression following organ transplant [15]&quot;
+  :FRAME (0 112) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (113 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Inhibition" start="0" end="10"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="Inhibition" start="0" end="10" penn-cats="NP,NX,NAC" /><word lex="of" start="11" end="13"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="m" start="14" end="14" /><word lex="TOR" start="15" end="18"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.70732"><term id="GO:0050626" name="trimethylamine-N-oxide reductase (cytochrome c) activity" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="TOR" status="EXACT synonym" exact="1" /><match score="0.70379" matched="TOR" status="EXACT synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term><term id="NCIT:C104246" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104246&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="TOR" status="synonym" exact="1" /><match score="0.70379" matched="TOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:10260" name="RAR related orphan receptor C" score="0.56098" dbxrefs="UP:P51449" ont-types="GENE"><match score="0.56098" matched="TOR" status="Synonym" exact="1" /><match score="0.55745" matched="TOR" status="Synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term><term id="UP:P51450" name="Nuclear receptor ROR-gamma" score="0.56098" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF00104,XFAM:PF00105" ont-types="PROTEIN"><match score="0.56098" matched="TOR" status="AltName: Short" exact="1" /><match score="0.55745" matched="TOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term></sense-info></word><word lex="mTOR" start="14" end="18"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.84606"><term id="HGNC:3942" name="mechanistic target of rapamycin kinase" score="0.84606" dbxrefs="UP:P42345" ont-types="GENE"><match score="0.84606" matched="MTOR" status="Approved Symbol" mixed-caps-all-caps="1" /><match score="0.84606" matched="MTOR" status="Approved Symbol" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-all-caps="1" /></term><term id="NCIT:C38929" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="mTOR" status="synonym" exact="1" /><match score="0.69564" matched="mTOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C38928" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;" score="0.69971" ont-types="GENE"><match score="0.69971" matched="MTOR" status="synonym" mixed-caps-all-caps="1" /><match score="0.69971" matched="MTOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:P42345" name="Serine/threonine-protein kinase mTOR" score="0.56098" species="Homo sapiens (Human)" dbxrefs="HGNC:3942,XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term><term id="UP:Q9JLN9" name="Serine/threonine-protein kinase mTOR" score="0.56098" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term><term id="UP:P42346" name="Serine/threonine-protein kinase mTOR" score="0.56098" dbxrefs="XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term></sense-info></word><prefer text="mTOR" start="14" end="18" penn-cats="NP,NX,NAC" /><word lex="by" start="19" end="21"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="rapamycin" start="22" end="31"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1212" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="rapamycin" status="synonym" exact="1" /><match score="0.70379" matched="RAPAMYCIN" status="synonym" no-caps-all-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="PC:5040" name="Sirolimus" score="0.70379" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70379" matched="Rapamycin" status="Alternative Name" no-caps-initial-cap="1" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:9168" name="sirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="rapamycin" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info></word><prefer text="rapamycin" start="22" end="31" penn-cats="NP,NX,NAC" /><prefer text="by rapamycin" start="19" end="31" penn-cats="PP" /><prefer text="Inhibition of mTOR by rapamycin" start="0" end="31" penn-cats="NP,NX,NAC" /><word lex="has" start="32" end="35"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="been" start="36" end="40"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="standard" start="41" end="49"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="standard" start="41" end="49" penn-cats="ADJP,QP" /><word lex="treatment" start="50" end="59"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="treatment" start="50" end="59" penn-cats="NX,NAC" /><prefer text="standard treatment" start="41" end="59" penn-cats="NP,NX,NAC" /><word lex="for" start="60" end="63"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="immunosuppression" start="64" end="81"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0400458" citation-form="immunosuppression"><match score="0.99814" matched="immuno-suppression" no-dash-dash="1" exact="2" /><nominalization-of><specialist eui="E0033686" cat="VERB" citation-form="immunosuppress" /></nominalization-of></specialist></sense-info></word><prefer text="immunosuppression" start="64" end="81" penn-cats="NP,NX,NAC" /><word lex="following" start="82" end="91"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="organ" start="92" end="97"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="organ" start="92" end="97" penn-cats="NP" /><word lex="transplant" start="98" end="108"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0061842" citation-form="transplant"><match score="0.99814" matched="trans-plant" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="transplant" start="98" end="108" penn-cats="NX,NAC" /><word lex="organ transplant" start="92" end="108"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="organ_transplant%1:04:00" /></word><prefer text="organ transplant" start="92" end="108" penn-cats="NP,NX,NAC" /><word lex="[" start="109" end="109"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="15" start="110" end="111"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="15" start="110" end="111" penn-cats="NP,NX,NAC" /><word lex="]" start="112" end="112"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="15]" start="110" end="112" penn-cats="NP" /><prefer text="[15]" start="109" end="112" penn-cats="PP" /><prefer text="organ transplant [15]" start="92" end="112" penn-cats="NP,NX,NAC" /><prefer text="following organ transplant [15]" start="82" end="112" penn-cats="PP" /><prefer text="immunosuppression following organ transplant [15]" start="64" end="112" penn-cats="NP,NX,NAC" /><prefer text="for immunosuppression following organ transplant [15]" start="60" end="112" penn-cats="PP" /><prefer text="standard treatment for immunosuppression following organ transplant [15]" start="41" end="112" penn-cats="NP,NX,NAC" /><prefer text="been standard treatment for immunosuppression following organ transplant [15]" start="36" end="112" penn-cats="VP" /><prefer text="has been standard treatment for immunosuppression following organ transplant [15]" start="32" end="112" penn-cats="VP" /><prefer text="Inhibition of mTOR by rapamycin has been standard treatment for immunosuppression following organ transplant [15]" start="0" end="112" penn-cats="S" /><word lex="," start="113" end="113"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP
+    (N1 (N1 (N1 (N INHIBITION)) (PP (PREP OF) (NP (NAME MTOR))))
+     (PP (PREP BY) (NP (N1 (N RAPAMYCIN))))))
+   (VP
+    (VP- (AUX (V HAS))
+     (VP- (V BEEN)
+      (NP
+       (N1 (N1 (ADJP (ADJ1 (ADJ STANDARD))) (N1 (N TREATMENT)))
+        (PP (PREP FOR)
+         (NP
+          (N1 (N1 (N IMMUNOSUPPRESSION))
+           (CP
+            (VP
+             (VP- (V FOLLOWING)
+              (NP (NP (N1 (N ORGAN TRANSPLANT)))
+               (PARENTHETICAL (PUNC START-SQUARE-PAREN)
+                (UTT (NP (NUMBER FIFTEEN)))
+                (PUNC END-SQUARE-PAREN))))))))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><N1><N1><N1><N>INHIBITION</N></N1><PP><PREP>OF</PREP><NP><NAME>MTOR</NAME></NP></PP></N1><PP><PREP>BY</PREP><NP><N1><N>RAPAMYCIN</N></N1></NP></PP></N1></NP><VP><VP-><AUX><V>HAS</V></AUX><VP-><V>BEEN</V><NP><N1><N1><ADJP><ADJ1><ADJ>STANDARD</ADJ></ADJ1></ADJP><N1><N>TREATMENT</N></N1></N1><PP><PREP>FOR</PREP><NP><N1><N1><N>IMMUNOSUPPRESSION</N></N1><CP><VP><VP-><V>FOLLOWING</V><NP><NP><N1><N>ORGAN TRANSPLANT</N></N1></NP><PARENTHETICAL><PUNC>START-SQUARE-PAREN</PUNC><UTT><NP><NUMBER>FIFTEEN</NUMBER></NP></UTT><PUNC>END-SQUARE-PAREN</PUNC></PARENTHETICAL></NP></VP-></VP></CP></N1></NP></PP></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V3085668"><lisp>((ONT::SPEECHACT ONT::V3085668 ONT::SA_TELL :CONTENT ONT::V3084042 :START 0
+  :END 113)
+ (ONT::F ONT::V3084042 (:* ONT::BE W::BE) :NEUTRAL ONT::V3083936 :NEUTRAL1
+  ONT::V3084056 :TENSE W::PRES :PERF + :START 0 :END 113)
+ (ONT::BARE ONT::V3083936 (:* ONT::INHIBIT-EFFECT W::INHIBITION) :AGENT
+  ONT::V3084008 :AFFECTED ONT::V3083978 :START 0 :END 32)
+ (ONT::THE ONT::V3083978 (:* ONT::GENE-PROTEIN W::MTOR) :NAME-OF (W::MTOR)
+  :START 11 :END 19 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot;
+     :SCORE 0.84606 :MATCHES
+     ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+       :MIXED-CAPS-ALL-CAPS 1)
+      (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+     :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C38929 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C38928 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE
+     0.69971 :MATCHES
+     ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+       :MIXED-CAPS-ALL-CAPS 1)
+      (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+     (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771
+      XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+     (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :DBXREFS
+     (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::BARE ONT::V3084008 (:* ONT::PHARMACOLOGIC-SUBSTANCE W::RAPAMYCIN) :START
+  19 :END 32 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1212 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+       :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+       :NO-CAPS-INITIAL-CAP 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+ (ONT::BARE ONT::V3084056 (:* ONT::CONTROL-MANAGE W::TREATMENT) :AFFECTED
+  ONT::V3084087 :EVALUATION ONT::V3084053 :START 41 :END 113)
+ (ONT::F ONT::V3084053 (:* ONT::TYPICAL-VAL W::STANDARD) :FIGURE ONT::V3084056
+  :START 41 :END 50)
+ (ONT::BARE ONT::V3084087
+  (:* ONT::MEDICAL-DISORDERS-AND-CONDITIONS W::IMMUNOSUPPRESSION) :MOD
+  ONT::V3084093 :START 60 :END 113)
+ (ONT::F ONT::V3084093 (:* ONT::FOLLOW-PATH W::FOLLOW) :AGENT ONT::V3084087
+  :NEUTRAL ONT::V3084112 :VFORM W::ING :START 82 :END 113)
+ (ONT::BARE ONT::V3084112 (:* ONT::MEDICAL-PROCEDURE W::ORGAN-TRANSPLANT)
+  :PARENTHETICAL ONT::V3084119 :START 92 :END 113 :WNSENSE
+  &quot;organ_transplant%1:04:00&quot;)
+ (ONT::SPEECHACT ONT::V3084268 ONT::SA_IDENTIFY :CONTENT ONT::V3084119 :START
+  110 :END 112)
+ (ONT::INDEF-SET ONT::V3084119 ONT::NUMBER :NUMBER 15 :START 110 :END 112))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3085668">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3084042" />
+    <LF:start>0</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084042">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3083936" />
+    <role:NEUTRAL1 rdf:resource="#V3084056" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PERF>+</role:PERF>
+    <LF:start>0</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3083936">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>INHIBIT-EFFECT</LF:type>
+    <LF:word>INHIBITION</LF:word>
+    <role:AGENT rdf:resource="#V3084008" />
+    <role:AFFECTED rdf:resource="#V3083978" />
+    <LF:start>0</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3083978">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>MTOR</LF:word>
+    <role:NAME-OF>(MTOR)</role:NAME-OF>
+    <LF:start>11</LF:start>
+    <LF:end>19</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |3942| :NAME &quot;mechanistic target of rapamycin kinase&quot; :SCORE
+   0.84606 :MATCHES
+   ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+     :MIXED-CAPS-ALL-CAPS 1)
+    (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+   :DBXREFS (P42345) :ONT-TYPES (GENE))
+  (TERM :ID C38929 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169
+     :MIXED-CAPS-MIXED-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C38928 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE 0.69971
+   :MATCHES
+   ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+     :MIXED-CAPS-ALL-CAPS 1)
+    (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169
+     :MIXED-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+   (|3942| PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))
+  (TERM :ID Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+   (PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))
+  (TERM :ID P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :DBXREFS (PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084008">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>RAPAMYCIN</LF:word>
+    <LF:start>19</LF:start>
+    <LF:end>32</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1212 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+     :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID |5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+     :NO-CAPS-INITIAL-CAP 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084056">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CONTROL-MANAGE</LF:type>
+    <LF:word>TREATMENT</LF:word>
+    <role:AFFECTED rdf:resource="#V3084087" />
+    <role:EVALUATION rdf:resource="#V3084053" />
+    <LF:start>41</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084053">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TYPICAL-VAL</LF:type>
+    <LF:word>STANDARD</LF:word>
+    <role:FIGURE rdf:resource="#V3084056" />
+    <LF:start>41</LF:start>
+    <LF:end>50</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084087">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MEDICAL-DISORDERS-AND-CONDITIONS</LF:type>
+    <LF:word>IMMUNOSUPPRESSION</LF:word>
+    <role:MOD rdf:resource="#V3084093" />
+    <LF:start>60</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084093">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FOLLOW-PATH</LF:type>
+    <LF:word>FOLLOW</LF:word>
+    <role:AGENT rdf:resource="#V3084087" />
+    <role:NEUTRAL rdf:resource="#V3084112" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>82</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084112">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MEDICAL-PROCEDURE</LF:type>
+    <LF:word>ORGAN-TRANSPLANT</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V3084119" />
+    <LF:start>92</LF:start>
+    <LF:end>113</LF:end>
+    <role:WNSENSE>organ_transplant%1:04:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084268">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3084119" />
+    <LF:start>110</LF:start>
+    <LF:end>112</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3084119">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>15</role:NUMBER>
+    <LF:start>110</LF:start>
+    <LF:end>112</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><compound-communication-act>
+<utt><words><lisp>(W::AND
+  W::THE
+  W::RAPAMYCIN
+  W::DERIVATIVE
+  W::CCI
+  W::PUNC-MINUS
+  779
+  W::IS
+  W::NOW
+  W::BEING)</lisp><word>AND</word><word>THE</word><word>RAPAMYCIN</word><word>DERIVATIVE</word><word>CCI</word><word>PUNC-MINUS</word><word>779</word><word>IS</word><word>NOW</word><word>BEING</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (115 118) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (115 118) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (119 122) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rapamycin&quot; :FRAME (123 132) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1212 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|9168| :NAME &quot;sirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;rapamycin&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin&quot; :FRAME (123 132) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;derivative&quot; :FRAME (133 143) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;derivative&quot; :FRAME (133 143) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;CCI&quot; :FRAME (144 146) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::PROTEIN) :SCORE 0.56093 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID UP::P32954 :NAME &quot;Cysteine proteinase 1&quot; :SCORE 0.56093
+       :MATCHES
+       ((MATCH :SCORE 0.56093 :MATCHED &quot;CC-I&quot; :STATUS &quot;AltName: Full&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :NO-DASH-DASH 1 :EXACT 2))
+       :DBXREFS (XFAM::PF00112) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (147 147) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;779&quot; :FRAME (148 151) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;CCI-779&quot; :FRAME (144 151) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1844 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+   (:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::MOLECULE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|79699| :NAME &quot;Temsirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::MOLECULE))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;CCI-779&quot; :FRAME (144 151) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;derivative CCI-779&quot; :FRAME (133 151) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin derivative CCI-779&quot; :FRAME (123 151) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;the rapamycin derivative CCI-779&quot; :FRAME (119 151) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;is&quot; :FRAME (152 154) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;now&quot; :FRAME (155 158) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;now&quot; :FRAME (155 158) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;being&quot; :FRAME (159 164) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="115" end="118"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="115" end="118" penn-cats="CONJP" /><word lex="the" start="119" end="122"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="rapamycin" start="123" end="132"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1212" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="rapamycin" status="synonym" exact="1" /><match score="0.70379" matched="RAPAMYCIN" status="synonym" no-caps-all-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="PC:5040" name="Sirolimus" score="0.70379" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70379" matched="Rapamycin" status="Alternative Name" no-caps-initial-cap="1" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:9168" name="sirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="rapamycin" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info></word><prefer text="rapamycin" start="123" end="132" penn-cats="NP" /><word lex="derivative" start="133" end="143"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="derivative" start="133" end="143" penn-cats="ADJP,QP" /><word lex="CCI" start="144" end="146"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.56093"><term id="UP:P32954" name="Cysteine proteinase 1" score="0.56093" dbxrefs="XFAM:PF00112" ont-types="PROTEIN"><match score="0.56093" matched="CC-I" status="AltName: Full" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" no-dash-dash="1" exact="2" /></term></sense-info></word><word lex="-" start="147" end="147" /><word lex="779" start="148" end="151" /><word lex="CCI-779" start="144" end="151"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1844" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="CCI-779" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.70732" matched="CCI-779" status="synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="MESH:C401859" name="temsirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.56098" matched="CCI-779" status="SY" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.56098" matched="CCI-779" status="SY" exact="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="MOLECULE" score="0.56098"><term id="CHEBI:79699" name="Temsirolimus" score="0.56098" ont-types="MOLECULE"><match score="0.56098" matched="CCI-779" status="RELATED synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.56098" matched="CCI-779" status="RELATED synonym" exact="1" /><map to="MOLECULE" through="CHEBI:23367" /></term></sense-info></word><prefer text="CCI-779" start="144" end="151" penn-cats="NX,NAC" /><prefer text="derivative CCI-779" start="133" end="151" penn-cats="NX,NAC" /><prefer text="rapamycin derivative CCI-779" start="123" end="151" penn-cats="NX,NAC" /><prefer text="the rapamycin derivative CCI-779" start="119" end="151" penn-cats="NP" /><word lex="is" start="152" end="154"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="now" start="155" end="158"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="now" start="155" end="158" penn-cats="ADVP" /><word lex="being" start="159" end="164"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT (ADVBL (ADV AND))
+ (UTT
+  (S
+   (NP (SPEC (DET (ART THE)))
+    (N1 (N1 (N RAPAMYCIN))
+     (N1 (N1 (N DERIVATIVE)) (N1 (NAME CCI PUNC-MINUS 779)))))
+   (VP (VP- (V IS) (NP (N1 (NP (DATE (NP (N NOW)))) (N1 (N BEING)))))))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>RAPAMYCIN</N></N1><N1><N1><N>DERIVATIVE</N></N1><N1><NAME>CCI PUNC-MINUS 779</NAME></N1></N1></N1></NP><VP><VP-><V>IS</V><NP><N1><NP><DATE><NP><N>NOW</N></NP></DATE></NP><N1><N>BEING</N></N1></N1></NP></VP-></VP></S></UTT></UTT></tree><terms root="#V3087767"><lisp>((ONT::SPEECHACT ONT::V3087767 ONT::SA_TELL :CONTENT ONT::V3086071 :MOD
+  ONT::V3086014 :START 115 :END 165)
+ (ONT::F ONT::V3086014 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V3087767 :START
+  115 :END 119)
+ (ONT::F ONT::V3086071 (:* ONT::BE W::BE) :NEUTRAL ONT::V3086058 :NEUTRAL1
+  ONT::V3086094 :TENSE W::PRES :START 119 :END 165)
+ (ONT::THE ONT::V3086058
+  (:* ONT::PHARMACOLOGIC-SUBSTANCE W::CCI-PUNC-MINUS-779) :ASSOC-WITH
+  ONT::V3086030 :ASSOC-WITH ONT::V3086042 :NAME-OF (W::CCI W::PUNC-MINUS 779)
+  :START 119 :END 152 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1844 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+       :EXACT 1)
+      (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED
+       1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1)
+      (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+ (ONT::KIND ONT::V3086042 (:* ONT::MATHEMATICAL-TERM W::DERIVATIVE) :START 119
+  :END 152)
+ (ONT::KIND ONT::V3086030 (:* ONT::PHARMACOLOGIC-SUBSTANCE W::RAPAMYCIN) :START
+  119 :END 152 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1212 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+       :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+       :NO-CAPS-INITIAL-CAP 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+ (ONT::BARE ONT::V3086094 (:* ONT::ORGANISM W::BEING) :ASSOC-WITH ONT::V3086379
+  :START 155 :END 165)
+ (ONT::THE ONT::V3086379 ONT::TIME-LOC :DAY ONT::V3086085 :START 155 :END 159)
+ (ONT::PRO ONT::V3086085 (:* ONT::DATE-OBJECT W::NOW) :PROFORM W::NOW :START
+  155 :END 159))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3087767">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3086071" />
+    <role:MOD rdf:resource="#V3086014" />
+    <LF:start>115</LF:start>
+    <LF:end>165</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086014">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V3087767" />
+    <LF:start>115</LF:start>
+    <LF:end>119</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086071">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3086058" />
+    <role:NEUTRAL1 rdf:resource="#V3086094" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>119</LF:start>
+    <LF:end>165</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086058">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>CCI-PUNC-MINUS-779</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3086030" />
+    <role:ASSOC-WITH rdf:resource="#V3086042" />
+    <role:NAME-OF>(CCI PUNC-MINUS 779)</role:NAME-OF>
+    <LF:start>119</LF:start>
+    <LF:end>152</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1844 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+     :EXACT 1)
+    (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED 1
+     :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1)
+    (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086042">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>MATHEMATICAL-TERM</LF:type>
+    <LF:word>DERIVATIVE</LF:word>
+    <LF:start>119</LF:start>
+    <LF:end>152</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086030">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>RAPAMYCIN</LF:word>
+    <LF:start>119</LF:start>
+    <LF:end>152</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1212 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+     :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID |5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+     :NO-CAPS-INITIAL-CAP 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086094">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ORGANISM</LF:type>
+    <LF:word>BEING</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3086379" />
+    <LF:start>155</LF:start>
+    <LF:end>165</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086379">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TIME-LOC</LF:type>
+    <role:DAY rdf:resource="#V3086085" />
+    <LF:start>155</LF:start>
+    <LF:end>159</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086085">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>DATE-OBJECT</LF:type>
+    <LF:word>NOW</LF:word>
+    <role:PROFORM>NOW</role:PROFORM>
+    <LF:start>155</LF:start>
+    <LF:end>159</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::CLINICALLY W::TESTED W::AS W::A W::CANCER W::CHEMOTHERAPY
+ W::START-SQUARE-PAREN 18 W::PUNC-MINUS 20 W::END-SQUARE-PAREN W::PUNC-PERIOD
+ W::THUS W::PUNC-COMMA)</lisp><word>CLINICALLY</word><word>TESTED</word><word>AS</word><word>A</word><word>CANCER</word><word>CHEMOTHERAPY</word><word>START-SQUARE-PAREN</word><word>18</word><word>PUNC-MINUS</word><word>20</word><word>END-SQUARE-PAREN</word><word>PUNC-PERIOD</word><word>THUS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;clinically&quot; :FRAME (165 175) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0017358 :CITATION-FORM &quot;clinically&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;clinically&quot; :EXACT 1)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinically&quot; :FRAME (165 175) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tested&quot; :FRAME (176 182) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tested&quot; :FRAME (176 182) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (183 185) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (186 187) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cancer&quot; :FRAME (188 194) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cancer&quot; :FRAME (188 194) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;chemotherapy&quot; :FRAME (195 207) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0016359 :CITATION-FORM &quot;chemotherapy&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;chemo-therapy&quot; :NO-DASH-DASH 1 :EXACT
+         2)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;chemotherapy&quot; :FRAME (195 207) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;[&quot; :FRAME (208 208) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18&quot; :FRAME (209 210) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (211 211) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;20&quot; :FRAME (212 213) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18-20&quot; :FRAME (209 213) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;18-20&quot; :FRAME (209 213) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;]&quot; :FRAME (214 214) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;18-20]&quot; :FRAME (209 214) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;[18-20]&quot; :FRAME (208 214) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (215 215) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Thus&quot; :FRAME (216 219) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Thus&quot; :FRAME (216 219) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL)
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.Thus&quot; :FRAME (215 219) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.Thus&quot; :FRAME (215 219) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;the rapamycin derivative CCI-779 is now being clinically tested as a cancer chemotherapy [18-20].Thus&quot;
+  :FRAME (119 219) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (220 220) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;,&quot; :FRAME (220 220) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="clinically" start="165" end="175"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV"><specialist eui="E0017358" citation-form="clinically"><match score="1.0" matched="clinically" exact="1" /></specialist></sense-info></word><prefer text="clinically" start="165" end="175" penn-cats="ADVP" /><word lex="tested" start="176" end="182"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="tested" start="176" end="182" penn-cats="VP" /><word lex="as" start="183" end="185"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="186" end="187"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="cancer" start="188" end="194"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="cancer" start="188" end="194" penn-cats="NP" /><word lex="chemotherapy" start="195" end="207"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0016359" citation-form="chemotherapy"><match score="0.99814" matched="chemo-therapy" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="chemotherapy" start="195" end="207" penn-cats="NP" /><word lex="[" start="208" end="208"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="18" start="209" end="210" /><word lex="-" start="211" end="211" /><word lex="20" start="212" end="213" /><word lex="18-20" start="209" end="213"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="18-20" start="209" end="213" penn-cats="NP,NX,NAC" /><word lex="]" start="214" end="214"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="18-20]" start="209" end="214" penn-cats="NP" /><prefer text="[18-20]" start="208" end="214" penn-cats="PP" /><word lex="." start="215" end="215" /><word lex="Thus" start="216" end="219"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="Thus" start="216" end="219" penn-cats="ADVP" /><word lex=".Thus" start="215" end="219"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" /></word><prefer text=".Thus" start="215" end="219" penn-cats="NX,NAC" /><prefer text="the rapamycin derivative CCI-779 is now being clinically tested as a cancer chemotherapy [18-20].Thus" start="119" end="219" penn-cats="S" /><word lex="," start="220" end="220"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="," start="220" end="220" penn-cats="CONJP" /></tags><tree><lisp>(UTT
+ (UTT
+  (VP
+   (VP- (ADVBL (ADV CLINICALLY))
+    (VP- (V TESTED)
+     (ADVBL (ADV AS)
+      (NP (NP (SPEC (DET (ART A))) (N1 (N1 (N CANCER)) (N1 (N CHEMOTHERAPY))))
+       (PARENTHETICAL (PUNC START-SQUARE-PAREN)
+        (UTT (NP (NAME 18 PUNC-MINUS 20))) (PUNC END-SQUARE-PAREN))))
+     (NP (NAME PUNC-PERIOD THUS))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><VP><VP-><ADVBL><ADV>CLINICALLY</ADV></ADVBL><VP-><V>TESTED</V><ADVBL><ADV>AS</ADV><NP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>CANCER</N></N1><N1><N>CHEMOTHERAPY</N></N1></N1></NP><PARENTHETICAL><PUNC>START-SQUARE-PAREN</PUNC><UTT><NP><NAME>18 PUNC-MINUS 20</NAME></NP></UTT><PUNC>END-SQUARE-PAREN</PUNC></PARENTHETICAL></NP></ADVBL><NP><NAME>PUNC-PERIOD THUS</NAME></NP></VP-></VP-></VP></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V3093642"><lisp>((ONT::SPEECHACT ONT::V3093642 ONT::SA_TELL :CONTENT ONT::V3086110 :START 165
+  :END 220)
+ (ONT::F ONT::V3086110 (:* ONT::SCRUTINY W::TEST) :NEUTRAL ONT::V3086218 :MOD
+  ONT::V3086104 :MANNER ONT::V3086132 :TENSE W::PAST :START 165 :END 220)
+ (ONT::F ONT::V3086104 (:* ONT::PREDICATE W::CLINICALLY) :FIGURE ONT::V3086110
+  :START 165 :END 176)
+ (ONT::F ONT::V3086132 (:* ONT::MANNER W::AS) :GROUND ONT::V3086190 :FIGURE
+  ONT::V3086110 :START 183 :END 215)
+ (ONT::A ONT::V3086190 (:* ONT::TREATMENT W::CHEMOTHERAPY) :PARENTHETICAL
+  ONT::V3086226 :ASSOC-WITH ONT::V3086186 :START 186 :END 215)
+ (ONT::KIND ONT::V3086186 (:* ONT::CANCER W::CANCER) :START 186 :END 215)
+ (ONT::SPEECHACT ONT::V3086324 ONT::SA_IDENTIFY :CONTENT ONT::V3086226 :START
+  209 :END 214)
+ (ONT::THE ONT::V3086218 (:* ONT::REFERENTIAL-SEM W::PUNC-PERIOD-THUS) :NAME-OF
+  (W::PUNC-PERIOD W::THUS) :START 215 :END 220)
+ (ONT::THE ONT::V3086226 ONT::NUMBER :SEQUENCE (ONT::V3085887 ONT::V3085893)
+  :NAME-OF (18 W::PUNC-MINUS 20) :START 209 :END 214)
+ (ONT::INDEF-SET ONT::V3085887 ONT::NUMBER :NUMBER 18 :START 209 :END 211)
+ (ONT::INDEF-SET ONT::V3085893 ONT::NUMBER :NUMBER 20 :START 212 :END 214))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3093642">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3086110" />
+    <LF:start>165</LF:start>
+    <LF:end>220</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086110">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>TEST</LF:word>
+    <role:NEUTRAL rdf:resource="#V3086218" />
+    <role:MOD rdf:resource="#V3086104" />
+    <role:MANNER rdf:resource="#V3086132" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>165</LF:start>
+    <LF:end>220</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086104">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PREDICATE</LF:type>
+    <LF:word>CLINICALLY</LF:word>
+    <role:FIGURE rdf:resource="#V3086110" />
+    <LF:start>165</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086132">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MANNER</LF:type>
+    <LF:word>AS</LF:word>
+    <role:GROUND rdf:resource="#V3086190" />
+    <role:FIGURE rdf:resource="#V3086110" />
+    <LF:start>183</LF:start>
+    <LF:end>215</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086190">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>TREATMENT</LF:type>
+    <LF:word>CHEMOTHERAPY</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V3086226" />
+    <role:ASSOC-WITH rdf:resource="#V3086186" />
+    <LF:start>186</LF:start>
+    <LF:end>215</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086186">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>CANCER</LF:type>
+    <LF:word>CANCER</LF:word>
+    <LF:start>186</LF:start>
+    <LF:end>215</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086324">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3086226" />
+    <LF:start>209</LF:start>
+    <LF:end>214</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086218">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>PUNC-PERIOD-THUS</LF:word>
+    <role:NAME-OF>(PUNC-PERIOD THUS)</role:NAME-OF>
+    <LF:start>215</LF:start>
+    <LF:end>220</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3086226">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V3085887" />
+    <role:SEQUENCE1 rdf:resource="#V3085893" />
+    <role:NAME-OF>(18 PUNC-MINUS 20)</role:NAME-OF>
+    <LF:start>209</LF:start>
+    <LF:end>214</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3085887">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>18</role:NUMBER>
+    <LF:start>209</LF:start>
+    <LF:end>211</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3085893">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>20</role:NUMBER>
+    <LF:start>212</LF:start>
+    <LF:end>214</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::B W::PUNC-MINUS W::RAF W::AND W::MTOR W::ARE W::ACKNOWLEDGED W::TARGETS
+ W::FOR W::ANTI W::PUNC-MINUS W::PROLIFERATIVE W::THERAPY W::START-SQUARE-PAREN
+ 29 W::END-SQUARE-PAREN W::PUNC-PERIOD)</lisp><word>B</word><word>PUNC-MINUS</word><word>RAF</word><word>AND</word><word>MTOR</word><word>ARE</word><word>ACKNOWLEDGED</word><word>TARGETS</word><word>FOR</word><word>ANTI</word><word>PUNC-MINUS</word><word>PROLIFERATIVE</word><word>THERAPY</word><word>START-SQUARE-PAREN</word><word>29</word><word>END-SQUARE-PAREN</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;B&quot; :FRAME (222 222) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (223 223) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Raf&quot; :FRAME (224 227) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.99647 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::RAF :NAME &quot;RAF&quot; :SCORE 0.99647 :MATCHES
+       ((MATCH :SCORE 0.99647 :MATCHED &quot;RAF&quot; :STATUS &quot;name&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::RAF
+              (SENSE (MORPH (POS N) (WORD RAF))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/R.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID FA::|03114| :NAME &quot;RAF subfamily&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;RAF&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+         1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C51274 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;RAF&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::Q06891 :NAME &quot;Trans-acting factor D&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;RAF&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B-Raf&quot; :FRAME (222 227) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|1097| :NAME
+       &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+         :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C17476 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C18363 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;B-Raf&quot; :FRAME (222 227) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (228 231) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (228 231) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;m&quot; :FRAME (232 232) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;TOR&quot; :FRAME (233 236) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GENE-PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0050626| :NAME
+       &quot;trimethylamine-N-oxide reductase (cytochrome c) activity&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TOR&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;TOR&quot; :STATUS &quot;EXACT synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C104246 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104246&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;TOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;TOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|10260| :NAME &quot;RAR related orphan receptor C&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;TOR&quot; :STATUS &quot;Synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.55745 :MATCHED &quot;TOR&quot; :STATUS &quot;Synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::P51449) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P51450 :NAME &quot;Nuclear receptor ROR-gamma&quot; :SCORE 0.56098
+       :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;TOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+        (MATCH :SCORE 0.55745 :MATCHED &quot;TOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :INITIAL-CAP-ALL-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF00104 XFAM::PF00105)
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mTOR&quot; :FRAME (232 236) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::GENE-PROTEIN) :SCORE 0.84606 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot;
+       :SCORE 0.84606 :MATCHES
+       ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+         :MIXED-CAPS-ALL-CAPS 1)
+        (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+       :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C38929 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C38928 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE
+       0.69971 :MATCHES
+       ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+         :MIXED-CAPS-ALL-CAPS 1)
+        (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+       (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771
+        XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+       (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+       :DBXREFS
+       (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;mTOR&quot; :FRAME (232 236) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;B-Raf and mTOR&quot; :FRAME (222 236) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (237 240) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;acknowledged&quot; :FRAME (241 253) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ VBN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::V)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;acknowledged&quot; :FRAME (241 253) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;targets&quot; :FRAME (254 261) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;targets&quot; :FRAME (254 261) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;acknowledged targets&quot; :FRAME (241 261) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;for&quot; :FRAME (262 265) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;anti&quot; :FRAME (266 269) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ IN) :TRIPS-PARTS-OF-SPEECH
+    (W::N W::ADJ W::PREP W::ADV)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (270 270) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;proliferative&quot; :FRAME (271 284) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0050304 :CITATION-FORM &quot;proliferative&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;proliferative&quot; :EXACT 1)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;anti-proliferative&quot; :FRAME (266 284) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0319287 :CITATION-FORM &quot;antiproliferative&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;anti-proliferative&quot; :EXACT 2)))))))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;anti-proliferative&quot; :FRAME (266 284) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;therapy&quot; :FRAME (285 292) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;therapy&quot; :FRAME (285 292) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;anti-proliferative therapy&quot; :FRAME (266 292) :ENJU-CATS (NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;[&quot; :FRAME (293 293) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;29&quot; :FRAME (294 295) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;29&quot; :FRAME (294 295) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;]&quot; :FRAME (296 296) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;29]&quot; :FRAME (294 296) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;[29]&quot; :FRAME (293 296) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;anti-proliferative therapy [29]&quot; :FRAME (266 296) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;for anti-proliferative therapy [29]&quot; :FRAME (262 296) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;acknowledged targets for anti-proliferative therapy [29]&quot; :FRAME
+  (241 296) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1)
+  :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;are acknowledged targets for anti-proliferative therapy [29]&quot; :FRAME
+  (237 296) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;B-Raf and mTOR are acknowledged targets for anti-proliferative therapy [29]&quot;
+  :FRAME (222 296) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 269 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (297 297) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (298 298) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 269
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (298 298) :UTTNUM 269 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="B" start="222" end="222" /><word lex="-" start="223" end="223" /><word lex="Raf" start="224" end="227"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.99647"><term id="BE:RAF" name="RAF" score="0.99647" ont-types="PROTEIN-FAMILY"><match score="0.99647" matched="RAF" status="name" initial-cap-all-caps="1" /><map to="PROTEIN-FAMILY" through="BE:RAF" /></term><term id="FA:03114" name="RAF subfamily" score="0.85013" ont-types="PROTEIN-FAMILY"><match score="0.85013" matched="RAF" status="ID" initial-cap-all-caps="1" /></term><term id="NCIT:C51274" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;" score="0.70379" ont-types="GENE"><match score="0.70379" matched="RAF" status="synonym" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:Q06891" name="Trans-acting factor D" score="0.55745" ont-types="PROTEIN"><match score="0.55745" matched="RAF" status="AltName: Short" initial-cap-all-caps="1" /></term></sense-info></word><word lex="B-Raf" start="222" end="227"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:1097" name="B-Raf proto-oncogene, serine/threonine kinase" score="0.85366" dbxrefs="UP:P15056" ont-types="GENE"><match score="0.85366" matched="BRAF" status="Approved Symbol" exact="1" /><match score="0.85212" matched="BRAF" status="Approved Symbol" dash-no-dash="1" exact="1" initial-cap-all-caps="1" /></term><term id="NCIT:C17476" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" initial-cap-all-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C18363" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term></sense-info></word><prefer text="B-Raf" start="222" end="227" penn-cats="NX,NAC" /><word lex="and" start="228" end="231"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="228" end="231" penn-cats="CONJP" /><word lex="m" start="232" end="232" /><word lex="TOR" start="233" end="236"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.70732"><term id="GO:0050626" name="trimethylamine-N-oxide reductase (cytochrome c) activity" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="TOR" status="EXACT synonym" exact="1" /><match score="0.70379" matched="TOR" status="EXACT synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term><term id="NCIT:C104246" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104246&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="TOR" status="synonym" exact="1" /><match score="0.70379" matched="TOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:10260" name="RAR related orphan receptor C" score="0.56098" dbxrefs="UP:P51449" ont-types="GENE"><match score="0.56098" matched="TOR" status="Synonym" exact="1" /><match score="0.55745" matched="TOR" status="Synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term><term id="UP:P51450" name="Nuclear receptor ROR-gamma" score="0.56098" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF00104,XFAM:PF00105" ont-types="PROTEIN"><match score="0.56098" matched="TOR" status="AltName: Short" exact="1" /><match score="0.55745" matched="TOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" initial-cap-all-caps="1" /></term></sense-info></word><word lex="mTOR" start="232" end="236"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.84606"><term id="HGNC:3942" name="mechanistic target of rapamycin kinase" score="0.84606" dbxrefs="UP:P42345" ont-types="GENE"><match score="0.84606" matched="MTOR" status="Approved Symbol" mixed-caps-all-caps="1" /><match score="0.84606" matched="MTOR" status="Approved Symbol" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-all-caps="1" /></term><term id="NCIT:C38929" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="mTOR" status="synonym" exact="1" /><match score="0.69564" matched="mTOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C38928" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;" score="0.69971" ont-types="GENE"><match score="0.69971" matched="MTOR" status="synonym" mixed-caps-all-caps="1" /><match score="0.69971" matched="MTOR" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:P42345" name="Serine/threonine-protein kinase mTOR" score="0.56098" species="Homo sapiens (Human)" dbxrefs="HGNC:3942,XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term><term id="UP:Q9JLN9" name="Serine/threonine-protein kinase mTOR" score="0.56098" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term><term id="UP:P42346" name="Serine/threonine-protein kinase mTOR" score="0.56098" dbxrefs="XFAM:PF11865,XFAM:PF02259,XFAM:PF02260,XFAM:PF08771,XFAM:PF00454" ont-types="PROTEIN"><match score="0.56098" matched="mTOR" status="AltName: Short" exact="1" /><match score="0.5493" matched="mTOR" status="AltName: Short" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.8831169" mixed-caps-mixed-caps="1" /></term></sense-info></word><prefer text="mTOR" start="232" end="236" penn-cats="NX,NAC" /><prefer text="B-Raf and mTOR" start="222" end="236" penn-cats="NP" /><word lex="are" start="237" end="240"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="acknowledged" start="241" end="253"><sense-info penn-parts-of-speech="JJ,VBN" trips-parts-of-speech="ADJ,V" /></word><prefer text="acknowledged" start="241" end="253" penn-cats="VP" /><word lex="targets" start="254" end="261"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="targets" start="254" end="261" penn-cats="NX,NAC" /><prefer text="acknowledged targets" start="241" end="261" penn-cats="NP,NX,NAC" /><word lex="for" start="262" end="265"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><prefix lex="anti" start="266" end="269"><sense-info penn-parts-of-speech="NN,JJ,IN" trips-parts-of-speech="N,ADJ,PREP,ADV" /></prefix><word lex="-" start="270" end="270" /><word lex="proliferative" start="271" end="284"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0050304" citation-form="proliferative"><match score="1.0" matched="proliferative" exact="1" /></specialist></sense-info></word><word lex="anti-proliferative" start="266" end="284"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0319287" citation-form="antiproliferative"><match score="1.0" matched="anti-proliferative" exact="2" /></specialist></sense-info></word><prefer text="anti-proliferative" start="266" end="284" penn-cats="ADJP,QP" /><word lex="therapy" start="285" end="292"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="therapy" start="285" end="292" penn-cats="NX,NAC" /><prefer text="anti-proliferative therapy" start="266" end="292" penn-cats="NP,NX,NAC" /><word lex="[" start="293" end="293"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="29" start="294" end="295"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="29" start="294" end="295" penn-cats="NP,NX,NAC" /><word lex="]" start="296" end="296"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="29]" start="294" end="296" penn-cats="NP" /><prefer text="[29]" start="293" end="296" penn-cats="PP" /><prefer text="anti-proliferative therapy [29]" start="266" end="296" penn-cats="NP,NX,NAC" /><prefer text="for anti-proliferative therapy [29]" start="262" end="296" penn-cats="PP" /><prefer text="acknowledged targets for anti-proliferative therapy [29]" start="241" end="296" penn-cats="NP,NX,NAC" /><prefer text="are acknowledged targets for anti-proliferative therapy [29]" start="237" end="296" penn-cats="VP" /><prefer text="B-Raf and mTOR are acknowledged targets for anti-proliferative therapy [29]" start="222" end="296" penn-cats="S" /><word lex="." start="297" end="297" /><prefer text="." start="298" end="298" penn-cats="NP" /><word lex="." start="298" end="298" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (NP (NAME B PUNC-MINUS RAF)) (CONJ AND) (NP (NAME MTOR)))
+   (VP
+    (VP- (V ARE)
+     (NP
+      (N1 (N1 (ADJP (ADJ1 (ADJ ACKNOWLEDGED))) (N1 (N TARGETS)))
+       (ADVBL (ADV FOR)
+        (NP
+         (NP
+          (N1 (ADJP (ADJ1 (ADJ ANTI PUNC-MINUS PROLIFERATIVE)))
+           (N1 (N THERAPY))))
+         (PARENTHETICAL (PUNC START-SQUARE-PAREN) (UTT (NP (NUMBER 29)))
+          (PUNC END-SQUARE-PAREN))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><NP><NAME>B PUNC-MINUS RAF</NAME></NP><CONJ>AND</CONJ><NP><NAME>MTOR</NAME></NP></NP><VP><VP-><V>ARE</V><NP><N1><N1><ADJP><ADJ1><ADJ>ACKNOWLEDGED</ADJ></ADJ1></ADJP><N1><N>TARGETS</N></N1></N1><ADVBL><ADV>FOR</ADV><NP><NP><N1><ADJP><ADJ1><ADJ>ANTI PUNC-MINUS PROLIFERATIVE</ADJ></ADJ1></ADJP><N1><N>THERAPY</N></N1></N1></NP><PARENTHETICAL><PUNC>START-SQUARE-PAREN</PUNC><UTT><NP><NUMBER>29</NUMBER></NP></UTT><PUNC>END-SQUARE-PAREN</PUNC></PARENTHETICAL></NP></ADVBL></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V3101847"><lisp>((ONT::SPEECHACT ONT::V3101847 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V3099841 :START 222 :END 298)
+ (ONT::F ONT::V3099841 (:* ONT::BE W::BE) :NEUTRAL ONT::V3099795 :NEUTRAL1
+  ONT::V3099866 :TENSE W::PRES :START 222 :END 297)
+ (ONT::INDEF-SET ONT::V3099795 ONT::GENE-PROTEIN :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V3099791 ONT::V3099833) :START 222 :END 237)
+ (ONT::THE ONT::V3099791 (:* ONT::GENE-PROTEIN W::B-PUNC-MINUS-RAF) :NAME-OF
+  (W::B W::PUNC-MINUS W::RAF) :START 222 :END 228 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|1097| :NAME
+     &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+      (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+       :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C17476 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C18363 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE)))))
+ (ONT::THE ONT::V3099833 (:* ONT::GENE-PROTEIN W::MTOR) :NAME-OF (W::MTOR)
+  :START 232 :END 237 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|3942| :NAME &quot;mechanistic target of rapamycin kinase&quot;
+     :SCORE 0.84606 :MATCHES
+     ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+       :MIXED-CAPS-ALL-CAPS 1)
+      (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+     :DBXREFS (UP::P42345) :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C38929 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C38928 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE
+     0.69971 :MATCHES
+     ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+       :MIXED-CAPS-ALL-CAPS 1)
+      (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+     (HGNC::|3942| XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771
+      XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+     (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+     :DBXREFS
+     (XFAM::PF11865 XFAM::PF02259 XFAM::PF02260 XFAM::PF08771 XFAM::PF00454)
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::INDEF-SET ONT::V3099866 (:* ONT::GOAL W::TARGET) :MOD ONT::V3099876 :MOD
+  ONT::V3099858 :START 241 :END 297)
+ (ONT::F ONT::V3099858 (:* ONT::MODIFIER W::ACKNOWLEDGED) :FIGURE ONT::V3099866
+  :START 241 :END 254)
+ (ONT::F ONT::V3099876 (:* ONT::ASSOC-WITH W::FOR) :GROUND ONT::V3099916
+  :FIGURE ONT::V3099866 :START 262 :END 297)
+ (ONT::BARE ONT::V3099916 (:* ONT::TREATMENT W::THERAPY) :PARENTHETICAL
+  ONT::V3099923 :MOD ONT::V3099913 :START 266 :END 297)
+ (ONT::F ONT::V3099913 (:* ONT::MODIFIER W::ANTI-PUNC-MINUS-PROLIFERATIVE)
+  :FIGURE ONT::V3099916 :START 266 :END 285)
+ (ONT::SPEECHACT ONT::V3100020 ONT::SA_IDENTIFY :CONTENT ONT::V3099923 :START
+  294 :END 296)
+ (ONT::INDEF-SET ONT::V3099923 ONT::NUMBER :NUMBER 29 :START 294 :END 296))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3101847">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V3099841" />
+    <LF:start>222</LF:start>
+    <LF:end>298</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099841">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3099795" />
+    <role:NEUTRAL1 rdf:resource="#V3099866" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>222</LF:start>
+    <LF:end>297</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099795">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V3099791" />
+    <role:SEQUENCE1 rdf:resource="#V3099833" />
+    <LF:start>222</LF:start>
+    <LF:end>237</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099791">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>B-PUNC-MINUS-RAF</LF:word>
+    <role:NAME-OF>(B PUNC-MINUS RAF)</role:NAME-OF>
+    <LF:start>222</LF:start>
+    <LF:end>228</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+    (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+     :DASH-NO-DASH 1 :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (P15056) :ONT-TYPES (GENE))
+  (TERM :ID C17476 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C18363 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :INITIAL-CAP-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099833">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>MTOR</LF:word>
+    <role:NAME-OF>(MTOR)</role:NAME-OF>
+    <LF:start>232</LF:start>
+    <LF:end>237</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |3942| :NAME &quot;mechanistic target of rapamycin kinase&quot; :SCORE
+   0.84606 :MATCHES
+   ((MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+     :MIXED-CAPS-ALL-CAPS 1)
+    (MATCH :SCORE 0.84606 :MATCHED &quot;MTOR&quot; :STATUS &quot;Approved Symbol&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-ALL-CAPS 1))
+   :DBXREFS (P42345) :ONT-TYPES (GENE))
+  (TERM :ID C38929 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38929&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.69564 :MATCHED &quot;mTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169
+     :MIXED-CAPS-MIXED-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C38928 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38928&gt;&quot; :SCORE 0.69971
+   :MATCHES
+   ((MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot;
+     :MIXED-CAPS-ALL-CAPS 1)
+    (MATCH :SCORE 0.69971 :MATCHED &quot;MTOR&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.8831169
+     :MIXED-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID P42345 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+   (|3942| PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))
+  (TERM :ID Q9JLN9 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS
+   (PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))
+  (TERM :ID P42346 :NAME &quot;Serine/threonine-protein kinase mTOR&quot; :SCORE 0.56098
+   :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot; :EXACT 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;mTOR&quot; :STATUS &quot;AltName: Short&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.8831169 :MIXED-CAPS-MIXED-CAPS 1))
+   :DBXREFS (PF11865 PF02259 PF02260 PF08771 PF00454) :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099866">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>GOAL</LF:type>
+    <LF:word>TARGET</LF:word>
+    <role:MOD rdf:resource="#V3099876" />
+    <role:MOD rdf:resource="#V3099858" />
+    <LF:start>241</LF:start>
+    <LF:end>297</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099858">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>ACKNOWLEDGED</LF:word>
+    <role:FIGURE rdf:resource="#V3099866" />
+    <LF:start>241</LF:start>
+    <LF:end>254</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099876">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V3099916" />
+    <role:FIGURE rdf:resource="#V3099866" />
+    <LF:start>262</LF:start>
+    <LF:end>297</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099916">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>TREATMENT</LF:type>
+    <LF:word>THERAPY</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V3099923" />
+    <role:MOD rdf:resource="#V3099913" />
+    <LF:start>266</LF:start>
+    <LF:end>297</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099913">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>ANTI-PUNC-MINUS-PROLIFERATIVE</LF:word>
+    <role:FIGURE rdf:resource="#V3099916" />
+    <LF:start>266</LF:start>
+    <LF:end>285</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3100020">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3099923" />
+    <LF:start>294</LF:start>
+    <LF:end>296</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3099923">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>29</role:NUMBER>
+    <LF:start>294</LF:start>
+    <LF:end>296</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

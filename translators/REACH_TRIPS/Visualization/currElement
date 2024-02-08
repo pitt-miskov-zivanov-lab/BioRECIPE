@@ -1,0 +1,19 @@
+digraph {
+	node [style=filled]
+	label="Reduced internal trade and access to stocks held in the Agricultural production is significantly affected by conflict ." rankdir=LR
+	subgraph cluster_1 {
+		node [style=filled]
+		element
+		label=Element
+		color=blue
+	}
+	subgraph cluster_2 {
+		node [style=filled]
+		regulator
+		label=Regulator
+		color=red
+	}
+	regulator -> element [label=NA penwidth=3.0]
+	regulator [label=none shape=rectangle]
+	element [label=none shape=rectangle]
+}

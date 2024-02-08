@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="LiCl does indeed potentiate Notch signalling in the CHO co-culture system, leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08606.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01922.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01971.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09356.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02536.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000769.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000768.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000277.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00014_IO-600902" timestamp="20190701T151140"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00014_IO-600902" id="paragraph13">LiCl does indeed potentiate Notch signalling in the CHO co-culture system, leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)..
+</paragraph></paragraphs><sentences><sentence id="40" pid="paragraph13">LiCl does indeed potentiate Notch signalling in the CHO co-culture system, leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)..</sentence></sentences></input><EVENT end="74" id="V600963" lisp="(ONT::EVENT ONT::V600963 ONT::INCREASE :AGENT ONT::V600937 :AFFECTED ONT::V600984 :MODALITY (ONT::DO W::DO) :FORCE ONT::TRUE :TENSE W::PRES)" paragraph="paragraph13" rule="-RULE20_1_AGENT_AFFECTED" start="0" uttnum="40"><type>ONT::INCREASE</type><force>ONT::TRUE</force><modality>W::DO</modality><predicate end="74" id="V600963" start="0"><type>ONT::INCREASE</type><text>LiCl does indeed potentiate Notch signalling in the CHO co-culture system,</text></predicate><arg1 end="5" id="V600937" role=":AGENT" start="0"><type>ONT::MOLECULE</type><text normalization="">LiCl</text></arg1><arg2 end="74" id="V600984" role=":AFFECTED" start="28"><type>ONT::BIOLOGICAL-PROCESS</type><text normalization="">Notch signalling in the CHO co-culture system,</text></arg2><text>LiCl does indeed potentiate Notch signalling in the CHO co-culture system,</text></EVENT><TERM dbid="CHEBI:48607" end="5" id="V600937" lisp="(ONT::TERM ONT::V600937 ONT::MOLECULE :NAME W::LICL :DRUM ((:DRUM (TERM :ID CHEBI::|48607| :NAME &quot;lithium chloride&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :EXACT 1) (MATCH :SCORE 0.55337 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :MAYBE-DEPLURALIZED 2 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.85528755 :ALL-CAPS-MIXED-CAPS 1) (MATCH :SCORE 0.5493 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.85528755 :MIXED-CAPS-MIXED-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE)))))" paragraph="paragraph13" rule="-SIMPLE-REF" start="0" uttnum="40"><type>ONT::MOLECULE</type><name>LICL</name><drum-terms><drum-term dbid="CHEBI:48607" match-score="0.56098" matched-name="LiCl" name="lithium chloride"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><type>ONT::MOLECULE</type></types></drum-term></drum-terms><text>LiCl</text></TERM><TERM dbid="NCIT:C17133|GO:0023052" end="74" id="V600984" lisp="(ONT::TERM ONT::V600984 ONT::BIOLOGICAL-PROCESS :NAME W::SIGNALLING :DRUM ((:DRUM (TERM :ID GO::|0023052| :NAME &quot;signaling&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;signaling&quot; :STATUS &quot;name&quot; :EXACT 1) (MATCH :SCORE 0.70732 :MATCHED &quot;signalling&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::BIOLOGICAL-PROCESS)) (TERM :ID NCIT::C17133 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;signaling&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::BIOLOGICAL-PROCESS)))))" paragraph="paragraph13" rule="-SIMPLE-REF" start="28" uttnum="40"><type>ONT::BIOLOGICAL-PROCESS</type><name>SIGNALLING</name><drum-terms><drum-term dbid="GO:0023052" match-score="0.85366" matched-name="signaling" name="signaling"><types><type>ONT::BIOLOGICAL-PROCESS</type></types></drum-term><drum-term dbid="NCIT:C17133" match-score="0.70732" matched-name="signaling" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;"><types><type>ONT::BIOLOGICAL-PROCESS</type></types></drum-term></drum-terms><text>Notch signalling in the CHO co-culture system,</text></TERM><TERM dbid="FA:02506" end="74" id="V600974" lisp="(ONT::TERM ONT::V600974 ONT::PROTEIN-FAMILY :NAME W::NOTCH :DRUM ((:DRUM (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)))))" paragraph="paragraph13" rule="-SIMPLE-REF" start="28" uttnum="40"><type>ONT::PROTEIN-FAMILY</type><name>NOTCH</name><drum-terms><drum-term dbid="FA:02506" match-score="0.85013" matched-name="NOTCH" name="NOTCH family"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>Notch signalling in the CHO co-culture system,</text></TERM><TERM dbid="CHEBI:42485" end="73" id="V601052" lisp="(ONT::TERM ONT::V601052 ONT::MOLECULE :NAME W::CHO :DRUM ((:DRUM (TERM :ID CHEBI::|42485| :NAME &quot;formyl group&quot; :SCORE 0.56093 :MATCHES ((MATCH :SCORE 0.56093 :MATCHED &quot;-CHO&quot; :STATUS &quot;RELATED synonym&quot; :NO-DASH-DASH 1 :EXACT 1)) :ONT-TYPES (ONT::MOLECULE)))))" paragraph="paragraph13" rule="-SIMPLE-REF" start="48" uttnum="40"><type>ONT::MOLECULE</type><name>CHO</name><drum-terms><drum-term dbid="CHEBI:42485" match-score="0.56093" matched-name="-CHO" name="formyl group"><types><type>ONT::MOLECULE</type></types></drum-term></drum-terms><text>the CHO co-culture system</text></TERM><MODALITY end="74" id="X608317" lisp="(ONT::MODALITY ONT::X608317 ONT::DO :EVENT ONT::V600963)" paragraph="paragraph13" rule="-MODALITY" start="0" uttnum="40"><type>ONT::DO</type><arg2 end="74" id="V600963" role=":EVENT" start="0"><type>ONT::INCREASE</type><text normalization="">LiCl does indeed potentiate Notch signalling in the CHO co-culture system,</text></arg2><text>LiCl does indeed potentiate Notch signalling in the CHO co-culture system,</text></MODALITY><CC end="158" id="V607618" lisp="(ONT::CC ONT::V607618 ONT::CAUSE :OUTCOME ONT::V607695)" paragraph="paragraph13" rule="-RULE5_3_AGENT_RESULT-RESULT" start="75" uttnum="40"><type>ONT::CAUSE</type><arg end="158" id="V607695" role=":OUTCOME" start="83"/><text>leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)</text></CC><EVENT end="158" id="V607695" lisp="(ONT::EVENT ONT::V607695 ONT::STIMULATE :AFFECTED ONT::V607729)" paragraph="paragraph13" rule="-RULE30_1_AGENT_AFFECTED-AFFECTED" start="83" uttnum="40"><type>ONT::STIMULATE</type><predicate end="158" id="V607695" start="83"><type>ONT::STIMULATE</type><text>to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)</text></predicate><arg2 end="158" id="V607729" role=":AFFECTED" start="112"><type>ONT::ACTIVITY-EVENT</type><text normalization="ACTIVITY">of ligand-dependent reporter activity (Fig.4C)</text></arg2><text>to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)</text></EVENT><TERM end="158" id="V607725" lisp="(ONT::TERM ONT::V607725 ONT::PROFESSIONAL :INEVENT ONT::V607714 :NAME W::REPORTER)" paragraph="paragraph13" rule="-INEVENT2B,-SIMPLE-REF" start="112" uttnum="40"><type>ONT::PROFESSIONAL</type><name>REPORTER</name><features><inevent id="V607714"/></features><text>of ligand-dependent reporter activity (Fig.4C)</text></TERM><CC end="132" id="V607714" lisp="(ONT::CC ONT::V607714 ONT::DEPENDENT :FACTOR ONT::V607708 :FORCE ONT::TRUE)" paragraph="paragraph13" rule="-RULE5_3_NEUTRAL1_NEUTRAL-NEUTRAL1" start="115" uttnum="40"><type>ONT::DEPENDENT</type><force>ONT::TRUE</force><arg end="132" id="V607708" role=":FACTOR" start="115"/><text>ligand-dependent</text></CC><TERM dbid="CHEBI:52214" end="132" id="V607708" lisp="(ONT::TERM ONT::V607708 ONT::CHEMICAL :NAME W::LIGAND :DRUM ((:DRUM (TERM :ID CHEBI::|52214| :NAME &quot;ligand&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;ligand&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::CHEMICAL)) (SPECIALIST :EUI E0037512 :CITATION-FORM &quot;ligand&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;ligand&quot; :EXACT 1))))))" paragraph="paragraph13" rule="-SIMPLE-REF" start="115" uttnum="40"><type>ONT::CHEMICAL</type><name>LIGAND</name><drum-terms><drum-term dbid="CHEBI:52214" match-score="0.85366" matched-name="ligand" name="ligand"><types><type>ONT::CHEMICAL</type></types></drum-term></drum-terms><text>ligand-dependent</text></TERM></ekb><utt><words><lisp>(W::LICL W::DOES W::INDEED W::POTENTIATE W::NOTCH W::SIGNALLING W::IN W::THE
+ W::CHO W::CO- W::PUNC-MINUS W::CULTURE W::SYSTEM W::PUNC-COMMA)</lisp><word>LICL</word><word>DOES</word><word>INDEED</word><word>POTENTIATE</word><word>NOTCH</word><word>SIGNALLING</word><word>IN</word><word>THE</word><word>CHO</word><word>CO-</word><word>PUNC-MINUS</word><word>CULTURE</word><word>SYSTEM</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Li&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS NN NNP) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Cl&quot; :FRAME (2 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNS JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;LiCl&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|48607| :NAME &quot;lithium chloride&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.55337 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 2 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.85528755 :ALL-CAPS-MIXED-CAPS 1)
+        (MATCH :SCORE 0.5493 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.85528755 :MIXED-CAPS-MIXED-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;LiCl&quot; :FRAME (0 4) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;does&quot; :FRAME (5 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;indeed&quot; :FRAME (10 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;indeed&quot; :FRAME (10 16) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;potentiate&quot; :FRAME (17 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0049408 :CITATION-FORM &quot;potentiate&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;potentiate&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;tran=np&quot;) :NOMINALIZATION
+       ((SPECIALIST :EUI E0049409 :CITATION-FORM &quot;potentiation&quot;)))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Notch&quot; :FRAME (28 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN-FAMILY) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00066 :NAME &quot;notch&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;notch&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-NO-CAPS 1)
+        (MATCH :SCORE 0.26476 :MATCHED &quot;notch&quot; :STATUS &quot;PI&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Notch&quot; :FRAME (28 33) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;signalling&quot; :FRAME (34 44) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::BIOLOGICAL-PROCESS) :ALTERNATE-SPELLINGS (&quot;signaling&quot;) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0023052| :NAME &quot;signaling&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;signaling&quot; :STATUS &quot;name&quot; :EXACT 1)
+        (MATCH :SCORE 0.70732 :MATCHED &quot;signalling&quot; :STATUS &quot;EXACT synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0008150|
+              (SENSE (MORPH (POS N) (WORD BIOLOGICAL_PROCESS))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000815.lisp&quot;))))
+             :TO ONT::BIOLOGICAL-PROCESS))
+       :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))
+      (TERM :ID NCIT::C17133 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;signaling&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17828
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+             :TO ONT::BIOLOGICAL-PROCESS))
+       :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;signalling&quot; :FRAME (34 44) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Notch signalling&quot; :FRAME (28 44) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;in&quot; :FRAME (45 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (48 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;CHO&quot; :FRAME (52 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::|0213| :NAME &quot;CHO&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;CHO&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :ONT-TYPES (ONT::CELL-LINE))
+      (TERM :ID NCIT::C17421 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17421&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;CHO&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16403
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16403&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01640.lisp&quot;))))
+             :TO ONT::CELL-LINE))
+       :ONT-TYPES (ONT::CELL-LINE)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULE) :SCORE 0.56093 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|42485| :NAME &quot;formyl group&quot; :SCORE 0.56093 :MATCHES
+       ((MATCH :SCORE 0.56093 :MATCHED &quot;-CHO&quot; :STATUS &quot;RELATED synonym&quot;
+         :NO-DASH-DASH 1 :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|24433|
+              (SENSE (MORPH (POS N) (WORD GROUP))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::MOLECULE))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;CHO&quot; :FRAME (52 55) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;co&quot; :FRAME (56 57) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (58 58) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;culture&quot; :FRAME (59 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN VBP VB) :TRIPS-PARTS-OF-SPEECH (W::N W::V)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;co-culture&quot; :FRAME (56 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BTO::|0003143| :NAME &quot;coculture&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;co-culture&quot; :STATUS &quot;name&quot; :EXACT 2)
+        (MATCH :SCORE 0.85361 :MATCHED &quot;co-culture&quot; :STATUS &quot;name&quot;
+         :NO-DASH-DASH 1 :EXACT 2)
+        (MATCH :SCORE 0.85217 :MATCHED &quot;co-culture&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.35435992 :EXACT 1 :ALL-CAPS-NO-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BTO::|0001490|
+              (SENSE (MORPH (POS N) (WORD (OTHER SOURCE)))
+               (PROVENANCE (NAME LEXICON-DATA::BTO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000149.lisp&quot;))))
+             :TO ONT::REFERENTIAL-SEM))
+       :ONT-TYPES (ONT::REFERENTIAL-SEM))
+      (SPECIALIST :EUI E0724786 :CITATION-FORM &quot;coculture&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;co-culture&quot; :EXACT 2)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot;))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;co-culture&quot; :FRAME (56 66) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;system&quot; :FRAME (67 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;system&quot; :FRAME (67 72) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;culture system&quot; :FRAME (59 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0020102 :CITATION-FORM &quot;culture system&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;culture system&quot; :EXACT 2)))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;co-culture system&quot; :FRAME (56 72) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;CHO co-culture system&quot; :FRAME (52 72) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the CHO co-culture system&quot; :FRAME (48 72) :ENJU-CATS (NP) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in the CHO co-culture system&quot; :FRAME (45 72) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;Notch signalling in the CHO co-culture system&quot; :FRAME (28 72)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;potentiate Notch signalling in the CHO co-culture system&quot; :FRAME
+  (17 72) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (73 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;potentiate Notch signalling in the CHO co-culture system,&quot; :FRAME
+  (17 73) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Li" start="0" end="1"><sense-info penn-parts-of-speech="NNS,NN,NNP" trips-parts-of-speech="N,NAME" /></word><word lex="Cl" start="2" end="4"><sense-info penn-parts-of-speech="NN,NNS,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="LiCl" start="0" end="4"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="PHARMACOLOGIC-SUBSTANCE,MOLECULE" score="0.56098"><term id="CHEBI:48607" name="lithium chloride" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,MOLECULE"><match score="0.56098" matched="LiCl" status="RELATED synonym" exact="1" /><match score="0.55337" matched="LiCl" status="RELATED synonym" maybe-depluralized="2" surely-depluralized="0" depluralization-score="0.85528755" all-caps-mixed-caps="1" /><match score="0.5493" matched="LiCl" status="RELATED synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.85528755" mixed-caps-mixed-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="MOLECULE" through="CHEBI:23367" /></term></sense-info></word><prefer text="LiCl" start="0" end="4" penn-cats="NP,NX,NAC" /><word lex="does" start="5" end="9"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="indeed" start="10" end="16"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="indeed" start="10" end="16" penn-cats="ADVP" /><word lex="potentiate" start="17" end="27"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V"><specialist eui="E0049408" citation-form="potentiate"><match score="1.0" matched="potentiate" exact="1" />    <complement>tran=np</complement>
+<nominalization><specialist eui="E0049409" citation-form="potentiation" /></nominalization></specialist></sense-info></word><word lex="Notch" start="28" end="33"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN-FAMILY" score="0.85013"><term id="FA:02506" name="NOTCH family" score="0.85013" ont-types="PROTEIN-FAMILY"><match score="0.85013" matched="NOTCH" status="ID" initial-cap-all-caps="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULAR-DOMAIN" score="0.70379"><term id="XFAM:PF00066" name="notch" score="0.70379" ont-types="MOLECULAR-DOMAIN"><match score="0.70379" matched="notch" status="ID" initial-cap-no-caps="1" /><match score="0.26476" matched="notch" status="PI" initial-cap-no-caps="1" /></term></sense-info></word><prefer text="Notch" start="28" end="33" penn-cats="NP" /><word lex="signalling" start="34" end="44"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="BIOLOGICAL-PROCESS" alternate-spellings="signaling" score="0.85366"><term id="GO:0023052" name="signaling" score="0.85366" ont-types="BIOLOGICAL-PROCESS"><match score="0.85366" matched="signaling" status="name" exact="1" /><match score="0.70732" matched="signalling" status="EXACT synonym" exact="1" /><map to="BIOLOGICAL-PROCESS" through="GO:0008150" /></term><term id="NCIT:C17133" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;" score="0.70732" ont-types="BIOLOGICAL-PROCESS"><match score="0.70732" matched="signaling" status="synonym" exact="1" /><map to="BIOLOGICAL-PROCESS" through="NCIT:C17828" /></term></sense-info></word><prefer text="signalling" start="34" end="44" penn-cats="NX,NAC" /><prefer text="Notch signalling" start="28" end="44" penn-cats="NP,NX,NAC" /><word lex="in" start="45" end="47"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="48" end="51"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="CHO" start="52" end="55"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85366"><term id="CVCL:0213" name="CHO" score="0.85366" ont-types="CELL-LINE"><match score="0.85366" matched="CHO" status="name" exact="1" /></term><term id="NCIT:C17421" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17421&gt;" score="0.70732" ont-types="CELL-LINE"><match score="0.70732" matched="CHO" status="synonym" exact="1" /><map to="CELL-LINE" through="NCIT:C16403" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULE" score="0.56093"><term id="CHEBI:42485" name="formyl group" score="0.56093" ont-types="MOLECULE"><match score="0.56093" matched="-CHO" status="RELATED synonym" no-dash-dash="1" exact="1" /><map to="MOLECULE" through="CHEBI:24433" /></term></sense-info></word><prefer text="CHO" start="52" end="55" penn-cats="NP" /><prefix lex="co" start="56" end="57" /><word lex="-" start="58" end="58" /><word lex="culture" start="59" end="66"><sense-info penn-parts-of-speech="NN,VBP,VB" trips-parts-of-speech="N,V" /></word><word lex="co-culture" start="56" end="66"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="REFERENTIAL-SEM" score="0.85366"><term id="BTO:0003143" name="coculture" score="0.85366" ont-types="REFERENTIAL-SEM"><match score="0.85366" matched="co-culture" status="name" exact="2" /><match score="0.85361" matched="co-culture" status="name" no-dash-dash="1" exact="2" /><match score="0.85217" matched="co-culture" status="name" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.35435992" exact="1" all-caps-no-caps="1" /><map to="REFERENTIAL-SEM" through="BTO:0001490" /></term><specialist eui="E0724786" citation-form="coculture"><match score="1.0" matched="co-culture" exact="2" />    <complement>compl=pphr(of,np)</complement>
+</specialist></sense-info></word><prefer text="co-culture" start="56" end="66" penn-cats="NP" /><word lex="system" start="67" end="72"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="system" start="67" end="72" penn-cats="NX,NAC" /><word lex="culture system" start="59" end="72"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0020102" citation-form="culture system"><match score="1.0" matched="culture system" exact="2" /></specialist></sense-info></word><prefer text="co-culture system" start="56" end="72" penn-cats="NX,NAC" /><prefer text="CHO co-culture system" start="52" end="72" penn-cats="NX,NAC" /><prefer text="the CHO co-culture system" start="48" end="72" penn-cats="NP" /><prefer text="in the CHO co-culture system" start="45" end="72" penn-cats="PP" /><prefer text="Notch signalling in the CHO co-culture system" start="28" end="72" penn-cats="NP,NX,NAC" /><prefer text="potentiate Notch signalling in the CHO co-culture system" start="17" end="72" penn-cats="VP" /><word lex="," start="73" end="73"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="potentiate Notch signalling in the CHO co-culture system," start="17" end="73" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (S (NP (NAME LICL))
+  (VP
+   (VP- (AUX (V DOES))
+    (VP- (ADVBL (ADV INDEED))
+     (VP- (V POTENTIATE)
+      (NP
+       (NP
+        (N1 (N1 (N1 (NAME NOTCH)) (N1 (N SIGNALLING)))
+         (ADVBL (ADV IN)
+          (NP (SPEC (DET (ART THE)))
+           (N1 (N1 (NAME CHO))
+            (N1 (N (ADJ CO-) (WORD PUNC-MINUS) (N CULTURE SYSTEM))))))))
+       (PUNC PUNC-COMMA))))))))</lisp><UTT><S><NP><NAME>LICL</NAME></NP><VP><VP-><AUX><V>DOES</V></AUX><VP-><ADVBL><ADV>INDEED</ADV></ADVBL><VP-><V>POTENTIATE</V><NP><NP><N1><N1><N1><NAME>NOTCH</NAME></N1><N1><N>SIGNALLING</N></N1></N1><ADVBL><ADV>IN</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><NAME>CHO</NAME></N1><N1><N><ADJ>CO-</ADJ><WORD>PUNC-MINUS</WORD><N>CULTURE SYSTEM</N></N></N1></N1></NP></ADVBL></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></VP-></VP-></VP-></VP></S></UTT></tree><terms root="#V607251"><lisp>((ONT::SPEECHACT ONT::V607251 ONT::SA_TELL :CONTENT ONT::V600963 :START 0 :END
+  73)
+ (ONT::F ONT::V600963 (:* ONT::INCREASE W::POTENTIATE) :AGENT ONT::V600937
+  :AFFECTED ONT::V600984 :MOD ONT::V600955 :TENSE W::PRES :MODALITY
+  (:* ONT::DO W::DO) :START 0 :END 73)
+ (ONT::THE ONT::V600937 (:* ONT::MOLECULE W::LICL) :NAME-OF (W::LICL) :START 0
+  :END 5 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|48607| :NAME &quot;lithium chloride&quot; :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.55337 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+       :MAYBE-DEPLURALIZED 2 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.85528755 :ALL-CAPS-MIXED-CAPS 1)
+      (MATCH :SCORE 0.5493 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.85528755 :MIXED-CAPS-MIXED-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|52217|
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|23367|
+            (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+           :TO ONT::MOLECULE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE)))))
+ (ONT::F ONT::V600955 (:* ONT::DEGREE-OF-BELIEF W::INDEED) :FIGURE ONT::V600963
+  :START 10 :END 17)
+ (ONT::BARE ONT::V600984 (:* ONT::BIOLOGICAL-PROCESS W::SIGNALLING) :ASSOC-WITH
+  ONT::V600974 :MOD ONT::V600988 :START 28 :END 73 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0023052| :NAME &quot;signaling&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;signaling&quot; :STATUS &quot;name&quot; :EXACT 1)
+      (MATCH :SCORE 0.70732 :MATCHED &quot;signalling&quot; :STATUS &quot;EXACT synonym&quot;
+       :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT GO::|0008150|
+            (SENSE (MORPH (POS N) (WORD BIOLOGICAL_PROCESS))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000815.lisp&quot;))))
+           :TO ONT::BIOLOGICAL-PROCESS))
+     :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))
+    (TERM :ID NCIT::C17133 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;signaling&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17828
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+           :TO ONT::BIOLOGICAL-PROCESS))
+     :ONT-TYPES (ONT::BIOLOGICAL-PROCESS)))))
+ (ONT::KIND ONT::V600974 (:* ONT::PROTEIN-FAMILY W::NOTCH) :NAME-OF W::NOTCH
+  :START 28 :END 73 :DRUM
+  ((:DRUM
+    (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+       1))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+ (ONT::F ONT::V600988 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V601090 :FIGURE
+  ONT::V600984 :START 45 :END 73)
+ (ONT::THE ONT::V601090 (:* ONT::REFERENTIAL-SEM W::CULTURE-SYSTEM) :ASSOC-WITH
+  ONT::V601052 :MOD ONT::V601096 :START 48 :END 73)
+ (ONT::F ONT::V601096 (:* ONT::INCLUSIVE W::CO-) :FIGURE ONT::V601090 :START 48
+  :END 73)
+ (ONT::KIND ONT::V601052 (:* ONT::MOLECULE W::CHO) :NAME-OF W::CHO :START 48
+  :END 73 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|42485| :NAME &quot;formyl group&quot; :SCORE 0.56093 :MATCHES
+     ((MATCH :SCORE 0.56093 :MATCHED &quot;-CHO&quot; :STATUS &quot;RELATED synonym&quot;
+       :NO-DASH-DASH 1 :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|24433|
+            (SENSE (MORPH (POS N) (WORD GROUP))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+           :TO ONT::MOLECULE))
+     :ONT-TYPES (ONT::MOLECULE))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V607251">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V600963" />
+    <LF:start>0</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600963">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INCREASE</LF:type>
+    <LF:word>POTENTIATE</LF:word>
+    <role:AGENT rdf:resource="#V600937" />
+    <role:AFFECTED rdf:resource="#V600984" />
+    <role:MOD rdf:resource="#V600955" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:MODALITY>(:* DO DO)</role:MODALITY>
+    <LF:start>0</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600937">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MOLECULE</LF:type>
+    <LF:word>LICL</LF:word>
+    <role:NAME-OF>(LICL)</role:NAME-OF>
+    <LF:start>0</LF:start>
+    <LF:end>5</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |48607| :NAME &quot;lithium chloride&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.55337 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+     :MAYBE-DEPLURALIZED 2 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.85528755 :ALL-CAPS-MIXED-CAPS 1)
+    (MATCH :SCORE 0.5493 :MATCHED &quot;LiCl&quot; :STATUS &quot;RELATED synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.85528755 :MIXED-CAPS-MIXED-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |52217|
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE)
+    (MAP :THROUGH
+         (CONCEPT |23367|
+          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+         :TO MOLECULE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE MOLECULE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600955">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DEGREE-OF-BELIEF</LF:type>
+    <LF:word>INDEED</LF:word>
+    <role:FIGURE rdf:resource="#V600963" />
+    <LF:start>10</LF:start>
+    <LF:end>17</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600984">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BIOLOGICAL-PROCESS</LF:type>
+    <LF:word>SIGNALLING</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V600974" />
+    <role:MOD rdf:resource="#V600988" />
+    <LF:start>28</LF:start>
+    <LF:end>73</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0023052| :NAME &quot;signaling&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;signaling&quot; :STATUS &quot;name&quot; :EXACT 1)
+    (MATCH :SCORE 0.70732 :MATCHED &quot;signalling&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+     1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0008150|
+          (SENSE (MORPH (POS N) (WORD BIOLOGICAL_PROCESS))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000815.lisp&quot;))))
+         :TO BIOLOGICAL-PROCESS))
+   :ONT-TYPES (BIOLOGICAL-PROCESS))
+  (TERM :ID C17133 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17133&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;signaling&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17828
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17828&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01782.lisp&quot;))))
+         :TO BIOLOGICAL-PROCESS))
+   :ONT-TYPES (BIOLOGICAL-PROCESS))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600974">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROTEIN-FAMILY</LF:type>
+    <LF:word>NOTCH</LF:word>
+    <role:NAME-OF>NOTCH</role:NAME-OF>
+    <LF:start>28</LF:start>
+    <LF:end>73</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+     1))
+   :ONT-TYPES (PROTEIN-FAMILY))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V600988">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V601090" />
+    <role:FIGURE rdf:resource="#V600984" />
+    <LF:start>45</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V601090">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>CULTURE-SYSTEM</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V601052" />
+    <role:MOD rdf:resource="#V601096" />
+    <LF:start>48</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V601096">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INCLUSIVE</LF:type>
+    <LF:word>CO-</LF:word>
+    <role:FIGURE rdf:resource="#V601090" />
+    <LF:start>48</LF:start>
+    <LF:end>73</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V601052">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>MOLECULE</LF:type>
+    <LF:word>CHO</LF:word>
+    <role:NAME-OF>CHO</role:NAME-OF>
+    <LF:start>48</LF:start>
+    <LF:end>73</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |42485| :NAME &quot;formyl group&quot; :SCORE 0.56093 :MATCHES
+   ((MATCH :SCORE 0.56093 :MATCHED &quot;-CHO&quot; :STATUS &quot;RELATED synonym&quot;
+     :NO-DASH-DASH 1 :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |24433|
+          (SENSE (MORPH (POS N) (WORD GROUP))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+         :TO MOLECULE))
+   :ONT-TYPES (MOLECULE))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::LEADING W::TO W::A W::SUBSTANTIAL W::ENHANCEMENT W::OF W::LIGAND
+ W::PUNC-MINUS W::DEPENDENT W::REPORTER W::ACTIVITY W::START-PAREN W::FIG
+ W::PUNC-PERIOD 4 W::C W::END-PAREN W::PUNC-PERIOD)</lisp><word>LEADING</word><word>TO</word><word>A</word><word>SUBSTANTIAL</word><word>ENHANCEMENT</word><word>OF</word><word>LIGAND</word><word>PUNC-MINUS</word><word>DEPENDENT</word><word>REPORTER</word><word>ACTIVITY</word><word>START-PAREN</word><word>FIG</word><word>PUNC-PERIOD</word><word>4</word><word>C</word><word>END-PAREN</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;leading&quot; :FRAME (75 82) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;leading&quot; :FRAME (75 82) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (83 85) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (86 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;substantial&quot; :FRAME (88 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;substantial&quot; :FRAME (88 99) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;enhancement&quot; :FRAME (100 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;enhancement&quot; :FRAME (100 111) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;substantial enhancement&quot; :FRAME (88 111) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (112 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ligand&quot; :FRAME (115 120) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CHEMICAL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|52214| :NAME &quot;ligand&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;ligand&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|50906|
+              (SENSE (MORPH (POS N) (WORD ROLE))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+             :TO ONT::CHEMICAL))
+       :ONT-TYPES (ONT::CHEMICAL))
+      (SPECIALIST :EUI E0037512 :CITATION-FORM &quot;ligand&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;ligand&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::BIOLOGICAL-PROCESS) :SCORE 0.41463 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0005488| :NAME &quot;binding&quot; :SCORE 0.41463 :MATCHES
+       ((MATCH :SCORE 0.41463 :MATCHED &quot;ligand&quot; :STATUS &quot;NARROW synonym&quot; :EXACT
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0003674|
+              (SENSE (MORPH (POS N) (WORD MOLECULAR_FUNCTION))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000367.lisp&quot;))))
+             :TO ONT::BIOLOGICAL-PROCESS))
+       :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))
+      (SPECIALIST :EUI E0037512 :CITATION-FORM &quot;ligand&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;ligand&quot; :EXACT 1)))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (121 121) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dependent&quot; :FRAME (122 131) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ligand-dependent&quot; :FRAME (115 131) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ligand-dependent&quot; :FRAME (115 131) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;reporter&quot; :FRAME (132 140) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;reporter&quot; :FRAME (132 140) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;activity&quot; :FRAME (141 149) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;activity&quot; :FRAME (141 149) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;reporter activity&quot; :FRAME (132 149) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ligand-dependent reporter activity&quot; :FRAME (115 149) :ENJU-CATS (NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 40 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (150 150) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Fig&quot; :FRAME (151 153) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C97547 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97547&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;FIG&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|23355| :NAME &quot;chromosome 10 open reading frame 10&quot;
+       :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FIG&quot; :STATUS &quot;Synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::Q9NTK1) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|17643| :NAME
+       &quot;golgi associated PDZ and coiled-coil motif containing&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FIG&quot; :STATUS &quot;Synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::Q9HD26) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::Q9NTK1 :NAME &quot;Protein DEPP&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FIG&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS (HGNC::|23355| XFAM::PF15343)
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (154 154) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Fig.&quot; :FRAME (151 154) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;4&quot; :FRAME (155 155) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;C&quot; :FRAME (156 156) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;4C&quot; :FRAME (155 156) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 4 :NEW
+       (AMINO-ACID :NAME &quot;Cysteine&quot; :LETTER &quot;C&quot;)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::J640 :NAME &quot;4C&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;4C&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Fig.4C&quot; :FRAME (151 156) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Fig.4C&quot; :FRAME (151 156) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (157 157) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;(Fig.4C)&quot; :FRAME (150 157) :PENN-CATS (PRN) :UTTNUM 40 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ligand-dependent reporter activity (Fig.4C)&quot; :FRAME (115 157)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of ligand-dependent reporter activity (Fig.4C)&quot; :FRAME (112 157)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 40 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a substantial enhancement of ligand-dependent reporter activity (Fig.4C)&quot;
+  :FRAME (86 157) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)&quot;
+  :FRAME (83 157) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)&quot;
+  :FRAME (75 157) :ENJU-CATS (VP) :PENN-CATS (VP S) :TRIPS-CATS (W::VP) :UTTNUM
+  40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (158 158) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (159 159) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 40
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (159 159) :UTTNUM 40 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="leading" start="75" end="82"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="leading" start="75" end="82" penn-cats="VP" /><word lex="to" start="83" end="85"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="a" start="86" end="87"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="substantial" start="88" end="99"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="substantial" start="88" end="99" penn-cats="ADJP,QP" /><word lex="enhancement" start="100" end="111"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="enhancement" start="100" end="111" penn-cats="NX,NAC" /><prefer text="substantial enhancement" start="88" end="111" penn-cats="NX,NAC" /><word lex="of" start="112" end="114"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="ligand" start="115" end="120"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CHEMICAL" score="0.85366"><term id="CHEBI:52214" name="ligand" score="0.85366" ont-types="CHEMICAL"><match score="0.85366" matched="ligand" status="name" exact="1" /><map to="CHEMICAL" through="CHEBI:50906" /></term><specialist eui="E0037512" citation-form="ligand"><match score="1.0" matched="ligand" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="BIOLOGICAL-PROCESS" score="0.41463"><term id="GO:0005488" name="binding" score="0.41463" ont-types="BIOLOGICAL-PROCESS"><match score="0.41463" matched="ligand" status="NARROW synonym" exact="1" /><map to="BIOLOGICAL-PROCESS" through="GO:0003674" /></term><specialist eui="E0037512" citation-form="ligand"><match score="1.0" matched="ligand" exact="1" /></specialist></sense-info></word><word lex="-" start="121" end="121" /><word lex="dependent" start="122" end="131"><sense-info penn-parts-of-speech="NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="ligand-dependent" start="115" end="131"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="ligand-dependent" start="115" end="131" penn-cats="ADJP,QP" /><word lex="reporter" start="132" end="140"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="reporter" start="132" end="140" penn-cats="NP" /><word lex="activity" start="141" end="149"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="activity" start="141" end="149" penn-cats="NX,NAC" /><prefer text="reporter activity" start="132" end="149" penn-cats="NX,NAC" /><prefer text="ligand-dependent reporter activity" start="115" end="149" penn-cats="NP,NX,NAC" /><word lex="(" start="150" end="150"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="Fig" start="151" end="153"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.70379"><term id="NCIT:C97547" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97547&gt;" score="0.70379" ont-types="GENE"><match score="0.70379" matched="FIG" status="synonym" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:23355" name="chromosome 10 open reading frame 10" score="0.55745" dbxrefs="UP:Q9NTK1" ont-types="GENE"><match score="0.55745" matched="FIG" status="Synonym" initial-cap-all-caps="1" /></term><term id="HGNC:17643" name="golgi associated PDZ and coiled-coil motif containing" score="0.55745" dbxrefs="UP:Q9HD26" ont-types="GENE"><match score="0.55745" matched="FIG" status="Synonym" initial-cap-all-caps="1" /></term><term id="UP:Q9NTK1" name="Protein DEPP" score="0.55745" species="Homo sapiens (Human)" dbxrefs="HGNC:23355,XFAM:PF15343" ont-types="PROTEIN"><match score="0.55745" matched="FIG" status="AltName: Short" initial-cap-all-caps="1" /></term></sense-info></word><word lex="." start="154" end="154" /><word lex="Fig." start="151" end="154"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="4" start="155" end="155" /><word lex="C" start="156" end="156" /><word lex="4C" start="155" end="156"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="4"><new><amino-acid name="Cysteine" letter="C" /></new></mutation></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85366"><term id="CVCL:J640" name="4C" score="0.85366" ont-types="CELL-LINE"><match score="0.85366" matched="4C" status="name" exact="1" /></term></sense-info></word><word lex="Fig.4C" start="151" end="156"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="Fig.4C" start="151" end="156" penn-cats="NP,NX,NAC" /><word lex=")" start="157" end="157"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="(Fig.4C)" start="150" end="157" penn-cats="PRN" /><prefer text="ligand-dependent reporter activity (Fig.4C)" start="115" end="157" penn-cats="NP,NX,NAC" /><prefer text="of ligand-dependent reporter activity (Fig.4C)" start="112" end="157" penn-cats="PP" /><prefer text="a substantial enhancement of ligand-dependent reporter activity (Fig.4C)" start="86" end="157" penn-cats="NP" /><prefer text="to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)" start="83" end="157" penn-cats="PP" /><prefer text="leading to a substantial enhancement of ligand-dependent reporter activity (Fig.4C)" start="75" end="157" penn-cats="VP,S" /><word lex="." start="158" end="158" /><prefer text="." start="159" end="159" penn-cats="NP" /><word lex="." start="159" end="159" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (VP
+    (VP- (V LEADING)
+     (PP (PREP TO)
+      (NP (SPEC (DET (ART A)))
+       (N1 (ADJP (ADJ1 (ADJ SUBSTANTIAL)))
+        (N1 (N1 (N ENHANCEMENT))
+         (PP (PREP OF)
+          (NP
+           (NP
+            (N1
+             (N1 (ADJP (N1 (N LIGAND)) (PUNC PUNC-MINUS) (ADJ DEPENDENT))
+              (N1 (N REPORTER)))
+             (N1 (N ACTIVITY))))
+           (PARENTHETICAL (PUNC START-PAREN)
+            (UTT (NP (N1 (N FIG PUNC-PERIOD 4 C)))) (PUNC END-PAREN))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><VP><VP-><V>LEADING</V><PP><PREP>TO</PREP><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>SUBSTANTIAL</ADJ></ADJ1></ADJP><N1><N1><N>ENHANCEMENT</N></N1><PP><PREP>OF</PREP><NP><NP><N1><N1><ADJP><N1><N>LIGAND</N></N1><PUNC>PUNC-MINUS</PUNC><ADJ>DEPENDENT</ADJ></ADJP><N1><N>REPORTER</N></N1></N1><N1><N>ACTIVITY</N></N1></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><N>FIG PUNC-PERIOD 4 C</N></N1></NP></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></PP></N1></N1></NP></PP></VP-></VP></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V611706"><lisp>((ONT::SPEECHACT ONT::V611706 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V607618 :START 75 :END 159)
+ (ONT::BARE ONT::V607618 (:* ONT::CAUSE-EFFECT W::LEAD) :RESULT ONT::V607695
+  :START 75 :END 158)
+ (ONT::A ONT::V607695 (:* ONT::IMPROVE W::ENHANCEMENT) :AFFECTED ONT::V607729
+  :MOD ONT::V607691 :START 83 :END 158)
+ (ONT::F ONT::V607691 (:* ONT::SUBSTANTIAL-VAL W::SUBSTANTIAL) :FIGURE
+  ONT::V607695 :SCALE ONT::SIZE-SCALE :START 88 :END 100)
+ (ONT::BARE ONT::V607729 (:* ONT::ACTIVITY-EVENT W::ACTIVITY) :PARENTHETICAL
+  ONT::V607802 :ASSOC-WITH ONT::V607725 :START 112 :END 158)
+ (ONT::KIND ONT::V607725 (:* ONT::PROFESSIONAL W::REPORTER) :MOD ONT::V607714
+  :START 112 :END 158)
+ (ONT::F ONT::V607714 (:* ONT::DEPENDENT W::DEPENDENT) :NEUTRAL1 ONT::V607708
+  :NEUTRAL ONT::V607725 :START 115 :END 132)
+ (ONT::BARE ONT::V607708 (:* ONT::CHEMICAL W::LIGAND) :START 115 :END 132 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|52214| :NAME &quot;ligand&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;ligand&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|50906|
+            (SENSE (MORPH (POS N) (WORD ROLE))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+           :TO ONT::CHEMICAL))
+     :ONT-TYPES (ONT::CHEMICAL))
+    (SPECIALIST :EUI E0037512 :CITATION-FORM &quot;ligand&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;ligand&quot; :EXACT 1))))))
+ (ONT::SPEECHACT ONT::V609205 ONT::SA_IDENTIFY :CONTENT ONT::V607802 :START 151
+  :END 157)
+ (ONT::BARE ONT::V607802 (:* ONT::REFERENTIAL-SEM W::FIG-PUNC-PERIOD-4-C)
+  :START 151 :END 157))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V611706">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V607618" />
+    <LF:start>75</LF:start>
+    <LF:end>159</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607618">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CAUSE-EFFECT</LF:type>
+    <LF:word>LEAD</LF:word>
+    <role:RESULT rdf:resource="#V607695" />
+    <LF:start>75</LF:start>
+    <LF:end>158</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607695">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>IMPROVE</LF:type>
+    <LF:word>ENHANCEMENT</LF:word>
+    <role:AFFECTED rdf:resource="#V607729" />
+    <role:MOD rdf:resource="#V607691" />
+    <LF:start>83</LF:start>
+    <LF:end>158</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607691">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SUBSTANTIAL-VAL</LF:type>
+    <LF:word>SUBSTANTIAL</LF:word>
+    <role:FIGURE rdf:resource="#V607695" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>88</LF:start>
+    <LF:end>100</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607729">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ACTIVITY-EVENT</LF:type>
+    <LF:word>ACTIVITY</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V607802" />
+    <role:ASSOC-WITH rdf:resource="#V607725" />
+    <LF:start>112</LF:start>
+    <LF:end>158</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607725">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROFESSIONAL</LF:type>
+    <LF:word>REPORTER</LF:word>
+    <role:MOD rdf:resource="#V607714" />
+    <LF:start>112</LF:start>
+    <LF:end>158</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607714">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DEPENDENT</LF:type>
+    <LF:word>DEPENDENT</LF:word>
+    <role:NEUTRAL1 rdf:resource="#V607708" />
+    <role:NEUTRAL rdf:resource="#V607725" />
+    <LF:start>115</LF:start>
+    <LF:end>132</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607708">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>LIGAND</LF:word>
+    <LF:start>115</LF:start>
+    <LF:end>132</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |52214| :NAME &quot;ligand&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;ligand&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |50906|
+          (SENSE (MORPH (POS N) (WORD ROLE))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+         :TO CHEMICAL))
+   :ONT-TYPES (CHEMICAL))
+  (SPECIALIST :EUI E0037512 :CITATION-FORM &quot;ligand&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;ligand&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V609205">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V607802" />
+    <LF:start>151</LF:start>
+    <LF:end>157</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V607802">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>FIG-PUNC-PERIOD-4-C</LF:word>
+    <LF:start>151</LF:start>
+    <LF:end>157</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

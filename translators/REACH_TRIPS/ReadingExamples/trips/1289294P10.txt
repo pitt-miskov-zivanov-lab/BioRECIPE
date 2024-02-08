@@ -1,0 +1,2743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="For analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours, the cells were harvested and lysed as described for analysis of proteins in Figures 4 and 5.For analysis of the proteins in Figures 4 and 5, VMM18 melanoma cells were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day, cells were rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice.">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09614.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000723.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08467.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03471.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00487.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10737.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04297.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06507.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06907.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07071.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000170.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02980.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/001534.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002629.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/006169.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/007794.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/007680.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07459.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07458.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08039.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06337.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01034.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01804.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04954.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/11603.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02655.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02840.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06344.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01648.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06734.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to sequences not reimplemented yet
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to times not implemented yet
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00209_IO-1905290" timestamp="20190708T132123"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00209_IO-1905290" id="paragraph208">For analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours, the cells were harvested and lysed as described for analysis of proteins in Figures 4 and 5.For analysis of the proteins in Figures 4 and 5, VMM18 melanoma cells were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day, cells were rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice.
+</paragraph></paragraphs><sentences><sentence id="235" pid="paragraph208">For analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours, the cells were harvested and lysed as described for analysis of proteins in Figures 4 and 5.For analysis of the proteins in Figures 4 and 5, VMM18 melanoma cells were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day, cells were rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice.</sentence></sentences></input><EPI end="38" id="V1905367" lisp="(ONT::EPI ONT::V1905367 ONT::TEST :NEUTRAL ONT::V1905378)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="4" uttnum="235"><type>ONT::TEST</type><arg2 end="38" id="V1905378" role=":NEUTRAL" start="4"><type>ONT::PROTEIN</type><text normalization="">analysis of proteins in Figure 1B</text></arg2><text>analysis of proteins in Figure 1B</text></EPI><TERM end="46" id="V1905509" paragraph="paragraph208" rule="-SIMPLE-REF" start="42" uttnum="235"><type>ONT::MUTATION</type><mutation><type>SUBSTITUTION</type><pos>1</pos><aa-to><aa><name>Cysteine</name><code>C</code></aa></aa-to></mutation><text normalization="">1C,</text></TERM><TERM end="38" id="V1905378" lisp="(ONT::TERM ONT::V1905378 ONT::PROTEIN :EPI ONT::V1905367 :NAME W::PROTEIN)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="4" uttnum="235"><type>ONT::PROTEIN</type><name>PROTEIN</name><text>analysis of proteins in Figure 1B</text></TERM><TERM end="38" id="V1905463" paragraph="paragraph208" rule="-SIMPLE-REF" start="28" uttnum="235"><type>ONT::MUTATION</type><mutation><type>SUBSTITUTION</type><pos>1</pos><aa-to><aa><name>Asparagine or aspartic acid</name><code>B</code></aa></aa-to></mutation><text normalization="">Figure 1B</text></TERM><TERM end="38" id="V1905438" lisp="(ONT::TERM ONT::V1905438 ONT::SHAPE-OBJECT :NAME W::FIGURE)" paragraph="paragraph208" rule="-SIMPLE-REF" start="28" uttnum="235"><type>ONT::SHAPE-OBJECT</type><name>FIGURE</name><text>Figure 1B</text></TERM><TERM dbid="BTO:0000848" end="85" id="V1905644" lisp="(ONT::TERM ONT::V1905644 ONT::CELL :NAME W::MELANOMA-CELLS :DRUM ((:DRUM (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2)) :ONT-TYPES (ONT::CELL)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="46" uttnum="235"><type>ONT::CELL</type><name>MELANOMA-CELLS</name><drum-terms><drum-term dbid="BTO:0000848" match-score="0.85366" matched-name="melanoma cell" name="melanoma cell"><types><type>ONT::CELL</type></types></drum-term></drum-terms><text>VMM5A, VMM18, and VMM39 melanoma cells</text></TERM><TERM end="113" id="V1905757" lisp="(ONT::TERM ONT::V1905757 ONT::TABLEWARE :NAME W::PETRI-DISHES)" paragraph="paragraph208" rule="-SIMPLE-REF" start="97" uttnum="235"><type>ONT::TABLEWARE</type><name>PETRI-DISHES</name><text>in Petri dishes</text></TERM><TERM dbid="CVCL:A740" end="51" id="V1905573" lisp="(ONT::TERM ONT::V1905573 ONT::CELL-LINE :NAME W::VMM-5-A :DRUM ((:DRUM (TERM :ID CVCL::A740 :NAME &quot;VMM5A&quot; :SCORE 0.85361 :MATCHES ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-5A&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1 :EXACT 2)) :ONT-TYPES (ONT::CELL-LINE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="46" uttnum="235"><type>ONT::CELL-LINE</type><name>VMM-5-A</name><drum-terms><drum-term dbid="CVCL:A740" match-score="0.85361" matched-name="VMM-5A" name="VMM5A"><types><type>ONT::CELL-LINE</type></types></drum-term></drum-terms><text>VMM5A</text></TERM><TERM dbid="CVCL:A737" end="58" id="V1905586" lisp="(ONT::TERM ONT::V1905586 ONT::CELL-LINE :NAME W::VMM-18 :DRUM ((:DRUM (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1 :EXACT 1)) :ONT-TYPES (ONT::CELL-LINE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="53" uttnum="235"><type>ONT::CELL-LINE</type><name>VMM-18</name><drum-terms><drum-term dbid="CVCL:A737" match-score="0.85361" matched-name="VMM-18" name="VMM18"><types><type>ONT::CELL-LINE</type></types></drum-term></drum-terms><text>VMM18</text></TERM><TERM dbid="CVCL:A739" end="70" id="V1905609" lisp="(ONT::TERM ONT::V1905609 ONT::CELL-LINE :NAME W::VMM-39 :DRUM ((:DRUM (TERM :ID CVCL::A739 :NAME &quot;VMM39&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;VMM39&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::CELL-LINE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="64" uttnum="235"><type>ONT::CELL-LINE</type><name>VMM-39</name><drum-terms><drum-term dbid="CVCL:A739" match-score="0.85366" matched-name="VMM39" name="VMM39"><types><type>ONT::CELL-LINE</type></types></drum-term></drum-terms><text>VMM39</text></TERM><EVENT end="155" id="V1905774" lisp="(ONT::EVENT ONT::V1905774 ONT::TRANSFORM :FORCE ONT::TRUE)" paragraph="paragraph208" rule="-RULE5_1_AFFECTED_AFFECTED1-NONE" start="113" uttnum="235"><type>ONT::TRANSFORM</type><force>ONT::TRUE</force><predicate end="155" id="V1905774" start="113"><type>ONT::TRANSFORM</type><text>and incubated for 24 hours in either RPMI</text></predicate><text>and incubated for 24 hours in either RPMI</text></EVENT><TERM end="174" id="V1905928" lisp="(ONT::TERM ONT::V1905928 ONT::GENE :NAME W::FBS)" paragraph="paragraph208" rule="-SIMPLE-REF" start="167" uttnum="235"><type>ONT::GENE</type><name>FBS</name><text>5% FBS</text></TERM><EVENT end="227" id="V1919566" lisp="(ONT::EVENT ONT::V1919566 ONT::BIND :AFFECTED ONT::V1919541 :FORCE ONT::TRUE :TENSE W::PAST :PASSIVE +)" paragraph="paragraph208" rule="-RULE40_4_AGENT_AFFECTED-AFFECTED" start="202" uttnum="235"><type>ONT::BIND</type><force>ONT::TRUE</force><predicate end="227" id="V1919566" start="202"><type>ONT::BIND</type><text>the cells were harvested</text></predicate><arg2 end="212" id="V1919541" role=":AFFECTED" start="202"><type>ONT::CELL</type><text normalization="">the cells</text></arg2><text>the cells were harvested</text></EVENT><TERM end="212" id="V1919541" lisp="(ONT::TERM ONT::V1919541 ONT::CELL :NAME W::CELL :COREF ONT::V1905644)" paragraph="paragraph208" rule="-SIMPLE-REF" start="202" uttnum="235"><type>ONT::CELL</type><name>CELL</name><coref id="V1905644"/><text>the cells</text></TERM><TERM dbid="UP:Q8XD10|XFAM:PF01810|UP:etc" end="237" id="V1919580" lisp="(ONT::TERM ONT::V1919580 ONT::PROTEIN-FAMILY :NAME W::LYSED :DRUM ((:DRUM (TERM :ID XFAM::PF01810 :NAME &quot;LysE&quot; :SCORE 0.69971 :MATCHES ((MATCH :SCORE 0.69971 :MATCHED &quot;LysE&quot; :STATUS &quot;ID&quot; :NO-CAPS-MIXED-CAPS 1)) :DBXREFS (UP::Q8XD10 UP::|etc|) :ONT-TYPES (ONT::PROTEIN-FAMILY)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="231" uttnum="235"><type>ONT::PROTEIN-FAMILY</type><name>LYSED</name><drum-terms><drum-term dbid="XFAM:PF01810" match-score="0.69971" matched-name="LysE" name="LysE"><types><type>ONT::PROTEIN-FAMILY</type></types><xrefs><xref dbid="UP:Q8XD10"/><xref dbid="UP:etc"/></xrefs></drum-term></drum-terms><text>lysed</text></TERM><EPI end="286" id="V1919647" lisp="(ONT::EPI ONT::V1919647 ONT::TEST :NEUTRAL ONT::V1919658)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="254" uttnum="235"><type>ONT::TEST</type><arg2 end="286" id="V1919658" role=":NEUTRAL" start="254"><type>ONT::PROTEIN</type><text normalization="">analysis of proteins in Figures</text></arg2><text>analysis of proteins in Figures</text></EPI><TERM end="286" id="V1919658" lisp="(ONT::TERM ONT::V1919658 ONT::PROTEIN :EPI ONT::V1919647 :NAME W::PROTEIN)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="254" uttnum="235"><type>ONT::PROTEIN</type><name>PROTEIN</name><text>analysis of proteins in Figures</text></TERM><TERM end="286" id="V1919717" lisp="(ONT::TERM ONT::V1919717 ONT::SHAPE-OBJECT :NAME W::FIGURE)" paragraph="paragraph208" rule="-SIMPLE-REF" start="278" uttnum="235"><type>ONT::SHAPE-OBJECT</type><name>FIGURE</name><text>Figures</text></TERM><EPI end="341" id="V1919773" lisp="(ONT::EPI ONT::V1919773 ONT::TEST :NEUTRAL ONT::V1919791)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="294" uttnum="235"><type>ONT::TEST</type><arg2 end="341" id="V1919791" role=":NEUTRAL" start="294"><type>ONT::PROTEIN</type><text normalization="">For analysis of the proteins in Figures 4 and 5</text></arg2><text>For analysis of the proteins in Figures 4 and 5</text></EPI><TERM dbid="HGNC:12799|UP:Q9NZC7|NCIT:C131549" end="341" id="V1919761" lisp="(ONT::TERM ONT::V1919761 ONT::GENE :NAME W::FOR :DRUM ((:DRUM (TERM :ID NCIT::C131549 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="294" uttnum="235"><type>ONT::GENE</type><name>FOR</name><drum-terms><drum-term dbid="NCIT:C131549" match-score="0.70379" matched-name="FOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:12799" match-score="0.55745" matched-name="FOR" name="WW domain containing oxidoreductase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:Q9NZC7"/></xrefs></drum-term></drum-terms><text>For analysis of the proteins in Figures 4 and 5</text></TERM><TERM end="341" id="V1919791" lisp="(ONT::TERM ONT::V1919791 ONT::PROTEIN :EPI ONT::V1919773 :NAME W::PROTEIN :COREF ONT::V1919658)" paragraph="paragraph208" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="294" uttnum="235"><type>ONT::PROTEIN</type><name>PROTEIN</name><coref id="V1919658"/><text>For analysis of the proteins in Figures 4 and 5</text></TERM><TERM end="341" id="V1919850" lisp="(ONT::TERM ONT::V1919850 ONT::SHAPE-OBJECT :NAME W::FIGURE)" paragraph="paragraph208" rule="-SIMPLE-REF" start="326" uttnum="235"><type>ONT::SHAPE-OBJECT</type><name>FIGURE</name><text>Figures 4 and 5</text></TERM><TERM dbid="BTO:0000848" end="364" id="V1931752" lisp="(ONT::TERM ONT::V1931752 ONT::CELL :NAME W::MELANOMA-CELLS :DRUM ((:DRUM (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2)) :ONT-TYPES (ONT::CELL)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="343" uttnum="235"><type>ONT::CELL</type><name>MELANOMA-CELLS</name><drum-terms><drum-term dbid="BTO:0000848" match-score="0.85366" matched-name="melanoma cell" name="melanoma cell"><types><type>ONT::CELL</type></types></drum-term></drum-terms><text>VMM18 melanoma cells</text></TERM><TERM end="391" id="V1931864" lisp="(ONT::TERM ONT::V1931864 ONT::TABLEWARE :NAME W::PETRI-DISHES)" paragraph="paragraph208" rule="-SIMPLE-REF" start="376" uttnum="235"><type>ONT::TABLEWARE</type><name>PETRI-DISHES</name><text>in petri dishes</text></TERM><TERM dbid="CVCL:A737" end="349" id="V1931717" lisp="(ONT::TERM ONT::V1931717 ONT::CELL-LINE :NAME W::VMM-18 :DRUM ((:DRUM (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1 :EXACT 1)) :ONT-TYPES (ONT::CELL-LINE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="343" uttnum="235"><type>ONT::CELL-LINE</type><name>VMM-18</name><drum-terms><drum-term dbid="CVCL:A737" match-score="0.85361" matched-name="VMM-18" name="VMM18"><types><type>ONT::CELL-LINE</type></types></drum-term></drum-terms><text>VMM18</text></TERM><EVENT end="441" id="V1931875" lisp="(ONT::EVENT ONT::V1931875 ONT::MODULATE :FORCE ONT::TRUE)" paragraph="paragraph208" rule="-NEUTRALTOAGENT,-RULE10_1_AGENT_AFFECTED-NONE" start="393" uttnum="235"><type>ONT::MODULATE</type><force>ONT::TRUE</force><predicate end="441" id="V1931875" start="393"><type>ONT::MODULATE</type><text>treated with drugs or not for one hour, washed,</text></predicate><text>treated with drugs or not for one hour, washed,</text></EVENT><TERM end="412" id="V1931891" lisp="(ONT::TERM ONT::V1931891 ONT::MEDICATION :NAME W::DRUG)" paragraph="paragraph208" rule="-SIMPLE-REF" start="406" uttnum="235"><type>ONT::MEDICATION</type><name>DRUG</name><text>drugs</text></TERM><EVENT end="551" id="V1946757" lisp="(ONT::EVENT ONT::V1946757 ONT::TRANSFORM :AFFECTED ONT::V1946733 :FORCE ONT::TRUE :TENSE W::PAST :PASSIVE +)" paragraph="paragraph208" rule="-RULE5_1_AFFECTED_AFFECTED1-AFFECTED" start="506" uttnum="235"><type>ONT::TRANSFORM</type><force>ONT::TRUE</force><predicate end="551" id="V1946757" start="506"><type>ONT::TRANSFORM</type><text>cells were rinsed with room temperature PBS,</text></predicate><arg2 end="512" id="V1946733" role=":AFFECTED" start="506"><type>ONT::CELL</type><text normalization="">cells</text></arg2><text>cells were rinsed with room temperature PBS,</text></EVENT><TERM end="512" id="V1946733" lisp="(ONT::TERM ONT::V1946733 ONT::CELL :NAME W::CELL)" paragraph="paragraph208" rule="-SIMPLE-REF" start="506" uttnum="235"><type>ONT::CELL</type><name>CELL</name><text>cells</text></TERM><TERM dbid="NCIT:C122728" end="551" id="V1946789" lisp="(ONT::TERM ONT::V1946789 ONT::GENE :NAME W::PBS :DRUM ((:DRUM (TERM :ID NCIT::C122728 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PBS&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1)) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="529" uttnum="235"><type>ONT::GENE</type><name>PBS</name><drum-terms><drum-term dbid="NCIT:C122728" match-score="0.70732" matched-name="PBS" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;"><types><type>ONT::GENE</type></types></drum-term></drum-terms><text>room temperature PBS,</text></TERM><EVENT end="613" id="V1946798" lisp="(ONT::EVENT ONT::V1946798 ONT::TRANSFORM :FORCE ONT::TRUE)" paragraph="paragraph208" rule="-RULE5_1_AFFECTED_AFFECTED1-NONE" start="551" uttnum="235"><type>ONT::TRANSFORM</type><force>ONT::TRUE</force><predicate end="613" id="V1946798" start="551"><type>ONT::TRANSFORM</type><text>frozen by placing the dish on a mixture of acetone and dry ice</text></predicate><text>frozen by placing the dish on a mixture of acetone and dry ice</text></EVENT><TERM end="578" id="V1946842" lisp="(ONT::TERM ONT::V1946842 ONT::TABLEWARE :NAME W::DISH)" paragraph="paragraph208" rule="-SIMPLE-REF" start="569" uttnum="235"><type>ONT::TABLEWARE</type><name>DISH</name><text>the dish</text></TERM><TERM dbid="CHEBI:60004" end="613" id="V1946916" lisp="(ONT::TERM ONT::V1946916 ONT::CHEMICAL :NAME W::MIXTURE :DRUM ((:DRUM (TERM :ID CHEBI::|60004| :NAME &quot;mixture&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;mixture&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::CHEMICAL)) (SPECIALIST :EUI E0040609 :CITATION-FORM &quot;mixture&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;mixture&quot; :EXACT 1)) :COMPLEMENTS (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF ((SPECIALIST :EUI E0040591 :CAT VERB :CITATION-FORM &quot;mix&quot;))))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="581" uttnum="235"><type>ONT::CHEMICAL</type><name>MIXTURE</name><drum-terms><drum-term dbid="CHEBI:60004" match-score="0.85366" matched-name="mixture" name="mixture"><types><type>ONT::CHEMICAL</type></types></drum-term></drum-terms><text>a mixture of acetone and dry ice</text></TERM><TERM dbid="CHEBI:15347" end="602" id="V1947055" lisp="(ONT::TERM ONT::V1947055 ONT::CHEMICAL :NAME W::ACETONE :DRUM ((:DRUM (TERM :ID CHEBI::|15347| :NAME &quot;acetone&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;acetone&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::MOLECULE ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0006819 :CITATION-FORM &quot;acetone&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;acetone&quot; :EXACT 1))))))" paragraph="paragraph208" rule="-SIMPLE-REF" start="594" uttnum="235"><type>ONT::CHEMICAL</type><name>ACETONE</name><drum-terms><drum-term dbid="CHEBI:15347" match-score="0.85366" matched-name="acetone" name="acetone"><types><type>ONT::MOLECULE</type><type>ONT::CHEMICAL</type><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>acetone</text></TERM><TERM end="613" id="V1947090" lisp="(ONT::TERM ONT::V1947090 ONT::SOLID-SUBSTANCE :NAME W::DRY-ICE)" paragraph="paragraph208" rule="-SIMPLE-REF" start="606" uttnum="235"><type>ONT::SOLID-SUBSTANCE</type><name>DRY-ICE</name><text>dry ice</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::FOR W::ANALYSIS W::OF W::PROTEINS W::IN W::FIGURE 1 W::B W::AND 1 W::C
+ W::PUNC-COMMA)</lisp><word>FOR</word><word>ANALYSIS</word><word>OF</word><word>PROTEINS</word><word>IN</word><word>FIGURE</word><word>1</word><word>B</word><word>AND</word><word>1</word><word>C</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;For&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNP) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)
+    :ONT-TYPES (ONT::GENE) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C131549 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+         :SENTENCE-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot;
+       :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+         :SENTENCE-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;analysis&quot; :FRAME (4 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis&quot; :FRAME (4 12) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (13 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;proteins&quot; :FRAME (16 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proteins&quot; :FRAME (16 24) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (25 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Figure&quot; :FRAME (28 34) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1&quot; :FRAME (35 35) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B&quot; :FRAME (36 37) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1B&quot; :FRAME (35 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+       (AMINO-ACID :NAME &quot;Asparagine or aspartic acid&quot; :LETTER &quot;B&quot;))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Figure 1B&quot; :FRAME (28 37) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in Figure 1B&quot; :FRAME (25 37) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proteins in Figure 1B&quot; :FRAME (16 37) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of proteins in Figure 1B&quot; :FRAME (13 37) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis of proteins in Figure 1B&quot; :FRAME (4 37) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (38 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1&quot; :FRAME (42 42) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;C&quot; :FRAME (43 43) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1C&quot; :FRAME (42 43) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+       (AMINO-ACID :NAME &quot;Cysteine&quot; :LETTER &quot;C&quot;))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (44 45) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="For" start="0" end="3"><sense-info penn-parts-of-speech="NN,NNP" trips-parts-of-speech="N,NAME" ont-types="GENE" score="0.70379"><term id="NCIT:C131549" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;" score="0.70379" ont-types="GENE"><match score="0.70379" matched="FOR" status="synonym" sentence-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:12799" name="WW domain containing oxidoreductase" score="0.55745" dbxrefs="UP:Q9NZC7" ont-types="GENE"><match score="0.55745" matched="FOR" status="Synonym" sentence-cap-all-caps="1" /></term></sense-info></word><word lex="analysis" start="4" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="analysis" start="4" end="12" penn-cats="NP" /><word lex="of" start="13" end="15"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="proteins" start="16" end="24"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="proteins" start="16" end="24" penn-cats="NP" /><word lex="in" start="25" end="27"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Figure" start="28" end="34"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="1" start="35" end="35" /><word lex="B" start="36" end="37" /><word lex="1B" start="35" end="37"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="1"><new><amino-acid name="Asparagine or aspartic acid" letter="B" /></new></mutation></sense-info></word><prefer text="Figure 1B" start="28" end="37" penn-cats="NP" /><prefer text="in Figure 1B" start="25" end="37" penn-cats="PP" /><prefer text="proteins in Figure 1B" start="16" end="37" penn-cats="NP" /><prefer text="of proteins in Figure 1B" start="13" end="37" penn-cats="PP" /><prefer text="analysis of proteins in Figure 1B" start="4" end="37" penn-cats="NP" /><word lex="and" start="38" end="41"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="1" start="42" end="42" /><word lex="C" start="43" end="43" /><word lex="1C" start="42" end="43"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="1"><new><amino-acid name="Cysteine" letter="C" /></new></mutation></sense-info></word><word lex="," start="44" end="45" /></tags><tree><lisp>(ADVBL (ADV FOR)
+ (NP
+  (NP
+   (N1 (N1 (N ANALYSIS))
+    (PP (PREP OF)
+     (NP
+      (N1 (N1 (N PROTEINS))
+       (ADVBL (ADV IN) (NP (N1 (N1 (N FIGURE)) (N1 (NAME 1 B))))))))))
+  (CONJ AND) (NP (NP (NAME 1 C)) (PUNC PUNC-COMMA))))</lisp><ADVBL><ADV>FOR</ADV><NP><NP><N1><N1><N>ANALYSIS</N></N1><PP><PREP>OF</PREP><NP><N1><N1><N>PROTEINS</N></N1><ADVBL><ADV>IN</ADV><NP><N1><N1><N>FIGURE</N></N1><N1><NAME>1 B</NAME></N1></N1></NP></ADVBL></N1></NP></PP></N1></NP><CONJ>AND</CONJ><NP><NP><NAME>1 C</NAME></NP><PUNC>PUNC-COMMA</PUNC></NP></NP></ADVBL></tree><terms root="#V1905333"><lisp>((ONT::F ONT::V1905333 (:* ONT::PURPOSE W::FOR) :GROUND ONT::V1905467 :START 0
+  :END 46)
+ (ONT::INDEF-SET ONT::V1905467 ONT::EVENT-OF-CHANGE :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V1905367 ONT::V1905509) :START 4 :END 46)
+ (ONT::BARE ONT::V1905367 (:* ONT::SCRUTINY W::ANALYSIS) :NEUTRAL ONT::V1905378
+  :START 4 :END 38)
+ (ONT::INDEF-SET ONT::V1905378 (:* ONT::PROTEIN W::PROTEIN) :MOD ONT::V1905382
+  :START 13 :END 38)
+ (ONT::F ONT::V1905382 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V1905463
+  :FIGURE ONT::V1905378 :START 25 :END 38)
+ (ONT::BARE ONT::V1905463 (:* ONT::MUTATION W::|1-B|) :ASSOC-WITH ONT::V1905438
+  :NAME-OF (1 W::B) :START 28 :END 38 :DRUM
+  ((:DRUM
+    (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+     (AMINO-ACID :NAME &quot;Asparagine or aspartic acid&quot; :LETTER &quot;B&quot;)))))
+ (ONT::KIND ONT::V1905438 (:* ONT::SHAPE-OBJECT W::FIGURE) :START 28 :END 38)
+ (ONT::THE ONT::V1905509 (:* ONT::MUTATION W::|1-C|) :NAME-OF (1 W::C) :START
+  42 :END 46 :DRUM
+  ((:DRUM
+    (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+     (AMINO-ACID :NAME &quot;Cysteine&quot; :LETTER &quot;C&quot;))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1905333">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURPOSE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V1905467" />
+    <LF:start>0</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905467">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>EVENT-OF-CHANGE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V1905367" />
+    <role:SEQUENCE1 rdf:resource="#V1905509" />
+    <LF:start>4</LF:start>
+    <LF:end>46</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905367">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>ANALYSIS</LF:word>
+    <role:NEUTRAL rdf:resource="#V1905378" />
+    <LF:start>4</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905378">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>PROTEIN</LF:word>
+    <role:MOD rdf:resource="#V1905382" />
+    <LF:start>13</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905382">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1905463" />
+    <role:FIGURE rdf:resource="#V1905378" />
+    <LF:start>25</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905463">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MUTATION</LF:type>
+    <LF:word>|1-B|</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V1905438" />
+    <role:NAME-OF>(1 B)</role:NAME-OF>
+    <LF:start>28</LF:start>
+    <LF:end>38</LF:end>
+    <role:DRUM>((:DRUM
+  (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+   (AMINO-ACID :NAME &quot;Asparagine or aspartic acid&quot; :LETTER &quot;B&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905438">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>FIGURE</LF:word>
+    <LF:start>28</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905509">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MUTATION</LF:type>
+    <LF:word>|1-C|</LF:word>
+    <role:NAME-OF>(1 C)</role:NAME-OF>
+    <LF:start>42</LF:start>
+    <LF:end>46</LF:end>
+    <role:DRUM>((:DRUM
+  (MUTATION :TYPE SUBSTITUTION :AA-INDEX 1 :NEW
+   (AMINO-ACID :NAME &quot;Cysteine&quot; :LETTER &quot;C&quot;))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::VMM 5 W::A W::PUNC-COMMA W::VMM 18 W::PUNC-COMMA W::AND W::VMM 39
+ W::MELANOMA W::CELLS W::WERE W::PLATED W::IN W::PETRI W::DISHES)</lisp><word>VMM</word><word>5</word><word>A</word><word>PUNC-COMMA</word><word>VMM</word><word>18</word><word>PUNC-COMMA</word><word>AND</word><word>VMM</word><word>39</word><word>MELANOMA</word><word>CELLS</word><word>WERE</word><word>PLATED</word><word>IN</word><word>PETRI</word><word>DISHES</word></words><tags><lisp>((WORD &quot;VMM&quot; :FRAME (46 48) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (49 49) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM5&quot; :FRAME (46 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::A740 :NAME &quot;VMM5A&quot; :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;VMM5&quot; :STATUS &quot;RELATED synonym&quot; :EXACT
+         1))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;A&quot; :FRAME (50 50) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5A&quot; :FRAME (49 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 5 :NEW
+       (AMINO-ACID :NAME &quot;Alanine&quot; :LETTER &quot;A&quot;))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM5A&quot; :FRAME (46 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85361 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::A740 :NAME &quot;VMM5A&quot; :SCORE 0.85361 :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-5A&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+         :EXACT 2))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (51 52) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM&quot; :FRAME (53 55) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18&quot; :FRAME (56 57) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM18&quot; :FRAME (53 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85361 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (58 59) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (60 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM&quot; :FRAME (64 66) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;39&quot; :FRAME (67 69) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM39&quot; :FRAME (64 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::A739 :NAME &quot;VMM39&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;VMM39&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;1C, VMM5A, VMM18, and VMM39&quot; :FRAME (42 69) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;melanoma&quot; :FRAME (70 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID EFO::|0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT EFO::|0000311|
+              (SENSE (MORPH (POS N) (WORD CANCER))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000031.lisp&quot;))))
+             :TO ONT::CANCER)
+        (MAP :THROUGH
+             (CONCEPT EFO::|0000408|
+              (SENSE (MORPH (POS N) (WORD DISEASE))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C3224 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;melanoma&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C3262
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+             :TO ONT::CANCER))
+       :ONT-TYPES (ONT::CANCER))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cells&quot; :FRAME (79 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;melanoma cells&quot; :FRAME (70 84) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BTO::|0001286|
+              (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+               (PROVENANCE (NAME LEXICON-DATA::BTO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;melanoma cells&quot; :FRAME (70 84) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (85 89) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;plated&quot; :FRAME (90 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (97 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Petri&quot; :FRAME (100 105) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0004876 :CITATION-FORM &quot;Petri&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;Petri&quot; :EXACT 1)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dishes&quot; :FRAME (106 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Petri dishes&quot; :FRAME (100 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;Petri_dish%1:06:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0047036 :CITATION-FORM &quot;petri dish&quot; :MATCHES
+       ((MATCH :SCORE 0.93878 :MATCHED &quot;petri dishes&quot; :EXACT 1
+         :INITIAL-CAP-NO-CAPS 1)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Petri dishes&quot; :FRAME (100 112) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in Petri dishes&quot; :FRAME (97 112) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;plated in Petri dishes&quot; :FRAME (90 112) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="VMM" start="46" end="48" /><word lex="5" start="49" end="49" /><word lex="VMM5" start="46" end="49"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.70732"><term id="CVCL:A740" name="VMM5A" score="0.70732" ont-types="CELL-LINE"><match score="0.70732" matched="VMM5" status="RELATED synonym" exact="1" /></term></sense-info></word><word lex="A" start="50" end="50" /><word lex="5A" start="49" end="50"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="5"><new><amino-acid name="Alanine" letter="A" /></new></mutation></sense-info></word><word lex="VMM5A" start="46" end="50"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85361"><term id="CVCL:A740" name="VMM5A" score="0.85361" ont-types="CELL-LINE"><match score="0.85361" matched="VMM-5A" status="name" no-dash-dash="1" exact="2" /></term></sense-info></word><word lex="," start="51" end="52" /><word lex="VMM" start="53" end="55" /><word lex="18" start="56" end="57" /><word lex="VMM18" start="53" end="57"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85361"><term id="CVCL:A737" name="VMM18" score="0.85361" ont-types="CELL-LINE"><match score="0.85361" matched="VMM-18" status="name" no-dash-dash="1" exact="1" /></term></sense-info></word><word lex="," start="58" end="59" /><word lex="and" start="60" end="63"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="VMM" start="64" end="66" /><word lex="39" start="67" end="69" /><word lex="VMM39" start="64" end="69"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85366"><term id="CVCL:A739" name="VMM39" score="0.85366" ont-types="CELL-LINE"><match score="0.85366" matched="VMM39" status="name" exact="1" /></term></sense-info></word><prefer text="1C, VMM5A, VMM18, and VMM39" start="42" end="69" penn-cats="NP" /><word lex="melanoma" start="70" end="78"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS" score="0.85366"><term id="EFO:0000756" name="melanoma" score="0.85366" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.85366" matched="melanoma" status="name" exact="1" /><map to="CANCER" through="EFO:0000311" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="EFO:0000408" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER" score="0.70732"><term id="NCIT:C3224" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;" score="0.70732" ont-types="CANCER"><match score="0.70732" matched="melanoma" status="synonym" exact="1" /><map to="CANCER" through="NCIT:C3262" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info></word><word lex="cells" start="79" end="84"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="melanoma cells" start="70" end="84"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="CELL" score="0.85366"><term id="BTO:0000848" name="melanoma cell" score="0.85366" ont-types="CELL"><match score="0.85366" matched="melanoma cell" status="name" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /><map to="CELL" through="BTO:0001286" /></term></sense-info></word><prefer text="melanoma cells" start="70" end="84" penn-cats="NP" /><word lex="were" start="85" end="89"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="plated" start="90" end="96"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="in" start="97" end="99"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Petri" start="100" end="105"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME"><specialist eui="E0004876" citation-form="Petri"><match score="1.0" matched="Petri" exact="1" /></specialist></sense-info></word><word lex="dishes" start="106" end="112"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="Petri dishes" start="100" end="112"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="Petri_dish%1:06:00"><specialist eui="E0047036" citation-form="petri dish"><match score="0.93878" matched="petri dishes" exact="1" initial-cap-no-caps="1" /></specialist></sense-info></word><prefer text="Petri dishes" start="100" end="112" penn-cats="NP" /><prefer text="in Petri dishes" start="97" end="112" penn-cats="PP" /><prefer text="plated in Petri dishes" start="90" end="112" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (S
+  (NP
+   (N1
+    (NP (NPSEQ (NP (NAME VMM 5 A)) (PUNC PUNC-COMMA) (NP (NAME VMM 18)))
+     (PUNC PUNC-COMMA) (CONJ AND) (NP (NAME VMM 39)))
+    (N1 (N MELANOMA CELLS))))
+  (VP
+   (VP- (AUX (V WERE))
+    (VP- (V (V PLATED)) (PP (PREP IN) (NP (N1 (N PETRI DISHES)))))))))</lisp><UTT><S><NP><N1><NP><NPSEQ><NP><NAME>VMM 5 A</NAME></NP><PUNC>PUNC-COMMA</PUNC><NP><NAME>VMM 18</NAME></NP></NPSEQ><PUNC>PUNC-COMMA</PUNC><CONJ>AND</CONJ><NP><NAME>VMM 39</NAME></NP></NP><N1><N>MELANOMA CELLS</N></N1></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><V><V>PLATED</V></V><PP><PREP>IN</PREP><NP><N1><N>PETRI DISHES</N></N1></NP></PP></VP-></VP-></VP></S></UTT></tree><terms root="#V1916745"><lisp>((ONT::SPEECHACT ONT::V1916745 ONT::SA_TELL :CONTENT ONT::V1905678 :START 46
+  :END 113)
+ (ONT::F ONT::V1905678 (:* ONT::COVER W::PLATED) :AFFECTED ONT::V1905644
+  :AFFECTED1 ONT::V1905757 :TENSE W::PAST :PASSIVE + :START 46 :END 113)
+ (ONT::INDEF-SET ONT::V1905644 (:* ONT::CELL W::MELANOMA-CELLS) :ASSOC-WITH
+  ONT::V1905593 :START 46 :END 85 :DRUM
+  ((:DRUM
+    (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BTO::|0001286|
+            (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+             (PROVENANCE (NAME LEXICON-DATA::BTO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+           :TO ONT::CELL))
+     :ONT-TYPES (ONT::CELL)))))
+ (ONT::THE-SET ONT::V1905593 ONT::CELL-LINE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V1905609 ONT::V1905573 ONT::V1905586) :START 46 :END 70)
+ (ONT::THE ONT::V1905573 (:* ONT::CELL-LINE W::VMM-5-A) :NAME-OF
+  (W::VMM 5 W::A) :START 46 :END 51 :DRUM
+  ((:DRUM
+    (TERM :ID CVCL::A740 :NAME &quot;VMM5A&quot; :SCORE 0.85361 :MATCHES
+     ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-5A&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+       :EXACT 2))
+     :ONT-TYPES (ONT::CELL-LINE)))))
+ (ONT::THE ONT::V1905586 (:* ONT::CELL-LINE W::VMM-18) :NAME-OF (W::VMM 18)
+  :START 53 :END 58 :DRUM
+  ((:DRUM
+    (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+     ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+       :EXACT 1))
+     :ONT-TYPES (ONT::CELL-LINE)))))
+ (ONT::THE ONT::V1905609 (:* ONT::CELL-LINE W::VMM-39) :NAME-OF (W::VMM 39)
+  :START 64 :END 70 :DRUM
+  ((:DRUM
+    (TERM :ID CVCL::A739 :NAME &quot;VMM39&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;VMM39&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :ONT-TYPES (ONT::CELL-LINE)))))
+ (ONT::INDEF-SET ONT::V1905757 (:* ONT::TABLEWARE W::PETRI-DISHES) :START 97
+  :END 113 :WNSENSE &quot;Petri_dish%1:06:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1916745">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1905678" />
+    <LF:start>46</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905678">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COVER</LF:type>
+    <LF:word>PLATED</LF:word>
+    <role:AFFECTED rdf:resource="#V1905644" />
+    <role:AFFECTED1 rdf:resource="#V1905757" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>46</LF:start>
+    <LF:end>113</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905644">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>MELANOMA-CELLS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V1905593" />
+    <LF:start>46</LF:start>
+    <LF:end>85</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0001286|
+          (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+           (PROVENANCE (NAME BTO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+         :TO CELL))
+   :ONT-TYPES (CELL))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905593">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>CELL-LINE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V1905609" />
+    <role:SEQUENCE1 rdf:resource="#V1905573" />
+    <role:SEQUENCE2 rdf:resource="#V1905586" />
+    <LF:start>46</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905573">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CELL-LINE</LF:type>
+    <LF:word>VMM-5-A</LF:word>
+    <role:NAME-OF>(VMM 5 A)</role:NAME-OF>
+    <LF:start>46</LF:start>
+    <LF:end>51</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID A740 :NAME &quot;VMM5A&quot; :SCORE 0.85361 :MATCHES
+   ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-5A&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+     :EXACT 2))
+   :ONT-TYPES (CELL-LINE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905586">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CELL-LINE</LF:type>
+    <LF:word>VMM-18</LF:word>
+    <role:NAME-OF>(VMM 18)</role:NAME-OF>
+    <LF:start>53</LF:start>
+    <LF:end>58</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+   ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+     :EXACT 1))
+   :ONT-TYPES (CELL-LINE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905609">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CELL-LINE</LF:type>
+    <LF:word>VMM-39</LF:word>
+    <role:NAME-OF>(VMM 39)</role:NAME-OF>
+    <LF:start>64</LF:start>
+    <LF:end>70</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID A739 :NAME &quot;VMM39&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;VMM39&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES
+   (CELL-LINE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905757">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TABLEWARE</LF:type>
+    <LF:word>PETRI-DISHES</LF:word>
+    <LF:start>97</LF:start>
+    <LF:end>113</LF:end>
+    <role:WNSENSE>Petri_dish%1:06:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::INCUBATED
+  W::FOR
+  24
+  W::HOURS
+  W::IN
+  W::EITHER
+  W::RPMI)</lisp><word>AND</word><word>INCUBATED</word><word>FOR</word><word>24</word><word>HOURS</word><word>IN</word><word>EITHER</word><word>RPMI</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (113 116) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;incubated&quot; :FRAME (117 126) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0034095 :CITATION-FORM &quot;incubate&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;incubated&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;intran&quot; &quot;tran=np&quot;) :NOMINALIZATION
+       ((SPECIALIST :EUI E0034096 :CITATION-FORM &quot;incubation&quot;)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for&quot; :FRAME (127 130) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;24&quot; :FRAME (131 133) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hours&quot; :FRAME (134 139) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;24 hours&quot; :FRAME (131 139) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for 24 hours&quot; :FRAME (127 139) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;for_24_hours%4:02:00&quot;)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for 24 hours&quot; :FRAME (127 139) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (140 142) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;either&quot; :FRAME (143 149) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;RPMI&quot; :FRAME (150 154) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="113" end="116"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="incubated" start="117" end="126"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V"><specialist eui="E0034095" citation-form="incubate"><match score="1.0" matched="incubated" exact="1" />    <complement>intran</complement>
+    <complement>tran=np</complement>
+<nominalization><specialist eui="E0034096" citation-form="incubation" /></nominalization></specialist></sense-info></word><word lex="for" start="127" end="130"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="24" start="131" end="133"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="hours" start="134" end="139"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="24 hours" start="131" end="139" penn-cats="NP" /><word lex="for 24 hours" start="127" end="139"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="for_24_hours%4:02:00" /></word><prefer text="for 24 hours" start="127" end="139" penn-cats="PP" /><word lex="in" start="140" end="142"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="either" start="143" end="149"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="RPMI" start="150" end="154"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word></tags><tree><lisp>(CP (WORD AND)
+ (VP
+  (VP- (VP- (V INCUBATED))
+   (ADVBL (ADV FOR)
+    (NP (NUMBER 24) (N1 (N HOURS))
+     (PP (PREP IN) (NP (SPEC (QUAN EITHER)) (N1 (N RPMI)))))))))</lisp><CP><WORD>AND</WORD><VP><VP-><VP-><V>INCUBATED</V></VP-><ADVBL><ADV>FOR</ADV><NP><NUMBER>24</NUMBER><N1><N>HOURS</N></N1><PP><PREP>IN</PREP><NP><SPEC><QUAN>EITHER</QUAN></SPEC><N1><N>RPMI</N></N1></NP></PP></NP></ADVBL></VP-></VP></CP></tree><terms root="#V1905774"><lisp>((ONT::F ONT::V1905774 (:* ONT::LIFE-TRANSFORMATION W::INCUBATED) :EXTENT
+  ONT::V1905794 :VFORM W::BASE :START 113 :END 155)
+ (ONT::F ONT::V1905794 (:* ONT::TIME-DURATION-REL W::FOR) :GROUND ONT::V1905817
+  :FIGURE ONT::V1905774 :START 127 :END 155)
+ (ONT::A ONT::V1905817 ONT::QUANTITY :AMOUNT ONT::V1905815 :UNIT
+  (:* ONT::HOUR-DURATION W::HOUR) :SCALE ONT::DOMAIN :START 131 :END 155)
+ (ONT::A ONT::V1905815 ONT::NUMBER :VALUE 24 :START 131 :END 155)
+ (ONT::QUANTIFIER ONT::V1905909 (:* ONT::REFERENTIAL-SEM W::RPMI) :QUAN
+  ONT::EITHER :START 140 :END 155))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1905774">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LIFE-TRANSFORMATION</LF:type>
+    <LF:word>INCUBATED</LF:word>
+    <role:EXTENT rdf:resource="#V1905794" />
+    <role:VFORM>BASE</role:VFORM>
+    <LF:start>113</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905794">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TIME-DURATION-REL</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V1905817" />
+    <role:FIGURE rdf:resource="#V1905774" />
+    <LF:start>127</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905817">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT rdf:resource="#V1905815" />
+    <role:UNIT>(:* HOUR-DURATION HOUR)</role:UNIT>
+    <role:SCALE>DOMAIN</role:SCALE>
+    <LF:start>131</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905815">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>24</role:VALUE>
+    <LF:start>131</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905909">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>RPMI</LF:word>
+    <role:QUAN>EITHER</role:QUAN>
+    <LF:start>140</LF:start>
+    <LF:end>155</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::MEDIUM W::PLUS W::FIVE W::PERCENT W::FBS)</lisp><word>MEDIUM</word><word>PLUS</word><word>FIVE</word><word>PERCENT</word><word>FBS</word></words><tags><lisp>((WORD &quot;medium&quot; :FRAME (155 161) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;RPMI medium&quot; :FRAME (150 161) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in either RPMI medium&quot; :FRAME (140 161) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for 24 hours in either RPMI medium&quot; :FRAME (127 161) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;incubated for 24 hours in either RPMI medium&quot; :FRAME (117 161)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;plus&quot; :FRAME (162 166) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (167 167) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;%&quot; :FRAME (168 169) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5%&quot; :FRAME (167 169) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;FBS&quot; :FRAME (170 173) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|20442| :NAME &quot;fibrosin&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9HAH7) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|13587| :NAME &quot;F-box protein 8&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9NRD0) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5% FBS&quot; :FRAME (167 173) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="medium" start="155" end="161"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="RPMI medium" start="150" end="161" penn-cats="NP" /><prefer text="in either RPMI medium" start="140" end="161" penn-cats="PP" /><prefer text="for 24 hours in either RPMI medium" start="127" end="161" penn-cats="PP" /><prefer text="incubated for 24 hours in either RPMI medium" start="117" end="161" penn-cats="VP" /><word lex="plus" start="162" end="166"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="5" start="167" end="167"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="%" start="168" end="169"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="5%" start="167" end="169" penn-cats="ADJP" /><word lex="FBS" start="170" end="173"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE" score="0.56098"><term id="HGNC:20442" name="fibrosin" score="0.56098" dbxrefs="UP:Q9HAH7" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term><term id="HGNC:13587" name="F-box protein 8" score="0.56098" dbxrefs="UP:Q9NRD0" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term></sense-info></word><prefer text="5% FBS" start="167" end="173" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (ADJP (ADJP (ADJ1 (ADJ MEDIUM))) (CONJ PLUS)
+  (ADJP (NUMBER FIVE) (N1 (N1 (N PERCENT)) (N1 (NAME FBS))))))</lisp><UTT><ADJP><ADJP><ADJ1><ADJ>MEDIUM</ADJ></ADJ1></ADJP><CONJ>PLUS</CONJ><ADJP><NUMBER>FIVE</NUMBER><N1><N1><N>PERCENT</N></N1><N1><NAME>FBS</NAME></N1></N1></ADJP></ADJP></UTT></tree><terms root="#V1914175"><lisp>((ONT::SPEECHACT ONT::V1914175 ONT::SA_EVALUATE :CONTENT ONT::V1906291 :START
+  155 :END 174)
+ (ONT::F ONT::V1906291 ONT::ABSTRACT-OBJECT :SEQUENCE
+  (ONT::V1905913 ONT::V1906119) :OPERATOR ONT::AND :START 155 :END 174)
+ (ONT::F ONT::V1905913 (:* ONT::MEDIUM-VAL W::MEDIUM) :FIGURE ONT::V1914176
+  :START 155 :END 162)
+ (ONT::IMPRO ONT::V1914176 ONT::ANY-SEM :START 155 :END 162)
+ (ONT::F ONT::V1906119 ONT::ASSOC-WITH :FIGURE ONT::V1914176 :GROUND
+  ONT::V1905928 :START 167 :END 174)
+ (ONT::KIND ONT::V1905928 (:* ONT::GENE W::FBS) :AMOUNT 5 :ASSOC-WITH
+  ONT::V1905930 :NAME-OF W::FBS :START 167 :END 174)
+ (ONT::KIND ONT::V1905930 (:* ONT::PERCENT W::PERCENT) :START 167 :END 174))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1914175">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_EVALUATE</LF:type>
+    <role:CONTENT rdf:resource="#V1906291" />
+    <LF:start>155</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1906291">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ABSTRACT-OBJECT</LF:type>
+    <role:SEQUENCE rdf:resource="#V1905913" />
+    <role:SEQUENCE1 rdf:resource="#V1906119" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>155</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905913">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MEDIUM-VAL</LF:type>
+    <LF:word>MEDIUM</LF:word>
+    <role:FIGURE rdf:resource="#V1914176" />
+    <LF:start>155</LF:start>
+    <LF:end>162</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1914176">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>155</LF:start>
+    <LF:end>162</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1906119">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:FIGURE rdf:resource="#V1914176" />
+    <role:GROUND rdf:resource="#V1905928" />
+    <LF:start>167</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905928">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE</LF:type>
+    <LF:word>FBS</LF:word>
+    <role:AMOUNT>5</role:AMOUNT>
+    <role:ASSOC-WITH rdf:resource="#V1905930" />
+    <role:NAME-OF>FBS</role:NAME-OF>
+    <LF:start>167</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905930">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PERCENT</LF:type>
+    <LF:word>PERCENT</LF:word>
+    <LF:start>167</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::OR
+  W::ZERO
+  W::PUNC-PERIOD
+  W::FIVE
+  W::PERCENT
+  W::FBS
+  W::PUNC-PERIOD
+  W::AFTER
+  24
+  W::HOURS)</lisp><word>OR</word><word>ZERO</word><word>PUNC-PERIOD</word><word>FIVE</word><word>PERCENT</word><word>FBS</word><word>PUNC-PERIOD</word><word>AFTER</word><word>24</word><word>HOURS</word></words><tags><lisp>((WORD &quot;or&quot; :FRAME (174 176) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;0&quot; :FRAME (177 177) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (178 178) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (179 179) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;0.5&quot; :FRAME (177 179) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;%&quot; :FRAME (180 181) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;0.5%&quot; :FRAME (177 181) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;FBS&quot; :FRAME (182 184) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|20442| :NAME &quot;fibrosin&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9HAH7) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|13587| :NAME &quot;F-box protein 8&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9NRD0) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (185 185) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;After&quot; :FRAME (186 191) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;FBS.After&quot; :FRAME (182 191) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;0.5% FBS.After&quot; :FRAME (177 191) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;24&quot; :FRAME (192 194) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hours&quot; :FRAME (195 199) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;24 hours&quot; :FRAME (192 199) :PENN-CATS (NP-TMP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;0.5% FBS.After 24 hours&quot; :FRAME (177 199) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;plus 5% FBS or 0.5% FBS.After 24 hours&quot; :FRAME (162 199) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (90 199) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (85 199) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (70 199) :PENN-CATS (S SBAR) :TRIPS-CATS (W::CP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (42 199) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (4 199) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;For analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours&quot;
+  :FRAME (0 199) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (200 200) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="or" start="174" end="176"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="0" start="177" end="177" /><word lex="." start="178" end="178" /><word lex="5" start="179" end="179" /><word lex="0.5" start="177" end="179"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="%" start="180" end="181"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="0.5%" start="177" end="181" penn-cats="ADJP" /><word lex="FBS" start="182" end="184"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE" score="0.56098"><term id="HGNC:20442" name="fibrosin" score="0.56098" dbxrefs="UP:Q9HAH7" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term><term id="HGNC:13587" name="F-box protein 8" score="0.56098" dbxrefs="UP:Q9NRD0" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term></sense-info></word><word lex="." start="185" end="185" /><word lex="After" start="186" end="191"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="FBS.After" start="182" end="191"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="0.5% FBS.After" start="177" end="191" penn-cats="NP" /><word lex="24" start="192" end="194"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="hours" start="195" end="199"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="24 hours" start="192" end="199" penn-cats="NP-TMP" /><prefer text="0.5% FBS.After 24 hours" start="177" end="199" penn-cats="NP" /><prefer text="plus 5% FBS or 0.5% FBS.After 24 hours" start="162" end="199" penn-cats="NP" /><prefer text="plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="90" end="199" penn-cats="VP" /><prefer text="were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="85" end="199" penn-cats="VP" /><prefer text="melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="70" end="199" penn-cats="S,SBAR" /><prefer text="1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="42" end="199" penn-cats="NP" /><prefer text="analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="4" end="199" penn-cats="NP" /><prefer text="For analysis of proteins in Figure 1B and 1C, VMM5A, VMM18, and VMM39 melanoma cells were plated in Petri dishes and incubated for 24 hours in either RPMI medium plus 5% FBS or 0.5% FBS.After 24 hours" start="0" end="199" penn-cats="PP" /><word lex="," start="200" end="200" /></tags><tree><lisp>(UTT (ADVBL (ADV OR))
+ (UTT
+  (NP
+   (N1
+    (ADJP (NUMBER (NUMBER ZERO) (PUNC PUNC-PERIOD) (NUMBER FIVE))
+     (N1 (N1 (N PERCENT)) (N1 (N FBS PUNC-PERIOD AFTER))))
+    (N1 (ADJP (NUMBER 24)) (N1 (N HOURS)))))))</lisp><UTT><ADVBL><ADV>OR</ADV></ADVBL><UTT><NP><N1><ADJP><NUMBER><NUMBER>ZERO</NUMBER><PUNC>PUNC-PERIOD</PUNC><NUMBER>FIVE</NUMBER></NUMBER><N1><N1><N>PERCENT</N></N1><N1><N>FBS PUNC-PERIOD AFTER</N></N1></N1></ADJP><N1><ADJP><NUMBER>24</NUMBER></ADJP><N1><N>HOURS</N></N1></N1></N1></NP></UTT></UTT></tree><terms root="#V1917324"><lisp>((ONT::SPEECHACT ONT::V1917324 ONT::SA_IDENTIFY :CONTENT ONT::V1905995 :MOD
+  ONT::V1905939 :START 174 :END 200)
+ (ONT::F ONT::V1905939 (:* ONT::CONJUNCT W::OR) :FIGURE ONT::V1917324 :START
+  174 :END 177)
+ (ONT::INDEF-SET ONT::V1905995 (:* ONT::TIME-INTERVAL W::HOUR) :SIZE
+  ONT::V1905992 :SCALE ONT::DURATION-SCALE :MOD ONT::V1906439 :START 177 :END
+  200)
+ (ONT::F ONT::V1906439 ONT::ASSOC-WITH :FIGURE ONT::V1905995 :GROUND
+  ONT::V1906033 :START 177 :END 192)
+ (ONT::KIND ONT::V1906033 (:* ONT::REFERENTIAL-SEM W::FBS-PUNC-PERIOD-AFTER)
+  :AMOUNT 0.5 :ASSOC-WITH ONT::V1905960 :START 177 :END 192)
+ (ONT::KIND ONT::V1905960 (:* ONT::PERCENT W::PERCENT) :START 177 :END 192)
+ (ONT::A ONT::V1905992 ONT::NUMBER :VALUE 24 :START 192 :END 195))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1917324">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1905995" />
+    <role:MOD rdf:resource="#V1905939" />
+    <LF:start>174</LF:start>
+    <LF:end>200</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905939">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>OR</LF:word>
+    <role:FIGURE rdf:resource="#V1917324" />
+    <LF:start>174</LF:start>
+    <LF:end>177</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905995">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TIME-INTERVAL</LF:type>
+    <LF:word>HOUR</LF:word>
+    <role:SIZE rdf:resource="#V1905992" />
+    <role:SCALE>DURATION-SCALE</role:SCALE>
+    <role:MOD rdf:resource="#V1906439" />
+    <LF:start>177</LF:start>
+    <LF:end>200</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1906439">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:FIGURE rdf:resource="#V1905995" />
+    <role:GROUND rdf:resource="#V1906033" />
+    <LF:start>177</LF:start>
+    <LF:end>192</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1906033">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>FBS-PUNC-PERIOD-AFTER</LF:word>
+    <role:AMOUNT>0.5</role:AMOUNT>
+    <role:ASSOC-WITH rdf:resource="#V1905960" />
+    <LF:start>177</LF:start>
+    <LF:end>192</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905960">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PERCENT</LF:type>
+    <LF:word>PERCENT</LF:word>
+    <LF:start>177</LF:start>
+    <LF:end>192</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1905992">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>24</role:VALUE>
+    <LF:start>192</LF:start>
+    <LF:end>195</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<compound-communication-act>
+<utt><words><lisp>(W::THE W::CELLS W::WERE W::HARVESTED)</lisp><word>THE</word><word>CELLS</word><word>WERE</word><word>HARVESTED</word></words><tags><lisp>((WORD &quot;the&quot; :FRAME (202 205) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cells&quot; :FRAME (206 211) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the cells&quot; :FRAME (202 211) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (212 216) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;harvested&quot; :FRAME (217 226) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="the" start="202" end="205"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="cells" start="206" end="211"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the cells" start="202" end="211" penn-cats="NP" /><word lex="were" start="212" end="216"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="harvested" start="217" end="226"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT
+ (S (NP (SPEC (DET (ART THE))) (N1 (N CELLS)))
+  (VP (VP- (AUX (V WERE)) (VP- (V (V HARVESTED)))))))</lisp><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>CELLS</N></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><V><V>HARVESTED</V></V></VP-></VP-></VP></S></UTT></tree><terms root="#V1920327"><lisp>((ONT::SPEECHACT ONT::V1920327 ONT::SA_TELL :CONTENT ONT::V1919566 :START 202
+  :END 227)
+ (ONT::F ONT::V1919566 (:* ONT::ACQUIRE W::HARVEST) :AFFECTED ONT::V1919541
+  :TENSE W::PAST :PASSIVE + :START 202 :END 227)
+ (ONT::THE-SET ONT::V1919541 (:* ONT::CELL W::CELL) :START 202 :END 212))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1920327">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1919566" />
+    <LF:start>202</LF:start>
+    <LF:end>227</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919566">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACQUIRE</LF:type>
+    <LF:word>HARVEST</LF:word>
+    <role:AFFECTED rdf:resource="#V1919541" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>202</LF:start>
+    <LF:end>227</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919541">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>CELL</LF:word>
+    <LF:start>202</LF:start>
+    <LF:end>212</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::LYSED)</lisp><word>AND</word><word>LYSED</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (227 230) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lysed&quot; :FRAME (231 236) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PROTEIN-FAMILY) :SCORE 0.69971 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF01810 :NAME &quot;LysE&quot; :SCORE 0.69971 :MATCHES
+       ((MATCH :SCORE 0.69971 :MATCHED &quot;LysE&quot; :STATUS &quot;ID&quot; :NO-CAPS-MIXED-CAPS
+         1))
+       :DBXREFS (UP::Q8XD10 UP::|etc|) :ONT-TYPES (ONT::PROTEIN-FAMILY))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="227" end="230"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="lysed" start="231" end="236"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PROTEIN-FAMILY" score="0.69971"><term id="XFAM:PF01810" name="LysE" score="0.69971" dbxrefs="UP:Q8XD10,UP:etc" ont-types="PROTEIN-FAMILY"><match score="0.69971" matched="LysE" status="ID" no-caps-mixed-caps="1" /></term></sense-info></word></tags><tree><lisp>(UTT (ADVBL (ADV AND)) (UTT (NP (N1 (N LYSED)))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><NP><N1><N>LYSED</N></N1></NP></UTT></UTT></tree><terms root="#V1920236"><lisp>((ONT::SPEECHACT ONT::V1920236 ONT::SA_IDENTIFY :CONTENT ONT::V1919580 :MOD
+  ONT::V1919571 :START 227 :END 237)
+ (ONT::F ONT::V1919571 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V1920236 :START
+  227 :END 231)
+ (ONT::BARE ONT::V1919580 (:* ONT::PROTEIN-FAMILY W::LYSED) :START 231 :END 237
+  :DRUM
+  ((:DRUM
+    (TERM :ID XFAM::PF01810 :NAME &quot;LysE&quot; :SCORE 0.69971 :MATCHES
+     ((MATCH :SCORE 0.69971 :MATCHED &quot;LysE&quot; :STATUS &quot;ID&quot; :NO-CAPS-MIXED-CAPS
+       1))
+     :DBXREFS (UP::Q8XD10 UP::|etc|) :ONT-TYPES (ONT::PROTEIN-FAMILY))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1920236">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1919580" />
+    <role:MOD rdf:resource="#V1919571" />
+    <LF:start>227</LF:start>
+    <LF:end>237</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919571">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V1920236" />
+    <LF:start>227</LF:start>
+    <LF:end>231</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919580">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PROTEIN-FAMILY</LF:type>
+    <LF:word>LYSED</LF:word>
+    <LF:start>231</LF:start>
+    <LF:end>237</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID PF01810 :NAME &quot;LysE&quot; :SCORE 0.69971 :MATCHES
+   ((MATCH :SCORE 0.69971 :MATCHED &quot;LysE&quot; :STATUS &quot;ID&quot; :NO-CAPS-MIXED-CAPS 1))
+   :DBXREFS (Q8XD10 |etc|) :ONT-TYPES (PROTEIN-FAMILY))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AS)</lisp><word>AS</word></words><tags><lisp>((WORD &quot;as&quot; :FRAME (237 239) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="as" start="237" end="239"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(ADVBL (ADV AS))</lisp><ADVBL><ADV>AS</ADV></ADVBL></tree><terms root="#V1919600"><lisp>((ONT::F ONT::V1919600 (:* ONT::MANNER W::AS) :START 237 :END 240))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1919600">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MANNER</LF:type>
+    <LF:word>AS</LF:word>
+    <LF:start>237</LF:start>
+    <LF:end>240</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DESCRIBED W::FOR W::ANALYSIS W::OF W::PROTEINS W::IN W::FIGURES W::FOUR
+ W::AND W::FIVE W::PUNC-PERIOD)</lisp><word>DESCRIBED</word><word>FOR</word><word>ANALYSIS</word><word>OF</word><word>PROTEINS</word><word>IN</word><word>FIGURES</word><word>FOUR</word><word>AND</word><word>FIVE</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;described&quot; :FRAME (240 249) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for&quot; :FRAME (250 253) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;analysis&quot; :FRAME (254 262) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis&quot; :FRAME (254 262) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (263 265) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;proteins&quot; :FRAME (266 274) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proteins&quot; :FRAME (266 274) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (275 277) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Figures&quot; :FRAME (278 285) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;4&quot; :FRAME (286 287) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (288 291) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (292 292) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Figures 4 and 5&quot; :FRAME (278 292) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in Figures 4 and 5&quot; :FRAME (275 292) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proteins in Figures 4 and 5&quot; :FRAME (266 292) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of proteins in Figures 4 and 5&quot; :FRAME (263 292) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis of proteins in Figures 4 and 5&quot; :FRAME (254 292) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for analysis of proteins in Figures 4 and 5&quot; :FRAME (250 292)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;described for analysis of proteins in Figures 4 and 5&quot; :FRAME
+  (240 292) :PENN-CATS (VP S) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;as described for analysis of proteins in Figures 4 and 5&quot; :FRAME
+  (237 292) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;harvested and lysed as described for analysis of proteins in Figures 4 and 5&quot;
+  :FRAME (217 292) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;were harvested and lysed as described for analysis of proteins in Figures 4 and 5&quot;
+  :FRAME (212 292) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (293 293) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="described" start="240" end="249"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="for" start="250" end="253"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="analysis" start="254" end="262"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="analysis" start="254" end="262" penn-cats="NP" /><word lex="of" start="263" end="265"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="proteins" start="266" end="274"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="proteins" start="266" end="274" penn-cats="NP" /><word lex="in" start="275" end="277"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Figures" start="278" end="285"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="4" start="286" end="287"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="and" start="288" end="291"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="5" start="292" end="292"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="Figures 4 and 5" start="278" end="292" penn-cats="NP" /><prefer text="in Figures 4 and 5" start="275" end="292" penn-cats="PP" /><prefer text="proteins in Figures 4 and 5" start="266" end="292" penn-cats="NP" /><prefer text="of proteins in Figures 4 and 5" start="263" end="292" penn-cats="PP" /><prefer text="analysis of proteins in Figures 4 and 5" start="254" end="292" penn-cats="NP" /><prefer text="for analysis of proteins in Figures 4 and 5" start="250" end="292" penn-cats="PP" /><prefer text="described for analysis of proteins in Figures 4 and 5" start="240" end="292" penn-cats="VP,S" /><prefer text="as described for analysis of proteins in Figures 4 and 5" start="237" end="292" penn-cats="PP" /><prefer text="harvested and lysed as described for analysis of proteins in Figures 4 and 5" start="217" end="292" penn-cats="VP" /><prefer text="were harvested and lysed as described for analysis of proteins in Figures 4 and 5" start="212" end="292" penn-cats="VP" /><word lex="." start="293" end="293" /></tags><tree><lisp>(UTT
+ (UTT
+  (VP
+   (VP- (V DESCRIBED)
+    (ADVBL (ADV FOR)
+     (NP
+      (N1 (N1 (N1 (N ANALYSIS)) (PP (PREP OF) (NP (N1 (N PROTEINS)))))
+       (ADVBL (ADV IN) (NP (N1 (N FIGURES)))))))
+    (NP (NP (NUMBER FOUR)) (CONJ AND) (NP (NUMBER FIVE))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><V>DESCRIBED</V><ADVBL><ADV>FOR</ADV><NP><N1><N1><N1><N>ANALYSIS</N></N1><PP><PREP>OF</PREP><NP><N1><N>PROTEINS</N></N1></NP></PP></N1><ADVBL><ADV>IN</ADV><NP><N1><N>FIGURES</N></N1></NP></ADVBL></N1></NP></ADVBL><NP><NP><NUMBER>FOUR</NUMBER></NP><CONJ>AND</CONJ><NP><NUMBER>FIVE</NUMBER></NP></NP></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V1923976"><lisp>((ONT::SPEECHACT ONT::V1923976 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V1919615 :START 240 :END 294)
+ (ONT::F ONT::V1919615 (:* ONT::DESCRIBE W::DESCRIBE) :AGENT ONT::V1923977
+  :NEUTRAL ONT::V1919726 :REASON ONT::V1919623 :TENSE W::PAST :START 240 :END
+  293)
+ (ONT::IMPRO ONT::V1923977 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 240
+  :END 293)
+ (ONT::F ONT::V1919623 (:* ONT::PURPOSE W::FOR) :GROUND ONT::V1919647 :FIGURE
+  ONT::V1919615 :START 250 :END 286)
+ (ONT::BARE ONT::V1919647 (:* ONT::SCRUTINY W::ANALYSIS) :NEUTRAL ONT::V1919658
+  :LOCATION ONT::V1919665 :START 254 :END 286)
+ (ONT::INDEF-SET ONT::V1919658 (:* ONT::PROTEIN W::PROTEIN) :START 263 :END
+  275)
+ (ONT::F ONT::V1919665 (:* ONT::IN-LOC W::IN) :GROUND ONT::V1919717 :FIGURE
+  ONT::V1919647 :START 275 :END 286)
+ (ONT::INDEF-SET ONT::V1919717 (:* ONT::SHAPE-OBJECT W::FIGURE) :START 278 :END
+  286)
+ (ONT::INDEF-SET ONT::V1919726 ONT::NUMBER :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V1919723 ONT::V1919736) :START 286 :END 293)
+ (ONT::INDEF-SET ONT::V1919723 ONT::NUMBER :NUMBER 4 :START 286 :END 288)
+ (ONT::INDEF-SET ONT::V1919736 ONT::NUMBER :NUMBER 5 :START 292 :END 293))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1923976">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V1919615" />
+    <LF:start>240</LF:start>
+    <LF:end>294</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919615">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DESCRIBE</LF:type>
+    <LF:word>DESCRIBE</LF:word>
+    <role:AGENT rdf:resource="#V1923977" />
+    <role:NEUTRAL rdf:resource="#V1919726" />
+    <role:REASON rdf:resource="#V1919623" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>240</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1923977">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>240</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919623">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURPOSE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V1919647" />
+    <role:FIGURE rdf:resource="#V1919615" />
+    <LF:start>250</LF:start>
+    <LF:end>286</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919647">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>ANALYSIS</LF:word>
+    <role:NEUTRAL rdf:resource="#V1919658" />
+    <role:LOCATION rdf:resource="#V1919665" />
+    <LF:start>254</LF:start>
+    <LF:end>286</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919658">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>PROTEIN</LF:word>
+    <LF:start>263</LF:start>
+    <LF:end>275</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919665">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1919717" />
+    <role:FIGURE rdf:resource="#V1919647" />
+    <LF:start>275</LF:start>
+    <LF:end>286</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919717">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>FIGURE</LF:word>
+    <LF:start>278</LF:start>
+    <LF:end>286</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919726">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V1919723" />
+    <role:SEQUENCE1 rdf:resource="#V1919736" />
+    <LF:start>286</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919723">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>4</role:NUMBER>
+    <LF:start>286</LF:start>
+    <LF:end>288</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919736">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>5</role:NUMBER>
+    <LF:start>292</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FOR W::ANALYSIS W::OF W::THE W::PROTEINS W::IN W::FIGURES W::FOUR W::AND
+ W::FIVE W::PUNC-COMMA)</lisp><word>FOR</word><word>ANALYSIS</word><word>OF</word><word>THE</word><word>PROTEINS</word><word>IN</word><word>FIGURES</word><word>FOUR</word><word>AND</word><word>FIVE</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;For&quot; :FRAME (294 297) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C131549 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot;
+       :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;analysis&quot; :FRAME (298 306) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis&quot; :FRAME (298 306) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (307 309) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (310 313) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;proteins&quot; :FRAME (314 322) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the proteins&quot; :FRAME (310 322) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (323 325) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Figures&quot; :FRAME (326 333) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;4&quot; :FRAME (334 335) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (336 339) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (340 340) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Figures 4 and 5&quot; :FRAME (326 340) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in Figures 4 and 5&quot; :FRAME (323 340) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the proteins in Figures 4 and 5&quot; :FRAME (310 340) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the proteins in Figures 4 and 5&quot; :FRAME (307 340) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis of the proteins in Figures 4 and 5&quot; :FRAME (298 340)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;For analysis of the proteins in Figures 4 and 5&quot; :FRAME (294 340)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (341 341) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="For" start="294" end="297"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE" score="0.70379"><term id="NCIT:C131549" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;" score="0.70379" ont-types="GENE"><match score="0.70379" matched="FOR" status="synonym" initial-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:12799" name="WW domain containing oxidoreductase" score="0.55745" dbxrefs="UP:Q9NZC7" ont-types="GENE"><match score="0.55745" matched="FOR" status="Synonym" initial-cap-all-caps="1" /></term></sense-info></word><word lex="analysis" start="298" end="306"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="analysis" start="298" end="306" penn-cats="NP" /><word lex="of" start="307" end="309"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="310" end="313"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="proteins" start="314" end="322"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="the proteins" start="310" end="322" penn-cats="NP" /><word lex="in" start="323" end="325"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Figures" start="326" end="333"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="4" start="334" end="335"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="and" start="336" end="339"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="5" start="340" end="340"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="Figures 4 and 5" start="326" end="340" penn-cats="NP" /><prefer text="in Figures 4 and 5" start="323" end="340" penn-cats="PP" /><prefer text="the proteins in Figures 4 and 5" start="310" end="340" penn-cats="NP" /><prefer text="of the proteins in Figures 4 and 5" start="307" end="340" penn-cats="PP" /><prefer text="analysis of the proteins in Figures 4 and 5" start="298" end="340" penn-cats="NP" /><prefer text="For analysis of the proteins in Figures 4 and 5" start="294" end="340" penn-cats="PP" /><word lex="," start="341" end="341" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (N1 (NAME FOR))
+    (N1 (N1 (N ANALYSIS))
+     (PP (PREP OF)
+      (NP (SPEC (DET (ART THE)))
+       (N1 (N1 (N PROTEINS))
+        (ADVBL (ADV IN)
+         (NP
+          (NAME (N FIGURES)
+           (NP (NP (NUMBER FOUR)) (CONJ AND) (NP (NUMBER FIVE)))))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><NP><N1><N1><NAME>FOR</NAME></N1><N1><N1><N>ANALYSIS</N></N1><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>PROTEINS</N></N1><ADVBL><ADV>IN</ADV><NP><NAME><N>FIGURES</N><NP><NP><NUMBER>FOUR</NUMBER></NP><CONJ>AND</CONJ><NP><NUMBER>FIVE</NUMBER></NP></NP></NAME></NP></ADVBL></N1></NP></PP></N1></N1></NP></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V1921730"><lisp>((ONT::SPEECHACT ONT::V1921730 ONT::SA_IDENTIFY :CONTENT ONT::V1919773 :START
+  294 :END 341)
+ (ONT::BARE ONT::V1919773 (:* ONT::SCRUTINY W::ANALYSIS) :ASSOC-WITH
+  ONT::V1919761 :NEUTRAL ONT::V1919791 :START 294 :END 341)
+ (ONT::KIND ONT::V1919761 (:* ONT::GENE W::FOR) :NAME-OF W::FOR :START 294 :END
+  341 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C131549 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE
+     0.55745 :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE)))))
+ (ONT::THE-SET ONT::V1919791 (:* ONT::PROTEIN W::PROTEIN) :LOCATION
+  ONT::V1919798 :START 307 :END 341)
+ (ONT::F ONT::V1919798 (:* ONT::IN-LOC W::IN) :GROUND ONT::V1919850 :FIGURE
+  ONT::V1919791 :START 323 :END 341)
+ (ONT::THE ONT::V1919850 (:* ONT::SHAPE-OBJECT W::FIGURE) :NAME-OF (W::FIGURES)
+  :NAME-MODIFIERS (ONT::V1919856 ONT::V1919869) :START 326 :END 341)
+ (ONT::INDEF-SET ONT::V1919859 ONT::NUMBER :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V1919856 ONT::V1919869) :START 334 :END 341)
+ (ONT::INDEF-SET ONT::V1919856 ONT::NUMBER :NUMBER 4 :START 334 :END 336)
+ (ONT::INDEF-SET ONT::V1919869 ONT::NUMBER :NUMBER 5 :START 340 :END 341))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1921730">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1919773" />
+    <LF:start>294</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919773">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>ANALYSIS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V1919761" />
+    <role:NEUTRAL rdf:resource="#V1919791" />
+    <LF:start>294</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919761">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:NAME-OF>FOR</role:NAME-OF>
+    <LF:start>294</LF:start>
+    <LF:end>341</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C131549 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+   0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE 0.55745
+   :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (Q9NZC7) :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919791">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>PROTEIN</LF:word>
+    <role:LOCATION rdf:resource="#V1919798" />
+    <LF:start>307</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919798">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IN-LOC</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1919850" />
+    <role:FIGURE rdf:resource="#V1919791" />
+    <LF:start>323</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919850">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>FIGURE</LF:word>
+    <role:NAME-OF>(FIGURES)</role:NAME-OF>
+    <role:NAME-MODIFIERS>(V1919856 V1919869)</role:NAME-MODIFIERS>
+    <LF:start>326</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919859">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V1919856" />
+    <role:SEQUENCE1 rdf:resource="#V1919869" />
+    <LF:start>334</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919856">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>4</role:NUMBER>
+    <LF:start>334</LF:start>
+    <LF:end>336</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1919869">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>5</role:NUMBER>
+    <LF:start>340</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<compound-communication-act>
+<utt><words><lisp>(W::VMM 18 W::MELANOMA W::CELLS W::WERE W::PLATED W::IN W::PETRI W::DISHES
+ W::PUNC-COMMA)</lisp><word>VMM</word><word>18</word><word>MELANOMA</word><word>CELLS</word><word>WERE</word><word>PLATED</word><word>IN</word><word>PETRI</word><word>DISHES</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;VMM&quot; :FRAME (343 345) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;18&quot; :FRAME (346 348) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;VMM18&quot; :FRAME (343 348) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85361 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;melanoma&quot; :FRAME (349 357) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID EFO::|0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT EFO::|0000311|
+              (SENSE (MORPH (POS N) (WORD CANCER))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000031.lisp&quot;))))
+             :TO ONT::CANCER)
+        (MAP :THROUGH
+             (CONCEPT EFO::|0000408|
+              (SENSE (MORPH (POS N) (WORD DISEASE))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C3224 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;melanoma&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C3262
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+             :TO ONT::CANCER))
+       :ONT-TYPES (ONT::CANCER))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cells&quot; :FRAME (358 363) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;melanoma cells&quot; :FRAME (349 363) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BTO::|0001286|
+              (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+               (PROVENANCE (NAME LEXICON-DATA::BTO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;VMM18 melanoma cells&quot; :FRAME (343 363) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (364 368) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;plated&quot; :FRAME (369 375) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (376 378) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;petri&quot; :FRAME (379 384) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dishes&quot; :FRAME (385 390) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;petri dishes&quot; :FRAME (379 390) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0047036 :CITATION-FORM &quot;petri dish&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;petri dishes&quot; :EXACT 2)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;petri dishes&quot; :FRAME (379 390) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in petri dishes&quot; :FRAME (376 390) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;plated in petri dishes&quot; :FRAME (369 390) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (391 392) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="VMM" start="343" end="345" /><word lex="18" start="346" end="348" /><word lex="VMM18" start="343" end="348"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85361"><term id="CVCL:A737" name="VMM18" score="0.85361" ont-types="CELL-LINE"><match score="0.85361" matched="VMM-18" status="name" no-dash-dash="1" exact="1" /></term></sense-info></word><word lex="melanoma" start="349" end="357"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS" score="0.85366"><term id="EFO:0000756" name="melanoma" score="0.85366" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.85366" matched="melanoma" status="name" exact="1" /><map to="CANCER" through="EFO:0000311" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="EFO:0000408" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER" score="0.70732"><term id="NCIT:C3224" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;" score="0.70732" ont-types="CANCER"><match score="0.70732" matched="melanoma" status="synonym" exact="1" /><map to="CANCER" through="NCIT:C3262" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info></word><word lex="cells" start="358" end="363"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="melanoma cells" start="349" end="363"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="CELL" score="0.85366"><term id="BTO:0000848" name="melanoma cell" score="0.85366" ont-types="CELL"><match score="0.85366" matched="melanoma cell" status="name" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /><map to="CELL" through="BTO:0001286" /></term></sense-info></word><prefer text="VMM18 melanoma cells" start="343" end="363" penn-cats="NP" /><word lex="were" start="364" end="368"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="plated" start="369" end="375"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="in" start="376" end="378"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="petri" start="379" end="384"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="dishes" start="385" end="390"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="petri dishes" start="379" end="390"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0047036" citation-form="petri dish"><match score="1.0" matched="petri dishes" exact="2" /></specialist></sense-info></word><prefer text="petri dishes" start="379" end="390" penn-cats="NP" /><prefer text="in petri dishes" start="376" end="390" penn-cats="PP" /><prefer text="plated in petri dishes" start="369" end="390" penn-cats="VP" /><word lex="," start="391" end="392" /></tags><tree><lisp>(UTT
+ (UTT
+  (S (NP (N1 (NP (NAME VMM 18)) (N1 (N MELANOMA CELLS))))
+   (VP
+    (VP- (AUX (V WERE))
+     (VP- (V (V PLATED)) (PP (PREP IN) (NP (N1 (N PETRI DISHES)))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><N1><NP><NAME>VMM 18</NAME></NP><N1><N>MELANOMA CELLS</N></N1></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><V><V>PLATED</V></V><PP><PREP>IN</PREP><NP><N1><N>PETRI DISHES</N></N1></NP></PP></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V1936011"><lisp>((ONT::SPEECHACT ONT::V1936011 ONT::SA_TELL :CONTENT ONT::V1931783 :START 343
+  :END 393)
+ (ONT::F ONT::V1931783 (:* ONT::COVER W::PLATED) :AFFECTED ONT::V1931752
+  :AFFECTED1 ONT::V1931864 :TENSE W::PAST :PASSIVE + :START 343 :END 391)
+ (ONT::INDEF-SET ONT::V1931752 (:* ONT::CELL W::MELANOMA-CELLS) :ASSOC-WITH
+  ONT::V1931717 :START 343 :END 364 :DRUM
+  ((:DRUM
+    (TERM :ID BTO::|0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BTO::|0001286|
+            (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+             (PROVENANCE (NAME LEXICON-DATA::BTO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+           :TO ONT::CELL))
+     :ONT-TYPES (ONT::CELL)))))
+ (ONT::THE ONT::V1931717 (:* ONT::CELL-LINE W::VMM-18) :NAME-OF (W::VMM 18)
+  :START 343 :END 349 :DRUM
+  ((:DRUM
+    (TERM :ID CVCL::A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+     ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+       :EXACT 1))
+     :ONT-TYPES (ONT::CELL-LINE)))))
+ (ONT::INDEF-SET ONT::V1931864 (:* ONT::TABLEWARE W::PETRI-DISHES) :START 376
+  :END 391))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1936011">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1931783" />
+    <LF:start>343</LF:start>
+    <LF:end>393</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931783">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COVER</LF:type>
+    <LF:word>PLATED</LF:word>
+    <role:AFFECTED rdf:resource="#V1931752" />
+    <role:AFFECTED1 rdf:resource="#V1931864" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>343</LF:start>
+    <LF:end>391</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931752">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>MELANOMA-CELLS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V1931717" />
+    <LF:start>343</LF:start>
+    <LF:end>364</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0000848| :NAME &quot;melanoma cell&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma cell&quot; :STATUS &quot;name&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0001286|
+          (SENSE (MORPH (POS N) (WORD (SKIN CANCER CELL)))
+           (PROVENANCE (NAME BTO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BTO/000128.lisp&quot;))))
+         :TO CELL))
+   :ONT-TYPES (CELL))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931717">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CELL-LINE</LF:type>
+    <LF:word>VMM-18</LF:word>
+    <role:NAME-OF>(VMM 18)</role:NAME-OF>
+    <LF:start>343</LF:start>
+    <LF:end>349</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID A737 :NAME &quot;VMM18&quot; :SCORE 0.85361 :MATCHES
+   ((MATCH :SCORE 0.85361 :MATCHED &quot;VMM-18&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+     :EXACT 1))
+   :ONT-TYPES (CELL-LINE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931864">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TABLEWARE</LF:type>
+    <LF:word>PETRI-DISHES</LF:word>
+    <LF:start>376</LF:start>
+    <LF:end>391</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::TREATED W::WITH W::DRUGS W::OR W::NOT W::FOR W::ONE W::HOUR W::PUNC-COMMA
+ W::WASHED W::PUNC-COMMA)</lisp><word>TREATED</word><word>WITH</word><word>DRUGS</word><word>OR</word><word>NOT</word><word>FOR</word><word>ONE</word><word>HOUR</word><word>PUNC-COMMA</word><word>WASHED</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;treated&quot; :FRAME (393 400) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (401 405) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;drugs&quot; :FRAME (406 411) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;drugs&quot; :FRAME (406 411) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with drugs&quot; :FRAME (401 411) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;or&quot; :FRAME (412 414) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;not&quot; :FRAME (415 418) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for&quot; :FRAME (419 422) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;one&quot; :FRAME (423 426) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for one&quot; :FRAME (419 426) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV) :WN-SENSE-KEYS
+    (&quot;for_one%4:02:00&quot;)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hour&quot; :FRAME (427 430) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one hour&quot; :FRAME (423 430) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (431 432) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;washed&quot; :FRAME (433 438) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;washed&quot; :FRAME (433 438) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (439 440) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;one hour, washed,&quot; :FRAME (423 440) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for one hour, washed,&quot; :FRAME (419 440) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with drugs or not for one hour, washed,&quot; :FRAME (401 440) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;treated with drugs or not for one hour, washed,&quot; :FRAME (393 440)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="treated" start="393" end="400"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="with" start="401" end="405"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="drugs" start="406" end="411"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="drugs" start="406" end="411" penn-cats="NP" /><prefer text="with drugs" start="401" end="411" penn-cats="PP" /><word lex="or" start="412" end="414"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="not" start="415" end="418"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><word lex="for" start="419" end="422"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="one" start="423" end="426"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="for one" start="419" end="426"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" wn-sense-keys="for_one%4:02:00" /></word><word lex="hour" start="427" end="430"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="one hour" start="423" end="430" penn-cats="NP" /><word lex="," start="431" end="432" /><word lex="washed" start="433" end="438"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="washed" start="433" end="438" penn-cats="VP" /><word lex="," start="439" end="440" /><prefer text="one hour, washed," start="423" end="440" penn-cats="NP" /><prefer text="for one hour, washed," start="419" end="440" penn-cats="PP" /><prefer text="with drugs or not for one hour, washed," start="401" end="440" penn-cats="PP" /><prefer text="treated with drugs or not for one hour, washed," start="393" end="440" penn-cats="VP" /></tags><tree><lisp>(CP
+ (VP
+  (VP- (VP- (V (V TREATED)))
+   (ADVBL (ADVBL (ADV WITH) (NP (N1 (N DRUGS)))) (CONJ OR)
+    (ADVBL (ADVBL (ADV NOT))
+     (ADVBL (ADV FOR)
+      (NP (NP (SPEC (NP (NUMBER ONE) (N1 (N HOUR)))))
+       (PARENTHETICAL (PUNC PUNC-COMMA) (PRED (ADJP (VP- (V (V WASHED)))))
+        (PUNC PUNC-COMMA)))))))))</lisp><CP><VP><VP-><VP-><V><V>TREATED</V></V></VP-><ADVBL><ADVBL><ADV>WITH</ADV><NP><N1><N>DRUGS</N></N1></NP></ADVBL><CONJ>OR</CONJ><ADVBL><ADVBL><ADV>NOT</ADV></ADVBL><ADVBL><ADV>FOR</ADV><NP><NP><SPEC><NP><NUMBER>ONE</NUMBER><N1><N>HOUR</N></N1></NP></SPEC></NP><PARENTHETICAL><PUNC>PUNC-COMMA</PUNC><PRED><ADJP><VP-><V><V>WASHED</V></V></VP-></ADJP></PRED><PUNC>PUNC-COMMA</PUNC></PARENTHETICAL></NP></ADVBL></ADVBL></ADVBL></VP-></VP></CP></tree><terms root="#V1931875"><lisp>((ONT::F ONT::V1931875 (:* ONT::CONTROL-MANAGE W::TREAT) :MOD ONT::V1933111
+  :VFORM W::PASSIVE :START 393 :END 441)
+ (ONT::F ONT::V1933111 ONT::SITUATION-MODIFIER :SEQUENCE
+  (ONT::V1931880 ONT::V1931921) :OPERATOR ONT::OR :START 401 :END 441)
+ (ONT::F ONT::V1931880 (:* ONT::MANNER W::WITH) :GROUND ONT::V1931891 :FIGURE
+  ONT::V1931875 :START 401 :END 412)
+ (ONT::INDEF-SET ONT::V1931891 (:* ONT::MEDICATION W::DRUG) :START 406 :END
+  412)
+ (ONT::F ONT::V1931921 (:* ONT::PURPOSE W::FOR) :GROUND ONT::V1932440 :FIGURE
+  ONT::V1931875 :MOD ONT::V1931913 :START 415 :END 441)
+ (ONT::F ONT::V1931913 (:* ONT::NEG W::NOT) :FIGURE ONT::V1931921 :START 415
+  :END 419)
+ (ONT::SM ONT::V1932440 ONT::ANY-SEM :PARENTHETICAL ONT::V1931990 :QUANTITY
+  ONT::V1931980 :START 423 :END 441)
+ (ONT::A ONT::V1931980 ONT::QUANTITY :AMOUNT ONT::V1931953 :UNIT
+  (:* ONT::HOUR-DURATION W::HOUR) :SCALE ONT::DURATION-SCALE :START 423 :END
+  431)
+ (ONT::A ONT::V1931953 ONT::NUMBER :VALUE 1 :START 423 :END 431)
+ (ONT::F ONT::V1931990 (:* ONT::CLEAN W::WASH) :AFFECTED ONT::V1932440 :START
+  433 :END 439))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1931875">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONTROL-MANAGE</LF:type>
+    <LF:word>TREAT</LF:word>
+    <role:MOD rdf:resource="#V1933111" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>393</LF:start>
+    <LF:end>441</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1933111">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATION-MODIFIER</LF:type>
+    <role:SEQUENCE rdf:resource="#V1931880" />
+    <role:SEQUENCE1 rdf:resource="#V1931921" />
+    <role:OPERATOR>OR</role:OPERATOR>
+    <LF:start>401</LF:start>
+    <LF:end>441</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931880">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MANNER</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V1931891" />
+    <role:FIGURE rdf:resource="#V1931875" />
+    <LF:start>401</LF:start>
+    <LF:end>412</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931891">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MEDICATION</LF:type>
+    <LF:word>DRUG</LF:word>
+    <LF:start>406</LF:start>
+    <LF:end>412</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931921">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURPOSE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V1932440" />
+    <role:FIGURE rdf:resource="#V1931875" />
+    <role:MOD rdf:resource="#V1931913" />
+    <LF:start>415</LF:start>
+    <LF:end>441</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931913">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NEG</LF:type>
+    <LF:word>NOT</LF:word>
+    <role:FIGURE rdf:resource="#V1931921" />
+    <LF:start>415</LF:start>
+    <LF:end>419</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932440">
+    <LF:indicator>SM</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <role:PARENTHETICAL rdf:resource="#V1931990" />
+    <role:QUANTITY rdf:resource="#V1931980" />
+    <LF:start>423</LF:start>
+    <LF:end>441</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931980">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT rdf:resource="#V1931953" />
+    <role:UNIT>(:* HOUR-DURATION HOUR)</role:UNIT>
+    <role:SCALE>DURATION-SCALE</role:SCALE>
+    <LF:start>423</LF:start>
+    <LF:end>431</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931953">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>1</role:VALUE>
+    <LF:start>423</LF:start>
+    <LF:end>431</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931990">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CLEAN</LF:type>
+    <LF:word>WASH</LF:word>
+    <role:AFFECTED rdf:resource="#V1932440" />
+    <LF:start>433</LF:start>
+    <LF:end>439</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::INCUBATED
+  W::OVERNIGHT
+  W::IN
+  W::RPMI)</lisp><word>AND</word><word>INCUBATED</word><word>OVERNIGHT</word><word>IN</word><word>RPMI</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (441 444) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;incubated&quot; :FRAME (445 454) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0034095 :CITATION-FORM &quot;incubate&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;incubated&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;intran&quot; &quot;tran=np&quot;) :NOMINALIZATION
+       ((SPECIALIST :EUI E0034096 :CITATION-FORM &quot;incubation&quot;)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;overnight&quot; :FRAME (455 464) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0044685 :CITATION-FORM &quot;overnight&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;over-night&quot; :NO-DASH-DASH 1 :EXACT
+         2)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;overnight&quot; :FRAME (455 464) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (465 467) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;RPMI&quot; :FRAME (468 472) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="441" end="444"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="incubated" start="445" end="454"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V"><specialist eui="E0034095" citation-form="incubate"><match score="1.0" matched="incubated" exact="1" />    <complement>intran</complement>
+    <complement>tran=np</complement>
+<nominalization><specialist eui="E0034096" citation-form="incubation" /></nominalization></specialist></sense-info></word><word lex="overnight" start="455" end="464"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0044685" citation-form="overnight"><match score="0.99814" matched="over-night" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="overnight" start="455" end="464" penn-cats="NP" /><word lex="in" start="465" end="467"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="RPMI" start="468" end="472"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word></tags><tree><lisp>(UTT (ADVBL (ADV AND))
+ (UTT
+  (VP
+   (VP- (VP- (VP- (V INCUBATED)) (ADJP (ADJ1 (ADJ OVERNIGHT))))
+    (ADVBL (ADV IN) (NP (N1 (N RPMI))))))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><VP><VP-><VP-><VP-><V>INCUBATED</V></VP-><ADJP><ADJ1><ADJ>OVERNIGHT</ADJ></ADJ1></ADJP></VP-><ADVBL><ADV>IN</ADV><NP><N1><N>RPMI</N></N1></NP></ADVBL></VP-></VP></UTT></UTT></tree><terms root="#V1942470"><lisp>((ONT::SPEECHACT ONT::V1942470 ONT::SA_TELL :CONTENT ONT::V1932008 :MOD
+  ONT::V1931998 :START 441 :END 473)
+ (ONT::F ONT::V1931998 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V1942470 :START
+  441 :END 445)
+ (ONT::F ONT::V1932008 (:* ONT::LIFE-TRANSFORMATION W::INCUBATED) :RESULT
+  ONT::V1932022 :AFFECTED ONT::V1942471 :MOD ONT::V1932026 :TENSE W::PRES
+  :START 445 :END 473)
+ (ONT::IMPRO ONT::V1942471 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 445
+  :END 473)
+ (ONT::F ONT::V1932022 (:* ONT::LONG W::OVERNIGHT) :FIGURE ONT::V1942471 :SCALE
+  ONT::SIZE-SCALE :START 455 :END 465)
+ (ONT::F ONT::V1932026 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V1932080
+  :FIGURE ONT::V1932008 :START 465 :END 473)
+ (ONT::BARE ONT::V1932080 (:* ONT::REFERENTIAL-SEM W::RPMI) :START 468 :END
+  473))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1942470">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1932008" />
+    <role:MOD rdf:resource="#V1931998" />
+    <LF:start>441</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1931998">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V1942470" />
+    <LF:start>441</LF:start>
+    <LF:end>445</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932008">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LIFE-TRANSFORMATION</LF:type>
+    <LF:word>INCUBATED</LF:word>
+    <role:RESULT rdf:resource="#V1932022" />
+    <role:AFFECTED rdf:resource="#V1942471" />
+    <role:MOD rdf:resource="#V1932026" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>445</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1942471">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>445</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932022">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>LONG</LF:type>
+    <LF:word>OVERNIGHT</LF:word>
+    <role:FIGURE rdf:resource="#V1942471" />
+    <role:SCALE>SIZE-SCALE</role:SCALE>
+    <LF:start>455</LF:start>
+    <LF:end>465</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932026">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1932080" />
+    <role:FIGURE rdf:resource="#V1932008" />
+    <LF:start>465</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932080">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>RPMI</LF:word>
+    <LF:start>468</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::MEDIUM W::PLUS W::FIVE W::PERCENT W::FBS W::PUNC-PERIOD W::THE)</lisp><word>MEDIUM</word><word>PLUS</word><word>FIVE</word><word>PERCENT</word><word>FBS</word><word>PUNC-PERIOD</word><word>THE</word></words><tags><lisp>((WORD &quot;medium&quot; :FRAME (473 479) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;RPMI medium&quot; :FRAME (468 479) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in RPMI medium&quot; :FRAME (465 479) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;overnight in RPMI medium&quot; :FRAME (455 479) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;plus&quot; :FRAME (480 484) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (485 485) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;%&quot; :FRAME (486 487) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5%&quot; :FRAME (485 487) :PENN-CATS (ADJP) :TRIPS-CATS (W::ADJP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;FBS&quot; :FRAME (488 490) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|20442| :NAME &quot;fibrosin&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9HAH7) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|13587| :NAME &quot;F-box protein 8&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;FBS&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::Q9NRD0) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (491 491) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;The&quot; :FRAME (492 495) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;FBS.The&quot; :FRAME (488 495) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5% FBS.The&quot; :FRAME (485 495) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;overnight in RPMI medium plus 5% FBS.The&quot; :FRAME (455 495) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="medium" start="473" end="479"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="RPMI medium" start="468" end="479" penn-cats="NP" /><prefer text="in RPMI medium" start="465" end="479" penn-cats="PP" /><prefer text="overnight in RPMI medium" start="455" end="479" penn-cats="NP" /><word lex="plus" start="480" end="484"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="5" start="485" end="485"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><word lex="%" start="486" end="487"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="5%" start="485" end="487" penn-cats="ADJP" /><word lex="FBS" start="488" end="490"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE" score="0.56098"><term id="HGNC:20442" name="fibrosin" score="0.56098" dbxrefs="UP:Q9HAH7" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term><term id="HGNC:13587" name="F-box protein 8" score="0.56098" dbxrefs="UP:Q9NRD0" ont-types="GENE"><match score="0.56098" matched="FBS" status="Synonym" exact="1" /></term></sense-info></word><word lex="." start="491" end="491" /><word lex="The" start="492" end="495"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="FBS.The" start="488" end="495"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" /></word><prefer text="5% FBS.The" start="485" end="495" penn-cats="NP" /><prefer text="overnight in RPMI medium plus 5% FBS.The" start="455" end="495" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (ADJP (ADJP (ADJ1 (ADJ MEDIUM))) (CONJ PLUS)
+  (ADJP (NUMBER FIVE) (N1 (N1 (N PERCENT)) (N1 (NAME FBS PUNC-PERIOD THE))))))</lisp><UTT><ADJP><ADJP><ADJ1><ADJ>MEDIUM</ADJ></ADJ1></ADJP><CONJ>PLUS</CONJ><ADJP><NUMBER>FIVE</NUMBER><N1><N1><N>PERCENT</N></N1><N1><NAME>FBS PUNC-PERIOD THE</NAME></N1></N1></ADJP></ADJP></UTT></tree><terms root="#V1942586"><lisp>((ONT::SPEECHACT ONT::V1942586 ONT::SA_EVALUATE :CONTENT ONT::V1932386 :START
+  473 :END 496)
+ (ONT::F ONT::V1932386 ONT::ABSTRACT-OBJECT :SEQUENCE
+  (ONT::V1932083 ONT::V1932241) :OPERATOR ONT::AND :START 473 :END 496)
+ (ONT::F ONT::V1932083 (:* ONT::MEDIUM-VAL W::MEDIUM) :FIGURE ONT::V1942587
+  :START 473 :END 480)
+ (ONT::IMPRO ONT::V1942587 ONT::ANY-SEM :START 473 :END 480)
+ (ONT::F ONT::V1932241 ONT::ASSOC-WITH :FIGURE ONT::V1942587 :GROUND
+  ONT::V1932098 :START 485 :END 496)
+ (ONT::KIND ONT::V1932098 (:* ONT::REFERENTIAL-SEM W::FBS-PUNC-PERIOD-THE)
+  :AMOUNT 5 :ASSOC-WITH ONT::V1932100 :NAME-OF (W::FBS W::PUNC-PERIOD W::THE)
+  :START 485 :END 496)
+ (ONT::KIND ONT::V1932100 (:* ONT::PERCENT W::PERCENT) :START 485 :END 496))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1942586">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_EVALUATE</LF:type>
+    <role:CONTENT rdf:resource="#V1932386" />
+    <LF:start>473</LF:start>
+    <LF:end>496</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932386">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ABSTRACT-OBJECT</LF:type>
+    <role:SEQUENCE rdf:resource="#V1932083" />
+    <role:SEQUENCE1 rdf:resource="#V1932241" />
+    <role:OPERATOR>AND</role:OPERATOR>
+    <LF:start>473</LF:start>
+    <LF:end>496</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932083">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MEDIUM-VAL</LF:type>
+    <LF:word>MEDIUM</LF:word>
+    <role:FIGURE rdf:resource="#V1942587" />
+    <LF:start>473</LF:start>
+    <LF:end>480</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1942587">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>473</LF:start>
+    <LF:end>480</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932241">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:FIGURE rdf:resource="#V1942587" />
+    <role:GROUND rdf:resource="#V1932098" />
+    <LF:start>485</LF:start>
+    <LF:end>496</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932098">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>FBS-PUNC-PERIOD-THE</LF:word>
+    <role:AMOUNT>5</role:AMOUNT>
+    <role:ASSOC-WITH rdf:resource="#V1932100" />
+    <role:NAME-OF>(FBS PUNC-PERIOD THE)</role:NAME-OF>
+    <LF:start>485</LF:start>
+    <LF:end>496</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932100">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PERCENT</LF:type>
+    <LF:word>PERCENT</LF:word>
+    <LF:start>485</LF:start>
+    <LF:end>496</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::NEXT W::DAY W::PUNC-COMMA)</lisp><word>NEXT</word><word>DAY</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;next&quot; :FRAME (496 500) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;day&quot; :FRAME (501 503) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;next day&quot; :FRAME (496 503) :PENN-CATS (NP-TMP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;incubated overnight in RPMI medium plus 5% FBS.The next day&quot; :FRAME
+  (445 503) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day&quot;
+  :FRAME (369 503) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day&quot;
+  :FRAME (364 503) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;VMM18 melanoma cells were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day&quot;
+  :FRAME (343 503) :PENN-CATS (S) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (504 504) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="next" start="496" end="500"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="day" start="501" end="503"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="next day" start="496" end="503" penn-cats="NP-TMP" /><prefer text="incubated overnight in RPMI medium plus 5% FBS.The next day" start="445" end="503" penn-cats="VP" /><prefer text="plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day" start="369" end="503" penn-cats="VP" /><prefer text="were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day" start="364" end="503" penn-cats="VP" /><prefer text="VMM18 melanoma cells were plated in petri dishes, treated with drugs or not for one hour, washed, and incubated overnight in RPMI medium plus 5% FBS.The next day" start="343" end="503" penn-cats="S" /><word lex="," start="504" end="504" /></tags><tree><lisp>(UTT (UTT (NP (ADJP (ADJ1 (ADJ NEXT))) (N1 (N DAY)))) (PUNC PUNC-COMMA))</lisp><UTT><UTT><NP><ADJP><ADJ1><ADJ>NEXT</ADJ></ADJ1></ADJP><N1><N>DAY</N></N1></NP></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V1932463"><lisp>((ONT::SPEECHACT ONT::V1932463 ONT::SA_IDENTIFY :CONTENT ONT::V1932137 :START
+  496 :END 504)
+ (ONT::THE ONT::V1932137 ONT::TIME-LOC :PROFORM W::NEXT :EXTENT
+  (:* ONT::TIME-INTERVAL W::DAY) :START 496 :END 504)
+ (ONT::F ONT::V1932129 (:* ONT::SEQUENCE-VAL-NEXT W::NEXT) :FIGURE
+  ONT::V1932137 :START 496 :END 501))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1932463">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1932137" />
+    <LF:start>496</LF:start>
+    <LF:end>504</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932137">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TIME-LOC</LF:type>
+    <role:PROFORM>NEXT</role:PROFORM>
+    <role:EXTENT>(:* TIME-INTERVAL DAY)</role:EXTENT>
+    <LF:start>496</LF:start>
+    <LF:end>504</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1932129">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SEQUENCE-VAL-NEXT</LF:type>
+    <LF:word>NEXT</LF:word>
+    <role:FIGURE rdf:resource="#V1932137" />
+    <LF:start>496</LF:start>
+    <LF:end>501</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<compound-communication-act>
+<utt><words><lisp>(W::CELLS W::WERE W::RINSED W::WITH W::ROOM W::TEMPERATURE W::PBS W::PUNC-COMMA)</lisp><word>CELLS</word><word>WERE</word><word>RINSED</word><word>WITH</word><word>ROOM</word><word>TEMPERATURE</word><word>PBS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;cells&quot; :FRAME (506 511) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cells&quot; :FRAME (506 511) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (512 516) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rinsed&quot; :FRAME (517 523) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0053652 :CITATION-FORM &quot;rinse&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rinsed&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;tran=np&quot; &quot;tran=np;part(out)&quot; &quot;ditran=np,pphr(of,np);part(out)&quot;
+        &quot;cplxtran=np,advbl&quot;)
+       :NOMINALIZATION
+       ((SPECIALIST :EUI E0234007 :CITATION-FORM &quot;rinsing&quot;)
+        (SPECIALIST :EUI E0053653 :CITATION-FORM &quot;rinse&quot;)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (524 528) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;room&quot; :FRAME (529 533) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;temperature&quot; :FRAME (534 545) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;room temperature&quot; :FRAME (529 545) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;room_temperature%1:07:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0053783 :CITATION-FORM &quot;room temperature&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;room temperature&quot; :EXACT 2)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PBS&quot; :FRAME (546 548) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C122728 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PBS&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;room temperature PBS&quot; :FRAME (529 548) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (549 550) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="cells" start="506" end="511"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="cells" start="506" end="511" penn-cats="NP" /><word lex="were" start="512" end="516"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="rinsed" start="517" end="523"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V"><specialist eui="E0053652" citation-form="rinse"><match score="1.0" matched="rinsed" exact="1" />    <complement>tran=np</complement>
+    <complement>tran=np;part(out)</complement>
+    <complement>ditran=np,pphr(of,np);part(out)</complement>
+    <complement>cplxtran=np,advbl</complement>
+<nominalization><specialist eui="E0234007" citation-form="rinsing" /><specialist eui="E0053653" citation-form="rinse" /></nominalization></specialist></sense-info></word><word lex="with" start="524" end="528"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="room" start="529" end="533"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="temperature" start="534" end="545"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="room temperature" start="529" end="545"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="room_temperature%1:07:00"><specialist eui="E0053783" citation-form="room temperature"><match score="1.0" matched="room temperature" exact="2" /></specialist></sense-info></word><word lex="PBS" start="546" end="548"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE" score="0.70732"><term id="NCIT:C122728" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PBS" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><map to="GENE" through="NCIT:C16612" /></term></sense-info></word><prefer text="room temperature PBS" start="529" end="548" penn-cats="NP" /><word lex="," start="549" end="550" /></tags><tree><lisp>(UTT
+ (S (NP (N1 (N CELLS)))
+  (VP
+   (VP- (AUX (V WERE))
+    (VP- (VP- (V (V RINSED)))
+     (ADVBL (ADV WITH)
+      (NP (NP (N1 (N1 (N ROOM TEMPERATURE)) (N1 (NAME PBS))))
+       (PUNC PUNC-COMMA))))))))</lisp><UTT><S><NP><N1><N>CELLS</N></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><VP-><V><V>RINSED</V></V></VP-><ADVBL><ADV>WITH</ADV><NP><NP><N1><N1><N>ROOM TEMPERATURE</N></N1><N1><NAME>PBS</NAME></N1></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V1953470"><lisp>((ONT::SPEECHACT ONT::V1953470 ONT::SA_TELL :CONTENT ONT::V1946757 :START 506
+  :END 551)
+ (ONT::F ONT::V1946757 (:* ONT::CLEAN W::RINSED) :AFFECTED ONT::V1946733
+  :METHOD ONT::V1946767 :TENSE W::PAST :PASSIVE + :START 506 :END 551)
+ (ONT::INDEF-SET ONT::V1946733 (:* ONT::CELL W::CELL) :START 506 :END 512)
+ (ONT::F ONT::V1946767 (:* ONT::WITH-INSTRUMENT W::WITH) :GROUND ONT::V1946789
+  :FIGURE ONT::V1946757 :START 524 :END 551)
+ (ONT::BARE ONT::V1946789 (:* ONT::GENE W::PBS) :ASSOC-WITH ONT::V1946784
+  :NAME-OF W::PBS :START 529 :END 551 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C122728 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PBS&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+       :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE)))))
+ (ONT::KIND ONT::V1946784 (:* ONT::TEMPERATURE-ALT-SCALE W::ROOM-TEMPERATURE)
+  :START 529 :END 551 :WNSENSE &quot;room_temperature%1:07:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1953470">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1946757" />
+    <LF:start>506</LF:start>
+    <LF:end>551</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946757">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CLEAN</LF:type>
+    <LF:word>RINSED</LF:word>
+    <role:AFFECTED rdf:resource="#V1946733" />
+    <role:METHOD rdf:resource="#V1946767" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>506</LF:start>
+    <LF:end>551</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946733">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>CELL</LF:word>
+    <LF:start>506</LF:start>
+    <LF:end>512</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946767">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WITH-INSTRUMENT</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V1946789" />
+    <role:FIGURE rdf:resource="#V1946757" />
+    <LF:start>524</LF:start>
+    <LF:end>551</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946789">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GENE</LF:type>
+    <LF:word>PBS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V1946784" />
+    <role:NAME-OF>PBS</role:NAME-OF>
+    <LF:start>529</LF:start>
+    <LF:end>551</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C122728 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122728&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;PBS&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED
+     1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946784">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>TEMPERATURE-ALT-SCALE</LF:type>
+    <LF:word>ROOM-TEMPERATURE</LF:word>
+    <LF:start>529</LF:start>
+    <LF:end>551</LF:end>
+    <role:WNSENSE>room_temperature%1:07:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FROZEN W::BY W::PLACING W::THE W::DISH W::ON W::A W::MIXTURE W::OF
+ W::ACETONE W::AND W::DRY W::ICE)</lisp><word>FROZEN</word><word>BY</word><word>PLACING</word><word>THE</word><word>DISH</word><word>ON</word><word>A</word><word>MIXTURE</word><word>OF</word><word>ACETONE</word><word>AND</word><word>DRY</word><word>ICE</word></words><tags><lisp>((WORD &quot;frozen&quot; :FRAME (551 557) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;by&quot; :FRAME (558 560) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;placing&quot; :FRAME (561 568) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (569 572) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dish&quot; :FRAME (573 577) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the dish&quot; :FRAME (569 577) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (578 580) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (581 582) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mixture&quot; :FRAME (583 590) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CHEMICAL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|60004| :NAME &quot;mixture&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;mixture&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|59999|
+              (SENSE (MORPH (POS N) (WORD (CHEMICAL SUBSTANCE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005999.lisp&quot;))))
+             :TO ONT::CHEMICAL))
+       :ONT-TYPES (ONT::CHEMICAL))
+      (SPECIALIST :EUI E0040609 :CITATION-FORM &quot;mixture&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;mixture&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0040591 :CAT VERB :CITATION-FORM &quot;mix&quot;))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C45305 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45305&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;mixture&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C45306
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C45306&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04530.lisp&quot;))))
+             :TO ONT::SUBSTANCE))
+       :ONT-TYPES (ONT::SUBSTANCE))
+      (SPECIALIST :EUI E0040609 :CITATION-FORM &quot;mixture&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;mixture&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0040591 :CAT VERB :CITATION-FORM &quot;mix&quot;)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a mixture&quot; :FRAME (581 590) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (591 593) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;acetone&quot; :FRAME (594 601) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MOLECULE ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|15347| :NAME &quot;acetone&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;acetone&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|50906|
+              (SENSE (MORPH (POS N) (WORD ROLE))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|33232|
+              (SENSE (MORPH (POS N) (WORD APPLICATION))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003323.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::MOLECULE ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0006819 :CITATION-FORM &quot;acetone&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;acetone&quot; :EXACT 1)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (602 605) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dry&quot; :FRAME (606 609) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ice&quot; :FRAME (610 612) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 235
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;dry ice&quot; :FRAME (606 612) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;dry_ice%1:27:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0024034 :CITATION-FORM &quot;dry ice&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;dry ice&quot; :EXACT 2)))))))
+  :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;acetone and dry ice&quot; :FRAME (594 612) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of acetone and dry ice&quot; :FRAME (591 612) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a mixture of acetone and dry ice&quot; :FRAME (581 612) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;on a mixture of acetone and dry ice&quot; :FRAME (578 612) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;placing the dish on a mixture of acetone and dry ice&quot; :FRAME
+  (561 612) :PENN-CATS (VP S) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;by placing the dish on a mixture of acetone and dry ice&quot; :FRAME
+  (558 612) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;frozen by placing the dish on a mixture of acetone and dry ice&quot;
+  :FRAME (551 612) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice&quot;
+  :FRAME (529 612) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice&quot;
+  :FRAME (524 612) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice&quot;
+  :FRAME (517 612) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;were rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice&quot;
+  :FRAME (512 612) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 235 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (613 613) :UTTNUM 235 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="frozen" start="551" end="557"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="by" start="558" end="560"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="placing" start="561" end="568"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="the" start="569" end="572"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="dish" start="573" end="577"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="the dish" start="569" end="577" penn-cats="NP" /><word lex="on" start="578" end="580"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="581" end="582"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="mixture" start="583" end="590"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CHEMICAL" score="0.85366"><term id="CHEBI:60004" name="mixture" score="0.85366" ont-types="CHEMICAL"><match score="0.85366" matched="mixture" status="name" exact="1" /><map to="CHEMICAL" through="CHEBI:59999" /></term><specialist eui="E0040609" citation-form="mixture"><match score="1.0" matched="mixture" exact="1" />    <complement>compl=pphr(of,np)</complement>
+<nominalization-of><specialist eui="E0040591" cat="VERB" citation-form="mix" /></nominalization-of></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="SUBSTANCE" score="0.70732"><term id="NCIT:C45305" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45305&gt;" score="0.70732" ont-types="SUBSTANCE"><match score="0.70732" matched="mixture" status="synonym" exact="1" /><map to="SUBSTANCE" through="NCIT:C45306" /></term><specialist eui="E0040609" citation-form="mixture"><match score="1.0" matched="mixture" exact="1" />    <complement>compl=pphr(of,np)</complement>
+<nominalization-of><specialist eui="E0040591" cat="VERB" citation-form="mix" /></nominalization-of></specialist></sense-info></word><prefer text="a mixture" start="581" end="590" penn-cats="NP" /><word lex="of" start="591" end="593"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="acetone" start="594" end="601"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MOLECULE,CHEMICAL,PHARMACOLOGIC-SUBSTANCE" score="0.85366"><term id="CHEBI:15347" name="acetone" score="0.85366" ont-types="MOLECULE,CHEMICAL,PHARMACOLOGIC-SUBSTANCE"><match score="0.85366" matched="acetone" status="name" exact="1" /><map to="MOLECULE" through="CHEBI:23367" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="CHEMICAL" through="CHEBI:50906" /><map to="CHEMICAL" through="CHEBI:33232" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /></term><specialist eui="E0006819" citation-form="acetone"><match score="1.0" matched="acetone" exact="1" /></specialist></sense-info></word><word lex="and" start="602" end="605"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><word lex="dry" start="606" end="609"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><word lex="ice" start="610" end="612"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="dry ice" start="606" end="612"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="dry_ice%1:27:00"><specialist eui="E0024034" citation-form="dry ice"><match score="1.0" matched="dry ice" exact="2" /></specialist></sense-info></word><prefer text="acetone and dry ice" start="594" end="612" penn-cats="NP" /><prefer text="of acetone and dry ice" start="591" end="612" penn-cats="PP" /><prefer text="a mixture of acetone and dry ice" start="581" end="612" penn-cats="NP" /><prefer text="on a mixture of acetone and dry ice" start="578" end="612" penn-cats="PP" /><prefer text="placing the dish on a mixture of acetone and dry ice" start="561" end="612" penn-cats="VP,S" /><prefer text="by placing the dish on a mixture of acetone and dry ice" start="558" end="612" penn-cats="PP" /><prefer text="frozen by placing the dish on a mixture of acetone and dry ice" start="551" end="612" penn-cats="VP" /><prefer text="room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice" start="529" end="612" penn-cats="NP" /><prefer text="with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice" start="524" end="612" penn-cats="PP" /><prefer text="rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice" start="517" end="612" penn-cats="VP" /><prefer text="were rinsed with room temperature PBS, frozen by placing the dish on a mixture of acetone and dry ice" start="512" end="612" penn-cats="VP" /><word lex="." start="613" end="613" /></tags><tree><lisp>(CP
+ (VP
+  (VP- (VP- (V (V FROZEN)))
+   (ADVBL (ADV BY)
+    (VP
+     (VP- (V PLACING) (NP (SPEC (DET (ART THE))) (N1 (N DISH)))
+      (ADVBL (ADV ON)
+       (NP (SPEC (DET (ART A)))
+        (N1 (N1 (N MIXTURE))
+         (ADVBL (ADV OF)
+          (NP (NP (N1 (N ACETONE))) (CONJ AND) (NP (N1 (N DRY ICE))))))))))))))</lisp><CP><VP><VP-><VP-><V><V>FROZEN</V></V></VP-><ADVBL><ADV>BY</ADV><VP><VP-><V>PLACING</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>DISH</N></N1></NP><ADVBL><ADV>ON</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><N>MIXTURE</N></N1><ADVBL><ADV>OF</ADV><NP><NP><N1><N>ACETONE</N></N1></NP><CONJ>AND</CONJ><NP><N1><N>DRY ICE</N></N1></NP></NP></ADVBL></N1></NP></ADVBL></VP-></VP></ADVBL></VP-></VP></CP></tree><terms root="#V1946798"><lisp>((ONT::F ONT::V1946798 (:* ONT::CHANGE-INTEGRITY W::FREEZE) :METHOD
+  ONT::V1946810 :VFORM W::PASSIVE :START 551 :END 613)
+ (ONT::F ONT::V1946810 (:* ONT::BY-MEANS-OF W::BY) :GROUND ONT::V1946831
+  :FIGURE ONT::V1946798 :START 558 :END 613)
+ (ONT::F ONT::V1946831 (:* ONT::PUT W::PLACE) :AFFECTED ONT::V1946842 :RESULT
+  ONT::V1946852 :VFORM W::ING :START 561 :END 613)
+ (ONT::THE ONT::V1946842 (:* ONT::TABLEWARE W::DISH) :START 569 :END 578)
+ (ONT::F ONT::V1946852 (:* ONT::ON W::ON) :GROUND ONT::V1946916 :FIGURE
+  ONT::V1946842 :START 578 :END 613)
+ (ONT::A ONT::V1946916 (:* ONT::CHEMICAL W::MIXTURE) :MOD ONT::V1947044 :START
+  581 :END 613 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|60004| :NAME &quot;mixture&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;mixture&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|59999|
+            (SENSE (MORPH (POS N) (WORD (CHEMICAL SUBSTANCE)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005999.lisp&quot;))))
+           :TO ONT::CHEMICAL))
+     :ONT-TYPES (ONT::CHEMICAL))
+    (SPECIALIST :EUI E0040609 :CITATION-FORM &quot;mixture&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;mixture&quot; :EXACT 1)) :COMPLEMENTS
+     (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+     ((SPECIALIST :EUI E0040591 :CAT VERB :CITATION-FORM &quot;mix&quot;))))))
+ (ONT::F ONT::V1947044 (:* ONT::ASSOC-WITH W::OF) :GROUND ONT::V1947063 :FIGURE
+  ONT::V1946916 :START 591 :END 613)
+ (ONT::INDEF-SET ONT::V1947063 ONT::SUBSTANCE :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V1947055 ONT::V1947090) :START 594 :END 613)
+ (ONT::BARE ONT::V1947055 (:* ONT::CHEMICAL W::ACETONE) :START 594 :END 602
+  :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|15347| :NAME &quot;acetone&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;acetone&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|23367|
+            (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+           :TO ONT::MOLECULE)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|24432|
+            (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|50906|
+            (SENSE (MORPH (POS N) (WORD ROLE))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|33232|
+            (SENSE (MORPH (POS N) (WORD APPLICATION))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003323.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|52217|
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::MOLECULE ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0006819 :CITATION-FORM &quot;acetone&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;acetone&quot; :EXACT 1))))))
+ (ONT::BARE ONT::V1947090 (:* ONT::SOLID-SUBSTANCE W::DRY-ICE) :START 606 :END
+  613 :WNSENSE &quot;dry_ice%1:27:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1946798">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CHANGE-INTEGRITY</LF:type>
+    <LF:word>FREEZE</LF:word>
+    <role:METHOD rdf:resource="#V1946810" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>551</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946810">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BY-MEANS-OF</LF:type>
+    <LF:word>BY</LF:word>
+    <role:GROUND rdf:resource="#V1946831" />
+    <role:FIGURE rdf:resource="#V1946798" />
+    <LF:start>558</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946831">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PUT</LF:type>
+    <LF:word>PLACE</LF:word>
+    <role:AFFECTED rdf:resource="#V1946842" />
+    <role:RESULT rdf:resource="#V1946852" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>561</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946842">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TABLEWARE</LF:type>
+    <LF:word>DISH</LF:word>
+    <LF:start>569</LF:start>
+    <LF:end>578</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946852">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ON</LF:type>
+    <LF:word>ON</LF:word>
+    <role:GROUND rdf:resource="#V1946916" />
+    <role:FIGURE rdf:resource="#V1946842" />
+    <LF:start>578</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1946916">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>MIXTURE</LF:word>
+    <role:MOD rdf:resource="#V1947044" />
+    <LF:start>581</LF:start>
+    <LF:end>613</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |60004| :NAME &quot;mixture&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;mixture&quot; :STATUS &quot;name&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |59999|
+          (SENSE (MORPH (POS N) (WORD (CHEMICAL SUBSTANCE)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005999.lisp&quot;))))
+         :TO CHEMICAL))
+   :ONT-TYPES (CHEMICAL))
+  (SPECIALIST :EUI E0040609 :CITATION-FORM &quot;mixture&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;mixture&quot; :EXACT 1)) :COMPLEMENTS
+   (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+   ((SPECIALIST :EUI E0040591 :CAT VERB :CITATION-FORM &quot;mix&quot;)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1947044">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V1947063" />
+    <role:FIGURE rdf:resource="#V1946916" />
+    <LF:start>591</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1947063">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>SUBSTANCE</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V1947055" />
+    <role:SEQUENCE1 rdf:resource="#V1947090" />
+    <LF:start>594</LF:start>
+    <LF:end>613</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1947055">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>ACETONE</LF:word>
+    <LF:start>594</LF:start>
+    <LF:end>602</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |15347| :NAME &quot;acetone&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;acetone&quot; :STATUS &quot;name&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |23367|
+          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+         :TO MOLECULE)
+    (MAP :THROUGH
+         (CONCEPT |24432|
+          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |50906|
+          (SENSE (MORPH (POS N) (WORD ROLE))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |33232|
+          (SENSE (MORPH (POS N) (WORD APPLICATION))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003323.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |52217|
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (MOLECULE CHEMICAL PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0006819 :CITATION-FORM &quot;acetone&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;acetone&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1947090">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SOLID-SUBSTANCE</LF:type>
+    <LF:word>DRY-ICE</LF:word>
+    <LF:start>606</LF:start>
+    <LF:end>613</LF:end>
+    <role:WNSENSE>dry_ice%1:27:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

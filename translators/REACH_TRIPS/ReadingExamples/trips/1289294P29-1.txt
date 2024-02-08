@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="In clinical studies with BAY43-9006 plus chemotherapy, objective tumor regressions were more common in patients who had wild-type B-raf [34].The findings of the current report support continued investigation of BAY43-9006 for treatment of patients with melanoma, and suggest that clinical effects observed may be due to some effects that are independent of B-raf kinase activity..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07541.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09710.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05327.lisp&quot;
+pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS (&quot;clinic%1:14:00::&quot;))
+                                     (:PENN-PARTS-OF-SPEECH (PARSER::NN)
+                                      :TRIPS-PARTS-OF-SPEECH (W::N))) LF: ONT::HEALTH-CARE-FACILITY LF-FORM: (W::CLINIC) domain info: NIL
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06241.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS
+                                                                       (&quot;clinic%1:14:00::&quot;))
+                                                                      (:PENN-PARTS-OF-SPEECH
+                                                                       (PARSER::NN)
+                                                                       :TRIPS-PARTS-OF-SPEECH
+                                                                       (W::N))) LF: ONT::HEALTH-CARE-FACILITY LF-FORM: (W::CLINIC) domain info: NIL
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to sequences not reimplemented yet</debug><ekb complete="true" id="TEXT00249_IO-3282605" timestamp="20190708T141240"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00249_IO-3282605" id="paragraph248">In clinical studies with BAY43-9006 plus chemotherapy, objective tumor regressions were more common in patients who had wild-type B-raf [34].The findings of the current report support continued investigation of BAY43-9006 for treatment of patients with melanoma, and suggest that clinical effects observed may be due to some effects that are independent of B-raf kinase activity..
+</paragraph></paragraphs><sentences><sentence id="275" pid="paragraph248">In clinical studies with BAY43-9006 plus chemotherapy, objective tumor regressions were more common in patients who had wild-type B-raf [34] .The findings of the current report support continued investigation of BAY43-9006 for treatment of patients with melanoma, and suggest that clinical effects observed may be due to some effects that are independent of B-raf kinase activity..</sentence></sentences></input><EPI end="54" id="V3283287" lisp="(ONT::EPI ONT::V3283287 ONT::TEST)" paragraph="paragraph248" rule="-RULE50_0_AGENT_NEUTRAL-NONE" start="3" uttnum="275"><type>ONT::TEST</type><text>clinical studies with BAY43-9006 plus chemotherapy,</text></EPI><TERM end="12" id="V3283519" lisp="(ONT::TERM ONT::V3283519 ONT::HEALTH-CARE-FACILITY :NAME W::CLINIC)" paragraph="paragraph248" rule="-SIMPLE-REF" start="3" uttnum="275"><type>ONT::HEALTH-CARE-FACILITY</type><name>CLINIC</name><text>clinical</text></TERM><TERM end="53" id="V3283395" lisp="(ONT::TERM ONT::V3283395 ONT::TREATMENT :NAME W::CHEMOTHERAPY)" paragraph="paragraph248" rule="-SIMPLE-REF" start="41" uttnum="275"><type>ONT::TREATMENT</type><name>CHEMOTHERAPY</name><text>chemotherapy</text></TERM><TERM dbid="NCIT:C118200" end="83" id="V3294921" lisp="(ONT::TERM ONT::V3294921 ONT::MEDICAL-DISORDERS-AND-CONDITIONS :NAME W::REGRESSIONS :DRUM ((:DRUM (TERM :ID NCIT::C118200 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;regression&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 1)) :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS)) (SPECIALIST :EUI E0052527 :CITATION-FORM &quot;regression&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;regressions&quot; :EXACT 1)) :COMPLEMENTS (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(to,np(mean))&quot;) :NOMINALIZATION-OF ((SPECIALIST :EUI E0052525 :CAT VERB :CITATION-FORM &quot;regress&quot;))))))" paragraph="paragraph248" rule="-SIMPLE-REF" start="55" uttnum="275"><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type><name>REGRESSIONS</name><drum-terms><drum-term dbid="NCIT:C118200" match-score="0.70732" matched-name="regression" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;"><types><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type></types></drum-term></drum-terms><text>objective tumor regressions</text></TERM><TERM dbid="NCIT:C3262" end="83" id="V3294906" lisp="(ONT::TERM ONT::V3294906 ONT::CANCER :NAME W::TUMOR :DRUM ((:DRUM (TERM :ID NCIT::C3262 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;tumor&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::CANCER)) (SPECIALIST :EUI E0321587 :CITATION-FORM &quot;tumor&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;tumor&quot; :EXACT 1))))))" paragraph="paragraph248" rule="-SIMPLE-REF" start="55" uttnum="275"><type>ONT::CANCER</type><name>TUMOR</name><drum-terms><drum-term dbid="NCIT:C3262" match-score="0.70732" matched-name="tumor" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;"><types><type>ONT::CANCER</type></types></drum-term></drum-terms><text>objective tumor regressions</text></TERM><TERM end="140" id="V3295004" lisp="(ONT::TERM ONT::V3295004 ONT::PATIENT :NAME W::PATIENT)" paragraph="paragraph248" rule="-SIMPLE-REF" start="103" uttnum="275"><type>ONT::PATIENT</type><name>PATIENT</name><text>patients who had wild-type B-raf [34]</text></TERM><TERM dbid="UP:P15056|NCIT:C17476|HGNC:1097|NCIT:C18363" end="140" id="V3295127" lisp="(ONT::TERM ONT::V3295127 ONT::GENE-PROTEIN :MUTATION ONT::FALSE :NAME W::B-PUNC-MINUS-RAF :DRUM ((:DRUM (TERM :ID HGNC::|1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1) (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C17476 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C18363 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph248" rule="-SIMPLE-REF-MUTATION3,-SIMPLE-REF" start="120" uttnum="275"><type>ONT::GENE-PROTEIN</type><name>B-RAF</name><features><mutation>FALSE</mutation></features><drum-terms><drum-term dbid="HGNC:1097" match-score="0.85366" matched-name="BRAF" name="B-Raf proto-oncogene, serine/threonine kinase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P15056"/></xrefs></drum-term><drum-term dbid="NCIT:C17476" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C18363" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;"><types><type>ONT::GENE</type></types></drum-term></drum-terms><text>wild-type B-raf [34]</text></TERM><TERM end="184" id="V3307978" lisp="(ONT::TERM ONT::V3307978 ONT::CLINICAL-FINDING :NAME W::FINDING)" paragraph="paragraph248" rule="-SIMPLE-REF" start="141" uttnum="275"><type>ONT::CLINICAL-FINDING</type><name>FINDING</name><text>The findings of the current report support</text></TERM><EPI end="184" id="V3308024" lisp="(ONT::EPI ONT::V3308024 ONT::SUPPORT)" paragraph="paragraph248" rule="-RULE50_0_AGENT_NEUTRAL-NONE" start="154" uttnum="275"><type>ONT::SUPPORT</type><text>of the current report support</text></EPI><EPI end="213" id="V3308060" lisp="(ONT::EPI ONT::V3308060 ONT::TEST :NEUTRAL ONT::V3308105)" paragraph="paragraph248" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="194" uttnum="275"><type>ONT::TEST</type><arg2 end="213" id="V3308105" role=":NEUTRAL" start="194"><type>ONT::GEO-FORMATION</type><text normalization="">investigation of BA</text></arg2><text>investigation of BA</text></EPI><TERM end="213" id="V3308105" lisp="(ONT::TERM ONT::V3308105 ONT::GEO-FORMATION :EPI ONT::V3308060 :NAME W::BAY)" paragraph="paragraph248" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="194" uttnum="275"><type>ONT::GEO-FORMATION</type><name>BAY</name><text>investigation of BA</text></TERM><TERM end="261" id="V3308189" lisp="(ONT::TERM ONT::V3308189 ONT::PATIENT :NAME W::PATIENT)" paragraph="paragraph248" rule="-SIMPLE-REF" start="236" uttnum="275"><type>ONT::PATIENT</type><name>PATIENT</name><text>of patients with melanoma</text></TERM><TERM dbid="EFO:0000756" end="261" id="V3308208" lisp="(ONT::TERM ONT::V3308208 ONT::CANCER :NAME W::MELANOMA :DRUM ((:DRUM (TERM :ID EFO::|0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS)) (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1))))))" paragraph="paragraph248" rule="-SIMPLE-REF" start="253" uttnum="275"><type>ONT::CANCER</type><name>MELANOMA</name><drum-terms><drum-term dbid="EFO:0000756" match-score="0.85366" matched-name="melanoma" name="melanoma"><types><type>ONT::CANCER</type><type>ONT::MEDICAL-DISORDERS-AND-CONDITIONS</type></types></drum-term></drum-terms><text>melanoma</text></TERM><EPI end="280" id="V3308240" lisp="(ONT::EPI ONT::V3308240 ONT::SUPPORT :NEUTRAL ONT::V3311507 :NEUTRAL1 ONT::V3308251 :FORCE ONT::TRUE :TENSE W::PRES)" paragraph="paragraph248" rule="-RULE50_0_NEUTRAL_NEUTRAL1" start="267" uttnum="275"><type>ONT::SUPPORT</type><force>ONT::TRUE</force><arg1 end="280" id="V3311507" role=":NEUTRAL" start="267"><type>ONT::REFERENTIAL-SEM</type><text normalization="">suggest that</text></arg1><arg2 end="280" id="V3308251" role=":NEUTRAL1" start="267"><type>ONT::REFERENTIAL-SEM</type><text normalization="THAT">suggest that</text></arg2><text>suggest that</text></EPI><TERM end="280" id="V3308251" lisp="(ONT::TERM ONT::V3308251 (:* ONT::REFERENTIAL-SEM W::THAT) :EPI ONT::V3308240 :PRO W::THAT :COREF ONT::V3308208)" paragraph="paragraph248" rule="-RULE50_0_NEUTRAL_NEUTRAL1-EVENT,-ROBUSTPRO" start="267" uttnum="275"><type>ONT::REFERENTIAL-SEM</type><coref id="V3308208"/><text>suggest that</text></TERM><EVENT end="306" id="V3308268" lisp="(ONT::EVENT ONT::V3308268 ONT::MODULATE :EPI ONT::V3308279)" paragraph="paragraph248" rule="-NEUTRALTOAGENT,-RULE50_0_AGENT_NEUTRAL-EVENT,-RULE10_1_AGENT_AFFECTED-NONE" start="280" uttnum="275"><type>ONT::MODULATE</type><epistemic-modality id="V3308279"/><predicate end="306" id="V3308268" start="280"><type>ONT::MODULATE</type><text>clinical effects observed</text></predicate><text>clinical effects observed</text></EVENT><EPI end="306" id="V3308279" lisp="(ONT::EPI ONT::V3308279 ONT::OBSERVE :NEUTRAL ONT::V3308268 :FORCE ONT::TRUE)" paragraph="paragraph248" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="280" uttnum="275"><type>ONT::OBSERVE</type><force>ONT::TRUE</force><arg2 end="306" id="V3308268" role=":NEUTRAL" start="280"><type>ONT::MODULATE</type><text normalization="">clinical effects observed</text></arg2><text>clinical effects observed</text></EPI><TERM end="289" id="V3308737" lisp="(ONT::TERM ONT::V3308737 ONT::HEALTH-CARE-FACILITY :NAME W::CLINIC)" paragraph="paragraph248" rule="-SIMPLE-REF" start="280" uttnum="275"><type>ONT::HEALTH-CARE-FACILITY</type><name>CLINIC</name><text>clinical</text></TERM><EVENT end="333" id="V3308355" lisp="(ONT::EVENT ONT::V3308355 ONT::MODULATE)" paragraph="paragraph248" rule="-NEUTRALTOAGENT,-RULE10_1_AGENT_AFFECTED-NONE" start="320" uttnum="275"><type>ONT::MODULATE</type><predicate end="333" id="V3308355" start="320"><type>ONT::MODULATE</type><text>some effects</text></predicate><text>some effects</text></EVENT><CC end="333" id="X3318308" lisp="(ONT::CC ONT::X3318308 ONT::CAUSE :FACTOR ONT::V3308355 :OUTCOME ONT::V3308268)" paragraph="paragraph248" rule="-REASON2-GD" start="280" uttnum="275"><type>ONT::CAUSE</type><arg end="333" id="V3308355" role=":FACTOR" start="320"/><arg end="306" id="V3308268" role=":OUTCOME" start="280"/><text>clinical effects observed may be due to some effects</text></CC><CC end="378" id="V3308392" lisp="(ONT::CC ONT::V3308392 ONT::INDEPENDENT :FACTOR ONT::V3308462 :FORCE ONT::TRUE)" paragraph="paragraph248" rule="-RULE5_3_NEUTRAL1_NEUTRAL-NEUTRAL1" start="342" uttnum="275"><type>ONT::INDEPENDENT</type><force>ONT::TRUE</force><arg end="378" id="V3308462" role=":FACTOR" start="354"/><text>independent of B-raf kinase activity</text></CC><EVENT end="378" id="V3308462" lisp="(ONT::EVENT ONT::V3308462 ONT::ACTIVITY :AGENT ONT::V3308454)" paragraph="paragraph248" rule="-ACTIVITY1" start="354" uttnum="275"><type>ONT::ACTIVITY</type><predicate end="378" id="V3308462" start="354"><type>ONT::ACTIVITY</type><text>of B-raf kinase activity</text></predicate><arg1 end="370" id="V3308454" role=":AGENT" start="363"><type>ONT::GENE-PROTEIN</type><text normalization="">kinase</text></arg1><text>of B-raf kinase activity</text></EVENT><TERM dbid="UP:P15056|NCIT:C17476|HGNC:1097|NCIT:C18363" end="378" id="V3308450" lisp="(ONT::TERM ONT::V3308450 ONT::GENE-PROTEIN :NAME W::B-PUNC-MINUS-RAF :DRUM ((:DRUM (TERM :ID HGNC::|1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1) (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C17476 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C18363 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph248" rule="-SIMPLE-REF" start="354" uttnum="275"><type>ONT::GENE-PROTEIN</type><name>B-RAF</name><drum-terms><drum-term dbid="HGNC:1097" match-score="0.85366" matched-name="BRAF" name="B-Raf proto-oncogene, serine/threonine kinase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P15056"/></xrefs></drum-term><drum-term dbid="NCIT:C17476" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C18363" match-score="0.70732" matched-name="BRAF" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;"><types><type>ONT::GENE</type></types></drum-term></drum-terms><text>of B-raf kinase activity</text></TERM><TERM dbid="NCIT:C28597" end="370" id="V3308454" lisp="(ONT::TERM ONT::V3308454 ONT::GENE-PROTEIN :NAME W::KINASE :DRUM ((:DRUM (TERM :ID NCIT::C28597 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1))))))" paragraph="paragraph248" rule="-SIMPLE-REF" start="363" uttnum="275"><type>ONT::GENE-PROTEIN</type><name>KINASE</name><drum-terms><drum-term dbid="NCIT:C28597" match-score="0.70732" matched-name="kinase" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>kinase</text></TERM></ekb><utt><words><lisp>(W::IN W::CLINICAL W::STUDIES W::WITH W::BAY 43 W::PUNC-MINUS 9006 W::PLUS
+ W::CHEMOTHERAPY W::PUNC-COMMA)</lisp><word>IN</word><word>CLINICAL</word><word>STUDIES</word><word>WITH</word><word>BAY</word><word>43</word><word>PUNC-MINUS</word><word>9006</word><word>PLUS</word><word>CHEMOTHERAPY</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;In&quot; :FRAME (0 2) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;clinical&quot; :FRAME (3 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0017357 :CITATION-FORM &quot;clinical&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;clinical&quot; :EXACT 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinical&quot; :FRAME (3 11) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;studies&quot; :FRAME (12 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;studies&quot; :FRAME (12 19) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;clinical studies&quot; :FRAME (3 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0623850 :CITATION-FORM &quot;clinical study&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;clinical studies&quot; :EXACT 2)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinical studies&quot; :FRAME (3 19) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;with&quot; :FRAME (20 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY&quot; :FRAME (25 27) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;43&quot; :FRAME (28 29) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43&quot; :FRAME (25 29) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (30 30) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;9006&quot; :FRAME (31 35) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43-9006&quot; :FRAME (25 35) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY43-9006&quot; :FRAME (25 35) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;plus&quot; :FRAME (36 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;plus&quot; :FRAME (36 40) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;chemotherapy&quot; :FRAME (41 52) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0016359 :CITATION-FORM &quot;chemotherapy&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;chemo-therapy&quot; :NO-DASH-DASH 1 :EXACT
+         2)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;chemotherapy&quot; :FRAME (41 52) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;plus chemotherapy&quot; :FRAME (36 52) :PENN-CATS (PP) :TRIPS-CATS (W::PP)
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY43-9006 plus chemotherapy&quot; :FRAME (25 52) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;with BAY43-9006 plus chemotherapy&quot; :FRAME (20 52) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;clinical studies with BAY43-9006 plus chemotherapy&quot; :FRAME (3 52)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;In clinical studies with BAY43-9006 plus chemotherapy&quot; :FRAME (0 52)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (53 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="In" start="0" end="2"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="clinical" start="3" end="11"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0017357" citation-form="clinical"><match score="1.0" matched="clinical" exact="1" /></specialist></sense-info></word><prefer text="clinical" start="3" end="11" penn-cats="ADJP,QP" /><word lex="studies" start="12" end="19"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="studies" start="12" end="19" penn-cats="NX,NAC" /><word lex="clinical studies" start="3" end="19"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0623850" citation-form="clinical study"><match score="1.0" matched="clinical studies" exact="2" /></specialist></sense-info></word><prefer text="clinical studies" start="3" end="19" penn-cats="NP,NX,NAC" /><word lex="with" start="20" end="24"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="BAY" start="25" end="27" /><word lex="43" start="28" end="29" /><word lex="BAY43" start="25" end="29" /><word lex="-" start="30" end="30" /><word lex="9006" start="31" end="35" /><word lex="BAY43-9006" start="25" end="35"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="BAY43-9006" start="25" end="35" penn-cats="NP,NX,NAC" /><word lex="plus" start="36" end="40"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="plus" start="36" end="40" penn-cats="CONJP" /><word lex="chemotherapy" start="41" end="52"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0016359" citation-form="chemotherapy"><match score="0.99814" matched="chemo-therapy" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="chemotherapy" start="41" end="52" penn-cats="NP,NX,NAC" /><prefer text="plus chemotherapy" start="36" end="52" penn-cats="PP" /><prefer text="BAY43-9006 plus chemotherapy" start="25" end="52" penn-cats="NP" /><prefer text="with BAY43-9006 plus chemotherapy" start="20" end="52" penn-cats="PP" /><prefer text="clinical studies with BAY43-9006 plus chemotherapy" start="3" end="52" penn-cats="NP,NX,NAC" /><prefer text="In clinical studies with BAY43-9006 plus chemotherapy" start="0" end="52" penn-cats="PP" /><word lex="," start="53" end="53"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(ADVBL (ADV IN)
+ (NP
+  (NP
+   (N1 (N1 (ADJP (ADJ1 (ADJ (ADJ CLINICAL)))) (N1 (N STUDIES)))
+    (ADVBL (ADV WITH)
+     (NP (NP (N1 (N BAY 43 PUNC-MINUS 9006))) (CONJ PLUS)
+      (NP (N1 (N CHEMOTHERAPY)))))))
+  (PUNC PUNC-COMMA)))</lisp><ADVBL><ADV>IN</ADV><NP><NP><N1><N1><ADJP><ADJ1><ADJ><ADJ>CLINICAL</ADJ></ADJ></ADJ1></ADJP><N1><N>STUDIES</N></N1></N1><ADVBL><ADV>WITH</ADV><NP><NP><N1><N>BAY 43 PUNC-MINUS 9006</N></N1></NP><CONJ>PLUS</CONJ><NP><N1><N>CHEMOTHERAPY</N></N1></NP></NP></ADVBL></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></tree><terms root="#V3283227"><lisp>((ONT::F ONT::V3283227 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V3283287 :START
+  0 :END 53)
+ (ONT::A ONT::V3283287 (:* ONT::SCRUTINY W::STUDIES) :MOD ONT::V3283297 :MOD
+  ONT::V3283282 :START 3 :END 53)
+ (ONT::F ONT::V3283282 ONT::ASSOC-WITH :GROUND ONT::V3283519 :FIGURE
+  ONT::V3283287 :START 3 :END 12)
+ (ONT::KIND ONT::V3283519 (:* ONT::HEALTH-CARE-FACILITY W::CLINIC) :START 3
+  :END 12)
+ (ONT::F ONT::V3283297 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V3283390
+  :FIGURE ONT::V3283287 :START 20 :END 53)
+ (ONT::INDEF-SET ONT::V3283390 ONT::REFERENTIAL-SEM :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V3283386 ONT::V3283395) :START 25 :END 53)
+ (ONT::BARE ONT::V3283386 (:* ONT::REFERENTIAL-SEM W::BAY-43-PUNC-MINUS-9006)
+  :START 25 :END 36)
+ (ONT::BARE ONT::V3283395 (:* ONT::TREATMENT W::CHEMOTHERAPY) :START 41 :END
+  53))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3283227">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V3283287" />
+    <LF:start>0</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283287">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>STUDIES</LF:word>
+    <role:MOD rdf:resource="#V3283297" />
+    <role:MOD rdf:resource="#V3283282" />
+    <LF:start>3</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283282">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V3283519" />
+    <role:FIGURE rdf:resource="#V3283287" />
+    <LF:start>3</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283519">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>HEALTH-CARE-FACILITY</LF:type>
+    <LF:word>CLINIC</LF:word>
+    <LF:start>3</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283297">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V3283390" />
+    <role:FIGURE rdf:resource="#V3283287" />
+    <LF:start>20</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283390">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V3283386" />
+    <role:SEQUENCE1 rdf:resource="#V3283395" />
+    <LF:start>25</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283386">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>BAY-43-PUNC-MINUS-9006</LF:word>
+    <LF:start>25</LF:start>
+    <LF:end>36</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3283395">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>TREATMENT</LF:type>
+    <LF:word>CHEMOTHERAPY</LF:word>
+    <LF:start>41</LF:start>
+    <LF:end>53</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><compound-communication-act>
+<utt><words><lisp>(W::OBJECTIVE W::TUMOR W::REGRESSIONS W::WERE W::MORE W::COMMON W::IN)</lisp><word>OBJECTIVE</word><word>TUMOR</word><word>REGRESSIONS</word><word>WERE</word><word>MORE</word><word>COMMON</word><word>IN</word></words><tags><lisp>((WORD &quot;objective&quot; :FRAME (55 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;objective&quot; :FRAME (55 64) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;tumor&quot; :FRAME (65 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C3262 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;tumor&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C3262
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+             :TO ONT::CANCER))
+       :ONT-TYPES (ONT::CANCER))
+      (SPECIALIST :EUI E0321587 :CITATION-FORM &quot;tumor&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;tumor&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.70379
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID EFO::|0000616| :NAME &quot;neoplasm&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Tumor&quot; :STATUS &quot;EXACT synonym&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT EFO::|0000408|
+              (SENSE (MORPH (POS N) (WORD DISEASE))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+      (SPECIALIST :EUI E0321587 :CITATION-FORM &quot;tumor&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;tumor&quot; :EXACT 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tumor&quot; :FRAME (65 70) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;regressions&quot; :FRAME (71 82) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C118200 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;regression&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C2991
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C2991&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00299.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+      (SPECIALIST :EUI E0052527 :CITATION-FORM &quot;regression&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;regressions&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(to,np(mean))&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0052525 :CAT VERB :CITATION-FORM &quot;regress&quot;)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;regressions&quot; :FRAME (71 82) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;tumor regressions&quot; :FRAME (65 82) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;objective tumor regressions&quot; :FRAME (55 82) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (83 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;more&quot; :FRAME (88 92) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RBR) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;more&quot; :FRAME (88 92) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;common&quot; :FRAME (93 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;common&quot; :FRAME (93 99) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;more common&quot; :FRAME (88 99) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (100 102) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="objective" start="55" end="64"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="objective" start="55" end="64" penn-cats="ADJP,QP" /><word lex="tumor" start="65" end="70"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER" score="0.70732"><term id="NCIT:C3262" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;" score="0.70732" ont-types="CANCER"><match score="0.70732" matched="tumor" status="synonym" exact="1" /><map to="CANCER" through="NCIT:C3262" /></term><specialist eui="E0321587" citation-form="tumor"><match score="1.0" matched="tumor" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS" score="0.70379"><term id="EFO:0000616" name="neoplasm" score="0.70379" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.70379" matched="Tumor" status="EXACT synonym" no-caps-initial-cap="1" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="EFO:0000408" /></term><specialist eui="E0321587" citation-form="tumor"><match score="1.0" matched="tumor" exact="1" /></specialist></sense-info></word><prefer text="tumor" start="65" end="70" penn-cats="NP" /><word lex="regressions" start="71" end="82"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS" score="0.70732"><term id="NCIT:C118200" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;" score="0.70732" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.70732" matched="regression" status="synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="1" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="NCIT:C2991" /></term><specialist eui="E0052527" citation-form="regression"><match score="1.0" matched="regressions" exact="1" />    <complement>compl=pphr(of,np)</complement>
+    <complement>compl=pphr(to,np(mean))</complement>
+<nominalization-of><specialist eui="E0052525" cat="VERB" citation-form="regress" /></nominalization-of></specialist></sense-info></word><prefer text="regressions" start="71" end="82" penn-cats="NX,NAC" /><prefer text="tumor regressions" start="65" end="82" penn-cats="NX,NAC" /><prefer text="objective tumor regressions" start="55" end="82" penn-cats="NP,NX,NAC" /><word lex="were" start="83" end="87"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="more" start="88" end="92"><sense-info penn-parts-of-speech="RBR" trips-parts-of-speech="ADV" /></word><prefer text="more" start="88" end="92" penn-cats="ADVP" /><word lex="common" start="93" end="99"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="common" start="93" end="99" penn-cats="ADJP,QP" /><prefer text="more common" start="88" end="99" penn-cats="ADJP,QP" /><word lex="in" start="100" end="102"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP
+   (N1 (N1 (ADJP (ADJ1 (ADJ OBJECTIVE))) (N1 (N TUMOR))) (N1 (N REGRESSIONS))))
+  (VP
+   (VP- (V WERE)
+    (NP (SPEC (QUAN MORE)) (ADJP (ADJ1 (ADJ1 (ADJ COMMON)) (PP (PREP IN)))))))))</lisp><UTT><S><NP><N1><N1><ADJP><ADJ1><ADJ>OBJECTIVE</ADJ></ADJ1></ADJP><N1><N>TUMOR</N></N1></N1><N1><N>REGRESSIONS</N></N1></N1></NP><VP><VP-><V>WERE</V><NP><SPEC><QUAN>MORE</QUAN></SPEC><ADJP><ADJ1><ADJ1><ADJ>COMMON</ADJ></ADJ1><PP><PREP>IN</PREP></PP></ADJ1></ADJP></NP></VP-></VP></S></UTT></tree><terms root="#V3304872"><lisp>((ONT::SPEECHACT ONT::V3304872 ONT::SA_TELL :CONTENT ONT::V3294929 :START 55
+  :END 103)
+ (ONT::F ONT::V3294929 (:* ONT::BE W::BE) :NEUTRAL ONT::V3294921 :NEUTRAL1
+  ONT::V3295554 :TENSE W::PAST :START 55 :END 103)
+ (ONT::INDEF-SET ONT::V3294921
+  (:* ONT::MEDICAL-DISORDERS-AND-CONDITIONS W::REGRESSIONS) :ASSOC-WITH
+  ONT::V3294906 :START 55 :END 83 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C118200 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;regression&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C2991
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C2991&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00299.lisp&quot;))))
+           :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+     :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+    (SPECIALIST :EUI E0052527 :CITATION-FORM &quot;regression&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;regressions&quot; :EXACT 1)) :COMPLEMENTS
+     (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(to,np(mean))&quot;) :NOMINALIZATION-OF
+     ((SPECIALIST :EUI E0052525 :CAT VERB :CITATION-FORM &quot;regress&quot;))))))
+ (ONT::KIND ONT::V3294906 (:* ONT::CANCER W::TUMOR) :MOD ONT::V3294896 :START
+  55 :END 83 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C3262 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;tumor&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C3262
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+           :TO ONT::CANCER))
+     :ONT-TYPES (ONT::CANCER))
+    (SPECIALIST :EUI E0321587 :CITATION-FORM &quot;tumor&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;tumor&quot; :EXACT 1))))))
+ (ONT::F ONT::V3294896 (:* ONT::ACTUAL W::OBJECTIVE) :FIGURE ONT::V3294906
+  :START 55 :END 65)
+ (ONT::INDEF-SET ONT::V3295554 ONT::ANY-SEM :QUAN (:* ONT::QMODIFIER W::MORE)
+  :MOD ONT::V3294948 :START 88 :END 103)
+ (ONT::F ONT::V3294948 (:* ONT::TYPICAL-VAL W::COMMON) :INTENSITY ONT::MED
+  :ORIENTATION ONT::MORE :FIGURE ONT::V3295554 :START 93 :END 103))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3304872">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3294929" />
+    <LF:start>55</LF:start>
+    <LF:end>103</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3294929">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3294921" />
+    <role:NEUTRAL1 rdf:resource="#V3295554" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>55</LF:start>
+    <LF:end>103</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3294921">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>MEDICAL-DISORDERS-AND-CONDITIONS</LF:type>
+    <LF:word>REGRESSIONS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3294906" />
+    <LF:start>55</LF:start>
+    <LF:end>83</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C118200 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118200&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;regression&quot; :STATUS &quot;synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C2991
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C2991&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00299.lisp&quot;))))
+         :TO MEDICAL-DISORDERS-AND-CONDITIONS))
+   :ONT-TYPES (MEDICAL-DISORDERS-AND-CONDITIONS))
+  (SPECIALIST :EUI E0052527 :CITATION-FORM &quot;regression&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;regressions&quot; :EXACT 1)) :COMPLEMENTS
+   (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(to,np(mean))&quot;) :NOMINALIZATION-OF
+   ((SPECIALIST :EUI E0052525 :CAT VERB :CITATION-FORM &quot;regress&quot;)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3294906">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>CANCER</LF:type>
+    <LF:word>TUMOR</LF:word>
+    <role:MOD rdf:resource="#V3294896" />
+    <LF:start>55</LF:start>
+    <LF:end>83</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C3262 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;tumor&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C3262
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+         :TO CANCER))
+   :ONT-TYPES (CANCER))
+  (SPECIALIST :EUI E0321587 :CITATION-FORM &quot;tumor&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;tumor&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3294896">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACTUAL</LF:type>
+    <LF:word>OBJECTIVE</LF:word>
+    <role:FIGURE rdf:resource="#V3294906" />
+    <LF:start>55</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295554">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <role:QUAN>(:* QMODIFIER MORE)</role:QUAN>
+    <role:MOD rdf:resource="#V3294948" />
+    <LF:start>88</LF:start>
+    <LF:end>103</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3294948">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TYPICAL-VAL</LF:type>
+    <LF:word>COMMON</LF:word>
+    <role:INTENSITY>MED</role:INTENSITY>
+    <role:ORIENTATION>MORE</role:ORIENTATION>
+    <role:FIGURE rdf:resource="#V3295554" />
+    <LF:start>93</LF:start>
+    <LF:end>103</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::PATIENTS W::WHO W::HAD W::WILD W::PUNC-MINUS W::TYPE W::B W::PUNC-MINUS
+ W::RAF W::START-SQUARE-PAREN 34 W::END-SQUARE-PAREN)</lisp><word>PATIENTS</word><word>WHO</word><word>HAD</word><word>WILD</word><word>PUNC-MINUS</word><word>TYPE</word><word>B</word><word>PUNC-MINUS</word><word>RAF</word><word>START-SQUARE-PAREN</word><word>34</word><word>END-SQUARE-PAREN</word></words><tags><lisp>((WORD &quot;patients&quot; :FRAME (103 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;patients&quot; :FRAME (103 111) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;who&quot; :FRAME (112 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (WP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;who&quot; :FRAME (112 115) :ENJU-CATS (NP_REL) :PENN-CATS (WHNP)
+  :TRIPS-CATS (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;had&quot; :FRAME (116 119) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wild&quot; :FRAME (120 123) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (124 124) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;type&quot; :FRAME (125 129) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;wild-type&quot; :FRAME (120 129) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wild-type&quot; :FRAME (120 129) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B&quot; :FRAME (130 130) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;type B&quot; :FRAME (125 130) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;type_B%1:08:00&quot;))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|00994| :NAME &quot;type B subfamily&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;type B&quot; :STATUS &quot;ID&quot; :EXACT 2))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::P02854 :NAME &quot;Provicilin&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;type B&quot; :STATUS &quot;AltName: Full&quot; :EXACT
+         2))
+       :DBXREFS (XFAM::PF00190) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (131 131) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;raf&quot; :FRAME (132 135) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.98425 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::RAF :NAME &quot;RAF&quot; :SCORE 0.98425 :MATCHES
+       ((MATCH :SCORE 0.98425 :MATCHED &quot;RAF&quot; :STATUS &quot;name&quot; :NO-CAPS-ALL-CAPS
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::RAF
+              (SENSE (MORPH (POS N) (WORD RAF))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/R.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID FA::|03114| :NAME &quot;RAF subfamily&quot; :SCORE 0.83791 :MATCHES
+       ((MATCH :SCORE 0.83791 :MATCHED &quot;RAF&quot; :STATUS &quot;ID&quot; :NO-CAPS-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C51274 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;&quot; :SCORE
+       0.69157 :MATCHES
+       ((MATCH :SCORE 0.69157 :MATCHED &quot;RAF&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::Q06891 :NAME &quot;Trans-acting factor D&quot; :SCORE 0.54523
+       :MATCHES
+       ((MATCH :SCORE 0.54523 :MATCHED &quot;RAF&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (SPECIALIST :EUI E0319446 :CITATION-FORM &quot;RAF&quot; :MATCHES
+       ((MATCH :SCORE 0.35436 :MATCHED &quot;RAF&quot; :NO-CAPS-ALL-CAPS 1))
+       :ABBREVIATION-OF
+       ((SPECIALIST :EUI E0319447 :CITATION-FORM &quot;repetitive atrial firing&quot;)
+        (SPECIALIST :EUI E0319448 :CITATION-FORM
+         &quot;rheumatoid arthritis factor&quot;))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0707877 :CITATION-FORM &quot;relative activity factor&quot;)
+        (SPECIALIST :EUI E0707878 :CITATION-FORM &quot;Royal Air Force&quot;)))
+      (SPECIALIST :EUI E0707902 :CITATION-FORM &quot;Raf&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;Raf&quot; :NO-CAPS-INITIAL-CAP 1))
+       :ABBREVIATION-OF
+       ((SPECIALIST :EUI E0051880 :CITATION-FORM &quot;raffinose&quot;)))
+      (SPECIALIST :EUI E0707903 :CITATION-FORM &quot;Raf&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;Raf&quot; :NO-CAPS-INITIAL-CAP 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B-raf&quot; :FRAME (130 135) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|1097| :NAME
+       &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+         :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C17476 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C18363 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;B-raf&quot; :FRAME (130 135) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wild-type B-raf&quot; :FRAME (120 135) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;[&quot; :FRAME (136 136) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;34&quot; :FRAME (137 138) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::J663 :NAME &quot;34&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;34&quot; :STATUS &quot;name&quot; :EXACT 0))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;34&quot; :FRAME (137 138) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;]&quot; :FRAME (139 139) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;34]&quot; :FRAME (137 139) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;[34]&quot; :FRAME (136 139) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;wild-type B-raf [34]&quot; :FRAME (120 139) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;had wild-type B-raf [34]&quot; :FRAME (116 139) :PENN-CATS (VP S)
+  :TRIPS-CATS (W::VP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;who had wild-type B-raf [34]&quot; :FRAME (112 139) :PENN-CATS (SBAR)
+  :TRIPS-CATS (W::CP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;patients who had wild-type B-raf [34]&quot; :FRAME (103 139) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in patients who had wild-type B-raf [34]&quot; :FRAME (100 139) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;were more common in patients who had wild-type B-raf [34]&quot; :FRAME
+  (83 139) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 275 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="patients" start="103" end="111"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="patients" start="103" end="111" penn-cats="NP,NX,NAC" /><word lex="who" start="112" end="115"><sense-info penn-parts-of-speech="WP" trips-parts-of-speech="PRO" /></word><prefer text="who" start="112" end="115" penn-cats="WHNP" /><word lex="had" start="116" end="119"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="wild" start="120" end="123" /><word lex="-" start="124" end="124" /><word lex="type" start="125" end="129" /><word lex="wild-type" start="120" end="129"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="wild-type" start="120" end="129" penn-cats="ADJP,QP" /><word lex="B" start="130" end="130" /><word lex="type B" start="125" end="130"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="type_B%1:08:00" /><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="FA:00994" name="type B subfamily" score="0.85366" ont-types="PROTEIN-FAMILY"><match score="0.85366" matched="type B" status="ID" exact="2" /></term><term id="UP:P02854" name="Provicilin" score="0.56098" dbxrefs="XFAM:PF00190" ont-types="PROTEIN"><match score="0.56098" matched="type B" status="AltName: Full" exact="2" /></term></sense-info></word><word lex="-" start="131" end="131" /><word lex="raf" start="132" end="135"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.98425"><term id="BE:RAF" name="RAF" score="0.98425" ont-types="PROTEIN-FAMILY"><match score="0.98425" matched="RAF" status="name" no-caps-all-caps="1" /><map to="PROTEIN-FAMILY" through="BE:RAF" /></term><term id="FA:03114" name="RAF subfamily" score="0.83791" ont-types="PROTEIN-FAMILY"><match score="0.83791" matched="RAF" status="ID" no-caps-all-caps="1" /></term><term id="NCIT:C51274" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;" score="0.69157" ont-types="GENE"><match score="0.69157" matched="RAF" status="synonym" no-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:Q06891" name="Trans-acting factor D" score="0.54523" ont-types="PROTEIN"><match score="0.54523" matched="RAF" status="AltName: Short" no-caps-all-caps="1" /></term><specialist eui="E0319446" citation-form="RAF"><match score="0.35436" matched="RAF" no-caps-all-caps="1" /><abbreviation-of><specialist eui="E0319447" citation-form="repetitive atrial firing" /><specialist eui="E0319448" citation-form="rheumatoid arthritis factor" /></abbreviation-of><acronym-of><specialist eui="E0707877" citation-form="relative activity factor" /><specialist eui="E0707878" citation-form="Royal Air Force" /></acronym-of></specialist><specialist eui="E0707902" citation-form="Raf"><match score="0.85529" matched="Raf" no-caps-initial-cap="1" /><abbreviation-of><specialist eui="E0051880" citation-form="raffinose" /></abbreviation-of></specialist><specialist eui="E0707903" citation-form="Raf"><match score="0.85529" matched="Raf" no-caps-initial-cap="1" /></specialist></sense-info></word><word lex="B-raf" start="130" end="135"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:1097" name="B-Raf proto-oncogene, serine/threonine kinase" score="0.85366" dbxrefs="UP:P15056" ont-types="GENE"><match score="0.85366" matched="BRAF" status="Approved Symbol" exact="1" /><match score="0.85212" matched="BRAF" status="Approved Symbol" dash-no-dash="1" exact="1" no-caps-all-caps="1" /></term><term id="NCIT:C17476" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" no-caps-all-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C18363" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" no-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term></sense-info></word><prefer text="B-raf" start="130" end="135" penn-cats="NP" /><prefer text="wild-type B-raf" start="120" end="135" penn-cats="NP" /><word lex="[" start="136" end="136"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="34" start="137" end="138"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85366"><term id="CVCL:J663" name="34" score="0.85366" ont-types="CELL-LINE"><match score="0.85366" matched="34" status="name" exact="0" /></term></sense-info></word><prefer text="34" start="137" end="138" penn-cats="NP,NX,NAC" /><word lex="]" start="139" end="139"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="34]" start="137" end="139" penn-cats="NP" /><prefer text="[34]" start="136" end="139" penn-cats="PP" /><prefer text="wild-type B-raf [34]" start="120" end="139" penn-cats="NP" /><prefer text="had wild-type B-raf [34]" start="116" end="139" penn-cats="VP,S" /><prefer text="who had wild-type B-raf [34]" start="112" end="139" penn-cats="SBAR" /><prefer text="patients who had wild-type B-raf [34]" start="103" end="139" penn-cats="NP" /><prefer text="in patients who had wild-type B-raf [34]" start="100" end="139" penn-cats="PP" /><prefer text="were more common in patients who had wild-type B-raf [34]" start="83" end="139" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (NP
+  (N1 (N1 (N PATIENTS))
+   (CP (PRO WHO)
+    (VP
+     (VP- (V HAD)
+      (NP
+       (NP
+        (N1 (ADJP (ADJ1 (ADJ (WORD WILD) (WORD PUNC-MINUS) (WORD TYPE))))
+         (N1 (NAME B PUNC-MINUS RAF))))
+       (PARENTHETICAL (PUNC START-SQUARE-PAREN) (UTT (NP (NUMBER 34)))
+        (PUNC END-SQUARE-PAREN)))))))))</lisp><UTT><NP><N1><N1><N>PATIENTS</N></N1><CP><PRO>WHO</PRO><VP><VP-><V>HAD</V><NP><NP><N1><ADJP><ADJ1><ADJ><WORD>WILD</WORD><WORD>PUNC-MINUS</WORD><WORD>TYPE</WORD></ADJ></ADJ1></ADJP><N1><NAME>B PUNC-MINUS RAF</NAME></N1></N1></NP><PARENTHETICAL><PUNC>START-SQUARE-PAREN</PUNC><UTT><NP><NUMBER>34</NUMBER></NP></UTT><PUNC>END-SQUARE-PAREN</PUNC></PARENTHETICAL></NP></VP-></VP></CP></N1></NP></UTT></tree><terms root="#V3296222"><lisp>((ONT::SPEECHACT ONT::V3296222 ONT::SA_IDENTIFY :CONTENT ONT::V3295004 :START
+  103 :END 139)
+ (ONT::INDEF-SET ONT::V3295004 (:* ONT::PATIENT W::PATIENT) :MOD ONT::V3295013
+  :START 103 :END 139)
+ (ONT::F ONT::V3295013 (:* ONT::HAVE W::HAVE) :NEUTRAL ONT::V3295004 :NEUTRAL1
+  ONT::V3295127 :TENSE W::PAST :START 112 :END 139)
+ (ONT::BARE ONT::V3295127 (:* ONT::GENE-PROTEIN W::B-PUNC-MINUS-RAF)
+  :PARENTHETICAL ONT::V3295134 :NAME-OF (W::B W::PUNC-MINUS W::RAF) :MOD
+  ONT::V3295035 :START 120 :END 139 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|1097| :NAME
+     &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+      (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+       :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C17476 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C18363 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE)))))
+ (ONT::F ONT::V3295035 (:* ONT::NATURAL W::WILD-PUNC-MINUS-TYPE) :FIGURE
+  ONT::V3295127 :START 120 :END 130)
+ (ONT::SPEECHACT ONT::V3295304 ONT::SA_IDENTIFY :CONTENT ONT::V3295134 :START
+  137 :END 139)
+ (ONT::INDEF-SET ONT::V3295134 ONT::NUMBER :NUMBER 34 :START 137 :END 139))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3296222">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3295004" />
+    <LF:start>103</LF:start>
+    <LF:end>139</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295004">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PATIENT</LF:type>
+    <LF:word>PATIENT</LF:word>
+    <role:MOD rdf:resource="#V3295013" />
+    <LF:start>103</LF:start>
+    <LF:end>139</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295013">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE</LF:type>
+    <LF:word>HAVE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3295004" />
+    <role:NEUTRAL1 rdf:resource="#V3295127" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>112</LF:start>
+    <LF:end>139</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295127">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>B-PUNC-MINUS-RAF</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V3295134" />
+    <role:NAME-OF>(B PUNC-MINUS RAF)</role:NAME-OF>
+    <role:MOD rdf:resource="#V3295035" />
+    <LF:start>120</LF:start>
+    <LF:end>139</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+    (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+     :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :DBXREFS (P15056) :ONT-TYPES (GENE))
+  (TERM :ID C17476 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C18363 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295035">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>NATURAL</LF:type>
+    <LF:word>WILD-PUNC-MINUS-TYPE</LF:word>
+    <role:FIGURE rdf:resource="#V3295127" />
+    <LF:start>120</LF:start>
+    <LF:end>130</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295304">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3295134" />
+    <LF:start>137</LF:start>
+    <LF:end>139</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3295134">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>34</role:NUMBER>
+    <LF:start>137</LF:start>
+    <LF:end>139</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<compound-communication-act>
+<utt><words><lisp>(W::THE W::FINDINGS W::OF W::THE W::CURRENT W::REPORT W::SUPPORT W::CONTINUED)</lisp><word>THE</word><word>FINDINGS</word><word>OF</word><word>THE</word><word>CURRENT</word><word>REPORT</word><word>SUPPORT</word><word>CONTINUED</word></words><tags><lisp>((WORD &quot;.&quot; :FRAME (140 140) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;The&quot; :FRAME (141 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.The&quot; :FRAME (140 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;findings&quot; :FRAME (145 153) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;findings&quot; :FRAME (145 153) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (154 156) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (157 160) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;current&quot; :FRAME (161 168) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;current&quot; :FRAME (161 168) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;report&quot; :FRAME (169 175) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;report&quot; :FRAME (169 175) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;support&quot; :FRAME (176 183) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;support&quot; :FRAME (176 183) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;continued&quot; :FRAME (184 193) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;continued&quot; :FRAME (184 193) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="." start="140" end="140" /><word lex="The" start="141" end="144"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex=".The" start="140" end="144"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" /></word><word lex="findings" start="145" end="153"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="findings" start="145" end="153" penn-cats="NX,NAC" /><word lex="of" start="154" end="156"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="157" end="160"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="current" start="161" end="168"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="current" start="161" end="168" penn-cats="ADJP,QP" /><word lex="report" start="169" end="175"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="report" start="169" end="175" penn-cats="NP" /><word lex="support" start="176" end="183"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="support" start="176" end="183" penn-cats="NP" /><word lex="continued" start="184" end="193"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><prefer text="continued" start="184" end="193" penn-cats="VP" /></tags><tree><lisp>(PUNC PUNC-PERIOD)</lisp><PUNC>PUNC-PERIOD</PUNC></tree><terms root="#V3312593"><lisp>((ONT::SPEECHACT ONT::V3312593 ONT::SA_TELL :CONTENT ONT::V3308052 :START 141
+  :END 194)
+ (ONT::F ONT::V3308052 (:* ONT::ACTIVITY-ONGOING W::CONTINUE) :AGENT
+  ONT::V3307978 :TENSE W::PAST :START 141 :END 194)
+ (ONT::THE-SET ONT::V3307978 (:* ONT::CLINICAL-FINDING W::FINDING) :FIGURE
+  ONT::V3308024 :START 141 :END 184)
+ (ONT::THE ONT::V3308024 (:* ONT::CONFIRM W::SUPPORT) :ASSOC-WITH ONT::V3308004
+  :MOD ONT::V3307996 :START 154 :END 184)
+ (ONT::KIND ONT::V3308004 (:* ONT::ASSERT W::REPORT) :START 154 :END 184)
+ (ONT::F ONT::V3307996 (:* ONT::CURRENT-VAL W::CURRENT) :FIGURE ONT::V3308024
+  :START 161 :END 169))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3312593">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3308052" />
+    <LF:start>141</LF:start>
+    <LF:end>194</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308052">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACTIVITY-ONGOING</LF:type>
+    <LF:word>CONTINUE</LF:word>
+    <role:AGENT rdf:resource="#V3307978" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>141</LF:start>
+    <LF:end>194</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3307978">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>CLINICAL-FINDING</LF:type>
+    <LF:word>FINDING</LF:word>
+    <role:FIGURE rdf:resource="#V3308024" />
+    <LF:start>141</LF:start>
+    <LF:end>184</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308024">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CONFIRM</LF:type>
+    <LF:word>SUPPORT</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3308004" />
+    <role:MOD rdf:resource="#V3307996" />
+    <LF:start>154</LF:start>
+    <LF:end>184</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308004">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>ASSERT</LF:type>
+    <LF:word>REPORT</LF:word>
+    <LF:start>154</LF:start>
+    <LF:end>184</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3307996">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CURRENT-VAL</LF:type>
+    <LF:word>CURRENT</LF:word>
+    <role:FIGURE rdf:resource="#V3308024" />
+    <LF:start>161</LF:start>
+    <LF:end>169</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::INVESTIGATION W::OF W::BAY)</lisp><word>INVESTIGATION</word><word>OF</word><word>BAY</word></words><tags><lisp>((WORD &quot;investigation&quot; :FRAME (194 207) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;investigation&quot; :FRAME (194 207) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;of&quot; :FRAME (208 210) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="investigation" start="194" end="207"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="investigation" start="194" end="207" penn-cats="NP,NX,NAC" /><word lex="of" start="208" end="210"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP (SPEC (DET (ART THE)))
+   (N1 (N FINDINGS)
+    (PP (PREP OF)
+     (NP (SPEC (DET (ART THE)))
+      (N1 (ADJP (ADJ1 (ADJ CURRENT)))
+       (N1 (N1 (N REPORT)) (N1 (N SUPPORT))))))))
+  (VP (VP- (V CONTINUED)))))</lisp><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>FINDINGS</N><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>CURRENT</ADJ></ADJ1></ADJP><N1><N1><N>REPORT</N></N1><N1><N>SUPPORT</N></N1></N1></N1></NP></PP></N1></NP><VP><VP-><V>CONTINUED</V></VP-></VP></S></UTT></tree><terms root="#V3312824"><lisp>((ONT::SPEECHACT ONT::V3312824 ONT::SA_IDENTIFY :CONTENT ONT::V3308060 :START
+  194 :END 213)
+ (ONT::BARE ONT::V3308060 (:* ONT::SCRUTINY W::INVESTIGATION) :NEUTRAL
+  ONT::V3308105 :START 194 :END 213)
+ (ONT::BARE ONT::V3308105 (:* ONT::GEO-FORMATION W::BAY) :START 208 :END 213))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3312824">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3308060" />
+    <LF:start>194</LF:start>
+    <LF:end>213</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308060">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>INVESTIGATION</LF:word>
+    <role:NEUTRAL rdf:resource="#V3308105" />
+    <LF:start>194</LF:start>
+    <LF:end>213</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308105">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GEO-FORMATION</LF:type>
+    <LF:word>BAY</LF:word>
+    <LF:start>208</LF:start>
+    <LF:end>213</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(43 W::PUNC-MINUS 9006)</lisp><word>43</word><word>PUNC-MINUS</word><word>9006</word></words><tags><lisp>((WORD &quot;BAY&quot; :FRAME (211 213) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;43&quot; :FRAME (214 215) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43&quot; :FRAME (211 215) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (216 216) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;9006&quot; :FRAME (217 221) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43-9006&quot; :FRAME (211 221) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY43-9006&quot; :FRAME (211 221) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="BAY" start="211" end="213" /><word lex="43" start="214" end="215" /><word lex="BAY43" start="211" end="215" /><word lex="-" start="216" end="216" /><word lex="9006" start="217" end="221" /><word lex="BAY43-9006" start="211" end="221"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="BAY43-9006" start="211" end="221" penn-cats="NP,NX,NAC" /></tags><tree><lisp>(UTT (NP (N1 (N1 (N INVESTIGATION)) (PP (PREP OF) (NP (N1 (N BAY)))))))</lisp><UTT><NP><N1><N1><N>INVESTIGATION</N></N1><PP><PREP>OF</PREP><NP><N1><N>BAY</N></N1></NP></PP></N1></NP></UTT></tree><terms root="#V3310400"><lisp>((ONT::SPEECHACT ONT::V3310400 ONT::SA_IDENTIFY :CONTENT ONT::V3309237 :START
+  213 :END 222)
+ (ONT::THE ONT::V3309237 ONT::NUMBER :SEQUENCE (ONT::V3308137 ONT::V3308143)
+  :START 213 :END 222)
+ (ONT::INDEF-SET ONT::V3308137 ONT::NUMBER :NUMBER 43 :START 213 :END 216)
+ (ONT::INDEF-SET ONT::V3308143 ONT::NUMBER :NUMBER 9006 :START 217 :END 222))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3310400">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3309237" />
+    <LF:start>213</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3309237">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V3308137" />
+    <role:SEQUENCE1 rdf:resource="#V3308143" />
+    <LF:start>213</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308137">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>43</role:NUMBER>
+    <LF:start>213</LF:start>
+    <LF:end>216</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308143">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>9006</role:NUMBER>
+    <LF:start>217</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FOR W::TREATMENT W::OF W::PATIENTS W::WITH W::MELANOMA W::PUNC-COMMA)</lisp><word>FOR</word><word>TREATMENT</word><word>OF</word><word>PATIENTS</word><word>WITH</word><word>MELANOMA</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;for&quot; :FRAME (222 225) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;treatment&quot; :FRAME (226 235) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;treatment&quot; :FRAME (226 235) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (236 238) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;patients&quot; :FRAME (239 247) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;patients&quot; :FRAME (239 247) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (248 252) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;melanoma&quot; :FRAME (253 260) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID EFO::|0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT EFO::|0000311|
+              (SENSE (MORPH (POS N) (WORD CANCER))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000031.lisp&quot;))))
+             :TO ONT::CANCER)
+        (MAP :THROUGH
+             (CONCEPT EFO::|0000408|
+              (SENSE (MORPH (POS N) (WORD DISEASE))
+               (PROVENANCE (NAME LEXICON-DATA::EFO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CANCER) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C3224 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;melanoma&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C3262
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C3262&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00326.lisp&quot;))))
+             :TO ONT::CANCER))
+       :ONT-TYPES (ONT::CANCER))
+      (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;melanoma&quot; :FRAME (253 260) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;with melanoma&quot; :FRAME (248 260) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;patients with melanoma&quot; :FRAME (239 260) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;of patients with melanoma&quot; :FRAME (236 260) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;treatment of patients with melanoma&quot; :FRAME (226 260) :ENJU-CATS
+  (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for treatment of patients with melanoma&quot; :FRAME (222 260) :ENJU-CATS
+  (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 275 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (261 262) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="for" start="222" end="225"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="treatment" start="226" end="235"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="treatment" start="226" end="235" penn-cats="NP,NX,NAC" /><word lex="of" start="236" end="238"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="patients" start="239" end="247"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="patients" start="239" end="247" penn-cats="NP,NX,NAC" /><word lex="with" start="248" end="252"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="melanoma" start="253" end="260"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS" score="0.85366"><term id="EFO:0000756" name="melanoma" score="0.85366" ont-types="CANCER,MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.85366" matched="melanoma" status="name" exact="1" /><map to="CANCER" through="EFO:0000311" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="EFO:0000408" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CANCER" score="0.70732"><term id="NCIT:C3224" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224&gt;" score="0.70732" ont-types="CANCER"><match score="0.70732" matched="melanoma" status="synonym" exact="1" /><map to="CANCER" through="NCIT:C3262" /></term><specialist eui="E0039385" citation-form="melanoma"><match score="1.0" matched="melanoma" exact="1" /></specialist></sense-info></word><prefer text="melanoma" start="253" end="260" penn-cats="NP,NX,NAC" /><prefer text="with melanoma" start="248" end="260" penn-cats="PP" /><prefer text="patients with melanoma" start="239" end="260" penn-cats="NP,NX,NAC" /><prefer text="of patients with melanoma" start="236" end="260" penn-cats="PP" /><prefer text="treatment of patients with melanoma" start="226" end="260" penn-cats="NP,NX,NAC" /><prefer text="for treatment of patients with melanoma" start="222" end="260" penn-cats="PP" /><word lex="," start="261" end="262"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT (NP (NPSEQ (NP (NUMBER 43)) (PUNC PUNC-MINUS) (NP (NUMBER 9006)))))</lisp><UTT><NP><NPSEQ><NP><NUMBER>43</NUMBER></NP><PUNC>PUNC-MINUS</PUNC><NP><NUMBER>9006</NUMBER></NP></NPSEQ></NP></UTT></tree><terms root="#V3308154"><lisp>((ONT::F ONT::V3308154 (:* ONT::PURPOSE W::FOR) :GROUND ONT::V3308178 :START
+  222 :END 263)
+ (ONT::BARE ONT::V3308178 (:* ONT::CONTROL-MANAGE W::TREATMENT) :AFFECTED
+  ONT::V3308189 :START 226 :END 263)
+ (ONT::INDEF-SET ONT::V3308189 (:* ONT::PATIENT W::PATIENT) :MOD ONT::V3308193
+  :START 236 :END 261)
+ (ONT::F ONT::V3308193 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V3308208
+  :FIGURE ONT::V3308189 :START 248 :END 261)
+ (ONT::BARE ONT::V3308208 (:* ONT::CANCER W::MELANOMA) :START 253 :END 261
+  :DRUM
+  ((:DRUM
+    (TERM :ID EFO::|0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT EFO::|0000311|
+            (SENSE (MORPH (POS N) (WORD CANCER))
+             (PROVENANCE (NAME LEXICON-DATA::EFO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000031.lisp&quot;))))
+           :TO ONT::CANCER)
+      (MAP :THROUGH
+           (CONCEPT EFO::|0000408|
+            (SENSE (MORPH (POS N) (WORD DISEASE))
+             (PROVENANCE (NAME LEXICON-DATA::EFO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+           :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+     :ONT-TYPES (ONT::CANCER ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+    (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1)))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3308154">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURPOSE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V3308178" />
+    <LF:start>222</LF:start>
+    <LF:end>263</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308178">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CONTROL-MANAGE</LF:type>
+    <LF:word>TREATMENT</LF:word>
+    <role:AFFECTED rdf:resource="#V3308189" />
+    <LF:start>226</LF:start>
+    <LF:end>263</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308189">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>PATIENT</LF:type>
+    <LF:word>PATIENT</LF:word>
+    <role:MOD rdf:resource="#V3308193" />
+    <LF:start>236</LF:start>
+    <LF:end>261</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308193">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V3308208" />
+    <role:FIGURE rdf:resource="#V3308189" />
+    <LF:start>248</LF:start>
+    <LF:end>261</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308208">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CANCER</LF:type>
+    <LF:word>MELANOMA</LF:word>
+    <LF:start>253</LF:start>
+    <LF:end>261</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0000756| :NAME &quot;melanoma&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;melanoma&quot; :STATUS &quot;name&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0000311|
+          (SENSE (MORPH (POS N) (WORD CANCER))
+           (PROVENANCE (NAME EFO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000031.lisp&quot;))))
+         :TO CANCER)
+    (MAP :THROUGH
+         (CONCEPT |0000408|
+          (SENSE (MORPH (POS N) (WORD DISEASE))
+           (PROVENANCE (NAME EFO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;))))
+         :TO MEDICAL-DISORDERS-AND-CONDITIONS))
+   :ONT-TYPES (CANCER MEDICAL-DISORDERS-AND-CONDITIONS))
+  (SPECIALIST :EUI E0039385 :CITATION-FORM &quot;melanoma&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;melanoma&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::SUGGEST
+  W::THAT)</lisp><word>AND</word><word>SUGGEST</word><word>THAT</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (263 266) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (263 266) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;, and&quot; :FRAME (261 266) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;suggest&quot; :FRAME (267 274) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;that&quot; :FRAME (275 279) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="263" end="266"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="263" end="266" penn-cats="CONJP" /><prefer text=", and" start="261" end="266" penn-cats="CONJP" /><word lex="suggest" start="267" end="274"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="that" start="275" end="279"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(ADVBL (ADV FOR)
+ (NP
+  (NP
+   (N1
+    (N1 (N1 (N TREATMENT))
+     (PP (PREP OF)
+      (NP (N1 (N1 (N PATIENTS)) (ADVBL (ADV WITH) (NP (N1 (N MELANOMA))))))))))
+  (PUNC PUNC-COMMA)))</lisp><ADVBL><ADV>FOR</ADV><NP><NP><N1><N1><N1><N>TREATMENT</N></N1><PP><PREP>OF</PREP><NP><N1><N1><N>PATIENTS</N></N1><ADVBL><ADV>WITH</ADV><NP><N1><N>MELANOMA</N></N1></NP></ADVBL></N1></NP></PP></N1></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL></tree><terms root="#V3311506"><lisp>((ONT::SPEECHACT ONT::V3311506 ONT::SA_TELL :CONTENT ONT::V3308240 :MOD
+  ONT::V3308227 :START 263 :END 280)
+ (ONT::F ONT::V3308227 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V3311506 :START
+  263 :END 267)
+ (ONT::F ONT::V3308240 (:* ONT::CORRELATION W::SUGGEST) :NEUTRAL ONT::V3311507
+  :NEUTRAL1 ONT::V3308251 :TENSE W::PRES :START 267 :END 280)
+ (ONT::IMPRO ONT::V3311507 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 267
+  :END 280)
+ (ONT::PRO ONT::V3308251 (:* ONT::REFERENTIAL-SEM W::THAT) :PROFORM W::THAT
+  :START 275 :END 280))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3311506">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3308240" />
+    <role:MOD rdf:resource="#V3308227" />
+    <LF:start>263</LF:start>
+    <LF:end>280</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308227">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V3311506" />
+    <LF:start>263</LF:start>
+    <LF:end>267</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308240">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CORRELATION</LF:type>
+    <LF:word>SUGGEST</LF:word>
+    <role:NEUTRAL rdf:resource="#V3311507" />
+    <role:NEUTRAL1 rdf:resource="#V3308251" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>267</LF:start>
+    <LF:end>280</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3311507">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>267</LF:start>
+    <LF:end>280</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308251">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THAT</LF:word>
+    <role:PROFORM>THAT</role:PROFORM>
+    <LF:start>275</LF:start>
+    <LF:end>280</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::CLINICAL W::EFFECTS W::OBSERVED W::MAY W::BE W::DUE W::TO W::SOME
+ W::EFFECTS)</lisp><word>CLINICAL</word><word>EFFECTS</word><word>OBSERVED</word><word>MAY</word><word>BE</word><word>DUE</word><word>TO</word><word>SOME</word><word>EFFECTS</word></words><tags><lisp>((WORD &quot;clinical&quot; :FRAME (280 288) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0017357 :CITATION-FORM &quot;clinical&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;clinical&quot; :EXACT 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinical&quot; :FRAME (280 288) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;effects&quot; :FRAME (289 296) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;effects&quot; :FRAME (289 296) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinical effects&quot; :FRAME (280 296) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;observed&quot; :FRAME (297 305) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;observed&quot; :FRAME (297 305) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;clinical effects observed&quot; :FRAME (280 305) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 275 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;may&quot; :FRAME (306 309) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (MD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;be&quot; :FRAME (310 312) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;due&quot; :FRAME (313 316) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;due&quot; :FRAME (313 316) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (317 319) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;due to&quot; :FRAME (313 319) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0024074 :CITATION-FORM &quot;due to&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;due to&quot; :EXACT 2)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;some&quot; :FRAME (320 324) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;effects&quot; :FRAME (325 332) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;effects&quot; :FRAME (325 332) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="clinical" start="280" end="288"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0017357" citation-form="clinical"><match score="1.0" matched="clinical" exact="1" /></specialist></sense-info></word><prefer text="clinical" start="280" end="288" penn-cats="ADJP,QP" /><word lex="effects" start="289" end="296"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="effects" start="289" end="296" penn-cats="NX,NAC" /><prefer text="clinical effects" start="280" end="296" penn-cats="NP,NX,NAC" /><word lex="observed" start="297" end="305"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="observed" start="297" end="305" penn-cats="VP" /><prefer text="clinical effects observed" start="280" end="305" penn-cats="NP,NX,NAC" /><word lex="may" start="306" end="309"><sense-info penn-parts-of-speech="MD" trips-parts-of-speech="V" /></word><word lex="be" start="310" end="312"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="due" start="313" end="316"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="due" start="313" end="316" penn-cats="ADJP,QP" /><word lex="to" start="317" end="319"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="due to" start="313" end="319"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV"><specialist eui="E0024074" citation-form="due to"><match score="1.0" matched="due to" exact="2" /></specialist></sense-info></word><word lex="some" start="320" end="324"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="effects" start="325" end="332"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="effects" start="325" end="332" penn-cats="NX,NAC" /></tags><tree><lisp>(UTT (ADVBL (ADV AND)) (UTT (VP (VP- (V SUGGEST) (NP (PRO THAT))))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><VP><VP-><V>SUGGEST</V><NP><PRO>THAT</PRO></NP></VP-></VP></UTT></UTT></tree><terms root="#V3317004"><lisp>((ONT::SPEECHACT ONT::V3317004 ONT::SA_TELL :CONTENT ONT::V3308299 :START 280
+  :END 333)
+ (ONT::F ONT::V3308299 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V3308268
+  :FORMAL ONT::V3308340 :TENSE W::PRES :MODALITY (:* ONT::POSSIBILITY W::MAY)
+  :START 280 :END 333)
+ (ONT::INDEF-SET ONT::V3308268 (:* ONT::OBJECTIVE-INFLUENCE W::EFFECTS) :MOD
+  ONT::V3308279 :MOD ONT::V3308263 :START 280 :END 306)
+ (ONT::F ONT::V3308263 ONT::ASSOC-WITH :GROUND ONT::V3308737 :FIGURE
+  ONT::V3308268 :START 280 :END 289)
+ (ONT::KIND ONT::V3308737 (:* ONT::HEALTH-CARE-FACILITY W::CLINIC) :START 280
+  :END 289)
+ (ONT::F ONT::V3308279 (:* ONT::BECOMING-AWARE W::OBSERVE) :NEUTRAL
+  ONT::V3308268 :VFORM W::PASSIVE :START 297 :END 306)
+ (ONT::F ONT::V3308340 (:* ONT::DUE-TO W::DUE-TO) :GROUND ONT::V3308355 :FIGURE
+  ONT::V3308268 :START 313 :END 333)
+ (ONT::INDEF-SET ONT::V3308355 (:* ONT::OBJECTIVE-INFLUENCE W::EFFECTS) :SIZE
+  ONT::SOME :START 320 :END 333))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3317004">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3308299" />
+    <LF:start>280</LF:start>
+    <LF:end>333</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308299">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3308268" />
+    <role:FORMAL rdf:resource="#V3308340" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:MODALITY>(:* POSSIBILITY MAY)</role:MODALITY>
+    <LF:start>280</LF:start>
+    <LF:end>333</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308268">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>OBJECTIVE-INFLUENCE</LF:type>
+    <LF:word>EFFECTS</LF:word>
+    <role:MOD rdf:resource="#V3308279" />
+    <role:MOD rdf:resource="#V3308263" />
+    <LF:start>280</LF:start>
+    <LF:end>306</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308263">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V3308737" />
+    <role:FIGURE rdf:resource="#V3308268" />
+    <LF:start>280</LF:start>
+    <LF:end>289</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308737">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>HEALTH-CARE-FACILITY</LF:type>
+    <LF:word>CLINIC</LF:word>
+    <LF:start>280</LF:start>
+    <LF:end>289</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308279">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BECOMING-AWARE</LF:type>
+    <LF:word>OBSERVE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3308268" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>297</LF:start>
+    <LF:end>306</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308340">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DUE-TO</LF:type>
+    <LF:word>DUE-TO</LF:word>
+    <role:GROUND rdf:resource="#V3308355" />
+    <role:FIGURE rdf:resource="#V3308268" />
+    <LF:start>313</LF:start>
+    <LF:end>333</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308355">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>OBJECTIVE-INFLUENCE</LF:type>
+    <LF:word>EFFECTS</LF:word>
+    <role:SIZE>SOME</role:SIZE>
+    <LF:start>320</LF:start>
+    <LF:end>333</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::THAT W::ARE W::INDEPENDENT W::OF W::B W::PUNC-MINUS W::RAF W::KINASE
+ W::ACTIVITY)</lisp><word>THAT</word><word>ARE</word><word>INDEPENDENT</word><word>OF</word><word>B</word><word>PUNC-MINUS</word><word>RAF</word><word>KINASE</word><word>ACTIVITY</word></words><tags><lisp>((WORD &quot;that&quot; :FRAME (333 337) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (WDT) :TRIPS-PARTS-OF-SPEECH (W::ART))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;that&quot; :FRAME (333 337) :ENJU-CATS (NP_REL) :PENN-CATS (WHNP)
+  :TRIPS-CATS (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;are&quot; :FRAME (338 341) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;independent&quot; :FRAME (342 353) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;independent&quot; :FRAME (342 353) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (354 356) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;independent of&quot; :FRAME (342 356) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0228104 :CITATION-FORM &quot;independent of&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;independent of&quot; :EXACT 2)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B&quot; :FRAME (357 357) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (358 358) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;raf&quot; :FRAME (359 362) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.98425 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::RAF :NAME &quot;RAF&quot; :SCORE 0.98425 :MATCHES
+       ((MATCH :SCORE 0.98425 :MATCHED &quot;RAF&quot; :STATUS &quot;name&quot; :NO-CAPS-ALL-CAPS
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::RAF
+              (SENSE (MORPH (POS N) (WORD RAF))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/R.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID FA::|03114| :NAME &quot;RAF subfamily&quot; :SCORE 0.83791 :MATCHES
+       ((MATCH :SCORE 0.83791 :MATCHED &quot;RAF&quot; :STATUS &quot;ID&quot; :NO-CAPS-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C51274 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;&quot; :SCORE
+       0.69157 :MATCHES
+       ((MATCH :SCORE 0.69157 :MATCHED &quot;RAF&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::Q06891 :NAME &quot;Trans-acting factor D&quot; :SCORE 0.54523
+       :MATCHES
+       ((MATCH :SCORE 0.54523 :MATCHED &quot;RAF&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (SPECIALIST :EUI E0319446 :CITATION-FORM &quot;RAF&quot; :MATCHES
+       ((MATCH :SCORE 0.35436 :MATCHED &quot;RAF&quot; :NO-CAPS-ALL-CAPS 1))
+       :ABBREVIATION-OF
+       ((SPECIALIST :EUI E0319447 :CITATION-FORM &quot;repetitive atrial firing&quot;)
+        (SPECIALIST :EUI E0319448 :CITATION-FORM
+         &quot;rheumatoid arthritis factor&quot;))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0707877 :CITATION-FORM &quot;relative activity factor&quot;)
+        (SPECIALIST :EUI E0707878 :CITATION-FORM &quot;Royal Air Force&quot;)))
+      (SPECIALIST :EUI E0707902 :CITATION-FORM &quot;Raf&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;Raf&quot; :NO-CAPS-INITIAL-CAP 1))
+       :ABBREVIATION-OF
+       ((SPECIALIST :EUI E0051880 :CITATION-FORM &quot;raffinose&quot;)))
+      (SPECIALIST :EUI E0707903 :CITATION-FORM &quot;Raf&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;Raf&quot; :NO-CAPS-INITIAL-CAP 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;B-raf&quot; :FRAME (357 362) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|1097| :NAME
+       &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1)
+        (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+         :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C17476 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C18363 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+         :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;B-raf&quot; :FRAME (357 362) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kinase&quot; :FRAME (363 369) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C28597 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C20130
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;kinase&quot; :FRAME (363 369) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;raf kinase&quot; :FRAME (359 369) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0707879 :CITATION-FORM &quot;RAF kinase&quot; :MATCHES
+       ((MATCH :SCORE 0.93878 :MATCHED &quot;RAF kinase&quot; :EXACT 1 :NO-CAPS-ALL-CAPS
+         1)))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;activity&quot; :FRAME (370 377) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::BIOLOGICAL-PROCESS) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0016301| :NAME &quot;kinase activity&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;kinase activity&quot; :STATUS &quot;name&quot; :EXACT
+         2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0003674|
+              (SENSE (MORPH (POS N) (WORD MOLECULAR_FUNCTION))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000367.lisp&quot;))))
+             :TO ONT::BIOLOGICAL-PROCESS))
+       :ONT-TYPES (ONT::BIOLOGICAL-PROCESS))))))
+  :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (378 378) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (379 379) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (379 379) :UTTNUM 275 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;activity..&quot; :FRAME (370 379) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 275
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="that" start="333" end="337"><sense-info penn-parts-of-speech="WDT" trips-parts-of-speech="ART" /></word><prefer text="that" start="333" end="337" penn-cats="WHNP" /><word lex="are" start="338" end="341"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="independent" start="342" end="353"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="independent" start="342" end="353" penn-cats="ADJP,QP" /><word lex="of" start="354" end="356"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="independent of" start="342" end="356"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV"><specialist eui="E0228104" citation-form="independent of"><match score="1.0" matched="independent of" exact="2" /></specialist></sense-info></word><word lex="B" start="357" end="357" /><word lex="-" start="358" end="358" /><word lex="raf" start="359" end="362"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.98425"><term id="BE:RAF" name="RAF" score="0.98425" ont-types="PROTEIN-FAMILY"><match score="0.98425" matched="RAF" status="name" no-caps-all-caps="1" /><map to="PROTEIN-FAMILY" through="BE:RAF" /></term><term id="FA:03114" name="RAF subfamily" score="0.83791" ont-types="PROTEIN-FAMILY"><match score="0.83791" matched="RAF" status="ID" no-caps-all-caps="1" /></term><term id="NCIT:C51274" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51274&gt;" score="0.69157" ont-types="GENE"><match score="0.69157" matched="RAF" status="synonym" no-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:Q06891" name="Trans-acting factor D" score="0.54523" ont-types="PROTEIN"><match score="0.54523" matched="RAF" status="AltName: Short" no-caps-all-caps="1" /></term><specialist eui="E0319446" citation-form="RAF"><match score="0.35436" matched="RAF" no-caps-all-caps="1" /><abbreviation-of><specialist eui="E0319447" citation-form="repetitive atrial firing" /><specialist eui="E0319448" citation-form="rheumatoid arthritis factor" /></abbreviation-of><acronym-of><specialist eui="E0707877" citation-form="relative activity factor" /><specialist eui="E0707878" citation-form="Royal Air Force" /></acronym-of></specialist><specialist eui="E0707902" citation-form="Raf"><match score="0.85529" matched="Raf" no-caps-initial-cap="1" /><abbreviation-of><specialist eui="E0051880" citation-form="raffinose" /></abbreviation-of></specialist><specialist eui="E0707903" citation-form="Raf"><match score="0.85529" matched="Raf" no-caps-initial-cap="1" /></specialist></sense-info></word><word lex="B-raf" start="357" end="362"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:1097" name="B-Raf proto-oncogene, serine/threonine kinase" score="0.85366" dbxrefs="UP:P15056" ont-types="GENE"><match score="0.85366" matched="BRAF" status="Approved Symbol" exact="1" /><match score="0.85212" matched="BRAF" status="Approved Symbol" dash-no-dash="1" exact="1" no-caps-all-caps="1" /></term><term id="NCIT:C17476" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" no-caps-all-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C18363" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="BRAF" status="synonym" exact="1" /><match score="0.70578" matched="BRAF" status="synonym" dash-no-dash="1" exact="1" no-caps-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term></sense-info></word><prefer text="B-raf" start="357" end="362" penn-cats="ADJP,QP" /><word lex="kinase" start="363" end="369"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.85366"><term id="NCIT:C28597" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;" score="0.70732" ont-types="PROTEIN-FAMILY"><match score="0.70732" matched="kinase" status="synonym" exact="1" /><map to="PROTEIN-FAMILY" through="NCIT:C20130" /></term><specialist eui="E0036523" citation-form="kinase"><match score="1.0" matched="kinase" exact="1" /></specialist></sense-info></word><prefer text="kinase" start="363" end="369" penn-cats="NP" /><word lex="raf kinase" start="359" end="369"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0707879" citation-form="RAF kinase"><match score="0.93878" matched="RAF kinase" exact="1" no-caps-all-caps="1" /></specialist></sense-info></word><word lex="activity" start="370" end="377"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="BIOLOGICAL-PROCESS" score="0.85366"><term id="GO:0016301" name="kinase activity" score="0.85366" ont-types="BIOLOGICAL-PROCESS"><match score="0.85366" matched="kinase activity" status="name" exact="2" /><map to="BIOLOGICAL-PROCESS" through="GO:0003674" /></term></sense-info></word><word lex="." start="378" end="378" /><prefer text="." start="379" end="379" penn-cats="NP" /><word lex="." start="379" end="379" /><word lex="activity.." start="370" end="379"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP
+   (N1 (N1 (ADJP (ADJ1 (ADJ (ADJ CLINICAL)))) (N1 (N EFFECTS)))
+    (CP (VP (VP- (V (V OBSERVED)))))))
+  (VP
+   (VP- (AUX (V MAY))
+    (VP- (V BE)
+     (PRED (ADVBL (ADV DUE TO) (NP (SPEC (QUAN SOME)) (N1 (N EFFECTS))))))))))</lisp><UTT><S><NP><N1><N1><ADJP><ADJ1><ADJ><ADJ>CLINICAL</ADJ></ADJ></ADJ1></ADJP><N1><N>EFFECTS</N></N1></N1><CP><VP><VP-><V><V>OBSERVED</V></V></VP-></VP></CP></N1></NP><VP><VP-><AUX><V>MAY</V></AUX><VP-><V>BE</V><PRED><ADVBL><ADV>DUE TO</ADV><NP><SPEC><QUAN>SOME</QUAN></SPEC><N1><N>EFFECTS</N></N1></NP></ADVBL></PRED></VP-></VP-></VP></S></UTT></tree><terms root="#V3308379"><lisp>((ONT::F ONT::V3308379 (:* ONT::HAVE-PROPERTY W::BE) :FORMAL ONT::V3308392
+  :TENSE W::PRES :START 333 :END 378)
+ (ONT::F ONT::V3308392 (:* ONT::INDEPENDENT W::INDEPENDENT) :NEUTRAL1
+  ONT::V3308462 :START 342 :END 378)
+ (ONT::BARE ONT::V3308462 (:* ONT::ACTIVITY-EVENT W::ACTIVITY) :ASSOC-WITH
+  ONT::V3308450 :AGENT ONT::V3308454 :START 354 :END 378)
+ (ONT::KIND ONT::V3308450 (:* ONT::GENE-PROTEIN W::B-PUNC-MINUS-RAF) :NAME-OF
+  (W::B W::PUNC-MINUS W::RAF) :START 354 :END 378 :DRUM
+  ((:DRUM
+    (TERM :ID HGNC::|1097| :NAME
+     &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+      (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+       :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :DBXREFS (UP::P15056) :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C17476 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C18363 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+       :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE)))))
+ (ONT::BARE ONT::V3308454 (:* ONT::GENE-PROTEIN W::KINASE) :START 363 :END 370
+  :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C28597 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C20130
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1)))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3308379">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:FORMAL rdf:resource="#V3308392" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>333</LF:start>
+    <LF:end>378</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308392">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INDEPENDENT</LF:type>
+    <LF:word>INDEPENDENT</LF:word>
+    <role:NEUTRAL1 rdf:resource="#V3308462" />
+    <LF:start>342</LF:start>
+    <LF:end>378</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308462">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ACTIVITY-EVENT</LF:type>
+    <LF:word>ACTIVITY</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3308450" />
+    <role:AGENT rdf:resource="#V3308454" />
+    <LF:start>354</LF:start>
+    <LF:end>378</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308450">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>B-PUNC-MINUS-RAF</LF:word>
+    <role:NAME-OF>(B PUNC-MINUS RAF)</role:NAME-OF>
+    <LF:start>354</LF:start>
+    <LF:end>378</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |1097| :NAME &quot;B-Raf proto-oncogene, serine/threonine kinase&quot; :SCORE
+   0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot; :EXACT 1)
+    (MATCH :SCORE 0.85212 :MATCHED &quot;BRAF&quot; :STATUS &quot;Approved Symbol&quot;
+     :DASH-NO-DASH 1 :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :DBXREFS (P15056) :ONT-TYPES (GENE))
+  (TERM :ID C17476 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17476&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C18363 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18363&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70578 :MATCHED &quot;BRAF&quot; :STATUS &quot;synonym&quot; :DASH-NO-DASH 1
+     :EXACT 1 :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3308454">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>KINASE</LF:word>
+    <LF:start>363</LF:start>
+    <LF:end>370</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C28597 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C20130
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="Visuospatial abilities are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres, the underlying neurophysiological substrate is still largely unknown.Here, using a method of trifocal transcranial magnetic stimulation, we show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection.">
+<debug>
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS
+                                                                       (&quot;neurophysiology%1:09:00::&quot;))
+                                                                      (:PENN-PARTS-OF-SPEECH
+                                                                       (PARSER::NN)
+                                                                       :TRIPS-PARTS-OF-SPEECH
+                                                                       (W::N)
+                                                                       :DOMAIN-SPECIFIC-INFO
+                                                                       ((PARSER::DRUM
+                                                                         (PARSER::SPECIALIST
+                                                                          :EUI
+                                                                          PARSER::E0042488
+                                                                          :CITATION-FORM
+                                                                          &quot;neurophysiology&quot;
+                                                                          :MATCHES
+                                                                          ((PARSER::MATCH
+                                                                            :SCORE
+                                                                            0.99814
+                                                                            :MATCHED
+                                                                            &quot;neuro-physiology&quot;
+                                                                            :NO-DASH-DASH
+                                                                            1
+                                                                            :EXACT
+                                                                            2))))))) LF: ONT::DISCIPLINE LF-FORM: (W::NEUROPHYSIOLOGY) domain info: ((PARSER::DRUM
+                                                                                                                                                      (PARSER::SPECIALIST
+                                                                                                                                                       :EUI
+                                                                                                                                                       PARSER::E0042488
+                                                                                                                                                       :CITATION-FORM
+                                                                                                                                                       &quot;neurophysiology&quot;
+                                                                                                                                                       :MATCHES
+                                                                                                                                                       ((PARSER::MATCH
+                                                                                                                                                         :SCORE
+                                                                                                                                                         0.99814
+                                                                                                                                                         :MATCHED
+                                                                                                                                                         &quot;neuro-physiology&quot;
+                                                                                                                                                         :NO-DASH-DASH
+                                                                                                                                                         1
+                                                                                                                                                         :EXACT
+                                                                                                                                                         2)))))
+Pruning agenda with beam width 50pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS
+                                                                       (&quot;cranium%1:08:00::&quot;))
+                                                                      (:PENN-PARTS-OF-SPEECH
+                                                                       (PARSER::NN)
+                                                                       :TRIPS-PARTS-OF-SPEECH
+                                                                       (W::N)
+                                                                       :DOMAIN-SPECIFIC-INFO
+                                                                       ((PARSER::DRUM
+                                                                         (PARSER::SPECIALIST
+                                                                          :EUI
+                                                                          PARSER::E0019599
+                                                                          :CITATION-FORM
+                                                                          &quot;cranium&quot;
+                                                                          :MATCHES
+                                                                          ((PARSER::MATCH
+                                                                            :SCORE
+                                                                            1.0
+                                                                            :MATCHED
+                                                                            &quot;cranium&quot;
+                                                                            :EXACT
+                                                                            1))))))) LF: ONT::BODY-PART LF-FORM: (W::CRANIUM) domain info: ((PARSER::DRUM
+                                                                                                                                             (PARSER::SPECIALIST
+                                                                                                                                              :EUI
+                                                                                                                                              PARSER::E0019599
+                                                                                                                                              :CITATION-FORM
+                                                                                                                                              &quot;cranium&quot;
+                                                                                                                                              :MATCHES
+                                                                                                                                              ((PARSER::MATCH
+                                                                                                                                                :SCORE
+                                                                                                                                                1.0
+                                                                                                                                                :MATCHED
+                                                                                                                                                &quot;cranium&quot;
+                                                                                                                                                :EXACT
+                                                                                                                                                1)))))pertainym sense info is: SENSE-INFO ((:WN-SENSE-KEYS
+                                                                                                                                                                                            (&quot;humanity%1:07:02::&quot;))
+                                                                                                                                                                                           (:PENN-PARTS-OF-SPEECH
+                                                                                                                                                                                            (PARSER::NN)
+                                                                                                                                                                                            :TRIPS-PARTS-OF-SPEECH
+                                                                                                                                                                                            (W::N)
+                                                                                                                                                                                            :DOMAIN-SPECIFIC-INFO
+                                                                                                                                                                                            ((PARSER::DRUM
+                                                                                                                                                                                              (PARSER::SPECIALIST
+                                                                                                                                                                                               :EUI
+                                                                                                                                                                                               PARSER::E0032138
+                                                                                                                                                                                               :CITATION-FORM
+                                                                                                                                                                                               &quot;humanity&quot;
+                                                                                                                                                                                               :MATCHES
+                                                                                                                                                                                               ((PARSER::MATCH
+                                                                                                                                                                                                 :SCORE
+                                                                                                                                                                                                 1.0
+                                                                                                                                                                                                 :MATCHED
+                                                                                                                                                                                                 &quot;humanity&quot;
+                                                                                                                                                                                                 :EXACT
+                                                                                                                                                                                                 1))
+                                                                                                                                                                                               :COMPLEMENTS
+                                                                                                                                                                                               (&quot;compl=pphr(of,np)&quot;)
+                                                                                                                                                                                               :NOMINALIZATION-OF
+                                                                                                                                                                                               ((PARSER::SPECIALIST
+                                                                                                                                                                                                 :EUI
+                                                                                                                                                                                                 PARSER::E0032130
+                                                                                                                                                                                                 :CAT
+                                                                                                                                                                                                 PARSER::ADJ
+                                                                                                                                                                                                 :CITATION-FORM
+                                                                                                                                                                                                 &quot;human&quot;))))))) LF: ONT::ATTRIBUTIVE-SCALE LF-FORM: (W::HUMANITY) domain info: ((PARSER::DRUM
+                                                                                                                                                                                                                                                                                 (PARSER::SPECIALIST
+                                                                                                                                                                                                                                                                                  :EUI
+                                                                                                                                                                                                                                                                                  PARSER::E0032138
+                                                                                                                                                                                                                                                                                  :CITATION-FORM
+                                                                                                                                                                                                                                                                                  &quot;humanity&quot;
+                                                                                                                                                                                                                                                                                  :MATCHES
+                                                                                                                                                                                                                                                                                  ((PARSER::MATCH
+                                                                                                                                                                                                                                                                                    :SCORE
+                                                                                                                                                                                                                                                                                    1.0
+                                                                                                                                                                                                                                                                                    :MATCHED
+                                                                                                                                                                                                                                                                                    &quot;humanity&quot;
+                                                                                                                                                                                                                                                                                    :EXACT
+                                                                                                                                                                                                                                                                                    1))
+                                                                                                                                                                                                                                                                                  :COMPLEMENTS
+                                                                                                                                                                                                                                                                                  (&quot;compl=pphr(of,np)&quot;)
+                                                                                                                                                                                                                                                                                  :NOMINALIZATION-OF
+                                                                                                                                                                                                                                                                                  ((PARSER::SPECIALIST
+                                                                                                                                                                                                                                                                                    :EUI
+                                                                                                                                                                                                                                                                                    PARSER::E0032130
+                                                                                                                                                                                                                                                                                    :CAT
+                                                                                                                                                                                                                                                                                    PARSER::ADJ
+                                                                                                                                                                                                                                                                                    :CITATION-FORM
+                                                                                                                                                                                                                                                                                    &quot;human&quot;)))))pertainym sense info is: SENSE-INFO ((:PENN-PARTS-OF-SPEECH
+                                                                                                                                                                                                                                                                                                                                      (PARSER::NN)
+                                                                                                                                                                                                                                                                                                                                      :TRIPS-PARTS-OF-SPEECH
+                                                                                                                                                                                                                                                                                                                                      (W::N)
+                                                                                                                                                                                                                                                                                                                                      :WN-SENSE-KEYS
+                                                                                                                                                                                                                                                                                                                                      (&quot;parietal_bone%1:08:00&quot;)
+                                                                                                                                                                                                                                                                                                                                      :DOMAIN-SPECIFIC-INFO
+                                                                                                                                                                                                                                                                                                                                      ((PARSER::DRUM
+                                                                                                                                                                                                                                                                                                                                        (PARSER::SPECIALIST
+                                                                                                                                                                                                                                                                                                                                         :EUI
+                                                                                                                                                                                                                                                                                                                                         PARSER::E0045725
+                                                                                                                                                                                                                                                                                                                                         :CITATION-FORM
+                                                                                                                                                                                                                                                                                                                                         &quot;parietal bone&quot;
+                                                                                                                                                                                                                                                                                                                                         :MATCHES
+                                                                                                                                                                                                                                                                                                                                         ((PARSER::MATCH
+                                                                                                                                                                                                                                                                                                                                           :SCORE
+                                                                                                                                                                                                                                                                                                                                           1.0
+                                                                                                                                                                                                                                                                                                                                           :MATCHED
+                                                                                                                                                                                                                                                                                                                                           &quot;parietal bone&quot;
+                                                                                                                                                                                                                                                                                                                                           :EXACT
+                                                                                                                                                                                                                                                                                                                                           2))))))) LF: ONT::BODY-PART LF-FORM: (W::PARIETAL
+                                                                                                                                                                                                                                                                                                                                                                                 W::BONE) domain info: NIL
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to sequences not reimplemented yet</debug><ekb complete="true" id="TEXT00073_IO-126266" timestamp="20190724T151313"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00073_IO-126266" id="paragraph72">Visuospatial abilities are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres, the underlying neurophysiological substrate is still largely unknown.Here, using a method of trifocal transcranial magnetic stimulation, we show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection.
+</paragraph></paragraphs><sentences><sentence id="73" pid="paragraph72">Visuospatial abilities are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres, the underlying neurophysiological substrate is still largely unknown.Here, using a method of trifocal transcranial magnetic stimulation, we show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection.</sentence></sentences></input><TERM end="64" id="V126348" lisp="(ONT::TERM ONT::V126348 ONT::RIGHT-LOC :NAME W::RIGHT)" paragraph="paragraph72" rule="-SIMPLE-REF" start="51" uttnum="73"><type>ONT::RIGHT-LOC</type><name>RIGHT</name><text>by the right</text></TERM><TERM end="189" id="V126443" lisp="(ONT::TERM ONT::V126443 ONT::BELIEVE :NAME W::THINK :FORMAL ONT::V126480 :TENSE W::PRES :PASSIVE + :FORCE ONT::TRUE)" paragraph="paragraph72" rule="-SIMPLE-REF" start="84" uttnum="73"><type>ONT::BELIEVE</type><name>THINK</name><text>this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres</text></TERM><EVENT end="161" id="V126543" lisp="(ONT::EVENT ONT::V126543 ONT::BIND)" paragraph="paragraph72" rule="-RULE40_4_AFFECTED_AFFECTED1-NONE" start="135" uttnum="73"><type>ONT::BIND</type><predicate end="161" id="V126543" start="135"><type>ONT::BIND</type><text>an unbalanced interaction</text></predicate><text>an unbalanced interaction</text></EVENT><TERM end="189" id="V126575" lisp="(ONT::TERM ONT::V126575 ONT::BODY-PART :NAME W::CEREBRAL-HEMISPHERES)" paragraph="paragraph72" rule="-SIMPLE-REF" start="169" uttnum="73"><type>ONT::BODY-PART</type><name>CEREBRAL-HEMISPHERES</name><text>cerebral hemispheres</text></TERM><TERM dbid="NCIT:C120264" end="235" id="V138926" lisp="(ONT::TERM ONT::V138926 ONT::CHEMICAL :NAME W::SUBSTRATE :DRUM ((:DRUM (TERM :ID NCIT::C120264 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;substrate&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::CHEMICAL)) (SPECIALIST :EUI E0058704 :CITATION-FORM &quot;substrate&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;substrate&quot; :EXACT 1))))))" paragraph="paragraph72" rule="-SIMPLE-REF" start="191" uttnum="73"><type>ONT::CHEMICAL</type><name>SUBSTRATE</name><drum-terms><drum-term dbid="NCIT:C120264" match-score="0.70732" matched-name="substrate" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;"><types><type>ONT::CHEMICAL</type></types></drum-term></drum-terms><text>the underlying neurophysiological substrate</text></TERM><TERM end="326" id="V141806" lisp="(ONT::TERM ONT::V141806 ONT::METHOD :NAME W::METHOD)" paragraph="paragraph72" rule="-SIMPLE-REF" start="272" uttnum="73"><type>ONT::METHOD</type><name>METHOD</name><text>a method of trifocal transcranial magnetic stimulation</text></TERM><EVENT end="326" id="V141857" lisp="(ONT::EVENT ONT::V141857 ONT::STIMULATE)" paragraph="paragraph72" rule="-RULE30_1_AGENT_FORMAL-NONE" start="281" uttnum="73"><type>ONT::STIMULATE</type><predicate end="326" id="V141857" start="281"><type>ONT::STIMULATE</type><text>of trifocal transcranial magnetic stimulation</text></predicate><text>of trifocal transcranial magnetic stimulation</text></EVENT><EPI end="366" id="V142770" lisp="(ONT::EPI ONT::V142770 ONT::SUPPORT :AGENT ONT::V142760 :FORCE ONT::TRUE :AFFECTED ONT::V142792 :TENSE W::PRES)" paragraph="paragraph72" rule="-RULE50_0_AGENT_NEUTRAL-AGENT" start="328" uttnum="73"><type>ONT::SUPPORT</type><force>ONT::TRUE</force><arg1 end="331" id="V142760" role=":AGENT" start="328"><type>ONT::PERSON</type><text normalization="WE">we</text></arg1><text>we show that the right, but not left,</text></EPI><TERM end="331" id="V142760" lisp="(ONT::TERM ONT::V142760 (:* ONT::PERSON W::WE) :PRO W::WE)" paragraph="paragraph72" rule="-ROBUSTPRO" start="328" uttnum="73"><type>ONT::PERSON</type><text>we</text></TERM><TERM end="341" id="V142792" lisp="(ONT::TERM ONT::V142792 (:* ONT::REFERENTIAL-SEM W::THAT) :PRO W::THAT :COREF ONT::V141762)" paragraph="paragraph72" rule="-ROBUSTPRO" start="336" uttnum="73"><type>ONT::REFERENTIAL-SEM</type><coref id="V141762"/><text>that</text></TERM><TERM end="350" id="V142816" lisp="(ONT::TERM ONT::V142816 ONT::RIGHT-LOC :NAME W::RIGHT :COREF ONT::V126348)" paragraph="paragraph72" rule="-SIMPLE-REF" start="341" uttnum="73"><type>ONT::RIGHT-LOC</type><name>RIGHT</name><coref id="V126348"/><text>the right</text></TERM><TERM end="366" id="V142857" lisp="(ONT::TERM ONT::V142857 ONT::LEFT-LOC :NAME W::LEFT)" paragraph="paragraph72" rule="-SIMPLE-REF" start="360" uttnum="73"><type>ONT::LEFT-LOC</type><name>LEFT</name><text>left,</text></TERM><TERM end="398" id="V142911" lisp="(ONT::TERM ONT::V142911 ONT::BODY-PART :NAME W::PARIETAL-CORTEX)" paragraph="paragraph72" rule="-SIMPLE-REF" start="366" uttnum="73"><type>ONT::BODY-PART</type><name>PARIETAL-CORTEX</name><text>human posterior parietal cortex</text></TERM><EVENT end="502" id="V143152" lisp="(ONT::EVENT ONT::V143152 ONT::BIND)" paragraph="paragraph72" rule="-RULE40_4_AFFECTED_AFFECTED1-NONE" start="476" uttnum="73"><type>ONT::BIND</type><predicate end="502" id="V143152" start="476"><type>ONT::BIND</type><text>a short-latency connection</text></predicate><text>a short-latency connection</text></EVENT></ekb><compound-communication-act>
+<utt><words><lisp>(W::VISUOSPATIAL W::ABILITIES W::ARE W::PREFERENTIALLY W::MEDIATED W::BY W::THE
+ W::RIGHT)</lisp><word>VISUOSPATIAL</word><word>ABILITIES</word><word>ARE</word><word>PREFERENTIALLY</word><word>MEDIATED</word><word>BY</word><word>THE</word><word>RIGHT</word></words><tags><lisp>((WORD &quot;Visuospatial&quot; :FRAME (0 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0064761 :CITATION-FORM &quot;visuospatial&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;visuo-spatial&quot; :NO-DASH-DASH 1 :EXACT 1
+         :SENTENCE-CAP-NO-CAPS 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Visuospatial&quot; :FRAME (0 12) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;abilities&quot; :FRAME (13 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;abilities&quot; :FRAME (13 22) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Visuospatial abilities&quot; :FRAME (0 22) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;are&quot; :FRAME (23 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;preferentially&quot; :FRAME (27 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0049644 :CITATION-FORM &quot;preferentially&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;preferentially&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;preferentially&quot; :FRAME (27 41) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;mediated&quot; :FRAME (42 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;by&quot; :FRAME (51 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (54 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right&quot; :FRAME (58 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;right&quot; :FRAME (58 63) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the right&quot; :FRAME (54 63) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Visuospatial" start="0" end="12"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0064761" citation-form="visuospatial"><match score="0.99814" matched="visuo-spatial" no-dash-dash="1" exact="1" sentence-cap-no-caps="1" /></specialist></sense-info></word><prefer text="Visuospatial" start="0" end="12" penn-cats="ADJP,QP" /><word lex="abilities" start="13" end="22"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="abilities" start="13" end="22" penn-cats="NX,NAC" /><prefer text="Visuospatial abilities" start="0" end="22" penn-cats="NP,NX,NAC" /><word lex="are" start="23" end="26"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="preferentially" start="27" end="41"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV"><specialist eui="E0049644" citation-form="preferentially"><match score="1.0" matched="preferentially" exact="1" /></specialist></sense-info></word><prefer text="preferentially" start="27" end="41" penn-cats="ADVP" /><word lex="mediated" start="42" end="50"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="by" start="51" end="53"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="54" end="57"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="58" end="63"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="right" start="58" end="63" penn-cats="NX,NAC" /><prefer text="the right" start="54" end="63" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (S (NP (N1 (ADJP (ADJ1 (ADJ VISUOSPATIAL))) (N1 (N ABILITIES))))
+  (VP
+   (VP- (AUX (V ARE))
+    (VP- (ADVBL (ADV PREFERENTIALLY))
+     (VP- (V (V MEDIATED))
+      (PP (PREP BY) (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))))))))))</lisp><UTT><S><NP><N1><ADJP><ADJ1><ADJ>VISUOSPATIAL</ADJ></ADJ1></ADJP><N1><N>ABILITIES</N></N1></N1></NP><VP><VP-><AUX><V>ARE</V></AUX><VP-><ADVBL><ADV>PREFERENTIALLY</ADV></ADVBL><VP-><V><V>MEDIATED</V></V><PP><PREP>BY</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>RIGHT</N></N1></NP></PP></VP-></VP-></VP-></VP></S></UTT></tree><terms root="#V131449"><lisp>((ONT::SPEECHACT ONT::V131449 ONT::SA_TELL :CONTENT ONT::V126304 :START 0 :END
+  64)
+ (ONT::F ONT::V126304 (:* ONT::CONTROL-MANAGE W::MEDIATE) :AFFECTED
+  ONT::V126273 :AGENT ONT::V126348 :MOD ONT::V126298 :TENSE W::PRES :PASSIVE +
+  :START 0 :END 64)
+ (ONT::INDEF-SET ONT::V126273 (:* ONT::ABILITY-STATE W::ABILITIES) :MOD
+  ONT::V126269 :START 0 :END 23)
+ (ONT::F ONT::V126269 (:* ONT::MODIFIER W::VISUOSPATIAL) :FIGURE ONT::V126273
+  :START 0 :END 13 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0064761 :CITATION-FORM &quot;visuospatial&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;visuo-spatial&quot; :NO-DASH-DASH 1 :EXACT 1
+       :SENTENCE-CAP-NO-CAPS 1))))))
+ (ONT::F ONT::V126298 (:* ONT::PREDICATE W::PREFERENTIALLY) :FIGURE
+  ONT::V126304 :START 27 :END 42)
+ (ONT::THE ONT::V126348 (:* ONT::RIGHT-LOC W::RIGHT) :START 51 :END 64))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V131449">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V126304" />
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126304">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONTROL-MANAGE</LF:type>
+    <LF:word>MEDIATE</LF:word>
+    <role:AFFECTED rdf:resource="#V126273" />
+    <role:AGENT rdf:resource="#V126348" />
+    <role:MOD rdf:resource="#V126298" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>0</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126273">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>ABILITY-STATE</LF:type>
+    <LF:word>ABILITIES</LF:word>
+    <role:MOD rdf:resource="#V126269" />
+    <LF:start>0</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126269">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>VISUOSPATIAL</LF:word>
+    <role:FIGURE rdf:resource="#V126273" />
+    <LF:start>0</LF:start>
+    <LF:end>13</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0064761 :CITATION-FORM &quot;visuospatial&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;visuo-spatial&quot; :NO-DASH-DASH 1 :EXACT 1
+     :SENTENCE-CAP-NO-CAPS 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126298">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PREDICATE</LF:type>
+    <LF:word>PREFERENTIALLY</LF:word>
+    <role:FIGURE rdf:resource="#V126304" />
+    <LF:start>27</LF:start>
+    <LF:end>42</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126348">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>RIGHT-LOC</LF:type>
+    <LF:word>RIGHT</LF:word>
+    <LF:start>51</LF:start>
+    <LF:end>64</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::HEMISPHERE W::PUNC-PERIOD W::ALTHOUGH)</lisp><word>HEMISPHERE</word><word>PUNC-PERIOD</word><word>ALTHOUGH</word></words><tags><lisp>((WORD &quot;hemisphere&quot; :FRAME (64 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0031174 :CITATION-FORM &quot;hemisphere&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;hemisphere&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right hemisphere&quot; :FRAME (58 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;right_hemisphere%1:08:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0576177 :CITATION-FORM &quot;right hemisphere&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;right hemisphere&quot; :EXACT 2)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np(brain))&quot;))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (74 74) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Although&quot; :FRAME (75 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hemisphere.Although&quot; :FRAME (64 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN IN) :TRIPS-PARTS-OF-SPEECH
+    (W::N W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="hemisphere" start="64" end="73"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0031174" citation-form="hemisphere"><match score="1.0" matched="hemisphere" exact="1" /></specialist></sense-info></word><word lex="right hemisphere" start="58" end="73"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="right_hemisphere%1:08:00"><specialist eui="E0576177" citation-form="right hemisphere"><match score="1.0" matched="right hemisphere" exact="2" />    <complement>compl=pphr(of,np(brain))</complement>
+</specialist></sense-info></word><word lex="." start="74" end="74" /><word lex="Although" start="75" end="83"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="hemisphere.Although" start="64" end="83"><sense-info penn-parts-of-speech="NN,IN" trips-parts-of-speech="N,PREP,ADV" /></word></tags><tree><lisp>(UTT (NP (N1 (N HEMISPHERE PUNC-PERIOD ALTHOUGH))))</lisp><UTT><NP><N1><N>HEMISPHERE PUNC-PERIOD ALTHOUGH</N></N1></NP></UTT></tree><terms root="#V131577"><lisp>((ONT::SPEECHACT ONT::V131577 ONT::SA_IDENTIFY :CONTENT ONT::V126388 :START 64
+  :END 84)
+ (ONT::BARE ONT::V126388
+  (:* ONT::REFERENTIAL-SEM W::HEMISPHERE-PUNC-PERIOD-ALTHOUGH) :START 64 :END
+  84))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V131577">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V126388" />
+    <LF:start>64</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126388">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>HEMISPHERE-PUNC-PERIOD-ALTHOUGH</LF:word>
+    <LF:start>64</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::THIS W::ASYMMETRY W::OF W::FUNCTION W::IS W::THOUGHT W::TO W::BE W::DUE
+ W::TO W::AN W::UNBALANCED W::INTERACTION W::BETWEEN W::CEREBRAL W::HEMISPHERES
+ W::PUNC-COMMA)</lisp><word>THIS</word><word>ASYMMETRY</word><word>OF</word><word>FUNCTION</word><word>IS</word><word>THOUGHT</word><word>TO</word><word>BE</word><word>DUE</word><word>TO</word><word>AN</word><word>UNBALANCED</word><word>INTERACTION</word><word>BETWEEN</word><word>CEREBRAL</word><word>HEMISPHERES</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;this&quot; :FRAME (84 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;asymmetry&quot; :FRAME (89 98) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0010937 :CITATION-FORM &quot;asymmetry&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;asymmetry&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0355978 :CAT ADJ :CITATION-FORM &quot;asymmetrical&quot;)
+        (SPECIALIST :EUI E0010936 :CAT ADJ :CITATION-FORM &quot;asymmetric&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;asymmetry&quot; :FRAME (89 98) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (99 101) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;function&quot; :FRAME (102 110) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;function&quot; :FRAME (102 110) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of function&quot; :FRAME (99 110) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;this asymmetry of function&quot; :FRAME (84 110) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;is&quot; :FRAME (111 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;thought&quot; :FRAME (114 121) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (122 124) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;be&quot; :FRAME (125 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VB) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;due&quot; :FRAME (128 131) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ IN) :TRIPS-PARTS-OF-SPEECH
+    (W::ADJ W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;due&quot; :FRAME (128 131) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (132 134) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;due to&quot; :FRAME (128 134) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0024074 :CITATION-FORM &quot;due to&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;due to&quot; :EXACT 2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;an&quot; :FRAME (135 137) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;unbalanced&quot; :FRAME (138 148) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;unbalanced&quot; :FRAME (138 148) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;interaction&quot; :FRAME (149 160) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;interaction&quot; :FRAME (149 160) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;unbalanced interaction&quot; :FRAME (138 160) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;between&quot; :FRAME (161 168) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cerebral&quot; :FRAME (169 177) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cerebral&quot; :FRAME (169 177) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hemispheres&quot; :FRAME (178 188) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0031174 :CITATION-FORM &quot;hemisphere&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;hemispheres&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;hemispheres&quot; :FRAME (178 188) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cerebral hemispheres&quot; :FRAME (169 188) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;cerebral_hemisphere%1:08:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0015991 :CITATION-FORM &quot;cerebral hemisphere&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;cerebral hemispheres&quot; :EXACT 2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cerebral hemispheres&quot; :FRAME (169 188) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;between cerebral hemispheres&quot; :FRAME (161 188) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;an unbalanced interaction between cerebral hemispheres&quot; :FRAME
+  (135 188) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to an unbalanced interaction between cerebral hemispheres&quot; :FRAME
+  (132 188) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;due to an unbalanced interaction between cerebral hemispheres&quot; :FRAME
+  (128 188) :ENJU-CATS (PP) :PENN-CATS (ADJP PP) :TRIPS-CATS (W::ADJP W::PP)
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (125 188) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (122 188) :ENJU-CATS (CP) :PENN-CATS (VP S SBAR) :TRIPS-CATS
+  (W::VP W::CP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (114 188) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;is thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (111 188) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (84 188) :ENJU-CATS (S) :PENN-CATS (S SBAR) :TRIPS-CATS (W::CP)
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (42 188) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (23 188) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Visuospatial abilities are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres&quot;
+  :FRAME (0 188) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (189 189) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;,&quot; :FRAME (189 189) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="this" start="84" end="88"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="asymmetry" start="89" end="98"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0010937" citation-form="asymmetry"><match score="1.0" matched="asymmetry" exact="1" />    <complement>compl=pphr(of,np)</complement>
+<nominalization-of><specialist eui="E0355978" cat="ADJ" citation-form="asymmetrical" /><specialist eui="E0010936" cat="ADJ" citation-form="asymmetric" /></nominalization-of></specialist></sense-info></word><prefer text="asymmetry" start="89" end="98" penn-cats="NX,NAC" /><word lex="of" start="99" end="101"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="function" start="102" end="110"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="function" start="102" end="110" penn-cats="NP,NX,NAC" /><prefer text="of function" start="99" end="110" penn-cats="PP" /><prefer text="this asymmetry of function" start="84" end="110" penn-cats="NP" /><word lex="is" start="111" end="113"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="thought" start="114" end="121"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="to" start="122" end="124"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="be" start="125" end="127"><sense-info penn-parts-of-speech="VB" trips-parts-of-speech="V" /></word><word lex="due" start="128" end="131"><sense-info penn-parts-of-speech="JJ,IN" trips-parts-of-speech="ADJ,PREP,ADV" /></word><prefer text="due" start="128" end="131" penn-cats="PP" /><word lex="to" start="132" end="134"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="due to" start="128" end="134"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV"><specialist eui="E0024074" citation-form="due to"><match score="1.0" matched="due to" exact="2" /></specialist></sense-info></word><word lex="an" start="135" end="137"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="unbalanced" start="138" end="148"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="unbalanced" start="138" end="148" penn-cats="ADJP,QP" /><word lex="interaction" start="149" end="160"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="interaction" start="149" end="160" penn-cats="NX,NAC" /><prefer text="unbalanced interaction" start="138" end="160" penn-cats="NX,NAC" /><word lex="between" start="161" end="168"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="cerebral" start="169" end="177"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="cerebral" start="169" end="177" penn-cats="ADJP,QP" /><word lex="hemispheres" start="178" end="188"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0031174" citation-form="hemisphere"><match score="1.0" matched="hemispheres" exact="1" /></specialist></sense-info></word><prefer text="hemispheres" start="178" end="188" penn-cats="NX,NAC" /><word lex="cerebral hemispheres" start="169" end="188"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" wn-sense-keys="cerebral_hemisphere%1:08:00"><specialist eui="E0015991" citation-form="cerebral hemisphere"><match score="1.0" matched="cerebral hemispheres" exact="2" /></specialist></sense-info></word><prefer text="cerebral hemispheres" start="169" end="188" penn-cats="NP,NX,NAC" /><prefer text="between cerebral hemispheres" start="161" end="188" penn-cats="PP" /><prefer text="an unbalanced interaction between cerebral hemispheres" start="135" end="188" penn-cats="NP" /><prefer text="to an unbalanced interaction between cerebral hemispheres" start="132" end="188" penn-cats="PP" /><prefer text="due to an unbalanced interaction between cerebral hemispheres" start="128" end="188" penn-cats="ADJP,PP" /><prefer text="be due to an unbalanced interaction between cerebral hemispheres" start="125" end="188" penn-cats="VP" /><prefer text="to be due to an unbalanced interaction between cerebral hemispheres" start="122" end="188" penn-cats="VP,S,SBAR" /><prefer text="thought to be due to an unbalanced interaction between cerebral hemispheres" start="114" end="188" penn-cats="VP" /><prefer text="is thought to be due to an unbalanced interaction between cerebral hemispheres" start="111" end="188" penn-cats="VP" /><prefer text="this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres" start="84" end="188" penn-cats="S,SBAR" /><prefer text="mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres" start="42" end="188" penn-cats="VP" /><prefer text="are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres" start="23" end="188" penn-cats="VP" /><prefer text="Visuospatial abilities are preferentially mediated by the right hemisphere.Although this asymmetry of function is thought to be due to an unbalanced interaction between cerebral hemispheres" start="0" end="188" penn-cats="S" /><word lex="," start="189" end="189"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="," start="189" end="189" penn-cats="CONJP" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (SPEC (DET (ART THIS)))
+    (N1 (N1 (N ASYMMETRY)) (ADVBL (ADV OF) (NP (N1 (N FUNCTION))))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V (V THOUGHT))
+      (CP (INFINITIVAL-TO TO)
+       (VP
+        (VP- (V BE)
+         (ADVBL (ADV (WORD DUE) (WORD TO))
+          (NP (SPEC (DET (ART AN)))
+           (N1 (ADJP (ADJ1 (ADJ UNBALANCED))) (N1 (N INTERACTION)))))
+         (PRED
+          (ADVBL (ADV BETWEEN) (NP (N1 (N CEREBRAL HEMISPHERES)))))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>THIS</ART></DET></SPEC><N1><N1><N>ASYMMETRY</N></N1><ADVBL><ADV>OF</ADV><NP><N1><N>FUNCTION</N></N1></NP></ADVBL></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V><V>THOUGHT</V></V><CP><INFINITIVAL-TO>TO</INFINITIVAL-TO><VP><VP-><V>BE</V><ADVBL><ADV><WORD>DUE</WORD><WORD>TO</WORD></ADV><NP><SPEC><DET><ART>AN</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>UNBALANCED</ADJ></ADJ1></ADJP><N1><N>INTERACTION</N></N1></N1></NP></ADVBL><PRED><ADVBL><ADV>BETWEEN</ADV><NP><N1><N>CEREBRAL HEMISPHERES</N></N1></NP></ADVBL></PRED></VP-></VP></CP></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V131786"><lisp>((ONT::SPEECHACT ONT::V131786 ONT::SA_TELL :CONTENT ONT::V126443 :START 84 :END
+  189)
+ (ONT::F ONT::V126443 (:* ONT::BELIEVE W::THINK) :NOROLE ONT::V126397 :FORMAL
+  ONT::V126480 :TENSE W::PRES :PASSIVE + :START 84 :END 189)
+ (ONT::THE ONT::V126397 (:* ONT::ATTRIBUTE W::ASYMMETRY) :PROFORM W::THIS :MOD
+  ONT::V126401 :START 84 :END 111)
+ (ONT::F ONT::V126401 (:* ONT::ASSOC-WITH W::OF) :GROUND ONT::V126411 :FIGURE
+  ONT::V126397 :START 99 :END 111)
+ (ONT::BARE ONT::V126411 (:* ONT::UTILITY W::FUNCTION) :START 102 :END 111)
+ (ONT::F ONT::V126480 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V126397
+  :FORMAL ONT::V126552 :REASON ONT::V126492 :VFORM W::BASE :START 122 :END 189)
+ (ONT::F ONT::V126492 (:* ONT::DUE-TO W::DUE-TO) :GROUND ONT::V126543 :FIGURE
+  ONT::V126480 :START 128 :END 161)
+ (ONT::A ONT::V126543 (:* ONT::BIND-INTERACT W::INTERACTION) :MOD ONT::V126537
+  :START 135 :END 161)
+ (ONT::F ONT::V126537 (:* ONT::UNSTEADY W::UNBALANCED) :FIGURE ONT::V126543
+  :START 138 :END 149)
+ (ONT::F ONT::V126552 (:* ONT::BETWEEN W::BETWEEN) :GROUND ONT::V126575 :FIGURE
+  ONT::V126397 :START 161 :END 189)
+ (ONT::INDEF-SET ONT::V126575 (:* ONT::BODY-PART W::CEREBRAL-HEMISPHERES)
+  :START 169 :END 189 :WNSENSE &quot;cerebral_hemisphere%1:08:00&quot;))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V131786">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V126443" />
+    <LF:start>84</LF:start>
+    <LF:end>189</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126443">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELIEVE</LF:type>
+    <LF:word>THINK</LF:word>
+    <role:NOROLE rdf:resource="#V126397" />
+    <role:FORMAL rdf:resource="#V126480" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>84</LF:start>
+    <LF:end>189</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126397">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>ATTRIBUTE</LF:type>
+    <LF:word>ASYMMETRY</LF:word>
+    <role:PROFORM>THIS</role:PROFORM>
+    <role:MOD rdf:resource="#V126401" />
+    <LF:start>84</LF:start>
+    <LF:end>111</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126401">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V126411" />
+    <role:FIGURE rdf:resource="#V126397" />
+    <LF:start>99</LF:start>
+    <LF:end>111</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126411">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>UTILITY</LF:type>
+    <LF:word>FUNCTION</LF:word>
+    <LF:start>102</LF:start>
+    <LF:end>111</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126480">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V126397" />
+    <role:FORMAL rdf:resource="#V126552" />
+    <role:REASON rdf:resource="#V126492" />
+    <role:VFORM>BASE</role:VFORM>
+    <LF:start>122</LF:start>
+    <LF:end>189</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126492">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>DUE-TO</LF:type>
+    <LF:word>DUE-TO</LF:word>
+    <role:GROUND rdf:resource="#V126543" />
+    <role:FIGURE rdf:resource="#V126480" />
+    <LF:start>128</LF:start>
+    <LF:end>161</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126543">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>BIND-INTERACT</LF:type>
+    <LF:word>INTERACTION</LF:word>
+    <role:MOD rdf:resource="#V126537" />
+    <LF:start>135</LF:start>
+    <LF:end>161</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126537">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>UNSTEADY</LF:type>
+    <LF:word>UNBALANCED</LF:word>
+    <role:FIGURE rdf:resource="#V126543" />
+    <LF:start>138</LF:start>
+    <LF:end>149</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126552">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BETWEEN</LF:type>
+    <LF:word>BETWEEN</LF:word>
+    <role:GROUND rdf:resource="#V126575" />
+    <role:FIGURE rdf:resource="#V126397" />
+    <LF:start>161</LF:start>
+    <LF:end>189</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V126575">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>BODY-PART</LF:type>
+    <LF:word>CEREBRAL-HEMISPHERES</LF:word>
+    <LF:start>169</LF:start>
+    <LF:end>189</LF:end>
+    <role:WNSENSE>cerebral_hemisphere%1:08:00</role:WNSENSE>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::THE W::UNDERLYING W::NEUROPHYSIOLOGICAL W::SUBSTRATE W::IS W::STILL
+ W::LARGELY W::UNKNOWN W::PUNC-PERIOD W::HERE W::PUNC-COMMA)</lisp><word>THE</word><word>UNDERLYING</word><word>NEUROPHYSIOLOGICAL</word><word>SUBSTRATE</word><word>IS</word><word>STILL</word><word>LARGELY</word><word>UNKNOWN</word><word>PUNC-PERIOD</word><word>HERE</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;the&quot; :FRAME (191 194) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;underlying&quot; :FRAME (195 205) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0063027 :CITATION-FORM &quot;underlie&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;underlying&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;tran=np&quot;))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;underlying&quot; :FRAME (195 205) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;neurophysiological&quot; :FRAME (206 224) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0042487 :CITATION-FORM &quot;neurophysiological&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;neuro-physiological&quot; :NO-DASH-DASH 1
+         :EXACT 2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;neurophysiological&quot; :FRAME (206 224) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;substrate&quot; :FRAME (225 234) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CHEMICAL) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C120264 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;substrate&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C48807
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C48807&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04880.lisp&quot;))))
+             :TO ONT::CHEMICAL))
+       :ONT-TYPES (ONT::CHEMICAL))
+      (SPECIALIST :EUI E0058704 :CITATION-FORM &quot;substrate&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;substrate&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;substrate&quot; :FRAME (225 234) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;neurophysiological substrate&quot; :FRAME (206 234) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;underlying neurophysiological substrate&quot; :FRAME (195 234) :ENJU-CATS
+  (NX) :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;the underlying neurophysiological substrate&quot; :FRAME (191 234)
+  :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (235 237) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;still&quot; :FRAME (238 243) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;still&quot; :FRAME (238 243) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;largely&quot; :FRAME (244 251) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;largely&quot; :FRAME (244 251) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;unknown&quot; :FRAME (252 258) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (259 259) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Here&quot; :FRAME (260 263) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;unknown.Here&quot; :FRAME (252 263) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;largely unknown.Here&quot; :FRAME (244 263) :PENN-CATS (ADJP) :TRIPS-CATS
+  (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is still largely unknown.Here&quot; :FRAME (235 263) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;the underlying neurophysiological substrate is still largely unknown.Here&quot;
+  :FRAME (191 263) :PENN-CATS (S) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (264 264) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="the" start="191" end="194"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="underlying" start="195" end="205"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V"><specialist eui="E0063027" citation-form="underlie"><match score="1.0" matched="underlying" exact="1" />    <complement>tran=np</complement>
+</specialist></sense-info></word><prefer text="underlying" start="195" end="205" penn-cats="VP" /><word lex="neurophysiological" start="206" end="224"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0042487" citation-form="neurophysiological"><match score="0.99814" matched="neuro-physiological" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="neurophysiological" start="206" end="224" penn-cats="ADJP,QP" /><word lex="substrate" start="225" end="234"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CHEMICAL" score="0.70732"><term id="NCIT:C120264" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;" score="0.70732" ont-types="CHEMICAL"><match score="0.70732" matched="substrate" status="synonym" exact="1" /><map to="CHEMICAL" through="NCIT:C48807" /></term><specialist eui="E0058704" citation-form="substrate"><match score="1.0" matched="substrate" exact="1" /></specialist></sense-info></word><prefer text="substrate" start="225" end="234" penn-cats="NX,NAC" /><prefer text="neurophysiological substrate" start="206" end="234" penn-cats="NX,NAC" /><prefer text="underlying neurophysiological substrate" start="195" end="234" penn-cats="NX,NAC" /><prefer text="the underlying neurophysiological substrate" start="191" end="234" penn-cats="NP" /><word lex="is" start="235" end="237"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="still" start="238" end="243"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="still" start="238" end="243" penn-cats="ADVP" /><word lex="largely" start="244" end="251"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="largely" start="244" end="251" penn-cats="ADVP" /><word lex="unknown" start="252" end="258" /><word lex="." start="259" end="259" /><word lex="Here" start="260" end="263"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="unknown.Here" start="252" end="263"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="largely unknown.Here" start="244" end="263" penn-cats="ADJP" /><prefer text="is still largely unknown.Here" start="235" end="263" penn-cats="VP" /><prefer text="the underlying neurophysiological substrate is still largely unknown.Here" start="191" end="263" penn-cats="S" /><word lex="," start="264" end="264"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (SPEC (DET (ART THE)))
+    (N1 (ADJP (ADJ1 (ADJ UNDERLYING)))
+     (N1 (ADJP (ADJ1 (ADJ (ADJ NEUROPHYSIOLOGICAL)))) (N1 (N SUBSTRATE)))))
+   (VP
+    (VP- (V IS) (ADVBL (ADV STILL))
+     (PRED
+      (ADJP (ADVBL (ADV LARGELY))
+       (ADJP (ADJ1 (ADJ UNKNOWN PUNC-PERIOD HERE)))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>UNDERLYING</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ><ADJ>NEUROPHYSIOLOGICAL</ADJ></ADJ></ADJ1></ADJP><N1><N>SUBSTRATE</N></N1></N1></N1></NP><VP><VP-><V>IS</V><ADVBL><ADV>STILL</ADV></ADVBL><PRED><ADJP><ADVBL><ADV>LARGELY</ADV></ADVBL><ADJP><ADJ1><ADJ>UNKNOWN PUNC-PERIOD HERE</ADJ></ADJ1></ADJP></ADJP></PRED></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V140289"><lisp>((ONT::SPEECHACT ONT::V140289 ONT::SA_TELL :CONTENT ONT::V138934 :START 191
+  :END 264)
+ (ONT::F ONT::V138934 (:* ONT::HAVE-PROPERTY W::BE) :NEUTRAL ONT::V138926
+  :FORMAL ONT::V138989 :EXTENT ONT::V138949 :TENSE W::PRES :START 191 :END 264)
+ (ONT::THE ONT::V138926 (:* ONT::CHEMICAL W::SUBSTRATE) :MOD ONT::V138901 :MOD
+  ONT::V138922 :START 191 :END 235 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C120264 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;substrate&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C48807
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C48807&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04880.lisp&quot;))))
+           :TO ONT::CHEMICAL))
+     :ONT-TYPES (ONT::CHEMICAL))
+    (SPECIALIST :EUI E0058704 :CITATION-FORM &quot;substrate&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;substrate&quot; :EXACT 1))))))
+ (ONT::F ONT::V138901 (:* ONT::IMPLICIT-VAL W::UNDERLYING) :FIGURE ONT::V138926
+  :START 195 :END 206)
+ (ONT::F ONT::V138922 ONT::ASSOC-WITH :GROUND ONT::V139028 :FIGURE ONT::V138926
+  :START 206 :END 225)
+ (ONT::KIND ONT::V139028 (:* ONT::DISCIPLINE W::NEUROPHYSIOLOGY) :DRUM
+  ((ONT::DRUM
+    (ONT::SPECIALIST :EUI ONT::E0042488 :CITATION-FORM &quot;neurophysiology&quot;
+     :MATCHES
+     ((ONT::MATCH :SCORE 0.99814 :MATCHED &quot;neuro-physiology&quot; :NO-DASH-DASH 1
+       :EXACT 2)))))
+  :START 206 :END 225)
+ (ONT::F ONT::V138949 (:* ONT::TIME-REL-SO-FAR W::STILL) :FIGURE ONT::V138934
+  :SCALE ONT::TIME-MEASURE-SCALE :START 238 :END 244)
+ (ONT::F ONT::V138989 (:* ONT::MODIFIER W::UNKNOWN-PUNC-PERIOD-HERE) :FIGURE
+  ONT::V138926 :MOD ONT::V138959 :START 244 :END 264)
+ (ONT::F ONT::V138959 (:* ONT::QUALIFICATION W::LARGELY) :FIGURE ONT::V138989
+  :START 244 :END 252))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V140289">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V138934" />
+    <LF:start>191</LF:start>
+    <LF:end>264</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138934">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V138926" />
+    <role:FORMAL rdf:resource="#V138989" />
+    <role:EXTENT rdf:resource="#V138949" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>191</LF:start>
+    <LF:end>264</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138926">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>SUBSTRATE</LF:word>
+    <role:MOD rdf:resource="#V138901" />
+    <role:MOD rdf:resource="#V138922" />
+    <LF:start>191</LF:start>
+    <LF:end>235</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C120264 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120264&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;substrate&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C48807
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C48807&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04880.lisp&quot;))))
+         :TO CHEMICAL))
+   :ONT-TYPES (CHEMICAL))
+  (SPECIALIST :EUI E0058704 :CITATION-FORM &quot;substrate&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;substrate&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138901">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IMPLICIT-VAL</LF:type>
+    <LF:word>UNDERLYING</LF:word>
+    <role:FIGURE rdf:resource="#V138926" />
+    <LF:start>195</LF:start>
+    <LF:end>206</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138922">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V139028" />
+    <role:FIGURE rdf:resource="#V138926" />
+    <LF:start>206</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V139028">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>DISCIPLINE</LF:type>
+    <LF:word>NEUROPHYSIOLOGY</LF:word>
+    <role:DRUM>((DRUM
+  (SPECIALIST :EUI E0042488 :CITATION-FORM &quot;neurophysiology&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;neuro-physiology&quot; :NO-DASH-DASH 1 :EXACT
+     2)))))</role:DRUM>
+    <LF:start>206</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138949">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TIME-REL-SO-FAR</LF:type>
+    <LF:word>STILL</LF:word>
+    <role:FIGURE rdf:resource="#V138934" />
+    <role:SCALE>TIME-MEASURE-SCALE</role:SCALE>
+    <LF:start>238</LF:start>
+    <LF:end>244</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138989">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>UNKNOWN-PUNC-PERIOD-HERE</LF:word>
+    <role:FIGURE rdf:resource="#V138926" />
+    <role:MOD rdf:resource="#V138959" />
+    <LF:start>244</LF:start>
+    <LF:end>264</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V138959">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>QUALIFICATION</LF:type>
+    <LF:word>LARGELY</LF:word>
+    <role:FIGURE rdf:resource="#V138989" />
+    <LF:start>244</LF:start>
+    <LF:end>252</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::USING W::A W::METHOD W::OF W::TRIFOCAL W::TRANSCRANIAL W::MAGNETIC
+ W::STIMULATION W::PUNC-COMMA)</lisp><word>USING</word><word>A</word><word>METHOD</word><word>OF</word><word>TRIFOCAL</word><word>TRANSCRANIAL</word><word>MAGNETIC</word><word>STIMULATION</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;using&quot; :FRAME (266 271) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (272 273) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;method&quot; :FRAME (274 280) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;method&quot; :FRAME (274 280) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (281 283) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;tri&quot; :FRAME (284 286) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;focal&quot; :FRAME (287 292) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0028354 :CITATION-FORM &quot;focal&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;focal&quot; :EXACT 1)) :NOMINALIZATION
+       ((SPECIALIST :EUI E0334173 :CITATION-FORM &quot;focality&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;trifocal&quot; :FRAME (284 292) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0331842 :CITATION-FORM &quot;trifocal&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;trifocal&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;trifocal&quot; :FRAME (284 292) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;trans&quot; :FRAME (293 297) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cranial&quot; :FRAME (298 305) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0019560 :CITATION-FORM &quot;cranial&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;cranial&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;transcranial&quot; :FRAME (293 305) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0417998 :CITATION-FORM &quot;transcranial&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;trans-cranial&quot; :NO-DASH-DASH 1 :EXACT
+         2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;transcranial&quot; :FRAME (293 305) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;magnetic&quot; :FRAME (306 314) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;magnetic&quot; :FRAME (306 314) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stimulation&quot; :FRAME (315 325) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;stimulation&quot; :FRAME (315 325) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;magnetic stimulation&quot; :FRAME (306 325) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0523391 :CITATION-FORM &quot;magnetic stimulation&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;magnetic stimulation&quot; :EXACT 2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;magnetic stimulation&quot; :FRAME (306 325) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;transcranial magnetic stimulation&quot; :FRAME (293 325) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0666683 :CITATION-FORM
+       &quot;transcranial magnetic stimulation&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;transcranial magnetic stimulation&quot; :EXACT
+         3)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;transcranial magnetic stimulation&quot; :FRAME (293 325) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;trifocal transcranial magnetic stimulation&quot; :FRAME (284 325)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of trifocal transcranial magnetic stimulation&quot; :FRAME (281 325)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 73 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a method of trifocal transcranial magnetic stimulation&quot; :FRAME
+  (272 325) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;using a method of trifocal transcranial magnetic stimulation&quot; :FRAME
+  (266 325) :ENJU-CATS (VP) :PENN-CATS (VP S) :TRIPS-CATS (W::VP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (326 326) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="using" start="266" end="271"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="a" start="272" end="273"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="method" start="274" end="280"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="method" start="274" end="280" penn-cats="NX,NAC" /><word lex="of" start="281" end="283"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><prefix lex="tri" start="284" end="286" /><word lex="focal" start="287" end="292"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0028354" citation-form="focal"><match score="1.0" matched="focal" exact="1" /><nominalization><specialist eui="E0334173" citation-form="focality" /></nominalization></specialist></sense-info></word><word lex="trifocal" start="284" end="292"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0331842" citation-form="trifocal"><match score="1.0" matched="trifocal" exact="1" /></specialist></sense-info></word><prefer text="trifocal" start="284" end="292" penn-cats="ADJP,QP" /><prefix lex="trans" start="293" end="297" /><word lex="cranial" start="298" end="305"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0019560" citation-form="cranial"><match score="1.0" matched="cranial" exact="1" /></specialist></sense-info></word><word lex="transcranial" start="293" end="305"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0417998" citation-form="transcranial"><match score="0.99814" matched="trans-cranial" no-dash-dash="1" exact="2" /></specialist></sense-info></word><prefer text="transcranial" start="293" end="305" penn-cats="ADJP,QP" /><word lex="magnetic" start="306" end="314"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="magnetic" start="306" end="314" penn-cats="ADJP,QP" /><word lex="stimulation" start="315" end="325"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="stimulation" start="315" end="325" penn-cats="NX,NAC" /><word lex="magnetic stimulation" start="306" end="325"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0523391" citation-form="magnetic stimulation"><match score="1.0" matched="magnetic stimulation" exact="2" /></specialist></sense-info></word><prefer text="magnetic stimulation" start="306" end="325" penn-cats="NX,NAC" /><word lex="transcranial magnetic stimulation" start="293" end="325"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0666683" citation-form="transcranial magnetic stimulation"><match score="1.0" matched="transcranial magnetic stimulation" exact="3" /></specialist></sense-info></word><prefer text="transcranial magnetic stimulation" start="293" end="325" penn-cats="NX,NAC" /><prefer text="trifocal transcranial magnetic stimulation" start="284" end="325" penn-cats="NP,NX,NAC" /><prefer text="of trifocal transcranial magnetic stimulation" start="281" end="325" penn-cats="PP" /><prefer text="a method of trifocal transcranial magnetic stimulation" start="272" end="325" penn-cats="NP" /><prefer text="using a method of trifocal transcranial magnetic stimulation" start="266" end="325" penn-cats="VP,S" /><word lex="," start="326" end="326"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (VP
+    (VP- (V USING)
+     (NP (SPEC (DET (ART A)))
+      (N1 (N METHOD)
+       (PP (PREP OF)
+        (NP
+         (N1 (ADJP (ADJ1 (ADJ TRIFOCAL)))
+          (N1 (ADJP (ADJ1 (ADJ TRANSCRANIAL)))
+           (N1 (ADJP (ADJ1 (ADJ MAGNETIC))) (N1 (N STIMULATION)))))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><NP><VP><VP-><V>USING</V><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N>METHOD</N><PP><PREP>OF</PREP><NP><N1><ADJP><ADJ1><ADJ>TRIFOCAL</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>TRANSCRANIAL</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>MAGNETIC</ADJ></ADJ1></ADJP><N1><N>STIMULATION</N></N1></N1></N1></N1></NP></PP></N1></NP></VP-></VP></NP></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V142322"><lisp>((ONT::SPEECHACT ONT::V142322 ONT::SA_IDENTIFY :CONTENT ONT::V141762 :START 266
+  :END 326)
+ (ONT::BARE ONT::V141762 (:* ONT::USE W::USE) :AFFECTED ONT::V141806 :START 266
+  :END 326)
+ (ONT::A ONT::V141806 (:* ONT::METHOD W::METHOD) :FIGURE ONT::V141857 :START
+  272 :END 326)
+ (ONT::BARE ONT::V141857 (:* ONT::CAUSE-STIMULATE W::STIMULATION) :MOD
+  ONT::V141831 :MOD ONT::V141850 :MOD ONT::V141853 :START 281 :END 326)
+ (ONT::F ONT::V141831 (:* ONT::MODIFIER W::TRIFOCAL) :FIGURE ONT::V141857
+  :START 284 :END 293 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0331842 :CITATION-FORM &quot;trifocal&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;trifocal&quot; :EXACT 1))))))
+ (ONT::F ONT::V141850 (:* ONT::MODIFIER W::TRANSCRANIAL) :FIGURE ONT::V141857
+  :START 293 :END 306 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0417998 :CITATION-FORM &quot;transcranial&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;trans-cranial&quot; :NO-DASH-DASH 1 :EXACT
+       2))))))
+ (ONT::F ONT::V141853 (:* ONT::MEDIUM W::MAGNETIC) :FIGURE ONT::V141857 :START
+  306 :END 315))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V142322">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V141762" />
+    <LF:start>266</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141762">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>USE</LF:word>
+    <role:AFFECTED rdf:resource="#V141806" />
+    <LF:start>266</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141806">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>METHOD</LF:type>
+    <LF:word>METHOD</LF:word>
+    <role:FIGURE rdf:resource="#V141857" />
+    <LF:start>272</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141857">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CAUSE-STIMULATE</LF:type>
+    <LF:word>STIMULATION</LF:word>
+    <role:MOD rdf:resource="#V141831" />
+    <role:MOD rdf:resource="#V141850" />
+    <role:MOD rdf:resource="#V141853" />
+    <LF:start>281</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141831">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>TRIFOCAL</LF:word>
+    <role:FIGURE rdf:resource="#V141857" />
+    <LF:start>284</LF:start>
+    <LF:end>293</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0331842 :CITATION-FORM &quot;trifocal&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;trifocal&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141850">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>TRANSCRANIAL</LF:word>
+    <role:FIGURE rdf:resource="#V141857" />
+    <LF:start>293</LF:start>
+    <LF:end>306</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0417998 :CITATION-FORM &quot;transcranial&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;trans-cranial&quot; :NO-DASH-DASH 1 :EXACT 2)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V141853">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MEDIUM</LF:type>
+    <LF:word>MAGNETIC</LF:word>
+    <role:FIGURE rdf:resource="#V141857" />
+    <LF:start>306</LF:start>
+    <LF:end>315</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><compound-communication-act>
+<utt><words><lisp>(W::WE W::SHOW W::THAT W::THE W::RIGHT W::PUNC-COMMA W::BUT W::NOT W::LEFT
+ W::PUNC-COMMA)</lisp><word>WE</word><word>SHOW</word><word>THAT</word><word>THE</word><word>RIGHT</word><word>PUNC-COMMA</word><word>BUT</word><word>NOT</word><word>LEFT</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;we&quot; :FRAME (328 330) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;we&quot; :FRAME (328 330) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;show&quot; :FRAME (331 335) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;that&quot; :FRAME (336 340) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (341 344) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;right&quot; :FRAME (345 349) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;right&quot; :FRAME (345 349) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the right&quot; :FRAME (341 349) :PENN-CATS (NP) :TRIPS-CATS (W::NP)
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (350 351) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;but&quot; :FRAME (352 355) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;but&quot; :FRAME (352 355) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;not&quot; :FRAME (356 359) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;not&quot; :FRAME (356 359) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;left&quot; :FRAME (360 363) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN JJ) :TRIPS-PARTS-OF-SPEECH (W::V W::ADJ)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;left&quot; :FRAME (360 363) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (364 365) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;,&quot; :FRAME (364 365) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="we" start="328" end="330"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="we" start="328" end="330" penn-cats="NP" /><word lex="show" start="331" end="335"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="that" start="336" end="340"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="341" end="344"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="right" start="345" end="349"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="right" start="345" end="349" penn-cats="NX,NAC" /><prefer text="the right" start="341" end="349" penn-cats="NP" /><word lex="," start="350" end="351"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="but" start="352" end="355"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="but" start="352" end="355" penn-cats="CONJP" /><word lex="not" start="356" end="359"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="not" start="356" end="359" penn-cats="ADVP" /><word lex="left" start="360" end="363"><sense-info penn-parts-of-speech="VBN,JJ" trips-parts-of-speech="V,ADJ" /></word><prefer text="left" start="360" end="363" penn-cats="ADJP,QP" /><word lex="," start="364" end="365"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="," start="364" end="365" penn-cats="CONJP" /></tags><tree><lisp>(UTT
+ (S (NP (PRO WE))
+  (VP
+   (VP- (V SHOW) (NP (PRO THAT))
+    (NP (NP (SPEC (DET (ART THE))) (N1 (N RIGHT))) (PUNC PUNC-COMMA)
+     (CONJ (WORD BUT) (WORD NOT)) (NP (NP (N1 (N LEFT))) (PUNC PUNC-COMMA)))))))</lisp><UTT><S><NP><PRO>WE</PRO></NP><VP><VP-><V>SHOW</V><NP><PRO>THAT</PRO></NP><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>RIGHT</N></N1></NP><PUNC>PUNC-COMMA</PUNC><CONJ><WORD>BUT</WORD><WORD>NOT</WORD></CONJ><NP><NP><N1><N>LEFT</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></NP></VP-></VP></S></UTT></tree><terms root="#V147092"><lisp>((ONT::SPEECHACT ONT::V147092 ONT::SA_TELL :CONTENT ONT::V142770 :START 328
+  :END 366)
+ (ONT::F ONT::V142770 (:* ONT::SHOW W::SHOW) :AGENT ONT::V142760 :NEUTRAL
+  ONT::V142831 :AFFECTED ONT::V142792 :TENSE W::PRES :START 328 :END 366)
+ (ONT::PRO-SET ONT::V142760 (:* ONT::PERSON W::WE) :PROFORM W::WE :START 328
+  :END 331)
+ (ONT::PRO ONT::V142792 (:* ONT::REFERENTIAL-SEM W::THAT) :PROFORM W::THAT
+  :START 336 :END 341)
+ (ONT::THE ONT::V142831 (:* ONT::RIGHT-LOC W::RIGHT) :OPERATOR ONT::AND
+  :SEQUENCE (ONT::V142816) :EXCEPT ONT::V142857 :START 341 :END 366)
+ (ONT::THE ONT::V142816 (:* ONT::RIGHT-LOC W::RIGHT) :START 341 :END 350)
+ (ONT::BARE ONT::V142857 (:* ONT::LEFT-LOC W::LEFT) :START 360 :END 366))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V147092">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V142770" />
+    <LF:start>328</LF:start>
+    <LF:end>366</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142770">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SHOW</LF:type>
+    <LF:word>SHOW</LF:word>
+    <role:AGENT rdf:resource="#V142760" />
+    <role:NEUTRAL rdf:resource="#V142831" />
+    <role:AFFECTED rdf:resource="#V142792" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>328</LF:start>
+    <LF:end>366</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142760">
+    <LF:indicator>PRO-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>WE</LF:word>
+    <role:PROFORM>WE</role:PROFORM>
+    <LF:start>328</LF:start>
+    <LF:end>331</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142792">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THAT</LF:word>
+    <role:PROFORM>THAT</role:PROFORM>
+    <LF:start>336</LF:start>
+    <LF:end>341</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142831">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>RIGHT-LOC</LF:type>
+    <LF:word>RIGHT</LF:word>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V142816" />
+    <role:EXCEPT rdf:resource="#V142857" />
+    <LF:start>341</LF:start>
+    <LF:end>366</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142816">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>RIGHT-LOC</LF:type>
+    <LF:word>RIGHT</LF:word>
+    <LF:start>341</LF:start>
+    <LF:end>350</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142857">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>LEFT-LOC</LF:type>
+    <LF:word>LEFT</LF:word>
+    <LF:start>360</LF:start>
+    <LF:end>366</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::HUMAN W::POSTERIOR W::PARIETAL W::CORTEX W::EXERTS W::A)</lisp><word>HUMAN</word><word>POSTERIOR</word><word>PARIETAL</word><word>CORTEX</word><word>EXERTS</word><word>A</word></words><tags><lisp>((WORD &quot;human&quot; :FRAME (366 371) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;human&quot; :FRAME (366 371) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;posterior&quot; :FRAME (372 381) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0049133 :CITATION-FORM &quot;posterior&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;posterior&quot; :EXACT 1)) :NOMINALIZATION
+       ((SPECIALIST :EUI E0559687 :CITATION-FORM &quot;posteriorness&quot;)
+        (SPECIALIST :EUI E0234415 :CITATION-FORM &quot;posteriority&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;posterior&quot; :FRAME (372 381) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;parietal&quot; :FRAME (382 390) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0045724 :CITATION-FORM &quot;parietal&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;parietal&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;parietal&quot; :FRAME (382 390) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;cortex&quot; :FRAME (391 397) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;cortex&quot; :FRAME (391 397) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;parietal cortex&quot; :FRAME (382 397) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;parietal_cortex%1:08:00&quot;) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0582297 :CITATION-FORM &quot;parietal cortex&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;parietal cortex&quot; :EXACT 2)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;parietal cortex&quot; :FRAME (382 397) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;posterior parietal cortex&quot; :FRAME (372 397) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0559603 :CITATION-FORM &quot;posterior parietal cortex&quot;
+       :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;posterior parietal cortex&quot; :EXACT 3)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;posterior parietal cortex&quot; :FRAME (372 397) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;human posterior parietal cortex&quot; :FRAME (366 397) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the right, but not left, human posterior parietal cortex&quot; :FRAME
+  (341 397) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;exerts&quot; :FRAME (398 404) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (405 406) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="human" start="366" end="371"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="human" start="366" end="371" penn-cats="ADJP,QP" /><word lex="posterior" start="372" end="381"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0049133" citation-form="posterior"><match score="1.0" matched="posterior" exact="1" /><nominalization><specialist eui="E0559687" citation-form="posteriorness" /><specialist eui="E0234415" citation-form="posteriority" /></nominalization></specialist></sense-info></word><prefer text="posterior" start="372" end="381" penn-cats="ADJP,QP" /><word lex="parietal" start="382" end="390"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0045724" citation-form="parietal"><match score="1.0" matched="parietal" exact="1" /></specialist></sense-info></word><prefer text="parietal" start="382" end="390" penn-cats="ADJP,QP" /><word lex="cortex" start="391" end="397"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="cortex" start="391" end="397" penn-cats="NX,NAC" /><word lex="parietal cortex" start="382" end="397"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="parietal_cortex%1:08:00"><specialist eui="E0582297" citation-form="parietal cortex"><match score="1.0" matched="parietal cortex" exact="2" /></specialist></sense-info></word><prefer text="parietal cortex" start="382" end="397" penn-cats="NX,NAC" /><word lex="posterior parietal cortex" start="372" end="397"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0559603" citation-form="posterior parietal cortex"><match score="1.0" matched="posterior parietal cortex" exact="3" /></specialist></sense-info></word><prefer text="posterior parietal cortex" start="372" end="397" penn-cats="NX,NAC" /><prefer text="human posterior parietal cortex" start="366" end="397" penn-cats="NP" /><prefer text="the right, but not left, human posterior parietal cortex" start="341" end="397" penn-cats="NP" /><word lex="exerts" start="398" end="404"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="a" start="405" end="406"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP
+   (N1 (ADJP (ADJ1 (ADJ (ADJ HUMAN))))
+    (N1 (ADJP (ADJ1 (ADJ POSTERIOR))) (N1 (N PARIETAL CORTEX)))))
+  (VP (VP- (V EXERTS) (NP (NAME (VALUE A)))))))</lisp><UTT><S><NP><N1><ADJP><ADJ1><ADJ><ADJ>HUMAN</ADJ></ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>POSTERIOR</ADJ></ADJ1></ADJP><N1><N>PARIETAL CORTEX</N></N1></N1></N1></NP><VP><VP-><V>EXERTS</V><NP><NAME><VALUE>A</VALUE></NAME></NP></VP-></VP></S></UTT></tree><terms root="#V148516"><lisp>((ONT::SPEECHACT ONT::V148516 ONT::SA_TELL :CONTENT ONT::V142920 :START 366
+  :END 407)
+ (ONT::F ONT::V142920 (:* ONT::USE W::EXERT) :AGENT ONT::V142911 :AFFECTED
+  ONT::V142940 :TENSE W::PRES :START 366 :END 407)
+ (ONT::BARE ONT::V142911 (:* ONT::BODY-PART W::PARIETAL-CORTEX) :MOD
+  ONT::V142889 :MOD ONT::V142894 :START 366 :END 398 :WNSENSE
+  &quot;parietal_cortex%1:08:00&quot;)
+ (ONT::F ONT::V142889 ONT::ASSOC-WITH :GROUND ONT::V143300 :FIGURE ONT::V142911
+  :START 366 :END 372)
+ (ONT::KIND ONT::V143300 (:* ONT::ATTRIBUTIVE-SCALE W::HUMANITY) :DRUM
+  ((ONT::DRUM
+    (ONT::SPECIALIST :EUI ONT::E0032138 :CITATION-FORM &quot;humanity&quot; :MATCHES
+     ((ONT::MATCH :SCORE 1.0 :MATCHED &quot;humanity&quot; :EXACT 1)) :COMPLEMENTS
+     (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+     ((ONT::SPECIALIST :EUI ONT::E0032130 :CAT ONT::ADJ :CITATION-FORM
+       &quot;human&quot;)))))
+  :START 366 :END 372)
+ (ONT::F ONT::V142894 (:* ONT::SEQUENCE-VAL-NEXT W::POSTERIOR) :FIGURE
+  ONT::V142911 :START 372 :END 382)
+ (ONT::THE ONT::V142940 ONT::LETTER-SYMBOL :NAME-OF (W::A) :START 405 :END 407))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V148516">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V142920" />
+    <LF:start>366</LF:start>
+    <LF:end>407</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142920">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>EXERT</LF:word>
+    <role:AGENT rdf:resource="#V142911" />
+    <role:AFFECTED rdf:resource="#V142940" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>366</LF:start>
+    <LF:end>407</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142911">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>BODY-PART</LF:type>
+    <LF:word>PARIETAL-CORTEX</LF:word>
+    <role:MOD rdf:resource="#V142889" />
+    <role:MOD rdf:resource="#V142894" />
+    <LF:start>366</LF:start>
+    <LF:end>398</LF:end>
+    <role:WNSENSE>parietal_cortex%1:08:00</role:WNSENSE>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142889">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <role:GROUND rdf:resource="#V143300" />
+    <role:FIGURE rdf:resource="#V142911" />
+    <LF:start>366</LF:start>
+    <LF:end>372</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143300">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>ATTRIBUTIVE-SCALE</LF:type>
+    <LF:word>HUMANITY</LF:word>
+    <role:DRUM>((DRUM
+  (SPECIALIST :EUI E0032138 :CITATION-FORM &quot;humanity&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;humanity&quot; :EXACT 1)) :COMPLEMENTS
+   (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+   ((SPECIALIST :EUI E0032130 :CAT ADJ :CITATION-FORM &quot;human&quot;)))))</role:DRUM>
+    <LF:start>366</LF:start>
+    <LF:end>372</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142894">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SEQUENCE-VAL-NEXT</LF:type>
+    <LF:word>POSTERIOR</LF:word>
+    <role:FIGURE rdf:resource="#V142911" />
+    <LF:start>372</LF:start>
+    <LF:end>382</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142940">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LETTER-SYMBOL</LF:type>
+    <role:NAME-OF>(A)</role:NAME-OF>
+    <LF:start>405</LF:start>
+    <LF:end>407</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::STRONG W::INHIBITORY W::ACTIVITY W::OVER W::THE W::CONTRALATERAL
+ W::HOMOLOGOUS W::AREA)</lisp><word>STRONG</word><word>INHIBITORY</word><word>ACTIVITY</word><word>OVER</word><word>THE</word><word>CONTRALATERAL</word><word>HOMOLOGOUS</word><word>AREA</word></words><tags><lisp>((WORD &quot;strong&quot; :FRAME (407 413) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;strong&quot; :FRAME (407 413) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;inhibitory&quot; :FRAME (414 424) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0034635 :CITATION-FORM &quot;inhibitory&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;inhibitory&quot; :EXACT 1)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;inhibitory&quot; :FRAME (414 424) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;activity&quot; :FRAME (425 433) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;activity&quot; :FRAME (425 433) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;inhibitory activity&quot; :FRAME (414 433) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;strong inhibitory activity&quot; :FRAME (407 433) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;a strong inhibitory activity&quot; :FRAME (405 433) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;over&quot; :FRAME (434 438) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (439 442) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;contralateral&quot; :FRAME (443 456) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0018801 :CITATION-FORM &quot;contralateral&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;contra-lateral&quot; :NO-DASH-DASH 1 :EXACT
+         2))
+       :NOMINALIZATION
+       ((SPECIALIST :EUI E0235988 :CITATION-FORM &quot;contralaterality&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;contralateral&quot; :FRAME (443 456) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;homologous&quot; :FRAME (457 467) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0031920 :CITATION-FORM &quot;homologous&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;homologous&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(to,np)&quot;))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;homologous&quot; :FRAME (457 467) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;area&quot; :FRAME (468 472) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;area&quot; :FRAME (468 472) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;homologous area&quot; :FRAME (457 472) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;contralateral homologous area&quot; :FRAME (443 472) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;the contralateral homologous area&quot; :FRAME (439 472) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;over the contralateral homologous area&quot; :FRAME (434 472) :ENJU-CATS
+  (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;exerts a strong inhibitory activity over the contralateral homologous area&quot;
+  :FRAME (398 472) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="strong" start="407" end="413"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="strong" start="407" end="413" penn-cats="ADJP,QP" /><word lex="inhibitory" start="414" end="424"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0034635" citation-form="inhibitory"><match score="1.0" matched="inhibitory" exact="1" /></specialist></sense-info></word><prefer text="inhibitory" start="414" end="424" penn-cats="ADJP,QP" /><word lex="activity" start="425" end="433"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="activity" start="425" end="433" penn-cats="NX,NAC" /><prefer text="inhibitory activity" start="414" end="433" penn-cats="NX,NAC" /><prefer text="strong inhibitory activity" start="407" end="433" penn-cats="NX,NAC" /><prefer text="a strong inhibitory activity" start="405" end="433" penn-cats="NP" /><word lex="over" start="434" end="438"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="439" end="442"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="contralateral" start="443" end="456"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0018801" citation-form="contralateral"><match score="0.99814" matched="contra-lateral" no-dash-dash="1" exact="2" /><nominalization><specialist eui="E0235988" citation-form="contralaterality" /></nominalization></specialist></sense-info></word><prefer text="contralateral" start="443" end="456" penn-cats="ADJP,QP" /><word lex="homologous" start="457" end="467"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0031920" citation-form="homologous"><match score="1.0" matched="homologous" exact="1" />    <complement>compl=pphr(to,np)</complement>
+</specialist></sense-info></word><prefer text="homologous" start="457" end="467" penn-cats="ADJP,QP" /><word lex="area" start="468" end="472"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="area" start="468" end="472" penn-cats="NX,NAC" /><prefer text="homologous area" start="457" end="472" penn-cats="NX,NAC" /><prefer text="contralateral homologous area" start="443" end="472" penn-cats="NX,NAC" /><prefer text="the contralateral homologous area" start="439" end="472" penn-cats="NP" /><prefer text="over the contralateral homologous area" start="434" end="472" penn-cats="PP" /><prefer text="exerts a strong inhibitory activity over the contralateral homologous area" start="398" end="472" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (NP
+  (N1
+   (N1 (ADJP (ADJ1 (ADJ STRONG)))
+    (N1 (ADJP (ADJ1 (ADJ INHIBITORY))) (N1 (N ACTIVITY))))
+   (ADVBL (ADV OVER)
+    (NP (SPEC (DET (ART THE)))
+     (N1 (ADJP (ADJ1 (ADJ CONTRALATERAL)))
+      (N1 (ADJP (ADJ1 (ADJ HOMOLOGOUS))) (N1 (N AREA)))))))))</lisp><UTT><NP><N1><N1><ADJP><ADJ1><ADJ>STRONG</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>INHIBITORY</ADJ></ADJ1></ADJP><N1><N>ACTIVITY</N></N1></N1></N1><ADVBL><ADV>OVER</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>CONTRALATERAL</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>HOMOLOGOUS</ADJ></ADJ1></ADJP><N1><N>AREA</N></N1></N1></N1></NP></ADVBL></N1></NP></UTT></tree><terms root="#V150990"><lisp>((ONT::SPEECHACT ONT::V150990 ONT::SA_IDENTIFY :CONTENT ONT::V142972 :START 407
+  :END 473)
+ (ONT::BARE ONT::V142972 (:* ONT::ACTIVITY-EVENT W::ACTIVITY) :LOCATION
+  ONT::V142981 :MOD ONT::V142964 :MOD ONT::V142968 :START 407 :END 473)
+ (ONT::F ONT::V142964 (:* ONT::INTENSE W::STRONG) :FIGURE ONT::V142972 :START
+  407 :END 414)
+ (ONT::F ONT::V142968 (:* ONT::MODIFIER W::INHIBITORY) :FIGURE ONT::V142972
+  :START 414 :END 425)
+ (ONT::F ONT::V142981 (:* ONT::POS-AS-OVER W::OVER) :GROUND ONT::V143022
+  :FIGURE ONT::V142972 :START 434 :END 473)
+ (ONT::THE ONT::V143022 (:* ONT::AREA-ALT-SCALE W::AREA) :SCALE ONT::AREA-SCALE
+  :MOD ONT::V143013 :MOD ONT::V143017 :START 439 :END 473)
+ (ONT::F ONT::V143013 (:* ONT::MODIFIER W::CONTRALATERAL) :FIGURE ONT::V143022
+  :START 443 :END 457)
+ (ONT::F ONT::V143017 (:* ONT::MODIFIER W::HOMOLOGOUS) :FIGURE ONT::V143022
+  :START 457 :END 468))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V150990">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V142972" />
+    <LF:start>407</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142972">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>ACTIVITY-EVENT</LF:type>
+    <LF:word>ACTIVITY</LF:word>
+    <role:LOCATION rdf:resource="#V142981" />
+    <role:MOD rdf:resource="#V142964" />
+    <role:MOD rdf:resource="#V142968" />
+    <LF:start>407</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142964">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>INTENSE</LF:type>
+    <LF:word>STRONG</LF:word>
+    <role:FIGURE rdf:resource="#V142972" />
+    <LF:start>407</LF:start>
+    <LF:end>414</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142968">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>INHIBITORY</LF:word>
+    <role:FIGURE rdf:resource="#V142972" />
+    <LF:start>414</LF:start>
+    <LF:end>425</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V142981">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>POS-AS-OVER</LF:type>
+    <LF:word>OVER</LF:word>
+    <role:GROUND rdf:resource="#V143022" />
+    <role:FIGURE rdf:resource="#V142972" />
+    <LF:start>434</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143022">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>AREA-ALT-SCALE</LF:type>
+    <LF:word>AREA</LF:word>
+    <role:SCALE>AREA-SCALE</role:SCALE>
+    <role:MOD rdf:resource="#V143013" />
+    <role:MOD rdf:resource="#V143017" />
+    <LF:start>439</LF:start>
+    <LF:end>473</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143013">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>CONTRALATERAL</LF:word>
+    <role:FIGURE rdf:resource="#V143022" />
+    <LF:start>443</LF:start>
+    <LF:end>457</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143017">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>HOMOLOGOUS</LF:word>
+    <role:FIGURE rdf:resource="#V143022" />
+    <LF:start>457</LF:start>
+    <LF:end>468</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::BY W::A W::SHORT W::PUNC-MINUS W::LATENCY W::CONNECTION)</lisp><word>BY</word><word>A</word><word>SHORT</word><word>PUNC-MINUS</word><word>LATENCY</word><word>CONNECTION</word></words><tags><lisp>((WORD &quot;by&quot; :FRAME (473 475) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;a&quot; :FRAME (476 477) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;short&quot; :FRAME (478 482) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (483 483) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;latency&quot; :FRAME (484 491) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0036939 :CITATION-FORM &quot;latency&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;latency&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0036942 :CAT ADJ :CITATION-FORM &quot;latent&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;short-latency&quot; :FRAME (478 491) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 73
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;short-latency&quot; :FRAME (478 491) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;connection&quot; :FRAME (492 501) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0018552 :CITATION-FORM &quot;connexion&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;connection&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(between,np)&quot; &quot;compl=pphr(to,np)&quot; &quot;compl=pphr(with,np)&quot;
+        &quot;compl=pphr(of,np)&quot; &quot;compl=pphr(by,np)&quot;)
+       :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0018548 :CAT VERB :CITATION-FORM &quot;connect&quot;)
+        (SPECIALIST :EUI E0018549 :CAT ADJ :CITATION-FORM &quot;connected&quot;)))))))
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;connection&quot; :FRAME (492 501) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;short-latency connection&quot; :FRAME (478 501) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;a short-latency connection&quot; :FRAME (476 501) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;by a short-latency connection&quot; :FRAME (473 501) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection&quot;
+  :FRAME (398 501) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection&quot;
+  :FRAME (341 501) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection&quot;
+  :FRAME (336 501) :ENJU-CATS (CP) :PENN-CATS (SBAR) :TRIPS-CATS (W::CP)
+  :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection&quot;
+  :FRAME (331 501) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  73 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;we show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection&quot;
+  :FRAME (328 501) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 73 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (502 502) :UTTNUM 73 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="by" start="473" end="475"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="a" start="476" end="477"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="short" start="478" end="482" /><word lex="-" start="483" end="483" /><word lex="latency" start="484" end="491"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0036939" citation-form="latency"><match score="1.0" matched="latency" exact="1" />    <complement>compl=pphr(of,np)</complement>
+<nominalization-of><specialist eui="E0036942" cat="ADJ" citation-form="latent" /></nominalization-of></specialist></sense-info></word><word lex="short-latency" start="478" end="491"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="short-latency" start="478" end="491" penn-cats="NP" /><word lex="connection" start="492" end="501"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0018552" citation-form="connexion"><match score="1.0" matched="connection" exact="1" />    <complement>compl=pphr(between,np)</complement>
+    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(with,np)</complement>
+    <complement>compl=pphr(of,np)</complement>
+    <complement>compl=pphr(by,np)</complement>
+<nominalization-of><specialist eui="E0018548" cat="VERB" citation-form="connect" /><specialist eui="E0018549" cat="ADJ" citation-form="connected" /></nominalization-of></specialist></sense-info></word><prefer text="connection" start="492" end="501" penn-cats="NX,NAC" /><prefer text="short-latency connection" start="478" end="501" penn-cats="NX,NAC" /><prefer text="a short-latency connection" start="476" end="501" penn-cats="NP" /><prefer text="by a short-latency connection" start="473" end="501" penn-cats="PP" /><prefer text="exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection" start="398" end="501" penn-cats="VP" /><prefer text="the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection" start="341" end="501" penn-cats="S" /><prefer text="that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection" start="336" end="501" penn-cats="SBAR" /><prefer text="show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection" start="331" end="501" penn-cats="VP" /><prefer text="we show that the right, but not left, human posterior parietal cortex exerts a strong inhibitory activity over the contralateral homologous area by a short-latency connection" start="328" end="501" penn-cats="S" /><word lex="." start="502" end="502" /></tags><tree><lisp>(ADVBL (ADV BY)
+ (NP (SPEC (DET (ART A)))
+  (N1 (N1 (ADJP (ADJ1 (ADJ SHORT))) (WORD PUNC-MINUS) (N1 (N LATENCY)))
+   (N1 (N CONNECTION)))))</lisp><ADVBL><ADV>BY</ADV><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>SHORT</ADJ></ADJ1></ADJP><WORD>PUNC-MINUS</WORD><N1><N>LATENCY</N></N1></N1><N1><N>CONNECTION</N></N1></N1></NP></ADVBL></tree><terms root="#V143034"><lisp>((ONT::F ONT::V143034 (:* ONT::BY-MEANS-OF W::BY) :GROUND ONT::V143152 :START
+  473 :END 502)
+ (ONT::A ONT::V143152 (:* ONT::ATTACH W::CONNECTION) :ASSOC-WITH ONT::V143136
+  :START 476 :END 502)
+ (ONT::KIND ONT::V143136 (:* ONT::TIME-INTERVAL W::LATENCY) :MOD ONT::V143098
+  :START 476 :END 502)
+ (ONT::F ONT::V143098 (:* ONT::EVENT-DURATION-MODIFIER W::SHORT) :FIGURE
+  ONT::V143136 :SCALE ONT::TIME-MEASURE-SCALE :START 478 :END 483))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V143034">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BY-MEANS-OF</LF:type>
+    <LF:word>BY</LF:word>
+    <role:GROUND rdf:resource="#V143152" />
+    <LF:start>473</LF:start>
+    <LF:end>502</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143152">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ATTACH</LF:type>
+    <LF:word>CONNECTION</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V143136" />
+    <LF:start>476</LF:start>
+    <LF:end>502</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143136">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>TIME-INTERVAL</LF:type>
+    <LF:word>LATENCY</LF:word>
+    <role:MOD rdf:resource="#V143098" />
+    <LF:start>476</LF:start>
+    <LF:end>502</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V143098">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-DURATION-MODIFIER</LF:type>
+    <LF:word>SHORT</LF:word>
+    <role:FIGURE rdf:resource="#V143136" />
+    <role:SCALE>TIME-MEASURE-SCALE</role:SCALE>
+    <LF:start>478</LF:start>
+    <LF:end>483</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="However, these studies have not addressed the effects of BAY 43-9006 in combination with any other kinase inhibitors..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04526.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01764.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03829.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04890.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/11847.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00214.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00194_IO-1410492" timestamp="20190708T130313"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00194_IO-1410492" id="paragraph193">However, these studies have not addressed the effects of BAY 43-9006 in combination with any other kinase inhibitors..
+</paragraph></paragraphs><sentences><sentence id="220" pid="paragraph193">However, these studies have not addressed the effects of BAY 43-9006 in combination with any other kinase inhibitors..</sentence></sentences></input><EPI end="23" id="V1410515" lisp="(ONT::EPI ONT::V1410515 ONT::TEST)" paragraph="paragraph193" rule="-RULE50_0_AGENT_NEUTRAL-NONE" start="9" uttnum="220"><type>ONT::TEST</type><text>these studies</text></EPI><EVENT end="118" id="V1410580" lisp="(ONT::EVENT ONT::V1410580 ONT::MODULATE :AGENT ONT::V1410636 :FORCE ONT::TRUE)" paragraph="paragraph193" rule="-RULE10_1_AGENT_AFFECTED-AGENT" start="42" uttnum="220"><type>ONT::MODULATE</type><force>ONT::TRUE</force><predicate end="118" id="V1410580" start="42"><type>ONT::MODULATE</type><text>the effects of BAY 43-9006 in combination with any other kinase inhibitors..</text></predicate><arg1 end="69" id="V1410636" role=":AGENT" start="54"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><text normalization="">of BAY 43-9006</text></arg1><text>the effects of BAY 43-9006 in combination with any other kinase inhibitors..</text></EVENT><TERM dbid="MESH:C471405|NCIT:C61948" end="69" id="V1410636" lisp="(ONT::TERM ONT::V1410636 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::BAY-43-PUNC-MINUS-9006 :DRUM ((:DRUM (TERM :ID NCIT::C61948 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID MESH::C471405 :NAME &quot;sorafenib&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;SY&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))" paragraph="paragraph193" rule="-SIMPLE-REF" start="54" uttnum="220"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>BAY-43-9006</name><drum-terms><drum-term dbid="NCIT:C61948" match-score="0.70732" matched-name="BAY 43-9006" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="MESH:C471405" match-score="0.56098" matched-name="BAY 43-9006" name="sorafenib"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>of BAY 43-9006</text></TERM><TERM dbid="NCIT:C28597|GO:0016301" end="106" id="V1410719" lisp="(ONT::TERM ONT::V1410719 ONT::GENE-PROTEIN :NAME W::KINASE :DRUM ((:DRUM (TERM :ID GO::|0016301| :NAME &quot;kinase activity&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;kinase&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C28597 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1))))))" paragraph="paragraph193" rule="-SIMPLE-REF" start="89" uttnum="220"><type>ONT::GENE-PROTEIN</type><name>KINASE</name><drum-terms><drum-term dbid="GO:0016301" match-score="0.85366" matched-name="kinase" name="kinase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C28597" match-score="0.70732" matched-name="kinase" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>any other kinase</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::HOWEVER W::PUNC-COMMA W::THESE W::STUDIES W::HAVE W::NOT)</lisp><word>HOWEVER</word><word>PUNC-COMMA</word><word>THESE</word><word>STUDIES</word><word>HAVE</word><word>NOT</word></words><tags><lisp>((WORD &quot;However&quot; :FRAME (0 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;However&quot; :FRAME (0 6) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (7 8) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;these&quot; :FRAME (9 14) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;studies&quot; :FRAME (15 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;studies&quot; :FRAME (15 22) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;these studies&quot; :FRAME (9 22) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;have&quot; :FRAME (23 27) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;not&quot; :FRAME (28 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;not&quot; :FRAME (28 31) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="However" start="0" end="6"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="However" start="0" end="6" penn-cats="ADVP" /><word lex="," start="7" end="8"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="these" start="9" end="14"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="studies" start="15" end="22"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="studies" start="15" end="22" penn-cats="NX,NAC" /><prefer text="these studies" start="9" end="22" penn-cats="NP" /><word lex="have" start="23" end="27"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="not" start="28" end="31"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="not" start="28" end="31" penn-cats="ADVP" /></tags><tree><lisp>(UTT (ADVBL (ADV HOWEVER)) (PUNC PUNC-COMMA)
+ (UTT
+  (S (NP (SPEC (DET (ART THESE))) (N1 (N STUDIES)))
+   (VP (VP- (AUX (V HAVE)) (NEG NOT))))))</lisp><UTT><ADVBL><ADV>HOWEVER</ADV></ADVBL><PUNC>PUNC-COMMA</PUNC><UTT><S><NP><SPEC><DET><ART>THESE</ART></DET></SPEC><N1><N>STUDIES</N></N1></NP><VP><VP-><AUX><V>HAVE</V></AUX><NEG>NOT</NEG></VP-></VP></S></UTT></UTT></tree><terms root="#V1411991"><lisp>((ONT::SPEECHACT ONT::V1411991 ONT::SA_TELL :CONTENT ONT::V1410529 :MOD
+  ONT::V1410502 :START 0 :END 32)
+ (ONT::F ONT::V1410502 (:* ONT::CONJUNCT W::HOWEVER) :FIGURE ONT::V1411991
+  :START 0 :END 7)
+ (ONT::F ONT::V1410529 (:* ONT::ELLIPSIS) :NEUTRAL ONT::V1410515 :TENSE W::PRES
+  :PERF + :NEGATION + :START 9 :END 32)
+ (ONT::THE-SET ONT::V1410515 (:* ONT::SCRUTINY W::STUDIES) :PROFORM W::THESE
+  :START 9 :END 23))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1411991">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1410529" />
+    <role:MOD rdf:resource="#V1410502" />
+    <LF:start>0</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410502">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>HOWEVER</LF:word>
+    <role:FIGURE rdf:resource="#V1411991" />
+    <LF:start>0</LF:start>
+    <LF:end>7</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410529">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ELLIPSIS</LF:type>
+    <role:NEUTRAL rdf:resource="#V1410515" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PERF>+</role:PERF>
+    <role:NEGATION>+</role:NEGATION>
+    <LF:start>9</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410515">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>STUDIES</LF:word>
+    <role:PROFORM>THESE</role:PROFORM>
+    <LF:start>9</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::ADDRESSED W::THE W::EFFECTS W::OF W::BAY 43 W::PUNC-MINUS 9006 W::IN
+ W::COMBINATION W::WITH W::ANY W::OTHER W::KINASE W::INHIBITORS W::PUNC-PERIOD
+ W::PUNC-PERIOD)</lisp><word>ADDRESSED</word><word>THE</word><word>EFFECTS</word><word>OF</word><word>BAY</word><word>43</word><word>PUNC-MINUS</word><word>9006</word><word>IN</word><word>COMBINATION</word><word>WITH</word><word>ANY</word><word>OTHER</word><word>KINASE</word><word>INHIBITORS</word><word>PUNC-PERIOD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;addressed&quot; :FRAME (32 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (42 45) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;effects&quot; :FRAME (46 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;effects&quot; :FRAME (46 53) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (54 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY&quot; :FRAME (57 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY&quot; :FRAME (57 60) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;43&quot; :FRAME (61 62) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (63 63) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;9006&quot; :FRAME (64 68) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;43-9006&quot; :FRAME (61 68) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;43-9006&quot; :FRAME (61 68) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY 43-9006&quot; :FRAME (57 68) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C61948 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;synonym&quot; :EXACT
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID MESH::C471405 :NAME &quot;sorafenib&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;SY&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))))))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY 43-9006&quot; :FRAME (57 68) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of BAY 43-9006&quot; :FRAME (54 68) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (69 71) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;combination&quot; :FRAME (72 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;combination&quot; :FRAME (72 83) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;with&quot; :FRAME (84 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;any&quot; :FRAME (89 92) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;other&quot; :FRAME (93 98) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;other&quot; :FRAME (93 98) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kinase&quot; :FRAME (99 105) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0016301| :NAME &quot;kinase activity&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;kinase&quot; :STATUS &quot;name&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C28597 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C20130
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1)))))))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;kinase&quot; :FRAME (99 105) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;inhibitors&quot; :FRAME (106 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0034634 :CITATION-FORM &quot;inhibitor&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;inhibitors&quot; :EXACT 1)))))))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;kinase inhibitors&quot; :FRAME (99 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.41463 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0033673| :NAME &quot;negative regulation of kinase activity&quot;
+       :SCORE 0.41463 :MATCHES
+       ((MATCH :SCORE 0.41463 :MATCHED &quot;kinase inhibitor&quot; :STATUS
+         &quot;NARROW synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1
+         :DEPLURALIZATION-SCORE 1 :EXACT 2))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (116 116) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (117 117) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (117 117) :UTTNUM 220 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;inhibitors..&quot; :FRAME (106 117) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 220
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;However, these studies have not addressed the effects of BAY 43-9006 in combination with any other kinase inhibitors..&quot;
+  :FRAME (0 117) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 220 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="addressed" start="32" end="41"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><word lex="the" start="42" end="45"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="effects" start="46" end="53"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="effects" start="46" end="53" penn-cats="NX,NAC" /><word lex="of" start="54" end="56"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="BAY" start="57" end="60"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="BAY" start="57" end="60" penn-cats="NX,NAC" /><word lex="43" start="61" end="62" /><word lex="-" start="63" end="63" /><word lex="9006" start="64" end="68" /><word lex="43-9006" start="61" end="68"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="43-9006" start="61" end="68" penn-cats="ADJP,QP" /><word lex="BAY 43-9006" start="57" end="68"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C61948" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="BAY 43-9006" status="synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="MESH:C471405" name="sorafenib" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.56098" matched="BAY 43-9006" status="SY" exact="1" /></term></sense-info></word><prefer text="BAY 43-9006" start="57" end="68" penn-cats="NP,NX,NAC" /><prefer text="of BAY 43-9006" start="54" end="68" penn-cats="PP" /><word lex="in" start="69" end="71"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="combination" start="72" end="83"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="combination" start="72" end="83" penn-cats="NP,NX,NAC" /><word lex="with" start="84" end="88"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="any" start="89" end="92"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="other" start="93" end="98"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="other" start="93" end="98" penn-cats="ADJP,QP" /><word lex="kinase" start="99" end="105"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.85366"><term id="GO:0016301" name="kinase activity" score="0.85366" ont-types="PROTEIN"><match score="0.85366" matched="kinase" status="name" exact="1" /></term><term id="NCIT:C28597" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;" score="0.70732" ont-types="PROTEIN-FAMILY"><match score="0.70732" matched="kinase" status="synonym" exact="1" /><map to="PROTEIN-FAMILY" through="NCIT:C20130" /></term><specialist eui="E0036523" citation-form="kinase"><match score="1.0" matched="kinase" exact="1" /></specialist></sense-info></word><prefer text="kinase" start="99" end="105" penn-cats="NP" /><word lex="inhibitors" start="106" end="115"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0034634" citation-form="inhibitor"><match score="1.0" matched="inhibitors" exact="1" /></specialist></sense-info></word><word lex="kinase inhibitors" start="99" end="115"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="PROTEIN" score="0.41463"><term id="GO:0033673" name="negative regulation of kinase activity" score="0.41463" ont-types="PROTEIN"><match score="0.41463" matched="kinase inhibitor" status="NARROW synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /></term></sense-info></word><word lex="." start="116" end="116" /><prefer text="." start="117" end="117" penn-cats="NP" /><word lex="." start="117" end="117" /><word lex="inhibitors.." start="106" end="117"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="However, these studies have not addressed the effects of BAY 43-9006 in combination with any other kinase inhibitors.." start="0" end="117" penn-cats="S" /></tags><tree><lisp>(VP
+ (VP- (V ADDRESSED)
+  (NP (SPEC (DET (ART THE)))
+   (N1
+    (N1
+     (N1
+      (N1
+       (N1 (N1 (N EFFECTS)) (PP (PREP OF) (NP (NAME BAY 43 PUNC-MINUS 9006))))
+       (ADVBL (ADV IN) (NP (N1 (N COMBINATION)))))
+      (ADVBL (ADV WITH)
+       (NP (SPEC (QUAN ANY)) (N1 (ADJP (ADJ1 (ADJ OTHER))) (N1 (N KINASE))))))
+     (N INHIBITORS PUNC-PERIOD PUNC-PERIOD))))))</lisp><VP><VP-><V>ADDRESSED</V><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N1><N1><N1><N1><N>EFFECTS</N></N1><PP><PREP>OF</PREP><NP><NAME>BAY 43 PUNC-MINUS 9006</NAME></NP></PP></N1><ADVBL><ADV>IN</ADV><NP><N1><N>COMBINATION</N></N1></NP></ADVBL></N1><ADVBL><ADV>WITH</ADV><NP><SPEC><QUAN>ANY</QUAN></SPEC><N1><ADJP><ADJ1><ADJ>OTHER</ADJ></ADJ1></ADJP><N1><N>KINASE</N></N1></N1></NP></ADVBL></N1><N>INHIBITORS PUNC-PERIOD PUNC-PERIOD</N></N1></N1></NP></VP-></VP></tree><terms root="#V1410559"><lisp>((ONT::F ONT::V1410559 (:* ONT::COMMUNICATION W::ADDRESSED) :FORMAL
+  ONT::V1419788 :TENSE W::PRES :START 32 :END 117)
+ (ONT::THE-SET ONT::V1419788
+  (:* ONT::REFERENTIAL-SEM W::INHIBITORS-PUNC-PERIOD-PUNC-PERIOD) :FIGURE
+  ONT::V1410580 :START 42 :END 117)
+ (ONT::F ONT::V1410580 (:* ONT::OBJECTIVE-INFLUENCE W::EFFECTS) :AGENT
+  ONT::V1410636 :MOD ONT::V1410698 :MOD ONT::V1410640 :START 42 :END 117)
+ (ONT::THE ONT::V1410636
+  (:* ONT::PHARMACOLOGIC-SUBSTANCE W::BAY-43-PUNC-MINUS-9006) :NAME-OF
+  (W::BAY 43 W::PUNC-MINUS 9006) :START 54 :END 69 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C61948 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID MESH::C471405 :NAME &quot;sorafenib&quot; :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;SY&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+ (ONT::F ONT::V1410640 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V1410692
+  :FIGURE ONT::V1410580 :START 69 :END 84)
+ (ONT::BARE ONT::V1410692 (:* ONT::COMBINE-OBJECTS W::COMBINATION) :START 72
+  :END 84)
+ (ONT::F ONT::V1410698 (:* ONT::ASSOC-WITH W::WITH) :GROUND ONT::V1410719
+  :FIGURE ONT::V1410580 :START 84 :END 106)
+ (ONT::A ONT::V1410719 (:* ONT::GENE-PROTEIN W::KINASE) :QUAN ONT::ANY :MOD
+  ONT::V1410715 :START 89 :END 106 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0016301| :NAME &quot;kinase activity&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;kinase&quot; :STATUS &quot;name&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C28597 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C20130
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1))))))
+ (ONT::F ONT::V1410715 (:* ONT::OTHER W::OTHER) :INTENSITY ONT::HI :FIGURE
+  ONT::V1410719 :START 93 :END 99))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1410559">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COMMUNICATION</LF:type>
+    <LF:word>ADDRESSED</LF:word>
+    <role:FORMAL rdf:resource="#V1419788" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>32</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1419788">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>INHIBITORS-PUNC-PERIOD-PUNC-PERIOD</LF:word>
+    <role:FIGURE rdf:resource="#V1410580" />
+    <LF:start>42</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410580">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OBJECTIVE-INFLUENCE</LF:type>
+    <LF:word>EFFECTS</LF:word>
+    <role:AGENT rdf:resource="#V1410636" />
+    <role:MOD rdf:resource="#V1410698" />
+    <role:MOD rdf:resource="#V1410640" />
+    <LF:start>42</LF:start>
+    <LF:end>117</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410636">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>BAY-43-PUNC-MINUS-9006</LF:word>
+    <role:NAME-OF>(BAY 43 PUNC-MINUS 9006)</role:NAME-OF>
+    <LF:start>54</LF:start>
+    <LF:end>69</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C61948 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61948&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID C471405 :NAME &quot;sorafenib&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;BAY 43-9006&quot; :STATUS &quot;SY&quot; :EXACT 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410640">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1410692" />
+    <role:FIGURE rdf:resource="#V1410580" />
+    <LF:start>69</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410692">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>COMBINE-OBJECTS</LF:type>
+    <LF:word>COMBINATION</LF:word>
+    <LF:start>72</LF:start>
+    <LF:end>84</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410698">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>WITH</LF:word>
+    <role:GROUND rdf:resource="#V1410719" />
+    <role:FIGURE rdf:resource="#V1410580" />
+    <LF:start>84</LF:start>
+    <LF:end>106</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410719">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>KINASE</LF:word>
+    <role:QUAN>ANY</role:QUAN>
+    <role:MOD rdf:resource="#V1410715" />
+    <LF:start>89</LF:start>
+    <LF:end>106</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0016301| :NAME &quot;kinase activity&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;kinase&quot; :STATUS &quot;name&quot; :EXACT 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C28597 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28597&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;kinase&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C20130
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (SPECIALIST :EUI E0036523 :CITATION-FORM &quot;kinase&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;kinase&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1410715">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>OTHER</LF:type>
+    <LF:word>OTHER</LF:word>
+    <role:INTENSITY>HI</role:INTENSITY>
+    <role:FIGURE rdf:resource="#V1410719" />
+    <LF:start>93</LF:start>
+    <LF:end>99</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="Anti-Mouse IgG, peroxidase-linked species-specific whole antibody from sheep, secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG, peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000) was also purchased from Amersham Biosciences..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/000802.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04529.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07780.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09643.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02532.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/12377.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01435.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00216_IO-2166229" timestamp="20190708T133021"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00216_IO-2166229" id="paragraph215">Anti-Mouse IgG, peroxidase-linked species-specific whole antibody from sheep, secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG, peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000) was also purchased from Amersham Biosciences..
+</paragraph></paragraphs><sentences><sentence id="242" pid="paragraph215">Anti-Mouse IgG, peroxidase-linked species-specific whole antibody from sheep, secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG, peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000) was also purchased from Amersham Biosciences..</sentence></sentences></input><TERM dbid="NCIT:C568" end="16" id="V2166690" lisp="(ONT::TERM ONT::V2166690 ONT::PROTEIN :NAME W::IGG :DRUM ((:DRUM (TERM :ID NCIT::C568 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph215" rule="-SIMPLE-REF" start="0" uttnum="242"><type>ONT::PROTEIN</type><name>IGG</name><drum-terms><drum-term dbid="NCIT:C568" match-score="0.70732" matched-name="IgG" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>Anti-Mouse IgG,</text></TERM><TERM dbid="GO:0042571" end="76" id="V2166768" lisp="(ONT::TERM ONT::V2166768 ONT::MACROMOLECULAR-COMPLEX :INEVENT ONT::V2166713 :NAME W::ANTIBODY :DRUM ((:DRUM (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX)) (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2)) :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))" paragraph="paragraph215" rule="-INEVENT2B,-SIMPLE-REF" start="16" uttnum="242"><type>ONT::MACROMOLECULAR-COMPLEX</type><name>ANTIBODY</name><features><inevent id="V2166713"/></features><drum-terms><drum-term dbid="GO:0042571" match-score="0.70732" matched-name="antibody" name="immunoglobulin complex, circulating"><types><type>ONT::CELL-PART</type><type>ONT::MACROMOLECULAR-COMPLEX</type></types></drum-term></drum-terms><text>peroxidase-linked species-specific whole antibody from sheep</text></TERM><EVENT end="76" id="V2166713" lisp="(ONT::EVENT ONT::V2166713 ONT::BIND :AGENT ONT::V2166697 :AFFECTED ONT::V2166768 :FORCE ONT::TRUE)" paragraph="paragraph215" rule="-RULE40_4_AGENT_AFFECTED" start="16" uttnum="242"><type>ONT::BIND</type><force>ONT::TRUE</force><predicate end="76" id="V2166713" start="16"><type>ONT::BIND</type><text>peroxidase-linked species-specific whole antibody from sheep</text></predicate><arg1 end="34" id="V2166697" role=":AGENT" start="16"><type>ONT::GENE-PROTEIN</type><text normalization="">peroxidase-linked</text></arg1><arg2 end="76" id="V2166768" role=":AFFECTED" start="16"><type>ONT::MACROMOLECULAR-COMPLEX</type><text normalization="">peroxidase-linked species-specific whole antibody from sheep</text></arg2><text>peroxidase-linked species-specific whole antibody from sheep</text></EVENT><TERM dbid="UP:Q9SCX8|XFAM:PF00149|FA:02795" end="34" id="V2166697" lisp="(ONT::TERM ONT::V2166697 ONT::GENE-PROTEIN :NAME W::PEROXIDASE :DRUM ((:DRUM (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot; :EXACT 1)) :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES (ONT::PROTEIN)) (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))" paragraph="paragraph215" rule="-SIMPLE-REF" start="16" uttnum="242"><type>ONT::GENE-PROTEIN</type><name>PEROXIDASE</name><drum-terms><drum-term dbid="FA:02795" match-score="0.85366" matched-name="peroxidase" name="peroxidase family"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="UP:Q9SCX8" match-score="0.56098" matched-name="peroxidase" name="Purple acid phosphatase 17"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00149"/></xrefs><species>Arabidopsis * (Cress)</species></drum-term></drum-terms><text>peroxidase-linked</text></TERM><TERM end="51" id="V2166729" lisp="(ONT::TERM ONT::V2166729 ONT::GROUP-OBJECT :NAME W::SPECIES)" paragraph="paragraph215" rule="-SIMPLE-REF" start="34" uttnum="242"><type>ONT::GROUP-OBJECT</type><name>SPECIES</name><text>species-specific</text></TERM><TERM end="76" id="V2166791" lisp="(ONT::TERM ONT::V2166791 ONT::NONHUMAN-ANIMAL :NAME W::SHEEP)" paragraph="paragraph215" rule="-SIMPLE-REF" start="71" uttnum="242"><type>ONT::NONHUMAN-ANIMAL</type><name>SHEEP</name><text>sheep</text></TERM><EVENT end="185" id="V2179035" lisp="(ONT::EVENT ONT::V2179035 ONT::BIND :AFFECTED ONT::V2178933 :FORCE ONT::TRUE :TENSE W::PAST :PASSIVE +)" paragraph="paragraph215" rule="-RULE40_4_AGENT_AFFECTED-AFFECTED" start="78" uttnum="242"><type>ONT::BIND</type><force>ONT::TRUE</force><predicate end="185" id="V2179035" start="78"><type>ONT::BIND</type><text>secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG</text></predicate><arg2 end="130" id="V2178933" role=":AFFECTED" start="78"><type>ONT::MACROMOLECULAR-COMPLEX</type><text normalization="">secondary antibody (Catalog #NA931, used at 1:5000)</text></arg2><text>secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG</text></EVENT><TERM dbid="GO:0042571" end="130" id="V2178933" lisp="(ONT::TERM ONT::V2178933 ONT::MACROMOLECULAR-COMPLEX :NAME W::ANTIBODY :DRUM ((:DRUM (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX)) (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2)) :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))" paragraph="paragraph215" rule="-SIMPLE-REF" start="78" uttnum="242"><type>ONT::MACROMOLECULAR-COMPLEX</type><name>ANTIBODY</name><drum-terms><drum-term dbid="GO:0042571" match-score="0.70732" matched-name="antibody" name="immunoglobulin complex, circulating"><types><type>ONT::CELL-PART</type><type>ONT::MACROMOLECULAR-COMPLEX</type></types></drum-term></drum-terms><text>secondary antibody (Catalog #NA931, used at 1:5000)</text></TERM><TERM end="128" id="V2178962" lisp="(ONT::TERM ONT::V2178962 ONT::KNOWLEDGE-BELIEF :NAME W::HASHMARK)" paragraph="paragraph215" rule="-SIMPLE-REF" start="98" uttnum="242"><type>ONT::KNOWLEDGE-BELIEF</type><name>HASHMARK</name><text>Catalog #NA931, used at 1:5000</text></TERM><TERM end="128" id="V2178946" lisp="(ONT::TERM ONT::V2178946 ONT::INFORMATION-FUNCTION-OBJECT :NAME W::CATALOG)" paragraph="paragraph215" rule="-SIMPLE-REF" start="98" uttnum="242"><type>ONT::INFORMATION-FUNCTION-OBJECT</type><name>CATALOG</name><text>Catalog #NA931, used at 1:5000</text></TERM><TERM end="114" id="V2178966" lisp="(ONT::TERM ONT::V2178966 ONT::SUBSTANCE :NAME W::NA)" paragraph="paragraph215" rule="-SIMPLE-REF" start="107" uttnum="242"><type>ONT::SUBSTANCE</type><name>NA</name><text>NA931,</text></TERM><TERM dbid="NCIT:C568" end="185" id="V2179108" lisp="(ONT::TERM ONT::V2179108 ONT::PROTEIN :NAME W::IGG :DRUM ((:DRUM (TERM :ID NCIT::C568 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph215" rule="-SIMPLE-REF" start="149" uttnum="242"><type>ONT::PROTEIN</type><name>IGG</name><drum-terms><drum-term dbid="NCIT:C568" match-score="0.70732" matched-name="IgG" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>Amersham Biosciences.Anti-rabbit IgG</text></TERM><TERM dbid="NCIT:C16295" end="247" id="V2190699" lisp="(ONT::TERM ONT::V2190699 ONT::PROTEIN :INEVENT ONT::V2190636 :NAME W::ANTIBODY :DRUM ((:DRUM (TERM :ID NCIT::C16295 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2)) :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))" paragraph="paragraph215" rule="-INEVENT2B,-SIMPLE-REF" start="187" uttnum="242"><type>ONT::PROTEIN</type><name>ANTIBODY</name><features><inevent id="V2190636"/></features><drum-terms><drum-term dbid="NCIT:C16295" match-score="0.70732" matched-name="antibody" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>peroxidase-linked species-specific whole secondary antibody</text></TERM><EVENT end="247" id="V2190636" lisp="(ONT::EVENT ONT::V2190636 ONT::BIND :AGENT ONT::V2190620 :AFFECTED ONT::V2190699 :FORCE ONT::TRUE)" paragraph="paragraph215" rule="-RULE40_4_AGENT_AFFECTED" start="187" uttnum="242"><type>ONT::BIND</type><force>ONT::TRUE</force><predicate end="247" id="V2190636" start="187"><type>ONT::BIND</type><text>peroxidase-linked species-specific whole secondary antibody</text></predicate><arg1 end="205" id="V2190620" role=":AGENT" start="187"><type>ONT::GENE-PROTEIN</type><text normalization="">peroxidase-linked</text></arg1><arg2 end="247" id="V2190699" role=":AFFECTED" start="187"><type>ONT::PROTEIN</type><text normalization="">peroxidase-linked species-specific whole secondary antibody</text></arg2><text>peroxidase-linked species-specific whole secondary antibody</text></EVENT><TERM dbid="UP:Q9SCX8|XFAM:PF00149|FA:02795" end="205" id="V2190620" lisp="(ONT::TERM ONT::V2190620 ONT::GENE-PROTEIN :NAME W::PEROXIDASE :DRUM ((:DRUM (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot; :EXACT 1)) :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES (ONT::PROTEIN)) (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))" paragraph="paragraph215" rule="-SIMPLE-REF" start="187" uttnum="242"><type>ONT::GENE-PROTEIN</type><name>PEROXIDASE</name><drum-terms><drum-term dbid="FA:02795" match-score="0.85366" matched-name="peroxidase" name="peroxidase family"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="UP:Q9SCX8" match-score="0.56098" matched-name="peroxidase" name="Purple acid phosphatase 17"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00149"/></xrefs><species>Arabidopsis * (Cress)</species></drum-term></drum-terms><text>peroxidase-linked</text></TERM><TERM end="222" id="V2190652" lisp="(ONT::TERM ONT::V2190652 ONT::GROUP-OBJECT :NAME W::SPECIES)" paragraph="paragraph215" rule="-SIMPLE-REF" start="205" uttnum="242"><type>ONT::GROUP-OBJECT</type><name>SPECIES</name><text>species-specific</text></TERM><TERM end="293" id="V2190718" lisp="(ONT::TERM ONT::V2190718 ONT::KNOWLEDGE-BELIEF :NAME W::DONKEY)" paragraph="paragraph215" rule="-SIMPLE-REF" start="252" uttnum="242"><type>ONT::KNOWLEDGE-BELIEF</type><name>DONKEY</name><text>donkey (Catalog # NA934, used at 1:5000)</text></TERM><TERM end="291" id="V2190743" lisp="(ONT::TERM ONT::V2190743 ONT::KNOWLEDGE-BELIEF :NAME W::HASHMARK)" paragraph="paragraph215" rule="-SIMPLE-REF" start="260" uttnum="242"><type>ONT::KNOWLEDGE-BELIEF</type><name>HASHMARK</name><text>Catalog # NA934, used at 1:5000</text></TERM><TERM end="291" id="V2190727" lisp="(ONT::TERM ONT::V2190727 ONT::INFORMATION-FUNCTION-OBJECT :NAME W::CATALOG)" paragraph="paragraph215" rule="-SIMPLE-REF" start="260" uttnum="242"><type>ONT::INFORMATION-FUNCTION-OBJECT</type><name>CATALOG</name><text>Catalog # NA934, used at 1:5000</text></TERM><TERM end="277" id="V2190747" lisp="(ONT::TERM ONT::V2190747 ONT::SUBSTANCE :NAME W::NA)" paragraph="paragraph215" rule="-SIMPLE-REF" start="270" uttnum="242"><type>ONT::SUBSTANCE</type><name>NA</name><text>NA934,</text></TERM><EVENT end="326" id="V2190816" lisp="(ONT::EVENT ONT::V2190816 ONT::BIND :FORCE ONT::TRUE)" paragraph="paragraph215" rule="-RULE40_4_AGENT_AFFECTED-NONE" start="297" uttnum="242"><type>ONT::BIND</type><force>ONT::TRUE</force><predicate end="326" id="V2190816" start="297"><type>ONT::BIND</type><text>also purchased from Amersham</text></predicate><text>also purchased from Amersham</text></EVENT></ekb><compound-communication-act>
+<utt><words><lisp>(W::ANTI W::PUNC-MINUS W::MOUSE W::IGG W::PUNC-COMMA)</lisp><word>ANTI</word><word>PUNC-MINUS</word><word>MOUSE</word><word>IGG</word><word>PUNC-COMMA</word></words><tags><lisp>((PREFIX &quot;Anti&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN JJ IN) :TRIPS-PARTS-OF-SPEECH
+    (W::N W::ADJ W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (4 4) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Mouse&quot; :FRAME (5 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::NONHUMAN-ANIMAL) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C14238 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14238&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;MOUSE&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;mouse&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C14234
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C14234&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01423.lisp&quot;))))
+             :TO ONT::NONHUMAN-ANIMAL))
+       :ONT-TYPES (ONT::NONHUMAN-ANIMAL))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Anti-Mouse&quot; :FRAME (0 10) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0330970 :CITATION-FORM &quot;antimouse&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;anti-mouse&quot; :INITIAL-CAP-NO-CAPS 1
+         :SENTENCE-CAP-NO-CAPS 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Anti-Mouse&quot; :FRAME (0 10) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Ig&quot; :FRAME (11 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0003342 :CITATION-FORM &quot;IG&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;IG&quot; :INITIAL-CAP-ALL-CAPS 1))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0033618 :CITATION-FORM &quot;immunoglobulin&quot;)
+        (SPECIALIST :EUI E0201392 :CITATION-FORM &quot;immuneglobulin&quot;)))
+      (SPECIALIST :EUI E0702201 :CITATION-FORM &quot;IG&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;IG&quot; :INITIAL-CAP-ALL-CAPS 1))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0702200 :CITATION-FORM &quot;irritable gut&quot;)
+        (SPECIALIST :EUI E0702199 :CITATION-FORM &quot;interstitial glucose&quot;)
+        (SPECIALIST :EUI E0702202 :CITATION-FORM &quot;immature granule&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;G&quot; :FRAME (13 13) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;IgG&quot; :FRAME (11 13) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C568 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;IgG&quot; :FRAME (11 13) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Anti-Mouse IgG&quot; :FRAME (0 13) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (14 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><prefix lex="Anti" start="0" end="3"><sense-info penn-parts-of-speech="NN,JJ,IN" trips-parts-of-speech="N,ADJ,PREP,ADV" /></prefix><word lex="-" start="4" end="4" /><word lex="Mouse" start="5" end="10"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="NONHUMAN-ANIMAL" score="0.70379"><term id="NCIT:C14238" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14238&gt;" score="0.70379" ont-types="NONHUMAN-ANIMAL"><match score="0.70379" matched="MOUSE" status="synonym" initial-cap-all-caps="1" /><match score="0.70379" matched="mouse" status="synonym" initial-cap-no-caps="1" /><map to="NONHUMAN-ANIMAL" through="NCIT:C14234" /></term></sense-info></word><word lex="Anti-Mouse" start="0" end="10"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0330970" citation-form="antimouse"><match score="0.85529" matched="anti-mouse" initial-cap-no-caps="1" sentence-cap-no-caps="1" /></specialist></sense-info></word><prefer text="Anti-Mouse" start="0" end="10" penn-cats="ADJP,QP" /><word lex="Ig" start="11" end="12"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0003342" citation-form="IG"><match score="0.85529" matched="IG" initial-cap-all-caps="1" /><acronym-of><specialist eui="E0033618" citation-form="immunoglobulin" /><specialist eui="E0201392" citation-form="immuneglobulin" /></acronym-of></specialist><specialist eui="E0702201" citation-form="IG"><match score="0.85529" matched="IG" initial-cap-all-caps="1" /><acronym-of><specialist eui="E0702200" citation-form="irritable gut" /><specialist eui="E0702199" citation-form="interstitial glucose" /><specialist eui="E0702202" citation-form="immature granule" /></acronym-of></specialist></sense-info></word><word lex="G" start="13" end="13" /><word lex="IgG" start="11" end="13"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.70732"><term id="NCIT:C568" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="IgG" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term></sense-info></word><prefer text="IgG" start="11" end="13" penn-cats="NX,NAC" /><prefer text="Anti-Mouse IgG" start="0" end="13" penn-cats="NP,NX,NAC" /><word lex="," start="14" end="15"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (NP (NP (N1 (ADJP (ADJ1 (ADJ ANTI PUNC-MINUS MOUSE))) (N1 (NAME IGG))))
+  (PUNC PUNC-COMMA)))</lisp><UTT><NP><NP><N1><ADJP><ADJ1><ADJ>ANTI PUNC-MINUS MOUSE</ADJ></ADJ1></ADJP><N1><NAME>IGG</NAME></N1></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></UTT></tree><terms root="#V2168636"><lisp>((ONT::SPEECHACT ONT::V2168636 ONT::SA_IDENTIFY :CONTENT ONT::V2166690 :START 0
+  :END 16)
+ (ONT::BARE ONT::V2166690 (:* ONT::PROTEIN W::IGG) :NAME-OF W::IGG :MOD
+  ONT::V2166674 :START 0 :END 16 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C568 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732
+     :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::F ONT::V2166674 (:* ONT::MODIFIER W::ANTI-PUNC-MINUS-MOUSE) :FIGURE
+  ONT::V2166690 :START 0 :END 11))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2168636">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2166690" />
+    <LF:start>0</LF:start>
+    <LF:end>16</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166690">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>IGG</LF:word>
+    <role:NAME-OF>IGG</role:NAME-OF>
+    <role:MOD rdf:resource="#V2166674" />
+    <LF:start>0</LF:start>
+    <LF:end>16</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C568 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166674">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>ANTI-PUNC-MINUS-MOUSE</LF:word>
+    <role:FIGURE rdf:resource="#V2166690" />
+    <LF:start>0</LF:start>
+    <LF:end>11</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::PEROXIDASE W::PUNC-MINUS W::LINKED W::SPECIES W::PUNC-MINUS W::SPECIFIC
+ W::WHOLE W::ANTIBODY W::FROM W::SHEEP W::PUNC-COMMA)</lisp><word>PEROXIDASE</word><word>PUNC-MINUS</word><word>LINKED</word><word>SPECIES</word><word>PUNC-MINUS</word><word>SPECIFIC</word><word>WHOLE</word><word>ANTIBODY</word><word>FROM</word><word>SHEEP</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;peroxidase&quot; :FRAME (16 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098
+       :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot;
+         :EXACT 1))
+       :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES
+       (ONT::PROTEIN))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MOLECULE) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|8027| :NAME &quot;Peroxidase&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;Peroxidase&quot; :STATUS &quot;name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::MOLECULE))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00141 :NAME &quot;peroxidase&quot; :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;DE&quot; :EXACT 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (26 26) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;linked&quot; :FRAME (27 33) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;peroxidase-linked&quot; :FRAME (16 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;peroxidase-linked&quot; :FRAME (16 33) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;species&quot; :FRAME (34 40) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0056944 :CITATION-FORM &quot;species&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;species&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (41 41) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;specific&quot; :FRAME (42 50) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;species-specific&quot; :FRAME (34 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0237541 :CITATION-FORM &quot;speciesspecific&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;species-specific&quot; :EXACT 2))
+       :NOMINALIZATION
+       ((SPECIALIST :EUI E0056945 :CITATION-FORM &quot;species specificity&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;species-specific&quot; :FRAME (34 50) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;whole&quot; :FRAME (51 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;whole&quot; :FRAME (51 56) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;antibody&quot; :FRAME (57 65) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0005575|
+              (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+             :TO ONT::CELL-PART)
+        (MAP :THROUGH
+             (CONCEPT GO::|0032991|
+              (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+             :TO ONT::MACROMOLECULAR-COMPLEX))
+       :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C16295 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;antibody&quot; :FRAME (57 65) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;whole antibody&quot; :FRAME (51 65) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;species-specific whole antibody&quot; :FRAME (34 65) :ENJU-CATS (NX)
+  :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;peroxidase-linked species-specific whole antibody&quot; :FRAME (16 65)
+  :ENJU-CATS (NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;from&quot; :FRAME (66 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;sheep&quot; :FRAME (71 75) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;sheep&quot; :FRAME (71 75) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;from sheep&quot; :FRAME (66 75) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;peroxidase-linked species-specific whole antibody from sheep&quot; :FRAME
+  (16 75) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1)
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;Anti-Mouse IgG, peroxidase-linked species-specific whole antibody from sheep&quot;
+  :FRAME (0 75) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (76 76) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="peroxidase" start="16" end="25"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.85366"><term id="FA:02795" name="peroxidase family" score="0.85366" ont-types="PROTEIN-FAMILY"><match score="0.85366" matched="peroxidase" status="ID" exact="1" /></term><term id="UP:Q9SCX8" name="Purple acid phosphatase 17" score="0.56098" species="Arabidopsis * (Cress)" dbxrefs="XFAM:PF00149" ont-types="PROTEIN"><match score="0.56098" matched="peroxidase" status="AltName: Full" exact="1" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MOLECULE" score="0.85013"><term id="CHEBI:8027" name="Peroxidase" score="0.85013" ont-types="MOLECULE"><match score="0.85013" matched="Peroxidase" status="name" no-caps-initial-cap="1" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MOLECULAR-DOMAIN" score="0.70732"><term id="XFAM:PF00141" name="peroxidase" score="0.70732" ont-types="MOLECULAR-DOMAIN"><match score="0.70732" matched="peroxidase" status="ID" exact="1" /><match score="0.56098" matched="peroxidase" status="DE" exact="1" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info></word><word lex="-" start="26" end="26" /><word lex="linked" start="27" end="33" /><word lex="peroxidase-linked" start="16" end="33"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="peroxidase-linked" start="16" end="33" penn-cats="ADJP,QP" /><word lex="species" start="34" end="40"><sense-info penn-parts-of-speech="NNS,NN" trips-parts-of-speech="N"><specialist eui="E0056944" citation-form="species"><match score="1.0" matched="species" exact="1" /></specialist></sense-info></word><word lex="-" start="41" end="41" /><word lex="specific" start="42" end="50" /><word lex="species-specific" start="34" end="50"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0237541" citation-form="speciesspecific"><match score="1.0" matched="species-specific" exact="2" /><nominalization><specialist eui="E0056945" citation-form="species specificity" /></nominalization></specialist></sense-info></word><prefer text="species-specific" start="34" end="50" penn-cats="ADJP,QP" /><word lex="whole" start="51" end="56"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="whole" start="51" end="56" penn-cats="ADJP,QP" /><word lex="antibody" start="57" end="65"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX" score="0.70732"><term id="GO:0042571" name="immunoglobulin complex, circulating" score="0.70732" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX"><match score="0.70732" matched="antibody" status="EXACT synonym" exact="1" /><map to="CELL-PART" through="GO:0005575" /><map to="MACROMOLECULAR-COMPLEX" through="GO:0032991" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PROTEIN" score="0.70732"><term id="NCIT:C16295" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="antibody" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info></word><prefer text="antibody" start="57" end="65" penn-cats="NX,NAC" /><prefer text="whole antibody" start="51" end="65" penn-cats="NX,NAC" /><prefer text="species-specific whole antibody" start="34" end="65" penn-cats="NX,NAC" /><prefer text="peroxidase-linked species-specific whole antibody" start="16" end="65" penn-cats="NP,NX,NAC" /><word lex="from" start="66" end="70"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="sheep" start="71" end="75"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="sheep" start="71" end="75" penn-cats="NP,NX,NAC" /><prefer text="from sheep" start="66" end="75" penn-cats="PP" /><prefer text="peroxidase-linked species-specific whole antibody from sheep" start="16" end="75" penn-cats="NP,NX,NAC" /><prefer text="Anti-Mouse IgG, peroxidase-linked species-specific whole antibody from sheep" start="0" end="75" penn-cats="NP" /><word lex="," start="76" end="76"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1
+    (N1 (ADJP (N1 (N PEROXIDASE)) (PUNC PUNC-MINUS) (V LINKED))
+     (N1 (ADJP (N1 (N SPECIES)) (PUNC PUNC-MINUS) (ADJ SPECIFIC))
+      (N1 (ADJP (ADJ1 (ADJ WHOLE))) (N1 (N ANTIBODY)))))
+    (ADVBL (ADV FROM) (NP (N1 (N SHEEP)))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><NP><N1><N1><ADJP><N1><N>PEROXIDASE</N></N1><PUNC>PUNC-MINUS</PUNC><V>LINKED</V></ADJP><N1><ADJP><N1><N>SPECIES</N></N1><PUNC>PUNC-MINUS</PUNC><ADJ>SPECIFIC</ADJ></ADJP><N1><ADJP><ADJ1><ADJ>WHOLE</ADJ></ADJ1></ADJP><N1><N>ANTIBODY</N></N1></N1></N1></N1><ADVBL><ADV>FROM</ADV><NP><N1><N>SHEEP</N></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V2169435"><lisp>((ONT::SPEECHACT ONT::V2169435 ONT::SA_IDENTIFY :CONTENT ONT::V2166768 :START
+  16 :END 76)
+ (ONT::BARE ONT::V2166768 (:* ONT::MACROMOLECULAR-COMPLEX W::ANTIBODY) :MOD
+  ONT::V2166779 :MOD ONT::V2166713 :MOD ONT::V2166738 :MOD ONT::V2166752 :START
+  16 :END 76 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+       1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT GO::|0005575|
+            (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+           :TO ONT::CELL-PART)
+      (MAP :THROUGH
+           (CONCEPT GO::|0032991|
+            (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+           :TO ONT::MACROMOLECULAR-COMPLEX))
+     :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX))
+    (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+     :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+ (ONT::F ONT::V2166713 (:* ONT::ATTACH W::LINK) :AGENT ONT::V2166697 :AFFECTED
+  ONT::V2166768 :START 16 :END 34)
+ (ONT::KIND ONT::V2166697 (:* ONT::GENE-PROTEIN W::PEROXIDASE) :START 16 :END
+  34 :DRUM
+  ((:DRUM
+    (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098
+     :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot;
+       :EXACT 1))
+     :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES
+     (ONT::PROTEIN))
+    (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+ (ONT::F ONT::V2166738 (:* ONT::SPECIFIC-VAL W::SPECIFIC) :GROUND ONT::V2166729
+  :FIGURE ONT::V2166768 :START 34 :END 51)
+ (ONT::BARE ONT::V2166729 (:* ONT::GROUP-OBJECT W::SPECIES) :START 34 :END 51)
+ (ONT::F ONT::V2166752 (:* ONT::WHOLE-COMPLETE W::WHOLE) :FIGURE ONT::V2166768
+  :START 51 :END 57)
+ (ONT::F ONT::V2166779 (:* ONT::FROM-LOC W::FROM) :GROUND ONT::V2166791 :FIGURE
+  ONT::V2166768 :START 66 :END 76)
+ (ONT::INDEF-SET ONT::V2166791 (:* ONT::NONHUMAN-ANIMAL W::SHEEP) :START 71
+  :END 76))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2169435">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2166768" />
+    <LF:start>16</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166768">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MACROMOLECULAR-COMPLEX</LF:type>
+    <LF:word>ANTIBODY</LF:word>
+    <role:MOD rdf:resource="#V2166779" />
+    <role:MOD rdf:resource="#V2166713" />
+    <role:MOD rdf:resource="#V2166738" />
+    <role:MOD rdf:resource="#V2166752" />
+    <LF:start>16</LF:start>
+    <LF:end>76</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+     1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0005575|
+          (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+         :TO CELL-PART)
+    (MAP :THROUGH
+         (CONCEPT |0032991|
+          (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+         :TO MACROMOLECULAR-COMPLEX))
+   :ONT-TYPES (CELL-PART MACROMOLECULAR-COMPLEX))
+  (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+   :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166713">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ATTACH</LF:type>
+    <LF:word>LINK</LF:word>
+    <role:AGENT rdf:resource="#V2166697" />
+    <role:AFFECTED rdf:resource="#V2166768" />
+    <LF:start>16</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166697">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>PEROXIDASE</LF:word>
+    <LF:start>16</LF:start>
+    <LF:end>34</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot; :EXACT
+     1))
+   :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (PF00149) :ONT-TYPES (PROTEIN))
+  (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166738">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SPECIFIC-VAL</LF:type>
+    <LF:word>SPECIFIC</LF:word>
+    <role:GROUND rdf:resource="#V2166729" />
+    <role:FIGURE rdf:resource="#V2166768" />
+    <LF:start>34</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166729">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GROUP-OBJECT</LF:type>
+    <LF:word>SPECIES</LF:word>
+    <LF:start>34</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166752">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WHOLE-COMPLETE</LF:type>
+    <LF:word>WHOLE</LF:word>
+    <role:FIGURE rdf:resource="#V2166768" />
+    <LF:start>51</LF:start>
+    <LF:end>57</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166779">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FROM-LOC</LF:type>
+    <LF:word>FROM</LF:word>
+    <role:GROUND rdf:resource="#V2166791" />
+    <role:FIGURE rdf:resource="#V2166768" />
+    <LF:start>66</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2166791">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NONHUMAN-ANIMAL</LF:type>
+    <LF:word>SHEEP</LF:word>
+    <LF:start>71</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::SECONDARY W::ANTIBODY W::START-PAREN W::CATALOG W::HASHMARK W::NA 931
+ W::PUNC-COMMA W::USED W::AT 1 W::PUNC-COLON 5000 W::END-PAREN W::WAS
+ W::PURCHASED W::FROM W::AMERSHAM W::BIOSCIENCES W::PUNC-PERIOD W::ANTI
+ W::PUNC-MINUS W::RABBIT W::IGG W::PUNC-COMMA)</lisp><word>SECONDARY</word><word>ANTIBODY</word><word>START-PAREN</word><word>CATALOG</word><word>HASHMARK</word><word>NA</word><word>931</word><word>PUNC-COMMA</word><word>USED</word><word>AT</word><word>1</word><word>PUNC-COLON</word><word>5000</word><word>END-PAREN</word><word>WAS</word><word>PURCHASED</word><word>FROM</word><word>AMERSHAM</word><word>BIOSCIENCES</word><word>PUNC-PERIOD</word><word>ANTI</word><word>PUNC-MINUS</word><word>RABBIT</word><word>IGG</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;secondary&quot; :FRAME (78 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;secondary&quot; :FRAME (78 87) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;antibody&quot; :FRAME (88 96) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0005575|
+              (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+             :TO ONT::CELL-PART)
+        (MAP :THROUGH
+             (CONCEPT GO::|0032991|
+              (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+             :TO ONT::MACROMOLECULAR-COMPLEX))
+       :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C16295 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;antibody&quot; :FRAME (88 96) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;secondary antibody&quot; :FRAME (78 96) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;(&quot; :FRAME (97 97) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Catalog&quot; :FRAME (98 105) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM) :ALTERNATE-SPELLINGS (&quot;catalogue&quot;)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Catalog&quot; :FRAME (98 105) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;#&quot; :FRAME (106 106) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (NUMBER_SIGN)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;#&quot; :FRAME (106 106) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;NA&quot; :FRAME (107 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;#NA&quot; :FRAME (106 108) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;931&quot; :FRAME (109 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;931&quot; :FRAME (109 111) :PENN-CATS (ADVP) :TRIPS-CATS (W::ADVBL)
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;NA931&quot; :FRAME (107 111) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (112 113) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;used&quot; :FRAME (114 118) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;used&quot; :FRAME (114 118) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (119 121) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1&quot; :FRAME (122 122) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;1&quot; :FRAME (122 122) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;:&quot; :FRAME (123 123) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;:&quot; :FRAME (123 123) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5000&quot; :FRAME (124 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5000&quot; :FRAME (124 127) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1:5000&quot; :FRAME (122 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;1:5000&quot; :FRAME (122 127) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at 1:5000&quot; :FRAME (119 127) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Catalog #NA931, used at 1:5000&quot; :FRAME (98 127) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (128 129) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;(Catalog #NA931, used at 1:5000)&quot; :FRAME (97 129) :PENN-CATS (PRN)
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;secondary antibody (Catalog #NA931, used at 1:5000)&quot; :FRAME (78 129)
+  :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;was&quot; :FRAME (130 133) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;purchased&quot; :FRAME (134 143) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;purchased&quot; :FRAME (134 143) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;from&quot; :FRAME (144 148) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Amersham&quot; :FRAME (149 157) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Amersham&quot; :FRAME (149 157) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Biosciences&quot; :FRAME (158 168) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (169 169) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFIX &quot;Anti&quot; :FRAME (170 173) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (174 174) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rabbit&quot; :FRAME (175 181) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Anti-rabbit&quot; :FRAME (170 181) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0422852 :CITATION-FORM &quot;antirabbit&quot; :MATCHES
+       ((MATCH :SCORE 0.93878 :MATCHED &quot;anti-rabbit&quot; :EXACT 1
+         :INITIAL-CAP-NO-CAPS 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Biosciences.Anti-rabbit&quot; :FRAME (158 181) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Biosciences.Anti-rabbit&quot; :FRAME (158 181) :ENJU-CATS (NP) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Amersham Biosciences.Anti-rabbit&quot; :FRAME (149 181) :ENJU-CATS (NP)
+  :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;Ig&quot; :FRAME (182 183) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0003342 :CITATION-FORM &quot;IG&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;IG&quot; :INITIAL-CAP-ALL-CAPS 1))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0033618 :CITATION-FORM &quot;immunoglobulin&quot;)
+        (SPECIALIST :EUI E0201392 :CITATION-FORM &quot;immuneglobulin&quot;)))
+      (SPECIALIST :EUI E0702201 :CITATION-FORM &quot;IG&quot; :MATCHES
+       ((MATCH :SCORE 0.85529 :MATCHED &quot;IG&quot; :INITIAL-CAP-ALL-CAPS 1))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0702200 :CITATION-FORM &quot;irritable gut&quot;)
+        (SPECIALIST :EUI E0702199 :CITATION-FORM &quot;interstitial glucose&quot;)
+        (SPECIALIST :EUI E0702202 :CITATION-FORM &quot;immature granule&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;G&quot; :FRAME (184 184) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;IgG&quot; :FRAME (182 184) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C568 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;IgG&quot; :FRAME (182 184) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rabbit IgG&quot; :FRAME (175 184) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0484868 :CITATION-FORM &quot;rabbit IgG&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rabbit IgG&quot; :EXACT 2)) :ACRONYM-OF
+       ((SPECIALIST :EUI E0484867 :CITATION-FORM
+         &quot;rabbit immunoglobulin G&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Anti-rabbit IgG&quot; :FRAME (170 184) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0729733 :CITATION-FORM &quot;antirabbit IgG&quot; :MATCHES
+       ((MATCH :SCORE 0.93878 :MATCHED &quot;anti-rabbit IgG&quot; :EXACT 2
+         :INITIAL-CAP-NO-CAPS 1))
+       :ACRONYM-OF
+       ((SPECIALIST :EUI E0729732 :CITATION-FORM
+         &quot;antirabbit immunoglobulin G&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Amersham Biosciences.Anti-rabbit IgG&quot; :FRAME (149 184) :ENJU-CATS
+  (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;from Amersham Biosciences.Anti-rabbit IgG&quot; :FRAME (144 184)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 242 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;purchased from Amersham Biosciences.Anti-rabbit IgG&quot; :FRAME (134 184)
+  :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 242 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;was purchased from Amersham Biosciences.Anti-rabbit IgG&quot; :FRAME
+  (130 184) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG&quot;
+  :FRAME (78 184) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 242 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (185 185) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="secondary" start="78" end="87"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="secondary" start="78" end="87" penn-cats="ADJP,QP" /><word lex="antibody" start="88" end="96"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX" score="0.70732"><term id="GO:0042571" name="immunoglobulin complex, circulating" score="0.70732" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX"><match score="0.70732" matched="antibody" status="EXACT synonym" exact="1" /><map to="CELL-PART" through="GO:0005575" /><map to="MACROMOLECULAR-COMPLEX" through="GO:0032991" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PROTEIN" score="0.70732"><term id="NCIT:C16295" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="antibody" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info></word><prefer text="antibody" start="88" end="96" penn-cats="NX,NAC" /><prefer text="secondary antibody" start="78" end="96" penn-cats="NP,NX,NAC" /><word lex="(" start="97" end="97"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="Catalog" start="98" end="105"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" alternate-spellings="catalogue" /></word><prefer text="Catalog" start="98" end="105" penn-cats="NP" /><word lex="#" start="106" end="106"><sense-info penn-parts-of-speech="NUMBER_SIGN" /></word><prefer text="#" start="106" end="106" penn-cats="NP" /><word lex="NA" start="107" end="108"><sense-info penn-parts-of-speech="NNS,NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="#NA" start="106" end="108"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><word lex="931" start="109" end="111"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="931" start="109" end="111" penn-cats="ADVP" /><word lex="NA931" start="107" end="111"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="," start="112" end="113"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="used" start="114" end="118"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="used" start="114" end="118" penn-cats="VP" /><word lex="at" start="119" end="121"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="1" start="122" end="122"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="1" start="122" end="122" penn-cats="NX,NAC" /><word lex=":" start="123" end="123"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><prefer text=":" start="123" end="123" penn-cats="CONJP" /><word lex="5000" start="124" end="127"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="5000" start="124" end="127" penn-cats="NX,NAC" /><word lex="1:5000" start="122" end="127"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="1:5000" start="122" end="127" penn-cats="NP" /><prefer text="at 1:5000" start="119" end="127" penn-cats="PP" /><prefer text="Catalog #NA931, used at 1:5000" start="98" end="127" penn-cats="NP,NX,NAC" /><word lex=")" start="128" end="129"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="(Catalog #NA931, used at 1:5000)" start="97" end="129" penn-cats="PRN" /><prefer text="secondary antibody (Catalog #NA931, used at 1:5000)" start="78" end="129" penn-cats="NP,NX,NAC" /><word lex="was" start="130" end="133"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="purchased" start="134" end="143"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="purchased" start="134" end="143" penn-cats="VP" /><word lex="from" start="144" end="148"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Amersham" start="149" end="157"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME"><specialist eui="E0506329" citation-form="Amersham"><match score="1.0" matched="Amersham" exact="1" /></specialist></sense-info></word><prefer text="Amersham" start="149" end="157" penn-cats="NP" /><word lex="Biosciences" start="158" end="168"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="." start="169" end="169" /><prefix lex="Anti" start="170" end="173"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></prefix><word lex="-" start="174" end="174" /><word lex="rabbit" start="175" end="181" /><word lex="Anti-rabbit" start="170" end="181"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0422852" citation-form="antirabbit"><match score="0.93878" matched="anti-rabbit" exact="1" initial-cap-no-caps="1" /></specialist></sense-info></word><word lex="Biosciences.Anti-rabbit" start="158" end="181"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="Biosciences.Anti-rabbit" start="158" end="181" penn-cats="NP" /><prefer text="Amersham Biosciences.Anti-rabbit" start="149" end="181" penn-cats="NP" /><word lex="Ig" start="182" end="183"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0003342" citation-form="IG"><match score="0.85529" matched="IG" initial-cap-all-caps="1" /><acronym-of><specialist eui="E0033618" citation-form="immunoglobulin" /><specialist eui="E0201392" citation-form="immuneglobulin" /></acronym-of></specialist><specialist eui="E0702201" citation-form="IG"><match score="0.85529" matched="IG" initial-cap-all-caps="1" /><acronym-of><specialist eui="E0702200" citation-form="irritable gut" /><specialist eui="E0702199" citation-form="interstitial glucose" /><specialist eui="E0702202" citation-form="immature granule" /></acronym-of></specialist></sense-info></word><word lex="G" start="184" end="184" /><word lex="IgG" start="182" end="184"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.70732"><term id="NCIT:C568" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="IgG" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term></sense-info></word><prefer text="IgG" start="182" end="184" penn-cats="NX,NAC" /><word lex="rabbit IgG" start="175" end="184"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0484868" citation-form="rabbit IgG"><match score="1.0" matched="rabbit IgG" exact="2" /><acronym-of><specialist eui="E0484867" citation-form="rabbit immunoglobulin G" /></acronym-of></specialist></sense-info></word><word lex="Anti-rabbit IgG" start="170" end="184"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0729733" citation-form="antirabbit IgG"><match score="0.93878" matched="anti-rabbit IgG" exact="2" initial-cap-no-caps="1" /><acronym-of><specialist eui="E0729732" citation-form="antirabbit immunoglobulin G" /></acronym-of></specialist></sense-info></word><prefer text="Amersham Biosciences.Anti-rabbit IgG" start="149" end="184" penn-cats="NP,NX,NAC" /><prefer text="from Amersham Biosciences.Anti-rabbit IgG" start="144" end="184" penn-cats="PP" /><prefer text="purchased from Amersham Biosciences.Anti-rabbit IgG" start="134" end="184" penn-cats="VP" /><prefer text="was purchased from Amersham Biosciences.Anti-rabbit IgG" start="130" end="184" penn-cats="VP" /><prefer text="secondary antibody (Catalog #NA931, used at 1:5000) was purchased from Amersham Biosciences.Anti-rabbit IgG" start="78" end="184" penn-cats="S" /><word lex="," start="185" end="185"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (NP (N1 (ADJP (ADJ1 (ADJ SECONDARY))) (N1 (N ANTIBODY))))
+    (PARENTHETICAL (PUNC START-PAREN)
+     (UTT
+      (NP
+       (N1
+        (N1 (N1 (N1 (N CATALOG)) (N1 (N HASHMARK)))
+         (CP
+          (VP
+           (VP-
+            (NP (NP (NAME (N NA) (RNUMBER (NUMBER 931)))) (PUNC PUNC-COMMA))
+            (V (V USED))))))
+        (ADVBL (ADV AT) (NP (NAME 1 PUNC-COLON 5000))))))
+     (PUNC END-PAREN)))
+   (VP
+    (VP- (AUX (V WAS))
+     (VP- (VP- (V (V PURCHASED)))
+      (ADVBL (ADV FROM)
+       (NP
+        (N1
+         (N1 (NP (NAME AMERSHAM))
+          (N1 (N BIOSCIENCES PUNC-PERIOD ANTI PUNC-MINUS RABBIT)))
+         (N1 (NAME IGG))))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><NP><N1><ADJP><ADJ1><ADJ>SECONDARY</ADJ></ADJ1></ADJP><N1><N>ANTIBODY</N></N1></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><N1><N1><N1><N>CATALOG</N></N1><N1><N>HASHMARK</N></N1></N1><CP><VP><VP-><NP><NP><NAME><N>NA</N><RNUMBER><NUMBER>931</NUMBER></RNUMBER></NAME></NP><PUNC>PUNC-COMMA</PUNC></NP><V><V>USED</V></V></VP-></VP></CP></N1><ADVBL><ADV>AT</ADV><NP><NAME>1 PUNC-COLON 5000</NAME></NP></ADVBL></N1></NP></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP><VP><VP-><AUX><V>WAS</V></AUX><VP-><VP-><V><V>PURCHASED</V></V></VP-><ADVBL><ADV>FROM</ADV><NP><N1><N1><NP><NAME>AMERSHAM</NAME></NP><N1><N>BIOSCIENCES PUNC-PERIOD ANTI PUNC-MINUS RABBIT</N></N1></N1><N1><NAME>IGG</NAME></N1></N1></NP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V2189130"><lisp>((ONT::SPEECHACT ONT::V2189130 ONT::SA_TELL :CONTENT ONT::V2179035 :START 78
+  :END 185)
+ (ONT::F ONT::V2179035 (:* ONT::PURCHASE W::PURCHASE) :AFFECTED ONT::V2178933
+  :SOURCE ONT::V2179040 :TENSE W::PAST :PASSIVE + :START 78 :END 185)
+ (ONT::BARE ONT::V2178933 (:* ONT::MACROMOLECULAR-COMPLEX W::ANTIBODY)
+  :PARENTHETICAL ONT::V2178962 :MOD ONT::V2178919 :START 78 :END 130 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+       1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT GO::|0005575|
+            (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+           :TO ONT::CELL-PART)
+      (MAP :THROUGH
+           (CONCEPT GO::|0032991|
+            (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+           :TO ONT::MACROMOLECULAR-COMPLEX))
+     :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX))
+    (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+     :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+ (ONT::F ONT::V2178919 (:* ONT::SECONDARY W::SECONDARY) :FIGURE ONT::V2178933
+  :START 78 :END 88)
+ (ONT::SPEECHACT ONT::V2183196 ONT::SA_IDENTIFY :CONTENT ONT::V2178962 :START
+  98 :END 128)
+ (ONT::F ONT::V2178991 (:* ONT::USE W::USE) :AGENT ONT::V2178966 :VFORM
+  W::PASSIVE :START 107 :END 119)
+ (ONT::THE ONT::V2178966 (:* ONT::SUBSTANCE W::NA) :NAME-OF (W::NA 931) :START
+  107 :END 114)
+ (ONT::F ONT::V2179001 (:* ONT::AT-LOC W::AT) :GROUND ONT::V2179127 :FIGURE
+  ONT::V2178962 :START 119 :END 128)
+ (ONT::F ONT::V2179040 (:* ONT::FROM W::FROM) :GROUND ONT::V2179108 :FIGURE
+  ONT::V2179035 :START 144 :END 185)
+ (ONT::BARE ONT::V2179108 (:* ONT::PROTEIN W::IGG) :ASSOC-WITH ONT::V2179092
+  :NAME-OF W::IGG :START 149 :END 185 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C568 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732
+     :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::KIND ONT::V2179092
+  (:* ONT::REFERENTIAL-SEM W::BIOSCIENCES-PUNC-PERIOD-ANTI-PUNC-MINUS-RABBIT)
+  :ASSOC-WITH ONT::V2179054 :START 149 :END 185)
+ (ONT::THE ONT::V2179054 (:* ONT::REFERENTIAL-SEM W::AMERSHAM) :NAME-OF
+  (W::AMERSHAM) :START 149 :END 158 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1))))))
+ (ONT::BARE ONT::V2178962 (:* ONT::KNOWLEDGE-BELIEF W::HASHMARK) :ASSOC-WITH
+  ONT::V2178946 :LOCATION ONT::V2179001 :MOD ONT::V2178991 :START 98 :END 128)
+ (ONT::KIND ONT::V2178946 (:* ONT::INFORMATION-FUNCTION-OBJECT W::CATALOG)
+  :START 98 :END 128)
+ (ONT::THE ONT::V2179127 ONT::NUMBER :SEQUENCE (ONT::V2178823 ONT::V2178829)
+  :NAME-OF (1 W::PUNC-COLON 5000) :START 122 :END 128)
+ (ONT::INDEF-SET ONT::V2178823 ONT::NUMBER :NUMBER 1 :START 122 :END 123)
+ (ONT::INDEF-SET ONT::V2178829 ONT::NUMBER :NUMBER 5000 :START 124 :END 128))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2189130">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2179035" />
+    <LF:start>78</LF:start>
+    <LF:end>185</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179035">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURCHASE</LF:type>
+    <LF:word>PURCHASE</LF:word>
+    <role:AFFECTED rdf:resource="#V2178933" />
+    <role:SOURCE rdf:resource="#V2179040" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>78</LF:start>
+    <LF:end>185</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178933">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>MACROMOLECULAR-COMPLEX</LF:type>
+    <LF:word>ANTIBODY</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V2178962" />
+    <role:MOD rdf:resource="#V2178919" />
+    <LF:start>78</LF:start>
+    <LF:end>130</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0042571| :NAME &quot;immunoglobulin complex, circulating&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+     1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0005575|
+          (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+         :TO CELL-PART)
+    (MAP :THROUGH
+         (CONCEPT |0032991|
+          (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+         :TO MACROMOLECULAR-COMPLEX))
+   :ONT-TYPES (CELL-PART MACROMOLECULAR-COMPLEX))
+  (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+   :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178919">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SECONDARY</LF:type>
+    <LF:word>SECONDARY</LF:word>
+    <role:FIGURE rdf:resource="#V2178933" />
+    <LF:start>78</LF:start>
+    <LF:end>88</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2183196">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2178962" />
+    <LF:start>98</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178991">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>USE</LF:word>
+    <role:AGENT rdf:resource="#V2178966" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>107</LF:start>
+    <LF:end>119</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178966">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SUBSTANCE</LF:type>
+    <LF:word>NA</LF:word>
+    <role:NAME-OF>(NA 931)</role:NAME-OF>
+    <LF:start>107</LF:start>
+    <LF:end>114</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179001">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V2179127" />
+    <role:FIGURE rdf:resource="#V2178962" />
+    <LF:start>119</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179040">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FROM</LF:type>
+    <LF:word>FROM</LF:word>
+    <role:GROUND rdf:resource="#V2179108" />
+    <role:FIGURE rdf:resource="#V2179035" />
+    <LF:start>144</LF:start>
+    <LF:end>185</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179108">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>IGG</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V2179092" />
+    <role:NAME-OF>IGG</role:NAME-OF>
+    <LF:start>149</LF:start>
+    <LF:end>185</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C568 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;IgG&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179092">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>BIOSCIENCES-PUNC-PERIOD-ANTI-PUNC-MINUS-RABBIT</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V2179054" />
+    <LF:start>149</LF:start>
+    <LF:end>185</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179054">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>AMERSHAM</LF:word>
+    <role:NAME-OF>(AMERSHAM)</role:NAME-OF>
+    <LF:start>149</LF:start>
+    <LF:end>158</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178962">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>KNOWLEDGE-BELIEF</LF:type>
+    <LF:word>HASHMARK</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V2178946" />
+    <role:LOCATION rdf:resource="#V2179001" />
+    <role:MOD rdf:resource="#V2178991" />
+    <LF:start>98</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178946">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>INFORMATION-FUNCTION-OBJECT</LF:type>
+    <LF:word>CATALOG</LF:word>
+    <LF:start>98</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2179127">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V2178823" />
+    <role:SEQUENCE1 rdf:resource="#V2178829" />
+    <role:NAME-OF>(1 PUNC-COLON 5000)</role:NAME-OF>
+    <LF:start>122</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178823">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>1</role:NUMBER>
+    <LF:start>122</LF:start>
+    <LF:end>123</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2178829">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>5000</role:NUMBER>
+    <LF:start>124</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><compound-communication-act>
+<utt><words><lisp>(W::PEROXIDASE W::PUNC-MINUS W::LINKED W::SPECIES W::PUNC-MINUS W::SPECIFIC
+ W::WHOLE W::SECONDARY W::ANTIBODY)</lisp><word>PEROXIDASE</word><word>PUNC-MINUS</word><word>LINKED</word><word>SPECIES</word><word>PUNC-MINUS</word><word>SPECIFIC</word><word>WHOLE</word><word>SECONDARY</word><word>ANTIBODY</word></words><tags><lisp>((WORD &quot;peroxidase&quot; :FRAME (187 196) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098
+       :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot;
+         :EXACT 1))
+       :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES
+       (ONT::PROTEIN))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MOLECULE) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|8027| :NAME &quot;Peroxidase&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;Peroxidase&quot; :STATUS &quot;name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::MOLECULE))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00141 :NAME &quot;peroxidase&quot; :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;DE&quot; :EXACT 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))
+      (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (197 197) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;linked&quot; :FRAME (198 204) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;peroxidase-linked&quot; :FRAME (187 204) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;peroxidase-linked&quot; :FRAME (187 204) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;species&quot; :FRAME (205 211) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0056944 :CITATION-FORM &quot;species&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;species&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (212 212) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;specific&quot; :FRAME (213 221) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;species-specific&quot; :FRAME (205 221) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0237541 :CITATION-FORM &quot;speciesspecific&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;species-specific&quot; :EXACT 2))
+       :NOMINALIZATION
+       ((SPECIALIST :EUI E0056945 :CITATION-FORM &quot;species specificity&quot;)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;species-specific&quot; :FRAME (205 221) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADJP QP) :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;whole&quot; :FRAME (222 227) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;whole&quot; :FRAME (222 227) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;secondary&quot; :FRAME (228 237) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;secondary&quot; :FRAME (228 237) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;antibody&quot; :FRAME (238 246) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0042571| :NAME &quot;immunoglobulin complex, circulating&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;EXACT synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0005575|
+              (SENSE (MORPH (POS N) (WORD CELLULAR_COMPONENT))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000557.lisp&quot;))))
+             :TO ONT::CELL-PART)
+        (MAP :THROUGH
+             (CONCEPT GO::|0032991|
+              (SENSE (MORPH (POS N) (WORD (MACROMOLECULAR COMPLEX)))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/003299.lisp&quot;))))
+             :TO ONT::MACROMOLECULAR-COMPLEX))
+       :ONT-TYPES (ONT::CELL-PART ONT::MACROMOLECULAR-COMPLEX))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C16295 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+       :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;antibody&quot; :FRAME (238 246) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;secondary antibody&quot; :FRAME (228 246) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;whole secondary antibody&quot; :FRAME (222 246) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;species-specific whole secondary antibody&quot; :FRAME (205 246)
+  :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;peroxidase-linked species-specific whole secondary antibody&quot; :FRAME
+  (187 246) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1)
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="peroxidase" start="187" end="196"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="GENE-PROTEIN" score="0.85366"><term id="FA:02795" name="peroxidase family" score="0.85366" ont-types="PROTEIN-FAMILY"><match score="0.85366" matched="peroxidase" status="ID" exact="1" /></term><term id="UP:Q9SCX8" name="Purple acid phosphatase 17" score="0.56098" species="Arabidopsis * (Cress)" dbxrefs="XFAM:PF00149" ont-types="PROTEIN"><match score="0.56098" matched="peroxidase" status="AltName: Full" exact="1" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MOLECULE" score="0.85013"><term id="CHEBI:8027" name="Peroxidase" score="0.85013" ont-types="MOLECULE"><match score="0.85013" matched="Peroxidase" status="name" no-caps-initial-cap="1" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="MOLECULAR-DOMAIN" score="0.70732"><term id="XFAM:PF00141" name="peroxidase" score="0.70732" ont-types="MOLECULAR-DOMAIN"><match score="0.70732" matched="peroxidase" status="ID" exact="1" /><match score="0.56098" matched="peroxidase" status="DE" exact="1" /></term><specialist eui="E0046889" citation-form="peroxidase"><match score="1.0" matched="peroxidase" exact="1" /></specialist></sense-info></word><word lex="-" start="197" end="197" /><word lex="linked" start="198" end="204" /><word lex="peroxidase-linked" start="187" end="204"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="peroxidase-linked" start="187" end="204" penn-cats="ADJP,QP" /><word lex="species" start="205" end="211"><sense-info penn-parts-of-speech="NNS,NN" trips-parts-of-speech="N"><specialist eui="E0056944" citation-form="species"><match score="1.0" matched="species" exact="1" /></specialist></sense-info></word><word lex="-" start="212" end="212" /><word lex="specific" start="213" end="221" /><word lex="species-specific" start="205" end="221"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0237541" citation-form="speciesspecific"><match score="1.0" matched="species-specific" exact="2" /><nominalization><specialist eui="E0056945" citation-form="species specificity" /></nominalization></specialist></sense-info></word><prefer text="species-specific" start="205" end="221" penn-cats="ADJP,QP" /><word lex="whole" start="222" end="227"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="whole" start="222" end="227" penn-cats="ADJP,QP" /><word lex="secondary" start="228" end="237"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="secondary" start="228" end="237" penn-cats="ADJP,QP" /><word lex="antibody" start="238" end="246"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX" score="0.70732"><term id="GO:0042571" name="immunoglobulin complex, circulating" score="0.70732" ont-types="CELL-PART,MACROMOLECULAR-COMPLEX"><match score="0.70732" matched="antibody" status="EXACT synonym" exact="1" /><map to="CELL-PART" through="GO:0005575" /><map to="MACROMOLECULAR-COMPLEX" through="GO:0032991" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PROTEIN" score="0.70732"><term id="NCIT:C16295" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="antibody" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><specialist eui="E0009430" citation-form="antibody"><match score="0.99814" matched="anti-body" no-dash-dash="1" exact="2" />    <complement>compl=pphr(to,np)</complement>
+    <complement>compl=pphr(in,np)</complement>
+</specialist></sense-info></word><prefer text="antibody" start="238" end="246" penn-cats="NX,NAC" /><prefer text="secondary antibody" start="228" end="246" penn-cats="NX,NAC" /><prefer text="whole secondary antibody" start="222" end="246" penn-cats="NX,NAC" /><prefer text="species-specific whole secondary antibody" start="205" end="246" penn-cats="NX,NAC" /><prefer text="peroxidase-linked species-specific whole secondary antibody" start="187" end="246" penn-cats="NP,NX,NAC" /></tags><tree><lisp>(UTT
+ (NP
+  (N1 (ADJP (N1 (N PEROXIDASE)) (PUNC PUNC-MINUS) (V LINKED))
+   (N1 (ADJP (N1 (N SPECIES)) (PUNC PUNC-MINUS) (ADJ SPECIFIC))
+    (N1 (ADJP (ADJ1 (ADJ WHOLE)))
+     (N1 (ADJP (ADJ1 (ADJ SECONDARY))) (N1 (N ANTIBODY))))))))</lisp><UTT><NP><N1><ADJP><N1><N>PEROXIDASE</N></N1><PUNC>PUNC-MINUS</PUNC><V>LINKED</V></ADJP><N1><ADJP><N1><N>SPECIES</N></N1><PUNC>PUNC-MINUS</PUNC><ADJ>SPECIFIC</ADJ></ADJP><N1><ADJP><ADJ1><ADJ>WHOLE</ADJ></ADJ1></ADJP><N1><ADJP><ADJ1><ADJ>SECONDARY</ADJ></ADJ1></ADJP><N1><N>ANTIBODY</N></N1></N1></N1></N1></N1></NP></UTT></tree><terms root="#V2192850"><lisp>((ONT::SPEECHACT ONT::V2192850 ONT::SA_IDENTIFY :CONTENT ONT::V2190699 :START
+  187 :END 247)
+ (ONT::BARE ONT::V2190699 (:* ONT::PROTEIN W::ANTIBODY) :MOD ONT::V2190636 :MOD
+  ONT::V2190661 :MOD ONT::V2190675 :MOD ONT::V2190680 :START 187 :END 247 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C16295 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+     :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;)))))
+ (ONT::F ONT::V2190636 (:* ONT::ATTACH W::LINK) :AGENT ONT::V2190620 :AFFECTED
+  ONT::V2190699 :START 187 :END 205)
+ (ONT::KIND ONT::V2190620 (:* ONT::GENE-PROTEIN W::PEROXIDASE) :START 187 :END
+  205 :DRUM
+  ((:DRUM
+    (TERM :ID FA::|02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID UP::Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098
+     :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot;
+       :EXACT 1))
+     :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (XFAM::PF00149) :ONT-TYPES
+     (ONT::PROTEIN))
+    (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1))))))
+ (ONT::F ONT::V2190661 (:* ONT::SPECIFIC-VAL W::SPECIFIC) :GROUND ONT::V2190652
+  :FIGURE ONT::V2190699 :START 205 :END 222)
+ (ONT::BARE ONT::V2190652 (:* ONT::GROUP-OBJECT W::SPECIES) :START 205 :END
+  222)
+ (ONT::F ONT::V2190675 (:* ONT::WHOLE-COMPLETE W::WHOLE) :FIGURE ONT::V2190699
+  :START 222 :END 228)
+ (ONT::F ONT::V2190680 (:* ONT::SECONDARY W::SECONDARY) :FIGURE ONT::V2190699
+  :START 228 :END 238))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2192850">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2190699" />
+    <LF:start>187</LF:start>
+    <LF:end>247</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190699">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>ANTIBODY</LF:word>
+    <role:MOD rdf:resource="#V2190636" />
+    <role:MOD rdf:resource="#V2190661" />
+    <role:MOD rdf:resource="#V2190675" />
+    <role:MOD rdf:resource="#V2190680" />
+    <LF:start>187</LF:start>
+    <LF:end>247</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C16295 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16295&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;antibody&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (SPECIALIST :EUI E0009430 :CITATION-FORM &quot;antibody&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;anti-body&quot; :NO-DASH-DASH 1 :EXACT 2))
+   :COMPLEMENTS (&quot;compl=pphr(to,np)&quot; &quot;compl=pphr(in,np)&quot;))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190636">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ATTACH</LF:type>
+    <LF:word>LINK</LF:word>
+    <role:AGENT rdf:resource="#V2190620" />
+    <role:AFFECTED rdf:resource="#V2190699" />
+    <LF:start>187</LF:start>
+    <LF:end>205</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190620">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>PEROXIDASE</LF:word>
+    <LF:start>187</LF:start>
+    <LF:end>205</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |02795| :NAME &quot;peroxidase family&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;peroxidase&quot; :STATUS &quot;ID&quot; :EXACT 1))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID Q9SCX8 :NAME &quot;Purple acid phosphatase 17&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;peroxidase&quot; :STATUS &quot;AltName: Full&quot; :EXACT
+     1))
+   :SPECIES &quot;Arabidopsis * (Cress)&quot; :DBXREFS (PF00149) :ONT-TYPES (PROTEIN))
+  (SPECIALIST :EUI E0046889 :CITATION-FORM &quot;peroxidase&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;peroxidase&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190661">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SPECIFIC-VAL</LF:type>
+    <LF:word>SPECIFIC</LF:word>
+    <role:GROUND rdf:resource="#V2190652" />
+    <role:FIGURE rdf:resource="#V2190699" />
+    <LF:start>205</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190652">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GROUP-OBJECT</LF:type>
+    <LF:word>SPECIES</LF:word>
+    <LF:start>205</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190675">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>WHOLE-COMPLETE</LF:type>
+    <LF:word>WHOLE</LF:word>
+    <role:FIGURE rdf:resource="#V2190699" />
+    <LF:start>222</LF:start>
+    <LF:end>228</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190680">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SECONDARY</LF:type>
+    <LF:word>SECONDARY</LF:word>
+    <role:FIGURE rdf:resource="#V2190699" />
+    <LF:start>228</LF:start>
+    <LF:end>238</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FROM W::DONKEY W::START-PAREN W::CATALOG W::HASHMARK W::NA 934
+ W::PUNC-COMMA W::USED W::AT 1 W::PUNC-COLON 5000 W::END-PAREN)</lisp><word>FROM</word><word>DONKEY</word><word>START-PAREN</word><word>CATALOG</word><word>HASHMARK</word><word>NA</word><word>934</word><word>PUNC-COMMA</word><word>USED</word><word>AT</word><word>1</word><word>PUNC-COLON</word><word>5000</word><word>END-PAREN</word></words><tags><lisp>((WORD &quot;from&quot; :FRAME (247 251) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;donkey&quot; :FRAME (252 258) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0023744 :CITATION-FORM &quot;donkey&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;donkey&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;donkey&quot; :FRAME (252 258) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (259 259) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Catalog&quot; :FRAME (260 267) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM) :ALTERNATE-SPELLINGS (&quot;catalogue&quot;)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Catalog&quot; :FRAME (260 267) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;#&quot; :FRAME (268 269) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (NUMBER_SIGN)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;#&quot; :FRAME (268 269) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;NA&quot; :FRAME (270 271) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS NN JJ) :TRIPS-PARTS-OF-SPEECH (W::N W::ADJ)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;934&quot; :FRAME (272 274) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;NA934&quot; :FRAME (270 274) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;NA934&quot; :FRAME (270 274) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (275 276) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;used&quot; :FRAME (277 281) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;used&quot; :FRAME (277 281) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;at&quot; :FRAME (282 284) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1&quot; :FRAME (285 285) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;1&quot; :FRAME (285 285) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;:&quot; :FRAME (286 286) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COLON) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;:&quot; :FRAME (286 286) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5000&quot; :FRAME (287 290) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5000&quot; :FRAME (287 290) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;1:5000&quot; :FRAME (285 290) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;1:5000&quot; :FRAME (285 290) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;at 1:5000&quot; :FRAME (282 290) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;used at 1:5000&quot; :FRAME (277 290) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Catalog # NA934, used at 1:5000&quot; :FRAME (260 290) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (291 292) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;(Catalog # NA934, used at 1:5000)&quot; :FRAME (259 292) :PENN-CATS (PRN)
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000)&quot;
+  :FRAME (187 292) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS
+  (W::NP W::N1) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="from" start="247" end="251"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="donkey" start="252" end="258"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0023744" citation-form="donkey"><match score="1.0" matched="donkey" exact="1" /></specialist></sense-info></word><prefer text="donkey" start="252" end="258" penn-cats="NP,NX,NAC" /><word lex="(" start="259" end="259"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="Catalog" start="260" end="267"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" alternate-spellings="catalogue" /></word><prefer text="Catalog" start="260" end="267" penn-cats="NP" /><word lex="#" start="268" end="269"><sense-info penn-parts-of-speech="NUMBER_SIGN" /></word><prefer text="#" start="268" end="269" penn-cats="NP" /><word lex="NA" start="270" end="271"><sense-info penn-parts-of-speech="NNS,NN,JJ" trips-parts-of-speech="N,ADJ" /></word><word lex="934" start="272" end="274" /><word lex="NA934" start="270" end="274"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="NA934" start="270" end="274" penn-cats="NP,NX,NAC" /><word lex="," start="275" end="276"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="used" start="277" end="281"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="used" start="277" end="281" penn-cats="VP" /><word lex="at" start="282" end="284"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="1" start="285" end="285"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="1" start="285" end="285" penn-cats="NX,NAC" /><word lex=":" start="286" end="286"><sense-info penn-parts-of-speech="COLON" trips-parts-of-speech="PUNC" /></word><prefer text=":" start="286" end="286" penn-cats="CONJP" /><word lex="5000" start="287" end="290"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="5000" start="287" end="290" penn-cats="NX,NAC" /><word lex="1:5000" start="285" end="290"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="1:5000" start="285" end="290" penn-cats="NP" /><prefer text="at 1:5000" start="282" end="290" penn-cats="PP" /><prefer text="used at 1:5000" start="277" end="290" penn-cats="VP" /><prefer text="Catalog # NA934, used at 1:5000" start="260" end="290" penn-cats="NP,NX,NAC" /><word lex=")" start="291" end="292"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="(Catalog # NA934, used at 1:5000)" start="259" end="292" penn-cats="PRN" /><prefer text="peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000)" start="187" end="292" penn-cats="NP,NX,NAC" /></tags><tree><lisp>(ADVBL (ADV FROM)
+ (NP (NP (N1 (N DONKEY)))
+  (PARENTHETICAL (PUNC START-PAREN)
+   (UTT
+    (NP
+     (N1
+      (N1 (N1 (N1 (N CATALOG)) (N1 (N HASHMARK)))
+       (CP
+        (VP
+         (VP- (NP (NP (NAME (N NA) (RNUMBER (NUMBER 934)))) (PUNC PUNC-COMMA))
+          (V (V USED))))))
+      (ADVBL (ADV AT) (NP (NAME 1 PUNC-COLON 5000))))))
+   (PUNC END-PAREN))))</lisp><ADVBL><ADV>FROM</ADV><NP><NP><N1><N>DONKEY</N></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><N1><N1><N1><N>CATALOG</N></N1><N1><N>HASHMARK</N></N1></N1><CP><VP><VP-><NP><NP><NAME><N>NA</N><RNUMBER><NUMBER>934</NUMBER></RNUMBER></NAME></NP><PUNC>PUNC-COMMA</PUNC></NP><V><V>USED</V></V></VP-></VP></CP></N1><ADVBL><ADV>AT</ADV><NP><NAME>1 PUNC-COLON 5000</NAME></NP></ADVBL></N1></NP></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></ADVBL></tree><terms root="#V2190705"><lisp>((ONT::F ONT::V2190705 (:* ONT::FROM-LOC W::FROM) :GROUND ONT::V2190718 :START
+  247 :END 293)
+ (ONT::BARE ONT::V2190718 (:* ONT::KNOWLEDGE-BELIEF W::DONKEY) :PARENTHETICAL
+  ONT::V2190743 :START 252 :END 293)
+ (ONT::SPEECHACT ONT::V2197901 ONT::SA_IDENTIFY :CONTENT ONT::V2190743 :START
+  260 :END 291)
+ (ONT::F ONT::V2190767 (:* ONT::USE W::USE) :AGENT ONT::V2190747 :VFORM
+  W::PASSIVE :START 270 :END 282)
+ (ONT::THE ONT::V2190747 (:* ONT::SUBSTANCE W::NA) :NAME-OF (W::NA 934) :START
+  270 :END 277)
+ (ONT::F ONT::V2190777 (:* ONT::AT-LOC W::AT) :GROUND ONT::V2190858 :FIGURE
+  ONT::V2190743 :START 282 :END 291)
+ (ONT::BARE ONT::V2190743 (:* ONT::KNOWLEDGE-BELIEF W::HASHMARK) :ASSOC-WITH
+  ONT::V2190727 :LOCATION ONT::V2190777 :MOD ONT::V2190767 :START 260 :END 291)
+ (ONT::KIND ONT::V2190727 (:* ONT::INFORMATION-FUNCTION-OBJECT W::CATALOG)
+  :START 260 :END 291)
+ (ONT::THE ONT::V2190858 ONT::NUMBER :SEQUENCE (ONT::V2190109 ONT::V2190115)
+  :NAME-OF (1 W::PUNC-COLON 5000) :START 285 :END 291)
+ (ONT::INDEF-SET ONT::V2190109 ONT::NUMBER :NUMBER 1 :START 285 :END 286)
+ (ONT::INDEF-SET ONT::V2190115 ONT::NUMBER :NUMBER 5000 :START 287 :END 291))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2190705">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FROM-LOC</LF:type>
+    <LF:word>FROM</LF:word>
+    <role:GROUND rdf:resource="#V2190718" />
+    <LF:start>247</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190718">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>KNOWLEDGE-BELIEF</LF:type>
+    <LF:word>DONKEY</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V2190743" />
+    <LF:start>252</LF:start>
+    <LF:end>293</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2197901">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V2190743" />
+    <LF:start>260</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190767">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>USE</LF:word>
+    <role:AGENT rdf:resource="#V2190747" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>270</LF:start>
+    <LF:end>282</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190747">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SUBSTANCE</LF:type>
+    <LF:word>NA</LF:word>
+    <role:NAME-OF>(NA 934)</role:NAME-OF>
+    <LF:start>270</LF:start>
+    <LF:end>277</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190777">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AT-LOC</LF:type>
+    <LF:word>AT</LF:word>
+    <role:GROUND rdf:resource="#V2190858" />
+    <role:FIGURE rdf:resource="#V2190743" />
+    <LF:start>282</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190743">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>KNOWLEDGE-BELIEF</LF:type>
+    <LF:word>HASHMARK</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V2190727" />
+    <role:LOCATION rdf:resource="#V2190777" />
+    <role:MOD rdf:resource="#V2190767" />
+    <LF:start>260</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190727">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>INFORMATION-FUNCTION-OBJECT</LF:type>
+    <LF:word>CATALOG</LF:word>
+    <LF:start>260</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190858">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V2190109" />
+    <role:SEQUENCE1 rdf:resource="#V2190115" />
+    <role:NAME-OF>(1 PUNC-COLON 5000)</role:NAME-OF>
+    <LF:start>285</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190109">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>1</role:NUMBER>
+    <LF:start>285</LF:start>
+    <LF:end>286</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190115">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>5000</role:NUMBER>
+    <LF:start>287</LF:start>
+    <LF:end>291</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WAS W::ALSO W::PURCHASED W::FROM W::AMERSHAM W::BIOSCIENCES W::PUNC-PERIOD
+ W::PUNC-PERIOD)</lisp><word>WAS</word><word>ALSO</word><word>PURCHASED</word><word>FROM</word><word>AMERSHAM</word><word>BIOSCIENCES</word><word>PUNC-PERIOD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;was&quot; :FRAME (293 296) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;also&quot; :FRAME (297 301) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;also&quot; :FRAME (297 301) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;purchased&quot; :FRAME (302 311) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;purchased&quot; :FRAME (302 311) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;from&quot; :FRAME (312 316) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Amersham&quot; :FRAME (317 325) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1)))))))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Amersham&quot; :FRAME (317 325) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Biosciences&quot; :FRAME (326 336) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (337 337) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (338 338) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (338 338) :UTTNUM 242 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Biosciences..&quot; :FRAME (326 338) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME))) :UTTNUM 242
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;was also purchased from Amersham Biosciences..&quot; :FRAME (293 338)
+  :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 242 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000) was also purchased from Amersham Biosciences..&quot;
+  :FRAME (187 338) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 242 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="was" start="293" end="296"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="also" start="297" end="301"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="also" start="297" end="301" penn-cats="ADVP" /><word lex="purchased" start="302" end="311"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="purchased" start="302" end="311" penn-cats="VP" /><word lex="from" start="312" end="316"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Amersham" start="317" end="325"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME"><specialist eui="E0506329" citation-form="Amersham"><match score="1.0" matched="Amersham" exact="1" /></specialist></sense-info></word><prefer text="Amersham" start="317" end="325" penn-cats="NP" /><word lex="Biosciences" start="326" end="336"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><word lex="." start="337" end="337" /><prefer text="." start="338" end="338" penn-cats="NP" /><word lex="." start="338" end="338" /><word lex="Biosciences.." start="326" end="338"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" /></word><prefer text="was also purchased from Amersham Biosciences.." start="293" end="338" penn-cats="VP" /><prefer text="peroxidase-linked species-specific whole secondary antibody from donkey (Catalog # NA934, used at 1:5000) was also purchased from Amersham Biosciences.." start="187" end="338" penn-cats="S" /></tags><tree><lisp>(UTT
+ (VP
+  (VP- (V WAS)
+   (NP
+    (N1
+     (ADJP
+      (VP- (ADVBL (ADV ALSO))
+       (VP- (VP- (V (V PURCHASED))) (ADVBL (ADV FROM) (NP (NAME AMERSHAM))))))
+     (N1 (NAME BIOSCIENCES PUNC-PERIOD PUNC-PERIOD)))))))</lisp><UTT><VP><VP-><V>WAS</V><NP><N1><ADJP><VP-><ADVBL><ADV>ALSO</ADV></ADVBL><VP-><VP-><V><V>PURCHASED</V></V></VP-><ADVBL><ADV>FROM</ADV><NP><NAME>AMERSHAM</NAME></NP></ADVBL></VP-></VP-></ADJP><N1><NAME>BIOSCIENCES PUNC-PERIOD PUNC-PERIOD</NAME></N1></N1></NP></VP-></VP></UTT></tree><terms root="#V2196298"><lisp>((ONT::SPEECHACT ONT::V2196298 ONT::SA_TELL :CONTENT ONT::V2190797 :START 293
+  :END 338)
+ (ONT::F ONT::V2190797 (:* ONT::BE W::BE) :NEUTRAL ONT::V2196299 :NEUTRAL1
+  ONT::V2190853 :TENSE W::PAST :START 293 :END 338)
+ (ONT::IMPRO ONT::V2196299 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 293
+  :END 338)
+ (ONT::BARE ONT::V2190853
+  (:* ONT::REFERENTIAL-SEM W::BIOSCIENCES-PUNC-PERIOD-PUNC-PERIOD) :NAME-OF
+  (W::BIOSCIENCES W::PUNC-PERIOD W::PUNC-PERIOD) :MOD ONT::V2190816 :START 297
+  :END 338)
+ (ONT::F ONT::V2190816 (:* ONT::PURCHASE W::PURCHASE) :MOD ONT::V2190810 :TIME
+  ONT::V2190824 :START 297 :END 326)
+ (ONT::F ONT::V2190810 (:* ONT::ADDITIVE W::ALSO) :FIGURE ONT::V2190816 :START
+  297 :END 302)
+ (ONT::F ONT::V2190824 (:* ONT::EVENT-TIME-REL W::FROM) :GROUND ONT::V2190835
+  :FIGURE ONT::V2190816 :START 312 :END 326)
+ (ONT::THE ONT::V2190835 (:* ONT::REFERENTIAL-SEM W::AMERSHAM) :NAME-OF
+  (W::AMERSHAM) :START 317 :END 326 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1)))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2196298">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2190797" />
+    <LF:start>293</LF:start>
+    <LF:end>338</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190797">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V2196299" />
+    <role:NEUTRAL1 rdf:resource="#V2190853" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>293</LF:start>
+    <LF:end>338</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2196299">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>293</LF:start>
+    <LF:end>338</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190853">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>BIOSCIENCES-PUNC-PERIOD-PUNC-PERIOD</LF:word>
+    <role:NAME-OF>(BIOSCIENCES PUNC-PERIOD PUNC-PERIOD)</role:NAME-OF>
+    <role:MOD rdf:resource="#V2190816" />
+    <LF:start>297</LF:start>
+    <LF:end>338</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190816">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PURCHASE</LF:type>
+    <LF:word>PURCHASE</LF:word>
+    <role:MOD rdf:resource="#V2190810" />
+    <role:TIME rdf:resource="#V2190824" />
+    <LF:start>297</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190810">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ADDITIVE</LF:type>
+    <LF:word>ALSO</LF:word>
+    <role:FIGURE rdf:resource="#V2190816" />
+    <LF:start>297</LF:start>
+    <LF:end>302</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190824">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <LF:word>FROM</LF:word>
+    <role:GROUND rdf:resource="#V2190835" />
+    <role:FIGURE rdf:resource="#V2190816" />
+    <LF:start>312</LF:start>
+    <LF:end>326</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2190835">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>AMERSHAM</LF:word>
+    <role:NAME-OF>(AMERSHAM)</role:NAME-OF>
+    <LF:start>317</LF:start>
+    <LF:end>326</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0506329 :CITATION-FORM &quot;Amersham&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;Amersham&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

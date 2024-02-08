@@ -1,0 +1,12 @@
+ID,TYPE,TEXT,PARENT EVENT,CAUSAL PARENT,AGENT,AFFECTED
+V269062,CTBS                  , Text: of cerebellar cTBS            , Event Parent: []                       , Causal: []                       ,,
+V232859,ONT::ACTIVATE         , Text: activation for both r-IFG-l-M1 and r-preSMA-l-M1 connectivity, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V208149,ONT::STIMULATE        , Text: real cerebellar continuous theta burst stimulation (cTBS), Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V243774,MEP                   , Text: MEP                           , Event Parent: [ONT::DECREASE(V243764)] , Causal: []                       ,,
+V255118,ONT::ACTIVATE         , Text: activation related to NoGo trials, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V255243,ONT::TRANSFORM        , Text: was modified selectively for the r-IFG-M1 but not for r-preSMA-M1 connection, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V243764,ONT::DECREASE         , Text: increased and decreased MEP   , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: [MEP(V243774)]           
+V273213,ONT::BIND-INTERACT    , Text: a specific interaction between cerebellum and r-IFG activity, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V268995,ONT::MODULATE         , Text: confirmed.The effects of cerebellar cTBS, Event Parent: []                       , Causal: []                       , Agent: [CTBS(V269062)]          , Affected: []                       
+V243748,ONT::INCREASE         , Text: increased and decreased MEP   , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+V243897,ONT::TRANSLOCATE      , Text: every 50 ms.Following         , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       

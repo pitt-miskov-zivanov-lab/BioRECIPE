@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="For neuronal experiments, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later. Dual-Glo Luciferase assays were performed following o/n stimulation.">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/13154.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04279.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04417.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04597.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06684.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05040.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/UO/000003.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05328.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to times not implemented yet
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00081_IO-251535" timestamp="20190701T105045"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00081_IO-251535" id="paragraph80">For neuronal experiments, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later. Dual-Glo Luciferase assays were performed following o/n stimulation.
+</paragraph></paragraphs><sentences><sentence id="92" pid="paragraph80">For neuronal experiments, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later.</sentence><sentence id="93" pid="paragraph80">Dual-Glo Luciferase assays were performed following o/n stimulation.</sentence></sentences></input><TERM end="30" id="V251720" lisp="(ONT::TERM ONT::V251720 ONT::NONHUMAN-ANIMAL :NAME W::RAT)" paragraph="paragraph80" rule="-SIMPLE-REF" start="0" uttnum="92"><type>ONT::NONHUMAN-ANIMAL</type><name>RAT</name><text>For neuronal experiments, rat</text></TERM><TERM end="30" id="V251714" lisp="(ONT::TERM ONT::V251714 ONT::PROCEDURE :NAME W::EXPERIMENT)" paragraph="paragraph80" rule="-SIMPLE-REF" start="0" uttnum="92"><type>ONT::PROCEDURE</type><name>EXPERIMENT</name><text>For neuronal experiments, rat</text></TERM><TERM dbid="HGNC:12799|UP:Q9NZC7|NCIT:C131549" end="4" id="V251698" lisp="(ONT::TERM ONT::V251698 ONT::GENE :NAME W::FOR :DRUM ((:DRUM (TERM :ID NCIT::C131549 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot; :SENTENCE-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot; :SENTENCE-CAP-ALL-CAPS 1)) :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph80" rule="-SIMPLE-REF" start="0" uttnum="92"><type>ONT::GENE</type><name>FOR</name><drum-terms><drum-term dbid="NCIT:C131549" match-score="0.70379" matched-name="FOR" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:12799" match-score="0.55745" matched-name="FOR" name="WW domain containing oxidoreductase"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:Q9NZC7"/></xrefs></drum-term></drum-terms><text>For</text></TERM><EVENT end="124" id="V251774" lisp="(ONT::EVENT ONT::V251774 ONT::TRANSFORM :AFFECTED ONT::V251752 :FORCE ONT::TRUE :TENSE W::PAST :PASSIVE +)" paragraph="paragraph80" rule="-RULE5_1_AFFECTED_AFFECTED1-AFFECTED" start="30" uttnum="92"><type>ONT::TRANSFORM</type><force>ONT::TRUE</force><predicate end="124" id="V251774" start="30"><type>ONT::TRANSFORM</type><text>primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000</text></predicate><arg2 end="58" id="V251752" role=":AFFECTED" start="30"><type>ONT::CELL</type><text normalization="">primary hippocampal neurons</text></arg2><text>primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000</text></EVENT><TERM dbid="CO:0002608" end="58" id="V251752" lisp="(ONT::TERM ONT::V251752 ONT::CELL :NAME W::HIPPOCAMPAL-NEURONS :DRUM ((:DRUM (TERM :ID CO::|0002608| :NAME &quot;hippocampal neuron&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;hippocampal neuron&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1 :EXACT 2)) :ONT-TYPES (ONT::CELL)))))" paragraph="paragraph80" rule="-SIMPLE-REF" start="30" uttnum="92"><type>ONT::CELL</type><name>HIPPOCAMPAL-NEURONS</name><drum-terms><drum-term dbid="CO:0002608" match-score="0.85366" matched-name="hippocampal neuron" name="hippocampal neuron"><types><type>ONT::CELL</type></types></drum-term></drum-terms><text>primary hippocampal neurons</text></TERM><TERM end="185" id="V266785" lisp="(ONT::TERM ONT::V266785 ONT::KNOWLEDGE-BELIEF :NAME W::ASSAYS)" paragraph="paragraph80" rule="-SIMPLE-REF" start="158" uttnum="93"><type>ONT::KNOWLEDGE-BELIEF</type><name>ASSAYS</name><text>Dual-Glo Luciferase assays</text></TERM><TERM dbid="UP:P08659|GO:0047712|GO:0045289|UP:P13129|GO:0047077|UP:Q27757|GO:0050397|UP:Q26304|UP:Q01158|XFAM:PF00501|XFAM:PF13193|NCIT:C16802|GO:0050248" end="185" id="V266777" lisp="(ONT::TERM ONT::V266777 ONT::PROTEIN :NAME W::LUCIFERASE :DRUM ((:DRUM (TERM :ID UP::Q01158 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P13129 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q26304 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q27757 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P08659 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot; :INITIAL-CAP-NO-CAPS 1)) :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0045289| :NAME &quot;luciferin monooxygenase activity&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;EXACT synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C16802 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0047077| :NAME &quot;Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity&quot; :SCORE 0.4111 :MATCHES ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0047712| :NAME &quot;Cypridina-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0050248| :NAME &quot;Renilla-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0050397| :NAME &quot;Watasenia-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot; :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph80" rule="-SIMPLE-REF" start="158" uttnum="93"><type>ONT::PROTEIN</type><name>LUCIFERASE</name><drum-terms><drum-term dbid="UP:Q01158" match-score="0.85013" matched-name="luciferase" name="Luciferin 4-monooxygenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00501"/><xref dbid="XFAM:PF13193"/></xrefs></drum-term><drum-term dbid="UP:P13129" match-score="0.85013" matched-name="luciferase" name="Luciferin 4-monooxygenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00501"/><xref dbid="XFAM:PF13193"/></xrefs></drum-term><drum-term dbid="UP:Q26304" match-score="0.85013" matched-name="luciferase" name="Luciferin 4-monooxygenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00501"/><xref dbid="XFAM:PF13193"/></xrefs></drum-term><drum-term dbid="UP:Q27757" match-score="0.85013" matched-name="luciferase" name="Luciferin 4-monooxygenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00501"/><xref dbid="XFAM:PF13193"/></xrefs></drum-term><drum-term dbid="UP:P08659" match-score="0.85013" matched-name="luciferase" name="Luciferin 4-monooxygenase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00501"/><xref dbid="XFAM:PF13193"/></xrefs></drum-term><drum-term dbid="GO:0045289" match-score="0.70379" matched-name="luciferase" name="luciferin monooxygenase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C16802" match-score="0.70379" matched-name="luciferase" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="GO:0047077" match-score="0.4111" matched-name="luciferase" name="Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="GO:0047712" match-score="0.4111" matched-name="luciferase" name="Cypridina-luciferin 2-monooxygenase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="GO:0050248" match-score="0.4111" matched-name="luciferase" name="Renilla-luciferin 2-monooxygenase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="GO:0050397" match-score="0.4111" matched-name="luciferase" name="Watasenia-luciferin 2-monooxygenase activity"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>Dual-Glo Luciferase assays</text></TERM><TERM dbid="UP:P10867|XFAM:PF01565|XFAM:PF04030|UP:Q3ZC33|UP:P58710|UP:Q90YK3|GO:0050105|UP:Q8HXW0" end="185" id="V266765" lisp="(ONT::TERM ONT::V266765 ONT::PROTEIN :NAME W::GLO :DRUM ((:DRUM (TERM :ID GO::|0050105| :NAME &quot;L-gulonolactone oxidase activity&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;GLO&quot; :STATUS &quot;EXACT synonym&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q3ZC33 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P58710 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot; :INITIAL-CAP-ALL-CAPS 1)) :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q8HXW0 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::P10867 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID UP::Q90YK3 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot; :INITIAL-CAP-ALL-CAPS 1)) :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph80" rule="-SIMPLE-REF" start="158" uttnum="93"><type>ONT::PROTEIN</type><name>GLO</name><drum-terms><drum-term dbid="GO:0050105" match-score="0.70379" matched-name="GLO" name="L-gulonolactone oxidase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="UP:Q3ZC33" match-score="0.55745" matched-name="GLO" name="L-gulonolactone oxidase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF04030"/><xref dbid="XFAM:PF01565"/></xrefs></drum-term><drum-term dbid="UP:P58710" match-score="0.55745" matched-name="GLO" name="L-gulonolactone oxidase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF04030"/><xref dbid="XFAM:PF01565"/></xrefs><species>Mus musculus (Mouse)</species></drum-term><drum-term dbid="UP:Q8HXW0" match-score="0.55745" matched-name="GLO" name="L-gulonolactone oxidase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF04030"/><xref dbid="XFAM:PF01565"/></xrefs></drum-term><drum-term dbid="UP:P10867" match-score="0.55745" matched-name="GLO" name="L-gulonolactone oxidase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF04030"/><xref dbid="XFAM:PF01565"/></xrefs></drum-term><drum-term dbid="UP:Q90YK3" match-score="0.55745" matched-name="GLO" name="L-gulonolactone oxidase"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF04030"/><xref dbid="XFAM:PF01565"/></xrefs></drum-term></drum-terms><text>Dual-Glo Luciferase assays</text></TERM><TERM end="211" id="V266599" lisp="(ONT::TERM ONT::V266599 ONT::GAS-SUBSTANCE :NAME W::O)" paragraph="paragraph80" rule="-SIMPLE-REF" start="210" uttnum="93"><type>ONT::GAS-SUBSTANCE</type><name>O</name><text>o</text></TERM><TERM end="214" id="V266619" lisp="(ONT::TERM ONT::V266619 ONT::GAS-SUBSTANCE :NAME W::N)" paragraph="paragraph80" rule="-SIMPLE-REF" start="212" uttnum="93"><type>ONT::GAS-SUBSTANCE</type><name>N</name><text>n</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::FOR W::NEURONAL W::EXPERIMENTS W::RAT)</lisp><word>FOR</word><word>NEURONAL</word><word>EXPERIMENTS</word><word>RAT</word></words><tags><lisp>((WORD &quot;For&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNP) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)
+    :ONT-TYPES (ONT::GENE) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C131549 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+         :SENTENCE-CAP-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot;
+       :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+         :SENTENCE-CAP-ALL-CAPS 1))
+       :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;neuronal&quot; :FRAME (4 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;neuronal&quot; :FRAME (4 12) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;experiments&quot; :FRAME (13 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;experiments&quot; :FRAME (13 23) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;neuronal experiments&quot; :FRAME (4 23) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;For neuronal experiments&quot; :FRAME (0 23) :ENJU-CATS (PP) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (24 25) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rat&quot; :FRAME (26 29) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rat&quot; :FRAME (26 29) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="For" start="0" end="3"><sense-info penn-parts-of-speech="NN,NNP" trips-parts-of-speech="N,NAME" ont-types="GENE" score="0.70379"><term id="NCIT:C131549" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;" score="0.70379" ont-types="GENE"><match score="0.70379" matched="FOR" status="synonym" sentence-cap-all-caps="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:12799" name="WW domain containing oxidoreductase" score="0.55745" dbxrefs="UP:Q9NZC7" ont-types="GENE"><match score="0.55745" matched="FOR" status="Synonym" sentence-cap-all-caps="1" /></term></sense-info></word><word lex="neuronal" start="4" end="12"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="neuronal" start="4" end="12" penn-cats="ADJP,QP" /><word lex="experiments" start="13" end="23"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="experiments" start="13" end="23" penn-cats="NX,NAC" /><prefer text="neuronal experiments" start="4" end="23" penn-cats="NP,NX,NAC" /><prefer text="For neuronal experiments" start="0" end="23" penn-cats="PP" /><word lex="," start="24" end="25"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="rat" start="26" end="29"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="rat" start="26" end="29" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (NP
+  (N1 (NP (NAME FOR))
+   (N1 (N1 (ADJP (ADJ1 (ADJ NEURONAL))) (N1 (N EXPERIMENTS))) (N1 (N RAT))))))</lisp><UTT><NP><N1><NP><NAME>FOR</NAME></NP><N1><N1><ADJP><ADJ1><ADJ>NEURONAL</ADJ></ADJ1></ADJP><N1><N>EXPERIMENTS</N></N1></N1><N1><N>RAT</N></N1></N1></N1></NP></UTT></tree><terms root="#V257795"><lisp>((ONT::SPEECHACT ONT::V257795 ONT::SA_IDENTIFY :CONTENT ONT::V251720 :START 0
+  :END 30)
+ (ONT::BARE ONT::V251720 (:* ONT::NONHUMAN-ANIMAL W::RAT) :ASSOC-WITH
+  ONT::V251698 :ASSOC-WITH ONT::V251714 :START 0 :END 30)
+ (ONT::KIND ONT::V251714 (:* ONT::PROCEDURE W::EXPERIMENT) :MOD ONT::V251711
+  :START 0 :END 30)
+ (ONT::THE ONT::V251698 (:* ONT::GENE W::FOR) :NAME-OF (W::FOR) :START 0 :END 4
+  :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C131549 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+       :SENTENCE-CAP-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE
+     0.55745 :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+       :SENTENCE-CAP-ALL-CAPS 1))
+     :DBXREFS (UP::Q9NZC7) :ONT-TYPES (ONT::GENE)))))
+ (ONT::F ONT::V251711 (:* ONT::BODY-PART-VAL W::NEURONAL) :FIGURE ONT::V251714
+  :START 4 :END 13))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V257795">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V251720" />
+    <LF:start>0</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251720">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>NONHUMAN-ANIMAL</LF:type>
+    <LF:word>RAT</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V251698" />
+    <role:ASSOC-WITH rdf:resource="#V251714" />
+    <LF:start>0</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251714">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROCEDURE</LF:type>
+    <LF:word>EXPERIMENT</LF:word>
+    <role:MOD rdf:resource="#V251711" />
+    <LF:start>0</LF:start>
+    <LF:end>30</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251698">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:NAME-OF>(FOR)</role:NAME-OF>
+    <LF:start>0</LF:start>
+    <LF:end>4</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C131549 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131549&gt;&quot; :SCORE
+   0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;FOR&quot; :STATUS &quot;synonym&quot;
+     :SENTENCE-CAP-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |12799| :NAME &quot;WW domain containing oxidoreductase&quot; :SCORE 0.55745
+   :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;FOR&quot; :STATUS &quot;Synonym&quot;
+     :SENTENCE-CAP-ALL-CAPS 1))
+   :DBXREFS (Q9NZC7) :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251711">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BODY-PART-VAL</LF:type>
+    <LF:word>NEURONAL</LF:word>
+    <role:FIGURE rdf:resource="#V251714" />
+    <LF:start>4</LF:start>
+    <LF:end>13</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::PRIMARY W::HIPPOCAMPAL W::NEURONS W::WERE W::TRANSFECTED W::AFTER W::NINE
+ W::DAYS W::IN W::CULTURE W::USING W::LIPOFECTAMINE 2000)</lisp><word>PRIMARY</word><word>HIPPOCAMPAL</word><word>NEURONS</word><word>WERE</word><word>TRANSFECTED</word><word>AFTER</word><word>NINE</word><word>DAYS</word><word>IN</word><word>CULTURE</word><word>USING</word><word>LIPOFECTAMINE</word><word>2000</word></words><tags><lisp>((WORD &quot;primary&quot; :FRAME (30 37) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;primary&quot; :FRAME (30 37) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hippocampal&quot; :FRAME (38 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0031699 :CITATION-FORM &quot;hippocampal&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;hippocampal&quot; :EXACT 1)))))))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;hippocampal&quot; :FRAME (38 49) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;neurons&quot; :FRAME (50 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL) :ALTERNATE-SPELLINGS (&quot;neurones&quot;) :SCORE 0.85366
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CO::|0000540| :NAME &quot;neuron&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;neuron&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CO::|0000000|
+              (SENSE (MORPH (POS N) (WORD CELL))
+               (PROVENANCE (NAME LEXICON-DATA::CO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))
+      (SPECIALIST :EUI E0042456 :CITATION-FORM &quot;neuron&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;neurons&quot; :EXACT 1)))))))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;neurons&quot; :FRAME (50 57) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hippocampal neurons&quot; :FRAME (38 57) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CELL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CO::|0002608| :NAME &quot;hippocampal neuron&quot; :SCORE 0.85366
+       :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;hippocampal neuron&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CO::|0000000|
+              (SENSE (MORPH (POS N) (WORD CELL))
+               (PROVENANCE (NAME LEXICON-DATA::CO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+             :TO ONT::CELL))
+       :ONT-TYPES (ONT::CELL))))))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;hippocampal neurons&quot; :FRAME (38 57) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;primary hippocampal neurons&quot; :FRAME (30 57) :ENJU-CATS (NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;rat primary hippocampal neurons&quot; :FRAME (26 57) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (58 62) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;transfected&quot; :FRAME (63 74) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;transfected&quot; :FRAME (63 74) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;after&quot; :FRAME (75 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;9&quot; :FRAME (81 82) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;9&quot; :FRAME (81 82) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP) :TRIPS-CATS
+  (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;days&quot; :FRAME (83 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;days&quot; :FRAME (83 87) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;9 days&quot; :FRAME (81 87) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (88 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;culture&quot; :FRAME (91 98) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0020096 :CITATION-FORM &quot;culture&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;culture&quot; :EXACT 1)))))))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;culture&quot; :FRAME (91 98) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;in culture&quot; :FRAME (88 98) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;9 days in culture&quot; :FRAME (81 98) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;using&quot; :FRAME (99 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Lipofectamine&quot; :FRAME (105 118) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Lipofectamine&quot; :FRAME (105 118) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;2000&quot; :FRAME (119 123) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;2000&quot; :FRAME (119 123) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Lipofectamine 2000&quot; :FRAME (105 123) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;using Lipofectamine 2000&quot; :FRAME (99 123) :ENJU-CATS (VP) :PENN-CATS
+  (VP S) :TRIPS-CATS (W::VP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;after 9 days in culture using Lipofectamine 2000&quot; :FRAME (75 123)
+  :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 92 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;transfected after 9 days in culture using Lipofectamine 2000&quot; :FRAME
+  (63 123) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;were transfected after 9 days in culture using Lipofectamine 2000&quot;
+  :FRAME (58 123) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  92 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="primary" start="30" end="37"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="primary" start="30" end="37" penn-cats="ADJP,QP" /><word lex="hippocampal" start="38" end="49"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0031699" citation-form="hippocampal"><match score="1.0" matched="hippocampal" exact="1" /></specialist></sense-info></word><prefer text="hippocampal" start="38" end="49" penn-cats="ADJP,QP" /><word lex="neurons" start="50" end="57"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="CELL" alternate-spellings="neurones" score="0.85366"><term id="CO:0000540" name="neuron" score="0.85366" ont-types="CELL"><match score="0.85366" matched="neuron" status="name" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="1" /><map to="CELL" through="CO:0000000" /></term><specialist eui="E0042456" citation-form="neuron"><match score="1.0" matched="neurons" exact="1" /></specialist></sense-info></word><prefer text="neurons" start="50" end="57" penn-cats="NX,NAC" /><word lex="hippocampal neurons" start="38" end="57"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" ont-types="CELL" score="0.85366"><term id="CO:0002608" name="hippocampal neuron" score="0.85366" ont-types="CELL"><match score="0.85366" matched="hippocampal neuron" status="name" maybe-depluralized="1" surely-depluralized="1" depluralization-score="1" exact="2" /><map to="CELL" through="CO:0000000" /></term></sense-info></word><prefer text="hippocampal neurons" start="38" end="57" penn-cats="NX,NAC" /><prefer text="primary hippocampal neurons" start="30" end="57" penn-cats="NP,NX,NAC" /><prefer text="rat primary hippocampal neurons" start="26" end="57" penn-cats="NP,NX,NAC" /><word lex="were" start="58" end="62"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="transfected" start="63" end="74"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="transfected" start="63" end="74" penn-cats="VP" /><word lex="after" start="75" end="80"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="9" start="81" end="82"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="9" start="81" end="82" penn-cats="ADJP,QP" /><word lex="days" start="83" end="87"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="days" start="83" end="87" penn-cats="NX,NAC" /><prefer text="9 days" start="81" end="87" penn-cats="NP,NX,NAC" /><word lex="in" start="88" end="90"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="culture" start="91" end="98"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0020096" citation-form="culture"><match score="1.0" matched="culture" exact="1" /></specialist></sense-info></word><prefer text="culture" start="91" end="98" penn-cats="NP,NX,NAC" /><prefer text="in culture" start="88" end="98" penn-cats="PP" /><prefer text="9 days in culture" start="81" end="98" penn-cats="NP,NX,NAC" /><word lex="using" start="99" end="104"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="Lipofectamine" start="105" end="118"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="Lipofectamine" start="105" end="118" penn-cats="NX,NAC" /><word lex="2000" start="119" end="123"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="2000" start="119" end="123" penn-cats="ADJP,QP" /><prefer text="Lipofectamine 2000" start="105" end="123" penn-cats="NP,NX,NAC" /><prefer text="using Lipofectamine 2000" start="99" end="123" penn-cats="VP,S" /><prefer text="after 9 days in culture using Lipofectamine 2000" start="75" end="123" penn-cats="PP" /><prefer text="transfected after 9 days in culture using Lipofectamine 2000" start="63" end="123" penn-cats="VP" /><prefer text="were transfected after 9 days in culture using Lipofectamine 2000" start="58" end="123" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (S (NP (N1 (ADJP (ADJ1 (ADJ PRIMARY))) (N1 (N HIPPOCAMPAL NEURONS))))
+  (VP
+   (VP- (AUX (V WERE))
+    (VP- (VP- (V (V TRANSFECTED)))
+     (ADVBL (ADV AFTER)
+      (NP (NP (NUMBER NINE) (N1 (N DAYS)) (PP (PREP IN) (NP (N1 (N CULTURE)))))
+       (ADVBL
+        (VP
+         (VP- (V USING)
+          (NP (NAME (N LIPOFECTAMINE) (RNUMBER (NUMBER 2000))))))))))))))</lisp><UTT><S><NP><N1><ADJP><ADJ1><ADJ>PRIMARY</ADJ></ADJ1></ADJP><N1><N>HIPPOCAMPAL NEURONS</N></N1></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><VP-><V><V>TRANSFECTED</V></V></VP-><ADVBL><ADV>AFTER</ADV><NP><NP><NUMBER>NINE</NUMBER><N1><N>DAYS</N></N1><PP><PREP>IN</PREP><NP><N1><N>CULTURE</N></N1></NP></PP></NP><ADVBL><VP><VP-><V>USING</V><NP><NAME><N>LIPOFECTAMINE</N><RNUMBER><NUMBER>2000</NUMBER></RNUMBER></NAME></NP></VP-></VP></ADVBL></NP></ADVBL></VP-></VP-></VP></S></UTT></tree><terms root="#V254450"><lisp>((ONT::SPEECHACT ONT::V254450 ONT::SA_TELL :CONTENT ONT::V251774 :START 30 :END
+  124)
+ (ONT::F ONT::V251774 (:* ONT::TRANSFORMATION W::TRANSFECT) :AFFECTED
+  ONT::V251752 :TIME ONT::V251777 :TENSE W::PAST :PASSIVE + :START 30 :END 124)
+ (ONT::INDEF-SET ONT::V251752 (:* ONT::CELL W::HIPPOCAMPAL-NEURONS) :MOD
+  ONT::V251723 :START 30 :END 58 :DRUM
+  ((:DRUM
+    (TERM :ID CO::|0002608| :NAME &quot;hippocampal neuron&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;hippocampal neuron&quot; :STATUS &quot;name&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+       :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CO::|0000000|
+            (SENSE (MORPH (POS N) (WORD CELL))
+             (PROVENANCE (NAME LEXICON-DATA::CO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+           :TO ONT::CELL))
+     :ONT-TYPES (ONT::CELL)))))
+ (ONT::F ONT::V251723 (:* ONT::PRIMARY W::PRIMARY) :FIGURE ONT::V251752 :START
+  30 :END 38)
+ (ONT::F ONT::V251777 (:* ONT::EVENT-TIME-REL W::AFTER) :GROUND ONT::V253710
+  :FIGURE ONT::V251774 :START 75 :END 124)
+ (ONT::THE ONT::V253710 ONT::TIME-LOC :MOD ONT::V252574 :START 81 :END 124)
+ (ONT::F ONT::V252574 ONT::IMPLICIT-OVERLAP :EXTENT ONT::V251791 :FIGURE
+  ONT::V253710 :GROUND ONT::V251858 :START 81 :END 124)
+ (ONT::A ONT::V251791 ONT::QUANTITY :AMOUNT ONT::V251789 :UNIT
+  (:* ONT::DAY-DURATION W::DAY) :SCALE ONT::DOMAIN :START 81 :END 99)
+ (ONT::A ONT::V251789 ONT::NUMBER :VALUE 9 :START 81 :END 99)
+ (ONT::BARE ONT::V251852 (:* ONT::KNOWLEDGE-BELIEF W::CULTURE) :START 88 :END
+  99)
+ (ONT::F ONT::V251858 (:* ONT::USE W::USE) :AFFECTED ONT::V251863 :VFORM W::ING
+  :START 99 :END 124)
+ (ONT::THE ONT::V251863 (:* ONT::REFERENTIAL-SEM W::LIPOFECTAMINE) :NAME-OF
+  (W::LIPOFECTAMINE 2000) :START 105 :END 124))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V254450">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V251774" />
+    <LF:start>30</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251774">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TRANSFORMATION</LF:type>
+    <LF:word>TRANSFECT</LF:word>
+    <role:AFFECTED rdf:resource="#V251752" />
+    <role:TIME rdf:resource="#V251777" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>30</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251752">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>CELL</LF:type>
+    <LF:word>HIPPOCAMPAL-NEURONS</LF:word>
+    <role:MOD rdf:resource="#V251723" />
+    <LF:start>30</LF:start>
+    <LF:end>58</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0002608| :NAME &quot;hippocampal neuron&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;hippocampal neuron&quot; :STATUS &quot;name&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE 1
+     :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0000000|
+          (SENSE (MORPH (POS N) (WORD CELL))
+           (PROVENANCE (NAME CO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CO/000000.lisp&quot;))))
+         :TO CELL))
+   :ONT-TYPES (CELL))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251723">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PRIMARY</LF:type>
+    <LF:word>PRIMARY</LF:word>
+    <role:FIGURE rdf:resource="#V251752" />
+    <LF:start>30</LF:start>
+    <LF:end>38</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251777">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <LF:word>AFTER</LF:word>
+    <role:GROUND rdf:resource="#V253710" />
+    <role:FIGURE rdf:resource="#V251774" />
+    <LF:start>75</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V253710">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TIME-LOC</LF:type>
+    <role:MOD rdf:resource="#V252574" />
+    <LF:start>81</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V252574">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IMPLICIT-OVERLAP</LF:type>
+    <role:EXTENT rdf:resource="#V251791" />
+    <role:FIGURE rdf:resource="#V253710" />
+    <role:GROUND rdf:resource="#V251858" />
+    <LF:start>81</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251791">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT rdf:resource="#V251789" />
+    <role:UNIT>(:* DAY-DURATION DAY)</role:UNIT>
+    <role:SCALE>DOMAIN</role:SCALE>
+    <LF:start>81</LF:start>
+    <LF:end>99</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251789">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>9</role:VALUE>
+    <LF:start>81</LF:start>
+    <LF:end>99</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251852">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>KNOWLEDGE-BELIEF</LF:type>
+    <LF:word>CULTURE</LF:word>
+    <LF:start>88</LF:start>
+    <LF:end>99</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251858">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>USE</LF:word>
+    <role:AFFECTED rdf:resource="#V251863" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>99</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251863">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>LIPOFECTAMINE</LF:word>
+    <role:NAME-OF>(LIPOFECTAMINE 2000)</role:NAME-OF>
+    <LF:start>105</LF:start>
+    <LF:end>124</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::STIMULATED
+  36
+  W::PUNC-MINUS
+  48
+  W::HOURS
+  W::LATER
+  W::PUNC-PERIOD)</lisp><word>AND</word><word>STIMULATED</word><word>36</word><word>PUNC-MINUS</word><word>48</word><word>HOURS</word><word>LATER</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (124 127) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (124 127) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stimulated&quot; :FRAME (128 138) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;stimulated&quot; :FRAME (128 138) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;36&quot; :FRAME (139 140) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (141 141) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;48&quot; :FRAME (142 144) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;36-48&quot; :FRAME (139 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;36-48&quot; :FRAME (139 144) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;hours&quot; :FRAME (145 150) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;hours&quot; :FRAME (145 150) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;36-48 hours&quot; :FRAME (139 150) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;later&quot; :FRAME (151 155) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 92
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;later&quot; :FRAME (151 155) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;36-48 hours later&quot; :FRAME (139 155) :ENJU-CATS (ADVP) :PENN-CATS
+  (NP-TMP ADVP) :TRIPS-CATS (W::ADVBL) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;stimulated 36-48 hours later&quot; :FRAME (128 155) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER
+  &quot;were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later&quot;
+  :FRAME (58 155) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 92 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later&quot;
+  :FRAME (26 155) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 92 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later&quot;
+  :FRAME (24 155) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 92 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (156 156) :UTTNUM 92 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;For neuronal experiments, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later.&quot;
+  :FRAME (0 156) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 92 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="and" start="124" end="127"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="124" end="127" penn-cats="CONJP" /><word lex="stimulated" start="128" end="138"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><prefer text="stimulated" start="128" end="138" penn-cats="VP" /><word lex="36" start="139" end="140" /><word lex="-" start="141" end="141" /><word lex="48" start="142" end="144" /><word lex="36-48" start="139" end="144"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="36-48" start="139" end="144" penn-cats="ADJP,QP" /><word lex="hours" start="145" end="150"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="hours" start="145" end="150" penn-cats="NX,NAC" /><prefer text="36-48 hours" start="139" end="150" penn-cats="NP,NX,NAC" /><word lex="later" start="151" end="155"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="later" start="151" end="155" penn-cats="ADVP" /><prefer text="36-48 hours later" start="139" end="155" penn-cats="NP-TMP,ADVP" /><prefer text="stimulated 36-48 hours later" start="128" end="155" penn-cats="VP" /><prefer text="were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later" start="58" end="155" penn-cats="VP" /><prefer text="rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later" start="26" end="155" penn-cats="S" /><prefer text=", rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later" start="24" end="155" penn-cats="S" /><word lex="." start="156" end="156" /><prefer text="For neuronal experiments, rat primary hippocampal neurons were transfected after 9 days in culture using Lipofectamine 2000 and stimulated 36-48 hours later." start="0" end="156" penn-cats="S" /></tags><tree><lisp>(UTT
+ (UTT (ADVBL (ADV AND))
+  (UTT
+   (VP
+    (VP-
+     (VP- (V STIMULATED) (NP (N1 (NP (NAME 36 PUNC-MINUS 48)) (N1 (N HOURS)))))
+     (ADVBL (ADV LATER))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><VP><VP-><VP-><V>STIMULATED</V><NP><N1><NP><NAME>36 PUNC-MINUS 48</NAME></NP><N1><N>HOURS</N></N1></N1></NP></VP-><ADVBL><ADV>LATER</ADV></ADVBL></VP-></VP></UTT></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V263115"><lisp>((ONT::SPEECHACT ONT::V263115 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V251881 :MOD ONT::V251871 :START 124 :END 156)
+ (ONT::F ONT::V251871 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V263115 :START 124
+  :END 128)
+ (ONT::F ONT::V251881 (:* ONT::CAUSE-STIMULATE W::STIMULATE) :AGENT
+  ONT::V263116 :AFFECTED ONT::V251887 :TIME ONT::V251891 :TENSE W::PAST :START
+  128 :END 156)
+ (ONT::IMPRO ONT::V263116 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 128 :END
+  156)
+ (ONT::INDEF-SET ONT::V251887 (:* ONT::TIME-INTERVAL W::HOUR) :ASSOC-WITH
+  ONT::V251902 :SCALE ONT::DURATION-SCALE :START 139 :END 151)
+ (ONT::F ONT::V251891 (:* ONT::EVENT-TIME-REL W::LATER) :FIGURE ONT::V251881
+  :SCALE ONT::TIME-MEASURE-SCALE :START 151 :END 156)
+ (ONT::THE ONT::V251902 ONT::NUMBER :SEQUENCE (ONT::V251549 ONT::V251555)
+  :NAME-OF (36 W::PUNC-MINUS 48) :START 139 :END 145)
+ (ONT::INDEF-SET ONT::V251549 ONT::NUMBER :NUMBER 36 :START 139 :END 141)
+ (ONT::INDEF-SET ONT::V251555 ONT::NUMBER :NUMBER 48 :START 142 :END 145))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V263115">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V251881" />
+    <role:MOD rdf:resource="#V251871" />
+    <LF:start>124</LF:start>
+    <LF:end>156</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251871">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V263115" />
+    <LF:start>124</LF:start>
+    <LF:end>128</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251881">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CAUSE-STIMULATE</LF:type>
+    <LF:word>STIMULATE</LF:word>
+    <role:AGENT rdf:resource="#V263116" />
+    <role:AFFECTED rdf:resource="#V251887" />
+    <role:TIME rdf:resource="#V251891" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>128</LF:start>
+    <LF:end>156</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V263116">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>128</LF:start>
+    <LF:end>156</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251887">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>TIME-INTERVAL</LF:type>
+    <LF:word>HOUR</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V251902" />
+    <role:SCALE>DURATION-SCALE</role:SCALE>
+    <LF:start>139</LF:start>
+    <LF:end>151</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251891">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <LF:word>LATER</LF:word>
+    <role:FIGURE rdf:resource="#V251881" />
+    <role:SCALE>TIME-MEASURE-SCALE</role:SCALE>
+    <LF:start>151</LF:start>
+    <LF:end>156</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251902">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V251549" />
+    <role:SEQUENCE1 rdf:resource="#V251555" />
+    <role:NAME-OF>(36 PUNC-MINUS 48)</role:NAME-OF>
+    <LF:start>139</LF:start>
+    <LF:end>145</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251549">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>36</role:NUMBER>
+    <LF:start>139</LF:start>
+    <LF:end>141</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V251555">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>48</role:NUMBER>
+    <LF:start>142</LF:start>
+    <LF:end>145</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::DUAL W::PUNC-MINUS W::GLO W::LUCIFERASE W::ASSAYS W::WERE W::PERFORMED
+ W::FOLLOWING W::O W::PUNC-SLASH W::N W::STIMULATION W::PUNC-PERIOD)</lisp><word>DUAL</word><word>PUNC-MINUS</word><word>GLO</word><word>LUCIFERASE</word><word>ASSAYS</word><word>WERE</word><word>PERFORMED</word><word>FOLLOWING</word><word>O</word><word>PUNC-SLASH</word><word>N</word><word>STIMULATION</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Dual&quot; :FRAME (158 161) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (162 162) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Glo&quot; :FRAME (163 166) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0050105| :NAME &quot;L-gulonolactone oxidase activity&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;GLO&quot; :STATUS &quot;EXACT synonym&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q3ZC33 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P58710 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF04030 XFAM::PF01565)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q8HXW0 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P10867 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q90YK3 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+       :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Dual-Glo&quot; :FRAME (158 166) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP JJ) :TRIPS-PARTS-OF-SPEECH (W::NAME W::ADJ)))
+  :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Dual-Glo&quot; :FRAME (158 166) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Luciferase&quot; :FRAME (167 177) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID UP::Q01158 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+       :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P13129 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+       :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q26304 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+       :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::Q27757 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+       :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P08659 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+       :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0045289| :NAME &quot;luciferin monooxygenase activity&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;EXACT synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C16802 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;&quot; :SCORE
+       0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0047077| :NAME
+       &quot;Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity&quot; :SCORE
+       0.4111 :MATCHES
+       ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0047712| :NAME
+       &quot;Cypridina-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES
+       ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0050248| :NAME
+       &quot;Renilla-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES
+       ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0050397| :NAME
+       &quot;Watasenia-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES
+       ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.55745 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00296 :NAME &quot;bac luciferase&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;luciferase&quot; :STATUS &quot;WK&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))
+      (TERM :ID XFAM::PF10284 :NAME &quot;luciferase 3H&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;luciferase&quot; :STATUS &quot;WK&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))
+      (TERM :ID XFAM::PF10285 :NAME &quot;luciferase cat&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;luciferase&quot; :STATUS &quot;WK&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))
+      (TERM :ID XFAM::PF05295 :NAME &quot;luciferase N&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;luciferase&quot; :STATUS &quot;WK&quot;
+         :INITIAL-CAP-NO-CAPS 1)
+        (MATCH :SCORE 0.26476 :MATCHED &quot;luciferase&quot; :STATUS &quot;PI&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))))))
+  :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Luciferase&quot; :FRAME (167 177) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;assays&quot; :FRAME (178 184) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0010825 :CITATION-FORM &quot;assay&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;assays&quot; :EXACT 1)))))))
+  :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;assays&quot; :FRAME (178 184) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Luciferase assays&quot; :FRAME (167 184) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Dual-Glo Luciferase assays&quot; :FRAME (158 184) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 93 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;were&quot; :FRAME (185 189) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 93
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;performed&quot; :FRAME (190 199) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 93
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;performed&quot; :FRAME (190 199) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;following&quot; :FRAME (200 209) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 93
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;o&quot; :FRAME (210 210) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;/&quot; :FRAME (211 211) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;n&quot; :FRAME (212 213) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;o/n&quot; :FRAME (210 213) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ NN) :TRIPS-PARTS-OF-SPEECH (W::ADJ W::N)))
+  :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;o/n&quot; :FRAME (210 213) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;stimulation&quot; :FRAME (214 224) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 93
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;stimulation&quot; :FRAME (214 224) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;o/n stimulation&quot; :FRAME (210 224) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;following o/n stimulation&quot; :FRAME (200 224) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;performed following o/n stimulation&quot; :FRAME (190 224) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;were performed following o/n stimulation&quot; :FRAME (185 224) :ENJU-CATS
+  (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 93 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (225 225) :UTTNUM 93 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Dual-Glo Luciferase assays were performed following o/n stimulation.&quot;
+  :FRAME (158 225) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 93 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="Dual" start="158" end="161" /><word lex="-" start="162" end="162" /><word lex="Glo" start="163" end="166"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.70379"><term id="GO:0050105" name="L-gulonolactone oxidase activity" score="0.70379" ont-types="PROTEIN"><match score="0.70379" matched="GLO" status="EXACT synonym" initial-cap-all-caps="1" /></term><term id="UP:Q3ZC33" name="L-gulonolactone oxidase" score="0.55745" dbxrefs="XFAM:PF04030,XFAM:PF01565" ont-types="PROTEIN"><match score="0.55745" matched="GLO" status="AltName: Short" initial-cap-all-caps="1" /></term><term id="UP:P58710" name="L-gulonolactone oxidase" score="0.55745" species="Mus musculus (Mouse)" dbxrefs="XFAM:PF04030,XFAM:PF01565" ont-types="PROTEIN"><match score="0.55745" matched="GLO" status="AltName: Short" initial-cap-all-caps="1" /></term><term id="UP:Q8HXW0" name="L-gulonolactone oxidase" score="0.55745" dbxrefs="XFAM:PF04030,XFAM:PF01565" ont-types="PROTEIN"><match score="0.55745" matched="GLO" status="AltName: Short" initial-cap-all-caps="1" /></term><term id="UP:P10867" name="L-gulonolactone oxidase" score="0.55745" dbxrefs="XFAM:PF04030,XFAM:PF01565" ont-types="PROTEIN"><match score="0.55745" matched="GLO" status="AltName: Short" initial-cap-all-caps="1" /></term><term id="UP:Q90YK3" name="L-gulonolactone oxidase" score="0.55745" dbxrefs="XFAM:PF04030,XFAM:PF01565" ont-types="PROTEIN"><match score="0.55745" matched="GLO" status="AltName: Short" initial-cap-all-caps="1" /></term></sense-info></word><word lex="Dual-Glo" start="158" end="166"><sense-info penn-parts-of-speech="NNP,JJ" trips-parts-of-speech="NAME,ADJ" /></word><prefer text="Dual-Glo" start="158" end="166" penn-cats="ADJP,QP" /><word lex="Luciferase" start="167" end="177"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.85013"><term id="UP:Q01158" name="Luciferin 4-monooxygenase" score="0.85013" dbxrefs="XFAM:PF00501,XFAM:PF13193" ont-types="PROTEIN"><match score="0.85013" matched="luciferase" status="RecName: Short" initial-cap-no-caps="1" /></term><term id="UP:P13129" name="Luciferin 4-monooxygenase" score="0.85013" dbxrefs="XFAM:PF00501,XFAM:PF13193" ont-types="PROTEIN"><match score="0.85013" matched="luciferase" status="RecName: Short" initial-cap-no-caps="1" /></term><term id="UP:Q26304" name="Luciferin 4-monooxygenase" score="0.85013" dbxrefs="XFAM:PF00501,XFAM:PF13193" ont-types="PROTEIN"><match score="0.85013" matched="luciferase" status="RecName: Short" initial-cap-no-caps="1" /></term><term id="UP:Q27757" name="Luciferin 4-monooxygenase" score="0.85013" dbxrefs="XFAM:PF00501,XFAM:PF13193" ont-types="PROTEIN"><match score="0.85013" matched="luciferase" status="RecName: Short" initial-cap-no-caps="1" /></term><term id="UP:P08659" name="Luciferin 4-monooxygenase" score="0.85013" dbxrefs="XFAM:PF00501,XFAM:PF13193" ont-types="PROTEIN"><match score="0.85013" matched="luciferase" status="RecName: Short" initial-cap-no-caps="1" /></term><term id="GO:0045289" name="luciferin monooxygenase activity" score="0.70379" ont-types="PROTEIN"><match score="0.70379" matched="luciferase" status="EXACT synonym" initial-cap-no-caps="1" /></term><term id="NCIT:C16802" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;" score="0.70379" ont-types="PROTEIN"><match score="0.70379" matched="luciferase" status="synonym" initial-cap-no-caps="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="GO:0047077" name="Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity" score="0.4111" ont-types="PROTEIN"><match score="0.4111" matched="luciferase" status="BROAD synonym" initial-cap-no-caps="1" /></term><term id="GO:0047712" name="Cypridina-luciferin 2-monooxygenase activity" score="0.4111" ont-types="PROTEIN"><match score="0.4111" matched="luciferase" status="BROAD synonym" initial-cap-no-caps="1" /></term><term id="GO:0050248" name="Renilla-luciferin 2-monooxygenase activity" score="0.4111" ont-types="PROTEIN"><match score="0.4111" matched="luciferase" status="BROAD synonym" initial-cap-no-caps="1" /></term><term id="GO:0050397" name="Watasenia-luciferin 2-monooxygenase activity" score="0.4111" ont-types="PROTEIN"><match score="0.4111" matched="luciferase" status="BROAD synonym" initial-cap-no-caps="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULAR-DOMAIN" score="0.55745"><term id="XFAM:PF00296" name="bac luciferase" score="0.55745" ont-types="MOLECULAR-DOMAIN"><match score="0.55745" matched="luciferase" status="WK" initial-cap-no-caps="1" /></term><term id="XFAM:PF10284" name="luciferase 3H" score="0.55745" ont-types="MOLECULAR-DOMAIN"><match score="0.55745" matched="luciferase" status="WK" initial-cap-no-caps="1" /></term><term id="XFAM:PF10285" name="luciferase cat" score="0.55745" ont-types="MOLECULAR-DOMAIN"><match score="0.55745" matched="luciferase" status="WK" initial-cap-no-caps="1" /></term><term id="XFAM:PF05295" name="luciferase N" score="0.55745" ont-types="MOLECULAR-DOMAIN"><match score="0.55745" matched="luciferase" status="WK" initial-cap-no-caps="1" /><match score="0.26476" matched="luciferase" status="PI" initial-cap-no-caps="1" /></term></sense-info></word><prefer text="Luciferase" start="167" end="177" penn-cats="NP" /><word lex="assays" start="178" end="184"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0010825" citation-form="assay"><match score="1.0" matched="assays" exact="1" /></specialist></sense-info></word><prefer text="assays" start="178" end="184" penn-cats="NX,NAC" /><prefer text="Luciferase assays" start="167" end="184" penn-cats="NX,NAC" /><prefer text="Dual-Glo Luciferase assays" start="158" end="184" penn-cats="NP,NX,NAC" /><word lex="were" start="185" end="189"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="performed" start="190" end="199"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="performed" start="190" end="199" penn-cats="VP" /><word lex="following" start="200" end="209"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="o" start="210" end="210" /><word lex="/" start="211" end="211" /><word lex="n" start="212" end="213" /><word lex="o/n" start="210" end="213"><sense-info penn-parts-of-speech="JJ,NN" trips-parts-of-speech="ADJ,N" /></word><prefer text="o/n" start="210" end="213" penn-cats="NP" /><word lex="stimulation" start="214" end="224"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="stimulation" start="214" end="224" penn-cats="NX,NAC" /><prefer text="o/n stimulation" start="210" end="224" penn-cats="NP,NX,NAC" /><prefer text="following o/n stimulation" start="200" end="224" penn-cats="PP" /><prefer text="performed following o/n stimulation" start="190" end="224" penn-cats="VP" /><prefer text="were performed following o/n stimulation" start="185" end="224" penn-cats="VP" /><word lex="." start="225" end="225" /><prefer text="Dual-Glo Luciferase assays were performed following o/n stimulation." start="158" end="225" penn-cats="S" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP
+    (N1 (N1 (ADJP (ADJ1 (ADJ DUAL))) (WORD PUNC-MINUS) (N1 (NAME GLO)))
+     (N1 (N1 (NAME LUCIFERASE)) (N1 (N ASSAYS)))))
+   (VP
+    (VP- (AUX (V WERE))
+     (VP- (VP- (V (V PERFORMED)))
+      (ADVBL
+       (VP
+        (VP- (V FOLLOWING)
+         (NP (N1 (NP (NAME O PUNC-SLASH N)) (N1 (N STIMULATION))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><S><NP><N1><N1><ADJP><ADJ1><ADJ>DUAL</ADJ></ADJ1></ADJP><WORD>PUNC-MINUS</WORD><N1><NAME>GLO</NAME></N1></N1><N1><N1><NAME>LUCIFERASE</NAME></N1><N1><N>ASSAYS</N></N1></N1></N1></NP><VP><VP-><AUX><V>WERE</V></AUX><VP-><VP-><V><V>PERFORMED</V></V></VP-><ADVBL><VP><VP-><V>FOLLOWING</V><NP><N1><NP><NAME>O PUNC-SLASH N</NAME></NP><N1><N>STIMULATION</N></N1></N1></NP></VP-></VP></ADVBL></VP-></VP-></VP></S></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V271656"><lisp>((ONT::SPEECHACT ONT::V271656 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V266810 :START 158 :END 225)
+ (ONT::F ONT::V266810 (:* ONT::EXECUTE W::PERFORM) :NEUTRAL ONT::V266785 :TIME
+  ONT::V267107 :TENSE W::PAST :PASSIVE + :START 158 :END 225)
+ (ONT::INDEF-SET ONT::V266785 (:* ONT::KNOWLEDGE-BELIEF W::ASSAYS) :ASSOC-WITH
+  ONT::V266765 :ASSOC-WITH ONT::V266777 :START 158 :END 185)
+ (ONT::KIND ONT::V266777 (:* ONT::PROTEIN W::LUCIFERASE) :NAME-OF W::LUCIFERASE
+  :START 158 :END 185 :DRUM
+  ((:DRUM
+    (TERM :ID UP::Q01158 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+     :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P13129 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+     :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q26304 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+     :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q27757 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+     :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P08659 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013
+     :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :DBXREFS (XFAM::PF00501 XFAM::PF13193) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0045289| :NAME &quot;luciferin monooxygenase activity&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;EXACT synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C16802 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0047077| :NAME
+     &quot;Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity&quot; :SCORE
+     0.4111 :MATCHES
+     ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0047712| :NAME
+     &quot;Cypridina-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES
+     ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0050248| :NAME &quot;Renilla-luciferin 2-monooxygenase activity&quot;
+     :SCORE 0.4111 :MATCHES
+     ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0050397| :NAME
+     &quot;Watasenia-luciferin 2-monooxygenase activity&quot; :SCORE 0.4111 :MATCHES
+     ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+       :INITIAL-CAP-NO-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::KIND ONT::V266765 (:* ONT::PROTEIN W::GLO) :NAME-OF W::GLO :MOD
+  ONT::V266757 :START 158 :END 185 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0050105| :NAME &quot;L-gulonolactone oxidase activity&quot; :SCORE
+     0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;GLO&quot; :STATUS &quot;EXACT synonym&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q3ZC33 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P58710 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (XFAM::PF04030 XFAM::PF01565)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q8HXW0 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::P10867 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID UP::Q90YK3 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745
+     :MATCHES
+     ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+       :INITIAL-CAP-ALL-CAPS 1))
+     :DBXREFS (XFAM::PF04030 XFAM::PF01565) :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::F ONT::V266757 (:* ONT::N-TUPLE-VAL W::DUAL) :FIGURE ONT::V266765 :START
+  158 :END 162)
+ (ONT::F ONT::V267107 ONT::IMPLICIT-OVERLAP :FIGURE ONT::V266810 :GROUND
+  ONT::V266816 :START 200 :END 225)
+ (ONT::F ONT::V266816 (:* ONT::FOLLOW-PATH W::FOLLOW) :NEUTRAL ONT::V266824
+  :VFORM W::ING :START 200 :END 225)
+ (ONT::BARE ONT::V266824 (:* ONT::CAUSE-STIMULATE W::STIMULATION) :AFFECTED
+  ONT::V266839 :START 210 :END 225)
+ (ONT::THE ONT::V266839 ONT::GAS-SUBSTANCE :SEQUENCE
+  (ONT::V266599 ONT::V266619) :NAME-OF (W::O W::PUNC-SLASH W::N) :START 210
+  :END 214)
+ (ONT::BARE ONT::V266599 (:* ONT::GAS-SUBSTANCE W::O) :START 210 :END 211)
+ (ONT::BARE ONT::V266619 (:* ONT::GAS-SUBSTANCE W::N) :START 212 :END 214))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V271656">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V266810" />
+    <LF:start>158</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266810">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EXECUTE</LF:type>
+    <LF:word>PERFORM</LF:word>
+    <role:NEUTRAL rdf:resource="#V266785" />
+    <role:TIME rdf:resource="#V267107" />
+    <role:TENSE>PAST</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>158</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266785">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>KNOWLEDGE-BELIEF</LF:type>
+    <LF:word>ASSAYS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V266765" />
+    <role:ASSOC-WITH rdf:resource="#V266777" />
+    <LF:start>158</LF:start>
+    <LF:end>185</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266777">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>LUCIFERASE</LF:word>
+    <role:NAME-OF>LUCIFERASE</role:NAME-OF>
+    <LF:start>158</LF:start>
+    <LF:end>185</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID Q01158 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00501 PF13193) :ONT-TYPES (PROTEIN))
+  (TERM :ID P13129 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00501 PF13193) :ONT-TYPES (PROTEIN))
+  (TERM :ID Q26304 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00501 PF13193) :ONT-TYPES (PROTEIN))
+  (TERM :ID Q27757 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00501 PF13193) :ONT-TYPES (PROTEIN))
+  (TERM :ID P08659 :NAME &quot;Luciferin 4-monooxygenase&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;luciferase&quot; :STATUS &quot;RecName: Short&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :DBXREFS (PF00501 PF13193) :ONT-TYPES (PROTEIN))
+  (TERM :ID |0045289| :NAME &quot;luciferin monooxygenase activity&quot; :SCORE 0.70379
+   :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;EXACT synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C16802 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16802&gt;&quot; :SCORE 0.70379
+   :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;luciferase&quot; :STATUS &quot;synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID |0047077| :NAME
+   &quot;Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity&quot; :SCORE
+   0.4111 :MATCHES
+   ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID |0047712| :NAME &quot;Cypridina-luciferin 2-monooxygenase activity&quot;
+   :SCORE 0.4111 :MATCHES
+   ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID |0050248| :NAME &quot;Renilla-luciferin 2-monooxygenase activity&quot; :SCORE
+   0.4111 :MATCHES
+   ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID |0050397| :NAME &quot;Watasenia-luciferin 2-monooxygenase activity&quot;
+   :SCORE 0.4111 :MATCHES
+   ((MATCH :SCORE 0.4111 :MATCHED &quot;luciferase&quot; :STATUS &quot;BROAD synonym&quot;
+     :INITIAL-CAP-NO-CAPS 1))
+   :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266765">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROTEIN</LF:type>
+    <LF:word>GLO</LF:word>
+    <role:NAME-OF>GLO</role:NAME-OF>
+    <role:MOD rdf:resource="#V266757" />
+    <LF:start>158</LF:start>
+    <LF:end>185</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0050105| :NAME &quot;L-gulonolactone oxidase activity&quot; :SCORE 0.70379
+   :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;GLO&quot; :STATUS &quot;EXACT synonym&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID Q3ZC33 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (PF04030 PF01565) :ONT-TYPES (PROTEIN))
+  (TERM :ID P58710 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :SPECIES &quot;Mus musculus (Mouse)&quot; :DBXREFS (PF04030 PF01565) :ONT-TYPES
+   (PROTEIN))
+  (TERM :ID Q8HXW0 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (PF04030 PF01565) :ONT-TYPES (PROTEIN))
+  (TERM :ID P10867 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (PF04030 PF01565) :ONT-TYPES (PROTEIN))
+  (TERM :ID Q90YK3 :NAME &quot;L-gulonolactone oxidase&quot; :SCORE 0.55745 :MATCHES
+   ((MATCH :SCORE 0.55745 :MATCHED &quot;GLO&quot; :STATUS &quot;AltName: Short&quot;
+     :INITIAL-CAP-ALL-CAPS 1))
+   :DBXREFS (PF04030 PF01565) :ONT-TYPES (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266757">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>N-TUPLE-VAL</LF:type>
+    <LF:word>DUAL</LF:word>
+    <role:FIGURE rdf:resource="#V266765" />
+    <LF:start>158</LF:start>
+    <LF:end>162</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V267107">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>IMPLICIT-OVERLAP</LF:type>
+    <role:FIGURE rdf:resource="#V266810" />
+    <role:GROUND rdf:resource="#V266816" />
+    <LF:start>200</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266816">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FOLLOW-PATH</LF:type>
+    <LF:word>FOLLOW</LF:word>
+    <role:NEUTRAL rdf:resource="#V266824" />
+    <role:VFORM>ING</role:VFORM>
+    <LF:start>200</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266824">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>CAUSE-STIMULATE</LF:type>
+    <LF:word>STIMULATION</LF:word>
+    <role:AFFECTED rdf:resource="#V266839" />
+    <LF:start>210</LF:start>
+    <LF:end>225</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266839">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GAS-SUBSTANCE</LF:type>
+    <role:SEQUENCE rdf:resource="#V266599" />
+    <role:SEQUENCE1 rdf:resource="#V266619" />
+    <role:NAME-OF>(O PUNC-SLASH N)</role:NAME-OF>
+    <LF:start>210</LF:start>
+    <LF:end>214</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266599">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GAS-SUBSTANCE</LF:type>
+    <LF:word>O</LF:word>
+    <LF:start>210</LF:start>
+    <LF:end>211</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V266619">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GAS-SUBSTANCE</LF:type>
+    <LF:word>N</LF:word>
+    <LF:start>212</LF:start>
+    <LF:end>214</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

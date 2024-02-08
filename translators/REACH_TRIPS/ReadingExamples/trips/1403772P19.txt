@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness. See text for discussion of this model.">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01465.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03734.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04253.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06886.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07121.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04803.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04256.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02570.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02018.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01442.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01423.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01424.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01427.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08348.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02842.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06732.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06731.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07076.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04257.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02984.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06790.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05040.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06856.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05465.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04100.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003286.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/008322.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003287.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003371.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003370.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01457.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09540.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/12214.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07452.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02099.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01874.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01802.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02521.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01620.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04343.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08118.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04923.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07494.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02529.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005034.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002627.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002248.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002720.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003783.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002222.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003324.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02961.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02959.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06844.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00023.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05406.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00071.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00193.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00191.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00194.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02534.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05028.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04795.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04975.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01923.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09732.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/13154.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02593.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02128.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06495.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02799.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/12166.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01727.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03016.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03017.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05116.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/11362.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02467.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02607.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02587.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02122.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01698.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01721.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01655.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02002.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02859.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10539.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01712.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01807.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01846.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10538.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02993.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00076.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01502.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06485.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06723.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06827.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06243.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06244.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02533.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04427.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00057.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06829.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00065.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02063.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05421.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01989.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/N.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06464.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06491.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02540.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04925.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01949.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02519.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09733.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07132.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01645.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01632.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/009406.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02548.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/009064.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/039981.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/026211.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/009621.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/039977.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/009814.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/100145.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000050.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/039976.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/010202.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000105.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000040.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/039998.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/009812.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000061.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/027574.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/006833.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000051.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/004904.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01700.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10261.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/10506.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04955.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06228.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/016775.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/016400.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/ORPHANET/007783.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02853.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02129.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02707.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02731.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02693.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00479.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00313.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02819.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00350.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00299.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02735.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02755.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/09928.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01686.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04338.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/08051.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00001_IO-34253" timestamp="20190628T135009"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00001_IO-34253" id="paragraph0">A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness. See text for discussion of this model.
+</paragraph></paragraphs><sentences><sentence id="1" pid="paragraph0">A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness.</sentence><sentence id="2" pid="paragraph0">See text for discussion of this model.</sentence></sentences></input><TERM end="104" id="V34491" lisp="(ONT::TERM ONT::V34491 ONT::DEVICE :NAME W::MECHANISM)" paragraph="paragraph0" rule="-SIMPLE-REF" start="33" uttnum="1"><type>ONT::DEVICE</type><name>MECHANISM</name><text>mechanism for the influence of the PI3K pathway on Notch-responsiveness</text></TERM><EVENT end="104" id="V34528" lisp="(ONT::EVENT ONT::V34528 ONT::MODULATE :AGENT ONT::V34583)" paragraph="paragraph0" rule="-RULE10_1_AGENT_AFFECTED-AGENT" start="47" uttnum="1"><type>ONT::MODULATE</type><predicate end="104" id="V34528" start="47"><type>ONT::MODULATE</type><text>the influence of the PI3K pathway on Notch-responsiveness</text></predicate><arg1 end="81" id="V34583" role=":AGENT" start="61"><type>ONT::SIGNALING-PATHWAY</type><text normalization="">of the PI3K pathway</text></arg1><text>the influence of the PI3K pathway on Notch-responsiveness</text></EVENT><TERM end="81" id="V34583" paragraph="paragraph0" rule="-EXPLICIT-REF-SEQ0" start="61" uttnum="1"><type>ONT::SIGNALING-PATHWAY</type><components><component id="V34580"/></components><text normalization="">of the PI3K pathway</text></TERM><TERM dbid="XFAM:PF00792|XFAM:PF00454|UP:P54673|XFAM:PF00794|NCIT:C51162|NCIT:C51161|NCIT:C17270|NCIT:C51160|NCIT:C30170|NCIT:C30171|BE:PI3K|UP:etc|XFAM:PF00613|HGNC:8975|NCIT:C30168|NCIT:C113629|GO:0016303|UP:P42336" end="81" id="V34580" lisp="(ONT::TERM ONT::V34580 ONT::GENE-PROTEIN :NAME W::PI-3-K :DRUM ((:DRUM (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2)) :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C17270 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C30168 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C30170 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C30171 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C51160 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C51161 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C51162 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C113629 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|8975| :NAME &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2)) :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE)) (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2)) :ONT-TYPES (ONT::PROTEIN)))))" paragraph="paragraph0" rule="-EXPLICIT-REF-SEQ0-TERM" start="61" uttnum="1"><type>ONT::GENE-PROTEIN</type><name>PI-3-K</name><drum-terms><drum-term dbid="BE:PI3K" match-score="1.0" matched-name="PI3K" name="PI3K"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="UP:P54673" match-score="0.85366" matched-name="PI3K" name="Phosphatidylinositol 3-kinase 1"><types><type>ONT::PROTEIN</type></types><xrefs><xref dbid="XFAM:PF00454"/><xref dbid="XFAM:PF00792"/><xref dbid="XFAM:PF00794"/><xref dbid="XFAM:PF00613"/></xrefs></drum-term><drum-term dbid="GO:0016303" match-score="0.70732" matched-name="PI3K" name="1-phosphatidylinositol-3-kinase activity"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C17270" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C30168" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C30170" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C30171" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C51160" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C51161" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C51162" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C113629" match-score="0.70732" matched-name="PI3K" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:8975" match-score="0.56098" matched-name="PI3K" name="phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P42336"/></xrefs></drum-term><drum-term dbid="UP:etc" match-score="0.12195" matched-name="PI3K"><types><type>ONT::PROTEIN</type></types></drum-term></drum-terms><text>of the PI3K pathway</text></TERM><TERM dbid="FA:02506" end="104" id="V34618" lisp="(ONT::TERM ONT::V34618 ONT::PROTEIN-FAMILY :NAME W::NOTCH :DRUM ((:DRUM (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)))))" paragraph="paragraph0" rule="-SIMPLE-REF" start="81" uttnum="1"><type>ONT::PROTEIN-FAMILY</type><name>NOTCH</name><drum-terms><drum-term dbid="FA:02506" match-score="0.85013" matched-name="NOTCH" name="NOTCH family"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>on Notch-responsiveness</text></TERM><EPI end="143" id="V44356" lisp="(ONT::EPI ONT::V44356 ONT::OBSERVE :NEUTRAL ONT::V44385 :FORCE ONT::TRUE :EXPERIENCER ONT::V45197 :TENSE W::PRES)" paragraph="paragraph0" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="106" uttnum="2"><type>ONT::OBSERVE</type><force>ONT::TRUE</force><arg1 end="143" id="V45197" role=":EXPERIENCER" start="106"><type>ONT::REFERENTIAL-SEM</type><text normalization="">See text for discussion of this model</text></arg1><arg2 end="143" id="V44385" role=":NEUTRAL" start="106"><type>ONT::TEXT-REPRESENTATION</type><text normalization="">See text for discussion of this model</text></arg2><text>See text for discussion of this model</text></EPI><TERM end="143" id="V44385" lisp="(ONT::TERM ONT::V44385 ONT::TEXT-REPRESENTATION :EPI ONT::V44356 :NAME W::TEXT)" paragraph="paragraph0" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="106" uttnum="2"><type>ONT::TEXT-REPRESENTATION</type><name>TEXT</name><text>See text for discussion of this model</text></TERM><TERM end="143" id="V44438" lisp="(ONT::TERM ONT::V44438 ONT::REPRESENTATION :NAME W::MODEL :COREF ONT::V34583)" paragraph="paragraph0" rule="-SIMPLE-REF" start="130" uttnum="2"><type>ONT::REPRESENTATION</type><name>MODEL</name><coref id="V34583"/><text>of this model</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::A W::SCHEMATIC W::DEPICTING)</lisp><word>A</word><word>SCHEMATIC</word><word>DEPICTING</word></words><tags><lisp>((WORD &quot;A&quot; :FRAME (0 1) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;schematic&quot; :FRAME (2 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0054556 :CITATION-FORM &quot;schematic&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;schematic&quot; :EXACT 1)) :NOMINALIZATION
+       ((SPECIALIST :EUI E0556248 :CITATION-FORM &quot;schematicity&quot;)))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;schematic&quot; :FRAME (2 11) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;depicting&quot; :FRAME (12 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="A" start="0" end="1"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="schematic" start="2" end="11"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0054556" citation-form="schematic"><match score="1.0" matched="schematic" exact="1" /><nominalization><specialist eui="E0556248" citation-form="schematicity" /></nominalization></specialist></sense-info></word><prefer text="schematic" start="2" end="11" penn-cats="NX,NAC" /><word lex="depicting" start="12" end="21"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word></tags><tree><lisp>(UTT
+ (NP (SPEC (DET (ART A)))
+  (N1 (ADJP (ADJ1 (ADJ SCHEMATIC))) (N1 (V DEPICTING)))))</lisp><UTT><NP><SPEC><DET><ART>A</ART></DET></SPEC><N1><ADJP><ADJ1><ADJ>SCHEMATIC</ADJ></ADJ1></ADJP><N1><V>DEPICTING</V></N1></N1></NP></UTT></tree><terms root="#V36821"><lisp>((ONT::SPEECHACT ONT::V36821 ONT::SA_IDENTIFY :CONTENT ONT::V34438 :START 0
+  :END 22)
+ (ONT::A ONT::V34438 (:* ONT::ENCODES-MESSAGE W::DEPICT) :MOD ONT::V34434
+  :START 0 :END 22)
+ (ONT::F ONT::V34434 (:* ONT::MODIFIER W::SCHEMATIC) :FIGURE ONT::V34438 :START
+  2 :END 12))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V36821">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V34438" />
+    <LF:start>0</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34438">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>ENCODES-MESSAGE</LF:type>
+    <LF:word>DEPICT</LF:word>
+    <role:MOD rdf:resource="#V34434" />
+    <LF:start>0</LF:start>
+    <LF:end>22</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34434">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>SCHEMATIC</LF:word>
+    <role:FIGURE rdf:resource="#V34438" />
+    <LF:start>2</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::A W::PROPOSED)</lisp><word>A</word><word>PROPOSED</word></words><tags><lisp>((WORD &quot;a&quot; :FRAME (22 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;proposed&quot; :FRAME (24 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proposed&quot; :FRAME (24 32) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="a" start="22" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="proposed" start="24" end="32"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="proposed" start="24" end="32" penn-cats="VP" /></tags><tree><lisp>(CP (S (NP (RNUMBER (MIXED-SEQUENCE (VALUE A)))) (VP (VP- (V PROPOSED)))))</lisp><CP><S><NP><RNUMBER><MIXED-SEQUENCE><VALUE>A</VALUE></MIXED-SEQUENCE></RNUMBER></NP><VP><VP-><V>PROPOSED</V></VP-></VP></S></CP></tree><terms root="#V34487"><lisp>((ONT::F ONT::V34487 (:* ONT::SUGGEST W::PROPOSE) :AGENT ONT::V36223 :TENSE
+  W::PAST :START 22 :END 33)
+ (ONT::THE ONT::V36223 ONT::SEQUENCE :NAME-OF (W::A) :VAL (W::A) :START 22 :END
+  24))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V34487">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SUGGEST</LF:type>
+    <LF:word>PROPOSE</LF:word>
+    <role:AGENT rdf:resource="#V36223" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>22</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V36223">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SEQUENCE</LF:type>
+    <role:NAME-OF>(A)</role:NAME-OF>
+    <role:VAL>(A)</role:VAL>
+    <LF:start>22</LF:start>
+    <LF:end>24</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::MECHANISM W::FOR W::THE W::INFLUENCE W::OF W::THE W::PI 3 W::K W::PATHWAY
+ W::ON W::NOTCH W::PUNC-MINUS W::RESPONSIVENESS W::PUNC-PERIOD)</lisp><word>MECHANISM</word><word>FOR</word><word>THE</word><word>INFLUENCE</word><word>OF</word><word>THE</word><word>PI</word><word>3</word><word>K</word><word>PATHWAY</word><word>ON</word><word>NOTCH</word><word>PUNC-MINUS</word><word>RESPONSIVENESS</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;mechanism&quot; :FRAME (33 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;mechanism&quot; :FRAME (33 42) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;proposed mechanism&quot; :FRAME (24 42) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for&quot; :FRAME (43 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (47 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;influence&quot; :FRAME (51 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;influence&quot; :FRAME (51 60) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (61 63) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (64 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI&quot; :FRAME (68 69) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;3&quot; :FRAME (70 70) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI3&quot; :FRAME (68 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID HGNC::|8947| :NAME &quot;peptidase inhibitor 3&quot; :SCORE 0.85366
+       :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3&quot; :STATUS &quot;Approved Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P19957) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P19400 :NAME &quot;Major pepsin inhibitor 3&quot; :SCORE 0.85361
+       :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;PI-3&quot; :STATUS &quot;RecName: Short&quot;
+         :NO-DASH-DASH 1 :EXACT 1))
+       :DBXREFS (XFAM::PF06394) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C105391 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105391&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70727 :MATCHED &quot;PI-3&quot; :STATUS &quot;synonym&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C105389 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105389&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::P19957 :NAME &quot;Elafin&quot; :SCORE 0.56093 :MATCHES
+       ((MATCH :SCORE 0.56093 :MATCHED &quot;PI-3&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-DASH-DASH 1 :EXACT 1))
+       :SPECIES &quot;Homo sapiens (Human)&quot; :DBXREFS
+       (HGNC::|8947| XFAM::PF10511 XFAM::PF00095) :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID UP::P55928 :NAME &quot;Potassium channel toxin alpha-KTx 7.2&quot; :SCORE
+       0.55812 :MATCHES
+       ((MATCH :SCORE 0.55812 :MATCHED &quot;Pi3&quot; :STATUS &quot;AltName: Short&quot;
+         :ALL-CAPS-INITIAL-CAP 1)
+        (MATCH :SCORE 0.55808 :MATCHED &quot;Pi-3&quot; :STATUS &quot;AltName: Short&quot;
+         :NO-DASH-DASH 1 :ALL-CAPS-INITIAL-CAP 1))
+       :DBXREFS (XFAM::PF00451) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;K&quot; :FRAME (71 72) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;3K&quot; :FRAME (70 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MUTATION) :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (MUTATION :TYPE SUBSTITUTION :AA-INDEX 3 :NEW
+       (AMINO-ACID :NAME &quot;Lysine&quot; :LETTER &quot;K&quot;))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;PI3K&quot; :FRAME (68 72) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::PI3K
+              (SENSE (MORPH (POS N) (WORD PI3K))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE
+       0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT
+         2))
+       :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613)
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot;
+       :SCORE 0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT
+         2))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C17270 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C20130
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C30168 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C30170 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C30171 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C51160 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C51161 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C51162 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C113629 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|8975| :NAME
+       &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+       :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2))
+       :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE))
+      (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES
+       ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2))
+       :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;PI3K&quot; :FRAME (68 72) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;pathway&quot; :FRAME (73 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;pathway&quot; :FRAME (73 80) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;PI3K pathway&quot; :FRAME (68 80) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the PI3K pathway&quot; :FRAME (64 80) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;on&quot; :FRAME (81 83) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Notch&quot; :FRAME (84 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN-FAMILY) :SCORE 0.85013 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+       ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-ALL-CAPS 1))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::MOLECULAR-DOMAIN) :SCORE 0.70379 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF00066 :NAME &quot;notch&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;notch&quot; :STATUS &quot;ID&quot;
+         :INITIAL-CAP-NO-CAPS 1)
+        (MATCH :SCORE 0.26476 :MATCHED &quot;notch&quot; :STATUS &quot;PI&quot;
+         :INITIAL-CAP-NO-CAPS 1))
+       :ONT-TYPES (ONT::MOLECULAR-DOMAIN))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (89 89) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;responsiveness&quot; :FRAME (90 103) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0053053 :CITATION-FORM &quot;responsivness&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;responsiveness&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(to,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0053052 :CAT ADJ :CITATION-FORM &quot;responsive&quot;)))))))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;Notch-responsiveness&quot; :FRAME (84 103) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Notch-responsiveness&quot; :FRAME (84 103) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;on Notch-responsiveness&quot; :FRAME (81 103) :ENJU-CATS (PP) :PENN-CATS
+  (PP) :TRIPS-CATS (W::PP) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the influence of the PI3K pathway on Notch-responsiveness&quot; :FRAME
+  (47 103) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;for the influence of the PI3K pathway on Notch-responsiveness&quot; :FRAME
+  (43 103) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness&quot;
+  :FRAME (22 103) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness&quot;
+  :FRAME (12 103) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness&quot;
+  :FRAME (0 103) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 1
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (104 104) :UTTNUM 1 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness.&quot;
+  :FRAME (0 104) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 1 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="mechanism" start="33" end="42"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="mechanism" start="33" end="42" penn-cats="NX,NAC" /><prefer text="proposed mechanism" start="24" end="42" penn-cats="NX,NAC" /><word lex="for" start="43" end="46"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="47" end="50"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="influence" start="51" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="influence" start="51" end="60" penn-cats="NX,NAC" /><word lex="of" start="61" end="63"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="64" end="67"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="PI" start="68" end="69" /><word lex="3" start="70" end="70" /><word lex="PI3" start="68" end="70"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="0.85366"><term id="HGNC:8947" name="peptidase inhibitor 3" score="0.85366" dbxrefs="UP:P19957" ont-types="GENE"><match score="0.85366" matched="PI3" status="Approved Symbol" exact="1" /></term><term id="UP:P19400" name="Major pepsin inhibitor 3" score="0.85361" dbxrefs="XFAM:PF06394" ont-types="PROTEIN"><match score="0.85361" matched="PI-3" status="RecName: Short" no-dash-dash="1" exact="1" /></term><term id="NCIT:C105391" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105391&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3" status="synonym" exact="1" /><match score="0.70727" matched="PI-3" status="synonym" no-dash-dash="1" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C105389" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105389&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="UP:P19957" name="Elafin" score="0.56093" species="Homo sapiens (Human)" dbxrefs="HGNC:8947,XFAM:PF10511,XFAM:PF00095" ont-types="PROTEIN"><match score="0.56093" matched="PI-3" status="AltName: Short" no-dash-dash="1" exact="1" /></term><term id="UP:P55928" name="Potassium channel toxin alpha-KTx 7.2" score="0.55812" dbxrefs="XFAM:PF00451" ont-types="PROTEIN"><match score="0.55812" matched="Pi3" status="AltName: Short" all-caps-initial-cap="1" /><match score="0.55808" matched="Pi-3" status="AltName: Short" no-dash-dash="1" all-caps-initial-cap="1" /></term></sense-info></word><word lex="K" start="71" end="72" /><word lex="3K" start="70" end="72"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MUTATION"><mutation type="SUBSTITUTION" aa-index="3"><new><amino-acid name="Lysine" letter="K" /></new></mutation></sense-info></word><word lex="PI3K" start="68" end="72"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:PI3K" name="PI3K" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="PI3K" status="name" exact="2" /><map to="PROTEIN-FAMILY" through="BE:PI3K" /></term><term id="UP:P54673" name="Phosphatidylinositol 3-kinase 1" score="0.85366" dbxrefs="XFAM:PF00454,XFAM:PF00792,XFAM:PF00794,XFAM:PF00613" ont-types="PROTEIN"><match score="0.85366" matched="PI3K" status="RecName: Short" exact="2" /></term><term id="GO:0016303" name="1-phosphatidylinositol-3-kinase activity" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="EXACT synonym" exact="2" /></term><term id="NCIT:C17270" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;" score="0.70732" ont-types="PROTEIN-FAMILY"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN-FAMILY" through="NCIT:C20130" /></term><term id="NCIT:C30168" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C30170" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C30171" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C51160" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C51161" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C51162" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C113629" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="PI3K" status="synonym" exact="2" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:8975" name="phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha" score="0.56098" dbxrefs="UP:P42336" ont-types="GENE"><match score="0.56098" matched="PI3K" status="Synonym" exact="2" /></term><term id="UP:etc" score="0.12195" ont-types="PROTEIN"><match score="0.12195" matched="PI3K" status="fake" exact="2" /></term></sense-info></word><prefer text="PI3K" start="68" end="72" penn-cats="NP" /><word lex="pathway" start="73" end="80"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="pathway" start="73" end="80" penn-cats="NX,NAC" /><prefer text="PI3K pathway" start="68" end="80" penn-cats="NX,NAC" /><prefer text="the PI3K pathway" start="64" end="80" penn-cats="NP" /><word lex="on" start="81" end="83"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="Notch" start="84" end="88"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN-FAMILY" score="0.85013"><term id="FA:02506" name="NOTCH family" score="0.85013" ont-types="PROTEIN-FAMILY"><match score="0.85013" matched="NOTCH" status="ID" initial-cap-all-caps="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="MOLECULAR-DOMAIN" score="0.70379"><term id="XFAM:PF00066" name="notch" score="0.70379" ont-types="MOLECULAR-DOMAIN"><match score="0.70379" matched="notch" status="ID" initial-cap-no-caps="1" /><match score="0.26476" matched="notch" status="PI" initial-cap-no-caps="1" /></term></sense-info></word><word lex="-" start="89" end="89" /><word lex="responsiveness" start="90" end="103"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0053053" citation-form="responsivness"><match score="1.0" matched="responsiveness" exact="1" />    <complement>compl=pphr(of,np)</complement>
+    <complement>compl=pphr(to,np)</complement>
+<nominalization-of><specialist eui="E0053052" cat="ADJ" citation-form="responsive" /></nominalization-of></specialist></sense-info></word><word lex="Notch-responsiveness" start="84" end="103"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="Notch-responsiveness" start="84" end="103" penn-cats="NP,NX,NAC" /><prefer text="on Notch-responsiveness" start="81" end="103" penn-cats="PP" /><prefer text="the influence of the PI3K pathway on Notch-responsiveness" start="47" end="103" penn-cats="NP" /><prefer text="for the influence of the PI3K pathway on Notch-responsiveness" start="43" end="103" penn-cats="PP" /><prefer text="a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness" start="22" end="103" penn-cats="NP" /><prefer text="depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness" start="12" end="103" penn-cats="VP" /><prefer text="A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness" start="0" end="103" penn-cats="NP" /><word lex="." start="104" end="104" /><prefer text="A schematic depicting a proposed mechanism for the influence of the PI3K pathway on Notch-responsiveness." start="0" end="104" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (UTT
+  (NP
+   (N1 (N1 (N MECHANISM))
+    (ADVBL (ADV FOR)
+     (NP (SPEC (DET (ART THE)))
+      (N1
+       (N1 (N1 (N INFLUENCE))
+        (PP (PREP OF)
+         (NP (SPEC (DET (ART THE))) (N1 (NP (NAME PI 3 K)) (N1 (N PATHWAY))))))
+       (PP (PREP ON)
+        (NP
+         (N1 (N1 (NAME NOTCH)) (WORD PUNC-MINUS)
+          (N1 (N RESPONSIVENESS)))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><NP><N1><N1><N>MECHANISM</N></N1><ADVBL><ADV>FOR</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N1><N>INFLUENCE</N></N1><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><NP><NAME>PI 3 K</NAME></NP><N1><N>PATHWAY</N></N1></N1></NP></PP></N1><PP><PREP>ON</PREP><NP><N1><N1><NAME>NOTCH</NAME></N1><WORD>PUNC-MINUS</WORD><N1><N>RESPONSIVENESS</N></N1></N1></NP></PP></N1></NP></ADVBL></N1></NP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V37595"><lisp>((ONT::SPEECHACT ONT::V37595 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V34491 :START 33 :END 104)
+ (ONT::BARE ONT::V34491 (:* ONT::DEVICE W::MECHANISM) :MOD ONT::V34499 :START
+  33 :END 104)
+ (ONT::F ONT::V34499 (:* ONT::ASSOC-WITH W::FOR) :GROUND ONT::V34528 :FIGURE
+  ONT::V34491 :START 43 :END 104)
+ (ONT::THE ONT::V34528 (:* ONT::OBJECTIVE-INFLUENCE W::INFLUENCE) :AGENT
+  ONT::V34583 :AFFECTED ONT::V34630 :START 47 :END 104)
+ (ONT::THE ONT::V34583 (:* ONT::SIGNALING-PATHWAY W::PATHWAY) :ASSOC-WITH
+  ONT::V34580 :START 61 :END 81)
+ (ONT::THE ONT::V34580 (:* ONT::GENE-PROTEIN W::PI-3-K) :NAME-OF (W::PI 3 W::K)
+  :START 68 :END 73 :DRUM
+  ((:DRUM
+    (TERM :ID BE::PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::PI3K
+            (SENSE (MORPH (POS N) (WORD PI3K))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID UP::P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366
+     :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2))
+     :DBXREFS (XFAM::PF00454 XFAM::PF00792 XFAM::PF00794 XFAM::PF00613)
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID GO::|0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot;
+     :SCORE 0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C17270 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C20130
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C30168 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C30170 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C30171 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C51160 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C51161 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C51162 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C113629 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|8975| :NAME
+     &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+     :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2))
+     :DBXREFS (UP::P42336) :ONT-TYPES (ONT::GENE))
+    (TERM :ID UP::|etc| :SCORE 0.12195 :MATCHES
+     ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2))
+     :ONT-TYPES (ONT::PROTEIN)))))
+ (ONT::BARE ONT::V34630 (:* ONT::SENSITIVITY-SCALE W::RESPONSIVENESS)
+  :ASSOC-WITH ONT::V34618 :START 81 :END 104)
+ (ONT::KIND ONT::V34618 (:* ONT::PROTEIN-FAMILY W::NOTCH) :NAME-OF W::NOTCH
+  :START 81 :END 104 :DRUM
+  ((:DRUM
+    (TERM :ID FA::|02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+     ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+       1))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V37595">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V34491" />
+    <LF:start>33</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34491">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>DEVICE</LF:type>
+    <LF:word>MECHANISM</LF:word>
+    <role:MOD rdf:resource="#V34499" />
+    <LF:start>33</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34499">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V34528" />
+    <role:FIGURE rdf:resource="#V34491" />
+    <LF:start>43</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34528">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>OBJECTIVE-INFLUENCE</LF:type>
+    <LF:word>INFLUENCE</LF:word>
+    <role:AGENT rdf:resource="#V34583" />
+    <role:AFFECTED rdf:resource="#V34630" />
+    <LF:start>47</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34583">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SIGNALING-PATHWAY</LF:type>
+    <LF:word>PATHWAY</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V34580" />
+    <LF:start>61</LF:start>
+    <LF:end>81</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34580">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>PI-3-K</LF:word>
+    <role:NAME-OF>(PI 3 K)</role:NAME-OF>
+    <LF:start>68</LF:start>
+    <LF:end>73</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID PI3K :NAME &quot;PI3K&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;PI3K&quot; :STATUS &quot;name&quot; :EXACT 2)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT PI3K
+          (SENSE (MORPH (POS N) (WORD PI3K))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/P.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID P54673 :NAME &quot;Phosphatidylinositol 3-kinase 1&quot; :SCORE 0.85366
+   :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;PI3K&quot; :STATUS &quot;RecName: Short&quot; :EXACT 2))
+   :DBXREFS (PF00454 PF00792 PF00794 PF00613) :ONT-TYPES (PROTEIN))
+  (TERM :ID |0016303| :NAME &quot;1-phosphatidylinositol-3-kinase activity&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;EXACT synonym&quot; :EXACT 2))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C17270 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17270&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C20130
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C30168 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30168&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C30170 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30170&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C30171 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30171&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C51160 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51160&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C51161 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51161&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C51162 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51162&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C113629 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113629&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;PI3K&quot; :STATUS &quot;synonym&quot; :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |8975| :NAME
+   &quot;phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha&quot;
+   :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;PI3K&quot; :STATUS &quot;Synonym&quot; :EXACT 2)) :DBXREFS
+   (P42336) :ONT-TYPES (GENE))
+  (TERM :ID |etc| :SCORE 0.12195 :MATCHES
+   ((MATCH :SCORE 0.12195 :MATCHED &quot;PI3K&quot; :STATUS &quot;fake&quot; :EXACT 2)) :ONT-TYPES
+   (PROTEIN))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34630">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SENSITIVITY-SCALE</LF:type>
+    <LF:word>RESPONSIVENESS</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V34618" />
+    <LF:start>81</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V34618">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>PROTEIN-FAMILY</LF:type>
+    <LF:word>NOTCH</LF:word>
+    <role:NAME-OF>NOTCH</role:NAME-OF>
+    <LF:start>81</LF:start>
+    <LF:end>104</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |02506| :NAME &quot;NOTCH family&quot; :SCORE 0.85013 :MATCHES
+   ((MATCH :SCORE 0.85013 :MATCHED &quot;NOTCH&quot; :STATUS &quot;ID&quot; :INITIAL-CAP-ALL-CAPS
+     1))
+   :ONT-TYPES (PROTEIN-FAMILY))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+<utt><words><lisp>(W::SEE W::TEXT W::FOR W::DISCUSSION W::OF W::THIS W::MODEL W::PUNC-PERIOD)</lisp><word>SEE</word><word>TEXT</word><word>FOR</word><word>DISCUSSION</word><word>OF</word><word>THIS</word><word>MODEL</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;See&quot; :FRAME (106 109) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNP) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)
+    :ONT-TYPES (ONT::PROTEIN) :SCORE 0.55745 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID UP::P12993 :NAME &quot;Enterotoxin type E&quot; :SCORE 0.55745 :MATCHES
+       ((MATCH :SCORE 0.55745 :MATCHED &quot;SEE&quot; :STATUS &quot;AltName: Full&quot;
+         :SENTENCE-CAP-ALL-CAPS 1))
+       :DBXREFS (XFAM::PF02876 XFAM::PF01123) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;text&quot; :FRAME (110 114) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 2
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;text&quot; :FRAME (110 114) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;for&quot; :FRAME (115 118) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;discussion&quot; :FRAME (119 129) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 2
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;discussion&quot; :FRAME (119 129) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (130 132) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;this&quot; :FRAME (133 137) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;model&quot; :FRAME (138 142) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 2
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;model&quot; :FRAME (138 142) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;this model&quot; :FRAME (133 142) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of this model&quot; :FRAME (130 142) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;discussion of this model&quot; :FRAME (119 142) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 2 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;for discussion of this model&quot; :FRAME (115 142) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;text for discussion of this model&quot; :FRAME (110 142) :ENJU-CATS
+  (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 2 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;See text for discussion of this model&quot; :FRAME (106 142) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (143 143) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;See text for discussion of this model.&quot; :FRAME (106 143) :PENN-CATS
+  (S) :UTTNUM 2 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="See" start="106" end="109"><sense-info penn-parts-of-speech="NN,NNP" trips-parts-of-speech="N,NAME" ont-types="PROTEIN" score="0.55745"><term id="UP:P12993" name="Enterotoxin type E" score="0.55745" dbxrefs="XFAM:PF02876,XFAM:PF01123" ont-types="PROTEIN"><match score="0.55745" matched="SEE" status="AltName: Full" sentence-cap-all-caps="1" /></term></sense-info></word><word lex="text" start="110" end="114"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="text" start="110" end="114" penn-cats="NP,NX,NAC" /><word lex="for" start="115" end="118"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="discussion" start="119" end="129"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="discussion" start="119" end="129" penn-cats="NP,NX,NAC" /><word lex="of" start="130" end="132"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="this" start="133" end="137"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="model" start="138" end="142"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="model" start="138" end="142" penn-cats="NX,NAC" /><prefer text="this model" start="133" end="142" penn-cats="NP" /><prefer text="of this model" start="130" end="142" penn-cats="PP" /><prefer text="discussion of this model" start="119" end="142" penn-cats="NP,NX,NAC" /><prefer text="for discussion of this model" start="115" end="142" penn-cats="PP" /><prefer text="text for discussion of this model" start="110" end="142" penn-cats="NP,NX,NAC" /><prefer text="See text for discussion of this model" start="106" end="142" penn-cats="VP" /><word lex="." start="143" end="143" /><prefer text="See text for discussion of this model." start="106" end="143" penn-cats="S" /></tags><tree><lisp>(UTT
+ (UTT
+  (VP
+   (VP- (V SEE)
+    (NP
+     (N1 (N1 (N TEXT))
+      (ADVBL (ADV FOR)
+       (NP
+        (N1 (N1 (N DISCUSSION))
+         (PP (PREP OF) (NP (SPEC (DET (ART THIS))) (N1 (N MODEL))))))))))))
+ (PUNC PUNC-PERIOD))</lisp><UTT><UTT><VP><VP-><V>SEE</V><NP><N1><N1><N>TEXT</N></N1><ADVBL><ADV>FOR</ADV><NP><N1><N1><N>DISCUSSION</N></N1><PP><PREP>OF</PREP><NP><SPEC><DET><ART>THIS</ART></DET></SPEC><N1><N>MODEL</N></N1></NP></PP></N1></NP></ADVBL></N1></NP></VP-></VP></UTT><PUNC>PUNC-PERIOD</PUNC></UTT></tree><terms root="#V45196"><lisp>((ONT::SPEECHACT ONT::V45196 ONT::SA_TELL :PUNCTYPE W::DECL :CONTENT
+  ONT::V44356 :START 106 :END 143)
+ (ONT::F ONT::V44356 (:* ONT::ACTIVE-PERCEPTION W::SEE) :EXPERIENCER
+  ONT::V45197 :NEUTRAL ONT::V44385 :TENSE W::PRES :START 106 :END 143)
+ (ONT::IMPRO ONT::V45197 ONT::REFERENTIAL-SEM :PROFORM W::SUBJ :START 106 :END
+  143)
+ (ONT::BARE ONT::V44385 (:* ONT::TEXT-REPRESENTATION W::TEXT) :MOD ONT::V44397
+  :START 110 :END 143)
+ (ONT::F ONT::V44397 (:* ONT::ASSOC-WITH W::FOR) :GROUND ONT::V44419 :FIGURE
+  ONT::V44385 :START 115 :END 143)
+ (ONT::BARE ONT::V44419 (:* ONT::DISCUSS W::DISCUSSION) :NEUTRAL ONT::V44438
+  :START 119 :END 143)
+ (ONT::THE ONT::V44438 (:* ONT::REPRESENTATION W::MODEL) :PROFORM W::THIS
+  :START 130 :END 143))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V45196">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V44356" />
+    <LF:start>106</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V44356">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ACTIVE-PERCEPTION</LF:type>
+    <LF:word>SEE</LF:word>
+    <role:EXPERIENCER rdf:resource="#V45197" />
+    <role:NEUTRAL rdf:resource="#V44385" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>106</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V45197">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <role:PROFORM>SUBJ</role:PROFORM>
+    <LF:start>106</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V44385">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>TEXT-REPRESENTATION</LF:type>
+    <LF:word>TEXT</LF:word>
+    <role:MOD rdf:resource="#V44397" />
+    <LF:start>110</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V44397">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>FOR</LF:word>
+    <role:GROUND rdf:resource="#V44419" />
+    <role:FIGURE rdf:resource="#V44385" />
+    <LF:start>115</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V44419">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>DISCUSS</LF:type>
+    <LF:word>DISCUSSION</LF:word>
+    <role:NEUTRAL rdf:resource="#V44438" />
+    <LF:start>119</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V44438">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REPRESENTATION</LF:type>
+    <LF:word>MODEL</LF:word>
+    <role:PROFORM>THIS</role:PROFORM>
+    <LF:start>130</LF:start>
+    <LF:end>143</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

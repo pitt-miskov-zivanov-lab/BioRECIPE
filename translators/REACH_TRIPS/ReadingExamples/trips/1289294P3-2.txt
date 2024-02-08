@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="Pharmacokinetic analysis revealed that CCI-779 was progressively converted into rapamycin, its main metabolite, beginning as early as 15 minutes after infusion of the drug [20], therefore, we used rapamycin in our studies..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04966.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03942.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/07491.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/04896.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/001983.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/03788.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06155.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02556.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/EFO/000472.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/06115.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01538.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to times not implemented yet</debug><ekb complete="true" id="TEXT00197_IO-1528697" timestamp="20190708T130703"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00197_IO-1528697" id="paragraph196">Pharmacokinetic analysis revealed that CCI-779 was progressively converted into rapamycin, its main metabolite, beginning as early as 15 minutes after infusion of the drug [20], therefore, we used rapamycin in our studies..
+</paragraph></paragraphs><sentences><sentence id="223" pid="paragraph196">Pharmacokinetic analysis revealed that CCI-779 was progressively converted into rapamycin, its main metabolite, beginning as early as 15 minutes after infusion of the drug [20], therefore, we used rapamycin in our studies..</sentence></sentences></input><EVENT end="111" id="V1528818" lisp="(ONT::EVENT ONT::V1528818 ONT::TRANSFORM :RES ONT::V1528831 :AGENT ONT::V1528748 :AFFECTED ONT::V1528853 :FORCE ONT::TRUE :TENSE W::PAST)" paragraph="paragraph196" rule="-RESULT1,-RULE5_1_AGENT_AFFECTED" start="0" uttnum="223"><type>ONT::TRANSFORM</type><force>ONT::TRUE</force><predicate end="111" id="V1528818" start="0"><type>ONT::TRANSFORM</type><text>Pharmacokinetic analysis revealed that CCI-779 was progressively converted into rapamycin, its main metabolite,</text></predicate><arg1 end="51" id="V1528748" role=":AGENT" start="0"><type>ONT::TEST</type><text normalization="">Pharmacokinetic analysis revealed that CCI-779 was</text></arg1><arg2 end="111" id="V1528853" role=":AFFECTED" start="91"><type>ONT::CHEMICAL</type><text normalization="">its main metabolite,</text></arg2><arg3 end="91" id="V1528831" role=":RES" start="80"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><text normalization="">rapamycin,</text></arg3><text>Pharmacokinetic analysis revealed that CCI-779 was progressively converted into rapamycin, its main metabolite,</text></EVENT><EPI end="51" id="V1528748" lisp="(ONT::EPI ONT::V1528748 ONT::TEST)" paragraph="paragraph196" rule="-RULE50_0_AGENT_NEUTRAL-NONE" start="0" uttnum="223"><type>ONT::TEST</type><text>Pharmacokinetic analysis revealed that CCI-779 was</text></EPI><TERM dbid="CHEBI:25212" end="111" id="V1528853" lisp="(ONT::TERM ONT::V1528853 ONT::CHEMICAL :NAME W::METABOLITE :DRUM ((:DRUM (TERM :ID CHEBI::|25212| :NAME &quot;metabolite&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot; :EXACT 1) (MATCH :SCORE 0.85013 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 0.85528755 :INITIAL-CAP-NO-CAPS 1)) :ONT-TYPES (ONT::CHEMICAL)) (SPECIALIST :EUI E0039789 :CITATION-FORM &quot;metabolite&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;metabolite&quot; :EXACT 1))))))" paragraph="paragraph196" rule="-SIMPLE-REF" start="91" uttnum="223"><type>ONT::CHEMICAL</type><name>METABOLITE</name><drum-terms><drum-term dbid="CHEBI:25212" match-score="0.85366" matched-name="metabolite" name="metabolite"><types><type>ONT::CHEMICAL</type></types></drum-term></drum-terms><text>its main metabolite,</text></TERM><TERM dbid="MESH:C401859|NCIT:C1844" end="47" id="V1528784" lisp="(ONT::TERM ONT::V1528784 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::CCI-PUNC-MINUS-779 :DRUM ((:DRUM (TERM :ID NCIT::C1844 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1) (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1) (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))" paragraph="paragraph196" rule="-SIMPLE-REF" start="39" uttnum="223"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>CCI-779</name><drum-terms><drum-term dbid="NCIT:C1844" match-score="0.70732" matched-name="CCI-779" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="MESH:C401859" match-score="0.56098" matched-name="CCI-779" name="temsirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>CCI-779</text></TERM><TERM dbid="NCIT:C1212|PC:5040" end="91" id="V1528831" lisp="(ONT::TERM ONT::V1528831 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::RAPAMYCIN :DRUM ((:DRUM (TERM :ID NCIT::C1212 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot; :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot; :NO-CAPS-INITIAL-CAP 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))" paragraph="paragraph196" rule="-SIMPLE-REF" start="80" uttnum="223"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>RAPAMYCIN</name><drum-terms><drum-term dbid="NCIT:C1212" match-score="0.70732" matched-name="rapamycin" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="PC:5040" match-score="0.70379" matched-name="Rapamycin" name="Sirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>rapamycin,</text></TERM><TERM end="111" id="V1528846" lisp="(ONT::TERM ONT::V1528846 (:* ONT::REFERENTIAL-SEM W::ITS) :PRO W::ITS :COREF ONT::V1528748)" paragraph="paragraph196" rule="-ROBUSTPRO" start="91" uttnum="223"><type>ONT::REFERENTIAL-SEM</type><coref id="V1528748"/><text>its main metabolite,</text></TERM><EVENT end="188" id="V1534259" lisp="(ONT::EVENT ONT::V1534259 ONT::ACTIVATE)" paragraph="paragraph196" rule="-RULE40_2_AGENT_AFFECTED-NONE" start="112" uttnum="223"><type>ONT::ACTIVATE</type><predicate end="188" id="V1534259" start="112"><type>ONT::ACTIVATE</type><text>beginning as early as 15 minutes after infusion of the drug [20], therefore,</text></predicate><text>beginning as early as 15 minutes after infusion of the drug [20], therefore,</text></EVENT><TERM end="176" id="V1534382" lisp="(ONT::TERM ONT::V1534382 ONT::MEDICATION :NAME W::DRUG :COREF ONT::V1528784)" paragraph="paragraph196" rule="-SIMPLE-REF" start="163" uttnum="223"><type>ONT::MEDICATION</type><name>DRUG</name><coref id="V1528784"/><text>the drug [20]</text></TERM><TERM end="192" id="V1540804" lisp="(ONT::TERM ONT::V1540804 (:* ONT::PERSON W::WE) :PRO W::WE)" paragraph="paragraph196" rule="-ROBUSTPRO" start="189" uttnum="223"><type>ONT::PERSON</type><text>we</text></TERM><TERM dbid="NCIT:C1212|PC:5040" end="207" id="V1540818" lisp="(ONT::TERM ONT::V1540818 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::RAPAMYCIN :DRUM ((:DRUM (TERM :ID NCIT::C1212 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot; :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot; :NO-CAPS-INITIAL-CAP 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))" paragraph="paragraph196" rule="-SIMPLE-REF" start="197" uttnum="223"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>RAPAMYCIN</name><drum-terms><drum-term dbid="NCIT:C1212" match-score="0.70732" matched-name="rapamycin" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="PC:5040" match-score="0.70379" matched-name="Rapamycin" name="Sirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>rapamycin</text></TERM><TERM end="223" id="V1540887" lisp="(ONT::TERM ONT::V1540887 (:* ONT::PERSON W::OUR) :PRO W::OUR)" paragraph="paragraph196" rule="-ROBUSTPRO" start="210" uttnum="223"><type>ONT::PERSON</type><text>our studies..</text></TERM></ekb><utt><words><lisp>(W::PHARMACOKINETIC W::ANALYSIS W::REVEALED W::THAT W::CCI W::PUNC-MINUS 779
+ W::WAS W::PROGRESSIVELY W::CONVERTED W::INTO W::RAPAMYCIN W::PUNC-COMMA W::ITS
+ W::MAIN W::METABOLITE W::PUNC-COMMA)</lisp><word>PHARMACOKINETIC</word><word>ANALYSIS</word><word>REVEALED</word><word>THAT</word><word>CCI</word><word>PUNC-MINUS</word><word>779</word><word>WAS</word><word>PROGRESSIVELY</word><word>CONVERTED</word><word>INTO</word><word>RAPAMYCIN</word><word>PUNC-COMMA</word><word>ITS</word><word>MAIN</word><word>METABOLITE</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Pharmacokinetic&quot; :FRAME (0 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0421528 :CITATION-FORM &quot;pharmacokinetic&quot; :MATCHES
+       ((MATCH :SCORE 0.99814 :MATCHED &quot;pharmaco-kinetic&quot; :NO-DASH-DASH 1
+         :EXACT 1 :SENTENCE-CAP-NO-CAPS 1)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Pharmacokinetic&quot; :FRAME (0 15) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;analysis&quot; :FRAME (16 24) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;analysis&quot; :FRAME (16 24) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Pharmacokinetic analysis&quot; :FRAME (0 24) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;revealed&quot; :FRAME (25 33) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;that&quot; :FRAME (34 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;CCI&quot; :FRAME (39 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::PROTEIN) :SCORE 0.56093 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID UP::P32954 :NAME &quot;Cysteine proteinase 1&quot; :SCORE 0.56093
+       :MATCHES
+       ((MATCH :SCORE 0.56093 :MATCHED &quot;CC-I&quot; :STATUS &quot;AltName: Full&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :NO-DASH-DASH 1 :EXACT 2))
+       :DBXREFS (XFAM::PF00112) :ONT-TYPES (ONT::PROTEIN))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (42 42) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;779&quot; :FRAME (43 46) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;CCI-779&quot; :FRAME (39 46) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1844 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+   (:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::MOLECULE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|79699| :NAME &quot;Temsirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;RELATED synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+         :EXACT 1)
+        (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::MOLECULE))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;CCI-779&quot; :FRAME (39 46) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;was&quot; :FRAME (47 50) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;progressively&quot; :FRAME (51 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0050262 :CITATION-FORM &quot;progressively&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;progressively&quot; :EXACT 1)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;progressively&quot; :FRAME (51 64) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;converted&quot; :FRAME (65 74) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;converted&quot; :FRAME (65 74) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;into&quot; :FRAME (75 79) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rapamycin&quot; :FRAME (80 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1212 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|9168| :NAME &quot;sirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;rapamycin&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin&quot; :FRAME (80 88) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (89 90) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;its&quot; :FRAME (91 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;main&quot; :FRAME (95 99) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;main&quot; :FRAME (95 99) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;metabolite&quot; :FRAME (100 109) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::CHEMICAL) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|25212| :NAME &quot;metabolite&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot; :EXACT 1)
+        (MATCH :SCORE 0.85013 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+         0.85528755 :INITIAL-CAP-NO-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL))
+       :ONT-TYPES (ONT::CHEMICAL))
+      (SPECIALIST :EUI E0039789 :CITATION-FORM &quot;metabolite&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;metabolite&quot; :EXACT 1)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;metabolite&quot; :FRAME (100 109) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;main metabolite&quot; :FRAME (95 109) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;its main metabolite&quot; :FRAME (91 109) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (110 110) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  223 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Pharmacokinetic" start="0" end="15"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ"><specialist eui="E0421528" citation-form="pharmacokinetic"><match score="0.99814" matched="pharmaco-kinetic" no-dash-dash="1" exact="1" sentence-cap-no-caps="1" /></specialist></sense-info></word><prefer text="Pharmacokinetic" start="0" end="15" penn-cats="ADJP,QP" /><word lex="analysis" start="16" end="24"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="analysis" start="16" end="24" penn-cats="NX,NAC" /><prefer text="Pharmacokinetic analysis" start="0" end="24" penn-cats="NP,NX,NAC" /><word lex="revealed" start="25" end="33"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="that" start="34" end="38"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="CCI" start="39" end="41"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="PROTEIN" score="0.56093"><term id="UP:P32954" name="Cysteine proteinase 1" score="0.56093" dbxrefs="XFAM:PF00112" ont-types="PROTEIN"><match score="0.56093" matched="CC-I" status="AltName: Full" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" no-dash-dash="1" exact="2" /></term></sense-info></word><word lex="-" start="42" end="42" /><word lex="779" start="43" end="46" /><word lex="CCI-779" start="39" end="46"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1844" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="CCI-779" status="synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.70732" matched="CCI-779" status="synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="MESH:C401859" name="temsirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.56098" matched="CCI-779" status="SY" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.56098" matched="CCI-779" status="SY" exact="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="MOLECULE" score="0.56098"><term id="CHEBI:79699" name="Temsirolimus" score="0.56098" ont-types="MOLECULE"><match score="0.56098" matched="CCI-779" status="RELATED synonym" maybe-depluralized="1" surely-depluralized="0" depluralization-score="1" exact="1" /><match score="0.56098" matched="CCI-779" status="RELATED synonym" exact="1" /><map to="MOLECULE" through="CHEBI:23367" /></term></sense-info></word><prefer text="CCI-779" start="39" end="46" penn-cats="NP,NX,NAC" /><word lex="was" start="47" end="50"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="progressively" start="51" end="64"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV"><specialist eui="E0050262" citation-form="progressively"><match score="1.0" matched="progressively" exact="1" /></specialist></sense-info></word><prefer text="progressively" start="51" end="64" penn-cats="ADVP" /><word lex="converted" start="65" end="74"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="converted" start="65" end="74" penn-cats="VP" /><word lex="into" start="75" end="79"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="rapamycin" start="80" end="88"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1212" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="rapamycin" status="synonym" exact="1" /><match score="0.70379" matched="RAPAMYCIN" status="synonym" no-caps-all-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="PC:5040" name="Sirolimus" score="0.70379" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70379" matched="Rapamycin" status="Alternative Name" no-caps-initial-cap="1" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:9168" name="sirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="rapamycin" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info></word><prefer text="rapamycin" start="80" end="88" penn-cats="NP,NX,NAC" /><word lex="," start="89" end="90"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="its" start="91" end="94"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="main" start="95" end="99"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="main" start="95" end="99" penn-cats="ADJP,QP" /><word lex="metabolite" start="100" end="109"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="CHEMICAL" score="0.85366"><term id="CHEBI:25212" name="metabolite" score="0.85366" ont-types="CHEMICAL"><match score="0.85366" matched="metabolite" status="name" exact="1" /><match score="0.85013" matched="metabolite" status="name" maybe-depluralized="1" surely-depluralized="0" depluralization-score="0.85528755" initial-cap-no-caps="1" /><map to="CHEMICAL" through="CHEBI:24432" /></term><specialist eui="E0039789" citation-form="metabolite"><match score="1.0" matched="metabolite" exact="1" /></specialist></sense-info></word><prefer text="metabolite" start="100" end="109" penn-cats="NX,NAC" /><prefer text="main metabolite" start="95" end="109" penn-cats="NX,NAC" /><prefer text="its main metabolite" start="91" end="109" penn-cats="NP" /><word lex="," start="110" end="110"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (S
+  (NP
+   (N1
+    (N1 (N1 (ADJP (ADJ1 (ADJ PHARMACOKINETIC))) (N1 (N ANALYSIS)))
+     (CP (VP (VP- (V (V REVEALED))))))
+    (CP (PRO THAT) (S (NP (NAME CCI PUNC-MINUS 779)) (VP (VP- (V WAS)))))))
+  (VP
+   (VP- (ADVBL (ADV PROGRESSIVELY))
+    (VP- (V CONVERTED)
+     (ADVBL (ADV INTO) (NP (NP (N1 (N RAPAMYCIN))) (PUNC PUNC-COMMA)))
+     (NP
+      (NP (SPEC (DET (POSSESSOR (PRO ITS))))
+       (N1 (ADJP (ADJ1 (ADJ MAIN))) (N1 (N METABOLITE))))
+      (PUNC PUNC-COMMA)))))))</lisp><UTT><S><NP><N1><N1><N1><ADJP><ADJ1><ADJ>PHARMACOKINETIC</ADJ></ADJ1></ADJP><N1><N>ANALYSIS</N></N1></N1><CP><VP><VP-><V><V>REVEALED</V></V></VP-></VP></CP></N1><CP><PRO>THAT</PRO><S><NP><NAME>CCI PUNC-MINUS 779</NAME></NP><VP><VP-><V>WAS</V></VP-></VP></S></CP></N1></NP><VP><VP-><ADVBL><ADV>PROGRESSIVELY</ADV></ADVBL><VP-><V>CONVERTED</V><ADVBL><ADV>INTO</ADV><NP><NP><N1><N>RAPAMYCIN</N></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></ADVBL><NP><NP><SPEC><DET><POSSESSOR><PRO>ITS</PRO></POSSESSOR></DET></SPEC><N1><ADJP><ADJ1><ADJ>MAIN</ADJ></ADJ1></ADJP><N1><N>METABOLITE</N></N1></N1></NP><PUNC>PUNC-COMMA</PUNC></NP></VP-></VP-></VP></S></UTT></tree><terms root="#V1534046"><lisp>((ONT::SPEECHACT ONT::V1534046 ONT::SA_TELL :CONTENT ONT::V1528818 :START 0
+  :END 110)
+ (ONT::F ONT::V1528818 (:* ONT::CHANGE W::CONVERT) :AGENT ONT::V1528748
+  :AFFECTED ONT::V1528853 :RESULT ONT::V1528822 :MOD ONT::V1528812 :TENSE
+  W::PAST :START 0 :END 110)
+ (ONT::BARE ONT::V1528748 (:* ONT::SCRUTINY W::ANALYSIS) :MOD ONT::V1528796
+  :MOD ONT::V1528753 :MOD ONT::V1528745 :START 0 :END 51)
+ (ONT::F ONT::V1528745 (:* ONT::MODIFIER W::PHARMACOKINETIC) :FIGURE
+  ONT::V1528748 :START 0 :END 16 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0421528 :CITATION-FORM &quot;pharmacokinetic&quot; :MATCHES
+     ((MATCH :SCORE 0.99814 :MATCHED &quot;pharmaco-kinetic&quot; :NO-DASH-DASH 1 :EXACT
+       1 :SENTENCE-CAP-NO-CAPS 1))))))
+ (ONT::F ONT::V1528753 (:* ONT::TELL W::REVEAL) :FORMAL ONT::V1528748 :VFORM
+  W::PASSIVE :START 25 :END 34)
+ (ONT::F ONT::V1528796 (:* ONT::BE W::BE) :NEUTRAL ONT::V1528784 :NEUTRAL1
+  ONT::V1528748 :TENSE W::PAST :START 34 :END 51)
+ (ONT::THE ONT::V1528784
+  (:* ONT::PHARMACOLOGIC-SUBSTANCE W::CCI-PUNC-MINUS-779) :NAME-OF
+  (W::CCI W::PUNC-MINUS 779) :START 39 :END 47 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1844 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+       :EXACT 1)
+      (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID MESH::C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED
+       1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1)
+      (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+ (ONT::F ONT::V1528812 (:* ONT::PREDICATE W::PROGRESSIVELY) :FIGURE
+  ONT::V1528818 :START 51 :END 65)
+ (ONT::F ONT::V1528822 (:* ONT::RESULTING-OBJECT W::INTO) :GROUND ONT::V1528831
+  :FIGURE ONT::V1528853 :START 75 :END 91)
+ (ONT::BARE ONT::V1528831 (:* ONT::PHARMACOLOGIC-SUBSTANCE W::RAPAMYCIN) :START
+  80 :END 91 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1212 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+       :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+       :NO-CAPS-INITIAL-CAP 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+ (ONT::THE ONT::V1528853 (:* ONT::CHEMICAL W::METABOLITE) :ASSOC-POSS
+  ONT::V1528846 :MOD ONT::V1528849 :START 91 :END 110 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|25212| :NAME &quot;metabolite&quot; :SCORE 0.85366 :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot; :EXACT 1)
+      (MATCH :SCORE 0.85013 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot;
+       :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+       0.85528755 :INITIAL-CAP-NO-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|24432|
+            (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+           :TO ONT::CHEMICAL))
+     :ONT-TYPES (ONT::CHEMICAL))
+    (SPECIALIST :EUI E0039789 :CITATION-FORM &quot;metabolite&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;metabolite&quot; :EXACT 1))))))
+ (ONT::PRO ONT::V1528846 (:* ONT::REFERENTIAL-SEM W::ITS) :PROFORM W::ITS
+  :START 91 :END 110)
+ (ONT::F ONT::V1528849 (:* ONT::PRIMARY W::MAIN) :FIGURE ONT::V1528853 :START
+  95 :END 100))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1534046">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1528818" />
+    <LF:start>0</LF:start>
+    <LF:end>110</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528818">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CHANGE</LF:type>
+    <LF:word>CONVERT</LF:word>
+    <role:AGENT rdf:resource="#V1528748" />
+    <role:AFFECTED rdf:resource="#V1528853" />
+    <role:RESULT rdf:resource="#V1528822" />
+    <role:MOD rdf:resource="#V1528812" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>110</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528748">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>SCRUTINY</LF:type>
+    <LF:word>ANALYSIS</LF:word>
+    <role:MOD rdf:resource="#V1528796" />
+    <role:MOD rdf:resource="#V1528753" />
+    <role:MOD rdf:resource="#V1528745" />
+    <LF:start>0</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528745">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>MODIFIER</LF:type>
+    <LF:word>PHARMACOKINETIC</LF:word>
+    <role:FIGURE rdf:resource="#V1528748" />
+    <LF:start>0</LF:start>
+    <LF:end>16</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0421528 :CITATION-FORM &quot;pharmacokinetic&quot; :MATCHES
+   ((MATCH :SCORE 0.99814 :MATCHED &quot;pharmaco-kinetic&quot; :NO-DASH-DASH 1 :EXACT 1
+     :SENTENCE-CAP-NO-CAPS 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528753">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>TELL</LF:type>
+    <LF:word>REVEAL</LF:word>
+    <role:FORMAL rdf:resource="#V1528748" />
+    <role:VFORM>PASSIVE</role:VFORM>
+    <LF:start>25</LF:start>
+    <LF:end>34</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528796">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BE</LF:type>
+    <LF:word>BE</LF:word>
+    <role:NEUTRAL rdf:resource="#V1528784" />
+    <role:NEUTRAL1 rdf:resource="#V1528748" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>34</LF:start>
+    <LF:end>51</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528784">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>CCI-PUNC-MINUS-779</LF:word>
+    <role:NAME-OF>(CCI PUNC-MINUS 779)</role:NAME-OF>
+    <LF:start>39</LF:start>
+    <LF:end>47</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1844 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1844&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1
+     :EXACT 1)
+    (MATCH :SCORE 0.70732 :MATCHED &quot;CCI-779&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID C401859 :NAME &quot;temsirolimus&quot; :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :MAYBE-DEPLURALIZED 1
+     :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE 1 :EXACT 1)
+    (MATCH :SCORE 0.56098 :MATCHED &quot;CCI-779&quot; :STATUS &quot;SY&quot; :EXACT 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528812">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PREDICATE</LF:type>
+    <LF:word>PROGRESSIVELY</LF:word>
+    <role:FIGURE rdf:resource="#V1528818" />
+    <LF:start>51</LF:start>
+    <LF:end>65</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528822">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RESULTING-OBJECT</LF:type>
+    <LF:word>INTO</LF:word>
+    <role:GROUND rdf:resource="#V1528831" />
+    <role:FIGURE rdf:resource="#V1528853" />
+    <LF:start>75</LF:start>
+    <LF:end>91</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528831">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>RAPAMYCIN</LF:word>
+    <LF:start>80</LF:start>
+    <LF:end>91</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1212 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+     :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID |5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+     :NO-CAPS-INITIAL-CAP 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528853">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>METABOLITE</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V1528846" />
+    <role:MOD rdf:resource="#V1528849" />
+    <LF:start>91</LF:start>
+    <LF:end>110</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |25212| :NAME &quot;metabolite&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot; :EXACT 1)
+    (MATCH :SCORE 0.85013 :MATCHED &quot;metabolite&quot; :STATUS &quot;name&quot;
+     :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 0 :DEPLURALIZATION-SCORE
+     0.85528755 :INITIAL-CAP-NO-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |24432|
+          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+         :TO CHEMICAL))
+   :ONT-TYPES (CHEMICAL))
+  (SPECIALIST :EUI E0039789 :CITATION-FORM &quot;metabolite&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;metabolite&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528846">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>ITS</LF:word>
+    <role:PROFORM>ITS</role:PROFORM>
+    <LF:start>91</LF:start>
+    <LF:end>110</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1528849">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>PRIMARY</LF:type>
+    <LF:word>MAIN</LF:word>
+    <role:FIGURE rdf:resource="#V1528853" />
+    <LF:start>95</LF:start>
+    <LF:end>100</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::BEGINNING W::AS W::EARLY W::AS W::FIFTEEN W::MINUTES W::AFTER W::INFUSION
+ W::OF W::THE W::DRUG W::START-SQUARE-PAREN W::TWENTY W::END-SQUARE-PAREN
+ W::PUNC-COMMA W::THEREFORE W::PUNC-COMMA)</lisp><word>BEGINNING</word><word>AS</word><word>EARLY</word><word>AS</word><word>FIFTEEN</word><word>MINUTES</word><word>AFTER</word><word>INFUSION</word><word>OF</word><word>THE</word><word>DRUG</word><word>START-SQUARE-PAREN</word><word>TWENTY</word><word>END-SQUARE-PAREN</word><word>PUNC-COMMA</word><word>THEREFORE</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;beginning&quot; :FRAME (112 121) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (122 124) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;as&quot; :FRAME (122 124) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;early&quot; :FRAME (125 130) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;early&quot; :FRAME (125 130) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;as early&quot; :FRAME (122 130) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (131 133) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;15&quot; :FRAME (134 136) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;15&quot; :FRAME (134 136) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;minutes&quot; :FRAME (137 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;minutes&quot; :FRAME (137 144) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;15 minutes&quot; :FRAME (134 144) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :WN-SENSE-KEYS
+    (&quot;15_minutes%1:28:00&quot;)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;15 minutes&quot; :FRAME (134 144) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;as 15 minutes&quot; :FRAME (131 144) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;as early as 15 minutes&quot; :FRAME (122 144) :ENJU-CATS (ADVP) :PENN-CATS
+  (ADVP) :TRIPS-CATS (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;after&quot; :FRAME (145 150) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;infusion&quot; :FRAME (151 159) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0034581 :CITATION-FORM &quot;infusion&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;infusion&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(of,np(drug))&quot; &quot;compl=pphr(by,np)&quot;
+        &quot;compl=pphr(into,np)&quot;)
+       :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0034579 :CAT VERB :CITATION-FORM &quot;infuse&quot;)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;infusion&quot; :FRAME (151 159) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (160 162) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (163 166) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;drug&quot; :FRAME (167 171) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;drug&quot; :FRAME (167 171) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;[&quot; :FRAME (172 172) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;20&quot; :FRAME (173 174) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CELL-LINE) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CVCL::J923 :NAME &quot;20&quot; :SCORE 0.85366 :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;20&quot; :STATUS &quot;name&quot; :EXACT 0))
+       :ONT-TYPES (ONT::CELL-LINE))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;20&quot; :FRAME (173 174) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;]&quot; :FRAME (175 175) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;20]&quot; :FRAME (173 175) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;[20]&quot; :FRAME (172 175) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM
+  223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the drug [20]&quot; :FRAME (163 175) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of the drug [20]&quot; :FRAME (160 175) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;infusion of the drug [20]&quot; :FRAME (151 175) :ENJU-CATS (NP NX)
+  :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;after infusion of the drug [20]&quot; :FRAME (145 175) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;beginning as early as 15 minutes after infusion of the drug [20]&quot;
+  :FRAME (112 175) :PENN-CATS (VP S) :TRIPS-CATS (W::VP) :UTTNUM 223 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (176 177) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;therefore&quot; :FRAME (178 186) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (RB) :TRIPS-PARTS-OF-SPEECH (W::ADV))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;therefore&quot; :FRAME (178 186) :ENJU-CATS (ADVP) :PENN-CATS (ADVP)
+  :TRIPS-CATS (W::ADVBL) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (187 187) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  223 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="beginning" start="112" end="121"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><word lex="as" start="122" end="124"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="as" start="122" end="124" penn-cats="ADVP" /><word lex="early" start="125" end="130"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="early" start="125" end="130" penn-cats="ADVP" /><prefer text="as early" start="122" end="130" penn-cats="ADVP" /><word lex="as" start="131" end="133"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="15" start="134" end="136"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="15" start="134" end="136" penn-cats="ADJP,QP" /><word lex="minutes" start="137" end="144"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="minutes" start="137" end="144" penn-cats="NX,NAC" /><word lex="15 minutes" start="134" end="144"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" wn-sense-keys="15_minutes%1:28:00" /></word><prefer text="15 minutes" start="134" end="144" penn-cats="NP,NX,NAC" /><prefer text="as 15 minutes" start="131" end="144" penn-cats="PP" /><prefer text="as early as 15 minutes" start="122" end="144" penn-cats="ADVP" /><word lex="after" start="145" end="150"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="infusion" start="151" end="159"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0034581" citation-form="infusion"><match score="1.0" matched="infusion" exact="1" />    <complement>compl=pphr(of,np)</complement>
+    <complement>compl=pphr(of,np(drug))</complement>
+    <complement>compl=pphr(by,np)</complement>
+    <complement>compl=pphr(into,np)</complement>
+<nominalization-of><specialist eui="E0034579" cat="VERB" citation-form="infuse" /></nominalization-of></specialist></sense-info></word><prefer text="infusion" start="151" end="159" penn-cats="NP,NX,NAC" /><word lex="of" start="160" end="162"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="163" end="166"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="drug" start="167" end="171"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="drug" start="167" end="171" penn-cats="NX,NAC" /><word lex="[" start="172" end="172"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="20" start="173" end="174"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CELL-LINE" score="0.85366"><term id="CVCL:J923" name="20" score="0.85366" ont-types="CELL-LINE"><match score="0.85366" matched="20" status="name" exact="0" /></term></sense-info></word><prefer text="20" start="173" end="174" penn-cats="NP,NX,NAC" /><word lex="]" start="175" end="175"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="20]" start="173" end="175" penn-cats="NP" /><prefer text="[20]" start="172" end="175" penn-cats="PP" /><prefer text="the drug [20]" start="163" end="175" penn-cats="NP" /><prefer text="of the drug [20]" start="160" end="175" penn-cats="PP" /><prefer text="infusion of the drug [20]" start="151" end="175" penn-cats="NP,NX,NAC" /><prefer text="after infusion of the drug [20]" start="145" end="175" penn-cats="PP" /><prefer text="beginning as early as 15 minutes after infusion of the drug [20]" start="112" end="175" penn-cats="VP,S" /><word lex="," start="176" end="177"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><word lex="therefore" start="178" end="186"><sense-info penn-parts-of-speech="RB" trips-parts-of-speech="ADV" /></word><prefer text="therefore" start="178" end="186" penn-cats="ADVP" /><word lex="," start="187" end="187"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (NP
+  (NP
+   (VP
+    (VP-
+     (VP- (VP- (V BEGINNING))
+      (ADVBL (WORD AS) (ADVBL (ADV EARLY)) (WORD AS)
+       (NP (NP (NUMBER FIFTEEN) (N1 (N MINUTES)))
+        (ADVBL (ADV AFTER)
+         (NP
+          (N1 (N1 (N INFUSION))
+           (ADVBL (ADV OF)
+            (NP (NP (SPEC (DET (ART THE))) (N1 (N DRUG)))
+             (PARENTHETICAL (PUNC START-SQUARE-PAREN)
+              (UTT (NP (NUMBER TWENTY))) (PUNC END-SQUARE-PAREN))))))))))
+     (ADVBL (ADV (PUNC PUNC-COMMA) (ADV THEREFORE))))))
+  (PUNC PUNC-COMMA)))</lisp><UTT><NP><NP><VP><VP-><VP-><VP-><V>BEGINNING</V></VP-><ADVBL><WORD>AS</WORD><ADVBL><ADV>EARLY</ADV></ADVBL><WORD>AS</WORD><NP><NP><NUMBER>FIFTEEN</NUMBER><N1><N>MINUTES</N></N1></NP><ADVBL><ADV>AFTER</ADV><NP><N1><N1><N>INFUSION</N></N1><ADVBL><ADV>OF</ADV><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>DRUG</N></N1></NP><PARENTHETICAL><PUNC>START-SQUARE-PAREN</PUNC><UTT><NP><NUMBER>TWENTY</NUMBER></NP></UTT><PUNC>END-SQUARE-PAREN</PUNC></PARENTHETICAL></NP></ADVBL></N1></NP></ADVBL></NP></ADVBL></VP-><ADVBL><ADV><PUNC>PUNC-COMMA</PUNC><ADV>THEREFORE</ADV></ADV></ADVBL></VP-></VP></NP><PUNC>PUNC-COMMA</PUNC></NP></UTT></tree><terms root="#V1540594"><lisp>((ONT::SPEECHACT ONT::V1540594 ONT::SA_IDENTIFY :CONTENT ONT::V1534259 :START
+  112 :END 187)
+ (ONT::BARE ONT::V1534259 (:* ONT::STARTOFF-BEGIN-COMMENCE-START W::BEGIN) :MOD
+  ONT::V1534397 :MOD ONT::V1534300 :START 112 :END 187)
+ (ONT::F ONT::V1534300 (:* ONT::AS-MUCH-AS W::EARLY) :STANDARD ONT::V1534487
+  :FIGURE ONT::V1534259 :SCALE ONT::TIME-MEASURE-SCALE :START 122 :END 176)
+ (ONT::THE ONT::V1534487 ONT::TIME-LOC :MOD ONT::V1534349 :START 134 :END 176)
+ (ONT::F ONT::V1534349 (:* ONT::EVENT-TIME-REL W::AFTER) :EXTENT ONT::V1534339
+  :GROUND ONT::V1534363 :FIGURE ONT::V1534487 :START 134 :END 176)
+ (ONT::A ONT::V1534339 ONT::QUANTITY :AMOUNT ONT::V1534336 :UNIT
+  (:* ONT::MINUTE-DURATION W::MINUTE) :SCALE ONT::DURATION-SCALE :START 134
+  :END 145)
+ (ONT::A ONT::V1534336 ONT::NUMBER :VALUE 15 :START 134 :END 145)
+ (ONT::BARE ONT::V1534363 (:* ONT::PHYSICAL-PROCESS W::INFUSION) :MOD
+  ONT::V1534368 :START 151 :END 176)
+ (ONT::F ONT::V1534368 (:* ONT::ASSOC-WITH W::OF) :GROUND ONT::V1534382 :FIGURE
+  ONT::V1534363 :START 160 :END 176)
+ (ONT::THE ONT::V1534382 (:* ONT::MEDICATION W::DRUG) :PARENTHETICAL
+  ONT::V1534389 :START 163 :END 176)
+ (ONT::SPEECHACT ONT::V1534518 ONT::SA_IDENTIFY :CONTENT ONT::V1534389 :START
+  173 :END 175)
+ (ONT::INDEF-SET ONT::V1534389 ONT::NUMBER :NUMBER 20 :START 173 :END 175)
+ (ONT::F ONT::V1534397 (:* ONT::THEREFORE W::THEREFORE) :FIGURE ONT::V1534259
+  :START 176 :END 187))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1540594">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1534259" />
+    <LF:start>112</LF:start>
+    <LF:end>187</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534259">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>STARTOFF-BEGIN-COMMENCE-START</LF:type>
+    <LF:word>BEGIN</LF:word>
+    <role:MOD rdf:resource="#V1534397" />
+    <role:MOD rdf:resource="#V1534300" />
+    <LF:start>112</LF:start>
+    <LF:end>187</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534300">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AS-MUCH-AS</LF:type>
+    <LF:word>EARLY</LF:word>
+    <role:STANDARD rdf:resource="#V1534487" />
+    <role:FIGURE rdf:resource="#V1534259" />
+    <role:SCALE>TIME-MEASURE-SCALE</role:SCALE>
+    <LF:start>122</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534487">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>TIME-LOC</LF:type>
+    <role:MOD rdf:resource="#V1534349" />
+    <LF:start>134</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534349">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>EVENT-TIME-REL</LF:type>
+    <LF:word>AFTER</LF:word>
+    <role:EXTENT rdf:resource="#V1534339" />
+    <role:GROUND rdf:resource="#V1534363" />
+    <role:FIGURE rdf:resource="#V1534487" />
+    <LF:start>134</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534339">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT rdf:resource="#V1534336" />
+    <role:UNIT>(:* MINUTE-DURATION MINUTE)</role:UNIT>
+    <role:SCALE>DURATION-SCALE</role:SCALE>
+    <LF:start>134</LF:start>
+    <LF:end>145</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534336">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:VALUE>15</role:VALUE>
+    <LF:start>134</LF:start>
+    <LF:end>145</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534363">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHYSICAL-PROCESS</LF:type>
+    <LF:word>INFUSION</LF:word>
+    <role:MOD rdf:resource="#V1534368" />
+    <LF:start>151</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534368">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSOC-WITH</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V1534382" />
+    <role:FIGURE rdf:resource="#V1534363" />
+    <LF:start>160</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534382">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>MEDICATION</LF:type>
+    <LF:word>DRUG</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V1534389" />
+    <LF:start>163</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534518">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V1534389" />
+    <LF:start>173</LF:start>
+    <LF:end>175</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534389">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>20</role:NUMBER>
+    <LF:start>173</LF:start>
+    <LF:end>175</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1534397">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>THEREFORE</LF:type>
+    <LF:word>THEREFORE</LF:word>
+    <role:FIGURE rdf:resource="#V1534259" />
+    <LF:start>176</LF:start>
+    <LF:end>187</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WE W::USED W::RAPAMYCIN W::IN W::OUR W::STUDIES W::PUNC-PERIOD
+ W::PUNC-PERIOD)</lisp><word>WE</word><word>USED</word><word>RAPAMYCIN</word><word>IN</word><word>OUR</word><word>STUDIES</word><word>PUNC-PERIOD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;we&quot; :FRAME (189 191) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;we&quot; :FRAME (189 191) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;used&quot; :FRAME (192 196) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rapamycin&quot; :FRAME (197 206) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1212 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|9168| :NAME &quot;sirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;rapamycin&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin&quot; :FRAME (197 206) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;used rapamycin&quot; :FRAME (192 206) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;in&quot; :FRAME (207 209) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;our&quot; :FRAME (210 213) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP$) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;studies&quot; :FRAME (214 220) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (221 221) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (222 222) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (222 222) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;studies..&quot; :FRAME (214 222) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 223
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;used rapamycin in our studies..&quot; :FRAME (192 222) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;we used rapamycin in our studies..&quot; :FRAME (189 222) :ENJU-CATS (S)
+  :PENN-CATS (S) :UTTNUM 223 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="we" start="189" end="191"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="we" start="189" end="191" penn-cats="NP" /><word lex="used" start="192" end="196"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="rapamycin" start="197" end="206"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1212" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="rapamycin" status="synonym" exact="1" /><match score="0.70379" matched="RAPAMYCIN" status="synonym" no-caps-all-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="PC:5040" name="Sirolimus" score="0.70379" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70379" matched="Rapamycin" status="Alternative Name" no-caps-initial-cap="1" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:9168" name="sirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="rapamycin" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info></word><prefer text="rapamycin" start="197" end="206" penn-cats="NP,NX,NAC" /><prefer text="used rapamycin" start="192" end="206" penn-cats="VP" /><word lex="in" start="207" end="209"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="our" start="210" end="213"><sense-info penn-parts-of-speech="PRP$" trips-parts-of-speech="PRO" /></word><word lex="studies" start="214" end="220"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="." start="221" end="221" /><prefer text="." start="222" end="222" penn-cats="NP" /><word lex="." start="222" end="222" /><word lex="studies.." start="214" end="222"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="used rapamycin in our studies.." start="192" end="222" penn-cats="VP" /><prefer text="we used rapamycin in our studies.." start="189" end="222" penn-cats="S" /></tags><tree><lisp>(UTT
+ (S (NP (PRO WE))
+  (VP
+   (VP- (VP- (V USED) (NP (N1 (N RAPAMYCIN))))
+    (ADVBL (ADV IN)
+     (NP (SPEC (DET (POSSESSOR (PRO OUR))))
+      (N1 (N STUDIES PUNC-PERIOD PUNC-PERIOD))))))))</lisp><UTT><S><NP><PRO>WE</PRO></NP><VP><VP-><VP-><V>USED</V><NP><N1><N>RAPAMYCIN</N></N1></NP></VP-><ADVBL><ADV>IN</ADV><NP><SPEC><DET><POSSESSOR><PRO>OUR</PRO></POSSESSOR></DET></SPEC><N1><N>STUDIES PUNC-PERIOD PUNC-PERIOD</N></N1></NP></ADVBL></VP-></VP></S></UTT></tree><terms root="#V1542249"><lisp>((ONT::SPEECHACT ONT::V1542249 ONT::SA_TELL :CONTENT ONT::V1540813 :START 189
+  :END 222)
+ (ONT::F ONT::V1540813 (:* ONT::USE W::USE) :AGENT ONT::V1540804 :AFFECTED
+  ONT::V1540818 :MOD ONT::V1540835 :TENSE W::PAST :START 189 :END 222)
+ (ONT::PRO-SET ONT::V1540804 (:* ONT::PERSON W::WE) :PROFORM W::WE :START 189
+  :END 192)
+ (ONT::BARE ONT::V1540818 (:* ONT::PHARMACOLOGIC-SUBSTANCE W::RAPAMYCIN) :START
+  197 :END 207 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1212 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+       :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+       :NO-CAPS-INITIAL-CAP 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+ (ONT::F ONT::V1540835 (:* ONT::SITUATED-IN W::IN) :GROUND ONT::V1540909
+  :FIGURE ONT::V1540813 :START 207 :END 222)
+ (ONT::THE ONT::V1540909
+  (:* ONT::REFERENTIAL-SEM W::STUDIES-PUNC-PERIOD-PUNC-PERIOD) :ASSOC-POSS
+  ONT::V1540887 :START 210 :END 222)
+ (ONT::PRO ONT::V1540887 (:* ONT::PERSON W::OUR) :PROFORM W::OUR :START 210
+  :END 222))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V1542249">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V1540813" />
+    <LF:start>189</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540813">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>USE</LF:type>
+    <LF:word>USE</LF:word>
+    <role:AGENT rdf:resource="#V1540804" />
+    <role:AFFECTED rdf:resource="#V1540818" />
+    <role:MOD rdf:resource="#V1540835" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>189</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540804">
+    <LF:indicator>PRO-SET</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>WE</LF:word>
+    <role:PROFORM>WE</role:PROFORM>
+    <LF:start>189</LF:start>
+    <LF:end>192</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540818">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>RAPAMYCIN</LF:word>
+    <LF:start>197</LF:start>
+    <LF:end>207</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1212 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+     :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID |5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+     :NO-CAPS-INITIAL-CAP 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540835">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SITUATED-IN</LF:type>
+    <LF:word>IN</LF:word>
+    <role:GROUND rdf:resource="#V1540909" />
+    <role:FIGURE rdf:resource="#V1540813" />
+    <LF:start>207</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540909">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>STUDIES-PUNC-PERIOD-PUNC-PERIOD</LF:word>
+    <role:ASSOC-POSS rdf:resource="#V1540887" />
+    <LF:start>210</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V1540887">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <LF:word>OUR</LF:word>
+    <role:PROFORM>OUR</role:PROFORM>
+    <LF:start>210</LF:start>
+    <LF:end>222</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

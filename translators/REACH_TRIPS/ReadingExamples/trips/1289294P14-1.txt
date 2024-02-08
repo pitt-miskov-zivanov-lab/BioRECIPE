@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="Points above this line indicate antagonism, and points below the line indicate synergism..">
+<debug></debug><ekb complete="true" id="TEXT00218_IO-2251641" timestamp="20190708T133322"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00218_IO-2251641" id="paragraph217">Points above this line indicate antagonism, and points below the line indicate synergism..
+</paragraph></paragraphs><sentences><sentence id="244" pid="paragraph217">Points above this line indicate antagonism, and points below the line indicate synergism..</sentence></sentences></input><EPI end="42" id="V2251677" lisp="(ONT::EPI ONT::V2251677 ONT::SUPPORT :NEUTRAL ONT::V2251649 :FORCE ONT::TRUE :TENSE W::PRES)" paragraph="paragraph217" rule="-RULE50_0_NEUTRAL_NEUTRAL1-NEUTRAL" start="0" uttnum="244"><type>ONT::SUPPORT</type><force>ONT::TRUE</force><arg2 end="23" id="V2251649" role=":NEUTRAL" start="0"><type>ONT::SHAPE</type><text normalization="">Points above this line</text></arg2><text>Points above this line indicate antagonism</text></EPI><TERM end="23" id="V2251649" lisp="(ONT::TERM ONT::V2251649 ONT::SHAPE :NAME W::POINT)" paragraph="paragraph217" rule="-SIMPLE-REF" start="0" uttnum="244"><type>ONT::SHAPE</type><name>POINT</name><text>Points above this line</text></TERM><TERM end="23" id="V2251668" lisp="(ONT::TERM ONT::V2251668 ONT::LINEAR-GROUPING :NAME W::LINE)" paragraph="paragraph217" rule="-SIMPLE-REF" start="13" uttnum="244"><type>ONT::LINEAR-GROUPING</type><name>LINE</name><text>this line</text></TERM><EPI end="90" id="V2251928" lisp="(ONT::EPI ONT::V2251928 ONT::SUPPORT :NEUTRAL ONT::V2251898 :FORCE ONT::TRUE :TENSE W::PRES)" paragraph="paragraph217" rule="-RULE50_0_NEUTRAL_NEUTRAL1-NEUTRAL" start="48" uttnum="244"><type>ONT::SUPPORT</type><force>ONT::TRUE</force><arg2 end="70" id="V2251898" role=":NEUTRAL" start="48"><type>ONT::SHAPE</type><text normalization="">points below the line</text></arg2><text>points below the line indicate synergism..</text></EPI><TERM end="70" id="V2251898" lisp="(ONT::TERM ONT::V2251898 ONT::SHAPE :NAME W::POINT)" paragraph="paragraph217" rule="-SIMPLE-REF" start="48" uttnum="244"><type>ONT::SHAPE</type><name>POINT</name><text>points below the line</text></TERM><TERM end="70" id="V2251919" lisp="(ONT::TERM ONT::V2251919 ONT::LINEAR-GROUPING :NAME W::LINE :COREF ONT::V2251668)" paragraph="paragraph217" rule="-SIMPLE-REF" start="61" uttnum="244"><type>ONT::LINEAR-GROUPING</type><name>LINE</name><coref id="V2251668"/><text>the line</text></TERM></ekb><utt><words><lisp>(W::POINTS W::ABOVE W::THIS W::LINE W::INDICATE W::ANTAGONISM W::PUNC-COMMA)</lisp><word>POINTS</word><word>ABOVE</word><word>THIS</word><word>LINE</word><word>INDICATE</word><word>ANTAGONISM</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;Points&quot; :FRAME (0 6) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Points&quot; :FRAME (0 6) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;above&quot; :FRAME (7 12) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;this&quot; :FRAME (13 17) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;line&quot; :FRAME (18 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;line&quot; :FRAME (18 22) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;this line&quot; :FRAME (13 22) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;above this line&quot; :FRAME (7 22) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Points above this line&quot; :FRAME (0 22) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;indicate&quot; :FRAME (23 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;antagonism&quot; :FRAME (32 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0009255 :CITATION-FORM &quot;antagonism&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;antagonism&quot; :EXACT 1)) :COMPLEMENTS
+       (&quot;compl=pphr(of,np)&quot; &quot;compl=pphr(by,np)&quot;) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0009259 :CAT VERB :CITATION-FORM &quot;antagonise&quot;)
+        (SPECIALIST :EUI E0009257 :CAT ADJ :CITATION-FORM &quot;antagonistic&quot;)))))))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;antagonism&quot; :FRAME (32 41) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;indicate antagonism&quot; :FRAME (23 41) :ENJU-CATS (VP) :PENN-CATS (VP)
+  :TRIPS-CATS (W::VP) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Points above this line indicate antagonism&quot; :FRAME (0 41) :ENJU-CATS
+  (S) :PENN-CATS (S) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (42 42) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  244 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="Points" start="0" end="6"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="Points" start="0" end="6" penn-cats="NP,NX,NAC" /><word lex="above" start="7" end="12"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="this" start="13" end="17"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="line" start="18" end="22"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="line" start="18" end="22" penn-cats="NX,NAC" /><prefer text="this line" start="13" end="22" penn-cats="NP" /><prefer text="above this line" start="7" end="22" penn-cats="PP" /><prefer text="Points above this line" start="0" end="22" penn-cats="NP,NX,NAC" /><word lex="indicate" start="23" end="31"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="antagonism" start="32" end="41"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0009255" citation-form="antagonism"><match score="1.0" matched="antagonism" exact="1" />    <complement>compl=pphr(of,np)</complement>
+    <complement>compl=pphr(by,np)</complement>
+<nominalization-of><specialist eui="E0009259" cat="VERB" citation-form="antagonise" /><specialist eui="E0009257" cat="ADJ" citation-form="antagonistic" /></nominalization-of></specialist></sense-info></word><prefer text="antagonism" start="32" end="41" penn-cats="NP,NX,NAC" /><prefer text="indicate antagonism" start="23" end="41" penn-cats="VP" /><prefer text="Points above this line indicate antagonism" start="0" end="41" penn-cats="S" /><word lex="," start="42" end="42"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP
+    (N1 (N1 (N POINTS))
+     (ADVBL (ADV ABOVE) (NP (SPEC (DET (ART THIS))) (N1 (N LINE))))))
+   (VP (VP- (V INDICATE) (NP (N1 (N ANTAGONISM)))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><N1><N1><N>POINTS</N></N1><ADVBL><ADV>ABOVE</ADV><NP><SPEC><DET><ART>THIS</ART></DET></SPEC><N1><N>LINE</N></N1></NP></ADVBL></N1></NP><VP><VP-><V>INDICATE</V><NP><N1><N>ANTAGONISM</N></N1></NP></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V2251818"><lisp>((ONT::SPEECHACT ONT::V2251818 ONT::SA_TELL :CONTENT ONT::V2251677 :START 0
+  :END 42)
+ (ONT::F ONT::V2251677 (:* ONT::CORRELATION W::INDICATE) :NEUTRAL ONT::V2251649
+  :NEUTRAL1 ONT::V2251685 :TENSE W::PRES :START 0 :END 42)
+ (ONT::INDEF-SET ONT::V2251649 (:* ONT::SHAPE W::POINT) :LOCATION ONT::V2251656
+  :START 0 :END 23)
+ (ONT::F ONT::V2251656 (:* ONT::ABOVE W::ABOVE) :GROUND ONT::V2251668 :FIGURE
+  ONT::V2251649 :START 7 :END 23)
+ (ONT::THE ONT::V2251668 (:* ONT::LINEAR-GROUPING W::LINE) :PROFORM W::THIS
+  :START 13 :END 23)
+ (ONT::BARE ONT::V2251685 (:* ONT::RELATION W::ANTAGONISM) :START 32 :END 42))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2251818">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2251677" />
+    <LF:start>0</LF:start>
+    <LF:end>42</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251677">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CORRELATION</LF:type>
+    <LF:word>INDICATE</LF:word>
+    <role:NEUTRAL rdf:resource="#V2251649" />
+    <role:NEUTRAL1 rdf:resource="#V2251685" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>0</LF:start>
+    <LF:end>42</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251649">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>SHAPE</LF:type>
+    <LF:word>POINT</LF:word>
+    <role:LOCATION rdf:resource="#V2251656" />
+    <LF:start>0</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251656">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ABOVE</LF:type>
+    <LF:word>ABOVE</LF:word>
+    <role:GROUND rdf:resource="#V2251668" />
+    <role:FIGURE rdf:resource="#V2251649" />
+    <LF:start>7</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251668">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LINEAR-GROUPING</LF:type>
+    <LF:word>LINE</LF:word>
+    <role:PROFORM>THIS</role:PROFORM>
+    <LF:start>13</LF:start>
+    <LF:end>23</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251685">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>RELATION</LF:type>
+    <LF:word>ANTAGONISM</LF:word>
+    <LF:start>32</LF:start>
+    <LF:end>42</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::POINTS
+  W::BELOW
+  W::THE
+  W::LINE
+  W::INDICATE
+  W::SYNERGISM
+  W::PUNC-PERIOD
+  W::PUNC-PERIOD)</lisp><word>AND</word><word>POINTS</word><word>BELOW</word><word>THE</word><word>LINE</word><word>INDICATE</word><word>SYNERGISM</word><word>PUNC-PERIOD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (44 47) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (44 47) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;points&quot; :FRAME (48 54) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;points&quot; :FRAME (48 54) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;below&quot; :FRAME (55 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (61 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;line&quot; :FRAME (65 69) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;line&quot; :FRAME (65 69) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the line&quot; :FRAME (61 69) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;below the line&quot; :FRAME (55 69) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;points below the line&quot; :FRAME (48 69) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;indicate&quot; :FRAME (70 78) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;synergism&quot; :FRAME (79 87) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0059605 :CITATION-FORM &quot;synergism&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;synergism&quot; :EXACT 1)))))))
+  :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;synergism&quot; :FRAME (79 87) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (88 88) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (89 89) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (89 89) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;synergism..&quot; :FRAME (79 89) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 244
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;points below the line indicate synergism..&quot; :FRAME (48 89) :ENJU-CATS
+  (S) :PENN-CATS (S) :UTTNUM 244 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="44" end="47"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="44" end="47" penn-cats="CONJP" /><word lex="points" start="48" end="54"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="points" start="48" end="54" penn-cats="NP,NX,NAC" /><word lex="below" start="55" end="60"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="61" end="64"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="line" start="65" end="69"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="line" start="65" end="69" penn-cats="NX,NAC" /><prefer text="the line" start="61" end="69" penn-cats="NP" /><prefer text="below the line" start="55" end="69" penn-cats="PP" /><prefer text="points below the line" start="48" end="69" penn-cats="NP,NX,NAC" /><word lex="indicate" start="70" end="78"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="synergism" start="79" end="87"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0059605" citation-form="synergism"><match score="1.0" matched="synergism" exact="1" /></specialist></sense-info></word><prefer text="synergism" start="79" end="87" penn-cats="NP" /><word lex="." start="88" end="88" /><prefer text="." start="89" end="89" penn-cats="NP" /><word lex="." start="89" end="89" /><word lex="synergism.." start="79" end="89"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="points below the line indicate synergism.." start="48" end="89" penn-cats="S" /></tags><tree><lisp>(UTT (ADVBL (ADV AND))
+ (UTT
+  (S
+   (NP
+    (N1 (N1 (N POINTS))
+     (ADVBL (ADV BELOW) (NP (SPEC (DET (ART THE))) (N1 (N LINE))))))
+   (VP (VP- (V INDICATE) (NP (N1 (N SYNERGISM PUNC-PERIOD PUNC-PERIOD))))))))</lisp><UTT><ADVBL><ADV>AND</ADV></ADVBL><UTT><S><NP><N1><N1><N>POINTS</N></N1><ADVBL><ADV>BELOW</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>LINE</N></N1></NP></ADVBL></N1></NP><VP><VP-><V>INDICATE</V><NP><N1><N>SYNERGISM PUNC-PERIOD PUNC-PERIOD</N></N1></NP></VP-></VP></S></UTT></UTT></tree><terms root="#V2252556"><lisp>((ONT::SPEECHACT ONT::V2252556 ONT::SA_TELL :CONTENT ONT::V2251928 :MOD
+  ONT::V2251887 :START 44 :END 89)
+ (ONT::F ONT::V2251887 (:* ONT::CONJUNCT W::AND) :FIGURE ONT::V2252556 :START
+  44 :END 48)
+ (ONT::F ONT::V2251928 (:* ONT::CORRELATION W::INDICATE) :NEUTRAL ONT::V2251898
+  :NEUTRAL1 ONT::V2251950 :TENSE W::PRES :START 48 :END 89)
+ (ONT::INDEF-SET ONT::V2251898 (:* ONT::SHAPE W::POINT) :LOCATION ONT::V2251905
+  :START 48 :END 70)
+ (ONT::F ONT::V2251905 (:* ONT::BELOW W::BELOW) :GROUND ONT::V2251919 :FIGURE
+  ONT::V2251898 :START 55 :END 70)
+ (ONT::THE ONT::V2251919 (:* ONT::LINEAR-GROUPING W::LINE) :START 61 :END 70)
+ (ONT::BARE ONT::V2251950
+  (:* ONT::REFERENTIAL-SEM W::SYNERGISM-PUNC-PERIOD-PUNC-PERIOD) :START 79 :END
+  89))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2252556">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2251928" />
+    <role:MOD rdf:resource="#V2251887" />
+    <LF:start>44</LF:start>
+    <LF:end>89</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251887">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONJUNCT</LF:type>
+    <LF:word>AND</LF:word>
+    <role:FIGURE rdf:resource="#V2252556" />
+    <LF:start>44</LF:start>
+    <LF:end>48</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251928">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CORRELATION</LF:type>
+    <LF:word>INDICATE</LF:word>
+    <role:NEUTRAL rdf:resource="#V2251898" />
+    <role:NEUTRAL1 rdf:resource="#V2251950" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>48</LF:start>
+    <LF:end>89</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251898">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>SHAPE</LF:type>
+    <LF:word>POINT</LF:word>
+    <role:LOCATION rdf:resource="#V2251905" />
+    <LF:start>48</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251905">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>BELOW</LF:type>
+    <LF:word>BELOW</LF:word>
+    <role:GROUND rdf:resource="#V2251919" />
+    <role:FIGURE rdf:resource="#V2251898" />
+    <LF:start>55</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251919">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LINEAR-GROUPING</LF:type>
+    <LF:word>LINE</LF:word>
+    <LF:start>61</LF:start>
+    <LF:end>70</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2251950">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>SYNERGISM-PUNC-PERIOD-PUNC-PERIOD</LF:word>
+    <LF:start>79</LF:start>
+    <LF:end>89</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></trips-parser-output>

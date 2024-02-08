@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)..">
+<debug>
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50Reference resolution to sequences not reimplemented yet</debug><ekb complete="true" id="TEXT00241_IO-3035437" timestamp="20190708T140209"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00241_IO-3035437" id="paragraph240">This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)..
+</paragraph></paragraphs><sentences><sentence id="267" pid="paragraph240">This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)..</sentence></sentences></input><EVENT end="67" id="V3036047" lisp="(ONT::EVENT ONT::V3036047 ONT::INHIBIT :AFFECTED ONT::V3036065)" paragraph="paragraph240" rule="-RULE30_1_AGENT_AFFECTED-AFFECTED" start="0" uttnum="267"><type>ONT::INHIBIT</type><predicate end="67" id="V3036047" start="0"><type>ONT::INHIBIT</type><text>This inhibition of ERK phosphorylation by combination of rapamycin</text></predicate><arg2 end="39" id="V3036065" role=":AFFECTED" start="16"><type>ONT::PHOSPHORYLATION</type><text normalization="">of ERK phosphorylation</text></arg2><text>This inhibition of ERK phosphorylation by combination of rapamycin</text></EVENT><EVENT end="39" id="V3036065" lisp="(ONT::EVENT ONT::V3036065 ONT::PHOSPHORYLATION :DRUM ((:DRUM (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot; :EXACT 2)) :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION)))))" paragraph="paragraph240" rule="-RULE60_4_AGENT_AFFECTED-NONE" start="16" uttnum="267"><type>ONT::PHOSPHORYLATION</type><predicate end="39" id="V3036065" start="16"><type>ONT::PHOSPHORYLATION</type><text>of ERK phosphorylation</text></predicate><drum-terms><drum-term dbid="GO:0006468" match-score="0.85366" matched-name="protein phosphorylation" name="protein phosphorylation"><types><type>ONT::POST-TRANSLATIONAL-MODIFICATION</type></types></drum-term></drum-terms><text>of ERK phosphorylation</text></EVENT><TERM end="67" id="V3036095" lisp="(ONT::TERM ONT::V3036095 ONT::COMBINATION :NAME W::COMBINATION)" paragraph="paragraph240" rule="-SIMPLE-REF" start="39" uttnum="267"><type>ONT::COMBINATION</type><name>COMBINATION</name><text>by combination of rapamycin</text></TERM><TERM dbid="BE:ERK|NCIT:C26166|NCIT:C16376|NCIT:C52872|UP:P29323|NCIT:C52164|NCIT:C26360|HGNC:3393|UP:P28482|HGNC:6871" end="39" id="V3036062" lisp="(ONT::TERM ONT::V3036062 ONT::GENE-PROTEIN :NAME W::ERK :DRUM ((:DRUM (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C16376 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26166 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26360 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52164 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52872 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1)) :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1)) :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph240" rule="-SIMPLE-REF" start="16" uttnum="267"><type>ONT::GENE-PROTEIN</type><name>ERK</name><drum-terms><drum-term dbid="BE:ERK" match-score="1.0" matched-name="ERK" name="ERK"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C16376" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26166" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26360" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52164" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52872" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:6871" match-score="0.56098" matched-name="ERK" name="mitogen-activated protein kinase 1"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P28482"/></xrefs></drum-term><drum-term dbid="HGNC:3393" match-score="0.26829" matched-name="ERK" name="EPH receptor B2"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P29323"/></xrefs></drum-term></drum-terms><text>of ERK phosphorylation</text></TERM><TERM dbid="NCIT:C1212|PC:5040" end="67" id="V3036108" lisp="(ONT::TERM ONT::V3036108 ONT::PHARMACOLOGIC-SUBSTANCE :NAME W::RAPAMYCIN :DRUM ((:DRUM (TERM :ID NCIT::C1212 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1) (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot; :NO-CAPS-ALL-CAPS 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot; :NO-CAPS-INITIAL-CAP 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)) (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))" paragraph="paragraph240" rule="-SIMPLE-REF" start="54" uttnum="267"><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><name>RAPAMYCIN</name><drum-terms><drum-term dbid="NCIT:C1212" match-score="0.70732" matched-name="rapamycin" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term><drum-term dbid="PC:5040" match-score="0.70379" matched-name="Rapamycin" name="Sirolimus"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type></types></drum-term></drum-terms><text>of rapamycin</text></TERM><EVENT end="142" id="V3036296" lisp="(ONT::EVENT ONT::V3036296 ONT::INHIBIT :AFFECTED ONT::V3036311)" paragraph="paragraph240" rule="-RULE30_1_AGENT_AFFECTED-AFFECTED" start="102" uttnum="267"><type>ONT::INHIBIT</type><predicate end="142" id="V3036296" start="102"><type>ONT::INHIBIT</type><text>inhibition of MEK by the U0126 compound</text></predicate><arg2 end="120" id="V3036311" role=":AFFECTED" start="113"><type>ONT::PROTEIN-FAMILY</type><text normalization="">of MEK</text></arg2><text>inhibition of MEK by the U0126 compound</text></EVENT><TERM dbid="BE:MEK|NCIT:C105947" end="120" id="V3036311" lisp="(ONT::TERM ONT::V3036311 ONT::PROTEIN-FAMILY :NAME W::MEK :DRUM ((:DRUM (TERM :ID BE::MEK :NAME &quot;MEK&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;MEK&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C105947 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;MEK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)))))" paragraph="paragraph240" rule="-SIMPLE-REF" start="113" uttnum="267"><type>ONT::PROTEIN-FAMILY</type><name>MEK</name><drum-terms><drum-term dbid="BE:MEK" match-score="1.0" matched-name="MEK" name="MEK"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C105947" match-score="0.70732" matched-name="MEK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term></drum-terms><text>of MEK</text></TERM><TERM end="142" id="V3036388" lisp="(ONT::TERM ONT::V3036388 ONT::GENERAL-STRUCTURE :NAME W::COMPOUND)" paragraph="paragraph240" rule="-SIMPLE-REF" start="120" uttnum="267"><type>ONT::GENERAL-STRUCTURE</type><name>COMPOUND</name><text>by the U0126 compound</text></TERM><TERM dbid="CHEBI:64208|CHEBI:90693" end="142" id="V3036377" lisp="(ONT::TERM ONT::V3036377 ONT::CHEMICAL :NAME W::U-126 :DRUM ((:DRUM (TERM :ID CHEBI::|90693| :NAME &quot;U0126&quot; :SCORE 0.85361 :MATCHES ((MATCH :SCORE 0.85361 :MATCHED &quot;U-0126&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1 :EXACT 1)) :ONT-TYPES (ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE)) (TERM :ID CHEBI::|64208| :NAME &quot;(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;U0126&quot; :STATUS &quot;RELATED synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE)))))" paragraph="paragraph240" rule="-SIMPLE-REF" start="120" uttnum="267"><type>ONT::CHEMICAL</type><name>U-126</name><drum-terms><drum-term dbid="CHEBI:90693" match-score="0.85361" matched-name="U-0126" name="U0126"><types><type>ONT::CHEMICAL</type><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><type>ONT::MOLECULE</type></types></drum-term><drum-term dbid="CHEBI:64208" match-score="0.56098" matched-name="U0126" name="(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile"><types><type>ONT::PHARMACOLOGIC-SUBSTANCE</type><type>ONT::CHEMICAL</type><type>ONT::MOLECULE</type></types></drum-term></drum-terms><text>by the U0126 compound</text></TERM><TERM end="175" id="V3036398" lisp="(ONT::TERM ONT::V3036398 ONT::SHAPE-OBJECT :NAME W::FIGURE)" paragraph="paragraph240" rule="-SIMPLE-REF" start="143" uttnum="267"><type>ONT::SHAPE-OBJECT</type><name>FIGURE</name><text>Figure 5, compare lanes 5 and 6)</text></TERM><EPI end="174" id="V3036411" lisp="(ONT::EPI ONT::V3036411 ONT::TEST :AGENT ONT::V3044285 :NEUTRAL ONT::V3036425 :FORCE ONT::TRUE :TENSE W::PRES)" paragraph="paragraph240" rule="-RULE50_0_AGENT_NEUTRAL" start="153" uttnum="267"><type>ONT::TEST</type><force>ONT::TRUE</force><arg1 end="174" id="V3044285" role=":AGENT" start="153"><type>ONT::PERSON</type><text normalization="">compare lanes 5 and 6</text></arg1><arg2 end="174" id="V3036425" role=":NEUTRAL" start="153"><type>ONT::LANE</type><text normalization="">compare lanes 5 and 6</text></arg2><text>compare lanes 5 and 6</text></EPI><TERM end="174" id="V3036425" lisp="(ONT::TERM ONT::V3036425 ONT::LANE :EPI ONT::V3036411 :NAME W::LANE)" paragraph="paragraph240" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="153" uttnum="267"><type>ONT::LANE</type><name>LANE</name><text>compare lanes 5 and 6</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::THIS W::INHIBITION W::OF W::ERK W::PHOSPHORYLATION W::BY W::COMBINATION
+ W::OF W::RAPAMYCIN)</lisp><word>THIS</word><word>INHIBITION</word><word>OF</word><word>ERK</word><word>PHOSPHORYLATION</word><word>BY</word><word>COMBINATION</word><word>OF</word><word>RAPAMYCIN</word></words><tags><lisp>((WORD &quot;This&quot; :FRAME (0 4) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN NNP) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)
+    :ONT-TYPES (ONT::PROTEIN-FAMILY) :SCORE 0.69971 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID XFAM::PF02597 :NAME &quot;ThiS&quot; :SCORE 0.69971 :MATCHES
+       ((MATCH :SCORE 0.69971 :MATCHED &quot;ThiS&quot; :STATUS &quot;ID&quot;
+         :SENTENCE-CAP-MIXED-CAPS 1))
+       :DBXREFS (UP::Q9S7A3 UP::O96033 UP::Q9Z224 UP::A2X635 UP::Q6YVX4)
+       :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+   (:PENN-PARTS-OF-SPEECH (NNS NNPS) :TRIPS-PARTS-OF-SPEECH (W::N W::NAME)
+    :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS) :SCORE 0.69211
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C27071 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27071&gt;&quot; :SCORE
+       0.69211 :MATCHES
+       ((MATCH :SCORE 0.69211 :MATCHED &quot;THI&quot; :STATUS &quot;synonym&quot;
+         :MAYBE-DEPLURALIZED 1 :SURELY-DEPLURALIZED 1 :DEPLURALIZATION-SCORE
+         0.6883117 :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C2991
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C2991&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00299.lisp&quot;))))
+             :TO ONT::MEDICAL-DISORDERS-AND-CONDITIONS))
+       :ONT-TYPES (ONT::MEDICAL-DISORDERS-AND-CONDITIONS))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;inhibition&quot; :FRAME (5 15) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;inhibition&quot; :FRAME (5 15) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (16 18) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ERK&quot; :FRAME (19 22) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::ERK
+              (SENSE (MORPH (POS N) (WORD ERK))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C16376 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26166 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26360 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52164 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52872 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+       ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ERK&quot; :FRAME (19 22) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;phosphorylation&quot; :FRAME (23 38) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::POST-TRANSLATIONAL-MODIFICATION) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366
+       :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0006464|
+              (SENSE
+               (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+             :TO ONT::POST-TRANSLATIONAL-MODIFICATION))
+       :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;phosphorylation&quot; :FRAME (23 38) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ERK phosphorylation&quot; :FRAME (19 38) :ENJU-CATS (NP NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;by&quot; :FRAME (39 41) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;combination&quot; :FRAME (42 53) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;combination&quot; :FRAME (42 53) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (54 56) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;rapamycin&quot; :FRAME (57 66) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.70732 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID NCIT::C1212 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+        (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+         :NO-CAPS-ALL-CAPS 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+       ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+         :NO-CAPS-INITIAL-CAP 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1))))))
+   (:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|9168| :NAME &quot;sirolimus&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;rapamycin&quot; :STATUS &quot;RELATED synonym&quot;
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))
+      (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin&quot; :FRAME (57 66) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="This" start="0" end="4"><sense-info penn-parts-of-speech="NN,NNP" trips-parts-of-speech="N,NAME" ont-types="PROTEIN-FAMILY" score="0.69971"><term id="XFAM:PF02597" name="ThiS" score="0.69971" dbxrefs="UP:Q9S7A3,UP:O96033,UP:Q9Z224,UP:A2X635,UP:Q6YVX4" ont-types="PROTEIN-FAMILY"><match score="0.69971" matched="ThiS" status="ID" sentence-cap-mixed-caps="1" /></term></sense-info><sense-info penn-parts-of-speech="NNS,NNPS" trips-parts-of-speech="N,NAME" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS" score="0.69211"><term id="NCIT:C27071" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27071&gt;" score="0.69211" ont-types="MEDICAL-DISORDERS-AND-CONDITIONS"><match score="0.69211" matched="THI" status="synonym" maybe-depluralized="1" surely-depluralized="1" depluralization-score="0.6883117" exact="1" /><map to="MEDICAL-DISORDERS-AND-CONDITIONS" through="NCIT:C2991" /></term></sense-info></word><word lex="inhibition" start="5" end="15"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="inhibition" start="5" end="15" penn-cats="NX,NAC" /><word lex="of" start="16" end="18"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="ERK" start="19" end="22"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:ERK" name="ERK" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="ERK" status="name" exact="1" /><map to="PROTEIN-FAMILY" through="BE:ERK" /></term><term id="NCIT:C16376" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26166" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26360" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52164" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52872" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:6871" name="mitogen-activated protein kinase 1" score="0.56098" dbxrefs="UP:P28482" ont-types="GENE"><match score="0.56098" matched="ERK" status="Synonym" exact="1" /></term><term id="HGNC:3393" name="EPH receptor B2" score="0.26829" dbxrefs="UP:P29323" ont-types="GENE"><match score="0.26829" matched="ERK" status="Previous Symbol" exact="1" /></term></sense-info></word><prefer text="ERK" start="19" end="22" penn-cats="NP" /><word lex="phosphorylation" start="23" end="38"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="POST-TRANSLATIONAL-MODIFICATION" score="0.85366"><term id="GO:0006468" name="protein phosphorylation" score="0.85366" ont-types="POST-TRANSLATIONAL-MODIFICATION"><match score="0.85366" matched="protein phosphorylation" status="name" exact="2" /><map to="POST-TRANSLATIONAL-MODIFICATION" through="GO:0006464" /></term></sense-info></word><prefer text="phosphorylation" start="23" end="38" penn-cats="NX,NAC" /><prefer text="ERK phosphorylation" start="19" end="38" penn-cats="NP,NX,NAC" /><word lex="by" start="39" end="41"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="combination" start="42" end="53"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="combination" start="42" end="53" penn-cats="NP,NX,NAC" /><word lex="of" start="54" end="56"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="rapamycin" start="57" end="66"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.70732"><term id="NCIT:C1212" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;" score="0.70732" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70732" matched="rapamycin" status="synonym" exact="1" /><match score="0.70379" matched="RAPAMYCIN" status="synonym" no-caps-all-caps="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="PC:5040" name="Sirolimus" score="0.70379" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70379" matched="Rapamycin" status="Alternative Name" no-caps-initial-cap="1" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:9168" name="sirolimus" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="rapamycin" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><specialist eui="E0319268" citation-form="rapamycin"><match score="1.0" matched="rapamycin" exact="1" /></specialist></sense-info></word><prefer text="rapamycin" start="57" end="66" penn-cats="NX,NAC" /></tags><tree><lisp>(UTT
+ (NP (SPEC (DET (ART THIS)))
+  (N1
+   (N1 (N1 (N INHIBITION))
+    (PP (PREP OF) (NP (N1 (N1 (NAME ERK)) (N1 (N PHOSPHORYLATION))))))
+   (PP (PREP BY)
+    (NP (N1 (N COMBINATION) (PP (PREP OF) (NP (N1 (N RAPAMYCIN))))))))))</lisp><UTT><NP><SPEC><DET><ART>THIS</ART></DET></SPEC><N1><N1><N1><N>INHIBITION</N></N1><PP><PREP>OF</PREP><NP><N1><N1><NAME>ERK</NAME></N1><N1><N>PHOSPHORYLATION</N></N1></N1></NP></PP></N1><PP><PREP>BY</PREP><NP><N1><N>COMBINATION</N><PP><PREP>OF</PREP><NP><N1><N>RAPAMYCIN</N></N1></NP></PP></N1></NP></PP></N1></NP></UTT></tree><terms root="#V3043932"><lisp>((ONT::SPEECHACT ONT::V3043932 ONT::SA_IDENTIFY :CONTENT ONT::V3036047 :START 0
+  :END 67)
+ (ONT::THE ONT::V3036047 (:* ONT::INHIBIT-EFFECT W::INHIBITION) :PROFORM
+  W::THIS :AGENT ONT::V3036095 :AFFECTED ONT::V3036065 :START 0 :END 67)
+ (ONT::BARE ONT::V3036065 (:* ONT::PHOSPHORYLATION W::PHOSPHORYLATION)
+  :ASSOC-WITH ONT::V3036062 :START 16 :END 39 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366
+     :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+       :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT GO::|0006464|
+            (SENSE
+             (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+           :TO ONT::POST-TRANSLATIONAL-MODIFICATION))
+     :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION)))))
+ (ONT::KIND ONT::V3036062 (:* ONT::GENE-PROTEIN W::ERK) :NAME-OF W::ERK :START
+  16 :END 39 :DRUM
+  ((:DRUM
+    (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::ERK
+            (SENSE (MORPH (POS N) (WORD ERK))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C16376 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26166 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26360 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52164 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52872 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+     :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+     ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+     :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))
+ (ONT::BARE ONT::V3036095 (:* ONT::COMBINATION W::COMBINATION) :FIGURE
+  ONT::V3036108 :START 39 :END 67)
+ (ONT::BARE ONT::V3036108 (:* ONT::PHARMACOLOGIC-SUBSTANCE W::RAPAMYCIN) :START
+  54 :END 67 :DRUM
+  ((:DRUM
+    (TERM :ID NCIT::C1212 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+      (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+       :NO-CAPS-ALL-CAPS 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C1909
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (TERM :ID PC::|5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+     ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+       :NO-CAPS-INITIAL-CAP 1))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+    (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3043932">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3036047" />
+    <LF:start>0</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036047">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>INHIBIT-EFFECT</LF:type>
+    <LF:word>INHIBITION</LF:word>
+    <role:PROFORM>THIS</role:PROFORM>
+    <role:AGENT rdf:resource="#V3036095" />
+    <role:AFFECTED rdf:resource="#V3036065" />
+    <LF:start>0</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036065">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHOSPHORYLATION</LF:type>
+    <LF:word>PHOSPHORYLATION</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3036062" />
+    <LF:start>16</LF:start>
+    <LF:end>39</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+     :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0006464|
+          (SENSE (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+         :TO POST-TRANSLATIONAL-MODIFICATION))
+   :ONT-TYPES (POST-TRANSLATIONAL-MODIFICATION))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036062">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>ERK</LF:word>
+    <role:NAME-OF>ERK</role:NAME-OF>
+    <LF:start>16</LF:start>
+    <LF:end>39</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT ERK
+          (SENSE (MORPH (POS N) (WORD ERK))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C16376 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26166 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26360 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52164 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52872 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098
+   :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+   :DBXREFS (P28482) :ONT-TYPES (GENE))
+  (TERM :ID |3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+   ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+   :DBXREFS (P29323) :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036095">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>COMBINATION</LF:type>
+    <LF:word>COMBINATION</LF:word>
+    <role:FIGURE rdf:resource="#V3036108" />
+    <LF:start>39</LF:start>
+    <LF:end>67</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036108">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>PHARMACOLOGIC-SUBSTANCE</LF:type>
+    <LF:word>RAPAMYCIN</LF:word>
+    <LF:start>54</LF:start>
+    <LF:end>67</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID C1212 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1212&gt;&quot; :SCORE 0.70732
+   :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;rapamycin&quot; :STATUS &quot;synonym&quot; :EXACT 1)
+    (MATCH :SCORE 0.70379 :MATCHED &quot;RAPAMYCIN&quot; :STATUS &quot;synonym&quot;
+     :NO-CAPS-ALL-CAPS 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C1909
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (TERM :ID |5040| :NAME &quot;Sirolimus&quot; :SCORE 0.70379 :MATCHES
+   ((MATCH :SCORE 0.70379 :MATCHED &quot;Rapamycin&quot; :STATUS &quot;Alternative Name&quot;
+     :NO-CAPS-INITIAL-CAP 1))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))
+  (SPECIALIST :EUI E0319268 :CITATION-FORM &quot;rapamycin&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;rapamycin&quot; :EXACT 1)))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::AND
+  W::BAY
+  43
+  W::PUNC-MINUS
+  9006)</lisp><word>AND</word><word>BAY</word><word>43</word><word>PUNC-MINUS</word><word>9006</word></words><tags><lisp>((WORD &quot;and&quot; :FRAME (67 70) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (67 70) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY&quot; :FRAME (71 73) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;43&quot; :FRAME (74 75) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43&quot; :FRAME (71 75) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;-&quot; :FRAME (76 76) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;9006&quot; :FRAME (77 81) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;BAY43-9006&quot; :FRAME (71 81) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;BAY43-9006&quot; :FRAME (71 81) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;rapamycin and BAY43-9006&quot; :FRAME (57 81) :ENJU-CATS (NP) :PENN-CATS
+  (NP) :TRIPS-CATS (W::NP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of rapamycin and BAY43-9006&quot; :FRAME (54 81) :ENJU-CATS (PP)
+  :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;combination of rapamycin and BAY43-9006&quot; :FRAME (42 81) :ENJU-CATS
+  (NP NX) :PENN-CATS (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL
+  DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;by combination of rapamycin and BAY43-9006&quot; :FRAME (39 81) :ENJU-CATS
+  (PP) :PENN-CATS (PP) :TRIPS-CATS (W::PP) :UTTNUM 267 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006&quot;
+  :FRAME (0 81) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="and" start="67" end="70"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="67" end="70" penn-cats="CONJP" /><word lex="BAY" start="71" end="73" /><word lex="43" start="74" end="75" /><word lex="BAY43" start="71" end="75" /><word lex="-" start="76" end="76" /><word lex="9006" start="77" end="81" /><word lex="BAY43-9006" start="71" end="81"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="BAY43-9006" start="71" end="81" penn-cats="NX,NAC" /><prefer text="rapamycin and BAY43-9006" start="57" end="81" penn-cats="NP" /><prefer text="of rapamycin and BAY43-9006" start="54" end="81" penn-cats="PP" /><prefer text="combination of rapamycin and BAY43-9006" start="42" end="81" penn-cats="NP,NX,NAC" /><prefer text="by combination of rapamycin and BAY43-9006" start="39" end="81" penn-cats="PP" /><prefer text="This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006" start="0" end="81" penn-cats="NP" /></tags><tree><lisp>(CP (WORD AND)
+ (VP
+  (VP- (V BAY)
+   (NP (NPSEQ (NP (NUMBER 43)) (PUNC PUNC-MINUS) (NP (NUMBER 9006)))))))</lisp><CP><WORD>AND</WORD><VP><VP-><V>BAY</V><NP><NPSEQ><NP><NUMBER>43</NUMBER></NP><PUNC>PUNC-MINUS</PUNC><NP><NUMBER>9006</NUMBER></NP></NPSEQ></NP></VP-></VP></CP></tree><terms root="#V3036175"><lisp>((ONT::F ONT::V3036175 (:* ONT::SAY W::BAY) :FORMAL ONT::V3037334 :VFORM
+  W::BASE :START 67 :END 82)
+ (ONT::THE ONT::V3037334 ONT::NUMBER :SEQUENCE (ONT::V3036196 ONT::V3036202)
+  :START 73 :END 82)
+ (ONT::INDEF-SET ONT::V3036196 ONT::NUMBER :NUMBER 43 :START 73 :END 76)
+ (ONT::INDEF-SET ONT::V3036202 ONT::NUMBER :NUMBER 9006 :START 77 :END 82))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3036175">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SAY</LF:type>
+    <LF:word>BAY</LF:word>
+    <role:FORMAL rdf:resource="#V3037334" />
+    <role:VFORM>BASE</role:VFORM>
+    <LF:start>67</LF:start>
+    <LF:end>82</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3037334">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:SEQUENCE rdf:resource="#V3036196" />
+    <role:SEQUENCE1 rdf:resource="#V3036202" />
+    <LF:start>73</LF:start>
+    <LF:end>82</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036196">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>43</role:NUMBER>
+    <LF:start>73</LF:start>
+    <LF:end>76</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036202">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>9006</role:NUMBER>
+    <LF:start>77</LF:start>
+    <LF:end>82</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::WAS W::AS W::EFFECTIVE W::AS W::INHIBITION W::OF W::MEK W::BY W::THE W::U
+ 126 W::COMPOUND)</lisp><word>WAS</word><word>AS</word><word>EFFECTIVE</word><word>AS</word><word>INHIBITION</word><word>OF</word><word>MEK</word><word>BY</word><word>THE</word><word>U</word><word>126</word><word>COMPOUND</word></words><tags><lisp>((WORD &quot;was&quot; :FRAME (82 85) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBD) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (86 88) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN RB) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;as&quot; :FRAME (86 88) :ENJU-CATS (ADVP) :PENN-CATS (ADVP) :TRIPS-CATS
+  (W::ADVBL) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;effective&quot; :FRAME (89 98) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;effective&quot; :FRAME (89 98) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;as&quot; :FRAME (99 101) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;inhibition&quot; :FRAME (102 112) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;inhibition&quot; :FRAME (102 112) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (113 115) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;MEK&quot; :FRAME (116 119) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PROTEIN-FAMILY) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::MEK :NAME &quot;MEK&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;MEK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::MEK
+              (SENSE (MORPH (POS N) (WORD MEK))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/M.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C105947 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;MEK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C20130
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CHEMICAL ONT::MOLECULE) :SCORE 0.56098 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|28398| :NAME &quot;butan-2-one&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;MEK&quot; :STATUS &quot;RELATED synonym&quot; :EXACT
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|33232|
+              (SENSE (MORPH (POS N) (WORD APPLICATION))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003323.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|50906|
+              (SENSE (MORPH (POS N) (WORD ROLE))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::CHEMICAL ONT::MOLECULE))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;MEK&quot; :FRAME (116 119) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;by&quot; :FRAME (120 122) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (123 126) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;U&quot; :FRAME (127 127) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;0126&quot; :FRAME (128 132) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;U0126&quot; :FRAME (127 132) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::PHARMACOLOGIC-SUBSTANCE) :SCORE 0.85361 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID PC::|5637| :NAME &quot;U-0126&quot; :SCORE 0.85361 :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;U-0126&quot; :STATUS &quot;Name&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID NCIT::C1825 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1825&gt;&quot; :SCORE
+       0.70727 :MATCHES
+       ((MATCH :SCORE 0.70727 :MATCHED &quot;U-0126&quot; :STATUS &quot;synonym&quot; :NO-DASH-DASH
+         1 :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C1909
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C1909&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE))
+      (TERM :ID MESH::C113580 :NAME &quot;U 0126&quot; :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;U0126&quot; :STATUS &quot;SY&quot; :EXACT 1)
+        (MATCH :SCORE 0.56093 :MATCHED &quot;U-0126&quot; :STATUS &quot;SY&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE)))))
+   (:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE) :SCORE 0.85361
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID CHEBI::|90693| :NAME &quot;U0126&quot; :SCORE 0.85361 :MATCHES
+       ((MATCH :SCORE 0.85361 :MATCHED &quot;U-0126&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+         :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|50906|
+              (SENSE (MORPH (POS N) (WORD ROLE))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES (ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE))
+      (TERM :ID CHEBI::|64208| :NAME
+       &quot;(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile&quot;
+       :SCORE 0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;U0126&quot; :STATUS &quot;RELATED synonym&quot; :EXACT
+         1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT CHEBI::|52217|
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+              (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+             :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|24432|
+              (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+             :TO ONT::CHEMICAL)
+        (MAP :THROUGH
+             (CONCEPT CHEBI::|23367|
+              (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+               (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+             :TO ONT::MOLECULE))
+       :ONT-TYPES
+       (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))))))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;U0126&quot; :FRAME (127 132) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;compound&quot; :FRAME (133 141) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;compound&quot; :FRAME (133 141) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;U0126 compound&quot; :FRAME (127 141) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (142 142) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="was" start="82" end="85"><sense-info penn-parts-of-speech="VBD" trips-parts-of-speech="V" /></word><word lex="as" start="86" end="88"><sense-info penn-parts-of-speech="IN,RB" trips-parts-of-speech="PREP,ADV" /></word><prefer text="as" start="86" end="88" penn-cats="ADVP" /><word lex="effective" start="89" end="98"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="effective" start="89" end="98" penn-cats="ADJP,QP" /><word lex="as" start="99" end="101"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="inhibition" start="102" end="112"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="inhibition" start="102" end="112" penn-cats="NP,NX,NAC" /><word lex="of" start="113" end="115"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="MEK" start="116" end="119"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PROTEIN-FAMILY" score="1.0"><term id="BE:MEK" name="MEK" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="MEK" status="name" exact="1" /><map to="PROTEIN-FAMILY" through="BE:MEK" /></term><term id="NCIT:C105947" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;" score="0.70732" ont-types="PROTEIN-FAMILY"><match score="0.70732" matched="MEK" status="synonym" exact="1" /><map to="PROTEIN-FAMILY" through="NCIT:C20130" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CHEMICAL,MOLECULE" score="0.56098"><term id="CHEBI:28398" name="butan-2-one" score="0.56098" ont-types="CHEMICAL,MOLECULE"><match score="0.56098" matched="MEK" status="RELATED synonym" exact="1" /><map to="CHEMICAL" through="CHEBI:33232" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="CHEMICAL" through="CHEBI:50906" /><map to="MOLECULE" through="CHEBI:23367" /></term></sense-info></word><prefer text="MEK" start="116" end="119" penn-cats="NP,NX,NAC" /><word lex="by" start="120" end="122"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="123" end="126"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="U" start="127" end="127" /><word lex="0126" start="128" end="132" /><word lex="U0126" start="127" end="132"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="PHARMACOLOGIC-SUBSTANCE" score="0.85361"><term id="PC:5637" name="U-0126" score="0.85361" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.85361" matched="U-0126" status="Name" no-dash-dash="1" exact="1" /></term><term id="NCIT:C1825" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1825&gt;" score="0.70727" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.70727" matched="U-0126" status="synonym" no-dash-dash="1" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="NCIT:C1909" /></term><term id="MESH:C113580" name="U 0126" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE"><match score="0.56098" matched="U0126" status="SY" exact="1" /><match score="0.56093" matched="U-0126" status="SY" no-dash-dash="1" exact="1" /></term></sense-info><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="CHEMICAL,PHARMACOLOGIC-SUBSTANCE,MOLECULE" score="0.85361"><term id="CHEBI:90693" name="U0126" score="0.85361" ont-types="CHEMICAL,PHARMACOLOGIC-SUBSTANCE,MOLECULE"><match score="0.85361" matched="U-0126" status="name" no-dash-dash="1" exact="1" /><map to="CHEMICAL" through="CHEBI:50906" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term><term id="CHEBI:64208" name="(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile" score="0.56098" ont-types="PHARMACOLOGIC-SUBSTANCE,CHEMICAL,MOLECULE"><match score="0.56098" matched="U0126" status="RELATED synonym" exact="1" /><map to="PHARMACOLOGIC-SUBSTANCE" through="CHEBI:52217" /><map to="CHEMICAL" through="CHEBI:24432" /><map to="MOLECULE" through="CHEBI:23367" /></term></sense-info></word><prefer text="U0126" start="127" end="132" penn-cats="NP" /><word lex="compound" start="133" end="141"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="compound" start="133" end="141" penn-cats="NX,NAC" /><prefer text="U0126 compound" start="127" end="141" penn-cats="NX,NAC" /><word lex="(" start="142" end="142"><sense-info penn-parts-of-speech="-LRB-" /></word></tags><tree><lisp>(VP
+ (VP- (V WAS)
+  (PRED
+   (ADJP (WORD AS) (ADJP (ADJ1 (ADJ EFFECTIVE))) (WORD AS)
+    (NP
+     (N1 (N1 (N1 (N INHIBITION)) (PP (PREP OF) (NP (NAME MEK))))
+      (PP (PREP BY)
+       (NP (SPEC (DET (ART THE)))
+        (N1 (N1 (NAME U 126)) (N1 (N COMPOUND)))))))))))</lisp><VP><VP-><V>WAS</V><PRED><ADJP><WORD>AS</WORD><ADJP><ADJ1><ADJ>EFFECTIVE</ADJ></ADJ1></ADJP><WORD>AS</WORD><NP><N1><N1><N1><N>INHIBITION</N></N1><PP><PREP>OF</PREP><NP><NAME>MEK</NAME></NP></PP></N1><PP><PREP>BY</PREP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><NAME>U 126</NAME></N1><N1><N>COMPOUND</N></N1></N1></NP></PP></N1></NP></ADJP></PRED></VP-></VP></tree><terms root="#V3036214"><lisp>((ONT::F ONT::V3036214 (:* ONT::HAVE-PROPERTY W::BE) :FORMAL ONT::V3036257
+  :TENSE W::PAST :START 82 :END 142)
+ (ONT::F ONT::V3036257 (:* ONT::AS-MUCH-AS W::EFFECTIVE) :GROUND ONT::V3036296
+  :START 86 :END 142)
+ (ONT::BARE ONT::V3036296 (:* ONT::INHIBIT-EFFECT W::INHIBITION) :AGENT
+  ONT::V3036388 :AFFECTED ONT::V3036311 :START 102 :END 142)
+ (ONT::THE ONT::V3036311 (:* ONT::PROTEIN-FAMILY W::MEK) :NAME-OF (W::MEK)
+  :START 113 :END 120 :DRUM
+  ((:DRUM
+    (TERM :ID BE::MEK :NAME &quot;MEK&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;MEK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::MEK
+            (SENSE (MORPH (POS N) (WORD MEK))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/M.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C105947 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;MEK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C20130
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY)))))
+ (ONT::THE ONT::V3036388 (:* ONT::GENERAL-STRUCTURE W::COMPOUND) :ASSOC-WITH
+  ONT::V3036377 :START 120 :END 142)
+ (ONT::KIND ONT::V3036377 (:* ONT::CHEMICAL W::U-126) :NAME-OF (W::U 126)
+  :START 120 :END 142 :DRUM
+  ((:DRUM
+    (TERM :ID CHEBI::|90693| :NAME &quot;U0126&quot; :SCORE 0.85361 :MATCHES
+     ((MATCH :SCORE 0.85361 :MATCHED &quot;U-0126&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+       :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|50906|
+            (SENSE (MORPH (POS N) (WORD ROLE))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|52217|
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|24432|
+            (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|23367|
+            (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+           :TO ONT::MOLECULE))
+     :ONT-TYPES (ONT::CHEMICAL ONT::PHARMACOLOGIC-SUBSTANCE ONT::MOLECULE))
+    (TERM :ID CHEBI::|64208| :NAME
+     &quot;(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile&quot;
+     :SCORE 0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;U0126&quot; :STATUS &quot;RELATED synonym&quot; :EXACT
+       1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT CHEBI::|52217|
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+            (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+           :TO ONT::PHARMACOLOGIC-SUBSTANCE)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|24432|
+            (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+           :TO ONT::CHEMICAL)
+      (MAP :THROUGH
+           (CONCEPT CHEBI::|23367|
+            (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+             (PROVENANCE (NAME LEXICON-DATA::CHEBI)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+           :TO ONT::MOLECULE))
+     :ONT-TYPES (ONT::PHARMACOLOGIC-SUBSTANCE ONT::CHEMICAL ONT::MOLECULE))))))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3036214">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE-PROPERTY</LF:type>
+    <LF:word>BE</LF:word>
+    <role:FORMAL rdf:resource="#V3036257" />
+    <role:TENSE>PAST</role:TENSE>
+    <LF:start>82</LF:start>
+    <LF:end>142</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036257">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>AS-MUCH-AS</LF:type>
+    <LF:word>EFFECTIVE</LF:word>
+    <role:GROUND rdf:resource="#V3036296" />
+    <LF:start>86</LF:start>
+    <LF:end>142</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036296">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>INHIBIT-EFFECT</LF:type>
+    <LF:word>INHIBITION</LF:word>
+    <role:AGENT rdf:resource="#V3036388" />
+    <role:AFFECTED rdf:resource="#V3036311" />
+    <LF:start>102</LF:start>
+    <LF:end>142</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036311">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>PROTEIN-FAMILY</LF:type>
+    <LF:word>MEK</LF:word>
+    <role:NAME-OF>(MEK)</role:NAME-OF>
+    <LF:start>113</LF:start>
+    <LF:end>120</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID MEK :NAME &quot;MEK&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;MEK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT MEK
+          (SENSE (MORPH (POS N) (WORD MEK))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/M.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C105947 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105947&gt;&quot; :SCORE
+   0.70732 :MATCHES
+   ((MATCH :SCORE 0.70732 :MATCHED &quot;MEK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C20130
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C20130&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02013.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036388">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENERAL-STRUCTURE</LF:type>
+    <LF:word>COMPOUND</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V3036377" />
+    <LF:start>120</LF:start>
+    <LF:end>142</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036377">
+    <LF:indicator>KIND</LF:indicator>
+    <LF:type>CHEMICAL</LF:type>
+    <LF:word>U-126</LF:word>
+    <role:NAME-OF>(U 126)</role:NAME-OF>
+    <LF:start>120</LF:start>
+    <LF:end>142</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |90693| :NAME &quot;U0126&quot; :SCORE 0.85361 :MATCHES
+   ((MATCH :SCORE 0.85361 :MATCHED &quot;U-0126&quot; :STATUS &quot;name&quot; :NO-DASH-DASH 1
+     :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |50906|
+          (SENSE (MORPH (POS N) (WORD ROLE))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005090.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |52217|
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE)
+    (MAP :THROUGH
+         (CONCEPT |24432|
+          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |23367|
+          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+         :TO MOLECULE))
+   :ONT-TYPES (CHEMICAL PHARMACOLOGIC-SUBSTANCE MOLECULE))
+  (TERM :ID |64208| :NAME
+   &quot;(2Z,3Z)-bis{amino[(2-aminophenyl)sulfanyl]methylidene}butanedinitrile&quot;
+   :SCORE 0.56098 :MATCHES
+   ((MATCH :SCORE 0.56098 :MATCHED &quot;U0126&quot; :STATUS &quot;RELATED synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |52217|
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;)))
+          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/003329.lisp&quot;))))
+         :TO PHARMACOLOGIC-SUBSTANCE)
+    (MAP :THROUGH
+         (CONCEPT |24432|
+          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp&quot;))))
+         :TO CHEMICAL)
+    (MAP :THROUGH
+         (CONCEPT |23367|
+          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))
+           (PROVENANCE (NAME CHEBI)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp&quot;))))
+         :TO MOLECULE))
+   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE CHEMICAL MOLECULE))))</role:DRUM>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::FIGURE W::FIVE W::PUNC-COMMA W::COMPARE W::LANES W::FIVE W::AND W::SIX
+ W::END-PAREN W::PUNC-PERIOD)</lisp><word>FIGURE</word><word>FIVE</word><word>PUNC-COMMA</word><word>COMPARE</word><word>LANES</word><word>FIVE</word><word>AND</word><word>SIX</word><word>END-PAREN</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;Figure&quot; :FRAME (143 149) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP NNPS) :TRIPS-PARTS-OF-SPEECH (W::NAME)
+    :ONT-TYPES (ONT::REFERENTIAL-SEM)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Figure&quot; :FRAME (143 149) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (150 150) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5&quot; :FRAME (150 150) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;Figure 5&quot; :FRAME (143 150) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;,&quot; :FRAME (151 152) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;,&quot; :FRAME (151 152) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;compare&quot; :FRAME (153 160) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP NN) :TRIPS-PARTS-OF-SPEECH (W::V W::N))) :UTTNUM
+  267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;compare&quot; :FRAME (153 160) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;lanes&quot; :FRAME (161 166) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;lanes&quot; :FRAME (161 166) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;5&quot; :FRAME (167 168) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;5&quot; :FRAME (167 168) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;lanes 5&quot; :FRAME (161 168) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM
+  267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;and&quot; :FRAME (169 172) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CC) :TRIPS-PARTS-OF-SPEECH (W::CONJ))) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;and&quot; :FRAME (169 172) :ENJU-CATS (CONJP) :PENN-CATS (CONJP) :UTTNUM
+  267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;6&quot; :FRAME (173 173) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (CD) :TRIPS-PARTS-OF-SPEECH
+    (W::NUMBER W::NUMBER-UNIT)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;6&quot; :FRAME (173 173) :ENJU-CATS (NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;lanes 5 and 6&quot; :FRAME (161 173) :ENJU-CATS (NX) :PENN-CATS
+  (NP NX NAC) :TRIPS-CATS (W::NP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (PREFER &quot;compare lanes 5 and 6&quot; :FRAME (153 173) :ENJU-CATS (NX) :PENN-CATS
+  (VP NX NAC) :TRIPS-CATS (W::VP W::N1) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;)&quot; :FRAME (174 174) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-)))
+  :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)&quot;
+  :FRAME (82 174) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM
+  267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (175 175) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6).&quot;
+  :FRAME (0 175) :PENN-CATS (S) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (176 176) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 267
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (176 176) :UTTNUM 267 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER
+  &quot;This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)..&quot;
+  :FRAME (0 176) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 267 :CHANNEL DESKTOP
+  :DIRECTION INPUT))</lisp><word lex="Figure" start="143" end="149"><sense-info penn-parts-of-speech="NNP,NNPS" trips-parts-of-speech="NAME" ont-types="REFERENTIAL-SEM" /></word><prefer text="Figure" start="143" end="149" penn-cats="NX,NAC" /><word lex="5" start="150" end="150"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="5" start="150" end="150" penn-cats="ADJP,QP" /><prefer text="Figure 5" start="143" end="150" penn-cats="NP,NX,NAC" /><word lex="," start="151" end="152"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="," start="151" end="152" penn-cats="CONJP" /><word lex="compare" start="153" end="160"><sense-info penn-parts-of-speech="VBP,NN" trips-parts-of-speech="V,N" /></word><prefer text="compare" start="153" end="160" penn-cats="NP" /><word lex="lanes" start="161" end="166"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="lanes" start="161" end="166" penn-cats="NP" /><word lex="5" start="167" end="168"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="5" start="167" end="168" penn-cats="NX,NAC" /><prefer text="lanes 5" start="161" end="168" penn-cats="NP" /><word lex="and" start="169" end="172"><sense-info penn-parts-of-speech="CC" trips-parts-of-speech="CONJ" /></word><prefer text="and" start="169" end="172" penn-cats="CONJP" /><word lex="6" start="173" end="173"><sense-info penn-parts-of-speech="CD" trips-parts-of-speech="NUMBER,NUMBER-UNIT" /></word><prefer text="6" start="173" end="173" penn-cats="NP,NX,NAC" /><prefer text="lanes 5 and 6" start="161" end="173" penn-cats="NP,NX,NAC" /><prefer text="compare lanes 5 and 6" start="153" end="173" penn-cats="VP,NX,NAC" /><word lex=")" start="174" end="174"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)" start="82" end="174" penn-cats="VP" /><word lex="." start="175" end="175" /><prefer text="This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6)." start="0" end="175" penn-cats="S" /><prefer text="." start="176" end="176" penn-cats="NP" /><word lex="." start="176" end="176" /><prefer text="This inhibition of ERK phosphorylation by combination of rapamycin and BAY43-9006 was as effective as inhibition of MEK by the U0126 compound (Figure 5, compare lanes 5 and 6).." start="0" end="176" penn-cats="S" /></tags><tree><lisp>(PUNC START-PAREN)</lisp><PUNC>START-PAREN</PUNC></tree><terms root="#V3044301"><lisp>((ONT::SPEECHACT ONT::V3044301 ONT::SA_IDENTIFY :PUNCTYPE W::DECL :CONTENT
+  ONT::V3036398 :START 143 :END 176)
+ (ONT::THE ONT::V3036398 (:* ONT::SHAPE-OBJECT W::FIGURE) :NAME-OF
+  (W::FIGURE W::FIVE W::PUNC-COMMA W::COMPARE W::LANES W::FIVE W::AND W::SIX
+   W::END-PAREN)
+  :PARENTHETICAL ONT::V3036411 :START 143 :END 175)
+ (ONT::SPEECHACT ONT::V3044287 ONT::SA_REQUEST :CONTENT ONT::V3036411 :START
+  153 :END 174)
+ (ONT::F ONT::V3036411 (:* ONT::COMPARE W::COMPARE) :AGENT ONT::V3044285
+  :NEUTRAL ONT::V3036425 :TENSE W::PRES :VFORM W::BASE :START 153 :END 174)
+ (ONT::IMPRO ONT::V3044285 ONT::PERSON :PROFORM W::*YOU* :START 153 :END 174)
+ (ONT::THE ONT::V3036425 (:* ONT::LANE W::LANE) :NAME-OF (W::LANES)
+  :NAME-MODIFIERS (ONT::V3036429 ONT::V3036442) :START 161 :END 174)
+ (ONT::INDEF-SET ONT::V3036432 ONT::NUMBER :OPERATOR ONT::AND :SEQUENCE
+  (ONT::V3036429 ONT::V3036442) :START 167 :END 174)
+ (ONT::INDEF-SET ONT::V3036429 ONT::NUMBER :NUMBER 5 :START 167 :END 169)
+ (ONT::INDEF-SET ONT::V3036442 ONT::NUMBER :NUMBER 6 :START 173 :END 174))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3044301">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:PUNCTYPE>DECL</role:PUNCTYPE>
+    <role:CONTENT rdf:resource="#V3036398" />
+    <LF:start>143</LF:start>
+    <LF:end>176</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036398">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>SHAPE-OBJECT</LF:type>
+    <LF:word>FIGURE</LF:word>
+    <role:NAME-OF>(FIGURE FIVE PUNC-COMMA COMPARE LANES FIVE AND SIX END-PAREN)</role:NAME-OF>
+    <role:PARENTHETICAL rdf:resource="#V3036411" />
+    <LF:start>143</LF:start>
+    <LF:end>175</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3044287">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_REQUEST</LF:type>
+    <role:CONTENT rdf:resource="#V3036411" />
+    <LF:start>153</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036411">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>COMPARE</LF:type>
+    <LF:word>COMPARE</LF:word>
+    <role:AGENT rdf:resource="#V3044285" />
+    <role:NEUTRAL rdf:resource="#V3036425" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:VFORM>BASE</role:VFORM>
+    <LF:start>153</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3044285">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>PERSON</LF:type>
+    <role:PROFORM>*YOU*</role:PROFORM>
+    <LF:start>153</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036425">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>LANE</LF:type>
+    <LF:word>LANE</LF:word>
+    <role:NAME-OF>(LANES)</role:NAME-OF>
+    <role:NAME-MODIFIERS>(V3036429 V3036442)</role:NAME-MODIFIERS>
+    <LF:start>161</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036432">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:OPERATOR>AND</role:OPERATOR>
+    <role:SEQUENCE rdf:resource="#V3036429" />
+    <role:SEQUENCE1 rdf:resource="#V3036442" />
+    <LF:start>167</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036429">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>5</role:NUMBER>
+    <LF:start>167</LF:start>
+    <LF:end>169</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3036442">
+    <LF:indicator>INDEF-SET</LF:indicator>
+    <LF:type>NUMBER</LF:type>
+    <role:NUMBER>6</role:NUMBER>
+    <LF:start>173</LF:start>
+    <LF:end>174</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

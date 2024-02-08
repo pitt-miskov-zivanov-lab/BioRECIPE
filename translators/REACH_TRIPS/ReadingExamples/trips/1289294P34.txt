@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="The author(s) declare that they have no competing interests..">
+<debug>; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/05050.lisp&quot;
+; loading #P&quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/02676.lisp&quot;
+
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00258_IO-3580040" timestamp="20190708T142511"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00258_IO-3580040" id="paragraph257">The author(s) declare that they have no competing interests..
+</paragraph></paragraphs><sentences><sentence id="284" pid="paragraph257">The author(s) declare that they have no competing interests..</sentence></sentences></input><TERM end="14" id="V3580066" lisp="(ONT::TERM ONT::V3580066 ONT::AUTHOR :NAME W::AUTHOR)" paragraph="paragraph257" rule="-SIMPLE-REF" start="0" uttnum="284"><type>ONT::AUTHOR</type><name>AUTHOR</name><text>The author(s)</text></TERM><TERM end="27" id="V3580093" lisp="(ONT::TERM ONT::V3580093 (:* ONT::REFERENTIAL-SEM W::THAT) :PRO W::THAT :COREF ONT::V3580074)" paragraph="paragraph257" rule="-ROBUSTPRO" start="22" uttnum="284"><type>ONT::REFERENTIAL-SEM</type><coref id="V3580074"/><text>that</text></TERM><TERM end="32" id="V3580102" lisp="(ONT::TERM ONT::V3580102 (:* ONT::REFERENTIAL-SEM W::THEY) :PRO W::THEY)" paragraph="paragraph257" rule="-ROBUSTPRO" start="27" uttnum="284"><type>ONT::REFERENTIAL-SEM</type><text>they</text></TERM></ekb><compound-communication-act>
+<utt><words><lisp>(W::THE W::AUTHOR W::START-PAREN W::S W::END-PAREN)</lisp><word>THE</word><word>AUTHOR</word><word>START-PAREN</word><word>S</word><word>END-PAREN</word></words><tags><lisp>((WORD &quot;The&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;author&quot; :FRAME (4 9) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;author&quot; :FRAME (4 9) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;(&quot; :FRAME (10 10) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-LRB-))) :UTTNUM
+  284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;s&quot; :FRAME (11 11) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;s&quot; :FRAME (11 11) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;)&quot; :FRAME (12 13) :SENSE-INFO ((:PENN-PARTS-OF-SPEECH (-RRB-))) :UTTNUM
+  284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;(s)&quot; :FRAME (10 13) :PENN-CATS (PRN) :UTTNUM 284 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER &quot;The author(s)&quot; :FRAME (0 13) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="The" start="0" end="3"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="author" start="4" end="9"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="author" start="4" end="9" penn-cats="NX,NAC" /><word lex="(" start="10" end="10"><sense-info penn-parts-of-speech="-LRB-" /></word><word lex="s" start="11" end="11"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><prefer text="s" start="11" end="11" penn-cats="NP,NX,NAC" /><word lex=")" start="12" end="13"><sense-info penn-parts-of-speech="-RRB-" /></word><prefer text="(s)" start="10" end="13" penn-cats="PRN" /><prefer text="The author(s)" start="0" end="13" penn-cats="NP" /></tags><tree><lisp>(UTT
+ (NP (NP (SPEC (DET (ART THE))) (N1 (N AUTHOR)))
+  (PARENTHETICAL (PUNC START-PAREN) (UTT (NP (N1 (N S)))) (PUNC END-PAREN))))</lisp><UTT><NP><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>AUTHOR</N></N1></NP><PARENTHETICAL><PUNC>START-PAREN</PUNC><UTT><NP><N1><N>S</N></N1></NP></UTT><PUNC>END-PAREN</PUNC></PARENTHETICAL></NP></UTT></tree><terms root="#V3580522"><lisp>((ONT::SPEECHACT ONT::V3580522 ONT::SA_IDENTIFY :CONTENT ONT::V3580066 :START 0
+  :END 14)
+ (ONT::THE ONT::V3580066 (:* ONT::AUTHOR W::AUTHOR) :PARENTHETICAL
+  ONT::V3580074 :START 0 :END 14)
+ (ONT::SPEECHACT ONT::V3580362 ONT::SA_IDENTIFY :CONTENT ONT::V3580074 :START
+  11 :END 12)
+ (ONT::A ONT::V3580074 ONT::QUANTITY :AMOUNT W::PLURAL :UNIT
+  (:* ONT::TIME-UNIT W::SECOND) :SCALE ONT::DURATION-SCALE :START 11 :END 12))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3580522">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3580066" />
+    <LF:start>0</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580066">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>AUTHOR</LF:type>
+    <LF:word>AUTHOR</LF:word>
+    <role:PARENTHETICAL rdf:resource="#V3580074" />
+    <LF:start>0</LF:start>
+    <LF:end>14</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580362">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_IDENTIFY</LF:type>
+    <role:CONTENT rdf:resource="#V3580074" />
+    <LF:start>11</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580074">
+    <LF:indicator>A</LF:indicator>
+    <LF:type>QUANTITY</LF:type>
+    <role:AMOUNT>PLURAL</role:AMOUNT>
+    <role:UNIT>(:* TIME-UNIT SECOND)</role:UNIT>
+    <role:SCALE>DURATION-SCALE</role:SCALE>
+    <LF:start>11</LF:start>
+    <LF:end>12</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::DECLARE W::THAT)</lisp><word>DECLARE</word><word>THAT</word></words><tags><lisp>((WORD &quot;declare&quot; :FRAME (14 21) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;that&quot; :FRAME (22 26) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT))</lisp><word lex="declare" start="14" end="21"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="that" start="22" end="26"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word></tags><tree><lisp>(VP (VP- (V DECLARE) (NP (PRO THAT))))</lisp><VP><VP-><V>DECLARE</V><NP><PRO>THAT</PRO></NP></VP-></VP></tree><terms root="#V3580085"><lisp>((ONT::F ONT::V3580085 (:* ONT::ASSERT W::DECLARE) :NOROLE ONT::V3580093 :TENSE
+  W::PRES :START 14 :END 27)
+ (ONT::PRO ONT::V3580093 (:* ONT::REFERENTIAL-SEM W::THAT) :PROFORM W::THAT
+  :START 22 :END 27))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3580085">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>ASSERT</LF:type>
+    <LF:word>DECLARE</LF:word>
+    <role:NOROLE rdf:resource="#V3580093" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>14</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580093">
+    <LF:indicator>PRO</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THAT</LF:word>
+    <role:PROFORM>THAT</role:PROFORM>
+    <LF:start>22</LF:start>
+    <LF:end>27</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><utt><words><lisp>(W::THEY W::HAVE W::NO W::COMPETING W::INTERESTS W::PUNC-PERIOD W::PUNC-PERIOD)</lisp><word>THEY</word><word>HAVE</word><word>NO</word><word>COMPETING</word><word>INTERESTS</word><word>PUNC-PERIOD</word><word>PUNC-PERIOD</word></words><tags><lisp>((WORD &quot;they&quot; :FRAME (27 31) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (PRP) :TRIPS-PARTS-OF-SPEECH (W::PRO))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;they&quot; :FRAME (27 31) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS
+  (W::NP) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;have&quot; :FRAME (32 36) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBP) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;no&quot; :FRAME (37 39) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;competing&quot; :FRAME (40 49) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBG) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;competing&quot; :FRAME (40 49) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;interests&quot; :FRAME (50 58) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (59 59) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;.&quot; :FRAME (60 60) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;.&quot; :FRAME (60 60) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;interests..&quot; :FRAME (50 60) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N))) :UTTNUM 284
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;The author(s) declare that they have no competing interests..&quot; :FRAME
+  (0 60) :ENJU-CATS (S) :PENN-CATS (S) :UTTNUM 284 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="they" start="27" end="31"><sense-info penn-parts-of-speech="PRP" trips-parts-of-speech="PRO" /></word><prefer text="they" start="27" end="31" penn-cats="NP" /><word lex="have" start="32" end="36"><sense-info penn-parts-of-speech="VBP" trips-parts-of-speech="V" /></word><word lex="no" start="37" end="39"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="competing" start="40" end="49"><sense-info penn-parts-of-speech="VBG" trips-parts-of-speech="V" /></word><prefer text="competing" start="40" end="49" penn-cats="VP" /><word lex="interests" start="50" end="58"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N" /></word><word lex="." start="59" end="59" /><prefer text="." start="60" end="60" penn-cats="NP" /><word lex="." start="60" end="60" /><word lex="interests.." start="50" end="60"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" /></word><prefer text="The author(s) declare that they have no competing interests.." start="0" end="60" penn-cats="S" /></tags><tree><lisp>(UTT
+ (S (NP (PRO THEY))
+  (VP
+   (VP- (V HAVE)
+    (NP (SPEC (QUAN NO))
+     (N1 (N1 (N1 (V COMPETING)) (N INTERESTS PUNC-PERIOD PUNC-PERIOD))))))))</lisp><UTT><S><NP><PRO>THEY</PRO></NP><VP><VP-><V>HAVE</V><NP><SPEC><QUAN>NO</QUAN></SPEC><N1><N1><N1><V>COMPETING</V></N1><N>INTERESTS PUNC-PERIOD PUNC-PERIOD</N></N1></N1></NP></VP-></VP></S></UTT></tree><terms root="#V3580700"><lisp>((ONT::SPEECHACT ONT::V3580700 ONT::SA_TELL :CONTENT ONT::V3580109 :START 27
+  :END 60)
+ (ONT::F ONT::V3580109 (:* ONT::HAVE W::HAVE) :NEUTRAL ONT::V3580102 :NEUTRAL1
+  ONT::V3580542 :TENSE W::PRES :START 27 :END 60)
+ (ONT::PRO-SET ONT::V3580102 (:* ONT::REFERENTIAL-SEM W::THEY) :PROFORM W::THEY
+  :START 27 :END 32)
+ (ONT::QUANTIFIER ONT::V3580542
+  (:* ONT::REFERENTIAL-SEM W::INTERESTS-PUNC-PERIOD-PUNC-PERIOD) :QUAN
+  ONT::NONE :FIGURE ONT::V3580142 :START 37 :END 60)
+ (ONT::F ONT::V3580142 (:* ONT::FIGHTING W::COMPETE) :START 37 :END 60))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V3580700">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V3580109" />
+    <LF:start>27</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580109">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>HAVE</LF:type>
+    <LF:word>HAVE</LF:word>
+    <role:NEUTRAL rdf:resource="#V3580102" />
+    <role:NEUTRAL1 rdf:resource="#V3580542" />
+    <role:TENSE>PRES</role:TENSE>
+    <LF:start>27</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580102">
+    <LF:indicator>PRO-SET</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>THEY</LF:word>
+    <role:PROFORM>THEY</role:PROFORM>
+    <LF:start>27</LF:start>
+    <LF:end>32</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580542">
+    <LF:indicator>QUANTIFIER</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>INTERESTS-PUNC-PERIOD-PUNC-PERIOD</LF:word>
+    <role:QUAN>NONE</role:QUAN>
+    <role:FIGURE rdf:resource="#V3580142" />
+    <LF:start>37</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V3580142">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>FIGHTING</LF:type>
+    <LF:word>COMPETE</LF:word>
+    <LF:start>37</LF:start>
+    <LF:end>60</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt></compound-communication-act>
+</trips-parser-output>

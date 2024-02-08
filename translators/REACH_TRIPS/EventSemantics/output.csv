@@ -1,0 +1,14 @@
+ID,TYPE,TEXT,PARENT EVENT,CAUSAL PARENT,AGENT,AFFECTED
+EVENT:  V375171,ONT::ACTIVATE         , Text: nonspecific activation across motor structures, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+ENTITY: V280423,MOTOR-CORTEX          , Text: The primary motor cortex (M1) , Event Parent: [ONT::MODULATE(V280525)] , Causal: []                       ,,
+EVENT:  V348234,ONT::MODULATE         , Text: larger effects                , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+EVENT:  V280743,ONT::INTERACT         , Text: interhemispheric interactions , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+EVENT:  V344656,ONT::MODULATE         , Text: The CS strongly affected lM1 excitability depending on ISI, Event Parent: []                       , Causal: []                       , Agent: [CS(V344636)]            , Affected: []                       
+ENTITY: V306377,LM-1                  , Text: lM1                           , Event Parent: [ONT::STIMULATE(V306313)], Causal: []                       ,,
+ENTITY: V280808,MOTOR                 , Text: The primary motor cortex (M1) is highly influenced by premotor/motor, Event Parent: []                       , Causal: []                       ,,
+ENTITY: V344636,CS                    , Text: The CS                        , Event Parent: []                       , Causal: []                       ,,
+EVENT:  V280525,ONT::MODULATE         , Text: The primary motor cortex (M1) is highly influenced by premotor/motor, Event Parent: []                       , Causal: []                       , Agent: [MOTOR(V280808)]         , Affected: [MOTOR-CORTEX(V280423)]  
+EVENT:  V347886,ONT::MODULATE         , Text: intensity.Inhibitory effects  , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
+EVENT:  V306313,ONT::STIMULATE        , Text: We stimulated lM1 using a suprathreshold test stimulus (TS), Event Parent: []                       , Causal: []                       , Agent: [ONT::PERSON(V306307)]   , Affected: [LM-1(V306377)]          
+ENTITY: V306307,ONT::PERSON           , Text: We                            , Event Parent: []                       , Causal: []                       ,,
+EVENT:  V294799,ONT::BIND             , Text: interactions between right-hemisphere motor areas and the left M1 (lM1), Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       

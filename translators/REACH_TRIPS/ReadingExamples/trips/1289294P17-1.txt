@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/drum-interface.xsl"?>
+<!DOCTYPE trips-parser-output SYSTEM "../trips-parser-output.dtd">
+<trips-parser-output parser-build-date="2018-11-15T16:18:53-0600" system="DRUM" extsformat="svg" tagsformat="hidden" treecontents="phrase" treeformat="LinGO" lfformat="svg" rule-sets="aesop,anon,lg,sri,test,test1,testactivate,ttt,wdebeaum" input="The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots, demonstrating about a two-fold increase in phosphorylation.The phosphorylation of ERK paralleled the relative increase in proliferation for each of these cell lines..">
+<debug>
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50
+Pruning agenda with beam width 50</debug><ekb complete="true" id="TEXT00223_IO-2366467" timestamp="20190708T133739"><input type="text"><paragraphs><paragraph file="/Users/wbeaumont/drum/etc/Data/WP/TEXT00223_IO-2366467" id="paragraph222">The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots, demonstrating about a two-fold increase in phosphorylation.The phosphorylation of ERK paralleled the relative increase in proliferation for each of these cell lines..
+</paragraph></paragraphs><sentences><sentence id="249" pid="paragraph222">The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots, demonstrating about a two-fold increase in phosphorylation.The phosphorylation of ERK paralleled the relative increase in proliferation for each of these cell lines..</sentence></sentences></input><EPI end="104" id="V2366588" lisp="(ONT::EPI ONT::V2366588 ONT::SUPPORT :NEUTRAL ONT::V2366622 :FORCE ONT::TRUE :AFFECTED ONT::V2366482 :TENSE W::PRES :PASSIVE +)" paragraph="paragraph222" rule="-RULE50_0_AGENT_NEUTRAL-NEUTRAL" start="0" uttnum="249"><type>ONT::SUPPORT</type><force>ONT::TRUE</force><arg2 end="104" id="V2366622" role=":NEUTRAL" start="0"><type>ONT::LOC-DEFINED-BY-CONTRAST</type><text normalization="">The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots</text></arg2><text>The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots</text></EPI><TERM end="104" id="V2366622" lisp="(ONT::TERM ONT::V2366622 ONT::LOC-DEFINED-BY-CONTRAST :EPI ONT::V2366588 :NAME W::BLOTS)" paragraph="paragraph222" rule="-RULE50_0_AGENT_NEUTRAL-EVENT,-SIMPLE-REF" start="0" uttnum="249"><type>ONT::LOC-DEFINED-BY-CONTRAST</type><name>BLOTS</name><text>The quantitation of the relative phosphorylation of ERK relative to total ERK is shown between the blots</text></TERM><EVENT end="78" id="V2366503" lisp="(ONT::EVENT ONT::V2366503 ONT::PHOSPHORYLATION :AFFECTED ONT::V2366561 :DRUM ((:DRUM (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366 :MATCHES ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot; :EXACT 2)) :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION)))))" paragraph="paragraph222" rule="-RULE60_4_AGENT_AFFECTED-AFFECTED" start="20" uttnum="249"><type>ONT::PHOSPHORYLATION</type><predicate end="78" id="V2366503" start="20"><type>ONT::PHOSPHORYLATION</type><text>the relative phosphorylation of ERK relative to total ERK</text></predicate><arg2 end="78" id="V2366561" role=":AFFECTED" start="49"><type>ONT::GENE-PROTEIN</type><text normalization="">of ERK relative to total ERK</text></arg2><drum-terms><drum-term dbid="GO:0006468" match-score="0.85366" matched-name="protein phosphorylation" name="protein phosphorylation"><types><type>ONT::POST-TRANSLATIONAL-MODIFICATION</type></types></drum-term></drum-terms><text>the relative phosphorylation of ERK relative to total ERK</text></EVENT><TERM dbid="BE:ERK|NCIT:C26166|NCIT:C16376|NCIT:C52872|UP:P29323|NCIT:C52164|NCIT:C26360|HGNC:3393|UP:P28482|HGNC:6871" end="78" id="V2366561" lisp="(ONT::TERM ONT::V2366561 ONT::GENE-PROTEIN :NAME W::ERK :DRUM ((:DRUM (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C16376 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26166 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26360 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52164 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52872 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1)) :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1)) :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph222" rule="-SIMPLE-REF" start="49" uttnum="249"><type>ONT::GENE-PROTEIN</type><name>ERK</name><drum-terms><drum-term dbid="BE:ERK" match-score="1.0" matched-name="ERK" name="ERK"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C16376" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26166" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26360" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52164" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52872" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:6871" match-score="0.56098" matched-name="ERK" name="mitogen-activated protein kinase 1"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P28482"/></xrefs></drum-term><drum-term dbid="HGNC:3393" match-score="0.26829" matched-name="ERK" name="EPH receptor B2"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P29323"/></xrefs></drum-term></drum-terms><text>of ERK relative to total ERK</text></TERM><TERM dbid="BE:ERK|NCIT:C26166|NCIT:C16376|NCIT:C52872|UP:P29323|NCIT:C52164|NCIT:C26360|HGNC:3393|UP:P28482|HGNC:6871" end="56" id="V2366516" lisp="(ONT::TERM ONT::V2366516 ONT::GENE-PROTEIN :NAME W::ERK :DRUM ((:DRUM (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN-FAMILY)) (TERM :ID NCIT::C16376 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26166 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::PROTEIN)) (TERM :ID NCIT::C26360 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52164 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID NCIT::C52872 :NAME &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732 :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1)) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098 :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1)) :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE)) (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1)) :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))" paragraph="paragraph222" rule="-SIMPLE-REF" start="52" uttnum="249"><type>ONT::GENE-PROTEIN</type><name>ERK</name><drum-terms><drum-term dbid="BE:ERK" match-score="1.0" matched-name="ERK" name="ERK"><types><type>ONT::PROTEIN-FAMILY</type></types></drum-term><drum-term dbid="NCIT:C16376" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26166" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;"><types><type>ONT::PROTEIN</type></types></drum-term><drum-term dbid="NCIT:C26360" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52164" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="NCIT:C52872" match-score="0.70732" matched-name="ERK" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;"><types><type>ONT::GENE</type></types></drum-term><drum-term dbid="HGNC:6871" match-score="0.56098" matched-name="ERK" name="mitogen-activated protein kinase 1"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P28482"/></xrefs></drum-term><drum-term dbid="HGNC:3393" match-score="0.26829" matched-name="ERK" name="EPH receptor B2"><types><type>ONT::GENE</type></types><xrefs><xref dbid="UP:P29323"/></xrefs></drum-term></drum-terms><text>ERK</text></TERM></ekb><utt><words><lisp>(W::THE W::QUANTITATION W::OF W::THE W::RELATIVE W::PHOSPHORYLATION W::OF
+ W::ERK W::RELATIVE W::TO W::TOTAL W::ERK W::IS W::SHOWN W::BETWEEN W::THE
+ W::BLOTS W::PUNC-COMMA)</lisp><word>THE</word><word>QUANTITATION</word><word>OF</word><word>THE</word><word>RELATIVE</word><word>PHOSPHORYLATION</word><word>OF</word><word>ERK</word><word>RELATIVE</word><word>TO</word><word>TOTAL</word><word>ERK</word><word>IS</word><word>SHOWN</word><word>BETWEEN</word><word>THE</word><word>BLOTS</word><word>PUNC-COMMA</word></words><tags><lisp>((WORD &quot;The&quot; :FRAME (0 3) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;quantitation&quot; :FRAME (4 16) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0051560 :CITATION-FORM &quot;quantitation&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;quantitation&quot; :EXACT 1)) :NOMINALIZATION-OF
+       ((SPECIALIST :EUI E0051559 :CAT VERB :CITATION-FORM &quot;quantitate&quot;)))))))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;quantitation&quot; :FRAME (4 16) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (17 19) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (20 23) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;relative&quot; :FRAME (24 32) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;relative&quot; :FRAME (24 32) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;phosphorylation&quot; :FRAME (33 48) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NN) :TRIPS-PARTS-OF-SPEECH (W::N) :ONT-TYPES
+    (ONT::POST-TRANSLATIONAL-MODIFICATION) :SCORE 0.85366 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366
+       :MATCHES
+       ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+         :EXACT 2))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT GO::|0006464|
+              (SENSE
+               (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+               (PROVENANCE (NAME LEXICON-DATA::GO)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+             :TO ONT::POST-TRANSLATIONAL-MODIFICATION))
+       :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION))))))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;phosphorylation&quot; :FRAME (33 48) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;relative phosphorylation&quot; :FRAME (24 48) :ENJU-CATS (NX) :PENN-CATS
+  (NX NAC) :TRIPS-CATS (W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;of&quot; :FRAME (49 51) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ERK&quot; :FRAME (52 55) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::ERK
+              (SENSE (MORPH (POS N) (WORD ERK))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C16376 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26166 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26360 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52164 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52872 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+       ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ERK&quot; :FRAME (52 55) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;of ERK&quot; :FRAME (49 55) :ENJU-CATS (PP) :PENN-CATS (PP) :TRIPS-CATS
+  (W::PP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;relative&quot; :FRAME (56 64) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;relative&quot; :FRAME (56 64) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;to&quot; :FRAME (65 67) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (TO) :TRIPS-PARTS-OF-SPEECH
+    (W::PREP W::INFINITIVAL-TO)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;total&quot; :FRAME (68 73) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (JJ) :TRIPS-PARTS-OF-SPEECH (W::ADJ))) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;total&quot; :FRAME (68 73) :ENJU-CATS (ADJP) :PENN-CATS (ADJP QP)
+  :TRIPS-CATS (W::ADJP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;ERK&quot; :FRAME (74 77) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNP) :TRIPS-PARTS-OF-SPEECH (W::NAME) :ONT-TYPES
+    (ONT::GENE-PROTEIN) :SCORE 1.0 :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT BE::ERK
+              (SENSE (MORPH (POS N) (WORD ERK))
+               (PROVENANCE (NAME LEXICON-DATA::BE)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+             :TO ONT::PROTEIN-FAMILY))
+       :ONT-TYPES (ONT::PROTEIN-FAMILY))
+      (TERM :ID NCIT::C16376 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26166 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C17021
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+             :TO ONT::PROTEIN))
+       :ONT-TYPES (ONT::PROTEIN))
+      (TERM :ID NCIT::C26360 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52164 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID NCIT::C52872 :NAME
+       &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+       0.70732 :MATCHES
+       ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+       :MAPPINGS
+       ((MAP :THROUGH
+             (CONCEPT NCIT::C16612
+              (SENSE
+               (MORPH (POS N)
+                (WORD
+                 |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+               (PROVENANCE (NAME LEXICON-DATA::NCIT)
+                (FILENAME
+                 &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+             :TO ONT::GENE))
+       :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+       0.56098 :MATCHES
+       ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+       :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+      (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+       ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT
+         1))
+       :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE))))))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;ERK&quot; :FRAME (74 77) :ENJU-CATS (NX) :PENN-CATS (NX NAC) :TRIPS-CATS
+  (W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;total ERK&quot; :FRAME (68 77) :ENJU-CATS (NP NX) :PENN-CATS (NP NX NAC)
+  :TRIPS-CATS (W::NP W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;to total ERK&quot; :FRAME (65 77) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;relative to total ERK&quot; :FRAME (56 77) :ENJU-CATS (ADJP) :PENN-CATS
+  (ADVP ADJP QP) :TRIPS-CATS (W::ADVBL W::ADJP) :UTTNUM 249 :CHANNEL DESKTOP
+  :DIRECTION INPUT)
+ (PREFER
+  &quot;The quantitation of the relative phosphorylation of ERK relative to total ERK&quot;
+  :FRAME (0 77) :ENJU-CATS (NP) :PENN-CATS (NP) :TRIPS-CATS (W::NP) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;is&quot; :FRAME (78 80) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBZ) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;shown&quot; :FRAME (81 86) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (VBN) :TRIPS-PARTS-OF-SPEECH (W::V))) :UTTNUM 249
+  :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;shown&quot; :FRAME (81 86) :ENJU-CATS (VP) :PENN-CATS (VP) :TRIPS-CATS
+  (W::VP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;between&quot; :FRAME (87 94) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (IN) :TRIPS-PARTS-OF-SPEECH (W::PREP W::ADV)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;the&quot; :FRAME (95 98) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (DT) :TRIPS-PARTS-OF-SPEECH (W::ART W::QUAN W::PRO)))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (WORD &quot;blots&quot; :FRAME (99 103) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (NNS) :TRIPS-PARTS-OF-SPEECH (W::N)
+    :DOMAIN-SPECIFIC-INFO
+    ((DRUM
+      (SPECIALIST :EUI E0013546 :CITATION-FORM &quot;blot&quot; :MATCHES
+       ((MATCH :SCORE 1.0 :MATCHED &quot;blots&quot; :EXACT 1)))))))
+  :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;blots&quot; :FRAME (99 103) :ENJU-CATS (NX) :PENN-CATS (NX NAC)
+  :TRIPS-CATS (W::N1) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;the blots&quot; :FRAME (95 103) :ENJU-CATS (NP) :PENN-CATS (NP)
+  :TRIPS-CATS (W::NP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;between the blots&quot; :FRAME (87 103) :ENJU-CATS (PP) :PENN-CATS (PP)
+  :TRIPS-CATS (W::PP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;shown between the blots&quot; :FRAME (81 103) :ENJU-CATS (VP) :PENN-CATS
+  (VP) :TRIPS-CATS (W::VP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is shown between the blots&quot; :FRAME (78 103) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION
+  INPUT)
+ (WORD &quot;,&quot; :FRAME (104 104) :SENSE-INFO
+  ((:PENN-PARTS-OF-SPEECH (COMMA) :TRIPS-PARTS-OF-SPEECH (W::PUNC))) :UTTNUM
+  249 :CHANNEL DESKTOP :DIRECTION INPUT)
+ (PREFER &quot;is shown between the blots,&quot; :FRAME (78 104) :ENJU-CATS (VP)
+  :PENN-CATS (VP) :TRIPS-CATS (W::VP) :UTTNUM 249 :CHANNEL DESKTOP :DIRECTION
+  INPUT))</lisp><word lex="The" start="0" end="3"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="quantitation" start="4" end="16"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N"><specialist eui="E0051560" citation-form="quantitation"><match score="1.0" matched="quantitation" exact="1" /><nominalization-of><specialist eui="E0051559" cat="VERB" citation-form="quantitate" /></nominalization-of></specialist></sense-info></word><prefer text="quantitation" start="4" end="16" penn-cats="NX,NAC" /><word lex="of" start="17" end="19"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="20" end="23"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="relative" start="24" end="32"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="relative" start="24" end="32" penn-cats="ADJP,QP" /><word lex="phosphorylation" start="33" end="48"><sense-info penn-parts-of-speech="NN" trips-parts-of-speech="N" ont-types="POST-TRANSLATIONAL-MODIFICATION" score="0.85366"><term id="GO:0006468" name="protein phosphorylation" score="0.85366" ont-types="POST-TRANSLATIONAL-MODIFICATION"><match score="0.85366" matched="protein phosphorylation" status="name" exact="2" /><map to="POST-TRANSLATIONAL-MODIFICATION" through="GO:0006464" /></term></sense-info></word><prefer text="phosphorylation" start="33" end="48" penn-cats="NX,NAC" /><prefer text="relative phosphorylation" start="24" end="48" penn-cats="NX,NAC" /><word lex="of" start="49" end="51"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="ERK" start="52" end="55"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:ERK" name="ERK" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="ERK" status="name" exact="1" /><map to="PROTEIN-FAMILY" through="BE:ERK" /></term><term id="NCIT:C16376" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26166" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26360" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52164" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52872" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:6871" name="mitogen-activated protein kinase 1" score="0.56098" dbxrefs="UP:P28482" ont-types="GENE"><match score="0.56098" matched="ERK" status="Synonym" exact="1" /></term><term id="HGNC:3393" name="EPH receptor B2" score="0.26829" dbxrefs="UP:P29323" ont-types="GENE"><match score="0.26829" matched="ERK" status="Previous Symbol" exact="1" /></term></sense-info></word><prefer text="ERK" start="52" end="55" penn-cats="NP,NX,NAC" /><prefer text="of ERK" start="49" end="55" penn-cats="PP" /><word lex="relative" start="56" end="64"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="relative" start="56" end="64" penn-cats="ADJP,QP" /><word lex="to" start="65" end="67"><sense-info penn-parts-of-speech="TO" trips-parts-of-speech="PREP,INFINITIVAL-TO" /></word><word lex="total" start="68" end="73"><sense-info penn-parts-of-speech="JJ" trips-parts-of-speech="ADJ" /></word><prefer text="total" start="68" end="73" penn-cats="ADJP,QP" /><word lex="ERK" start="74" end="77"><sense-info penn-parts-of-speech="NNP" trips-parts-of-speech="NAME" ont-types="GENE-PROTEIN" score="1.0"><term id="BE:ERK" name="ERK" score="1.0" ont-types="PROTEIN-FAMILY"><match score="1.0" matched="ERK" status="name" exact="1" /><map to="PROTEIN-FAMILY" through="BE:ERK" /></term><term id="NCIT:C16376" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26166" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;" score="0.70732" ont-types="PROTEIN"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="PROTEIN" through="NCIT:C17021" /></term><term id="NCIT:C26360" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52164" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="NCIT:C52872" name="&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;" score="0.70732" ont-types="GENE"><match score="0.70732" matched="ERK" status="synonym" exact="1" /><map to="GENE" through="NCIT:C16612" /></term><term id="HGNC:6871" name="mitogen-activated protein kinase 1" score="0.56098" dbxrefs="UP:P28482" ont-types="GENE"><match score="0.56098" matched="ERK" status="Synonym" exact="1" /></term><term id="HGNC:3393" name="EPH receptor B2" score="0.26829" dbxrefs="UP:P29323" ont-types="GENE"><match score="0.26829" matched="ERK" status="Previous Symbol" exact="1" /></term></sense-info></word><prefer text="ERK" start="74" end="77" penn-cats="NX,NAC" /><prefer text="total ERK" start="68" end="77" penn-cats="NP,NX,NAC" /><prefer text="to total ERK" start="65" end="77" penn-cats="PP" /><prefer text="relative to total ERK" start="56" end="77" penn-cats="ADVP,ADJP,QP" /><prefer text="The quantitation of the relative phosphorylation of ERK relative to total ERK" start="0" end="77" penn-cats="NP" /><word lex="is" start="78" end="80"><sense-info penn-parts-of-speech="VBZ" trips-parts-of-speech="V" /></word><word lex="shown" start="81" end="86"><sense-info penn-parts-of-speech="VBN" trips-parts-of-speech="V" /></word><prefer text="shown" start="81" end="86" penn-cats="VP" /><word lex="between" start="87" end="94"><sense-info penn-parts-of-speech="IN" trips-parts-of-speech="PREP,ADV" /></word><word lex="the" start="95" end="98"><sense-info penn-parts-of-speech="DT" trips-parts-of-speech="ART,QUAN,PRO" /></word><word lex="blots" start="99" end="103"><sense-info penn-parts-of-speech="NNS" trips-parts-of-speech="N"><specialist eui="E0013546" citation-form="blot"><match score="1.0" matched="blots" exact="1" /></specialist></sense-info></word><prefer text="blots" start="99" end="103" penn-cats="NX,NAC" /><prefer text="the blots" start="95" end="103" penn-cats="NP" /><prefer text="between the blots" start="87" end="103" penn-cats="PP" /><prefer text="shown between the blots" start="81" end="103" penn-cats="VP" /><prefer text="is shown between the blots" start="78" end="103" penn-cats="VP" /><word lex="," start="104" end="104"><sense-info penn-parts-of-speech="COMMA" trips-parts-of-speech="PUNC" /></word><prefer text="is shown between the blots," start="78" end="104" penn-cats="VP" /></tags><tree><lisp>(UTT
+ (UTT
+  (S
+   (NP (SPEC (DET (ART THE)))
+    (N1 (N1 (N QUANTITATION))
+     (ADVBL (ADV OF)
+      (NP (SPEC (DET (ART THE)))
+       (N1 (N1 (ADJP (ADJ1 (ADJ RELATIVE))) (N1 (N PHOSPHORYLATION)))
+        (PP (PREP OF)
+         (NP
+          (N1 (NP (NAME ERK))
+           (N1
+            (ADJP
+             (ADJ1 (ADJ1 (ADJ RELATIVE)) (ADVBL (ADV TO) (NP (N1 (N TOTAL))))))
+            (N1 (NAME ERK)))))))))))
+   (VP
+    (VP- (AUX (V IS))
+     (VP- (V (V SHOWN)) (ADVBL (ADV BETWEEN))
+      (NP (SPEC (DET (ART THE))) (N1 (N BLOTS))))))))
+ (PUNC PUNC-COMMA))</lisp><UTT><UTT><S><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><N>QUANTITATION</N></N1><ADVBL><ADV>OF</ADV><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N1><ADJP><ADJ1><ADJ>RELATIVE</ADJ></ADJ1></ADJP><N1><N>PHOSPHORYLATION</N></N1></N1><PP><PREP>OF</PREP><NP><N1><NP><NAME>ERK</NAME></NP><N1><ADJP><ADJ1><ADJ1><ADJ>RELATIVE</ADJ></ADJ1><ADVBL><ADV>TO</ADV><NP><N1><N>TOTAL</N></N1></NP></ADVBL></ADJ1></ADJP><N1><NAME>ERK</NAME></N1></N1></N1></NP></PP></N1></NP></ADVBL></N1></NP><VP><VP-><AUX><V>IS</V></AUX><VP-><V><V>SHOWN</V></V><ADVBL><ADV>BETWEEN</ADV></ADVBL><NP><SPEC><DET><ART>THE</ART></DET></SPEC><N1><N>BLOTS</N></N1></NP></VP-></VP-></VP></S></UTT><PUNC>PUNC-COMMA</PUNC></UTT></tree><terms root="#V2376706"><lisp>((ONT::SPEECHACT ONT::V2376706 ONT::SA_TELL :CONTENT ONT::V2366588 :START 0
+  :END 104)
+ (ONT::F ONT::V2366588 (:* ONT::SHOW W::SHOW) :AFFECTED ONT::V2366482 :NEUTRAL
+  ONT::V2366622 :MOD ONT::V2366607 :TENSE W::PRES :PASSIVE + :START 0 :END 104)
+ (ONT::THE ONT::V2366482 (:* ONT::REFERENTIAL-SEM W::QUANTITATION) :MOD
+  ONT::V2366487 :START 0 :END 78 :DRUM
+  ((:DRUM
+    (SPECIALIST :EUI E0051560 :CITATION-FORM &quot;quantitation&quot; :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;quantitation&quot; :EXACT 1)) :NOMINALIZATION-OF
+     ((SPECIALIST :EUI E0051559 :CAT VERB :CITATION-FORM &quot;quantitate&quot;))))))
+ (ONT::F ONT::V2366487 (:* ONT::CONTAIN-RELN W::OF) :GROUND ONT::V2366503
+  :FIGURE ONT::V2366482 :START 17 :END 78)
+ (ONT::THE ONT::V2366503 (:* ONT::PHOSPHORYLATION W::PHOSPHORYLATION) :AFFECTED
+  ONT::V2366561 :MOD ONT::V2366500 :START 20 :END 78 :DRUM
+  ((:DRUM
+    (TERM :ID GO::|0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366
+     :MATCHES
+     ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+       :EXACT 2))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT GO::|0006464|
+            (SENSE
+             (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+             (PROVENANCE (NAME LEXICON-DATA::GO)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+           :TO ONT::POST-TRANSLATIONAL-MODIFICATION))
+     :ONT-TYPES (ONT::POST-TRANSLATIONAL-MODIFICATION)))))
+ (ONT::F ONT::V2366500 (:* ONT::RELATIVE W::RELATIVE) :FIGURE ONT::V2366503
+  :START 24 :END 33)
+ (ONT::BARE ONT::V2366561 (:* ONT::GENE-PROTEIN W::ERK) :ASSOC-WITH
+  ONT::V2366516 :NAME-OF W::ERK :MOD ONT::V2366519 :START 49 :END 78 :DRUM
+  ((:DRUM
+    (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::ERK
+            (SENSE (MORPH (POS N) (WORD ERK))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C16376 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26166 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26360 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52164 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52872 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+     :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+     ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+     :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))
+ (ONT::THE ONT::V2366516 (:* ONT::GENE-PROTEIN W::ERK) :NAME-OF (W::ERK) :START
+  52 :END 56 :DRUM
+  ((:DRUM
+    (TERM :ID BE::ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+     ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT BE::ERK
+            (SENSE (MORPH (POS N) (WORD ERK))
+             (PROVENANCE (NAME LEXICON-DATA::BE)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+           :TO ONT::PROTEIN-FAMILY))
+     :ONT-TYPES (ONT::PROTEIN-FAMILY))
+    (TERM :ID NCIT::C16376 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26166 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C17021
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+           :TO ONT::PROTEIN))
+     :ONT-TYPES (ONT::PROTEIN))
+    (TERM :ID NCIT::C26360 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52164 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID NCIT::C52872 :NAME
+     &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE
+     0.70732 :MATCHES
+     ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+     :MAPPINGS
+     ((MAP :THROUGH
+           (CONCEPT NCIT::C16612
+            (SENSE
+             (MORPH (POS N)
+              (WORD
+               |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+             (PROVENANCE (NAME LEXICON-DATA::NCIT)
+              (FILENAME
+               &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+           :TO ONT::GENE))
+     :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE
+     0.56098 :MATCHES
+     ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+     :DBXREFS (UP::P28482) :ONT-TYPES (ONT::GENE))
+    (TERM :ID HGNC::|3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+     ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+     :DBXREFS (UP::P29323) :ONT-TYPES (ONT::GENE)))))
+ (ONT::F ONT::V2366519 (:* ONT::RELATIVE W::RELATIVE) :FIGURE ONT::V2366561
+  :MOD ONT::V2366527 :START 56 :END 74)
+ (ONT::F ONT::V2366527 (:* ONT::RESULTING-STATE W::TO) :GROUND ONT::V2366551
+  :START 65 :END 74)
+ (ONT::BARE ONT::V2366551 (:* ONT::TOTAL-SCALE W::TOTAL) :START 68 :END 74)
+ (ONT::F ONT::V2366607 (:* ONT::SCALE-RELATION W::BETWEEN) :GROUND
+  ONT::V2366941 :FIGURE ONT::V2366588 :START 87 :END 95)
+ (ONT::IMPRO ONT::V2366941 ONT::ANY-SEM :START 87 :END 95)
+ (ONT::THE-SET ONT::V2366622 (:* ONT::LOC-DEFINED-BY-CONTRAST W::BLOTS) :START
+  95 :END 104))</lisp><rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:role="http://www.cs.rochester.edu/research/trips/role#"
+  xmlns:LF="http://www.cs.rochester.edu/research/trips/LF#">
+  <rdf:Description rdf:ID="V2376706">
+    <LF:indicator>SPEECHACT</LF:indicator>
+    <LF:type>SA_TELL</LF:type>
+    <role:CONTENT rdf:resource="#V2366588" />
+    <LF:start>0</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366588">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SHOW</LF:type>
+    <LF:word>SHOW</LF:word>
+    <role:AFFECTED rdf:resource="#V2366482" />
+    <role:NEUTRAL rdf:resource="#V2366622" />
+    <role:MOD rdf:resource="#V2366607" />
+    <role:TENSE>PRES</role:TENSE>
+    <role:PASSIVE>+</role:PASSIVE>
+    <LF:start>0</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366482">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>REFERENTIAL-SEM</LF:type>
+    <LF:word>QUANTITATION</LF:word>
+    <role:MOD rdf:resource="#V2366487" />
+    <LF:start>0</LF:start>
+    <LF:end>78</LF:end>
+    <role:DRUM>((:DRUM
+  (SPECIALIST :EUI E0051560 :CITATION-FORM &quot;quantitation&quot; :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;quantitation&quot; :EXACT 1)) :NOMINALIZATION-OF
+   ((SPECIALIST :EUI E0051559 :CAT VERB :CITATION-FORM &quot;quantitate&quot;)))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366487">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>CONTAIN-RELN</LF:type>
+    <LF:word>OF</LF:word>
+    <role:GROUND rdf:resource="#V2366503" />
+    <role:FIGURE rdf:resource="#V2366482" />
+    <LF:start>17</LF:start>
+    <LF:end>78</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366503">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>PHOSPHORYLATION</LF:type>
+    <LF:word>PHOSPHORYLATION</LF:word>
+    <role:AFFECTED rdf:resource="#V2366561" />
+    <role:MOD rdf:resource="#V2366500" />
+    <LF:start>20</LF:start>
+    <LF:end>78</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID |0006468| :NAME &quot;protein phosphorylation&quot; :SCORE 0.85366 :MATCHES
+   ((MATCH :SCORE 0.85366 :MATCHED &quot;protein phosphorylation&quot; :STATUS &quot;name&quot;
+     :EXACT 2))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT |0006464|
+          (SENSE (MORPH (POS N) (WORD (CELLULAR PROTEIN MODIFICATION PROCESS)))
+           (PROVENANCE (NAME GO)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/GO/000646.lisp&quot;))))
+         :TO POST-TRANSLATIONAL-MODIFICATION))
+   :ONT-TYPES (POST-TRANSLATIONAL-MODIFICATION))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366500">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RELATIVE</LF:type>
+    <LF:word>RELATIVE</LF:word>
+    <role:FIGURE rdf:resource="#V2366503" />
+    <LF:start>24</LF:start>
+    <LF:end>33</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366561">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>ERK</LF:word>
+    <role:ASSOC-WITH rdf:resource="#V2366516" />
+    <role:NAME-OF>ERK</role:NAME-OF>
+    <role:MOD rdf:resource="#V2366519" />
+    <LF:start>49</LF:start>
+    <LF:end>78</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT ERK
+          (SENSE (MORPH (POS N) (WORD ERK))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C16376 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26166 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26360 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52164 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52872 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098
+   :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+   :DBXREFS (P28482) :ONT-TYPES (GENE))
+  (TERM :ID |3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+   ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+   :DBXREFS (P29323) :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366516">
+    <LF:indicator>THE</LF:indicator>
+    <LF:type>GENE-PROTEIN</LF:type>
+    <LF:word>ERK</LF:word>
+    <role:NAME-OF>(ERK)</role:NAME-OF>
+    <LF:start>52</LF:start>
+    <LF:end>56</LF:end>
+    <role:DRUM>((:DRUM
+  (TERM :ID ERK :NAME &quot;ERK&quot; :SCORE 1.0 :MATCHES
+   ((MATCH :SCORE 1.0 :MATCHED &quot;ERK&quot; :STATUS &quot;name&quot; :EXACT 1)) :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT ERK
+          (SENSE (MORPH (POS N) (WORD ERK))
+           (PROVENANCE (NAME BE)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/BE/E.lisp&quot;))))
+         :TO PROTEIN-FAMILY))
+   :ONT-TYPES (PROTEIN-FAMILY))
+  (TERM :ID C16376 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16376&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26166 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C17021
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C17021&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp&quot;))))
+         :TO PROTEIN))
+   :ONT-TYPES (PROTEIN))
+  (TERM :ID C26360 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26360&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52164 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52164&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID C52872 :NAME
+   &quot;&lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52872&gt;&quot; :SCORE 0.70732
+   :MATCHES ((MATCH :SCORE 0.70732 :MATCHED &quot;ERK&quot; :STATUS &quot;synonym&quot; :EXACT 1))
+   :MAPPINGS
+   ((MAP :THROUGH
+         (CONCEPT C16612
+          (SENSE
+           (MORPH (POS N)
+            (WORD
+             |&lt;HTTP://NCICB.NCI.NIH.GOV/XML/OWL/EVS/THESAURUS.OWL#C16612&gt;|))
+           (PROVENANCE (NAME NCIT)
+            (FILENAME
+             &quot;/Users/wbeaumont/drum/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp&quot;))))
+         :TO GENE))
+   :ONT-TYPES (GENE))
+  (TERM :ID |6871| :NAME &quot;mitogen-activated protein kinase 1&quot; :SCORE 0.56098
+   :MATCHES ((MATCH :SCORE 0.56098 :MATCHED &quot;ERK&quot; :STATUS &quot;Synonym&quot; :EXACT 1))
+   :DBXREFS (P28482) :ONT-TYPES (GENE))
+  (TERM :ID |3393| :NAME &quot;EPH receptor B2&quot; :SCORE 0.26829 :MATCHES
+   ((MATCH :SCORE 0.26829 :MATCHED &quot;ERK&quot; :STATUS &quot;Previous Symbol&quot; :EXACT 1))
+   :DBXREFS (P29323) :ONT-TYPES (GENE))))</role:DRUM>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366519">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RELATIVE</LF:type>
+    <LF:word>RELATIVE</LF:word>
+    <role:FIGURE rdf:resource="#V2366561" />
+    <role:MOD rdf:resource="#V2366527" />
+    <LF:start>56</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366527">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>RESULTING-STATE</LF:type>
+    <LF:word>TO</LF:word>
+    <role:GROUND rdf:resource="#V2366551" />
+    <LF:start>65</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366551">
+    <LF:indicator>BARE</LF:indicator>
+    <LF:type>TOTAL-SCALE</LF:type>
+    <LF:word>TOTAL</LF:word>
+    <LF:start>68</LF:start>
+    <LF:end>74</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366607">
+    <LF:indicator>F</LF:indicator>
+    <LF:type>SCALE-RELATION</LF:type>
+    <LF:word>BETWEEN</LF:word>
+    <role:GROUND rdf:resource="#V2366941" />
+    <role:FIGURE rdf:resource="#V2366588" />
+    <LF:start>87</LF:start>
+    <LF:end>95</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366941">
+    <LF:indicator>IMPRO</LF:indicator>
+    <LF:type>ANY-SEM</LF:type>
+    <LF:start>87</LF:start>
+    <LF:end>95</LF:end>
+  </rdf:Description>
+  <rdf:Description rdf:ID="V2366622">
+    <LF:indicator>THE-SET</LF:indicator>
+    <LF:type>LOC-DEFINED-BY-CONTRAST</LF:type>
+    <LF:word>BLOTS</LF:word>
+    <LF:start>95</LF:start>
+    <LF:end>104</LF:end>
+  </rdf:Description>
+</rdf:RDF>
+</terms></utt><failed-to-parse /></trips-parser-output>
