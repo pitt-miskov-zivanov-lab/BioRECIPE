@@ -28,6 +28,13 @@ model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
               'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
               'Update Group', 'Update Rate', 'Update Rank']
 
+biorecipe_col = ["Regulator Name", "Regulator Type", "Regulator Subtype", "Regulator HGNC Symbol", "Regulator Database",
+                 "Regulator ID", "Regulator Compartment", "Regulator Compartment ID"
+    , "Regulated Name", "Regulated Type", "Regulated Subtype", "Regulated HGNC Symbol", "Regulated Database",
+                 "Regulated ID", "Regulated Compartment", "Regulated Compartment ID", "Sign", "Connection Type"
+    , "Mechanism", "Site", "Cell Line", "Cell Type", "Tissue Type", "Organism", "Score", "Source", "Statements",
+                 "Paper IDs"]
+
 class SBMLQual():
     """SBMLQual processor
 
@@ -130,9 +137,77 @@ class SBMLQual():
             lhs = ["(" + lhs + ")"]
         return lhs
 
+
+        def get_biorecipe_interactions(self, input_file, output_file):
+        """translate SBMLQual XML file to BioRECIPE format
+
+        :param str input_file: the filename of the SBMLQual
+        :param str output_file: the filename of the translated BioRECIPE
+
+        SBMLQual XML file was downloaded from https://cellcollective.org/#
+        """
+
+        # initialize a model dataframe in BioRECIPE format
+        biorecipe_df = pd.DataFrame(columns=biorecipe_col)
+        entity =pd.DataFrame()
+
+        # XML.etree has some issues of parsing the SBMLQual XML file. BeautifulSoup loses the upper cases while reading
+        res = bs4.BeautifulSoup(open(input_file).read(), 'lxml')
+
+        self.model = res.findAll("model")[0]
+        self.model_dict = dict()
+
+        for species in res.findChildren("qual:qualitativespecies"):
+            sid = species.get('qual:id')
+            name = species.get('qual:name')
+            compartment = species.get('qual:compartment')
+            self.model_dict[sid] = name
+
+            new_row = {'Entity Name':name, 'Entity IDs':sid, 'Compartment': compartment}
+
+            entity = entity.append(new_row, ignore_index=True)
+            entity
+        # Then, we go through all function terms
+        row = 0
+        for transition in res.findChildren("qual:transition"):
+            inputs = set([x['qual:qualitativespecies'] for x in transition.findChildren("qual:input")])
+            signs = [x['qual:sign'] for x in transition.findChildren("qual:input")]
+            output = [x['qual:qualitativespecies'] for x in transition.findChildren("qual:output")]
+            assert len(output) == 1
+            assert len(inputs) == len(signs)
+            output_df = entity.loc[entity['Entity IDs'] == output[0]].reset_index()
+            for regulated in inputs:
+                regulated_df = entity.loc[entity['Entity IDs'] == regulated].reset_index()
+                for i in range(len(regulated_df)):
+                    biorecipe_df.loc[row, 'Regulated ID'] = output[0]
+                    biorecipe_df.loc[row, 'Regulated Name'] = output_df.loc[0, 'Entity Name']
+                    biorecipe_df.loc[row, 'Regulated Compartment'] = output_df.loc[0, 'Compartment']
+
+                    biorecipe_df.loc[row, 'Regulator ID'] = regulated_df.loc[i, 'Entity IDs']
+                    biorecipe_df.loc[row, 'Regulator Name'] = regulated_df.loc[i, 'Entity Name']
+                    biorecipe_df.loc[row, 'Regulator Compartment'] = regulated_df.loc[i, 'Compartment']
+                    if signs[i].lower() in ['increase', 'positive']:
+                        biorecipe_df.loc[row, 'Sign'] = 'Positive'
+                    elif signs[i].lower() in ['decrease', 'negative']:
+                        biorecipe_df.loc[row, 'Sign'] = 'Negative'
+                    else:
+                        biorecipe_df.loc[row, 'Sign'] = signs[i]
+                    row += 1
+
+        biorecipe_df= biorecipe_df[biorecipe_col]
+        biorecipe_df.to_excel(output_file, index=False)
+
+
+
+
 def sbmlqual_to_biorecipe(input, output):
     sbml_qual = SBMLQual()
     sbml_qual.sbmlqual_biorecipe(input, output)
+    print("Finished: {0}".format(output))
+
+def sbmlqual_to_biorecipe_interactions(input, output):
+    sbml_qual = SBMLQual()
+    sbml_qual.sbmlqual_to_biorecipe_interactions(input, output)
     print("Finished: {0}".format(output))
 
 def main():
@@ -145,10 +220,18 @@ def main():
                                help='Path of the input file (.xml)')
     required_args.add_argument('-o', '--output', type=str, required=True,
                                help='Path of the output file (.xlsx)')
+    required_args.add_argument('input_format', 'i', type=str, choices=['model', 'interactions'], 
+        default='model',
+        help='Input file format \n'
+        '\t model (default): BioRECIPE model tabular format \n'
+        '\t interactions: BioRECIPE interaction lists format \n')
 
     args = parser.parse_args()
-    sbmlqual_to_biorecipe(args.input, args.output)
-    # casq.map_to_model(args.input, args.output)
+
+    if args.input_format == 'model':
+        sbmlqual_to_biorecipe(args.input, args.output)
+    elif args.input_format == 'interacitons':
+        sbmlqual_to_biorecipe_interactions(args.input, args.output)
 
 if __name__ == "__main__":
     main()
