@@ -685,3 +685,111 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
     model_bio_df.set_index('Variable',inplace=True)
 
     return model_bio_df
+
+
+def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
+    """Convert the model into a dataframe of edges in the format
+        element-regulator-interaction
+    """
+    # check if the regulator and regulation columns are empty or not
+    for sign in ['Positive', 'Negative']:
+        if model[f'{sign} Regulator List'].empty and model[f'{sign} Regulation Rule'].empty:
+            raise ValueError(
+                "The regulation rule and list columns are both empty, please fill at least one column out"
+            )
+        elif not model[f'{sign} Regulator List'].empty and model[f'{sign} Regulation Rule'].empty:
+            regulator, regulation = True, False
+        elif model[f'{sign} Regulator List'].empty and not model[f'{sign} Regulation Rule'].empty:
+            regulator, regulation = False, True
+        else:
+            regulator, regulation = True, True
+
+    # convert to dict for iteration
+    model_dict = model_to_dict(model)
+    biorecipe_col = ["Regulator Name","Regulator Type","Regulator Subtype","Regulator HGNC Symbol","Regulator Database","Regulator ID","Regulator Compartment","Regulator Compartment ID"
+    ,"Regulated Name","Regulated Type","Regulated Subtype","Regulated HGNC Symbol","Regulated Database","Regulated ID","Regulated Compartment","Regulated Compartment ID","Sign","Connection Type"
+    ,"Mechanism", "Site", "Cell Line", "Cell Type","Tissue Type","Organism","Score","Source","Statements","Paper IDs"]
+    interactions_dict, model_item_dict, i = dict(), dict(), 0
+
+    model_col_index = ['Element Name',
+    'Element Type',
+    'Element Subtype',
+    'Element IDs',
+    'Cell Line',
+    'Cell Type',
+    'Organism',
+    'Compartment',
+    'Compartment ID',
+    'Tissue Type'] # model intersect-column names
+    interaction_col_index = ['Regulated Name',
+    'Regulated Type',
+    'Regulated Subtype',
+    'Regulated ID',
+    'Cell Line',
+    'Cell Type',
+    'Organism',
+    'Regulated Compartment',
+    'Regulated Compartment ID',
+    'Tissue Type'] # interaction intersect-column names
+
+    for key,item in model_dict.items():
+        for index in model_col_index:
+            model_item_dict[index] = item.get(index).strip() if item.get(index) is not None else ''
+        if regulator:
+            pos_reg_list = str(item.get('Positive Regulator List',''))
+            neg_reg_list = str(item.get('Negative Regulator List',''))
+        else:
+            pos_reg_list = ','.join(list(set(get_element(str(item.get('Positive Regulation Rule')), 0))))
+            neg_reg_list = ','.join(list(set(get_element(str(item.get('Negative Regulation Rule')), 0))))
+        '''
+        if pos_reg_list is None and neg_reg_list is None:
+            pos_reg_list = str(item.get('Positive Regulation List',''))
+            neg_reg_list = str(item.get('Negative Regulation List',''))
+        '''
+        pos_dict, neg_dict = dict(), dict()
+        if pos_reg_list != 'nan':
+            pos_list = [x.strip() for x in re.findall(r'[a-zA-Z0-9\_!=]+',pos_reg_list)]
+            k = i
+            pos_dict = {i: dict for pos in pos_list}
+            for pos in pos_list:
+                dict_ = dict()
+                dict_ = {interc_index: model_item_dict[model_index] for interc_index, model_index in zip(interaction_col_index, model_col_index) }
+                if pos[0] != '!':
+                    dict_['Sign'] = 'Positive'
+                    dict_['Regulator Name'] = pos
+                else:
+                    dict_['Sign'] = 'NOT Positive'
+                    dict_['Regulator Name'] = pos[1:]
+                pos_dict[k] = dict_
+                k+=1
+            i+= len(pos_list)
+        else:
+            pass
+
+        if neg_reg_list != 'nan':
+            neg_list = [x.strip() for x in re.findall(r'[a-zA-Z0-9\_!=]+',neg_reg_list)]
+            j = i
+            for neg in neg_list:
+                dict_ = dict()
+                dict_ = {interc_index: model_item_dict[model_index] for interc_index, model_index in zip(interaction_col_index, model_col_index) }
+                if neg[0] != '!':
+                    dict_['Sign'] = 'Negative'
+                    dict_['Regulator Name'] = neg
+                else:
+                    dict_['Sign'] = 'NOT Negative'
+                    dict_['Regulator Name'] = neg[1:]
+                neg_dict[j] = dict_
+                j+=1
+            i+=len(neg_list)
+        else:
+            pass
+
+        interactions_dict.update(pos_dict)
+        interactions_dict.update(neg_dict)
+
+    interaction_df = pd.DataFrame.from_dict(interactions_dict, orient='index')
+    other_cols = list(set(biorecipe_col) - set(interaction_df.columns))
+    # build BioRECIPE up
+    interaction_bio_df = pd.concat([interaction_df, pd.DataFrame(columns=other_cols)], axis=1)
+    # reorder the columns
+    return interaction_bio_df[biorecipe_col]
