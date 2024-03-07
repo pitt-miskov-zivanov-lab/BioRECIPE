@@ -22,7 +22,7 @@ In the BioRECIPE format, each element in a model is assigned a row in the model 
 Model attributes
 ----------------
 
-The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in `detailed definitions <https://melody-biorecipe.readthedocs.io/en/latest/definitions.html#formal-definitions>`_, a brief description of the attribute, its allowed values, and a few examples for the attribute. Model examples can be found `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples>`_. 
+The following tables provide details for each attribute, including attribute name used in the BioRECIPE spreadsheet, a symbol used in `detailed definitions <https://melody-biorecipe.readthedocs.io/en/latest/definitions.html#formal-definitions>`_, a brief description of the attribute, its allowed values, and a few examples for the attribute. Model examples can be found `here <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models>`_. 
 
 
 The `basic <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#basic-element-attributes>`_ element (node) attributes, and `context <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#context-attributes>`_ attributes are inherited from the interactions in which the element participates (as a regulated element), and they are included in the element representation, as shown in the figure above (columns under **Element** header). 
@@ -69,7 +69,8 @@ Finally, several new model attributes are included in executable models to defin
 .. csv-table:: Simulation attributes - rule
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
-    
+
+     Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, examples
      Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", "A rule used by simulation to compute the level of element's positive regulation", "<string>  //The rules for creating these positive regulation strings are written separately.", examples
     Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", examples
 
@@ -79,7 +80,6 @@ Finally, several new model attributes are included in executable models to defin
     :header: Attribute, Symbol, Description, Values, Examples
     :widths: 5, 3, 34, 38, 20
     
-    Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, examples
     Value type, ":math:`a^{\mathrm{valuetype}}`", "Type of value used for interpretting model outcomes", ``amount`` | ``activity``, examples
     Levels, ":math:`a^{\mathrm{levels}}`", "Number of different levels (values) an element can be assigned; or infinite if a continuous variable", <number of distinct levels> | ``inf``, examples
     State list number, ":math:`a^{\mathrm{statelist}}`", "State list used in simulation to initialize the element and assign values throughout simulation; multiple state lists can be included and numbered, starting from 0", "<value>,<value>[time],...,<value>[time]", examples
