@@ -2,7 +2,22 @@
 Compatibility and translators
 #############################
 
-The BioRECIPE format is compatible with a range of representation formats, databases, and tools, either directly, or through translation. The tables below list example formats and tools and links to translators. The translator repositories provide further instructions for the use of translators.
+The BioRECIPE format is compatible with a range of representation formats, databases, and tools, either directly, or through translation. 
+
+Attribute compatibility
+-----------------------
+Here we provide an overview of which attributes that BioRECIPE considers are included in other representation formats, output by several tools, including LLMs, or input in models by human curators. Note: additional standards, databaes, and tools are listed in the following section.
+
+.. figure:: figures/figure_attribute_comparison_acrros_tools_representations.png
+    :align: center
+    :alt: internal figure
+
+|
+
+Translators
+-----------
+
+The tables below list example formats, databases, and tools and links to translators. The translator repositories provide further instructions for the use of translators.
 
 | 
 
