@@ -17,6 +17,7 @@ The BioRECIPE format can be used to represent:
     - *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_ 
     - *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_ 
 
+|
 
 Examples
 --------
