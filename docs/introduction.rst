@@ -37,14 +37,10 @@ These two formats are shown in the examples below. In interaction list tables, e
     :header: System, BioRECIPE representation, Publication 
     :widths: 30, 30, 40
     
-    T cell, download, `Tcell_SciSignal_2013 <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
-    CAR T cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    macrophage, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    melanoma, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    pancreatic cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    GBM stem cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    colon cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_ 
-    ovarian cancer cell, download, `link <https://www.nmzlab.pitt.edu/research>`_
+    T cell, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models/BooleanTcell_biorecipe.xlsx>`_, `Tcell_SciSignal_2013 <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tUrAYVsAAAAJ&citation_for_view=tUrAYVsAAAAJ:3fE2CSJIrl8C>`_ 
+    pancreatic cancer cell, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models/PCC_biorecipe.xlsx>`_, `AI4SynBio_2021 <https://www.biorxiv.org/content/10.1101/2021.06.08.447557v1.abstract>`_ 
+    colon cancer cell, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models/CACC_biorecipe.xlsx>`_, `Cancer Immunology Research 2020 <https://aacrjournals.org/cancerimmunolres/article/8/2/167/469841/Cross-talk-between-Colon-Cells-and-Macrophages>`_ 
+   
 
 |
 
