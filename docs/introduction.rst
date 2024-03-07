@@ -22,13 +22,13 @@ These two formats are shown in the examples below. In interaction list tables, e
 |
 
 .. csv-table:: Example interaction lists in the BioRECIPE format
-    :header: Description, BioRECIPE representation, Notes 
-    :widths: 20, 20, 60
+    :header: Description, BioRECIPE representation 
+    :widths: 80, 20
 
-    Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_INDRA_st_biorecipe.xlsx>`_, 75K interactions from 6K papers obtained through `INDRA <https://indra.readthedocs.io/en/latest/>`_
-    Example 2, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_all_reading_biorecipe.xlsx>`_, 138K interactions from 6K papers obtained with `REACH <https://github.com/clulab/reach>`_
-    Example 3, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/Reading_biorecipe.xlsx>`_, small interaction list example obtained from INDRA
-    Example 4, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/interaction_biorecipe.xlsx>`_, small interaction list example obtained from REACH
+    75K interactions from 6K papers obtained through `INDRA <https://indra.readthedocs.io/en/latest/>`_, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_INDRA_st_biorecipe.xlsx>`_ 
+    138K interactions from 6K papers obtained with `REACH <https://github.com/clulab/reach>`_, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_all_reading_biorecipe.xlsx>`_
+    small interaction list example obtained from INDRA, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/Reading_biorecipe.xlsx>`_
+    small interaction list example obtained from REACH, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/interaction_biorecipe.xlsx>`_
 
 |
 
