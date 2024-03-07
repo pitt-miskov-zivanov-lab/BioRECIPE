@@ -1,16 +1,21 @@
 #############################
-Compatibility and Translators
+Compatibility and translators
 #############################
 
 The BioRECIPE format is currently compatible with the following representation formats. 
 
-.. csv-table:: Representation Format Compatibility
-    :header: Format Name, Translator
-    :widths: 20, 80
+.. csv-table:: Format Compatibility with BioRECIPE
+    :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
+    :widths: 15, 15, 10, 10, 50
 
-    SBML, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`__
-    JSON, `Link <#>`__
-    other, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`__
+    SBML, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
+    SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
+    SIF, TXT, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE Interaction List and from BioRECIPE Executable Model
+    BioPAX, RDF/OWL SBML,✓, ✓, `Conversion <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
+    BEL, TXT (INDRA), ✓, ✓, `Conversion <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`__ from and to `BEL <https://github.com/pybel/pybel>`__ statements through INDRA statements  
+    PySB, SBML,✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE  
+
+|
 
 The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
 
@@ -41,16 +46,7 @@ The BioRECIPE format is currently compatible with the following tools, their inp
 
 
 
-.. csv-table:: Format Compatibility with BioRECIPE
-    :header: Standard, Format, To BioRECIPE, From BioRECIPE, Translation description, Translation link
-    :widths: 20, 20, 15, 15, 50, 80
 
-    SBML, RDF/XML, ✓, ✓, Translation to BioRECIPE Executable Model and from BioRECIPE Interaction List, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`__
-    SBML-qual, RDF/XML, ✓, ✓, Translation to and from BioRECIPE Executable Model, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`__
-    SIF, TXT,✓, ✓,Translation to and from BioRECIPE Interaction List and from BioRECIPE Executable Model, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`__
-    BioPAX, RDF/OWL SBML,✓, ✓,Conversion from and to BioPAX files can be done through SBML translation to and from BioRECIPE, `Link <https://sbml.org/software/converters/>`__ `Link <https://www.celldesigner.org/help/CDH_File_07.html>`__
-    BEL, TXT (INDRA), ✓, ✓, Conversion from and to BEL statements through INDRA statements, `Link <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`__ `Link <https://github.com/pybel/pybel>`__
-    PySB, SBML,✓, ✓,Translation from and to PySB files can be done through the SBML translation to and from BioRECIPE, `Link <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`__ `Link <https://pysb.readthedocs.io/en/stable/modules/importers/index.html>`__
 
 The BioRECIPE format is compatible with the representation formats used in these databases.
 
