@@ -6,7 +6,7 @@ The BioRECIPE format is currently compatible with the following representation f
 
 .. csv-table:: Format Compatibility with BioRECIPE
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 10, 10, 9, 9, 62
+    :widths: 8, 8, 9, 9, 66
 
     SBML, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
     SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
