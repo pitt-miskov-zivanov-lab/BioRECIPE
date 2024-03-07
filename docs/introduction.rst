@@ -76,13 +76,24 @@ The tables below provide the description of BioRECIPE features and types of mode
     Dynamics, "Simulation parameters are included in the format and are used to setup scenarios and initialize and run simulations."
 
 
-.. csv-table:: BioRECIPE use - Modeling
-    :header: Modeling aspect, Description 
+.. csv-table:: BioRECIPE use - Analysis
+    :header: Analysis type, Description 
     :widths: 30, 70
 
     Simulation, "It is compatible with the DiSH simulator which is a versatile simulator with deterministic and stochastic simulation schemes."
     "Explanations,Understanding, Interpretation, Predictions, Interventions, Discovery, Decisions, Reasoning, Optimization", "As it is readable by both machines and humans, and it includes the metadata, the models and interactions can be explored both manually and automatically. The information about interactions and metadata is available in a standardized format, and the compatibility with the simulator and a suite of other tools that provide insights into the behavior of all model elements under a range of scenarios, altogether (a) improve understanding of the model and the modeled system and allow for (b) explanations and interpretations of observed behaviors, (c) predictions of future behaviors, as well as (d) explorations of interventions informing decisions, (e) leading to discovery and (f) guiding and optimizing future experiments."
 
+
+.. csv-table:: BioRECIPE use - Knowledge
+    :header: FAIR aspect, Description 
+    :widths: 30, 70
+
+    Curation, "Compatibility with tools that filter information from literature, verify and validate models enables automated curation."
+    Reproducibility, "Detailed annotation and metadata in models enable reproducibility of both experimental data and model results."
+    Findability, "All related files are provided on GitHub, making the code and the examples easy to find by both humans and computers. All components of the format are defined and described in detail in the documentation on ReadtheDocs."
+    Accessibility, "All relevant files are open access."
+    Interoperability, "The format and the included  translators facilitate interoperability of models with a range of tools or workflows for analysis, storage, and processing."
+    Reusability, "The detailed documentation enables reuse of published data through standardized models and replication of model results within same or different settings."
 
 
 
