@@ -19,4 +19,4 @@ Welcome to BioRECIPE's documentation!
    bio_curation
    acknowledgements
    citations
-   Legal
+   license_and_copyright
