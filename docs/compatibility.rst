@@ -2,9 +2,11 @@
 Compatibility and translators
 #############################
 
-The BioRECIPE format is currently compatible with the following representation formats. 
+The BioRECIPE format is compatible with a range of representation formats, databases, and tools, either directly, or through translation. The tables below list example formats and tools and links to translators. The translator repositories provide further instructions for the use of translators.
 
-.. csv-table:: Format Compatibility with BioRECIPE
+| 
+
+.. csv-table:: Formats compatible with BioRECIPE
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
     :widths: 8, 8, 9, 9, 66
 
@@ -17,35 +19,36 @@ The BioRECIPE format is currently compatible with the following representation f
 
 |
 
-The BioRECIPE format is currently compatible with the following tools, their inputs and/or outputs.
 
-.. csv-table:: Format Compatibility with BioRECIPE
-    :header: Tool (external), Format, To BioRECIPE, From BioRECIPE, Translation description, Tool link
-    :widths: 20, 20, 15, 15, 50, 80
+.. csv-table:: External tools compatible with BioRECIPE
+    :header: Tool (external), Format, To BioRECIPE, From BioRECIPE, Description
+    :widths: 8, 8, 9, 9, 66
 
-    Cytoscape,SIF CX (INDRA),✓, ✓,See SIF conversion or conversion through INDRA statements, `Link <https://indra.readthedocs.io/en/latest/modules/assemblers/cx_assembler.html>`__
-    Cell Collective, SBML-qual, ✓, ✓,See SBML-qual conversion, `Link <https://cellcollective.org/#>`__
-    CellNetAnalyzer, SBML, ✓, ✓, See SBML conversion, `Link <https://www2.mpi-magdeburg.mpg.de/projects/cna/manual_cellnetanalyzer.pdf>`__
-    CellDesigner,SBML, ✓, ✓,See SBML conversion, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`__
-    INDRA, JSON, ✓, ✓,Conversion to and from BioRECIPE Interaction List, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`__
-    REACH, JSON, ✓, N/A, Conversion to BioRECIPE Interaction List, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`__
-    TRIPS, XML,✓, N/A, Conversion to BioRECIPE Interaction List, `Link <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`__
+    Cytoscape, "SIF, CX(INDRA)", ✓, ✓, See `SIF translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ or `INDRA translation  <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_ and `CX assembler  <https://indra.readthedocs.io/en/latest/modules/assemblers/cx_assembler.html>`_ 
+    `Cell Collective <https://cellcollective.org/#>`_, SBML-qual, ✓, ✓, See `SBML-qual translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_
+    `CellNetAnalyzer <https://www2.mpi-magdeburg.mpg.de/projects/cna/manual_cellnetanalyzer.pdf>`_, SBML, ✓, ✓, See `SBML translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ 
+    CellDesigner, SBML, ✓, ✓, See `SBML conversion <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_
+    INDRA, JSON, ✓, ✓, `Conversion <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_ to and from BioRECIPE Interaction List
+    REACH, JSON, ✓, N/A, Conversion to BioRECIPE Interaction List directly or through `INDRA <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_
+    TRIPS, XML, ✓, N/A, Conversion to BioRECIPE Interaction List directly or through `INDRA <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_
 
-.. csv-table:: Format Compatibility with BioRECIPE
-    :header: Tool, Format, To BioRECIPE, From BioRECIPE, Translation description, Tool link
-    :widths: 20, 20, 15, 15, 50, 80
+|
 
-    DiSH, BioRECIPE,  ✓, ✓,Uses BioRECIPE format at input, `Link <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`__
-    FLUTE, BioRECIPE, ✓, ✓,Uses BioRECIPE format at input, `Link <https://github.com/pitt-miskov-zivanov-lab/flute>`__
-    VIOLIN, BioRECIPE,✓, ✓,Uses BioRECIPE format at input, `Link <#>`__
-    CLARINET, BioRECIPE,✓, ✓,Uses BioRECIPE format at input,`Link <https://github.com/pitt-miskov-zivanov-lab/clarinet>`__
-    ACCORDION, BioRECIPE,✓, ✓,Uses BioRECIPE format at input,`Link <https://github.com/pitt-miskov-zivanov-lab/ACCORDION>`__
-    PIANO, BioRECIPE,✓, ✓,Uses BioRECIPE format at input,`Link <https://dl.acm.org/doi/10.1145/3233547.3233694>`__
-    FIDDLE,BioRECIPE,✓, ✓,Uses BioRECIPE format at input,`Link <https://melody-fiddle.readthedocs.io/>`__
-    MINUET, BioRECIPE,✓, ✓,Uses BioRECIPE format at input,`Link <#>`__
+.. csv-table:: MeLoDy Lab tools compatible with BioRECIPE
+    :header: Tool, Format, Description
+    :widths: 8, 8, 84
+
+    DiSH, BioRECIPE, Uses BioRECIPE format at input, `Link <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`__
+    `FLUTE <https://github.com/pitt-miskov-zivanov-lab/flute>`_, BioRECIPE, Uses BioRECIPE format at input 
+    VIOLIN, BioRECIPE, Uses BioRECIPE format at input, 
+    `CLARINET <https://github.com/pitt-miskov-zivanov-lab/clarinet>`__, BioRECIPE, Uses BioRECIPE format at input
+    `ACCORDION <https://github.com/pitt-miskov-zivanov-lab/ACCORDION>`_, BioRECIPE, Uses BioRECIPE format at input
+    PIANO, BioRECIPE, Uses BioRECIPE format at input,
+    `FIDDLE <https://melody-fiddle.readthedocs.io/>`__, BioRECIPE, Uses BioRECIPE format at input
+    MINUET, BioRECIPE, Uses BioRECIPE format at input,
 
 
-
+|
 
 
 The BioRECIPE format is compatible with the representation formats used in these databases.
