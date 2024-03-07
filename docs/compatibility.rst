@@ -29,3 +29,14 @@ The BioRECIPE format is currently compatible with the following tools, their inp
     `ACCORDION <https://accordion.readthedocs.io>`_, compatible 
     `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, compatible 
     `PIANO <https://dl.acm.org/doi/10.1145/3233547.3233694>`_, compatible
+
+
+The list of all attributes used by BioRECIPE in Interaction List and Executable Model formats and a summary of whether these attributes are included and required by other formats and tools.
+
+.. figure:: figures/figure_attribute_comparison_acrros_tools_representations.png
+    :align: center
+    :alt: internal figure
+
+|
+
+
