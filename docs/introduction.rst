@@ -66,6 +66,15 @@ The tables below provide the description of BioRECIPE features and types of mode
 |
 
 
+.. csv-table:: BioRECIPE use - Modeling
+    :header: Feature, Description 
+    :widths: 30, 70
+
+    Hybrid models, "Elements within the same model can have different types of update functions, e.g., Boolean, discrete, qualitative or weighted sums."
+    Granular computing, "Complex entities that emerge through data abstraction and the process of extracting knowledge from information or data is referred to  as information granules. These entities are clustered based on factors such as similarity, functional or physical proximity, indistinguishability, and coherence."
+    Networks, "Representation of models that have an underlying network (graph) structure, including both undirected or directed graphs."
+    Dynamics, "Simulation parameters are included in the format and are used to setup scenarios and initialize and run simulations."
+
 
 Citation
 ---------
