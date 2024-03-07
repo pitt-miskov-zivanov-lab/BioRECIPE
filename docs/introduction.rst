@@ -94,15 +94,3 @@ The tables below provide the description of BioRECIPE features and types of mode
     Accessibility, "All relevant files are open access."
     Interoperability, "The format and the included  translators facilitate interoperability of models with a range of tools or workflows for analysis, storage, and processing."
     Reusability, "The detailed documentation enables reuse of published data through standardized models and replication of model results within same or different settings."
-
-
-
-Citation
----------
-
-When using the BioRECIPE representation format, please cite the following:
-
-  - Sayed, Khaled, et al., "Recipes for translating big data machine reading to executable cellular signaling models," Machine Learning, Optimization, and Big Data: Third International Conference, MOD 2017, Volterra, Italy, September 14–17, 2017, Revised Selected Papers 3. Springer International Publishing, 2018.
-  - Holtzapple, Emilee, et al. "The BioRECIPE Knowledge Representation Format," bioRxiv, 2024.
-
-|
