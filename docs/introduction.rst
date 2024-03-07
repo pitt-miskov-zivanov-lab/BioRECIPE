@@ -4,12 +4,19 @@ Introduction
 
 The **BioRECIPE (Biological system Representation for Evaluation, Curation, Interoperability, Preserving, and Execution)** representation format was introduced to facilitate seamless human-machine interaction when creating, verifying, evaluating, curating, and expanding *executable models* of intra- and intercellular signaling. This format allows a human user to easily preview and modify any model component, while it is at the same time readable by machines and can be processed by a `suite <https://melody-biorecipe.readthedocs.io/en/latest/compatibility.html#compatibility-and-translators>`_ of model development and analysis tools. The BioRECIPE format is a tabular format most suitable for models that have a *directed graph* as their underlying structure.
 
-Networks such as the one in the figure below (part A) can be represented with the BioRECIPE format. When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part C), either with automated tools, or manually, when human input is needed. (ER-endoplasmic reticulum)
+Networks such as the one in the figure below (part A) can be represented with the BioRECIPE format. When creating interaction lists or models in the BioRECIPE format, information and data can be obtained from different sources, and input into BioRECIPE tables or spreadsheets automatically or manually (part B, left). Interaction lists and models written in the BioRECIPE format are convenient for different types of analysis and use (part B, right), either with automated tools, or manually, when human input is needed. (ER-endoplasmic reticulum)
 
-.. figure:: figures/figure_biorecipe_example_flow.png
+.. figure:: figures/figure_BioRECIPE_overview_AB_March2024.png
     :align: center
     :alt: internal figure
 
+|
+
+The tables below provide the description of BioRECIPE features and types of models that can be represented with BioRECIPE, model analysis that can be conducted on these models, and the descriptions of how BioRECIPE satisfies the FAIR principles.
+
+.. figure:: figures/figure_properties_overview.png
+    :align: center
+    :alt: internal figure
 
 |
 
