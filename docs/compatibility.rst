@@ -38,14 +38,14 @@ The BioRECIPE format is compatible with a range of representation formats, datab
     :header: Tool, Format, Description
     :widths: 8, 8, 84
 
-    DiSH, BioRECIPE, Uses BioRECIPE format at input, `Link <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`__
+    `DiSH <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`__, BioRECIPE, Uses BioRECIPE format at input
     `FLUTE <https://github.com/pitt-miskov-zivanov-lab/flute>`_, BioRECIPE, Uses BioRECIPE format at input 
-    VIOLIN, BioRECIPE, Uses BioRECIPE format at input, 
+    VIOLIN, BioRECIPE, Uses BioRECIPE format at input 
     `CLARINET <https://github.com/pitt-miskov-zivanov-lab/clarinet>`__, BioRECIPE, Uses BioRECIPE format at input
     `ACCORDION <https://github.com/pitt-miskov-zivanov-lab/ACCORDION>`_, BioRECIPE, Uses BioRECIPE format at input
-    PIANO, BioRECIPE, Uses BioRECIPE format at input,
+    PIANO, BioRECIPE, Uses BioRECIPE format at input
     `FIDDLE <https://melody-fiddle.readthedocs.io/>`__, BioRECIPE, Uses BioRECIPE format at input
-    MINUET, BioRECIPE, Uses BioRECIPE format at input,
+    MINUET, BioRECIPE, Uses BioRECIPE format at input
 
 
 |
