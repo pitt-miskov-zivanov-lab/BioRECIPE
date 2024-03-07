@@ -17,6 +17,20 @@ The BioRECIPE format is compatible with a range of representation formats, datab
     BEL, TXT (INDRA), ✓, ✓, Conversion from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
     PySB, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE  
 
+
+|
+
+.. csv-table:: Databases compatible with BioRECIPE
+    :header: Database, Format, To BioRECIPE, From BioRECIPE, Description
+    :widths: 8, 8, 9, 9, 66
+
+    KEGG, "KGML, SBML", ✓, ✓, Conversion from and to `KGML files <https://github.com/draeger-lab/KEGGtranslator>`_ through the SBML translation to and from BioRECIPE
+    `REACTOME <https://reactome.org/>`_, "SBML, BioPAX", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and BioPAX conversion
+    `Pathway Commons <https://www.pathwaycommons.org/pc2/formats>`_, "SIF, BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ and BioPAX conversion
+    `NDEx <https://home.ndexbio.org/network-formats/>`__, "SIF, BEL(INDRA), BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ BEL and BioPAX conversion
+    `BioModels <https://www.ebi.ac.uk/biomodels/>`__, "SBML, SBML-qual", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and `SBML-qual <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ conversion
+
+
 |
 
 
@@ -46,17 +60,4 @@ The BioRECIPE format is compatible with a range of representation formats, datab
     PIANO, Uses BioRECIPE Executable Model format at input
     `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, Uses BioRECIPE Interaction List and Executable Model formats at input
     MINUET, Uses BioRECIPE Interaction List format at input and output
-
-
-|
-
-.. csv-table:: Databases compatible with BioRECIPE
-    :header: Database, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 8, 8, 9, 9, 66
-
-    KEGG, "KGML, SBML", ✓, ✓, Conversion from and to `KGML files <https://github.com/draeger-lab/KEGGtranslator>`_ through the SBML translation to and from BioRECIPE
-    `REACTOME <https://reactome.org/>`_, "SBML, BioPAX", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and BioPAX conversion
-    `Pathway Commons <https://www.pathwaycommons.org/pc2/formats>`_, "SIF, BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ and BioPAX conversion
-    `NDEx <https://home.ndexbio.org/network-formats/>`__, "SIF, BEL(INDRA), BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ BEL and BioPAX conversion
-    `BioModels <https://www.ebi.ac.uk/biomodels/>`__, "SBML, SBML-qual", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and `SBML-qual <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ conversion
 
