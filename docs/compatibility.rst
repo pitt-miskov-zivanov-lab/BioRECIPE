@@ -14,7 +14,7 @@ The BioRECIPE format is compatible with a range of representation formats, datab
     SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
     SIF, TXT, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE Interaction List and from BioRECIPE Executable Model
     BioPAX, "RDF/OWL, SBML", ✓, ✓, `Conversion <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
-    BEL, TXT (INDRA), ✓, ✓, `Conversion <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`__ from and to `BEL <https://github.com/pybel/pybel>`__ statements through INDRA statements  
+    BEL, TXT (INDRA), ✓, ✓, Conversion from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
     PySB, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE  
 
 |
@@ -50,16 +50,13 @@ The BioRECIPE format is compatible with a range of representation formats, datab
 
 |
 
-
-The BioRECIPE format is compatible with the representation formats used in these databases.
-
 .. csv-table:: Databases compatible with BioRECIPE
-    :header: Database, Format, To BioRECIPE, From BioRECIPE, Translation description, Translation link
+    :header: Database, Format, To BioRECIPE, From BioRECIPE, Description
     :widths: 8, 8, 9, 9, 66
 
-    KEGG, KGML SBML,✓, ✓,Conversion from and to KGML files through the SBML translation to and from BioRECIPE, `Link <https://github.com/draeger-lab/KEGGtranslator>`__
-    REACTOME, SBML BioPAX,✓, ✓,See SBML and BioPAX conversion ,`Link <https://reactome.org/>`__
-    Pathway Commons,SIF BioPAX,✓, ✓,See SIF and BioPAX conversion,`Link <https://www.pathwaycommons.org/pc2/formats>`__
-    NDEx,SIF BEL (INDRA) BioPAX, ✓, ✓, See SIF BEL and BioPAX conversion, `Link <https://home.ndexbio.org/network-formats/>`__
-    BioModels, SBML SBML-qual, ✓, ✓,See SBML and SBML-qual conversion, `Link <https://www.ebi.ac.uk/biomodels/>`__
+    KEGG, "KGML, SBML", ✓, ✓, Conversion from and to `KGML files <https://github.com/draeger-lab/KEGGtranslator>`_ through the SBML translation to and from BioRECIPE
+    `REACTOME <https://reactome.org/>`_, "SBML, BioPAX", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and BioPAX conversion
+    `Pathway Commons <https://www.pathwaycommons.org/pc2/formats>`_, "SIF, BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ and BioPAX conversion
+    `NDEx <https://home.ndexbio.org/network-formats/>`__, "SIF, BEL(INDRA), BioPAX", ✓, ✓, See `SIF <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ BEL and BioPAX conversion
+    `BioModels <https://www.ebi.ac.uk/biomodels/>`__, "SBML, SBML-qual", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and `SBML-qual <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ conversion
 
