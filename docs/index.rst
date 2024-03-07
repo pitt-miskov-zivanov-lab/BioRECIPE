@@ -18,4 +18,5 @@ Welcome to BioRECIPE's documentation!
    compatibility
    bio_curation
    acknowledgements
+   citations
    Legal
