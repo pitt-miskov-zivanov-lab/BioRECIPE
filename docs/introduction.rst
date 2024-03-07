@@ -14,10 +14,13 @@ Networks such as the one in the figure below (part A) can be represented with th
 
 The tables below provide the description of BioRECIPE features and types of models that can be represented with BioRECIPE, model analysis that can be conducted on these models, and the descriptions of how BioRECIPE satisfies the FAIR principles.
 
-.. figure:: figures/figure_properties_overview.png
+.. figure:: figures/figure_properties_overview_table1.png
     :align: center
     :alt: internal figure
-
+|
+.. figure:: figures/figure_properties_overview_table2.png
+    :align: center
+    :alt: internal figure
 |
 
 The BioRECIPE format can be used to represent: 
