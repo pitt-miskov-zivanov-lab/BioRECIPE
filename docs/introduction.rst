@@ -24,7 +24,7 @@ These two formats are shown in the examples below. In interaction list tables, e
 
 .. csv-table:: Example interaction lists in the BioRECIPE format
     :header: Description, BioRECIPE representation, Notes 
-    :widths: 40, 20, 40
+    :widths: 20, 20, 60
 
     Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_INDRA_st_biorecipe.xlsx>`_, 75K interactions from 6K papers obtained through INDRA(ref 1)
     Example 2, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_all_reading_biorecipe.xlsx>`_, 138K interactions from 6K papers obtained with REACH(ref 2)
