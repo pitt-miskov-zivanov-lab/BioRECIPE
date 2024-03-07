@@ -31,6 +31,7 @@ These two formats are shown in the examples below. In interaction list tables, e
     Example 4, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/interaction_biorecipe.xlsx>`_, small interaction list example obtained from REACH
 
 [1] `INDRA <https://indra.readthedocs.io/en/latest/`_
+
 [2] `REACH <https://github.com/clulab/reach>`_
 
 |
