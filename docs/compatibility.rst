@@ -35,17 +35,17 @@ The BioRECIPE format is compatible with a range of representation formats, datab
 |
 
 .. csv-table:: MeLoDy Lab tools compatible with BioRECIPE
-    :header: Tool, Format, Description
-    :widths: 8, 8, 84
+    :header: Tool, Description
+    :widths: 8, 92
 
-    `DiSH <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`__, BioRECIPE, Uses BioRECIPE format at input
-    `FLUTE <https://github.com/pitt-miskov-zivanov-lab/flute>`_, BioRECIPE, Uses BioRECIPE format at input 
-    VIOLIN, BioRECIPE, Uses BioRECIPE format at input 
-    `CLARINET <https://github.com/pitt-miskov-zivanov-lab/clarinet>`__, BioRECIPE, Uses BioRECIPE format at input
-    `ACCORDION <https://github.com/pitt-miskov-zivanov-lab/ACCORDION>`_, BioRECIPE, Uses BioRECIPE format at input
-    PIANO, BioRECIPE, Uses BioRECIPE format at input
-    `FIDDLE <https://melody-fiddle.readthedocs.io/>`__, BioRECIPE, Uses BioRECIPE format at input
-    MINUET, BioRECIPE, Uses BioRECIPE format at input
+    `DiSH <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`_, Uses BioRECIPE Executable Model format at input
+    `FLUTE <https://melody-flute.readthedocs.io/>`_, Uses BioRECIPE Interaction List format at input and output
+    VIOLIN, Uses BioRECIPE Interaction List and Executable Model formats at input and output
+    `CLARINET <https://melody-clarinet.readthedocs.io/>`_, Uses BioRECIPE Interaction List and Executable Model formats at input and output
+    `ACCORDION <https://melody-accordion.readthedocs.io/>`_, Uses BioRECIPE Interaction List and Executable Model formats at input and output
+    PIANO, Uses BioRECIPE Executable Model format at input
+    `FIDDLE <https://melody-fiddle.readthedocs.io/>`_, Uses BioRECIPE Interaction List and Executable Model formats at input
+    MINUET, Uses BioRECIPE Interaction List format at input and output
 
 
 |
@@ -53,9 +53,9 @@ The BioRECIPE format is compatible with a range of representation formats, datab
 
 The BioRECIPE format is compatible with the representation formats used in these databases.
 
-.. csv-table:: Format Compatibility with BioRECIPE
+.. csv-table:: Databases compatible with BioRECIPE
     :header: Database, Format, To BioRECIPE, From BioRECIPE, Translation description, Translation link
-    :widths: 20, 20, 15, 15, 50, 80
+    :widths: 8, 8, 9, 9, 66
 
     KEGG, KGML SBML,✓, ✓,Conversion from and to KGML files through the SBML translation to and from BioRECIPE, `Link <https://github.com/draeger-lab/KEGGtranslator>`__
     REACTOME, SBML BioPAX,✓, ✓,See SBML and BioPAX conversion ,`Link <https://reactome.org/>`__
