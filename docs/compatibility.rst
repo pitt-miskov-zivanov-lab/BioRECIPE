@@ -32,7 +32,7 @@ The tables below list example formats, databases, and tools and links to transla
     BEL, TXT (INDRA), ✓, ✓, Translation from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
     PySB, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE 
     REACH, CMU format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH CMU format to BioRECIPE interaction List
-    TRIPS, XML, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from TRIPS output to BioRECIPE Interaction List
+    TRIPS, XML, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/REACH_TRIPS>`_ from TRIPS output to BioRECIPE Interaction List
 
 |
 
