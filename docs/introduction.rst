@@ -17,7 +17,11 @@ The BioRECIPE format can be used to represent:
     - *event-based* `lists of interactions <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_ 
     - *element-based* `models <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_ 
 
-These two formats are shown in the examples below. In interaction list tables, each row corresponds to one interaction, and in model tables, each row corresponds to one model element. In these tables, columns correspond to various element and interaction attributes. The details of all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_, and the details for additional element attributes used to represent executable models can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_. 
+
+Examples
+--------
+
+A few examples of interaction lists are provided in the table below. In these examples, each row corresponds to one interaction and columns correspond to various interaction attributes. The details of all interaction attributes used in interaction lists can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html#interaction-lists>`_, 
 
 |
 
@@ -32,6 +36,10 @@ These two formats are shown in the examples below. In interaction list tables, e
 
 |
 
+A few examples of executable models are provided in the table below. In these examples, each row corresponds to one model element and columns correspond to various element, regulation, and context attributes. The details for these attributes used to represent executable models can be found `here <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html#executable-models>`_. 
+
+|
+
 .. csv-table:: Example models in the BioRECIPE format
     :header: System, BioRECIPE representation, Publication 
     :widths: 30, 20, 50
@@ -40,8 +48,11 @@ These two formats are shown in the examples below. In interaction list tables, e
     pancreatic cancer cell, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models/PCC_biorecipe.xlsx>`_, `AI4SynBio_2021 <https://www.biorxiv.org/content/10.1101/2021.06.08.447557v1.abstract>`_ 
     colon cancer cell, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/models/CACC_biorecipe.xlsx>`_, `Cancer Immunology Research 2020 <https://aacrjournals.org/cancerimmunolres/article/8/2/167/469841/Cross-talk-between-Colon-Cells-and-Macrophages>`_ 
    
-
 |
+
+
+BioRECIPE features and use
+--------------------------
 
 The tables below provide the description of BioRECIPE features and types of models that can be represented with BioRECIPE, model analysis that can be conducted on these models, and the descriptions of how BioRECIPE satisfies the FAIR principles.
 
