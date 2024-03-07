@@ -25,10 +25,13 @@ These two formats are shown in the examples below. In interaction list tables, e
     :header: Description, BioRECIPE representation, Notes 
     :widths: 20, 20, 60
 
-    Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_INDRA_st_biorecipe.xlsx>`_, 75K interactions from 6K papers obtained through INDRA(ref 1)
-    Example 2, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_all_reading_biorecipe.xlsx>`_, 138K interactions from 6K papers obtained with REACH(ref 2)
+    Example 1, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_INDRA_st_biorecipe.xlsx>`_, 75K interactions from 6K papers obtained through INDRA[1]
+    Example 2, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/RA_all_reading_biorecipe.xlsx>`_, 138K interactions from 6K papers obtained with REACH[2]
     Example 3, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/Reading_biorecipe.xlsx>`_, small interaction list example obtained from INDRA
     Example 4, `download <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/interaction_lists/interaction_biorecipe.xlsx>`_, small interaction list example obtained from REACH
+
+[1] `INDRA <https://indra.readthedocs.io/en/latest/`_
+[2] `REACH <https://github.com/clulab/reach>`_
 
 |
 
@@ -45,11 +48,7 @@ These two formats are shown in the examples below. In interaction list tables, e
 
 The tables below provide the description of BioRECIPE features and types of models that can be represented with BioRECIPE, model analysis that can be conducted on these models, and the descriptions of how BioRECIPE satisfies the FAIR principles.
 
-.. figure:: figures/figure_properties_overview_table1.png
-    :align: center
-    :alt: internal figure
-|
-.. figure:: figures/figure_properties_overview_table2.png
+.. figure:: figures/figure_properties_overview.png
     :align: center
     :alt: internal figure
 
