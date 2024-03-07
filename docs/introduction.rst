@@ -45,6 +45,8 @@ These two formats are shown in the examples below. In interaction list tables, e
 
 The tables below provide the description of BioRECIPE features and types of models that can be represented with BioRECIPE, model analysis that can be conducted on these models, and the descriptions of how BioRECIPE satisfies the FAIR principles.
 
+|
+
 .. csv-table:: BioRECIPE features
     :header: Feature, Description 
     :widths: 30, 70
