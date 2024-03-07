@@ -1,6 +1,6 @@
-####################
-Biocuration Resource
-####################
+######################
+Biocuration resources
+######################
 
 Biocuration Resource Table - main table
 
