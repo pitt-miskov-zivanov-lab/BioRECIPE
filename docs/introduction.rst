@@ -51,7 +51,7 @@ The tables below provide the description of BioRECIPE features and types of mode
     :header: Feature, Description 
     :widths: 30, 70
 
-    Standardization, 'The documentation is available, and definitions provided to standardize the representation of biological entities and events, ensuring consistency and interoperability across different tools and studies.'
+    Standardization, "The documentation is available, and definitions provided to standardize the representation of biological entities and events, ensuring consistency and interoperability across different tools and studies."
 
     Expressiveness, Captures a wide range of biological phenomena, from molecular interactions to cellular processes.
     Scalability, Represents systems of varying complexity, from simple pathways to whole-cell models.
