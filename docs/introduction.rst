@@ -52,17 +52,16 @@ The tables below provide the description of BioRECIPE features and types of mode
     :widths: 30, 70
 
     Standardization, "The documentation is available, and definitions provided to standardize the representation of biological entities and events, ensuring consistency and interoperability across different tools and studies."
-
-    Expressiveness, Captures a wide range of biological phenomena, from molecular interactions to cellular processes.
-    Scalability, Represents systems of varying complexity, from simple pathways to whole-cell models.
-    Extensibility, Additional attributes, new types of data and relationships can be added as our understanding of biological systems evolves.
-    Machine-readable, Can be processed by computer programs, facilitating automated analysis and simulation.
-    Human-readable, The tabular spreadsheet format and the underlying graph structure are readable, visualizable, and understandable by humans.
-    Support for quantitative data, Incorporates a range of quantitative parameters essential for dynamic simulations.
-    Annotations and metadata, It allows for rich annotations and metadata, linking model attributes to biological databases and literature, which is crucial for model validation and reuse.
-    Compatibility, Interoperable with a range of tools and platforms, enabling seamless data exchange and integration.
-    Facilitates collaboration, Provides a common format for computational modelers and biologists, enabling collaboration and sharing of models.
-    Version control and evolution, The documentation and translators are open access and available on ReadtheDocs and GitHub enabling version control and updating.
+    Expressiveness, "Captures a wide range of biological phenomena, from molecular interactions to cellular processes."
+    Scalability, "Represents systems of varying complexity, from simple pathways to whole-cell models."
+    Extensibility, "Additional attributes, new types of data and relationships can be added as our understanding of biological systems evolves."
+    Machine-readable, "Can be processed by computer programs, facilitating automated analysis and simulation."
+    Human-readable, "The tabular spreadsheet format and the underlying graph structure are readable, visualizable, and understandable by humans."
+    Support for quantitative data, "Incorporates a range of quantitative parameters essential for dynamic simulations."
+    Annotations and metadata, "It allows for rich annotations and metadata, linking model attributes to biological databases and literature, which is crucial for model validation and reuse."
+    Compatibility, "Interoperable with a range of tools and platforms, enabling seamless data exchange and integration."
+    Facilitates collaboration, "Provides a common format for computational modelers and biologists, enabling collaboration and sharing of models."
+    Version control and evolution, "The documentation and translators are open access and available on ReadtheDocs and GitHub enabling version control and updating."
 
 |
 
