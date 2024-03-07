@@ -67,13 +67,23 @@ The tables below provide the description of BioRECIPE features and types of mode
 
 
 .. csv-table:: BioRECIPE use - Modeling
-    :header: Feature, Description 
+    :header: Modeling aspect, Description 
     :widths: 30, 70
 
     Hybrid models, "Elements within the same model can have different types of update functions, e.g., Boolean, discrete, qualitative or weighted sums."
     Granular computing, "Complex entities that emerge through data abstraction and the process of extracting knowledge from information or data is referred to  as information granules. These entities are clustered based on factors such as similarity, functional or physical proximity, indistinguishability, and coherence."
     Networks, "Representation of models that have an underlying network (graph) structure, including both undirected or directed graphs."
     Dynamics, "Simulation parameters are included in the format and are used to setup scenarios and initialize and run simulations."
+
+
+.. csv-table:: BioRECIPE use - Modeling
+    :header: Modeling aspect, Description 
+    :widths: 30, 70
+
+    Simulation, "It is compatible with the DiSH simulator which is a versatile simulator with deterministic and stochastic simulation schemes."
+    "Explanations,Understanding, Interpretation, Predictions, Interventions, Discovery, Decisions, Reasoning, Optimization", "As it is readable by both machines and humans, and it includes the metadata, the models and interactions can be explored both manually and automatically. The information about interactions and metadata is available in a standardized format, and the compatibility with the simulator and a suite of other tools that provide insights into the behavior of all model elements under a range of scenarios, altogether (a) improve understanding of the model and the modeled system and allow for (b) explanations and interpretations of observed behaviors, (c) predictions of future behaviors, as well as (d) explorations of interventions informing decisions, (e) leading to discovery and (f) guiding and optimizing future experiments."
+
+
 
 
 Citation
