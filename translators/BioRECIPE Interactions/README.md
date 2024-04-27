@@ -9,8 +9,8 @@ This script serve for three translation, which are from interaction to model fil
   python run_BioRECIPE.py -i [model] [BioRECIPE model tabular file path] [output filename]
 ```
 
-## CMU tabular reading output -> BioRECIPE interactions list
-We also support the translation of cmu custom tabular file from [REACH](https://github.com/clulab/reach/wiki/Supported-Output-Formats) reading output.
+## REACH tabular reading output -> BioRECIPE interactions list
+We also support the translation of tabular file from [REACH](https://github.com/clulab/reach/wiki/Supported-Output-Formats) reading output.
 ```bash
   python run_BioRECIPE.py -i [cmu] [cmu tsv file path] -o [output filename]
 ```
