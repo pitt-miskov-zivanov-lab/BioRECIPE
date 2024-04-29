@@ -410,7 +410,11 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     #print(model_dict)
     for key,item in model_dict.items():
         for index in model_col_index:
-            model_item_dict[index] = item.get(index).strip() if item.get(index) is not None else ''
+            if type(item.get(index)) == str:
+                model_item_dict[index] = item.get(index).strip() if item.get(index) is not None else ''
+            else:
+                model_item_dict[index] = str(item.get(index)).strip()
+
             pos_reg_list = ','.join(item.get('Positive List',''))
             neg_reg_list = ','.join(item.get('Negative List',''))
         '''
