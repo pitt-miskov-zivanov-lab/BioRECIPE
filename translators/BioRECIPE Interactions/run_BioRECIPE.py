@@ -97,11 +97,11 @@ def get_element(reg_rule: str, layer=0):
                 else:
                     regulator_list = regulator_list + get_element(necessary_element, 1)
 
-                if '*' in necessary_element:
+                if '*' in enhence_element:
                     weight, name = necessary_element.split('*')
                     regulator_list = regulator_list + get_element(name, 1)
                 else:
-                    regulator_list = regulator_list + get_element(necessary_element, 1)
+                    regulator_list = regulator_list + get_element(enhence_element, 1)
 
             elif reg_element[0] == '(' and reg_element[-1] == ')':
                 list = [element for ele_list in split_comma_out_parentheses(reg_element[1:-1])
@@ -118,7 +118,9 @@ def get_element(reg_rule: str, layer=0):
                 elif '*' in reg_element:
                     multiply_reg_list = reg_element.split('*')
                     for reg_ in multiply_reg_list:
-                        if not re.search(r'[a-zA-Z0-9\ !]]+', reg_):
+                        if re.search(r'^[0-9]', reg_):
+                            pass
+                        elif re.search(r'[a-zA-Z0-9\_!]+', reg_) is None:
                             pass
                         else:
                             regulator_list.append(reg_)
@@ -364,21 +366,6 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
         element-regulator-interaction
     """
 
-    '''
-    # check if the regulator and regulation columns are empty or not
-    for sign in ['Positive', 'Negative']:
-        print(model[f'{sign} Regulator List'].empty)
-        if model[f'{sign} Regulator List'].empty and model[f'{sign} Regulation Rule'].empty:
-            raise ValueError(
-                "The regulation rule and list columns are both empty, please fill at least one column out"
-            )
-        elif not model[f'{sign} Regulator List'].empty and model[f'{sign} Regulation Rule'].empty:
-            regulator, regulation = True, False
-        elif model[f'{sign} Regulator List'].empty and not model[f'{sign} Regulation Rule'].empty:
-            regulator, regulation = False, True
-        else:
-            regulator, regulation = True, True
-    '''
     # convert to dict for iteration
     model_dict = model_to_dict(model)
 
@@ -407,16 +394,16 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     'Regulated Compartment',
     'Regulated Compartment ID',
     'Tissue Type'] # interaction intersect-column names
-    #print(model_dict)
     for key,item in model_dict.items():
         for index in model_col_index:
             if type(item.get(index)) == str:
                 model_item_dict[index] = item.get(index).strip() if item.get(index) is not None else ''
             else:
                 model_item_dict[index] = str(item.get(index)).strip()
-
-            pos_reg_list = ','.join(item.get('Positive List',''))
-            neg_reg_list = ','.join(item.get('Negative List',''))
+            pos_reg_rule = item.get('Positive Regulation Rule')
+            neg_reg_rule = item.get('Negative Regulation Rule')
+            pos_reg_list = '' if pos_reg_rule == '' else ','.join(list(set(get_element(pos_reg_rule, 0))))
+            neg_reg_list = '' if neg_reg_rule == '' else ','.join(list(set(get_element(neg_reg_rule, 0))))
         '''
         if pos_reg_list is None and neg_reg_list is None:
             pos_reg_list = str(item.get('Positive Regulation List',''))
