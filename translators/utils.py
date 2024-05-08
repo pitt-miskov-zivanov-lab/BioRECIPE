@@ -6,6 +6,16 @@ import re
 import networkx as nx
 import warnings
 
+biorecipe_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype',
+						 'Regulator HGNC Symbol', 'Regulator Database', 'Regulator ID',
+						 'Regulator Compartment', 'Regulator Compartment ID',
+						 'Regulated Name', 'Regulated Type', 'Regulated Subtype',
+						 'Regulated HGNC Symbol', 'Regulated Database', 'Regulated ID',
+						 'Regulated Compartment', 'Regulated Compartment ID',
+						 'Sign', 'Connection Type', 'Mechanism', 'Site',
+						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
+						 'Score', 'Source', 'Statements', 'Paper IDs', 'Database Source', 'Database ID']
+
 # define regex for valid characters in variable names
 _VALID_CHARS = r'a-zA-Z0-9\_'
 

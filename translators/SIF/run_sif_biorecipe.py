@@ -1,11 +1,6 @@
 
 import argparse
-from processor import SIF
-
-def sif_to_biorecipeI(input, output):
-    sbml_qual = SIF()
-    sbml_qual.sif_biorecipeI(input, output)
-    print("Finished: {0}".format(output))
+from translators.SIF.api import sif_to_biorecipeI
 
 def main():
     parser = argparse.ArgumentParser()

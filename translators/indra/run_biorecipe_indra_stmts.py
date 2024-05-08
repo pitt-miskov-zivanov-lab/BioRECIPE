@@ -6,12 +6,7 @@
 # __email__ = "DIT18@pitt.edu"
 
 import argparse
-from processor import INDRA
-
-def biorecipe_to_indra(input, output):
-    indra = INDRA()
-    indra.biorecipeI_stmts(input, output)
-    print("Finished: {0}".format(output))
+from translators.indra.api import biorecipe_to_indra
 
 def main():
     parser = argparse.ArgumentParser()

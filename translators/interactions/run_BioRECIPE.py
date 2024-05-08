@@ -1,16 +1,17 @@
-from util import BioRECIPE, get_model, model_to_dict
+from .util import BioRECIPE, get_model, model_to_dict
 import pandas as pd
 import warnings
 import re
 import argparse
 import logging
 
-def cmu_to_biorecipe(input_df):
+def cmu_to_biorecipe(cmu_file, interactions_file):
     """This is a function for translating CMU input format to BioRECIPE reading output format
 
-    :param input_df:
+    :param cmu_file: REACH Tabular reading output filename
     :return:
     """
+    input_df = pd.read_csv(cmu_file, sep='\t')
     recipe_format = BioRECIPE()
     cmu = recipe_format.get_format("cmu")
     biorecipe = recipe_format.get_format("biorecipe")
@@ -43,7 +44,8 @@ def cmu_to_biorecipe(input_df):
             else:
                 pass
     df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_cols)
-    return df
+    df.to_excel(interactions_file, index=False)
+    return 
 
 def get_element(reg_rule: str, layer=0):
     """Convert a regulation rule to a regulator list
@@ -315,7 +317,6 @@ def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
         2. Entities have same ID and same type but different names, their names should be renamed as the identical
         3. Entities have same name but different type, the element name should be distinguished
     Returns
-    reading_output
     -------
 
     """
@@ -361,12 +362,13 @@ def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
                 pass
 
     return reading_df
-def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
+def model_to_interactions(model_file, interactions_file):
     """Convert the model into a dataframe of edges in the format
         element-regulator-interaction
     """
 
     # convert to dict for iteration
+    model = get_model(model_file)
     model_dict = model_to_dict(model)
 
     biorecipe_col = ["Regulator Name","Regulator Type","Regulator Subtype","Regulator HGNC Symbol","Regulator Database","Regulator ID","Regulator Compartment","Regulator Compartment ID"
@@ -404,11 +406,7 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
             neg_reg_rule = item.get('Negative Regulation Rule')
             pos_reg_list = '' if pos_reg_rule == '' else ','.join(list(set(get_element(pos_reg_rule, 0))))
             neg_reg_list = '' if neg_reg_rule == '' else ','.join(list(set(get_element(neg_reg_rule, 0))))
-        '''
-        if pos_reg_list is None and neg_reg_list is None:
-            pos_reg_list = str(item.get('Positive Regulation List',''))
-            neg_reg_list = str(item.get('Negative Regulation List',''))
-        '''
+
         pos_dict, neg_dict = dict(), dict()
         if pos_reg_list != 'nan' or pos_reg_list != '':
             pos_list = [x.strip() for x in re.findall(r'[a-zA-Z0-9\_!=]+',pos_reg_list)]
@@ -455,12 +453,12 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     # build BioRECIPE up
     interaction_bio_df = pd.concat([interaction_df, pd.DataFrame(columns=other_cols)], axis=1)
     # reorder the columns
-    interaction_bio_df
-    return interaction_bio_df[biorecipe_col]
+    interaction_bio_df[biorecipe_col].to_excel(interactions_file, index=False)
+    return 
 
 
-def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
-    """
+def interactions_to_model(interactions_file, model_file):
+    """Convert a interaction file to BioRECIPE executable file
     """
     model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
        'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
@@ -490,6 +488,8 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
             'Cell Type',
             'Tissue Type',
             'Organism']
+
+    interaction_df = pd.read_excel(interactions_file, index_col=None)
 
     ele_dict, pos_reg_list,output_df, output_ele_df = {}, str(), pd.DataFrame(columns=model_cols), pd.DataFrame(columns=attrb_cols)
     category_stack = []
@@ -532,9 +532,7 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
         for row in range(len(element_df)):
             # get and clean up the name again to put them in positive/negative regulator list
             reg_name = element_df.loc[row, 'Regulator Name'].strip()
-            #reg_name = reg_name.replace('*', '-')
-            #reg_name = reg_name.replace('+', '')
-            #reg_name = reg_name.replace(',', '_')
+
             # connection Type
             connection_type = element_df.loc[row, 'Connection Type']
             mech = element_df.loc[row, 'Mechanism']
@@ -554,8 +552,6 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
 
                 # FIXME: Pos_connection, Pos_mech, Pos_site need to be discuss for repeating
                 pos_connection = pos_connection + f',{connection_type}' if i != 0 else f'{connection_type}'
-                #pos_mech = pos_mech + f',{mech}' if i != 0 else f'{mech}'
-                #pos_site = pos_site + f',{site}' if i != 0 else f'{site}'
 
                 i+=1
             # append negative regulators
@@ -572,8 +568,7 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
 
                 # FIXME: Pos_connection, Pos_mech, Pos_site need to be discuss for repeating
                 neg_connection = neg_connection + f',{connection_type}' if j != 0 else f'{connection_type}'
-                #neg_mech = neg_mech + f',{mech}' if j != 0 else f'{mech}'
-                #neg_site = neg_site + f',{site}' if j != 0 else f'{site}'
+
                 j+=1
 
 
@@ -641,8 +636,8 @@ def interactions_to_model(interaction_df: pd.DataFrame) -> pd.DataFrame:
     other_cols = list(set(model_cols) - set(output_ele_df.columns))
     # build BioRECIPE up
     model_bio_df = pd.concat([output_ele_df, pd.DataFrame(columns=other_cols)], axis = 1)
-
-    return model_bio_df[model_cols]
+    model_bio_df[model_cols].to_excel(model_file, index=False)
+    return
 
 
 def model_to_edges_set(model : pd.DataFrame) -> set:
@@ -688,8 +683,8 @@ def main():
         description='Prceess model/interactions list and convert among formats.',
         formatter_class=argparse.RawTextHelpFormatter
     )
-    parser.add_argument('input_file', type=str, help='Input file path')
-    parser.add_argument('output_file', type=str, help='Input file path')
+    parser.add_argument('--input_file', type=str, help='Input file path')
+    parser.add_argument('--output_file', type=str, help='Output file path')
 
     parser.add_argument('--input_format', '-i', type=str, choices=["interactions", "model", "cmu"],
     default='interactions',
@@ -702,19 +697,13 @@ def main():
     args = parser.parse_args()
 
     if args.input_format == 'interactions':
-        interactions = get_interactions(args.input_file)
-        model = interactions_to_model(interactions)
-        model.to_excel(args.output_file, index=False)
+        interactions_to_model(args.input_file, args.output_file)
 
     elif args.input_format == 'model':
-        model = get_model(args.input_file)
-        interactions = model_to_interactions(model)
-        interactions.to_excel(args.output_file, index=False)
+        model_to_interactions(args.input_file, args.output_file)
 
     elif args.input_format == 'cmu':
-        cmu = pd.read_csv(args.input_file, sep='\t')
-        interactions = cmu_to_biorecipe(cmu)
-        interactions.to_excel(args.output_file, index=False)
+        cmu_to_biorecipe(args.input_file, args.output_file)
 
 
 if __name__ == '__main__':

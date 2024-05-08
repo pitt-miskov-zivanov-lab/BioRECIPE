@@ -1,15 +1,5 @@
 import argparse
-from processor import SBMLQual
-
-def biorecipeM_to_sbmlqual(input, output):
-    sbml_qual = SBMLQual()
-    sbml_qual.to_sbmlqual(input, output)
-    print("Finished: {0}".format(output))
-
-def biorecipeI_to_sbmlqual(input, output):
-    sbml_qual = SBMLQual()
-    sbml_qual.to_sbmlqual_interactions(input, output)
-    print("Finished: {0}".format(output))
+from translators.sbmlqual.api import biorecipeM_to_sbmlqual, biorecipeI_to_sbmlqual
 
 def main():
     parser = argparse.ArgumentParser(

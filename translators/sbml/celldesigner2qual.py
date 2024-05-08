@@ -29,8 +29,6 @@ from loguru import logger  # type: ignore
 import logging
 import networkx as nx  # type: ignore
 
-import bmaExport
-
 version = "1.2.0"  # pylint: disable=invalid-name
 
 import re
@@ -1061,12 +1059,16 @@ def write_biorecipes(filename, info):
 
     for species, data in sorted(info.items()):
         if data["transitions"]:
-            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
+            new_row = {"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
                             "Variable": data["name"], "Positive Regulation Rule": data["function"][0], "Negative Regulation Rule": data["function"][1],
-                            "Levels": 2, "State List 0": 'r'}, ignore_index=True)
+                            "Levels": 2, "State List 0": 'r'}
+            new_df = pd.DataFrame([new_row])
+            df = pd.concat([df, new_df], ignore_index=True)
         else:
-            df = df.append({"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
-                            "Variable": data["name"], "Levels": 2, "State List 0": 'r'}, ignore_index=True)
+            new_row = {"Element Name": data["element name"], "Element IDs": species, "Element Type": data["type"], "Compartment": data["compartment"],
+                            "Variable": data["name"], "Levels": 2, "State List 0": 'r'}
+            new_df = pd.DataFrame([new_row])
+            df = pd.concat([df, new_df], ignore_index=True)
 
     df.to_excel(filename, index=True)
 
@@ -1141,8 +1143,6 @@ def map_to_model(map_filename: str, model_filename: str, bma=False):
 
     if not bma:
         write_qual(model_filename, info, width, height)
-    else:
-        bmaExport.write_bma(model_filename, info, 1, None, False, True)
 
     write_biorecipes(model_filename, info)
     print("Finished: {0}".format(model_filename))
@@ -1265,12 +1265,8 @@ def main():
     simplify_model(info, args.upstream, args.downstream)
     if args.infile != sys.stdin and args.outfile == sys.stdout:
         args.outfile = os.path.splitext(args.infile.name)[0] + ".sbml"
-    if args.bma:
-        bmaExport.write_bma(
-            args.outfile, info, args.granularity, args.input, False, args.colourConstant
-        )
-    else:
-        write_qual(args.outfile, info, width, height, remove=args.remove, sif=args.sif, qual=False)
+
+    write_qual(args.outfile, info, width, height, remove=args.remove, sif=args.sif, qual=False)
     if args.csv and args.outfile != sys.stdout:
         write_csv(args.outfile, info)
 

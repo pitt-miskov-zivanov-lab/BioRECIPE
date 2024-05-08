@@ -133,14 +133,10 @@ version="%s">""" % (self.xmlversion, self.version)
         self.annotation = text
         return text
 
-import sys
-sys.path.append("..")
-
-from processor import SBML
-from mathml_translator import MATH_CONVERTER, get_score_logic_expr, get_score_mathml
+from translators.sbmlqual.mathml_translator import MATH_CONVERTER, get_score_logic_expr, get_score_mathml
 import xml.etree.ElementTree as ET
 import lxml
-from utils import get_model, model_to_dict, interactions_to_model
+from translators.utils import get_model, model_to_dict, interactions_to_model
 
 __all__ = ["SBMLQual"]
 

@@ -1,7 +1,6 @@
 import argparse
 from processor import write_sbml
 
-
 def biorecipe_to_sbml(input, output):
     write_sbml(input, output)
     print("Finished: {0}".format(output))

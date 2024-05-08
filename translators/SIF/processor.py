@@ -11,7 +11,7 @@ sys.path.append("..")
 import networkx as nx
 import pandas as pd
 import re
-from utils import get_model, model_to_networkx, biorecipe_reading_col
+from translators.utils import get_model, model_to_networkx, biorecipe_reading_col
 
 class SIF():
     """SBMLQual processor

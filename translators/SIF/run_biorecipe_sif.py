@@ -1,17 +1,6 @@
 
 import argparse
-from processor import SIF
-
-def biorecipeM_to_sif(input, output):
-    sbml_qual = SIF()
-    sbml_qual.biorecipeM_sif(input, output)
-    print("Finished: {0}".format(output))
-
-def biorecipeI_to_sif(input, output):
-    sbml_qual = SIF()
-    sbml_qual.biorecipeI_sif(input, output)
-    print("Finished: {0}".format(output))
-
+from translators.SIF.api import biorecipeM_to_sif, biorecipeI_to_sif
 def main():
     parser = argparse.ArgumentParser(
         description='Process BioRECIPE model/interaction lists file and convert to SIF.',

@@ -30,9 +30,7 @@ BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype'
 						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
 						 'Score', 'Source', 'Statements', 'Paper IDs', 'Database Source', 'Database ID']
 
-def parse_pmc(args):
-	input = args.input
-	outdir = args.output
+def parse_pmc(input, outdir):
 
 	if os.path.isdir(input):
 		files = glob.glob(input + "/*.csv")
@@ -63,8 +61,8 @@ def parse_pmc_by_indra(infile, outdir):
 	"""
 
 	#infile = sys.argv[1] #comma-separated file with at least one column with header "PMCID"
-
-	fName = os.path.join(outdir, infile.replace(".csv", "_reading.xlsx"))
+	infile_ = os.path.splitext(os.path.basename(infile))[0]
+	fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
 
 	papers_df = pd.read_csv(infile,usecols=["PMCID"]).dropna()
 	papers = list(papers_df.values.reshape(-1,))
@@ -331,7 +329,9 @@ def main():
 		help='name of the directory containing PMCIDs files')
 
 	args = parser.parse_args()
-	parse_pmc(args)
+	input = args.input
+	output = args.output
+	parse_pmc(input, output)
 
 if __name__ == '__main__':
 	main()
