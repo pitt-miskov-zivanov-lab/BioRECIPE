@@ -1,4 +1,4 @@
-from .util import BioRECIPE, get_model, model_to_dict
+from translators.interactions.util import BioRECIPE, get_model, model_to_dict
 import pandas as pd
 import warnings
 import re
