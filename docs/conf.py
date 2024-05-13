@@ -18,18 +18,18 @@ import sphinx_rtd_theme
 import sphinx_copybutton
 numfig = True
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'src/')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'src')))
 
 # -- Project information -----------------------------------------------------
 
 project = 'BioRECIPE'
-copyright = '2023, Miskov-Zivanov Lab (MeLoDy lab)'
-author = 'Dr. Kara Bocan, Dr. Casey Hansen, Emilee Holtzapple, Gaoxiang Zhou, Difei Tang, Dr. Yasmine Ahmed, and Stefan Andjelkovic'
+copyright = '2024, Miskov-Zivanov Lab (MeLoDy lab)'
+author = 'Dr. Kara Bocan, Dr. Casey Hansen, Dr. Emilee Holtzapple, Dr. Gaoxiang Zhou, Difei Tang, Dr. Yasmine Ahmed, and Stefan Andjelkovic'
 
 # The short X.Y version
 version = 'Latest'
 # The full version, including alpha/beta/rc tags
-release = '2023'
+release = '2024'
 
 
 # -- General configuration ---------------------------------------------------
