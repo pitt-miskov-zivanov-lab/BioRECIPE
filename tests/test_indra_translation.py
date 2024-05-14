@@ -1,6 +1,6 @@
 import sys, os
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
-from translators.indra_engine.to_from import *
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'translators')))
+from indra_engine.to_from import *
 
 biorecipe_input = 'interaction_lists/interaction_biorecipe.xlsx'
 indra_output = 'indra/indra_stmts.json'

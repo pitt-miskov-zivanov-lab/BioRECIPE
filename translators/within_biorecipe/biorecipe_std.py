@@ -21,10 +21,6 @@ model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
        'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
        'Update Group', 'Update Rate', 'Update Rank']
 
-
-
-
-
 # define regex for valid characters in variable names
 _VALID_CHARS = r'a-zA-Z0-9\_'
 
@@ -36,7 +32,6 @@ _VALID_TYPES = [
 
 _VAR_COL = 'Variable'
 _IDX_COL = '#'
-
 
 @dataclass
 class ReadingOutput:
@@ -142,7 +137,7 @@ class BioRECIPE:
     __BIORECIPE_DATA = ReadingOutput(**BIORECIPE)
     __BIORECIPE_DICT = asdict(__BIORECIPE_DATA)
 
-    CMU = OrderedDict([("regulated_name", "Element Name"),
+    reach_tab = OrderedDict([("regulated_name", "Element Name"),
                        ("regulated_type", "Element Type"),
                        ("regulated_database", "Database Name"),
                        ("regulated_id", "Element Identifier"),
@@ -166,20 +161,20 @@ class BioRECIPE:
                        ("mechanism", "Mechanism Type for Direct"),
                        ("statements", "Evidence")
                        ])
-    __CMU_DATA = ReadingOutput(**CMU)
-    __CMU_DICT = asdict(__CMU_DATA)
+    __reach_tab_DATA = ReadingOutput(**reach_tab)
+    __reach_tab_DICT = asdict(__reach_tab_DATA)
 
     def __init__(self):
         # by default, we register BioRECIPE, FLUTE, VIOLIN reading formats automatically
         self.register_format("biorecipe", self.__BIORECIPE_DICT)
-        self.register_format("cmu", self.__CMU_DICT)
+        self.register_format("reach_tab", self.__reach_tab_DICT)
 
         # What's more, we register full base dateclass to check the same columns in both formats
         self.default_cols = list(self.__BIORECIPE_DICT.keys())
 
-        # Finally, we create BioRECIPE, CMU, FLUTE, VIOLIN, and CLARINET table headers to contain the data
+        # Finally, we create BioRECIPE, reach_tab, FLUTE, VIOLIN, and CLARINET table headers to contain the data
         self.biorecipe_cols = list(self.BIORECIPE.values())
-        self.cmu_cols = list(self.CMU.values())
+        self.reach_tab_cols = list(self.reach_tab.values())
 
     @classmethod
     def get_cols(cls, format_name):
@@ -198,9 +193,10 @@ class BioRECIPE:
         """Register a format providing the format name and the instance"""
         cls.__FORMAT[format_name] = obj
 
-
 def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
-    """Drop rows with missing or X indices
+
+    """
+    Drop rows with missing or X indices
     """
 
     if 'X' in model.index or 'x' in model.index:
@@ -213,7 +209,9 @@ def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
     return model
 
 def get_model(model_file: str) -> pd.DataFrame:
-    """Load model into a DataFrame and standardize column names
+
+    """
+    Load model into a DataFrame and standardize column names
     """
 
     global _VALID_CHARS
@@ -368,17 +366,10 @@ def get_model(model_file: str) -> pd.DataFrame:
 
     return model
 
-def model_to_dict(model: pd.DataFrame):
-    """Convert model table to a dictionary
-    """
-
-    # convert dataframe to dict with variable name as the index
-    model_dict = model.to_dict(orient='index')
-
-    return model_dict
-
 def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
-    """Format model variable names to make compatible with model checking
+
+    """
+    Format model variable names to make compatible with model checking
     """
 
     global _VALID_CHARS
@@ -415,7 +406,9 @@ def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
 
 
 def get_type(input_type):
-    """Standardize element types
+
+    """
+    Standardize element types
     """
 
     global _VALID_TYPES

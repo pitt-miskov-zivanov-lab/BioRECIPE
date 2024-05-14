@@ -73,7 +73,7 @@ def indra_stmts_reading_output(processor, output_file, indra_stats=False, flute=
 	----------
 	processor:
 		Different types of processor containing the extracted INDRA Statements
-	output_file: xlsx
+	output_file: str
 		The name of reading file containing the extracted interactions
 	indra_stats : boolean
 		Lists of indra statements in spreadsheet

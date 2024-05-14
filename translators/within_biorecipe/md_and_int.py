@@ -1,55 +1,67 @@
-from translators.interactions.util import BioRECIPE, get_model, model_to_dict
+from within_biorecipe.biorecipe_std import BioRECIPE, get_model
 import pandas as pd
 import warnings
 import re
 import argparse
-import logging
 
-def cmu_to_biorecipe(cmu_file, interactions_file):
-    """This is a function for translating CMU input format to BioRECIPE reading output format
+def reach_tab_to_biorecipeI(reach_tab_file, interactions_file):
 
-    :param cmu_file: REACH Tabular reading output filename
-    :return:
     """
-    input_df = pd.read_csv(cmu_file, sep='\t')
+    This is a function to translate REACH tabular format to BioRECIPE interaction format
+
+    Parameters
+	----------
+    reach_tab_file:
+        REACH tabular format file (.csv) containing reading machine's output
+
+    Returns
+	-------
+    interactions_file:
+        BioRECIPE interaction file
+    """
+
+    input_df = pd.read_csv(reach_tab_file, sep='\t')
     recipe_format = BioRECIPE()
-    cmu = recipe_format.get_format("cmu")
+    reach_tab = recipe_format.get_format("reach_tab")
     biorecipe = recipe_format.get_format("biorecipe")
 
     output_df_biorecipe = pd.DataFrame(columns=recipe_format.biorecipe_cols)
     for i in range(len(input_df)):
         for col in recipe_format.default_cols:
             biorecipe_col = biorecipe[col]
-            cmu_col = cmu[col]
+            reach_tab_col = reach_tab[col]
             if col == "regulator_name":
-                if input_df.isnull().loc[i, cmu["NegReg_Name"]]:
-                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, cmu["PosReg_Name"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, cmu["PosReg_ID"]]
+                if input_df.isnull().loc[i, reach_tab["NegReg_Name"]]:
+                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["PosReg_Name"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["PosReg_ID"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
-                        i, cmu["PosReg_Location"]]
+                        i, reach_tab["PosReg_Location"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
-                        i, cmu["PosReg_Location_ID"]]
+                        i, reach_tab["PosReg_Location_ID"]]
                     output_df_biorecipe.loc[i, biorecipe["sign"]] = "positive"
 
                 else:
-                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, cmu["NegReg_Name"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, cmu["NegReg_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["NegReg_Name"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["NegReg_ID"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
-                        i, cmu["NegReg_Location"]]
+                        i, reach_tab["NegReg_Location"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
-                        i, cmu["NegReg_Location_ID"]]
+                        i, reach_tab["NegReg_Location_ID"]]
                     output_df_biorecipe.loc[i, biorecipe["sign"]] = "negative"
-            elif cmu_col and biorecipe_col:
-                output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, cmu_col]
+            elif reach_tab_col and biorecipe_col:
+                output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab_col]
             else:
                 pass
     df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_cols)
     df.to_excel(interactions_file, index=False)
-    return 
+    return
 
 def get_element(reg_rule: str, layer=0):
-    """Convert a regulation rule to a regulator list
+
     """
+    Convert a regulation rule to a regulator list
+    """
+
     if reg_rule:
         regulator_list = []
 
@@ -146,9 +158,11 @@ def get_element(reg_rule: str, layer=0):
         return regulator_list
 
 def split_comma_out_parentheses(reg_rule:str):
+
     """
     split the comma outside of parentheses
     """
+
     reg_list = list()
     parentheses = 0
     start = 0
@@ -165,17 +179,21 @@ def split_comma_out_parentheses(reg_rule:str):
     return reg_list
 
 def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
-    """
 
+    """
     Parameters
     ----------
     df: pd.DataFrame
+        A DataFrame to be processed
     col_name: str
+        Column name to look into
 
     Returns
     -------
-    df
+    df: pd.DataFrame
+        Resulting dataFrame
     """
+
     df = df.fillna('nan')
     entity_attribute_col = ['Name', 'ID', 'Type']
     entity, attribute = col_name.split(' ')
@@ -203,17 +221,23 @@ def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
     return df
 
 def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
-    """This function will make entities name display their type when entity name are the same
+
+    """
+    This function will make entities name display their type when entity name are the same
 
     Parameters
     ----------
     reading_df: pd.DataFrame
+        ???
     entity: str
+        ???
 
     Returns
     -------
-    reading_df
+    reading_df: pd.DataFrame
+        ???
     """
+
     type_dict = {'protein': 'pt', 'gene':'gene', 'chemical': 'ch', 'RNA': 'rna', \
                  'protein family|protein complex':'pf', 'family':'pf', 'complex':'pf', \
                  'protein family': 'pf', 'biological process': 'bp'}
@@ -247,16 +271,21 @@ def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
 
 
 def check_id_type_and_change_name(reading_df: pd.DataFrame, entity: str) -> pd.DataFrame:
-    """ This function make sure all the element name are unique based on their attributes ID and type
+
+    """
+    This function make sure all the element name are unique based on their attributes ID and type
 
     Parameters
     ----------
     reading_df: pd.Dataframe
-    entity: regulator or regulated
+        ???
+    entity: str
+        'regulator' or 'regulated'
     Returns
     -------
-    reading_df
+    reading_df: pd.Dataframe
     """
+
     for id_, df in reading_df.groupby(by=f'{entity} ID'):
         # get all types and name under controlled by the same ID
         Type_list = list(set(df[f'{entity} Type'].to_numpy()))
@@ -281,16 +310,22 @@ def check_id_type_and_change_name(reading_df: pd.DataFrame, entity: str) -> pd.D
     return reading_df
 
 def check_and_change_name(reading_df: pd.DataFrame, entity: str, sort_by_attrb: str) -> pd.DataFrame:
-    """ This function make sure all the element name are unique based on their attributes ID or type
+
+    """
+    This function make sure all the element name are unique based on their attributes ID or type
 
     Parameters
     ----------
     reading_df: pd.Dataframe
-    entity: regulator or regulated
+        ???
+    entity: str
+        'regulator' or 'regulated'
     Returns
     -------
-    reading_df
+    reading_df: pd.Dataframe
+        ???
     """
+
     reading_output_df = reading_df.copy()
     # make all the names different
     for name, df in reading_df.groupby(by=f'{entity} name'):
@@ -309,16 +344,14 @@ def check_and_change_name(reading_df: pd.DataFrame, entity: str, sort_by_attrb: 
     return reading_output_df
 
 def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    This is a function to normalize the entity name, the entities that are different but have same entity name
-    will be renamed
-    Renaming are following the rule below:
-        1. Entities have different IDs are different
-        2. Entities have same ID and same type but different names, their names should be renamed as the identical
-        3. Entities have same name but different type, the element name should be distinguished
-    Returns
-    -------
 
+    """
+    This is a function to normalize entity name. Entities
+    that are different but have same entity name will be renamed
+    Rename process follows the rule below:
+        1. Entities with different IDs are different
+        2. Entities with same ID and same type but different names should be renamed identically
+        3. Entities with same name but different type, their element names should be distinguished
     """
 
     # check if there are multiple entities in a single row
@@ -362,14 +395,17 @@ def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
                 pass
 
     return reading_df
+
 def model_to_interactions(model_file, interactions_file):
-    """Convert the model into a dataframe of edges in the format
-        element-regulator-interaction
+
+    """
+    Convert the model into a dataframe of edges in the format
+    element-regulator-interaction
     """
 
     # convert to dict for iteration
     model = get_model(model_file)
-    model_dict = model_to_dict(model)
+    model_dict = model.to_dict(orient='index')
 
     biorecipe_col = ["Regulator Name","Regulator Type","Regulator Subtype","Regulator HGNC Symbol","Regulator Database","Regulator ID","Regulator Compartment","Regulator Compartment ID"
     ,"Regulated Name","Regulated Type","Regulated Subtype","Regulated HGNC Symbol","Regulated Database","Regulated ID","Regulated Compartment","Regulated Compartment ID","Sign","Connection Type"
@@ -454,12 +490,15 @@ def model_to_interactions(model_file, interactions_file):
     interaction_bio_df = pd.concat([interaction_df, pd.DataFrame(columns=other_cols)], axis=1)
     # reorder the columns
     interaction_bio_df[biorecipe_col].to_excel(interactions_file, index=False)
-    return 
+    return
 
 
 def interactions_to_model(interactions_file, model_file):
-    """Convert a interaction file to BioRECIPE executable file
+
     """
+    Convert a interaction list file to BioRECIPE executable model file
+    """
+
     model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
        'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
        'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
@@ -568,9 +607,7 @@ def interactions_to_model(interactions_file, model_file):
 
                 # FIXME: Pos_connection, Pos_mech, Pos_site need to be discuss for repeating
                 neg_connection = neg_connection + f',{connection_type}' if j != 0 else f'{connection_type}'
-
                 j+=1
-
 
             # append papers ids, source, and score
             paper_id = str(element_df.loc[row, 'Paper IDs'])
@@ -586,8 +623,6 @@ def interactions_to_model(interactions_file, model_file):
                 paper_id_list = paper_id if paper_id != 'nan' else ''
                 source_list = source if source != 'nan' else ''
                 score_list = score if score != 'nan' else ''
-
-
 
         # copy regulated element attributions
         element_attribution = element_df.loc[0, bio_attrb]
@@ -639,13 +674,14 @@ def interactions_to_model(interactions_file, model_file):
     model_bio_df[model_cols].to_excel(model_file, index=False)
     return
 
-
 def model_to_edges_set(model : pd.DataFrame) -> set:
-    """Convert the model into a set of edges in the format
-        regulator-regulated-interaction with +/- for interaction
+
+    """
+    Convert the model into a set of edges in the format
+    regulator-regulated-interaction with +/- for interaction
     """
 
-    model_dict = model_to_dict(model)
+    model_dict = model.to_dict(orient='index')
 
     edges_set = set()
 
@@ -686,13 +722,12 @@ def main():
     parser.add_argument('--input_file', type=str, help='Input file path')
     parser.add_argument('--output_file', type=str, help='Output file path')
 
-    parser.add_argument('--input_format', '-i', type=str, choices=["interactions", "model", "cmu"],
+    parser.add_argument('--input_format', '-i', type=str, choices=["interactions", "model", "reach_tab"],
     default='interactions',
     help='Input file format \n'
         '\t interactions (default): BioRECIPE interactions file \n'
         '\t model: BioRECIPE model file\n'
-        '\t cmu: cmu spreadsheet\n')
-
+        '\t reach_tab: reach_tab spreadsheet\n')
 
     args = parser.parse_args()
 
@@ -702,30 +737,8 @@ def main():
     elif args.input_format == 'model':
         model_to_interactions(args.input_file, args.output_file)
 
-    elif args.input_format == 'cmu':
-        cmu_to_biorecipe(args.input_file, args.output_file)
-
+    elif args.input_format == 'reach_tab':
+        reach_tab_to_biorecipeI(args.input_file, args.output_file)
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
