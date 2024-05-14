@@ -72,7 +72,7 @@ Finally, several new model attributes are included in executable models to defin
 
      Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, "AKTpf_cytoPCC"
      Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", "A rule used by simulation to compute the level of element's positive regulation", "<string>  //The rules for creating these positive regulation strings are written separately.", "PDPK1pn_cytoPCC"
-    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "(ICMTpn_erPCC,PP2Apf_cytoPCC)"
+    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "ICMTpn_erPCC,PP2Apf_cytoPCC"
 
 |
 
