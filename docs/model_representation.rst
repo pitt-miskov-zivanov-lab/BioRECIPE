@@ -39,11 +39,11 @@ Several other interaction attributes are ordered lists of values from all indivi
     Positive regulator list, ":math:`a^{\mathrm{posreglist}}`", "All positive regulators of the element from individual interactions, combined into a list", "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator :math:`k`>", "PDPK1pn_cytoPCC"
     Positive connection type list, ":math:`a^{\mathrm{posconnectiontypelist}}`", "All connection types of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive connection type 1>, <positive connection type 2>, ..., <positive connection type :math:`k`>", "D"
     Positive mechanism list, ":math:`a^{\mathrm{posmechanismlist}}`", "All mechanisms of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive mechanism 1>, <positive mechanism 2>, ..., <positive mechanism :math:`k`>", "phosphorylation"
-    Positive site list, ":math:`a^{\mathrm{possitelist}}`", "All interaction sites of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive site 1>, <positive site 2>, ..., <positive site :math:`k`>", "Thr308"
+    Positive site list, ":math:`a^{\mathrm{possitelist}}`", "All interaction sites of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive site 1>, <positive site 2>, ..., <positive site :math:`k`>", "T308"
     Negative regulator list, ":math:`a^{\mathrm{negreglist}}`", "All negative regulators of the element from individual interactions, combined into a list", "<negative regulator 1>, <negative regulator 2>, ..., <negative regulator :math:`l`>", "ICMTpn_erPCC,PP2Apf_cytoPCC"
     Negative connection type list, ":math:`a^{\mathrm{negconnectiontypelist}}`", "All connection types of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative connection type 1>, <negative connection type 2>, ..., <negative connection type :math:`l`>", "I,D"
     Negative mechanism list, ":math:`a^{\mathrm{negmechanismlist}}`", "All mechanisms of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative mechanism 1>, <negative mechanism 2>, ..., <negative mechanism :math:`l`>", "N/A,dephosphorylation"
-    Negative site list, ":math:`a^{\mathrm{negsitelist}}`", "All interaction sites of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative site 1>, <negative site 2>, ..., <negative site :math:`l`>", "N/A,Thr308"
+    Negative site list, ":math:`a^{\mathrm{negsitelist}}`", "All interaction sites of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative site 1>, <negative site 2>, ..., <negative site :math:`l`>", "N/A,T308"
 
 |
 
@@ -52,7 +52,7 @@ Several other interaction attributes are ordered lists of values from all indivi
     :widths: 5, 3, 34, 38, 20
 
     Score list, ":math:`a^{\mathrm{scorelist}}`", "all scores of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<score 1>, <score 2>, ..., <score :math:`k+l`>", "1,1,1"
-    Source list, ":math:`a^{\mathrm{sourcelist}}`", "all sources of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<source 1>, <source 2>, ..., <source :math:`k+l`>", "database,database,database"
+    Source list, ":math:`a^{\mathrm{sourcelist}}`", "all sources of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<source 1>, <source 2>, ..., <source :math:`k+l`>", "literature,literature,literature"
     Statements list, ":math:`a^{\mathrm{statementslist}}`", "all support statements of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<statements 1>, <statements 2>, ..., <statements :math:`k+l`>", "Akt is phosphorylated at its residue Thr308 by the 3-phosphoinositide-dependent protein kinase 1 (PDK1),'We find that PFKFB4 interacts with ICMT, a posttranslational modifier of RAS. PFKFB4 promotes ICMT/RAS interaction, controls RAS localization at the plasma membrane, activates AKT signaling and enhances cell migration.','The protein phosphatase 2A (PP2A) has long been known to negatively regulate Akt activity.'"
     Paper IDs list, ":math:`a^{\mathrm{paperIDslist}}`", "all paper IDs (where statements are found) of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<paper IDs 1>, <paper IDs 2>, ..., <paper IDs :math:`k+l`>", "PMC6518649,PMC9348664,PMC10332018"
 
@@ -72,7 +72,7 @@ Finally, several new model attributes are included in executable models to defin
 
      Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, "AKTpf_cytoPCC"
      Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", "A rule used by simulation to compute the level of element's positive regulation", "<string>  //The rules for creating these positive regulation strings are written separately.", "PDPK1pn_cytoPCC"
-    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "ICMTpn_erPCC,PP2Apf_cytoPCC"
+    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "(ICMTpn_erPCC,PP2Apf_cytoPCC)"
 
 |
 
@@ -94,7 +94,7 @@ Finally, several new model attributes are included in executable models to defin
     :widths: 5, 3, 34, 38, 20
 
 
-    Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has only positive or only negative regulators", <non-negative integer> | ``None``, "200"
+    Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has only positive or only negative regulators", <non-negative integer> | ``None``, "None"
     Balancing, ":math:`a^{\mathrm{balancing}}`", "Specifies the behavior of the element when its positive and negative regulation levels are equal", {``increase`` <non-negative integer>}  | {``decrease`` <non-negative integer>} | ``None``, "decrease,0"
     Delay, ":math:`a^{\mathrm{delay}}`", description, definition, "0,0,100,0,0"
     Update group, ":math:`a^{\mathrm{updategroup}}`", description, definition, "1"
