@@ -1,17 +1,10 @@
-import sys,os
-import numpy as np
-from indra.belief import BeliefEngine
-from indra.statements import statements
-from indra.statements import Agent
-from indra.tools import assemble_corpus as ac
-import requests
-from indra.sources import indra_db_rest as idr
-from indra import config
-from indra.tools import assemble_corpus as ac
-from indra.belief import SimpleScorer
-import time
-import json
+import sys
 import pandas as pd
+import glob
+import numpy as np
+from indra.belief import SimpleScorer
+from indra.sources import indra_db_rest as idr
+import time
 
 BioRECIPE_reading_col = [
 						"Regulator Name", "Regulator Type", "Regulator Subtype", "Regulator HGNC ID", "Regulator Database", "Regulator ID", "Regulator Compartment", "Regulator Compartment ID",
@@ -21,13 +14,13 @@ BioRECIPE_reading_col = [
                         "Score", "Source", "Statements", "Paper IDs"
 						]
 
-def main(indra_stats=False, flute=False, violin=False):
+def main(indra_stmts=False, flute=False, violin=False):
 	"""
 	This function outputs the reading file from indra statements
 
 	Parameters
 	----------
-	indra_stats : boolean
+	indra_stmts : boolean
 		lists of indra statements in spreadsheet
 	flute : boolean
 		lists of interactions in FLUTE supported format
@@ -71,26 +64,16 @@ def main(indra_stats=False, flute=False, violin=False):
 	for p in papers:
 
 		time.sleep(1)
-
 		idrp = idr.get_statements_for_papers(ids=[('pmcid',p)],)
-
 		stmts = idrp.statements
 
 		if(stmts):
-
 			for s in stmts:
-
 				bs = SimpleScorer()
-
 				j =  s.to_json()
-
 				intType = j["type"]
-
 				bScore=bs.score_statement(s)
-
 				valid_st = False
-
-
 				try:
 					# Regulator
 					upstr = j["subj"]
@@ -106,11 +89,8 @@ def main(indra_stats=False, flute=False, violin=False):
 					try:
 						paperStats = j["evidence"]
 						networkArray[rowCount,11] = paperStats[0]["text"]
-
 						epi_var = paperStats[0]["epistemics"]
-
 						networkArray[rowCount,10] = str(epi_var['direct'])
-
 					except Exception as e:
 						pass
 
@@ -152,7 +132,6 @@ def main(indra_stats=False, flute=False, violin=False):
 
 						if networkArray[rowCount, 1] == 0:
 							networkArray[rowCount, 3] = upstrName
-
 
 					except Exception as e:
 						pass
@@ -207,9 +186,7 @@ def main(indra_stats=False, flute=False, violin=False):
 			noStatements.append(str(p))
 
 	if(len(noStatements)>0):
-
 		print("No statements found for papers: ")
-
 		for n in noStatements:
 			print(n)
 
@@ -235,7 +212,6 @@ def main(indra_stats=False, flute=False, violin=False):
 	for i in range(len(fOut)):
 		if not fOut.loc[i, "Regulator Name"]:
 			break
-
 		fOut_FLUTE.loc[i, "RegulatedName"] = fOut.loc[i, "Regulated Name"]
 		fOut_FLUTE.loc[i, "RegulatedDatabase"] = fOut.loc[i, "Regulated Database"]
 		fOut_FLUTE.loc[i, "RegulatedType"] = fOut.loc[i, "Regulated Type"]
@@ -306,7 +282,7 @@ def main(indra_stats=False, flute=False, violin=False):
 
 	fOut_BioRECIPE.to_excel(fName, index=False)
 
-	if indra_stats:
+	if indra_stmts:
 		fOut.to_excel(fName_stats,index=False)
 	if flute:
 		fOut_FLUTE = fOut_FLUTE.replace(r'^\s*$', "None", regex=True)
@@ -316,5 +292,4 @@ def main(indra_stats=False, flute=False, violin=False):
 
 	print("Finished.")
 	#np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
-
-main(indra_stats=False, flute=False, violin=False)
+main(indra_stmts=True, flute=True, violin=True)

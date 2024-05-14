@@ -1,23 +1,9 @@
-# updated by Difei on 6/25
-# NOTE: BioRECIPE columns are updated, while FLUTE and VIOLIN remain the old version
-
-import sys, os
-import numpy as np
-from indra.belief import BeliefEngine
-from indra.statements import statements
-from indra.statements import Agent
-from indra.tools import assemble_corpus as ac
-import requests
-from indra.sources import indra_db_rest as idr
-from indra.sources import reach
-from indra import config
-from indra.tools import assemble_corpus as ac
-from indra.belief import SimpleScorer
-import time
-import json
+import os
 import pandas as pd
 import glob
-import argparse
+from indra.belief import SimpleScorer
+from indra.sources import indra_db_rest as idr
+from indra.statements import *
 
 # latest version of BioRECIPE Reading Output
 BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype',
@@ -28,41 +14,36 @@ BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype'
 						 'Regulated Compartment', 'Regulated Compartment ID',
 						 'Sign', 'Connection Type', 'Mechanism', 'Site',
 						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-						 'Score', 'Source', 'Statements', 'Paper IDs', 'Database Source', 'Database ID']
+						 'Score', 'Source', 'Statements', 'Paper IDs']
 
 def parse_pmc(input, outdir):
-
 	if os.path.isdir(input):
 		files = glob.glob(input + "/*.csv")
 		for infile in files:
-			parse_pmc_by_indra(infile, outdir)
+			get_biorecipeI_from_pmcids(infile, outdir)
 	else:
 		infile = input
-		parse_pmc_by_indra(infile, outdir)
+		get_biorecipeI_from_pmcids(infile, outdir)
 
-def parse_pmc_by_indra(infile, outdir):
-	"""This function queries PMCIDs using INDRA database api and
+def get_biorecipeI_from_pmcids(infile, outdir):
+	"""
+	This function queries PMCIDs using INDRA database api and
 	outputs the reading file from INDRA statements
 
 	Parameters
 	----------
 	inflie:
-		input file with PMCIDs column
-	indra_stats : boolean
-		lists of indra statements in spreadsheet
-	flute : boolean
-		lists of interactions in FLUTE supported format
-	violin : boolean
-		reading output supported by VIOLIN old version
+		input file that has "PMCID" column header
 
 	Returns
 	-------
-	by default, it will output the extracted interactions in BioRECIPE format
+	By default, it will output the extracted interactions in BioRECIPE format
 	"""
 
 	#infile = sys.argv[1] #comma-separated file with at least one column with header "PMCID"
 	infile_ = os.path.splitext(os.path.basename(infile))[0]
-	fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
+	fName = outdir
+	#fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
 
 	papers_df = pd.read_csv(infile,usecols=["PMCID"]).dropna()
 	papers = list(papers_df.values.reshape(-1,))
@@ -83,29 +64,19 @@ def parse_pmc_by_indra(infile, outdir):
 		'MESH': ('mesh', 'bioprocess'),
 		'HGNC': ('hgnc', 'gene'),
 	}
-
-	print(papers)
+	#print(papers)
 
 	for p in papers:
-
 		idrp = idr.get_statements_for_papers(ids=[('pmcid',p)],)
-
 		stmts = idrp.statements
 
 		if(stmts):
-
 			for s in stmts:
-
 				bs = SimpleScorer()
-
 				j =  s.to_json()
-
 				intType = j["type"]
-
 				bScore=bs.score_statement(s)
-
 				valid_st = False
-
 				upstrDbFlag = False # check regulator db info
 				try:
 					# Regulator
@@ -279,7 +250,6 @@ def parse_pmc_by_indra(infile, outdir):
 						pass
 
 				if(valid_st):
-
 					# translate for some columns here
 					if fOut.loc[rowCount, "Mechanism"] in ["Activation", "IncreaseAmount", "Phosphorylation"]:
 						fOut.loc[rowCount, "Sign"] = "positive"
@@ -297,14 +267,11 @@ def parse_pmc_by_indra(infile, outdir):
 
 					# next row count
 					rowCount+=1
-
 		else:
 			noStatements.append(str(p))
 
 	if(len(noStatements)>0):
-
 		print("No statements found for papers: ")
-
 		for n in noStatements:
 			print(n)
 
@@ -314,24 +281,97 @@ def parse_pmc_by_indra(infile, outdir):
 		noStatements = pd.DataFrame(noStatements)
 		noStatements.to_excel(writer, sheet_name="Paper Not Found", index=False)
 
+	#print("Finished.")
+	#np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
 
-	print("Finished.")
-	# np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
+def get_INDRAstmts_from_biorecipeI(infile, outfile):
+    """
+    Translate BioRECIPE interaction lists to INDRA statements
 
-def main():
-	parser = argparse.ArgumentParser(description='parse PMCIDs using INDRA database api and output a reading file')
+    Parameters
+	----------
+	inflie : str
+		Name and path of input BioRECIPE interaction lists file (.xlsx)
 
-	# required arguments
-	required_args = parser.add_argument_group('required input arguments')
-	required_args.add_argument('-i', '--input', type=str, required=True,
-		help='name of a single PMCIDs file')
-	required_args.add_argument('-o', '--output', type=str, required=False, default=os.getcwd(),
-		help='name of the directory containing PMCIDs files')
+	Returns
+	-------
+    outfile : str
+		Name and path of output json file (contains INDRA statements)
+    """
 
-	args = parser.parse_args()
-	input = args.input
-	output = args.output
-	parse_pmc(input, output)
+    df = pd.read_excel(infile, dtype=">U50", keep_default_na=False)
 
-if __name__ == '__main__':
-	main()
+    # TODO: map to INDRA statments representing post-translational modifications
+    # TODO: add database attributes to db_ref
+    stmts_mapping = {
+        "phosphorylation": Phosphorylation,
+        "dephosphorylation": Dephosphorylation,
+        "ubiquitination": Ubiquitination,
+        "activation": Activation,
+        "inhibition": Inhibition,
+        "increaseamount": IncreaseAmount,
+        "DecreaseAmount": DecreaseAmount
+    }
+
+    stmts = []
+    for i in range(len(df)):
+        t = df.loc[i, 'Regulated Name']
+        s = df.loc[i, 'Regulator Name']
+        sign = df.loc[i, 'Sign']
+        m = df.loc[i, 'Mechanism']
+
+        ta = Agent(t)
+        sa = Agent(s)
+
+        if not m and m.lower() not in stmts_mapping.keys():
+            # default statements decided by interaction sign
+            if sign == 'positive':
+                stmt = Activation(ta, sa)
+            elif sign == 'negative':
+                stmt = Inhibition(ta, sa)
+            else:
+                raise ValueError('Invalid value was found in Sign column')
+        else:
+            # find an indra statement
+              stmt = stmts_mapping[m.lower()](ta, sa)
+
+        stmts.append(stmt)
+
+        # TODO: other output formats
+        stmts_to_json_file(stmts, outfile)
+
+# def main():
+# 	parser = argparse.ArgumentParser(description='parse PMCIDs using INDRA database API and output an interaction file in BioRECIPE format')
+#
+# 	# required arguments
+# 	required_args = parser.add_argument_group('required input arguments')
+# 	required_args.add_argument('-i', '--input', type=str, required=True,
+# 		help='path and name of file that includes PMCID column header')
+# 	required_args.add_argument('-o', '--output', type=str, required=True,
+# 		help='path and name of output file in BioRECIPE format')
+#
+# 	args = parser.parse_args()
+# 	input = args.input
+# 	output = args.output
+# 	get_biorecipeI_from_pmcids(input, output)
+# 	#parse_pmc(input, output)
+#
+# if __name__ == '__main__':
+# 	main()
+
+# def main():
+#     parser = argparse.ArgumentParser()
+#
+#     # required arguments
+#     required_args = parser.add_argument_group('required input arguments')
+#
+#     required_args.add_argument('-i', '--input', type=str, required=True,
+#                                help='Path of the input BioRECIPE interaction lists file (.xlsx)')
+#     required_args.add_argument('-o', '--output', type=str, required=True,
+#                                help='Path of the output json file (.json)')
+#
+#     args = parser.parse_args()
+#     get_INDRAstmts_from_biorecipeI(args.input, args.output)
+#
+# if __name__ == "__main__":
+#     main()
