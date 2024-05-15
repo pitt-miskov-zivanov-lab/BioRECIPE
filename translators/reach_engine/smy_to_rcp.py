@@ -2,7 +2,7 @@
 
 # Usage
 ###############
-# python reach_to_biorecipes.py JSON_FILE
+# python smy_to_rcp.py -i JSON_FILE -o BioRECIPE_FILE
 ###############
 
 # Function
@@ -11,20 +11,10 @@
 ###############
 
 import argparse
-import sys,os
+import os
 import numpy as np
-from indra.belief import BeliefEngine
-from indra.statements import statements
-from indra.statements import Agent
-from indra.tools import assemble_corpus as ac
-import requests
-from indra.sources import indra_db_rest as idr
 from indra.sources import reach
-from indra import config
-from indra.tools import assemble_corpus as ac
 from indra.belief import SimpleScorer
-import time
-import json
 import pandas as pd
 
 # TODO: organize these functions and develop a class to handle the translation
@@ -40,11 +30,13 @@ BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype'
 						 'Score', 'Source', 'Statements', 'Paper IDs']
 
 def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
-	"""Return indra statements by processing the given REACH json file
+
+	"""
+	Return indra statements by processing the input REACH json file.
+	NOTE these required parameters by indra interface
 
 	Parameters
 	----------
-	NOTE: required parameters by indra interface
 	file_name : str
         The name of the json file to be processed.
     citation : Optional[str]
@@ -59,28 +51,29 @@ def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
     Returns
     -------
     rp : ReachProcessor
-        A ReachProcessor containing the extracted INDRA Statements
-        in rp.statements.
+        A ReachProcessor containing the extracted INDRA Statements in rp.statements.
 	"""
 
 	rp = reach.process_json_file(file_name)
 	return rp
 
-def indra_stmts_reading_output(processor, output_file, indra_stats=False, flute=False, violin=False):
-	"""This function outputs the reading file from indra statements
+def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute=False, violin=False):
+
+	"""
+	This function outputs a reading file from indra statements
 
 	Parameters
 	----------
-	processor:
+	processor: ReachProcessor
 		Different types of processor containing the extracted INDRA Statements
 	output_file: str
-		The name of reading file containing the extracted interactions
-	indra_stats : boolean
-		Lists of indra statements in spreadsheet
-	flute : boolean
-		Lists of interactions in FLUTE supported format
-	violin : boolean
-		Reading output supported by VIOLIN old version
+		The name of output file containing the extracted interactions
+	indra_stats : Boolean
+		If true, also return lists of indra statements in spreadsheet
+	flute : Boolean
+		If true, also return lists of interactions in FLUTE supported format
+	violin : Boolean
+		If true, also return lists of interactions supported by VIOLIN old version
 
 	Returns
 	-------
@@ -142,9 +135,7 @@ def indra_stmts_reading_output(processor, output_file, indra_stats=False, flute=
 				try:
 					paperStats = j["evidence"]
 					networkArray[rowCount, 11] = paperStats[0]["text"]
-
 					epi_var = paperStats[0]["epistemics"]
-
 					networkArray[rowCount, 10] = str(epi_var['direct'])
 
 				except Exception as e:
@@ -199,7 +190,6 @@ def indra_stmts_reading_output(processor, output_file, indra_stats=False, flute=
 
 					if networkArray[rowCount, 1] == 0:
 						networkArray[rowCount, 3] = upstrName
-
 
 				except Exception as e:
 					pass
@@ -368,19 +358,19 @@ def indra_stmts_reading_output(processor, output_file, indra_stats=False, flute=
 	print("Finished.")
 	# np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
 
-def reach_to_biorecipe(file_name, output_file=None):
-
-	rp = get_indra_stmts_by_reach(file_name)
-	if not output_file:
-		indra_stmts_reading_output(processor=rp, output_file=file_name)
+def reach_smy_to_biorecipeI(json_file_name, output_file_name):
+	rp = get_indra_stmts_by_reach(json_file_name)
+	indra_stmts_to_interactions(processor=rp, output_file=output_file_name)
 
 def main():
 	parser = argparse.ArgumentParser(description='translate INDRA statements using different systems to a reading file')
-	parser.add_argument('json', type=str,
-						help='A REACH json file to be read with INDRA')
 
+	parser.add_argument('-i', '--input', type=str, required=True,
+	                     help='Path of REACH json file')
+	parser.add_argument('-o', '--output', type=str, required=True,
+	                     help='Path of the output interaction file (.xlsx)')
 	args = parser.parse_args()
-	reach_to_biorecipe(args.json)
+	reach_smy_to_biorecipeI(args.input, args.output)
 
 if __name__ == '__main__':
 	main()
