@@ -33,7 +33,7 @@ Several other interaction attributes are ordered lists of values from all indivi
 | 
 
 .. csv-table:: Regulation attributes - basic
-    :header: Attribute, Symbol, Description, Values, Examples
+    :header: Attribute, Symbol, Description, Format, Examples
     :widths: 5, 3, 34, 38, 20
 
     Positive regulator list, ":math:`a^{\mathrm{posreglist}}`", "All positive regulators of the element from individual interactions, combined into a list", "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator :math:`k`>", "PDPK1pn_cytoPCC"
@@ -48,7 +48,7 @@ Several other interaction attributes are ordered lists of values from all indivi
 |
 
 .. csv-table:: Regulation attributes - provenance
-    :header: Attribute, Symbol, Description, Values, Examples
+    :header: Attribute, Symbol, Description, Format, Examples
     :widths: 5, 3, 34, 38, 20
 
     Score list, ":math:`a^{\mathrm{scorelist}}`", "all scores of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<score 1>, <score 2>, ..., <score :math:`k+l`>", "1,1,1"
@@ -67,7 +67,7 @@ Finally, several new model attributes are included in executable models to defin
 |
 
 .. csv-table:: Simulation attributes - rule
-    :header: Attribute, Symbol, Description, Values, Examples
+    :header: Attribute, Symbol, Description, Format, Examples
     :widths: 5, 3, 34, 38, 20
 
      Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, "AKTpf_cytoPCC"
@@ -77,7 +77,7 @@ Finally, several new model attributes are included in executable models to defin
 |
 
 .. csv-table:: Simulation attributes - value
-    :header: Attribute, Symbol, Description, Values, Examples
+    :header: Attribute, Symbol, Description, Format, Examples
     :widths: 5, 3, 34, 38, 20
     
     Value type, ":math:`a^{\mathrm{valuetype}}`", "Type of value used for interpretting model outcomes", ``amount`` | ``activity``, "amount"
@@ -90,12 +90,12 @@ Finally, several new model attributes are included in executable models to defin
 |
 
 .. csv-table:: Simulation attributes - timing 
-    :header: Attribute, Symbol, Description, Values, Examples
+    :header: Attribute, Symbol, Description, Format, Examples
     :widths: 5, 3, 34, 38, 20
 
 
     Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has only positive or only negative regulators", <non-negative integer> | ``None``, "None"
-    Balancing, ":math:`a^{\mathrm{balancing}}`", "Specifies the behavior of the element when its positive and negative regulation levels are equal", {``increase`` <non-negative integer>}  | {``decrease`` <non-negative integer>} | ``None``, "decrease,0"
+    Balancing, ":math:`a^{\mathrm{balancing}}`", "Specifies the behavior of the element when its positive and negative regulation levels are equal", "{``increase``, <non-negative integer>}  | {``decrease``, <non-negative integer>} | ``None``", "decrease,0"
     Delay, ":math:`a^{\mathrm{delay}}`", description, definition, "0,0,100,0,0"
     Update group, ":math:`a^{\mathrm{updategroup}}`", description, definition, "1"
     Update rate, ":math:`a^{\mathrm{updaterate}}`", description, definition, "1"
