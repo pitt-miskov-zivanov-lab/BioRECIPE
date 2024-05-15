@@ -66,7 +66,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: MeLoDy Lab tools compatible with BioRECIPE
     :header: Tool, Description
-    :widths: 8, 92
+    :widths: 20, 80
 
     `DiSH <https://github.com/pitt-miskov-zivanov-lab/dyse_wm>`_, Uses BioRECIPE Executable Model format at input
     `FLUTE <https://melody-flute.readthedocs.io/>`_, Uses BioRECIPE Interaction List format at input and output
