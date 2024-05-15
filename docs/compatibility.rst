@@ -23,7 +23,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: Formats compatible with BioRECIPE
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 8, 8, 9, 9, 66
+    :widths: 15, 15, 5, 5, 60
 
     SBML, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
     SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
@@ -31,14 +31,14 @@ The tables below list example formats, databases, and tools and links to transla
     BioPAX, "RDF/OWL, SBML", ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
     BEL, TXT (INDRA), ✓, ✓, Translation from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
     PySB, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE 
-    REACH, CMU format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH CMU format to BioRECIPE interaction List
+    REACH, tabular format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH tabular format to BioRECIPE interaction List
     TRIPS, XML, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/REACH_TRIPS>`_ from TRIPS output to BioRECIPE Interaction List
 
 |
 
 .. csv-table:: Databases compatible with BioRECIPE
     :header: Database, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 8, 8, 9, 9, 66
+    :widths: 15, 15, 5, 5, 60
 
     `KEGG <https://www.genome.jp/kegg/>`_, "KGML, SBML", ✓, ✓, Translation from and to `KGML files <https://github.com/draeger-lab/KEGGtranslator>`_ through the SBML translation to and from BioRECIPE
     `REACTOME <https://reactome.org/>`_, "SBML, BioPAX", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and BioPAX translation
@@ -52,7 +52,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: External tools compatible with BioRECIPE
     :header: Tool (external), Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 8, 8, 9, 9, 66
+    :widths: 15, 15, 5, 5, 60
 
     `Cytoscape <https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html>`_, "SIF, CX(INDRA)", ✓, ✓, See `SIF translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ or `INDRA translation  <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_ and `CX assembler  <https://indra.readthedocs.io/en/latest/modules/assemblers/cx_assembler.html>`_ 
     `Cell Collective <https://cellcollective.org/#>`_, SBML-qual, ✓, ✓, See `SBML-qual translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_
