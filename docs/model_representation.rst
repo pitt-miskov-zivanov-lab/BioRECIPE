@@ -34,14 +34,14 @@ Several other interaction attributes are ordered lists of values from all indivi
 
 .. csv-table:: Regulation attributes - basic
     :header: Attribute, Symbol, Description, Format, Examples
-    :widths: 5, 3, 34, 38, 20
+    :widths: 10, 10, 40, 25, 15
 
     Positive regulator list, ":math:`a^{\mathrm{posreglist}}`", "All positive regulators of the element from individual interactions, combined into a list", "<positive regulator 1>, <positive regulator 2>, ..., <positive regulator :math:`k`>", "PDPK1pn_cytoPCC"
-    Positive connection type list, ":math:`a^{\mathrm{posconnectiontypelist}}`", "All connection types of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive connection type 1>, <positive connection type 2>, ..., <positive connection type :math:`k`>", "D"
+    Positive connection type list, ":math:`a^{\mathrm{posconnectiontypelist}}`", "All connection types of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive connection type 1>, <positive connection type 2>, ..., <positive connection type :math:`k`>", "direct"
     Positive mechanism list, ":math:`a^{\mathrm{posmechanismlist}}`", "All mechanisms of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive mechanism 1>, <positive mechanism 2>, ..., <positive mechanism :math:`k`>", "phosphorylation"
     Positive site list, ":math:`a^{\mathrm{possitelist}}`", "All interaction sites of element's positive regulators from individual interactions, combined into a list, following the same order as in the positive regulator list", "<positive site 1>, <positive site 2>, ..., <positive site :math:`k`>", "T308"
     Negative regulator list, ":math:`a^{\mathrm{negreglist}}`", "All negative regulators of the element from individual interactions, combined into a list", "<negative regulator 1>, <negative regulator 2>, ..., <negative regulator :math:`l`>", "ICMTpn_erPCC,PP2Apf_cytoPCC"
-    Negative connection type list, ":math:`a^{\mathrm{negconnectiontypelist}}`", "All connection types of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative connection type 1>, <negative connection type 2>, ..., <negative connection type :math:`l`>", "I,D"
+    Negative connection type list, ":math:`a^{\mathrm{negconnectiontypelist}}`", "All connection types of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative connection type 1>, <negative connection type 2>, ..., <negative connection type :math:`l`>", "indirect,direct"
     Negative mechanism list, ":math:`a^{\mathrm{negmechanismlist}}`", "All mechanisms of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative mechanism 1>, <negative mechanism 2>, ..., <negative mechanism :math:`l`>", "N/A,dephosphorylation"
     Negative site list, ":math:`a^{\mathrm{negsitelist}}`", "All interaction sites of element's negative regulators from individual interactions, combined into a list, following the same order as in the negative regulator list", "<negative site 1>, <negative site 2>, ..., <negative site :math:`l`>", "N/A,T308"
 
@@ -49,7 +49,7 @@ Several other interaction attributes are ordered lists of values from all indivi
 
 .. csv-table:: Regulation attributes - provenance
     :header: Attribute, Symbol, Description, Format, Examples
-    :widths: 5, 3, 34, 38, 20
+    :widths: 10, 10, 40, 25, 15
 
     Score list, ":math:`a^{\mathrm{scorelist}}`", "all scores of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<score 1>, <score 2>, ..., <score :math:`k+l`>", "1,1,1"
     Source list, ":math:`a^{\mathrm{sourcelist}}`", "all sources of element's positive and negative regulations from individual interactions, combined into a list, following the order of positive and then negative regulator lists", "<source 1>, <source 2>, ..., <source :math:`k+l`>", "literature,literature,literature"
@@ -67,18 +67,18 @@ Finally, several new model attributes are included in executable models to defin
 |
 
 .. csv-table:: Simulation attributes - rule
-    :header: Attribute, Symbol, Description, Format, Examples
-    :widths: 5, 3, 34, 38, 20
+    :header: Attribute, Symbol, Description, Format or Values, Examples
+    :widths: 10, 10, 40, 25, 15
 
-     Variable, ":math:`a^{\mathrm{variable}}`", "Variable name used by simulators and other software", <variable_name>, "AKTpf_cytoPCC"
-     Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", "A rule used by simulation to compute the level of element's positive regulation", "<string>  //The rules for creating these positive regulation strings are written separately.", "PDPK1pn_cytoPCC"
-    Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used by simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "ICMTpn_erPCC,PP2Apf_cytoPCC"
+     Variable, ":math:`a^{\mathrm{variable}}`", "Variable name assigned to model element used by simulators and other software", <variable_name>, "AKTpf_cytoPCC"
+     Positive regulation rule, ":math:`a^{\mathrm{posregrule}}`", "A rule used in simulation to compute the level of element's positive regulation", "<string>  //The rules for creating these positive regulation strings are written separately.", "PDPK1pn_cytoPCC"
+     Negative regulation rule, ":math:`a^{\mathrm{negregurule}}`", "A rule used in simulation to compute the level of element's negative regulation", "<string>  //The rules for creating these negative regulation strings are written separately.", "ICMTpn_erPCC,PP2Apf_cytoPCC"
 
 |
 
 .. csv-table:: Simulation attributes - value
-    :header: Attribute, Symbol, Description, Format, Examples
-    :widths: 5, 3, 34, 38, 20
+    :header: Attribute, Symbol, Description, Format or Values, Examples
+    :widths: 10, 10, 40, 25, 15
     
     Value type, ":math:`a^{\mathrm{valuetype}}`", "Type of value used for interpretting model outcomes", ``amount`` | ``activity``, "amount"
     Levels, ":math:`a^{\mathrm{levels}}`", "Number of different levels (values) an element can be assigned; or infinite if a continuous variable", <number of distinct levels> | ``inf``, "4"
@@ -90,8 +90,8 @@ Finally, several new model attributes are included in executable models to defin
 |
 
 .. csv-table:: Simulation attributes - timing 
-    :header: Attribute, Symbol, Description, Format, Examples
-    :widths: 5, 3, 34, 38, 20
+    :header: Attribute, Symbol, Description, Format or Values, Examples
+    :widths: 10, 10, 40, 25, 15
 
 
     Spontaneous, ":math:`a^{\mathrm{spontaneous}}`", "Specifies spontaneous behavior of the element, if it has only positive or only negative regulators", <non-negative integer> | ``None``, "None"
