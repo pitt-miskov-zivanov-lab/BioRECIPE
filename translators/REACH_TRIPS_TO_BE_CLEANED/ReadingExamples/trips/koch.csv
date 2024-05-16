@@ -1,6 +1,0 @@
-ID,TYPE,TEXT,PARENT EVENT,CAUSAL PARENT,AGENT,AFFECTED
-EVENT:  V141857,ONT::STIMULATE        , Text: of trifocal transcranial magnetic stimulation, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
-EVENT:  V161250,ONT::BIND             , Text: that such an interaction      , Event Parent: [ONT::MODULATE(V161278)] , Causal: []                       , Agent: []                       , Affected: []                       
-EVENT:  V126543,ONT::BIND             , Text: an unbalanced interaction     , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       
-EVENT:  V161278,ONT::MODULATE         , Text: that such an interaction is mediated by direct transcallosal projections located in the posterior corpus callosum.We, Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: [ONT::BIND(V161250)]     
-EVENT:  V143152,ONT::BIND             , Text: a short-latency connection    , Event Parent: []                       , Causal: []                       , Agent: []                       , Affected: []                       

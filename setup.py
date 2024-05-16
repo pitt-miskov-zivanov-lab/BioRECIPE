@@ -8,8 +8,9 @@ setup(
         'translators.sbml',
         'translators.sbmlqual',
         'translators.SIF',
-        'translators.indra',
-        'translators.interactions',
+        'translators.indra_engine',
+        'translators.reach_engine',
+        'translators.within_biorecipe',
         'translators.STRING'
     ],
 
@@ -22,8 +23,8 @@ setup(
         'lxml',
         'bs4',
         'nltk',
+        'casq==1.2.0',
         'numpy',
     ],
 
 )
-

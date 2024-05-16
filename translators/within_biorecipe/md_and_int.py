@@ -4,7 +4,7 @@ import warnings
 import re
 import argparse
 
-def reach_tab_to_biorecipeI(reach_tab_file, interactions_file):
+def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
 
     """
     This is a function to translate REACH tabular format to BioRECIPE interaction format
@@ -396,7 +396,7 @@ def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
 
     return reading_df
 
-def model_to_interactions(model_file, interactions_file):
+def get_interactions_from_model(model_file, interactions_file):
 
     """
     Convert the model into a dataframe of edges in the format
@@ -493,7 +493,7 @@ def model_to_interactions(model_file, interactions_file):
     return
 
 
-def interactions_to_model(interactions_file, model_file):
+def get_model_from_interactions(interactions_file, model_file):
 
     """
     Convert a interaction list file to BioRECIPE executable model file
@@ -732,13 +732,13 @@ def main():
     args = parser.parse_args()
 
     if args.input_format == 'interactions':
-        interactions_to_model(args.input_file, args.output_file)
+        get_model_from_interactions(args.input_file, args.output_file)
 
     elif args.input_format == 'model':
-        model_to_interactions(args.input_file, args.output_file)
+        get_interactions_from_model(args.input_file, args.output_file)
 
     elif args.input_format == 'reach_tab':
-        reach_tab_to_biorecipeI(args.input_file, args.output_file)
+        get_biorecipeI_from_reach_tab(args.input_file, args.output_file)
 
 if __name__ == '__main__':
     main()

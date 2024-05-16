@@ -304,7 +304,7 @@
           <speciesReference species="s9"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="metaid_r25" id="r25" name="Activation" reversible="false">
+      <reaction metaid="metaid_r25" id="r25" name="IncreaseAmount" reversible="false">
         <listOfReactants>
           <speciesReference species="s2"/>
         </listOfReactants>

@@ -15,7 +15,7 @@ import os
 import glob
 import argparse
 
-def summarize_reach_fries(reach_input_dir, reach_output_file):
+def get_reach_smy_from_fries(reach_input_dir, reach_output_file):
 
     path = os.path.join(reach_input_dir, '*.txt')
     files = glob.glob(path)
@@ -77,7 +77,7 @@ def main():
 	parser.add_argument('-o', '--output', type=str, required=True,
 	                     help='Path of the output summary json file')
 	args = parser.parse_args()
-	summarize_reach_fries(args.input, args.output)
+	get_reach_smy_from_fries(args.input, args.output)
 
 if __name__ == '__main__':
 	main()

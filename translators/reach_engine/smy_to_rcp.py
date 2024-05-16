@@ -358,7 +358,7 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 	print("Finished.")
 	# np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
 
-def reach_smy_to_biorecipeI(json_file_name, output_file_name):
+def get_biorecipeI_from_reach_smy(json_file_name, output_file_name):
 	rp = get_indra_stmts_by_reach(json_file_name)
 	indra_stmts_to_interactions(processor=rp, output_file=output_file_name)
 
@@ -370,7 +370,7 @@ def main():
 	parser.add_argument('-o', '--output', type=str, required=True,
 	                     help='Path of the output interaction file (.xlsx)')
 	args = parser.parse_args()
-	reach_smy_to_biorecipeI(args.input, args.output)
+	get_biorecipeI_from_reach_smy(args.input, args.output)
 
 if __name__ == '__main__':
 	main()
