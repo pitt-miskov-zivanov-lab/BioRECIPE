@@ -23,7 +23,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: Formats compatible with BioRECIPE
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 15, 15, 5, 5, 60
+    :widths: 15, 15, 10, 10, 50
 
     SBML, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
     SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
@@ -38,7 +38,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: Databases compatible with BioRECIPE
     :header: Database, Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 15, 15, 5, 5, 60
+    :widths: 15, 15, 10, 10, 50
 
     `KEGG <https://www.genome.jp/kegg/>`_, "KGML, SBML", ✓, ✓, Translation from and to `KGML files <https://github.com/draeger-lab/KEGGtranslator>`_ through the SBML translation to and from BioRECIPE
     `REACTOME <https://reactome.org/>`_, "SBML, BioPAX", ✓, ✓, See `SBML <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ and BioPAX translation
@@ -52,7 +52,7 @@ The tables below list example formats, databases, and tools and links to transla
 
 .. csv-table:: External tools compatible with BioRECIPE
     :header: Tool (external), Format, To BioRECIPE, From BioRECIPE, Description
-    :widths: 15, 15, 5, 5, 60
+    :widths: 15, 15, 10, 10, 50
 
     `Cytoscape <https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html>`_, "SIF, CX(INDRA)", ✓, ✓, See `SIF translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ or `INDRA translation  <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra>`_ and `CX assembler  <https://indra.readthedocs.io/en/latest/modules/assemblers/cx_assembler.html>`_ 
     `Cell Collective <https://cellcollective.org/#>`_, SBML-qual, ✓, ✓, See `SBML-qual translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_
