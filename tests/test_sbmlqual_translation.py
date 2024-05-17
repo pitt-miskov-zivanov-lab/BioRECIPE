@@ -1,25 +1,45 @@
-from translators.sbmlqual import api
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'translators')))
+from sbmlqual.sbmlqual_to_biorecipe import get_biorecipeM_from_sbmlqual
+from sbmlqual.biorecipe_to_sbmlqual import get_sbmlqual_from_biorecipeM, get_sbmlqual_from_biorecipeI
 
-sbmlqual_input = '../examples/sbmlqual/Tcell_differentiation.sbml'
-biorecipe_output = '../examples/models/Tcell_differentiation.xlsx'
+sbmlqual_input = 'sbmlqual/Tcell_differentiation.sbml'
+biorecipe_output = 'models/Tcell_differentiation.xlsx'
 
 # M: model, I: interaction lists
-biorecipeM_input = '../examples/models/BooleanTcell_biorecipe.xlsx'
-biorecipeI_input = '../examples/interaction_lists/Reading_biorecipe.xlsx'
-sbmlqualM_output = '../examples/sbmlqual/BooleanTcell_sbmlqual.xml'
-sbmlqualI_output ='../examples/sbmlqual/Reading_sbmlqual.xml'
+biorecipeM_input = 'models/BooleanTcell_biorecipe.xlsx'
+sbmlqualM_output = 'sbmlqual/BooleanTcell_sbmlqual.xml'
 
-def test_biorecipe_to_sbmlqual():
-    api.biorecipeM_to_sbmlqual(biorecipeM_input, sbmlqualM_output)
-    api.biorecipeI_to_sbmlqual(biorecipeI_input, sbmlqualI_output)
+biorecipeI_input = 'interaction_lists/Reading_biorecipe.xlsx'
+sbmlqualI_output ='sbmlqual/Reading_sbmlqual.xml'
 
-def test_sbmlqual_to_biorecipe():
-    api.sbmlqual_to_biorecipe(sbmlqual_input, biorecipe_output)
+test_files_rl_path = '../examples/'
+
+def test_sbmlqual_from_biorecipeM():
+
+    get_sbmlqual_from_biorecipeM(
+    test_files_rl_path + biorecipeM_input,
+    test_files_rl_path + sbmlqualM_output
+    )
+
+def test_sbmlqual_from_biorecipeI():
+
+    get_sbmlqual_from_biorecipeI(
+    test_files_rl_path + biorecipeI_input,
+    test_files_rl_path + sbmlqualI_output
+    )
+
+def test_biorecipeM_from_sbmlqual():
+
+    get_biorecipeM_from_sbmlqual(
+    test_files_rl_path + sbmlqual_input,
+    test_files_rl_path + biorecipe_output
+    )
 
 def main():
-    # test apis and examples of our sbmlqual translator
-    test_biorecipe_to_sbmlqual()
-    test_sbmlqual_to_biorecipe()
+    test_sbmlqual_from_biorecipeM()
+    test_sbmlqual_from_biorecipeI()
+    test_biorecipeM_from_sbmlqual()
 
 if __name__ == "__main__":
     main()

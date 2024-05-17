@@ -30,7 +30,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOS_DD"  qual:id="theta_AP1_FOS_DD"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="JUN"  qual:id="theta_AP1_JUN"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="JUN"  qual:id="theta_AP1_JUN"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOS_DD"  qual:id="theta_AP1_FOS_DD"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="AP1"/>
@@ -68,7 +68,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_CD25_FOXP3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AP1"  qual:id="theta_CD25_AP1"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_CD25_STAT5"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_CD25_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFKAPPAB"  qual:id="theta_CD25_NFKAPPAB"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_CD25_STAT5"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_CD25_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AP1"  qual:id="theta_CD25_AP1"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFKAPPAB"  qual:id="theta_CD25_NFKAPPAB"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_CD25_FOXP3"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="CD25"/>
@@ -163,7 +163,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_FOXP3_STAT5"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_FOXP3_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTOR_DD"  qual:id="theta_FOXP3_MTOR_DD"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="SMAD3"  qual:id="theta_FOXP3_SMAD3"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTOR_DD"  qual:id="theta_FOXP3_MTOR_DD"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_FOXP3_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="SMAD3"  qual:id="theta_FOXP3_SMAD3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_FOXP3_STAT5"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="FOXP3"/>
@@ -201,7 +201,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2"  qual:id="theta_IL2_EX_IL2"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_IL2_EX_IL2_EX"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_IL2_EX_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2"  qual:id="theta_IL2_EX_IL2"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="IL2_EX"/>
@@ -220,7 +220,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD25"  qual:id="theta_IL2R_CD25"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD132"  qual:id="theta_IL2R_CD132"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD122"  qual:id="theta_IL2R_CD122"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD25"  qual:id="theta_IL2R_CD25"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD122"  qual:id="theta_IL2R_CD122"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD132"  qual:id="theta_IL2R_CD132"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="IL2R"/>
@@ -239,7 +239,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_JAK3_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_JAK3_IL2_EX"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_JAK3_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_JAK3_IL2R"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="JAK3"/>
@@ -486,7 +486,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AKT"  qual:id="theta_NFKAPPAB_AKT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PKCTHETA"  qual:id="theta_NFKAPPAB_PKCTHETA"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PKCTHETA"  qual:id="theta_NFKAPPAB_PKCTHETA"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AKT"  qual:id="theta_NFKAPPAB_AKT"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="NFKAPPAB"/>
@@ -543,7 +543,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_HIGH_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_HIGH_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PI3K_HIGH_TCR_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_HIGH"  qual:id="theta_PI3K_HIGH_PI3K_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_HIGH_IL2_EX"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_HIGH"  qual:id="theta_PI3K_HIGH_PI3K_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PI3K_HIGH_TCR_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_HIGH_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_HIGH_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_HIGH_IL2R"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PI3K_HIGH"/>
@@ -562,7 +562,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PI3K_LOW_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_LOW_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_LOW_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_LOW"  qual:id="theta_PI3K_LOW_PI3K_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_LOW_IL2_EX"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PI3K_LOW_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_LOW_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_LOW_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_LOW"  qual:id="theta_PI3K_LOW_PI3K_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_LOW_IL2R"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PI3K_LOW"/>
@@ -581,7 +581,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_LOW"  qual:id="theta_PIP3_PIP3_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_HIGH"  qual:id="theta_PIP3_PIP3_HIGH"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_HIGH"  qual:id="theta_PIP3_PIP3_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_LOW"  qual:id="theta_PIP3_PIP3_LOW"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PIP3"/>
@@ -638,7 +638,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PKCTHETA_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC2"  qual:id="theta_PKCTHETA_MTORC2"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PKCTHETA_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PKCTHETA_TCR_HIGH"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC2"  qual:id="theta_PKCTHETA_MTORC2"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PKCTHETA_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PKCTHETA_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PKCTHETA_TCR_HIGH"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PKCTHETA"/>
@@ -676,7 +676,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PTEN"  qual:id="theta_PTEN_PTEN"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_PTEN_FOXP3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PTEN_TCR_HIGH"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PTEN"  qual:id="theta_PTEN_PTEN"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PTEN_TCR_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_PTEN_FOXP3"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PTEN"/>
@@ -714,7 +714,7 @@ version="1"><model id="None">
 
 <qual:listOfInputs>
 
-<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR"  qual:id="theta_RAS_TCR"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_RAS_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_RAS_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="RAS"  qual:id="theta_RAS_RAS"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_RAS_IL2_EX"/></qual:listOfInputs>
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR"  qual:id="theta_RAS_TCR"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_RAS_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="RAS"  qual:id="theta_RAS_RAS"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_RAS_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_RAS_IL2R"/></qual:listOfInputs>
 <qual:listOfOutputs>
 
 <qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="RAS"/>

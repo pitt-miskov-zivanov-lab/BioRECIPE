@@ -1,11 +1,208 @@
-# This is a part of SBMLqual translator
+# -*- coding: utf-8 -*-
+#
+# This file is part of translator for BioRECIPE format.
+#
+# __author__ = "Difei Tang"
+# __email__ = "DIT18@pitt.edu"
+
+# To use this translator directly in terminal
+# import sys, os
+# sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
+# python biorecipe_to_sbmlqual.py --input [BioRECIPE] --output [SBMLQual] --input_format [model/interactions]
+
+# where you need to have the terminal work in the directory of this python script
+# [BioRECIPE] is the model/interactions in BioRecipes format
+# and [SBMLQual] is the path and name of generated SBMLQual file
 
 import pandas as pd
-#import libsbml
 import re
-from sympy import *
-from sympy import symbols
+import argparse
+from sympy import symbols, And, Or, Not, printing
 from sympy.printing.mathml import mathml
+from sbmlqual.sbml import SBML #offline import of code /sbml.py and /sbmlqual.py from https://github.com/cellnopt/cellnopt/tree/master/cno/io
+from sbmlqual.sbmlqual import QualitativeSpecies, ListOfTransitions, Transition, ListOfInputs, ListOfOutputs, ListOfFunctionTerms, FunctionTerm
+from within_biorecipe.biorecipe_std import get_model
+from within_biorecipe.md_and_int import interactions_to_model
+
+__all__ = ["SBMLQual_rcp"]
+
+class SBMLQual_rcp(object):
+
+    """
+    Class to write SBML-qual file (from BioRECIPE logical models only)
+    """
+
+    def __init__(self):
+        self.and_symbol = "^"
+
+    def to_sbmlqual_interactions(self, input_file, filename):
+
+        """
+        Exports BioRECIPE interaction lists to SBMLqual format, returns the SBML text
+        This is a level3, version 1 exporter.
+
+        """
+
+        biorecipe_interactions_df = pd.read_excel(input_file)
+        biorecipe_model_df = interactions_to_model(biorecipe_interactions_df)
+        biorecipe_model_df = biorecipe_model_df.set_index('Element Name')
+        biorecipe_dict = biorecipe_model_df.to_dict(orient='index')
+
+        s = SBML(self, version="1", model_name='model')
+
+        sbml = s.create_header()
+        sbml += s.create_model_name()
+        sbml += s.create_compartment(id="main", constant="true")
+
+        # Starting list of transitions
+        list_of_transition = ListOfTransitions()
+        sbml += list_of_transition.open()
+
+        # add the qualitativeSpecies list
+        qualitativeSpecies = QualitativeSpecies(list(biorecipe_dict.keys()))
+        sbml += qualitativeSpecies.create()
+
+        # Loop over all transitions
+        tid = 0
+        for ele, value in biorecipe_dict.items():
+
+            identifier = "t{0}".format(ele)
+
+            pos = value['Positive Regulator List']
+            neg = value['Negative Regulator List']
+
+            regulators = {'+': None, '-': None}
+
+            if pos and type(pos) == str:
+                regulators['+'] = pos.split(',')
+
+            if neg and type(neg) == str:
+                regulators['-'] = neg.split(',')
+
+            # regulators found and create a Transition for a regulated element
+            transition = Transition(identifier)
+            sbml += transition.open()
+
+            # regulators -> list of inputs
+            list_of_inputs = ListOfInputs(regulators, ele)
+            if not list_of_inputs.species['+']:
+                list_of_inputs.species['+']=''
+            if not list_of_inputs.species['-']:
+                list_of_inputs.species['-']=''
+            sbml += list_of_inputs.create()
+
+            # regulated -> the output (only one)
+            list_of_outputs = ListOfOutputs(ele)
+            sbml += list_of_outputs.create()
+
+            sbml += transition.close()
+
+        # The end
+        sbml += list_of_transition.close()
+        sbml += """</model>\n"""
+        sbml += s.create_footer()
+
+        with open(filename, 'w') as f:
+            f.write(sbml)
+
+    def to_sbmlqual(self, input_file, filename):
+
+        """
+        Exports BioRECIPE model to SBMLqual format, returns the SBML text
+        This is a level3, version 1 exporter.
+
+        """
+
+        biorecipe_model = get_model(input_file)
+        biorecipe_dict = biorecipe_model.to_dict(orient='index')
+
+        s = SBML(self, version="1", model_name='model')
+
+        sbml = s.create_header()
+        sbml += s.create_model_name()
+        sbml += s.create_compartment(id="main", constant="true")
+
+        # Starting list of transitions
+        list_of_transition = ListOfTransitions()
+        sbml += list_of_transition.open()
+
+        # add the qualitativeSpecies list
+        qualitativeSpecies = QualitativeSpecies(list(biorecipe_dict.keys()))
+        sbml += qualitativeSpecies.create()
+
+        # Loop over all transitions
+        tid = 0
+        for ele, value in biorecipe_dict.items():
+
+            identifier = "t{0}".format(ele)
+
+            pos_rule = value['Positive Regulation Rule']
+            neg_rule = value['Negative Regulation Rule']
+
+            regulators = {'+': None, '-': None}
+
+            if pos_rule or neg_rule:
+
+                reg_mathml = ""
+                if pos_rule and neg_rule:
+                    reg_expr = get_score_logic_expr(pos_rule, neg_rule)
+                    reg_mathml = mathml(reg_expr)
+                else:
+                    if pos_rule:
+                        pos_converter = MATH_CONVERTER(pos_rule)
+                        regulators['+'] = pos_converter.regulator_list
+                        reg_mathml = pos_converter.convert2mathml()
+                    elif neg_rule:
+                        neg_converter = MATH_CONVERTER(neg_rule)
+                        regulators['-'] = neg_converter.regulator_list
+                        reg_mathml = neg_converter.convert2mathml()
+                    else:
+                        raise ValueError('unable to parse regulation rules')
+
+                # regulators found and create a Transition for a regulated element
+                transition = Transition(identifier)
+                sbml += transition.open()
+
+                # regulators -> list of inputs
+                list_of_inputs = ListOfInputs(regulators, ele)
+                if not list_of_inputs.species['+']:
+                    list_of_inputs.species['+']=''
+                if not list_of_inputs.species['-']:
+                    list_of_inputs.species['-']=''
+                sbml += list_of_inputs.create()
+
+                # regulated -> the output (only one)
+                list_of_outputs = ListOfOutputs(ele)
+                sbml += list_of_outputs.create()
+
+                sbml += transition.close()
+
+                # start creating functionTerms
+                list_of_function_terms = ListOfFunctionTerms()
+
+                sbml += list_of_function_terms.open()
+                sbml += list_of_function_terms.create_default_term()
+
+                function_term = FunctionTerm()
+                sbml += function_term.open()
+
+                # map logic functions to mathml and add to functionTerms
+                sbml +=  """<math xmlns="http://www.w3.org/1998/Math/MathML">"""
+
+                sbml += reg_mathml
+
+                sbml += "</math>"
+                sbml += function_term.close()
+                sbml += list_of_function_terms.close()
+
+        # The end
+        sbml += list_of_transition.close()
+        sbml += """</model>\n"""
+        sbml += s.create_footer()
+
+        with open(filename, 'w') as f:
+            f.write(sbml)
+
 
 class MATH_CONVERTER:
     """
@@ -208,16 +405,32 @@ def get_score_logic_expr(pos_rule:str, neg_rule:str):
     neg_expr = MATH_CONVERTER(neg_rule).convert2logic()
     return Or(pos_expr, Not(neg_expr))
 
-def get_score_mathml(score_expr):
-    return mathml(score_expr)
+def get_sbmlqual_from_biorecipeM(input, output):
+    sbmlqualRCP = SBMLQual_rcp()
+    sbmlqualRCP.to_sbmlqual(input, output)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    pass
-    ### test
-    # reg_expr = get_score_logic_expr('(AKt,CD4),(DDB,(!KD3,ERK))', '(Akt,CD28),(DDB,AKT)')
-    # print(reg_expr)
-    #
-    # reg_expr = get_score_logic_expr('AKT_OFF', '(PDK1,MTORC2)')
-    # reg_mathml = get_score_mathml(reg_expr)
-    # print(reg_mathml)
+def get_sbmlqual_from_biorecipeI(input, output):
+    sbmlqualRCP = SBMLQual_rcp()
+    sbmlqualRCP.to_sbmlqual_interactions(input, output)
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Process BioRECIPE model/interaction file and convert to SBMLQual.',
+        formatter_class=argparse.RawTextHelpFormatter)
+
+    parser.add_argument('--input_file', type=str, help='Path and name of input model/interaction file (.xlsx)')
+    parser.add_argument('--output_file', type=str, help='Path and name of output sbmlqual file (.xml)')
+    parser.add_argument('--input_format', type=str, choices=['model','interactions'],
+        default='model',
+        help='Input file format \n'
+        '\t model (default): BioRECIPE model format \n'
+        '\t interactions: BioRECIPE interaction format \n')
+
+    args = parser.parse_args()
+    if args.input_format == 'model':
+        get_sbmlqual_from_biorecipeM(args.input_file, args.output_file)
+    elif args.input_format == 'interactions':
+        get_sbmlqual_from_biorecipeI(args.input_file, args.output_file)
+
+if __name__ == "__main__":
+    main()

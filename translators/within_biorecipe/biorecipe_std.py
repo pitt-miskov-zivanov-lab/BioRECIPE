@@ -193,21 +193,6 @@ class BioRECIPE:
         """Register a format providing the format name and the instance"""
         cls.__FORMAT[format_name] = obj
 
-def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
-
-    """
-    Drop rows with missing or X indices
-    """
-
-    if 'X' in model.index or 'x' in model.index:
-        logging.info('Dropping %s rows with X indices' % str(len(model.loc[['X']])))
-        model.drop(['X'],axis=0,inplace=True)
-    if '' in model.index:
-        logging.info('Dropping %s rows missing indices' % str(len(model.loc[['']])))
-        model.drop([''],axis=0,inplace=True)
-
-    return model
-
 def get_model(model_file: str) -> pd.DataFrame:
 
     """
@@ -366,10 +351,26 @@ def get_model(model_file: str) -> pd.DataFrame:
 
     return model
 
+def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
+
+    """
+    Drop rows with missing or X indices, used in get_model() to standardize model spreadsheet
+    """
+
+    if 'X' in model.index or 'x' in model.index:
+        logging.info('Dropping %s rows with X indices' % str(len(model.loc[['X']])))
+        model.drop(['X'],axis=0,inplace=True)
+    if '' in model.index:
+        logging.info('Dropping %s rows missing indices' % str(len(model.loc[['']])))
+        model.drop([''],axis=0,inplace=True)
+
+    return model
+
 def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
 
     """
-    Format model variable names to make compatible with model checking
+    Format model variable names to make compatible with model checking,
+    used in get_model() to standardize model spreadsheet
     """
 
     global _VALID_CHARS
@@ -408,7 +409,7 @@ def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
 def get_type(input_type):
 
     """
-    Standardize element types
+    Standardize element types, used in get_model() to standardize model spreadsheet
     """
 
     global _VALID_TYPES
@@ -423,3 +424,228 @@ def get_type(input_type):
         return 'biological'
     else:
         return 'other'
+
+def get_reading(reading_file: str) -> pd.DataFrame:
+
+    """
+    This is a function to normalize entity name. Entities
+    that are different but have same entity name will be renamed
+    Rename process follows the rule below:
+        1. Entities with different IDs are different
+        2. Entities with same ID and same type but different names should be renamed identically
+        3. Entities with same name but different type, their element names should be distinguished
+    """
+
+    reading_df = pd.read_excel(reading_file, index_col=None)
+
+    # check if there are multiple entities in a single row
+    for entity in ['Regulator', 'Regulated']:
+        # check if there are multiple entities in a single row
+        name_empty, id_empty, type_empty = reading_df[f'{entity} Name'].empty, reading_df[f'{entity} ID'].empty, reading_df[f'{entity} Type'].empty
+        if name_empty:
+            raise ValueError(
+                'Column of element name cannot be empty.'
+            )
+        else:
+            if not id_empty and not type_empty:
+                # first, check all the entities that consist of multiple entities
+                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
+                # groupby the element id and get their attributes by index
+                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
+                # follow rule 3 to make name report their type
+                reading_df = change_name_by_type(reading_df, entity)
+                reading_df = reading_df.reset_index()
+                # make entity unique
+                reading_df = check_id_type_and_change_name(reading_df, entity)
+
+
+            elif not id_empty and type_empty:
+                warnings.warn(
+                    f'{entity} type column is empty. entity names is only sort by IDs.'
+                )
+                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
+                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
+                # sort by id only
+                reading_df = check_and_change_name(reading_df, entity, f'{entity} ID')
+            elif id_empty and not type_empty:
+                warnings.warn(
+                    f'{entity} type column is empty. entity names will be sort by type only'
+                )
+                reading_df = check_and_change_name(reading_df, entity, f'{entity} type')
+            else:
+                warnings.warn(
+                    f'type and ID columns are empty'
+                )
+                pass
+
+    return reading_df
+
+def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
+
+    """
+    used in get_reading() to standardize interactions spreadsheet
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+        A DataFrame to be processed
+    col_name: str
+        Column name to look into
+
+    Returns
+    -------
+    df: pd.DataFrame
+        Resulting dataFrame
+    """
+
+    df = df.fillna('nan')
+    entity_attribute_col = ['Name', 'ID', 'Type']
+    entity, attribute = col_name.split(' ')
+    entity_attribute_col.remove(attribute)
+    df = df.astype(str)
+    for row in range(len(df)):
+        value = df.loc[row, col_name]
+        # operate on this column
+        if ',' in value:
+            value_list = value.split(',')
+            value_list = [value_i.strip() for value_i in value_list]
+            df.loc[row, col_name] = '_'.join(value_list)
+            # operate on the other columns
+            for col in entity_attribute_col:
+                if ',' in value:
+                    value_attr_1 = df.loc[row, f'{entity} {col}']
+                    value_attr_1_list = value_attr_1.split(',')
+                    value_attr_1_list = [value_i.strip() for value_i in value_attr_1_list]
+                    df.loc[row, f'{entity} {col}'] = '_'.join(value_attr_1_list)
+                else:
+                    pass
+        else:
+            pass
+
+    return df
+
+def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
+
+    """
+    This function will make entities name display their type when entity name are the same,
+    used in get_reading() to standardize interactions spreadsheet
+
+    Parameters
+    ----------
+    reading_df: pd.DataFrame
+        ???
+    entity: str
+        ???
+
+    Returns
+    -------
+    reading_df: pd.DataFrame
+        ???
+    """
+
+    type_dict = {'protein': 'pt', 'gene':'gene', 'chemical': 'ch', 'RNA': 'rna', \
+                 'protein family|protein complex':'pf', 'family':'pf', 'complex':'pf', \
+                 'protein family': 'pf', 'biological process': 'bp'}
+    type_ = list(type_dict.keys())
+    for name_, df in reading_df.groupby(by=f'{entity} Name'):
+        index_list = list(df.index)
+        for row in index_list:
+            entity_type = reading_df.loc[row, f'{entity} Type'].lower()
+
+            if '_' in entity_type:
+                type_multiple = entity_type.split('_')
+                if all(type_i in type_ for type_i in type_multiple):
+                    type_sym = [type_dict[type_i] for type_i in type_multiple]
+                    type_add = '_'.join(type_sym)
+                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_add
+                else:
+                    warnings.warn(
+                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
+                    )
+                    reading_df.drop(row)
+
+            else:
+                if entity_type in type_:
+                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_dict[entity_type]
+                else:
+                    warnings.warn(
+                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
+                    )
+                    reading_df.drop(row)
+    return reading_df
+
+
+def check_id_type_and_change_name(reading_df: pd.DataFrame, entity: str) -> pd.DataFrame:
+
+    """
+    This function make sure all the element name are unique based on their attributes ID and type
+    used in get_reading() to standardize interactions spreadsheet
+
+    Parameters
+    ----------
+    reading_df: pd.Dataframe
+        ???
+    entity: str
+        'regulator' or 'regulated'
+    Returns
+    -------
+    reading_df: pd.Dataframe
+    """
+
+    for id_, df in reading_df.groupby(by=f'{entity} ID'):
+        # get all types and name under controlled by the same ID
+        Type_list = list(set(df[f'{entity} Type'].to_numpy()))
+        name_list = list(set(df[f'{entity} Name'].to_numpy()))
+        # add names to make every entity take a unique name
+        if len(name_list) < len(Type_list):
+            add_name_len = len(Type_list) - len(name_list)
+            # FIXME: This could also be named in different ways
+            for i in range(add_name_len): name_list.append(f'{name_list[-1]}_{i}')
+        else:
+            pass
+
+        # assign the entities have same type with the same name
+        counter = 0 # count how many types are processed
+        for Type in Type_list:
+            sub_df = df[df[f'{entity} Type'] == Type]
+            sub_df_index = list(sub_df.index)
+            for i in range(len(sub_df)):
+                reading_df.loc[sub_df_index[i], f'{entity} Name'] = name_list[counter]
+            counter+=1
+
+    return reading_df
+
+def check_and_change_name(reading_df: pd.DataFrame, entity: str, sort_by_attrb: str) -> pd.DataFrame:
+
+    """
+    This function make sure all the element name are unique based on their attributes ID or type
+    used in get_reading() to standardize interactions spreadsheet
+
+    Parameters
+    ----------
+    reading_df: pd.Dataframe
+        ???
+    entity: str
+        'regulator' or 'regulated'
+    Returns
+    -------
+    reading_df: pd.Dataframe
+        ???
+    """
+
+    reading_output_df = reading_df.copy()
+    # make all the names different
+    for name, df in reading_df.groupby(by=f'{entity} name'):
+        same_name_index = df.index
+        for i in range(len(same_name_index)):
+            if i == 0:
+                pass
+            else:
+                reading_output_df.loc[same_name_index[i], f'{entity} name'] = reading_output_df.loc[same_name_index[i], f'{entity} name'] + f'_{i}'
+
+    # compare the names by category attribute
+    for id_, df in reading_df.groupby(by=f'{entity} {sort_by_attrb}'):
+        std_index = list(df.index)[0]
+        for row in range(len(df)):
+            reading_output_df.loc[row, f'{entity} {sort_by_attrb}'] = df.loc[std_index, f'{entity} {sort_by_attrb}']
+    return reading_output_df

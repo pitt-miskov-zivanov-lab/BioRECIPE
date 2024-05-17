@@ -9,13 +9,13 @@
 # python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
 
 # where you need to have the terminal work in the directory of this python script
-# and [SBMLQual] is the path and name of SBMLQual file, and [BioRECIPE] is the generated file in BioRecipes format
+# and [SBMLQual] is the path and name of SBMLQual file, and [BioRECIPE] is the generated model in BioRecipes format
 
 import bs4
 import pandas as pd
 import argparse
 
-model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
+biorecipe_model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
               'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
               'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
               'Positive Regulator List', 'Positive Connection Type List',
@@ -28,19 +28,16 @@ model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
               'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
               'Update Group', 'Update Rate', 'Update Rank']
 
-biorecipe_col = ["Regulator Name", "Regulator Type", "Regulator Subtype", "Regulator HGNC Symbol", "Regulator Database",
-                 "Regulator ID", "Regulator Compartment", "Regulator Compartment ID"
-    , "Regulated Name", "Regulated Type", "Regulated Subtype", "Regulated HGNC Symbol", "Regulated Database",
-                 "Regulated ID", "Regulated Compartment", "Regulated Compartment ID", "Sign", "Connection Type"
-    , "Mechanism", "Site", "Cell Line", "Cell Type", "Tissue Type", "Organism", "Score", "Source", "Statements",
-                 "Paper IDs"]
-
 class SBMLQualMath():
-    """SBMLQual processor
 
     """
+    SBMLQual processor
+    """
+
     def sbmlqual_biorecipe(self, input_file, output_file):
-        """translate SBMLQual XML file to BioRECIPE format
+
+        """
+        translate SBMLQual XML file to BioRECIPE format
 
         :param str input_file: the filename of the SBMLQual
         :param str output_file: the filename of the translated BioRECIPE
@@ -49,7 +46,7 @@ class SBMLQualMath():
         """
 
         # initialize a model dataframe in BioRECIPE format
-        biorecipe_df = pd.DataFrame(columns=model_cols)
+        biorecipe_df = pd.DataFrame(columns=biorecipe_model_cols)
 
         # XML.etree has some issues of parsing the SBMLQual XML file. BeautifulSoup loses the upper cases while reading
         res = bs4.BeautifulSoup(open(input_file).read(), 'lxml')
@@ -102,8 +99,8 @@ class SBMLQualMath():
         biorecipe_df.to_excel(output_file, index=False)
 
     def _get_reaction_from_mathml(self, contents):
-        # TODO: we assume sop here
 
+        # TODO: we assume sop boolean expression here
         # only have one or two regulators
         if contents.find('and') and not contents.find('or'):
             lhs = self._get_lhs_from_mathml(contents)
@@ -138,34 +135,19 @@ class SBMLQualMath():
             lhs = ["(" + lhs + ")"]
         return lhs
 
-def sbmlqual_to_biorecipe(input, output):
+def get_biorecipeM_from_sbmlqual(input, output):
     sbmlqual_math = SBMLQualMath()
     sbmlqual_math.sbmlqual_biorecipe(input, output)
-    print("Finished: {0}".format(output))
-
-def sbmlqual_to_biorecipe_interactions(input, output):
-    print('biorecipe model can be translated to interactions')
-    pass
 
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('input', type=str,
-        help='Input file name')
-    parser.add_argument('output', type=str,
-        help='Output file name')
-    parser.add_argument('--input_format', '-i', type=str, choices=['model','interactions'],
-        default='model',
-        help='Input file format \n'
-        '\t model (default): BioRECIPE model tabular format \n'
-        '\t interactions: BioRECIPE interaction lists format \n')
+    parser.add_argument('--input_file', '-i', type=str, help='Path and name of input file (.xml)')
+    parser.add_argument('--output_file','-o', type=str, help='Path and name of model output (.xlsx)')
 
     args = parser.parse_args()
 
-    if args.input_format == 'model':
-        sbmlqual_to_biorecipe(args.input, args.output)
-    elif args.input_format == 'interacitons':
-        sbmlqual_to_biorecipe_interactions(args.input, args.output)
+    get_biorecipeM_from_sbmlqual(args.input_file, args.output_file)
 
 if __name__ == "__main__":
     main()

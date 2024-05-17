@@ -1,60 +1,9 @@
-from within_biorecipe.biorecipe_std import BioRECIPE, get_model
+from within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
 import pandas as pd
+import networkx as nx
 import warnings
 import re
 import argparse
-
-def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
-
-    """
-    This is a function to translate REACH tabular format to BioRECIPE interaction format
-
-    Parameters
-	----------
-    reach_tab_file:
-        REACH tabular format file (.csv) containing reading machine's output
-
-    Returns
-	-------
-    interactions_file:
-        BioRECIPE interaction file
-    """
-
-    input_df = pd.read_csv(reach_tab_file, sep='\t')
-    recipe_format = BioRECIPE()
-    reach_tab = recipe_format.get_format("reach_tab")
-    biorecipe = recipe_format.get_format("biorecipe")
-
-    output_df_biorecipe = pd.DataFrame(columns=recipe_format.biorecipe_cols)
-    for i in range(len(input_df)):
-        for col in recipe_format.default_cols:
-            biorecipe_col = biorecipe[col]
-            reach_tab_col = reach_tab[col]
-            if col == "regulator_name":
-                if input_df.isnull().loc[i, reach_tab["NegReg_Name"]]:
-                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["PosReg_Name"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["PosReg_ID"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
-                        i, reach_tab["PosReg_Location"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
-                        i, reach_tab["PosReg_Location_ID"]]
-                    output_df_biorecipe.loc[i, biorecipe["sign"]] = "positive"
-
-                else:
-                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["NegReg_Name"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["NegReg_ID"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
-                        i, reach_tab["NegReg_Location"]]
-                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
-                        i, reach_tab["NegReg_Location_ID"]]
-                    output_df_biorecipe.loc[i, biorecipe["sign"]] = "negative"
-            elif reach_tab_col and biorecipe_col:
-                output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab_col]
-            else:
-                pass
-    df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_cols)
-    df.to_excel(interactions_file, index=False)
-    return
 
 def get_element(reg_rule: str, layer=0):
 
@@ -178,233 +127,14 @@ def split_comma_out_parentheses(reg_rule:str):
             start = index+1
     return reg_list
 
-def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
+def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
 
     """
-    Parameters
-    ----------
-    df: pd.DataFrame
-        A DataFrame to be processed
-    col_name: str
-        Column name to look into
-
-    Returns
-    -------
-    df: pd.DataFrame
-        Resulting dataFrame
-    """
-
-    df = df.fillna('nan')
-    entity_attribute_col = ['Name', 'ID', 'Type']
-    entity, attribute = col_name.split(' ')
-    entity_attribute_col.remove(attribute)
-    df = df.astype(str)
-    for row in range(len(df)):
-        value = df.loc[row, col_name]
-        # operate on this column
-        if ',' in value:
-            value_list = value.split(',')
-            value_list = [value_i.strip() for value_i in value_list]
-            df.loc[row, col_name] = '_'.join(value_list)
-            # operate on the other columns
-            for col in entity_attribute_col:
-                if ',' in value:
-                    value_attr_1 = df.loc[row, f'{entity} {col}']
-                    value_attr_1_list = value_attr_1.split(',')
-                    value_attr_1_list = [value_i.strip() for value_i in value_attr_1_list]
-                    df.loc[row, f'{entity} {col}'] = '_'.join(value_attr_1_list)
-                else:
-                    pass
-        else:
-            pass
-
-    return df
-
-def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
-
-    """
-    This function will make entities name display their type when entity name are the same
-
-    Parameters
-    ----------
-    reading_df: pd.DataFrame
-        ???
-    entity: str
-        ???
-
-    Returns
-    -------
-    reading_df: pd.DataFrame
-        ???
-    """
-
-    type_dict = {'protein': 'pt', 'gene':'gene', 'chemical': 'ch', 'RNA': 'rna', \
-                 'protein family|protein complex':'pf', 'family':'pf', 'complex':'pf', \
-                 'protein family': 'pf', 'biological process': 'bp'}
-    type_ = list(type_dict.keys())
-    for name_, df in reading_df.groupby(by=f'{entity} Name'):
-        index_list = list(df.index)
-        for row in index_list:
-            entity_type = reading_df.loc[row, f'{entity} Type'].lower()
-
-            if '_' in entity_type:
-                type_multiple = entity_type.split('_')
-                if all(type_i in type_ for type_i in type_multiple):
-                    type_sym = [type_dict[type_i] for type_i in type_multiple]
-                    type_add = '_'.join(type_sym)
-                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_add
-                else:
-                    warnings.warn(
-                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
-                    )
-                    reading_df.drop(row)
-
-            else:
-                if entity_type in type_:
-                    reading_df.loc[row, f'{entity} Name'] = reading_df.loc[row, f'{entity} Name'] + '_' + type_dict[entity_type]
-                else:
-                    warnings.warn(
-                        f'cannot process row {row}, entity types are not included in BioRECIPE.'
-                    )
-                    reading_df.drop(row)
-    return reading_df
-
-
-def check_id_type_and_change_name(reading_df: pd.DataFrame, entity: str) -> pd.DataFrame:
-
-    """
-    This function make sure all the element name are unique based on their attributes ID and type
-
-    Parameters
-    ----------
-    reading_df: pd.Dataframe
-        ???
-    entity: str
-        'regulator' or 'regulated'
-    Returns
-    -------
-    reading_df: pd.Dataframe
-    """
-
-    for id_, df in reading_df.groupby(by=f'{entity} ID'):
-        # get all types and name under controlled by the same ID
-        Type_list = list(set(df[f'{entity} Type'].to_numpy()))
-        name_list = list(set(df[f'{entity} Name'].to_numpy()))
-        # add names to make every entity take a unique name
-        if len(name_list) < len(Type_list):
-            add_name_len = len(Type_list) - len(name_list)
-            # FIXME: This could also be named in different ways
-            for i in range(add_name_len): name_list.append(f'{name_list[-1]}_{i}')
-        else:
-            pass
-
-        # assign the entities have same type with the same name
-        counter = 0 # count how many types are processed
-        for Type in Type_list:
-            sub_df = df[df[f'{entity} Type'] == Type]
-            sub_df_index = list(sub_df.index)
-            for i in range(len(sub_df)):
-                reading_df.loc[sub_df_index[i], f'{entity} Name'] = name_list[counter]
-            counter+=1
-
-    return reading_df
-
-def check_and_change_name(reading_df: pd.DataFrame, entity: str, sort_by_attrb: str) -> pd.DataFrame:
-
-    """
-    This function make sure all the element name are unique based on their attributes ID or type
-
-    Parameters
-    ----------
-    reading_df: pd.Dataframe
-        ???
-    entity: str
-        'regulator' or 'regulated'
-    Returns
-    -------
-    reading_df: pd.Dataframe
-        ???
-    """
-
-    reading_output_df = reading_df.copy()
-    # make all the names different
-    for name, df in reading_df.groupby(by=f'{entity} name'):
-        same_name_index = df.index
-        for i in range(len(same_name_index)):
-            if i == 0:
-                pass
-            else:
-                reading_output_df.loc[same_name_index[i], f'{entity} name'] = reading_output_df.loc[same_name_index[i], f'{entity} name'] + f'_{i}'
-
-    # compare the names by category attribute
-    for id_, df in reading_df.groupby(by=f'{entity} {sort_by_attrb}'):
-        std_index = list(df.index)[0]
-        for row in range(len(df)):
-            reading_output_df.loc[row, f'{entity} {sort_by_attrb}'] = df.loc[std_index, f'{entity} {sort_by_attrb}']
-    return reading_output_df
-
-def preprocess_reading(reading_df: pd.DataFrame) -> pd.DataFrame:
-
-    """
-    This is a function to normalize entity name. Entities
-    that are different but have same entity name will be renamed
-    Rename process follows the rule below:
-        1. Entities with different IDs are different
-        2. Entities with same ID and same type but different names should be renamed identically
-        3. Entities with same name but different type, their element names should be distinguished
-    """
-
-    # check if there are multiple entities in a single row
-    for entity in ['Regulator', 'Regulated']:
-        # check if there are multiple entities in a single row
-        name_empty, id_empty, type_empty = reading_df[f'{entity} Name'].empty, reading_df[f'{entity} ID'].empty, reading_df[f'{entity} Type'].empty
-        if name_empty:
-            raise ValueError(
-                'Column of element name cannot be empty.'
-            )
-        else:
-            if not id_empty and not type_empty:
-                # first, check all the entities that consist of multiple entities
-                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
-                # groupby the element id and get their attributes by index
-                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
-                # follow rule 3 to make name report their type
-                reading_df = change_name_by_type(reading_df, entity)
-                reading_df = reading_df.reset_index()
-                # make entity unique
-                reading_df = check_id_type_and_change_name(reading_df, entity)
-
-
-            elif not id_empty and type_empty:
-                warnings.warn(
-                    f'{entity} type column is empty. entity names is only sort by IDs.'
-                )
-                reading_df = sub_comma_in_entity(reading_df, f'{entity} Name')
-                reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
-                # sort by id only
-                reading_df = check_and_change_name(reading_df, entity, f'{entity} ID')
-            elif id_empty and not type_empty:
-                warnings.warn(
-                    f'{entity} type column is empty. entity names will be sort by type only'
-                )
-                reading_df = check_and_change_name(reading_df, entity, f'{entity} type')
-            else:
-                warnings.warn(
-                    f'type and ID columns are empty'
-                )
-                pass
-
-    return reading_df
-
-def get_interactions_from_model(model_file, interactions_file):
-
-    """
-    Convert the model into a dataframe of edges in the format
+    Convert the model dataframe into a dataframe of edges in the format
     element-regulator-interaction
     """
 
     # convert to dict for iteration
-    model = get_model(model_file)
     model_dict = model.to_dict(orient='index')
 
     biorecipe_col = ["Regulator Name","Regulator Type","Regulator Subtype","Regulator HGNC Symbol","Regulator Database","Regulator ID","Regulator Compartment","Regulator Compartment ID"
@@ -489,14 +219,12 @@ def get_interactions_from_model(model_file, interactions_file):
     # build BioRECIPE up
     interaction_bio_df = pd.concat([interaction_df, pd.DataFrame(columns=other_cols)], axis=1)
     # reorder the columns
-    interaction_bio_df[biorecipe_col].to_excel(interactions_file, index=False)
-    return
+    return interaction_bio_df[biorecipe_col]
 
-
-def get_model_from_interactions(interactions_file, model_file):
+def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
 
     """
-    Convert a interaction list file to BioRECIPE executable model file
+    Convert a interaction dataFrame to model dataframe
     """
 
     model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
@@ -528,14 +256,9 @@ def get_model_from_interactions(interactions_file, model_file):
             'Tissue Type',
             'Organism']
 
-    interaction_df = pd.read_excel(interactions_file, index_col=None)
-
     ele_dict, pos_reg_list,output_df, output_ele_df = {}, str(), pd.DataFrame(columns=model_cols), pd.DataFrame(columns=attrb_cols)
     category_stack = []
 
-    # preprocess the spreadsheet
-    interaction_df = preprocess_reading(interaction_df)
-    ######clean up the name of regulator and element
     # Get all unique elements to index
     category = set(interaction_df['Regulated Name'].str.lower())
     category = [str(ele) for ele in category]
@@ -671,8 +394,7 @@ def get_model_from_interactions(interactions_file, model_file):
     other_cols = list(set(model_cols) - set(output_ele_df.columns))
     # build BioRECIPE up
     model_bio_df = pd.concat([output_ele_df, pd.DataFrame(columns=other_cols)], axis = 1)
-    model_bio_df[model_cols].to_excel(model_file, index=False)
-    return
+    return model_bio_df[model_cols]
 
 def model_to_edges_set(model : pd.DataFrame) -> set:
 
@@ -710,9 +432,129 @@ def model_to_edges_set(model : pd.DataFrame) -> set:
 
     return edges_set
 
-def get_interactions(model_file: str) -> pd.DataFrame:
-    df_interactions = pd.read_excel(model_file, index_col=None)
-    return df_interactions
+def model_to_edges(model : pd.DataFrame) -> pd.DataFrame:
+    """Convert the model into a dataframe of edges in the format
+        element-regulator-interaction
+    """
+
+    # convert to dict for faster iteration
+    model_dict = model_to_dict(model)
+
+    edges_dict = dict()
+
+    # create entries in edges_dict for each regulator-regulated pair in the model
+    # using the model dict positive and negative regulator lists
+    for key,item in model_dict.items():
+
+        # re-parsing here to handle ! (not) notation
+        # TODO: also handle AND, highest state, etc.
+        pos_list = [x.strip() for x in re.findall(r'[a-zA-Z0-9\_!=]+',item.get('Positive Regulation Rule',''))]
+        neg_list = [x.strip() for x in re.findall(r'[a-zA-Z0-9\_!=]+',item.get('Negative Regulation Rule',''))]
+
+        # TODO: preserve element/regulator names and attributes
+        pos_dict = {
+            key+'pos'+str(i) : {'element':key, 'regulator':pos, 'interaction':'increases'}
+            if pos[0]!='!' else {'element':key, 'regulator':pos[1:], 'interaction':'NOT increases'}
+            for i,pos in enumerate(pos_list)
+            }
+        neg_dict = {
+            key+'neg'+str(i) : {'element':key, 'regulator':neg, 'interaction':'decreases'}
+            if neg[0]!='!' else {'element':key, 'regulator':neg[1:], 'interaction':'NOT decreases'}
+            for i,neg in enumerate(neg_list)
+            }
+        edges_dict.update(pos_dict)
+        edges_dict.update(neg_dict)
+
+    edges_df = pd.DataFrame.from_dict(edges_dict,orient='index')
+
+    return edges_df
+
+def model_to_networkx(model: pd.DataFrame) -> nx.DiGraph():
+    """Convert model to a networkx graph
+    """
+
+    edges = model_to_edges(model)
+    # In networkx 2.0 from_pandas_dataframe has been removed.
+    graph = nx.from_pandas_edgelist(edges,
+        source='regulator',target='element',edge_attr='interaction',
+        create_using=nx.DiGraph())
+
+    return graph
+
+def get_interactions_from_model(model_file, interactions_file):
+
+    """
+    Convert the model spreadsheet .xlsx into interaction spreadsheet .xlsx
+    """
+
+    model = get_model(model_file)
+    interaction_df = model_to_interactions(model)
+    interaction_df.to_excel(interactions_file, index=False)
+    return
+
+def get_model_from_interactions(interaction_file, model_file):
+
+    """
+    Convert the interaction spreadsheet .xlsx into model spreadsheet .xlsx
+    """
+
+    # load and preprocess the interactions to DataFrame
+    interaction_df = get_reading(interaction_file)
+    model_df = interactions_to_model(interaction_df)
+    model_df.to_excel(model_file, index=False)
+    return
+
+def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
+
+    """
+    This is a function to translate REACH tabular format to BioRECIPE interaction format
+
+    Parameters
+	----------
+    reach_tab_file:
+        REACH tabular format file (.csv) containing reading machine's output
+
+    Returns
+	-------
+    interactions_file:
+        BioRECIPE interaction file
+    """
+
+    input_df = pd.read_csv(reach_tab_file, sep='\t')
+    recipe_format = BioRECIPE()
+    reach_tab = recipe_format.get_format("reach_tab")
+    biorecipe = recipe_format.get_format("biorecipe")
+
+    output_df_biorecipe = pd.DataFrame(columns=recipe_format.biorecipe_cols)
+    for i in range(len(input_df)):
+        for col in recipe_format.default_cols:
+            biorecipe_col = biorecipe[col]
+            reach_tab_col = reach_tab[col]
+            if col == "regulator_name":
+                if input_df.isnull().loc[i, reach_tab["NegReg_Name"]]:
+                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["PosReg_Name"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["PosReg_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
+                        i, reach_tab["PosReg_Location"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
+                        i, reach_tab["PosReg_Location_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["sign"]] = "positive"
+
+                else:
+                    output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["NegReg_Name"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["NegReg_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
+                        i, reach_tab["NegReg_Location"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
+                        i, reach_tab["NegReg_Location_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["sign"]] = "negative"
+            elif reach_tab_col and biorecipe_col:
+                output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab_col]
+            else:
+                pass
+    df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_cols)
+    df.to_excel(interactions_file, index=False)
+    return
 
 def main():
     parser = argparse.ArgumentParser(
