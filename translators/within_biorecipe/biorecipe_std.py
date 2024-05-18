@@ -454,10 +454,9 @@ def get_reading(reading_file: str) -> pd.DataFrame:
                 reading_df[f'{entity} Name'] = reading_df[f'{entity} Name'].str.lower()
                 # follow rule 3 to make name report their type
                 reading_df = change_name_by_type(reading_df, entity)
-                reading_df = reading_df.reset_index()
+                reading_df = reading_df.reset_index(drop=True)
                 # make entity unique
                 reading_df = check_id_type_and_change_name(reading_df, entity)
-
 
             elif not id_empty and type_empty:
                 warnings.warn(
@@ -477,7 +476,7 @@ def get_reading(reading_file: str) -> pd.DataFrame:
                     f'type and ID columns are empty'
                 )
                 pass
-
+    reading_df.fillna('',inplace=True)
     return reading_df
 
 def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
@@ -498,11 +497,11 @@ def sub_comma_in_entity(df: pd.DataFrame, col_name: str):
         Resulting dataFrame
     """
 
-    df = df.fillna('nan')
+    #df = df.fillna('nan')
     entity_attribute_col = ['Name', 'ID', 'Type']
     entity, attribute = col_name.split(' ')
     entity_attribute_col.remove(attribute)
-    df = df.astype(str)
+    df = df.astype("string")
     for row in range(len(df)):
         value = df.loc[row, col_name]
         # operate on this column

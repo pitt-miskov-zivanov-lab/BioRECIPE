@@ -69,7 +69,7 @@ def get_sbml_from_biorecipeI(input_file, output_file):
     logging.info("          reactions: " + str(model.getNumReactions()))
     logging.info("             events: " + str(model.getNumEvents()))
 
-    return DOCUMENT
+    return
 
 def print_sbml(filename):
     DOCUMENT = readSBML(filename)

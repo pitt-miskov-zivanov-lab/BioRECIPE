@@ -210,7 +210,7 @@ def get_biorecipeM_from_sbml(map_filename: str, model_filename: str):
     casq.simplify_model(info, [], [])
     write_qual_modified(model_filename, info, width, height)
     write_biorecipes(model_filename, info)
-    print("Finished: {}".format(model_filename.split('/')[-1]))
+    #print("Finished: {}".format(model_filename.split('/')[-1]))
 
 def main():
     parser = argparse.ArgumentParser()

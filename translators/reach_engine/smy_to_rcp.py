@@ -315,7 +315,7 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 
 			fOut_BioRECIPE.loc[i, "Sign"] = "negative"
 		else:
-			print("Unspecified Regulation Type: {0}".format(fOut.loc[i, "Regulation Type"]))
+			#print("Unspecified Regulation Type: {0}".format(fOut.loc[i, "Regulation Type"]))
 			fOut_FLUTE.loc[i, "InteractionType"] = "increases"
 
 			fOut_VIOLIN.loc[i, "Positive Reg Name"] = fOut.loc[i, "Regulator Name"]
@@ -331,7 +331,7 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 			fOut_VIOLIN.loc[i, "Connection Type"] = "I"
 			fOut_BioRECIPE.loc[i, "Connection Type"] = "False"
 		else:
-			print("Unspecified Connection Type: {0}".format(fOut.loc[i, "Connection Type"]))
+			#print("Unspecified Connection Type: {0}".format(fOut.loc[i, "Connection Type"]))
 			fOut_VIOLIN.loc[i, "Connection Type"] = "I"
 			fOut_BioRECIPE.loc[i, "Connection Type"] = "False"
 
@@ -355,7 +355,7 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 	if violin:
 		fOut_VIOLIN.to_excel(fName_VIOLIN, index=False)
 
-	print("Finished.")
+	#print("Finished.")
 	# np.savetxt(fName,networkArray,fmt="%s",encoding="utf-8",delimiter="\t", header=h,comments="")
 
 def get_biorecipeI_from_reach_smy(json_file_name, output_file_name):

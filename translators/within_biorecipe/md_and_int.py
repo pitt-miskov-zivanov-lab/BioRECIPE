@@ -1,5 +1,6 @@
 from within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
 import pandas as pd
+import numpy as np
 import networkx as nx
 import warnings
 import re
@@ -236,12 +237,11 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
        'Negative Mechanism List', 'Negative Site List', 'Score List',
        'Source List', 'Statements List', 'Paper IDs List',
        'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
-       'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
+       'Value Type', 'Levels', 'State List 0', 'State List 1', 'State List 2', 'Const OFF',
        'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
        'Update Group', 'Update Rate', 'Update Rank']
 
-    attrb_cols = ['Element Name', 'Element Type', 'Element Database', 'Element Subtype','Element HGNC Symbol','Element IDs','Compartment'
-             'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism']
+    attrb_cols = ['Element Name', 'Element Type', 'Element Database', 'Element Subtype','Element HGNC Symbol','Element IDs','Compartment', 'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism']
 
     bio_attrb = ['Regulated Name',
             'Regulated Type',
@@ -256,7 +256,7 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
             'Tissue Type',
             'Organism']
 
-    ele_dict, pos_reg_list,output_df, output_ele_df = {}, str(), pd.DataFrame(columns=model_cols), pd.DataFrame(columns=attrb_cols)
+    ele_dict, pos_reg_list, output_ele_df = {}, str(), pd.DataFrame(columns=model_cols)
     category_stack = []
 
     # Get all unique elements to index
@@ -337,34 +337,41 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
             source = str(element_df.loc[row, 'Source'])
             score = str(element_df.loc[row, 'Score'])
 
-            # check if adjecent rows are from same paper id, sousrce, or score
+            # check if adjecent rows are from same paper id, source, or score
             if row != 0:
                 paper_id_list = paper_id_list + ',' + paper_id if paper_id != 'nan' else paper_id_list + ','
                 source_list = source_list + ',' + source if source != 'nan' else source_list + ','
                 score_list = score_list + ',' + score if score != 'nan' else score_list + ','
             else:
-                paper_id_list = paper_id if paper_id != 'nan' else ''
-                source_list = source if source != 'nan' else ''
-                score_list = score if score != 'nan' else ''
+                paper_id_list = paper_id if paper_id != 'nan' else np.nan
+                source_list = source if source != 'nan' else np.nan
+                score_list = score if score != 'nan' else np.nan
 
         # copy regulated element attributions
         element_attribution = element_df.loc[0, bio_attrb]
         for i in range(len(attrb_cols)):
             output_ele_df.loc[k,attrb_cols[i]] = element_attribution[bio_attrb[i]]
 
+        output_ele_df.loc[k, '#'] = str(int(k+1))
+
         # paste the list parsed above
         output_ele_df.loc[k, 'Variable'] = element_name
         output_ele_df.loc[k, 'Positive Regulator List'] = pos_reg_list
         output_ele_df.loc[k, 'Negative Regulator List'] = neg_reg_list
-        output_ele_df.loc[k, 'Positive Connection Type List'] = pos_connection
-        output_ele_df.loc[k, 'Negative Connection Type List'] = neg_connection
-        output_ele_df.loc[k, 'Positive Mechanism List'] = pos_mech
-        output_ele_df.loc[k, 'Negative Mechanism List'] = neg_mech
-        output_ele_df.loc[k, 'Positive Site List'] = pos_site
-        output_ele_df.loc[k, 'Negative Site List'] = neg_site
-        output_ele_df.loc[k, 'Paper IDs List'] = paper_id_list
-        output_ele_df.loc[k, 'Source List'] = source_list
-        output_ele_df.loc[k, 'Score List'] = score_list
+        output_ele_df.loc[k, 'Positive Connection Type List'] = pos_connection if (pos_connection != len(pos_connection) * ',') else np.nan
+        output_ele_df.loc[k, 'Negative Connection Type List'] = neg_connection if (neg_connection != len(neg_connection) * ',') else np.nan
+        output_ele_df.loc[k, 'Positive Mechanism List'] = pos_mech if (pos_mech != len(pos_mech) * ',') else np.nan
+        output_ele_df.loc[k, 'Negative Mechanism List'] = neg_mech if (neg_mech != len(neg_mech) * ',') else np.nan
+        output_ele_df.loc[k, 'Positive Site List'] = pos_site if (pos_site != len(pos_site) * ',') else np.nan
+        output_ele_df.loc[k, 'Negative Site List'] = neg_site if (neg_site != len(neg_site) * ',') else np.nan
+        output_ele_df.loc[k, 'Paper IDs List'] = paper_id_list if (paper_id_list != len(paper_id_list) * ',') else np.nan
+        output_ele_df.loc[k, 'Source List'] = source_list if (source_list != len(source_list) * ',') else np.nan
+        output_ele_df.loc[k, 'Score List'] = score_list if (score_list != len(score_list) * ',') else np.nan
+
+        #FIXME later: for now assume 'Positive Regulation Rule' is always ORing all elements in 'Positive Regulator List'
+        output_ele_df.loc[k, 'Positive Regulation Rule'] = pos_reg_list
+        output_ele_df.loc[k, 'Negative Regulation Rule'] = neg_reg_list
+
         k+=1
 
     category_add = list(set(category_reg) - set(element_name_list))
@@ -373,28 +380,28 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
         element_df = interaction_df.loc[interaction_df['Regulator Name'] == element].reset_index(drop=True)
 
         # get attributes
-        ele_ids = set(element_df['Regulator ID'].astype(str).to_list())
-        ele_type = set(element_df['Regulator Type'].astype(str).to_list())
-        ele_subtype = set(element_df['Regulator Subtype'].astype(str).to_list())
-        ele_db = set(element_df['Regulator Database'].astype(str).to_list())
+        ele_ids = set(element_df['Regulator ID'].astype("string").to_list())
+        ele_type = set(element_df['Regulator Type'].astype("string").to_list())
+        ele_subtype = set(element_df['Regulator Subtype'].astype("string").to_list())
+        ele_db = set(element_df['Regulator Database'].astype("string").to_list())
 
         # append attributes with different names but same element
         name_list = set(element_df['Regulator Name'].to_list())
 
         for name in name_list:
+            output_ele_df.loc[k, '#'] = str(int(k+1))
             output_ele_df.loc[k, 'Element Name'] = name
             output_ele_df.loc[k, 'Variable'] = name
             # Put them to the model
-            output_ele_df.loc[k, 'Element IDs'] = ','.join(list(ele_ids))
-            output_ele_df.loc[k, 'Element Type'] = ','.join(list(ele_type))
-            output_ele_df.loc[k, 'Element Subtype'] = ','.join(list(ele_subtype))
-            output_ele_df.loc[k, 'Element Database'] = ','.join(list(ele_db))
+            output_ele_df.loc[k, 'Element IDs'] = ','.join([i for i in list(ele_ids) if not pd.isna(i)])
+            output_ele_df.loc[k, 'Element Type'] = ','.join([i for i in list(ele_type) if not pd.isna(i)])
+            output_ele_df.loc[k, 'Element Subtype'] = ','.join([i for i in list(ele_subtype) if not pd.isna(i)])
+            output_ele_df.loc[k, 'Element Database'] = ','.join([i for i in list(ele_db) if not pd.isna(i)])
             k+=1
 
-    other_cols = list(set(model_cols) - set(output_ele_df.columns))
+    output_ele_df.fillna('',inplace=True)
     # build BioRECIPE up
-    model_bio_df = pd.concat([output_ele_df, pd.DataFrame(columns=other_cols)], axis = 1)
-    return model_bio_df[model_cols]
+    return output_ele_df
 
 def model_to_edges_set(model : pd.DataFrame) -> set:
 
