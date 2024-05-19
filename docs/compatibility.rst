@@ -27,14 +27,14 @@ The tables below list example formats, databases, and tools and links to transla
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
     :widths: 15, 15, 10, 10, 50
 
-    `SBML <https://sbml.org>`_, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
-    `SBML-qual <https://sbml.org/documents/specifications/level-3/version-1/qual/>`_, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
-    `SIF <https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html>`_, TXT, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE Interaction List and from BioRECIPE Executable Model
-    `BioPAX <https://www.biopax.org>`_, "RDF/OWL, SBML", ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
-    `BEL <https://bel.bio>`_, TXT (INDRA), ✓, ✓, Translation from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
-    `PySB <https://pysb.org>`_, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE 
-    `REACH <http://agathon.sista.arizona.edu:8080/odinweb/>`_, tabular format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH tabular format to BioRECIPE interaction List
-    `TRIPS <https://trips.ihmc.us/parser/cgi/drum-dev>`_, XML, ✓, N/A, Translation from TRIPS output to BioRECIPE Interaction List
+    `SBML <https://sbml.org>`_, RDF/XML, ✓, ✓, `Direct translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to and from BioRECIPE 
+    `SBML-qual <https://sbml.org/documents/specifications/level-3/version-1/qual/>`_, RDF/XML, ✓, ✓, `Direct translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE
+    `SIF <https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html>`_, TXT, ✓, ✓, `Direct translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE
+    `BioPAX <https://www.biopax.org>`_, "RDF/OWL, SBML", ✓, ✓, Translation from and to BioPAX files can be done via `SBML translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to and from BioRECIPE
+    `BEL <https://bel.bio>`_, Structured TXT (BEL statements), ✓, ✓, Translation from and to `BEL statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_ via `INDRA engine translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra_engine>`_
+    `PySB <https://pysb.org>`_, `SBML <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_, ✓, ✓, `Translation from and to PySB files can be done via `SBML translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to and from BioRECIPE 
+    `REACH <http://agathon.sista.arizona.edu:8080/odinweb/>`_, Tabular (e.g., tsv), ✓, N/A, `Direct translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/reach_engine>`_ from REACH tabular format to BioRECIPE interaction list
+    `TRIPS <https://trips.ihmc.us/parser/cgi/drum-dev>`_, XML, ✓, N/A, ???Translation from TRIPS output to BioRECIPE interaction list
 
 |
 
