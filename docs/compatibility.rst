@@ -6,7 +6,9 @@ The BioRECIPE format is compatible with a range of representation formats, datab
 
 Attribute compatibility
 -----------------------
-Here we provide an overview of which attributes that BioRECIPE considers are included in other representation formats, output by several tools, including LLMs, or input in models by human curators. Note: additional standards, databaes, and tools are listed in the following section.
+Here we provide an overview of which attributes that BioRECIPE considers are included in other representation formats, output by several tools, including LLMs, or input in models by human curators.
+
+Additional standards, databases, and tools and their compatibilities with BioRECIPE are listed in the following sections.
 
 .. figure:: figures/figure_attribute_comparison_acrros_tools_representations.png
     :align: center
@@ -14,10 +16,10 @@ Here we provide an overview of which attributes that BioRECIPE considers are inc
 
 |
 
-Translators
------------
+Translators summary
+-------------------
 
-The tables below list example formats, databases, and tools and links to translators. The translator repositories provide further instructions for the use of translators.
+The tables below list example formats, databases, and tools and links to translators.
 
 | 
 
@@ -25,14 +27,14 @@ The tables below list example formats, databases, and tools and links to transla
     :header: Standard, Format, To BioRECIPE, From BioRECIPE, Description
     :widths: 15, 15, 10, 10, 50
 
-    SBML, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
-    SBML-qual, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
-    SIF, TXT, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE Interaction List and from BioRECIPE Executable Model
-    BioPAX, "RDF/OWL, SBML", ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
-    BEL, TXT (INDRA), ✓, ✓, Translation from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
-    PySB, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE 
-    REACH, tabular format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH tabular format to BioRECIPE interaction List
-    TRIPS, XML, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/REACH_TRIPS>`_ from TRIPS output to BioRECIPE Interaction List
+    `SBML <https://sbml.org>`_, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to BioRECIPE Executable Model and from BioRECIPE Interaction List 
+    `SBML-qual <https://sbml.org/documents/specifications/level-3/version-1/qual/>`_, RDF/XML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbmlqual>`_ to and from BioRECIPE Executable Model
+    `SIF <https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html>`_, TXT, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/SIF>`_ to and from BioRECIPE Interaction List and from BioRECIPE Executable Model
+    `BioPAX <https://www.biopax.org>`_, "RDF/OWL, SBML", ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to BioPAX files can be done through SBML translation to and from BioRECIPE
+    `BEL <https://bel.bio>`_, TXT (INDRA), ✓, ✓, Translation from and to `BEL statements <https://github.com/pybel/pybel>`_ through `INDRA statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_
+    `PySB <https://pysb.org>`_, SBML, ✓, ✓, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ from and to `PySB files <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_ can be done through the SBML translation to and from BioRECIPE 
+    `REACH <http://agathon.sista.arizona.edu:8080/odinweb/>`_, tabular format, ✓, N/A, `Translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/BioRECIPE%20Interactions>`_ from REACH tabular format to BioRECIPE interaction List
+    `TRIPS <https://trips.ihmc.us/parser/cgi/drum-dev>`_, XML, ✓, N/A, Translation from TRIPS output to BioRECIPE Interaction List
 
 |
 
