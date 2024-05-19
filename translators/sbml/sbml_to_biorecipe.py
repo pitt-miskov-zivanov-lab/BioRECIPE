@@ -12,20 +12,9 @@ from typing import Optional
 import xml.etree.ElementTree as etree
 import pandas as pd
 import networkx as nx
+from within_biorecipe.biorecipe_std import biorecipe_mdl_cols
 
 # TODO: multiple scenario translation
-scenario_detailed_col = ['Element Name', 'Element Type', 'Element Subtype',
-       'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
-       'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-       'Positive Regulator List', 'Positive Connection Type List',
-       'Positive Mechanism List', 'Positive Site List',
-       'Negative Regulator List', 'Negative Connection Type List',
-       'Negative Mechanism List', 'Negative Site List', 'Score List',
-       'Source List', 'Statements List', 'Paper IDs List',
-       'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
-       'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
-       'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
-       'Update Group', 'Update Rate', 'Update Rank']
 
 NS = {
         "sbml": "http://www.sbml.org/sbml/level2/version4",
@@ -148,7 +137,7 @@ def mathml_to_biorecipes(math: Optional[etree.Element], info):
     return pos, neg
 
 def write_biorecipes(filename, info):
-    df = pd.DataFrame(columns=scenario_detailed_col)
+    df = pd.DataFrame(columns=biorecipe_mdl_cols)
 
     for species, data in sorted(info.items()):
         if data["transitions"]:

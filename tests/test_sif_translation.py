@@ -1,27 +1,43 @@
-from translators.SIF import api
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'translators')))
+from sif.to_from import get_sif_from_biorecipeM, get_sif_from_biorecipeI, get_biorecipeI_from_sif
 
-biorecipeM_input = '../examples/models/BooleanTcell_biorecipe.xlsx'
-biorecipeI_input = '../examples/interaction_lists/Reading_biorecipe.xlsx'
-sifM_output = '../examples/sif/BooleanTcell_biorecipe.sif'
-sifI_output = '../examples/sif/Reading_biorecipe.sif'
+biorecipeM_input = 'models/BooleanTcell_biorecipe.xlsx'
+sifM_output = 'sif/BooleanTcell_biorecipe.sif'
 
-sif_input = '../examples/sif/gbm_ints.sif'
-biorecipe_output = '../examples/interaction_lists/gbm_ints.xlsx'
+biorecipeI_input = 'interaction_lists/reading_biorecipe.xlsx'
+sifI_output = 'sif/reading_biorecipe.sif'
 
-def test_biorecipeM_to_sif():
-    api.biorecipeM_to_sif(biorecipeM_input, sifM_output)
+sif_input = 'sif/gbm_ints.sif'
+biorecipe_output = 'interaction_lists/gbm_ints.xlsx'
 
-def test_biorecipeI_to_sif():
-    api.biorecipeI_to_sif(biorecipeI_input, sifI_output)
+test_files_rl_path = '../examples/'
 
-def test_sif_to_biorecipeI():
-    api.sif_to_biorecipeI(sif_input, biorecipe_output)
+def test_sif_from_biorecipeM():
+
+    get_sif_from_biorecipeM(
+    test_files_rl_path + biorecipeM_input,
+    test_files_rl_path + sifM_output
+    )
+
+def test_sif_from_biorecipeI():
+
+    get_sif_from_biorecipeI(
+    test_files_rl_path + biorecipeI_input,
+    test_files_rl_path + sifI_output
+    )
+
+def test_biorecipeI_from_sif():
+
+    get_biorecipeI_from_sif(
+    test_files_rl_path + sif_input,
+    test_files_rl_path + biorecipe_output
+    )
 
 def main():
-    # test apis and examples of our sif translator
-    test_biorecipeM_to_sif()
-    test_biorecipeI_to_sif()
-    test_sif_to_biorecipeI()
+    test_sif_from_biorecipeM()
+    test_sif_from_biorecipeI()
+    test_biorecipeI_from_sif()
 
 if __name__ == "__main__":
     main()

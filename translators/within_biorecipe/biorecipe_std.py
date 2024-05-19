@@ -7,28 +7,35 @@ import re
 import argparse
 import logging
 
+biorecipe_mdl_cols  =  ['#', 'Element Name', 'Element Type', 'Element Subtype',
+                        'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
+                        'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
+                        'Positive Regulator List', 'Positive Connection Type List',
+                        'Positive Mechanism List', 'Positive Site List',
+                        'Negative Regulator List', 'Negative Connection Type List',
+                        'Negative Mechanism List', 'Negative Site List', 'Score List',
+                        'Source List', 'Statements List', 'Paper IDs List',
+                        'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
+                        'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
+                        'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
+                        'Update Group', 'Update Rate', 'Update Rank']
 
-model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
-       'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
-       'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-       'Positive Regulator List', 'Positive Connection Type List',
-       'Positive Mechanism List', 'Positive Site List',
-       'Negative Regulator List', 'Negative Connection Type List',
-       'Negative Mechanism List', 'Negative Site List', 'Score List',
-       'Source List', 'Statements List', 'Paper IDs List',
-       'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
-       'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
-       'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
-       'Update Group', 'Update Rate', 'Update Rank']
+biorecipe_int_cols  =   ['Regulator Name', 'Regulator Type', 'Regulator Subtype',
+						 'Regulator HGNC Symbol', 'Regulator Database', 'Regulator ID',
+						 'Regulator Compartment', 'Regulator Compartment ID',
+						 'Regulated Name', 'Regulated Type', 'Regulated Subtype',
+						 'Regulated HGNC Symbol', 'Regulated Database', 'Regulated ID',
+						 'Regulated Compartment', 'Regulated Compartment ID',
+						 'Sign', 'Connection Type', 'Mechanism', 'Site',
+						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
+						 'Score', 'Source', 'Statements', 'Paper IDs']
 
 # define regex for valid characters in variable names
 _VALID_CHARS = r'a-zA-Z0-9\_'
 
 # valid element types
-_VALID_TYPES = [
-    'protein', 'protein family', 'protein complex',
-    'rna', 'mrna', 'gene', 'chemical', 'biological process'
-    ]
+_VALID_TYPES = ['protein', 'protein family', 'protein complex',
+                'rna', 'mrna', 'gene', 'chemical', 'biological process']
 
 _VAR_COL = 'Variable'
 _IDX_COL = '#'
@@ -98,7 +105,7 @@ class ReadingOutput:
     matchlevel: Optional[str] = None
     epistemicvalue: Optional[str] = None
     file_numbers: Optional[str] = None
-    number:Optional[str] = None
+    number: Optional[str] = None
     database_source: Optional[str] = None
     database_id: Optional[str] = None
 
@@ -173,7 +180,8 @@ class BioRECIPE:
         self.default_cols = list(self.__BIORECIPE_DICT.keys())
 
         # Finally, we create BioRECIPE, reach_tab, FLUTE, VIOLIN, and CLARINET table headers to contain the data
-        self.biorecipe_cols = list(self.BIORECIPE.values())
+        self.biorecipe_int_cols = list(self.BIORECIPE.values())
+        self.biorecipe_mdl_cols = biorecipe_mdl_cols
         self.reach_tab_cols = list(self.reach_tab.values())
 
     @classmethod

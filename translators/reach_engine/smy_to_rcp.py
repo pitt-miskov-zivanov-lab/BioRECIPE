@@ -16,18 +16,7 @@ import numpy as np
 from indra.sources import reach
 from indra.belief import SimpleScorer
 import pandas as pd
-
-# TODO: organize these functions and develop a class to handle the translation
-
-BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype',
-						 'Regulator HGNC ID', 'Regulator Database', 'Regulator ID',
-						 'Regulator Compartment', 'Regulator Compartment ID',
-						 'Regulated Name', 'Regulated Type', 'Regulated Subtype',
-						 'Regulated HGNC ID', 'Regulated Database', 'Regulated ID',
-						 'Regulated Compartment', 'Regulated Compartment ID',
-						 'Sign', 'Connection Type', 'Mechanism', 'Site',
-						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-						 'Score', 'Source', 'Statements', 'Paper IDs']
+from within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
 
@@ -267,7 +256,7 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 				 "Paper ID", "Evidence"])
 
 	# Reading output in BioRECIPE format
-	fOut_BioRECIPE = pd.DataFrame(columns=BioRECIPE_reading_col)
+	fOut_BioRECIPE = pd.DataFrame(columns=biorecipe_int_cols)
 
 	# convert INDRA statements to VIOLN & FLUTE formats
 	for i in range(len(fOut)):

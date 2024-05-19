@@ -4,17 +4,7 @@ import glob
 from indra.belief import SimpleScorer
 from indra.sources import indra_db_rest as idr
 from indra.statements import *
-
-# latest version of BioRECIPE Reading Output
-BioRECIPE_reading_col = ['Regulator Name', 'Regulator Type', 'Regulator Subtype',
-						 'Regulator HGNC Symbol', 'Regulator Database', 'Regulator ID',
-						 'Regulator Compartment', 'Regulator Compartment ID',
-						 'Regulated Name', 'Regulated Type', 'Regulated Subtype',
-						 'Regulated HGNC Symbol', 'Regulated Database', 'Regulated ID',
-						 'Regulated Compartment', 'Regulated Compartment ID',
-						 'Sign', 'Connection Type', 'Mechanism', 'Site',
-						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-						 'Score', 'Source', 'Statements', 'Paper IDs']
+from within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 def parse_pmc(input, outdir):
 	if os.path.isdir(input):
@@ -49,7 +39,7 @@ def get_biorecipeI_from_pmcids(infile, outdir):
 	papers = list(papers_df.values.reshape(-1,))
 
 	# Reading output in BioRECIPE format
-	fOut= pd.DataFrame(columns=BioRECIPE_reading_col)
+	fOut= pd.DataFrame(columns=biorecipe_int_cols)
 
 	rowCount = 0
 	noStatements = []

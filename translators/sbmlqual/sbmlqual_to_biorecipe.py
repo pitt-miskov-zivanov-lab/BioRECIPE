@@ -14,19 +14,7 @@
 import bs4
 import pandas as pd
 import argparse
-
-biorecipe_model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
-              'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
-              'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-              'Positive Regulator List', 'Positive Connection Type List',
-              'Positive Mechanism List', 'Positive Site List',
-              'Negative Regulator List', 'Negative Connection Type List',
-              'Negative Mechanism List', 'Negative Site List', 'Score List',
-              'Source List', 'Statements List', 'Paper IDs List',
-              'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
-              'Value Type', 'Levels', 'State List 0', 'State List 1', 'Const OFF',
-              'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
-              'Update Group', 'Update Rate', 'Update Rank']
+from within_biorecipe.biorecipe_std import biorecipe_mdl_cols
 
 class SBMLQualMath():
 
@@ -46,7 +34,7 @@ class SBMLQualMath():
         """
 
         # initialize a model dataframe in BioRECIPE format
-        biorecipe_df = pd.DataFrame(columns=biorecipe_model_cols)
+        biorecipe_df = pd.DataFrame(columns=biorecipe_mdl_cols)
 
         # XML.etree has some issues of parsing the SBMLQual XML file. BeautifulSoup loses the upper cases while reading
         res = bs4.BeautifulSoup(open(input_file).read(), 'lxml')

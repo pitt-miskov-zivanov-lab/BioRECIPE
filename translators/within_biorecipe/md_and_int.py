@@ -138,9 +138,7 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     # convert to dict for iteration
     model_dict = model.to_dict(orient='index')
 
-    biorecipe_col = ["Regulator Name","Regulator Type","Regulator Subtype","Regulator HGNC Symbol","Regulator Database","Regulator ID","Regulator Compartment","Regulator Compartment ID"
-    ,"Regulated Name","Regulated Type","Regulated Subtype","Regulated HGNC Symbol","Regulated Database","Regulated ID","Regulated Compartment","Regulated Compartment ID","Sign","Connection Type"
-    ,"Mechanism", "Site", "Cell Line", "Cell Type","Tissue Type","Organism","Score","Source","Statements","Paper IDs"]
+    biorecipe_col = BioRECIPE().biorecipe_int_cols
     interactions_dict, model_item_dict, i = dict(), dict(), 0
 
     model_col_index = ['Element Name',
@@ -228,18 +226,7 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
     Convert a interaction dataFrame to model dataframe
     """
 
-    model_cols = ['#', 'Element Name', 'Element Type', 'Element Subtype',
-       'Element HGNC Symbol', 'Element Database', 'Element IDs', 'Compartment',
-       'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
-       'Positive Regulator List', 'Positive Connection Type List',
-       'Positive Mechanism List', 'Positive Site List',
-       'Negative Regulator List', 'Negative Connection Type List',
-       'Negative Mechanism List', 'Negative Site List', 'Score List',
-       'Source List', 'Statements List', 'Paper IDs List',
-       'Positive Regulation Rule', 'Negative Regulation Rule', 'Variable',
-       'Value Type', 'Levels', 'State List 0', 'State List 1', 'State List 2', 'Const OFF',
-       'Const ON', 'Increment', 'Spontaneous', 'Balancing', 'Delay',
-       'Update Group', 'Update Rate', 'Update Rank']
+    model_cols = BioRECIPE().biorecipe_mdl_cols
 
     attrb_cols = ['Element Name', 'Element Type', 'Element Database', 'Element Subtype','Element HGNC Symbol','Element IDs','Compartment', 'Compartment ID', 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism']
 
@@ -532,7 +519,7 @@ def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
     reach_tab = recipe_format.get_format("reach_tab")
     biorecipe = recipe_format.get_format("biorecipe")
 
-    output_df_biorecipe = pd.DataFrame(columns=recipe_format.biorecipe_cols)
+    output_df_biorecipe = pd.DataFrame(columns=recipe_format.biorecipe_int_cols)
     for i in range(len(input_df)):
         for col in recipe_format.default_cols:
             biorecipe_col = biorecipe[col]
@@ -559,7 +546,7 @@ def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
                 output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab_col]
             else:
                 pass
-    df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_cols)
+    df = pd.DataFrame(output_df_biorecipe, columns=recipe_format.biorecipe_int_cols)
     df.to_excel(interactions_file, index=False)
     return
 
