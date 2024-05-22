@@ -18,8 +18,12 @@ Additional standards, databases, and tools and their compatibilities with BioREC
 
 Translators summary
 -------------------
+The tables below list example formats, databases, and tools and links to corresponding translators. Additionally, two Jupyter notebooks are available to guide users with examples:
 
-The tables below list example formats, databases, and tools and links to translators.
+    - demonstratation of an example `workflow <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/workflow.ipynb>`_ where BioRECIPE format is used with several modeling, curation, and simulation tools (filtering interaction lists, classifying and clustering them, examining the possible extensions and simulating and verifying against golden properties)
+    - demonstration of the `use of translators <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/use_translators.ipynb>`_, including input and output examples, before and after translation,respectively
+
+All translators with ReadMe files are available in the `translators <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators>`_ folder in the BioRECIPE GitHub `repository <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main>`_. All example input and output files and the two Jupyter notebooks are available in the `examples <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/examples>`_ folder in the repository. Individual links are also provided in the tables below.
 
 | 
 
