@@ -23,7 +23,13 @@ All translators with ReadMe files are available in the `translators <https://git
     - an example `workflow <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/workflow.ipynb>`_ where BioRECIPE format is used with several modeling, curation, and simulation tools (filtering interaction lists, classifying and clustering them, examining the possible extensions and simulating and verifying against golden properties)
     - the `use of translators <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/use_translators.ipynb>`_, including input and output examples, before and after translation,respectively
 
+The following figure illustrates examples of formats, tools, and databases that are made compatible with BioRECIPE, either directly or through the use of translators.
 
+.. figure:: figures/figure_examples_compatibility.png
+    :align: center
+    :alt: internal figure
+
+|
 
 Individual links to formats, databases, and tools, and links to corresponding translators are provided in the tables below.
 
