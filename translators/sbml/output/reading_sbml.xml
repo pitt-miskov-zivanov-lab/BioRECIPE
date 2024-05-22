@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model>
+    <listOfCompartments>
+      <compartment id="c1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="metaid_s1" id="s1" name="CXADR" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:P78310</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s2" id="s2" name="CD19" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:P15391</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s3" id="s3" name="antigen receptor" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:antigen_receptor</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s4" id="s4" name="TNFRSF8" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:P28908</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s5" id="s5" name="CCR4" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:P51679</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s6" id="s6" name="LIPC" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:P11150</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s7" id="s7" name="CCL22" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:O00626</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s8" id="s8" name="CD4" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:P01730</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s9" id="s9" name="IFNG" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:P01579</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s10" id="s10" name="CD8" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:CD8</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s11" id="s11" name="IL2" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:P60568</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s12" id="s12" name="CD276" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:Q5ZPR3</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s13" id="s13" name="cell population proliferation" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:0008283</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s14" id="s14" name="CARS1" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:P49589</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s15" id="s15" name="growth factor receptor" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:C17664</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s16" id="s16" name="CD19-K562" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:CD19K562</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s17" id="s17" name="4-1BB" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:41BB</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s18" id="s18" name="FMC63-CD828BBZ" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:FMC63CD828BBZ</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s19" id="s19" name="NGFR-K562" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:NGFRK562</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s20" id="s20" name="anti-CD20 monoclonal antibody rituximab" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulator ID:antiCD20_monoclonal_antibody_rituximab</p>
+        </notes>
+      </species>
+      <species metaid="metaid_s21" id="s21" name="CLL" compartment="c1">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Regulater ID:CLL</p>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction metaid="metaid_r1" id="r1" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r2" id="r2" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r3" id="r3" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r4" id="r4" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s6"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s7"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r5" id="r5" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s6"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r6" id="r6" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s6"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r7" id="r7" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r8" id="r8" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r9" id="r9" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r10" id="r10" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r11" id="r11" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s13"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r12" id="r12" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r13" id="r13" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r14" id="r14" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r15" id="r15" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r16" id="r16" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r17" id="r17" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r18" id="r18" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r19" id="r19" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r20" id="r20" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r21" id="r21" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r22" id="r22" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s21"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r23" id="r23" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r24" id="r24" name="Activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="metaid_r25" id="r25" name="IncreaseAmount" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s9"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -13,7 +13,7 @@
 import argparse
 import pandas as pd
 import re
-from within_biorecipe.biorecipe_std import biorecipe_int_cols
+from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 class SIF():
 

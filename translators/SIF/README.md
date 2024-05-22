@@ -13,20 +13,20 @@ In network analysis or social network research, a SIF file is a format used to r
 1) From BioRECIPE model to SIF: 
 
    ```
-   python .\run_biorecipe_sif.py -i model ..\..\examples\models\BooleanTcell_biorecipe.xlsx ..\..\examples\sif\BooleanTcell_biorecipe.sif
+   python to_from.py -i model --input_file input/BooleanTcell_biorecipe.xlsx --output_file output/BooleanTcell_biorecipe.sif
    ```
 
 2) From BioRECIPE interaction lists to SIF:
 
     ```
-    python .\run_biorecipe_sif.py -i interactions ..\..\examples\interaction_lists\Reading_biorecipe.xlsx ..\..\examples\sif\Reading_biorecipe.sif
+    python to_from.py -i interactions --input_file input/Reading_biorecipe.xlsx --output_file output/Reading_biorecipe.sif
     
     ```
     
 3) From SIF to BioRECIPE interaction lists:
 
     ```
-    python .\run_sif_biorecipe.py -i ..\..\examples\sif\gbm_ints.sif.xlsx ..\..\examples\interaction_lists\gbm_ints.xlsx
+    python to_from.py -i --input_file input/gbm_ints.sif.xlsx --output_file output/gbm_ints.xlsx
     
     ```
 #### note: You need to have python version 3.8, 3.7 or 3.6

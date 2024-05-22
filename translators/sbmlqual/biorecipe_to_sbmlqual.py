@@ -19,10 +19,10 @@ import re
 import argparse
 from sympy import symbols, And, Or, Not, printing
 from sympy.printing.mathml import mathml
-from sbmlqual.sbml import SBML #offline import of code /sbml.py and /sbmlqual.py from https://github.com/cellnopt/cellnopt/tree/master/cno/io
-from sbmlqual.sbmlqual import QualitativeSpecies, ListOfTransitions, Transition, ListOfInputs, ListOfOutputs, ListOfFunctionTerms, FunctionTerm
-from within_biorecipe.biorecipe_std import get_model
-from within_biorecipe.md_and_int import interactions_to_model
+from translators.sbmlqual.sbml import SBML #offline import of code /sbml.py and /sbmlqual.py from https://github.com/cellnopt/cellnopt/tree/master/cno/io
+from translators.sbmlqual.sbmlqual import QualitativeSpecies, ListOfTransitions, Transition, ListOfInputs, ListOfOutputs, ListOfFunctionTerms, FunctionTerm
+from translators.within_biorecipe.biorecipe_std import get_model
+from translators.within_biorecipe.md_and_int import interactions_to_model
 
 __all__ = ["SBMLQual_rcp"]
 

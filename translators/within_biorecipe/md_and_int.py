@@ -1,4 +1,4 @@
-from within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
+from translators.within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
 import pandas as pd
 import numpy as np
 import networkx as nx

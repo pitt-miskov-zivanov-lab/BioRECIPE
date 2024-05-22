@@ -2,7 +2,7 @@
 
 This repository contains a set of instructions and scripts: 1) retrieve statements from the INDRA database based on literature queries using PMC (PubMed Central) to BioRECIPE interaction lists; 2) convert BioRECIPE interaction lists into INDRA statements.
 
-### 1. Retrieving Statements from the INDRA DB
+### 1. Retrieving Statements from the INDRA DB and Converting to BioRECIPE interaction lists
 
 #### Table of Contents
 
@@ -45,16 +45,15 @@ This repository contains a set of instructions and scripts: 1) retrieve statemen
 
 - Run the script with the following command:
   ```bash
-  python .\run_indra_pmcids_biorecipe.py -i .\ids.csv -o ..\..\examples\interaction_lists
+   python run_biorecipe_from_pmcids.py -i input/ids.csv -o output/ids_biorecipe.xlsx
 
-The extracted statements file will be named as ids_reading.xlsx in this example. 
+This command will extract statements from INDRA database given pmcids for query and convert them into our BioRECIPE interaction lists file named as ids_biorecipe.xlsx in this example. 
 
 ### 2. Convert BioRECIPE interaction lists into INDRA statements
 
 Run the script with the following command:
 
-```
-python .\run_biorecipe_indra_stmts.py -i ..\..\examples\interaction_lists\Reading_biorecipe.xlsx -o ..\..\examples\indra\Reading_indra.json
-
+```bash
+python run_indra_from_biorecipe.py -i input/interaction_biorecipe.xlsx -o output/indra_stmts.json
 ```
 

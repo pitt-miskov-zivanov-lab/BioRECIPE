@@ -13,12 +13,12 @@ SBML stands for Systems Biology Markup Language. It is a computer-readable forma
 One of the formats that this tool can translate to it to BioRECIPE is called SBL.
 you can find the folder under this path /BioRECIPE/translators/sbml.
 
-If you want to translate an SBML file with the format .xml to a BioRECIPE file with the format .xlsx, you can use run_sbml_biorecipe.py script and run the following command.
+If you want to translate an SBML file with the format .xml to a BioRECIPE file with the format .xlsx, you can use sbml_to_biorecipe.py script and run the following command.
 ```bash
-python run_sbml_biorecipe.py -i [PATH_TO_SBML_FILE] -o [PATH_TO_BIORECIPE_FILE]
+python sbml_to_biorecipe.py -i input/map_mapk.xml -o output/map_mapk.xlsx
 ```
-and If you want to translate a BioRECIPE file with the format .xlsx to an SBML file with the format .xml, you can use run_biorecipe_sbml.py script and run the following command.
+and If you want to translate a BioRECIPE file with the format .xlsx to an SBML file with the format .xml, you can use biorecipe_to_sbml.py script and run the following command.
 ```bash
-python run_biorecipe_sbml.py -i [PATH_TO_BIORECIPE_FILE] -o [PATH_TO_SBML_FILE]
+python biorecipe_to_sbml.py -i input/reading_biorecipe.xlsx -o output/reading_sbml.xml
 ```
 #### note: You need to have python version 3.8, 3.7 or 3.6

@@ -4,7 +4,7 @@ import glob
 from indra.belief import SimpleScorer
 from indra.sources import indra_db_rest as idr
 from indra.statements import *
-from within_biorecipe.biorecipe_std import biorecipe_int_cols
+from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 def parse_pmc(input, outdir):
 	if os.path.isdir(input):
@@ -330,38 +330,4 @@ def get_INDRAstmts_from_biorecipeI(infile, outfile):
         # TODO: other output formats
         stmts_to_json_file(stmts, outfile)
 
-# def main():
-# 	parser = argparse.ArgumentParser(description='parse PMCIDs using INDRA database API and output an interaction file in BioRECIPE format')
-#
-# 	# required arguments
-# 	required_args = parser.add_argument_group('required input arguments')
-# 	required_args.add_argument('-i', '--input', type=str, required=True,
-# 		help='path and name of file that includes PMCID column header')
-# 	required_args.add_argument('-o', '--output', type=str, required=True,
-# 		help='path and name of output file in BioRECIPE format')
-#
-# 	args = parser.parse_args()
-# 	input = args.input
-# 	output = args.output
-# 	get_biorecipeI_from_pmcids(input, output)
-# 	#parse_pmc(input, output)
-#
-# if __name__ == '__main__':
-# 	main()
 
-# def main():
-#     parser = argparse.ArgumentParser()
-#
-#     # required arguments
-#     required_args = parser.add_argument_group('required input arguments')
-#
-#     required_args.add_argument('-i', '--input', type=str, required=True,
-#                                help='Path of the input BioRECIPE interaction lists file (.xlsx)')
-#     required_args.add_argument('-o', '--output', type=str, required=True,
-#                                help='Path of the output json file (.json)')
-#
-#     args = parser.parse_args()
-#     get_INDRAstmts_from_biorecipeI(args.input, args.output)
-#
-# if __name__ == "__main__":
-#     main()

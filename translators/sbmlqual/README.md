@@ -13,28 +13,26 @@ For in-depth information on utilizing the BioRECIPE format, please refer to the 
 "SBMLQual" refers to the Qualitative Models extension of the Systems Biology Markup Language (SBML). SBML is a standard for representing computational models in systems biology, and it provides a way to exchange models between different software tools.
 
 If you want to translate a SBMLQual file with the format .sbml to a BioRECIPE file, you can use run_sbmlqual_biorecipe.py script and run the following command:
-1. From SBMLQual to BioRECIPE model 
+From SBMLQual to BioRECIPE model/interactions list
+
 ```bash
-python run_sbmlqual_biorecipe.py -i model [SBMLQual] -o [BioRECIPE]
+python run_sbmlqual_biorecipe.py -i [SBMLQual] -o [BioRECIPE]
 ```
 
-2. From SBMLQual to BioRECIPE interactions
-```bash
-python run_sbmlqual_biorecipe.py -i interactions [SBMLQual] -o [BioRECIPE]
 ```
 Both BioRECIPE model and interaction lists can be translated into SBMLQual, you can run_biorecipe_sbmlqual.py script and run the following commands:
 
 1. From BioRECIPE model to SBMLQual
 
 ```
-python run_biorecipe_sbmlqual.py -i model ..\..\examples\models\BooleanTcell_biorecipe.xlsx  ..\..\examples\sbmlqual\BooleanTcell_sbmlqual.xml
+python biorecipe_to_sbmlqual.py --input_format model --input_file input/BooleanTcell_biorecipe.xlsx  --output_file output/BooleanTcell_sbmlqual.xml
 ```
 
 2. From BioRECIPE interaction lists to SBMLQual
 
 ```
-python run_biorecipe_sbmlqual.py -i interactions ..\..\examples\interaction_lists\Reading_biorecipe.xlsx ..\..\examples\sbmlqual\Reading_sbmlqual.xml
+python biorecipe_to_sbmlqual.py -input_format interactions --input_file input/Reading_biorecipe.xlsx --output_file output/Reading_sbmlqual.xml
 ```
 
-#### note: You need to have python version 3.8, 3.7 or 3.6 
+#### note: You need to have python version >=3.8 
 

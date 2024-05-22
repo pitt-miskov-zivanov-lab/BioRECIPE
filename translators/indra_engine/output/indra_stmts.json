@@ -1,0 +1,1757 @@
+[
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fbb47607-0d38-42d9-ae72-1e88c44d6dc5",
+  "matches_hash": "-6176554980711491"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CTRL",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "76bfe8db-fe57-4c0f-9d53-c8a552123d89",
+  "matches_hash": "-35164430229554264"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TGFBETA",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "ba1cdec6-aa36-4cb7-be72-bdb7a929eac3",
+  "matches_hash": "13244664438463267"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Ctla4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Foxp3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "39295221-5c15-493f-b2a5-56c600961a91",
+  "matches_hash": "21525644495223236"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Gpr83",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Foxp3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c340d235-3031-4ab1-88c9-3e940df1f7ee",
+  "matches_hash": "-24889950767698572"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD8",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Pten",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fe083847-2469-4ab7-862b-fbf1943f8b3e",
+  "matches_hash": "21603337488066095"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "HSC",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "a747c3e2-3f1a-4f71-bd3d-e687f2fdd71f",
+  "matches_hash": "8457671938059477"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CHK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "8004c957-e9d1-46be-b6a7-b0be90fb5a69",
+  "matches_hash": "-16797027858951363"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Foxo3a",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Foxo",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d1a9137a-bbd7-49c6-a434-bc687e2e4719",
+  "matches_hash": "-27901660076771934"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "gp120",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PDL1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "bb12a8a5-deec-48e5-b88d-62be3287c334",
+  "matches_hash": "24310348326061870"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Treg",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PDL1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "887fe1e7-2fe9-43dd-8ece-3863fa59abbf",
+  "matches_hash": "-27729897545478691"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD8",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PDL1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "6d3e35c5-12a0-48bb-9bbd-8b9de085fc90",
+  "matches_hash": "1310572483644006"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1a2db37b-bced-44b6-b788-1c6ae557810d",
+  "matches_hash": "22757561181543009"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5130706b-420f-4d4f-af5e-4c97ccd0528b",
+  "matches_hash": "22971207698835454"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3888a805-6f51-436a-aa48-d1e3f78c67cc",
+  "matches_hash": "-6176554980711491"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1c1b0e9c-ef7d-4ab7-ba46-397ee3264c78",
+  "matches_hash": "-17601441524076829"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "FoxP3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3118f1ae-bf38-4302-93d6-4c4a8aaf4856",
+  "matches_hash": "-29324661857892088"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "40446d66-d105-4203-99df-b6778c500ee1",
+  "matches_hash": "17011442509670878"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "IL2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "85271eba-7006-42fa-b5c9-8d3f0960cd45",
+  "matches_hash": "-8056719894789198"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e0f528d9-7596-47a7-8630-dd626cc3cade",
+  "matches_hash": "32645748945679704"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "FoxP3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "7fa59be1-5744-4178-a7e0-751b008d2216",
+  "matches_hash": "-29324661857892088"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Pten",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "743c3142-268a-4309-874c-d72f73d6fe93",
+  "matches_hash": "-17111092887371739"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Pten",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "2b29d409-734e-40ff-9ca0-44e30db35030",
+  "matches_hash": "13225072962963711"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Th17",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "95be6fa2-97dc-40df-a19f-f071a1341a47",
+  "matches_hash": "24037222948363040"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "IL17A",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "aa74a98d-6ca3-4c03-b8d9-42daf6c0095a",
+  "matches_hash": "-15856074122120288"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "IL17A",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "HIF1alpha",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e91fecd0-b4eb-4ee7-bb33-29d8aad77e03",
+  "matches_hash": "1090256890671656"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD25",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5a109c85-5b0e-4d79-bfa5-456ac5397fc7",
+  "matches_hash": "-16624328834144184"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Myc",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Itk",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "cd6d4b3b-bd2c-4fa8-9768-ce62fe1af13e",
+  "matches_hash": "23209134847774735"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "MEK2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "IQGAP1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "6a24bd4e-dca6-4dc0-b536-96644913cf0b",
+  "matches_hash": "-34074204311199285"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MEK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "800a8f2c-058f-48cf-8d1c-d3009cd47801",
+  "matches_hash": "-6400953233982833"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "MEK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "de634a11-6564-497c-ba83-fa274e23b74a",
+  "matches_hash": "-29245975252894139"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MEK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fb5bc390-aaf6-4716-93a1-c24c601e7f71",
+  "matches_hash": "-6400953233982833"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "MAGI1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "50926560-5ae0-4280-9311-12c5e72f3716",
+  "matches_hash": "14453826351168723"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "S5B",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "ERK",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "8d56221c-b974-4844-8287-2b7d0034fe37",
+  "matches_hash": "29363999298743482"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MEK",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "18a252e2-0449-415e-9369-a8d94956910c",
+  "matches_hash": "-29701026799532479"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "495a7402-380f-4a18-bf54-216aa6aea472",
+  "matches_hash": "25907373557563468"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD69",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "SP",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "63277638-cb65-4eee-bb9c-83e9b114d45c",
+  "matches_hash": "6868343202947752"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CDC37",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "f99cf0dc-cf72-4b2e-ba48-e8f334d83fdf",
+  "matches_hash": "5256713664770521"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "56e2525d-0866-486f-b0db-e992d626b27a",
+  "matches_hash": "-19632100038046515"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CDC37",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "958e4247-7ea6-4dec-a9ec-877bacb7a6b2",
+  "matches_hash": "5256713664770521"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "ERK",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "10fa8b10-0887-45b4-b0fb-8c3ee8badf45",
+  "matches_hash": "4482841285289012"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Bcl2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "4fd4c9ab-2d3a-4f6e-993b-7c362b524e49",
+  "matches_hash": "21659612133260855"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Bcl2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "0ec07fb8-a80a-4d34-9a86-c2ca34fbf930",
+  "matches_hash": "21659612133260855"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD5",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d1eaa504-03e5-4672-bb16-f9db842fb45b",
+  "matches_hash": "-16428647115530049"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "P38",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD5",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "aacd5fca-d53e-418e-9689-e7267d11b109",
+  "matches_hash": "-34354026868045679"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD5",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "P38",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "eb0d3ebc-6740-4034-9d99-bcc5dc2b8503",
+  "matches_hash": "27002952770847291"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1d95f105-27d7-4d92-88d5-a29278afd246",
+  "matches_hash": "-1295552584752527"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "RAS",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "6ed796d3-d4f1-48aa-9ac5-933f7b7bfa6b",
+  "matches_hash": "27643763247266536"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "NEDD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c9573a45-8d76-494c-afc2-a8d639711c43",
+  "matches_hash": "8315383887265257"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "P53",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d855ee2e-93eb-419e-b48b-8e88241197ef",
+  "matches_hash": "-3484831913602339"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "ee980c17-7989-452a-93bb-1eb683ecdd07",
+  "matches_hash": "-6131553849110625"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c29f86c7-4984-4b06-bfdf-c577f5e23572",
+  "matches_hash": "27989972743715738"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3de52945-b0ef-4a53-a27b-b0d51b203566",
+  "matches_hash": "6131141393810508"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "89676d62-0be8-4c16-9a74-88cbb11ac524",
+  "matches_hash": "-18367327390201134"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "9003c850-98a3-4214-9d25-450c4510d00a",
+  "matches_hash": "-8663506625639551"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "mTORC1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d36874d9-79e1-400c-80ce-94e8b16e6095",
+  "matches_hash": "-18242238005668941"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "2ad0cc45-abc4-4e83-976e-dd2d80ccf80a",
+  "matches_hash": "3069246891239806"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "615792a4-5634-403a-a156-cc1255a1daf2",
+  "matches_hash": "19874326468222256"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "f2a3eea4-b902-4f4f-9ea9-3bbbec9a6446",
+  "matches_hash": "19874326468222256"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "dd7980c3-0596-4e6a-8821-fe808fa6a473",
+  "matches_hash": "19874326468222256"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Foxo1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "28229126-83f6-4be0-8013-1bf5adb01bea",
+  "matches_hash": "-19979056935870472"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "cbc14b8d-3c89-49b7-b7ec-3353fa2147f3",
+  "matches_hash": "-8663506625639551"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3d3eed31-b5b4-4e54-b6ab-0c4c002f097e",
+  "matches_hash": "24533739876517858"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Foxo1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e3c795f6-a891-430d-853e-9f78952a3ec2",
+  "matches_hash": "29774348660114097"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e044988c-e0af-44c7-a0fa-00a6ba5957f5",
+  "matches_hash": "-9497715137513166"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Foxo1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5ed03a67-fcc0-4910-8f2d-1c889a59eae5",
+  "matches_hash": "-19979056935870472"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "9c44944e-2ce3-4958-b05f-679089b72dab",
+  "matches_hash": "-9497715137513166"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "a2e8bf12-2a26-45ce-b0f2-37eea1b17951",
+  "matches_hash": "19874326468222256"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TBK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "9273f7b5-b971-4bb4-a80f-fd5ad3ed9285",
+  "matches_hash": "23438104926411990"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "FOXO3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "FOXO3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "7a497b4d-4e0d-4d30-9578-70752ff1fbc9",
+  "matches_hash": "27270851830691739"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "34ea6891-9976-433e-9548-99fc4ef9fc00",
+  "matches_hash": "-7192868285530957"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "FAS",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "FASL",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "0fad6b61-af72-4e54-8b1f-dc57f5340021",
+  "matches_hash": "-4971324919398384"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Bcl2l11",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c556771e-cd80-4797-bd6d-abb4e37784ce",
+  "matches_hash": "10421788335241310"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "80558107-5d9c-4ef3-b334-8f5d449552b8",
+  "matches_hash": "23327622059096259"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "f0015fb4-78c2-4a34-9b1a-c9ccdd6ed018",
+  "matches_hash": "-25018408829628872"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PI",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "SHIP",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e00b7a2d-e591-4512-b3b8-a75c56f2b477",
+  "matches_hash": "-4991042100436300"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "SHIP1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "0229da99-0347-483c-92a2-19cdf33e56e0",
+  "matches_hash": "-20729750546414743"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "SHIP1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "eb5db9c9-f8a3-4e9c-8187-5217dfebbf1e",
+  "matches_hash": "-20729750546414743"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "BAM32",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d34ba591-2846-470d-8a8e-6a7bc10d8abe",
+  "matches_hash": "17732193870480350"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "mTORC1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "6d32cab6-13b2-43e6-b1f3-268e58cc1137",
+  "matches_hash": "25714229747705434"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "siPAK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "89bc5db6-0fe7-411f-899b-f59abebcf2d2",
+  "matches_hash": "35937907982321470"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "SHIP1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "8b98e4bb-c4e0-4a80-ab5d-a4b9fd60cb12",
+  "matches_hash": "-20729750546414743"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "mTOR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "286a9958-566c-4156-bb78-14bd5b2f3ebd",
+  "matches_hash": "-20596529799327174"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Pak1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "mTOR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "286a547f-38d7-4223-acc0-db847dc1f44d",
+  "matches_hash": "4277056212371751"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "mTOR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "3ad0ef1e-e51b-44b6-9e93-7c0272bc5711",
+  "matches_hash": "-17556962389007157"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "1dd25093-0e20-438c-872e-81639ec4cd29",
+  "matches_hash": "-11105431200729966"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "ERK",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "b9190dac-c465-460d-b7b0-538e1032e932",
+  "matches_hash": "-28489902017095085"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PAK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "BIM",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "21970bb1-0846-4ac4-ad9d-aefd6c5fe2e2",
+  "matches_hash": "-21407194531989853"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PDK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "19ee6d27-816d-4505-a1cf-2c55c4319677",
+  "matches_hash": "15103428471619855"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CTLA4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "2884815b-6353-4ffb-8855-a22e5ca8b7e6",
+  "matches_hash": "18818917725897276"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PD1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "35b80a12-c937-4e89-ab7d-9433c0bbef1b",
+  "matches_hash": "18750665460777744"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "IFNgamma",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fecf1e65-1a85-4ae1-99bf-73f3b93c4536",
+  "matches_hash": "-15483696176841206"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TIL",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "add7492b-d256-4cdc-b4d5-0db6f6f27063",
+  "matches_hash": "-21855129819506959"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5600eb71-62a7-4f45-b85d-6fef0a9b25d8",
+  "matches_hash": "-16615389168369665"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fe4bae82-4100-4638-b9a1-812db24dc4ea",
+  "matches_hash": "-18367327390201134"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "66b93807-7bfb-4bbe-8c67-2f54afdffad3",
+  "matches_hash": "-1469208476988567"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "5edf1f76-d8fb-4799-bcd6-dd1fd7debff0",
+  "matches_hash": "-16615389168369665"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "4dda5c06-f19c-49e4-bdfa-09f80994bbc6",
+  "matches_hash": "-16615389168369665"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "FoxO3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Akt",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "9aae5375-b8a1-4d5e-a168-4ce54489daa6",
+  "matches_hash": "22826256992778912"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "NEDD4",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "71f75351-a769-459b-8b54-4577ee7dc921",
+  "matches_hash": "31048560402897240"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "Foxo1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "8e41b1a7-fe8f-4b86-ba29-c3829ae68345",
+  "matches_hash": "-24538794033572116"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MEK1",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "b53b0b49-7f0d-4835-989f-cf9382134c5a",
+  "matches_hash": "-27881559440631502"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "795ab234-38d7-4ed7-95a8-e220291ee9c0",
+  "matches_hash": "-1469208476988567"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "NEDD4",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "779925b4-8bdf-4649-b95d-f136840e4e1b",
+  "matches_hash": "8315383887265257"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "dbfc7406-cddd-4a88-86da-854b425ea7d8",
+  "matches_hash": "26805957447884921"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "0be9ea2d-9ef7-4ded-96f9-62154d7d0967",
+  "matches_hash": "-28747586817440943"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d9c4fefa-9b77-404a-a636-348ac259dc22",
+  "matches_hash": "-6394234670283373"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "AKT",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "decc1275-ef33-45d6-9d3f-f0e4fd8fbaac",
+  "matches_hash": "-2797256027222125"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "e0f9ea04-6a43-4d7e-b187-72265acae8ba",
+  "matches_hash": "-14811693906149838"
+ },
+ {
+  "type": "Inhibition",
+  "subj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PTEN",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "11dd7f1d-00c5-45bc-8841-52f5f15bcc7c",
+  "matches_hash": "35636444048275164"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MEK1",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "181ee3be-bbc4-4abb-a977-abe4f29d7861",
+  "matches_hash": "-12445016315173373"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "CK2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "TCR",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "dac71bdf-ea52-4c8d-8afe-be0919c2fd6b",
+  "matches_hash": "-29989432818441955"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "fe5193a9-7f11-4f58-9ef4-862b973f67f4",
+  "matches_hash": "-8207487615810643"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "CD28",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "14bc4d5e-84e7-4ed1-8289-60c2ac284710",
+  "matches_hash": "31862117559166218"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "IL2_EX",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "d7ad9141-88d8-46a4-8600-23083117bf1d",
+  "matches_hash": "-13972079287670784"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "MTORC2",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "IL2_R",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "ac1a5537-92b7-45fa-b323-0d3fd1220e1d",
+  "matches_hash": "35177378303741796"
+ },
+ {
+  "type": "Activation",
+  "subj": {
+   "name": "PIP3",
+   "db_refs": {}
+  },
+  "obj": {
+   "name": "PI3K",
+   "db_refs": {}
+  },
+  "obj_activity": "activity",
+  "belief": 1,
+  "id": "c58b275c-dcc0-4e96-8870-8a9147772356",
+  "matches_hash": "23327622059096259"
+ }
+]

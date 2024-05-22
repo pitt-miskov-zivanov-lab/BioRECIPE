@@ -16,7 +16,7 @@ import numpy as np
 from indra.sources import reach
 from indra.belief import SimpleScorer
 import pandas as pd
-from within_biorecipe.biorecipe_std import biorecipe_int_cols
+from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
 
@@ -352,7 +352,7 @@ def get_biorecipeI_from_reach_smy(json_file_name, output_file_name):
 	indra_stmts_to_interactions(processor=rp, output_file=output_file_name)
 
 def main():
-	parser = argparse.ArgumentParser(description='translate INDRA statements using different systems to a reading file')
+	parser = argparse.ArgumentParser(description='translate reach file using INDRA to a BioRECIPE interaction lists file')
 
 	parser.add_argument('-i', '--input', type=str, required=True,
 	                     help='Path of REACH json file')

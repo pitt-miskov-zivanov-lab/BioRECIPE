@@ -14,7 +14,7 @@
 import bs4
 import pandas as pd
 import argparse
-from within_biorecipe.biorecipe_std import biorecipe_mdl_cols
+from translators.within_biorecipe.biorecipe_std import biorecipe_mdl_cols
 
 class SBMLQualMath():
 

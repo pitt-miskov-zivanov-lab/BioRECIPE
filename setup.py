@@ -11,7 +11,6 @@ setup(
         'translators.indra_engine',
         'translators.reach_engine',
         'translators.within_biorecipe',
-        'translators.STRING'
     ],
 
     install_requires=[
@@ -19,12 +18,13 @@ setup(
         'python-libsbml',
         'loguru',
         'openpyxl',
-        'sympy',
+        'sympy==1.12',
         'lxml',
         'bs4',
         'nltk',
         'casq==1.2.0',
         'numpy',
+        'indra==1.21',
     ],
 
 )

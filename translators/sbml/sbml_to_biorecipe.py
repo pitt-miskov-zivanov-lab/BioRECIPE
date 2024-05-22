@@ -12,7 +12,7 @@ from typing import Optional
 import xml.etree.ElementTree as etree
 import pandas as pd
 import networkx as nx
-from within_biorecipe.biorecipe_std import biorecipe_mdl_cols
+from translators.within_biorecipe.biorecipe_std import biorecipe_mdl_cols
 
 # TODO: multiple scenario translation
 

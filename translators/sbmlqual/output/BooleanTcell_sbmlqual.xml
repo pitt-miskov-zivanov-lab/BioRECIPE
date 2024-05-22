@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" level="3"
+xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"
+version="1"><model id="None"> 
+     <listOfCompartments>
+       <compartment id="main" constant="true">
+       </compartment>
+     </listOfCompartments>
+<qual:listOfTransitions xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
+<qual:listOfQualitativeSpecies xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="AKT"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="AKT_OFF"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="AP1"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="CA"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="CD122"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="CD132"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="CD25"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="CD28"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="ERK"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="FOS"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="FOS_D"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="FOS_DD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="FOS_DDD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="FOXP3"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="IL2"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="IL2_EX"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="IL2R"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="JAK3"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="JNK"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="JUN"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MEK2"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MKK7"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTOR"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTOR_D"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTOR_DD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTOR_DDD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTOR_DDDD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC1"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC1_D"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC1_OFF"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC2"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC2_D"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="MTORC2_DD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="NFAT"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="NFAT_OFF"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="NFKAPPAB"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PDK1"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PI3K"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PI3K_HIGH"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PI3K_LOW"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PIP3"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PIP3_HIGH"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PIP3_LOW"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PKCTHETA"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PS6"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="PTEN"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="RAF"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="RAS"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="RHEB"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="S6K1"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="SMAD3"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="STAT5"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="STAT5_D"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="STAT5_DD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="STAT5_DDD"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TAK1"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TCR"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TCR_HIGH"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TCR_LOW"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TGFBETA"/><qual:qualitativeSpecies qual:constant="false" qual:compartment="main" qual:id="TSC"/></qual:listOfQualitativeSpecies><qual:transition qual:id="tAKT" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="AKT"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><not/><ci><mml:msub><mml:mi>AKT</mml:mi><mml:mi>OFF</mml:mi></mml:msub></ci></apply><apply><and/><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mi>2</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>PDK</mml:mi><mml:mi>1</mml:mi></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tAP1" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="JUN"  qual:id="theta_AP1_JUN"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOS_DD"  qual:id="theta_AP1_FOS_DD"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="AP1"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and/><ci><mml:msub><mml:mi>FOS</mml:mi><mml:mi>DD</mml:mi></mml:msub></ci><ci>JUN</ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tCA" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR"  qual:id="theta_CA_TCR"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="CA"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>TCR</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tCD25" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_CD25_FOXP3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AP1"  qual:id="theta_CD25_AP1"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_CD25_STAT5"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_CD25_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFKAPPAB"  qual:id="theta_CD25_NFKAPPAB"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="CD25"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>FOXP</mml:mi><mml:mi>3</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>STAT</mml:mi><mml:mi>5</mml:mi></mml:msub></ci><apply><and/><ci><mml:msub><mml:mi>AP</mml:mi><mml:mi>1</mml:mi></mml:msub></ci><ci>NFAT</ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tERK" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MEK2"  qual:id="theta_ERK_MEK2"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="ERK"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MEK</mml:mi><mml:mi>2</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tFOS" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="ERK"  qual:id="theta_FOS_ERK"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="FOS"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>ERK</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tFOS_D" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOS"  qual:id="theta_FOS_D_FOS"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="FOS_D"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>FOS</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tFOS_DD" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOS_D"  qual:id="theta_FOS_DD_FOS_D"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="FOS_DD"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>FOS</mml:mi><mml:mi>D</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tFOXP3" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTOR_DD"  qual:id="theta_FOXP3_MTOR_DD"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="SMAD3"  qual:id="theta_FOXP3_SMAD3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="NFAT"  qual:id="theta_FOXP3_NFAT"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_FOXP3_STAT5"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="FOXP3"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><and/><ci>NFAT</ci><ci><mml:msub><mml:mi>SMAD</mml:mi><mml:mi>3</mml:mi></mml:msub></ci></apply><apply><and/><ci><mml:msub><mml:mi>STAT</mml:mi><mml:mi>5</mml:mi></mml:msub></ci><apply><not/><ci><mml:msub><mml:mi>MTOR</mml:mi><mml:mi>DD</mml:mi></mml:msub></ci></apply></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tIL2" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="IL2"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>IL</mml:mi><mml:mi>2</mml:mi></mml:msub></ci><apply><not/><ci><mml:msub><mml:mi>FOXP</mml:mi><mml:mi>3</mml:mi></mml:msub></ci></apply><apply><and/><ci><mml:msub><mml:mi>AP</mml:mi><mml:mi>1</mml:mi></mml:msub></ci><ci>NFAT</ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tIL2_EX" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2"  qual:id="theta_IL2_EX_IL2"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_IL2_EX_IL2_EX"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="IL2_EX"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>IL</mml:mi><mml:mi>2</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>IL</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>EX</mml:mi></mml:mrow></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tIL2R" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD132"  qual:id="theta_IL2R_CD132"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD25"  qual:id="theta_IL2R_CD25"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD122"  qual:id="theta_IL2R_CD122"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="IL2R"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and/><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>122</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>25</mml:mi></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tJAK3" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_JAK3_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_JAK3_IL2_EX"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="JAK3"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and/><ci>IL2R</ci><ci><mml:msub><mml:mi>IL</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>EX</mml:mi></mml:mrow></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tJNK" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MKK7"  qual:id="theta_JNK_MKK7"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="JNK"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MKK</mml:mi><mml:mi>7</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tJUN" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="JNK"  qual:id="theta_JUN_JNK"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="JUN"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>JNK</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMEK2" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="RAF"  qual:id="theta_MEK2_RAF"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MEK2"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>RAF</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMKK7" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TAK1"  qual:id="theta_MKK7_TAK1"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MKK7"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>TAK</mml:mi><mml:mi>1</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTOR" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC2_D"  qual:id="theta_MTOR_MTORC2_D"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC1_D"  qual:id="theta_MTOR_MTORC1_D"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTOR"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and/><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mrow><mml:mi>1</mml:mi><mml:mo> </mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:msub></ci><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTOR_D" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTOR"  qual:id="theta_MTOR_D_MTOR"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTOR_D"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>MTOR</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTOR_DD" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTOR_D"  qual:id="theta_MTOR_DD_MTOR_D"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTOR_DD"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MTOR</mml:mi><mml:mi>D</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTORC1" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTORC1"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci>RHEB</ci><apply><not/><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mrow><mml:mi>1</mml:mi><mml:mo> </mml:mo><mml:mi>OFF</mml:mi></mml:mrow></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTORC1_D" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC1"  qual:id="theta_MTORC1_D_MTORC1"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTORC1_D"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mi>1</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTORC2" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_LOW"  qual:id="theta_MTORC2_PI3K_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="S6K1"  qual:id="theta_MTORC2_S6K1"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_HIGH"  qual:id="theta_MTORC2_PI3K_HIGH"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTORC2"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci><apply><not/><apply><and/><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci><apply><not/><ci>S6K1</ci></apply></apply></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tMTORC2_D" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC2"  qual:id="theta_MTORC2_D_MTORC2"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="MTORC2_D"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mi>2</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tNFAT" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="NFAT"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci>CA</ci><apply><not/><ci><mml:msub><mml:mi>NFAT</mml:mi><mml:mi>OFF</mml:mi></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tNFKAPPAB" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PKCTHETA"  qual:id="theta_NFKAPPAB_PKCTHETA"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="AKT"  qual:id="theta_NFKAPPAB_AKT"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="NFKAPPAB"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci>AKT</ci><ci>PKCTHETA</ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPDK1" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3"  qual:id="theta_PDK1_PIP3"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PDK1"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>PIP</mml:mi><mml:mi>3</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPI3K" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_LOW"  qual:id="theta_PI3K_PI3K_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_HIGH"  qual:id="theta_PI3K_PI3K_HIGH"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PI3K"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPI3K_HIGH" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PI3K_HIGH_TCR_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_HIGH_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_HIGH_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_HIGH_IL2R"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_HIGH"  qual:id="theta_PI3K_HIGH_PI3K_HIGH"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PI3K_HIGH"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><and/><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>28</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci></apply><apply><and/><ci><mml:msub><mml:mi>IL</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>EX</mml:mi></mml:mrow></mml:msub></ci><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPI3K_LOW" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_PI3K_LOW_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PI3K_LOW"  qual:id="theta_PI3K_LOW_PI3K_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PI3K_LOW_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PI3K_LOW_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_PI3K_LOW_IL2R"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PI3K_LOW"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><and/><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>28</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci></apply><apply><and/><ci><mml:msub><mml:mi>IL</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>EX</mml:mi></mml:mrow></mml:msub></ci><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPIP3" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_HIGH"  qual:id="theta_PIP3_PIP3_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PIP3_LOW"  qual:id="theta_PIP3_PIP3_LOW"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PIP3"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>PIP</mml:mi><mml:mrow><mml:mi>3</mml:mi><mml:mo> </mml:mo><mml:mi>HIGH</mml:mi></mml:mrow></mml:msub></ci><ci><mml:msub><mml:mi>PIP</mml:mi><mml:mrow><mml:mi>3</mml:mi><mml:mo> </mml:mo><mml:mi>LOW</mml:mi></mml:mrow></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPIP3_HIGH" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PIP3_HIGH"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci><apply><not/><ci>PTEN</ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPIP3_LOW" >
+
+<qual:listOfInputs>
+
+</qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PIP3_LOW"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>PI3K</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci><apply><not/><ci>PTEN</ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPKCTHETA" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PKCTHETA_TCR_HIGH"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_PKCTHETA_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC2"  qual:id="theta_PKCTHETA_MTORC2"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_PKCTHETA_TCR_LOW"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PKCTHETA"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci><apply><and/><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>28</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPS6" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="S6K1"  qual:id="theta_PS6_S6K1"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PS6"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>S6K1</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tPTEN" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="FOXP3"  qual:id="theta_PTEN_FOXP3"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PTEN"  qual:id="theta_PTEN_PTEN"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_PTEN_TCR_HIGH"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="PTEN"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><and/><ci><mml:msub><mml:mi>FOXP</mml:mi><mml:mi>3</mml:mi></mml:msub></ci><apply><not/><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci></apply></apply><apply><and/><ci>PTEN</ci><apply><not/><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci></apply></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tRAF" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="RAS"  qual:id="theta_RAF_RAS"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="RAF"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>RAS</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tRAS" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR"  qual:id="theta_RAS_TCR"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2_EX"  qual:id="theta_RAS_IL2_EX"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="CD28"  qual:id="theta_RAS_CD28"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="RAS"  qual:id="theta_RAS_RAS"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="IL2R"  qual:id="theta_RAS_IL2R"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="RAS"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><apply><and/><ci><mml:msub><mml:mi>CD</mml:mi><mml:mi>28</mml:mi></mml:msub></ci><ci>TCR</ci></apply><apply><and/><ci><mml:msub><mml:mi>IL</mml:mi><mml:mrow><mml:mi>2</mml:mi><mml:mo> </mml:mo><mml:mi>EX</mml:mi></mml:mrow></mml:msub></ci><ci>RAS</ci></apply></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tRHEB" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="negative"  qual:qualitativeSpecies="TSC"  qual:id="theta_RHEB_TSC"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="RHEB"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>TSC</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tS6K1" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="MTORC1"  qual:id="theta_S6K1_MTORC1"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="S6K1"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>MTORC</mml:mi><mml:mi>1</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tSMAD3" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TGFBETA"  qual:id="theta_SMAD3_TGFBETA"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="SMAD3"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>TGFBETA</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tSTAT5" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="JAK3"  qual:id="theta_STAT5_JAK3"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="STAT5"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>JAK</mml:mi><mml:mi>3</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tSTAT5_D" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="STAT5"  qual:id="theta_STAT5_D_STAT5"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="STAT5_D"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci><mml:msub><mml:mi>STAT</mml:mi><mml:mi>5</mml:mi></mml:msub></ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tTAK1" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="PKCTHETA"  qual:id="theta_TAK1_PKCTHETA"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="TAK1"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>PKCTHETA</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tTCR" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_LOW"  qual:id="theta_TCR_TCR_LOW"/><qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="positive"  qual:qualitativeSpecies="TCR_HIGH"  qual:id="theta_TCR_TCR_HIGH"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="TCR"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or/><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>HIGH</mml:mi></mml:msub></ci><ci><mml:msub><mml:mi>TCR</mml:mi><mml:mi>LOW</mml:mi></mml:msub></ci></apply></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+<qual:transition qual:id="tTSC" >
+
+<qual:listOfInputs>
+
+<qual:input qual:thresholdLevel="1"  qual:transitionEffect="none"  qual:sign="negative"  qual:qualitativeSpecies="AKT"  qual:id="theta_TSC_AKT"/></qual:listOfInputs>
+<qual:listOfOutputs>
+
+<qual:output  qual:transitionEffect="assignmentLevel"  qual:qualitativeSpecies="TSC"/>
+</qual:listOfOutputs>
+</qual:transition>
+<qual:listOfFunctionTerms>
+
+<qual:defaultTerm qual:resultLevel="0" >
+
+</qual:defaultTerm>
+<qual:functionTerm qual:resultLevel="1" >
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><ci>AKT</ci></math></qual:functionTerm>
+</qual:listOfFunctionTerms>
+</qual:listOfTransitions>
+</model>
+</sbml>
