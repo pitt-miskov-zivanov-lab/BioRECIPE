@@ -2,17 +2,27 @@
 Compatibility and translators
 #############################
 
-The BioRECIPE format is compatible with a range of representation formats, databases, and tools, either directly, or through translation. 
+.. figure:: figures/figure_examples_compatibility.png
+    :align: center
+    :alt: internal figure
+
+| 
+
+The BioRECIPE format is compatible with a range of representation formats, databases, and tools, either directly, or through translation. Some examples are listed in the figure above.
+
+|
 
 Attribute compatibility
 -----------------------
-Here we provide a summary attributes that BioRECIPE considers and whether they are included in other representation formats, output by several tools, including large alnguage models (LLMs), or added to models by human curators.
-
-Additional standards, databases, and tools and their compatibilities with BioRECIPE are listed in the following sections.
+Here we provide a summary of attributes that BioRECIPE considers and indicate whether they are included in other representation formats, output by several tools, including large alnguage models (LLMs), or added to models by human curators.
 
 .. figure:: figures/figure_attribute_comparison_acrros_tools_representations.png
     :align: center
     :alt: internal figure
+
+|
+
+Additional standards, databases, and tools and their compatibilities with BioRECIPE are listed in the following sections.
 
 |
 
@@ -22,14 +32,6 @@ All translators with ReadMe files are available in the `translators <https://git
 
     - an example `workflow <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/workflow.ipynb>`_ where BioRECIPE format is used with several modeling, curation, and simulation tools (filtering interaction lists, classifying and clustering them, examining the possible extensions and simulating and verifying against golden properties)
     - the `use of translators <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/blob/main/examples/use_translators.ipynb>`_, including input and output examples, before and after translation,respectively
-
-The following figure illustrates examples of formats, tools, and databases that are made compatible with BioRECIPE, either directly or through the use of translators.
-
-.. figure:: figures/figure_examples_compatibility.png
-    :align: center
-    :alt: internal figure
-
-|
 
 Individual links to formats, databases, and tools, and links to corresponding translators are provided in the tables below.
 
