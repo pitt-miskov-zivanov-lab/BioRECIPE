@@ -48,7 +48,7 @@ Individual links to formats, databases, and tools, and links to corresponding tr
     `BEL <https://bel.bio>`_, Structured TXT (`BEL statements <https://indra.readthedocs.io/en/latest/modules/sources/bel/index.html>`_), ✓, ✓, Translation from and to BEL statements via `INDRA engine translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/indra_engine>`_
     `PySB <https://pysb.org>`_, `SBML <https://pysb.readthedocs.io/en/stable/modules/export/sbml.html>`_, ✓, ✓, Translation from and to PySB files can be done via `SBML translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/sbml>`_ to and from BioRECIPE 
     `REACH <http://agathon.sista.arizona.edu:8080/odinweb/>`_, "Tabular (e.g., tsv)", ✓, N/A, `Direct translation <https://github.com/pitt-miskov-zivanov-lab/BioRECIPE/tree/main/translators/reach_engine>`_ from REACH tabular format to BioRECIPE interaction list
-    `TRIPS <https://trips.ihmc.us/parser/cgi/drum-dev>`_, XML, ✓, N/A, ???Translation from TRIPS output to BioRECIPE interaction list
+    `TRIPS <https://trips.ihmc.us/parser/cgi/drum-dev>`_, XML, ✓, N/A, Translation from TRIPS output to BioRECIPE interaction list
 
 |
 
