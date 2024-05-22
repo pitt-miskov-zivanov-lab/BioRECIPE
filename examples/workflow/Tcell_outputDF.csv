@@ -1,0 +1,963 @@
+,Element Name,Element Type,Element ID,Location,Location ID,Cell Line,Cell Type,Organism,Positive Reg Name,Positive Reg Type,Positive Reg ID,Positive Reg Location,Positive Reg Location ID,Negative Reg Name,Negative Reg Type,Negative Reg ID,Negative Reg Location,Negative Reg Location ID,Connection Type,Database Name,Mechanism,Paper ID,Evidence,Evidence Score,Match Score,Kind Score,Epistemic Value,Total Score
+551,il-2,protein,p60568,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7851051', 'pmc6174845', 'pmc7279007', 'pmc9315201', 'pmc4746098', 'pmc7851051', 'pmc6174845', 'pmc7279007', 'pmc9315201', 'pmc4746098']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",10,100,40,1,1040
+253,cd28,protein,p10747,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc4482147', 'pmc7269815', 'pmc10010331', 'pmc9862812']","['nan', 'nan', 'nan', 'nan']",4,100,40,1,440
+260,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc9141239', 'pmc10288912', 'pmc6558778']","['nan', 'nan', 'nan']",3,100,40,1,340
+572,il-2,protein,p60568,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc7607631', 'pmc7607631', 'pmc9961031']","['nan', 'nan', 'nan']",3,100,40,1,340
+351,cr,protein,p08174,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc8939233', 'pmc7926700', 'pmc9862812']","['nan', 'nan', 'nan']",3,100,40,1,340
+864,stat5a,protein,p42229,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8220804', 'pmc8220804']","['nan', 'nan']",2,100,40,1,240
+259,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9793449', 'pmc9793449']","['nan', 'nan']",2,100,40,1,240
+558,il-2,protein,p60568,nan,nan,nan,nan,nan,killer,protein,o14763,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5893529', 'pmc5893529']","['nan', 'nan']",2,100,40,1,240
+557,il-2,protein,p60568,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8353356', 'pmc8353356']","['nan', 'nan']",2,100,40,1,240
+254,cd28,protein,p10747,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7851051', 'pmc7851051']","['nan', 'nan']",2,100,40,1,240
+252,cd28,protein,p10747,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9975250', 'pmc9975250']","['nan', 'nan']",2,100,40,1,240
+660,interleukin-2,protein,p60568,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6300726', 'pmc6300726']","['nan', 'nan']",2,100,40,1,240
+250,cd28,protein,p10747,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7691374', 'pmc7691374']","['nan', 'nan']",2,100,40,1,240
+191,cd,protein,p16410,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd55,protein,p08174,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9820921', 'pmc9820921']","['nan', 'nan']",2,100,40,1,240
+547,il-2,protein,p60568,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7607631', 'pmc7607631']","['nan', 'nan']",2,100,40,1,240
+435,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6511336', 'pmc6511336']","['nan', 'nan']",2,100,40,1,240
+826,relb,protein,q01201,nan,nan,nan,nan,nan,map3k14,protein,q99558,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9841868', 'pmc9841868']","['nan', 'nan']",2,100,40,1,240
+262,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp2,protein,q06124,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6174845', 'pmc9708373']","['nan', 'nan']",2,100,40,1,240
+543,il-2,protein,p60568,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8279746', 'pmc8279746']","['nan', 'nan']",2,100,40,1,240
+565,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10486391', 'pmc10486391']","['nan', 'nan']",2,100,40,1,240
+889,tc,protein,p08174,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla4,protein,p16410,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10002487', 'pmc10002487']","['nan', 'nan']",2,100,40,1,240
+885,tak1,protein,o43318,nan,nan,nan,nan,nan,traf6,protein,q9y4k3,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8832753', 'pmc8832753']","['nan', 'nan']",2,100,40,1,240
+549,il-2,protein,p60568,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9939256', 'pmc4482147', 'pmc5022178', 'pmc9599749', 'pmc7851051', 'pmc7279007', 'pmc3382912', 'pmc7607631', 'pmc7973425', 'pmc9939256', 'pmc4482147', 'pmc5022178', 'pmc9599749', 'pmc7851051', 'pmc7279007', 'pmc3382912', 'pmc7607631', 'pmc7973425']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",18,10,1,1,181
+562,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cbl-b,protein,q13191,nan,nan,i,['nan'],['nan'],['pmc7813298'],['nan'],1,100,40,1,140
+563,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,gitr,protein,q9y5u5,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,100,40,1,140
+544,il-2,protein,p60568,nan,nan,nan,nan,nan,cd107a,protein,p11279,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8571204'],['nan'],1,100,40,1,140
+574,il-2,protein,p60568,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,100,40,1,140
+573,il-2,protein,p60568,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9939256'],['nan'],1,100,40,1,140
+545,il-2,protein,p60568,nan,nan,nan,nan,nan,cd123,protein,p26951,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7292050'],['nan'],1,100,40,1,140
+571,il-2,protein,p60568,nan,nan,nan,nan,nan,p/i,protein,p01009,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9513944'],['nan'],1,100,40,1,140
+550,il-2,protein,p60568,nan,nan,nan,nan,nan,cd30,protein,p28908,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8850188'],['nan'],1,100,40,1,140
+192,cd,protein,p16410,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd59,protein,p13987,nan,nan,i,['nan'],['nan'],['pmc9820921'],['nan'],1,100,40,1,140
+570,il-2,protein,p60568,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,100,40,1,140
+569,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tim-3,protein,q8tdq0,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,100,40,1,140
+552,il-2,protein,p60568,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4482147'],['nan'],1,100,40,1,140
+568,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,100,40,1,140
+553,il-2,protein,p60568,nan,nan,nan,nan,nan,egfr,protein,p00533,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7520465'],['nan'],1,100,40,1,140
+888,tc,protein,p08174,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,caspase-3,protein,p42574,nan,nan,i,['nan'],['nan'],['pmc7174069'],['nan'],1,100,40,1,140
+561,il-2,protein,p60568,nan,nan,nan,nan,nan,muc1,protein,p15941,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7211288'],['nan'],1,100,40,1,140
+564,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ikzf1,protein,q13422,nan,nan,i,['nan'],['nan'],['pmc8738460'],['nan'],1,100,40,1,140
+555,il-2,protein,p60568,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,100,40,1,140
+556,il-2,protein,p60568,nan,nan,nan,nan,nan,ikzf1,protein,q13422,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8738460'],['nan'],1,100,40,1,140
+123,c-rel,protein,q04864,nan,nan,nan,nan,nan,peli1,protein,q96fa3,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6929154'],['nan'],1,100,40,1,140
+124,ca,chemical,271,nan,nan,nan,nan,nan,cd38,protein,p28907,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9814974'],['nan'],1,100,40,1,140
+125,ca,chemical,271,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,kv1.3,protein,p22001,nan,nan,i,['nan'],['nan'],['pmc6562712'],['nan'],1,100,40,1,140
+567,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc9675732'],['nan'],1,100,40,1,140
+861,stat5a,protein,p42229,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,100,40,1,140
+566,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,i,['nan'],['nan'],['pmc6390292'],['nan'],1,100,40,1,140
+863,stat5a,protein,p42229,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,100,40,1,140
+542,il-2,protein,p60568,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8304527'],['nan'],1,100,40,1,140
+559,il-2,protein,p60568,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9975250'],['nan'],1,100,40,1,140
+560,il-2,protein,p60568,nan,nan,nan,nan,nan,mice,protein,p31944,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8546260'],['nan'],1,100,40,1,140
+546,il-2,protein,p60568,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7973425'],['nan'],1,100,40,1,140
+236,cd25,protein,p01589,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,100,40,1,140
+438,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,tr1,protein,o00300,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5868074'],['nan'],1,100,40,1,140
+352,cr,protein,p08174,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8939233'],['nan'],1,100,40,1,140
+430,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5613123'],['nan'],1,100,40,1,140
+798,phosphatase and tensin homolog,protein,p60484,nan,nan,nan,nan,nan,hes1,protein,a0a0b4j2d5,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,100,40,1,140
+661,interleukin-2,protein,p60568,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10125858'],['nan'],1,100,40,1,140
+663,interleukin-2,protein,p60568,nan,nan,nan,nan,nan,tumor necrosis factor,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4948190'],['nan'],1,100,40,1,140
+666,ipex,protein,q9bzs1,nan,nan,nan,nan,nan,tr1,protein,o00300,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,100,40,1,140
+769,p-stat5,protein,p42229,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,i,['nan'],['nan'],['pmc8904293'],['nan'],1,100,40,1,140
+768,p-mtor,protein,p42345,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,sfn,protein,p31947,nan,nan,i,['nan'],['nan'],['pmc8614004'],['nan'],1,100,40,1,140
+766,os,protein,o15344,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9105926'],['nan'],1,100,40,1,140
+372,ct,protein,p49585,nan,nan,nan,nan,nan,mass,protein,p35555,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8026848'],['nan'],1,100,40,1,140
+437,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,100,40,1,140
+486,hydrogen peroxide,chemical,784,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,catalase,protein,p04040,nan,nan,i,['nan'],['nan'],['pmc9454442'],['nan'],1,100,40,1,140
+740,nfkb,protein,p19838,nan,nan,nan,nan,nan,smac,protein,q9nr28,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9098815'],['nan'],1,100,40,1,140
+739,nf-kb,protein,p19838,nan,nan,nan,nan,nan,vav,other,vav,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,100,40,1,140
+738,nf-kb,protein,p19838,nan,nan,nan,nan,nan,traf2,protein,q12933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5645034'],['nan'],1,100,40,1,140
+737,nf-kb,protein,p19838,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,i,['nan'],['nan'],['pmc9439649'],['nan'],1,100,40,1,140
+736,nf-kb,protein,p19838,nan,nan,nan,nan,nan,gs,protein,p15104,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9439649'],['nan'],1,100,40,1,140
+735,nf-kb,protein,p19838,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9439649'],['nan'],1,100,40,1,140
+728,mtor,protein,p42345,nan,nan,nan,nan,nan,icos,protein,q9y6w8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9496564'],['nan'],1,100,40,1,140
+431,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,cd39,protein,p49961,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9141239'],['nan'],1,100,40,1,140
+432,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5868074'],['nan'],1,100,40,1,140
+433,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,cd70,protein,p32970.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10441059'],['nan'],1,100,40,1,140
+265,cd28,protein,p10747,nan,nan,nan,nan,nan,zap70,protein,p43403,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8893275'],['nan'],1,100,40,1,140
+436,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tlr5,protein,o60602,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,100,40,1,140
+576,il-2,protein,p60568,nan,nan,nan,nan,nan,tnfr2,protein,p20333,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8546260'],['nan'],1,100,40,1,140
+237,cd25,protein,p01589,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,100,40,1,140
+238,cd25,protein,p01589,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,100,40,1,140
+241,cd25,protein,p01589,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,100,40,1,140
+242,cd25,protein,p01589,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,i,['nan'],['nan'],['pmc8575891'],['nan'],1,100,40,1,140
+243,cd25,protein,p01589,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,['nan'],['nan'],['pmc9101510'],['nan'],1,100,40,1,140
+244,cd25,protein,p01589,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9496564'],['nan'],1,100,40,1,140
+434,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,helios,protein,q9uks7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,100,40,1,140
+251,cd28,protein,p10747,nan,nan,nan,nan,nan,cd134,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc2864912'],['nan'],1,100,40,1,140
+255,cd28,protein,p10747,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4482147'],['nan'],1,100,40,1,140
+256,cd28,protein,p10747,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8047430'],['nan'],1,100,40,1,140
+817,protein kinase b,protein,p31749,nan,nan,nan,nan,nan,costimulatory molecule,protein,q5zpr3,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5465249'],['nan'],1,100,40,1,140
+258,cd28,protein,p10747,nan,nan,nan,nan,nan,m-csf,protein,p09603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8714859'],['nan'],1,100,40,1,140
+261,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp-2,protein,q06124,nan,nan,i,['nan'],['nan'],['pmc7885876'],['nan'],1,100,40,1,140
+263,cd28,protein,p10747,nan,nan,nan,nan,nan,p56,protein,p09914,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,100,40,1,140
+264,cd28,protein,p10747,nan,nan,nan,nan,nan,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8638458'],['nan'],1,100,40,1,140
+575,il-2,protein,p60568,nan,nan,nan,nan,nan,tm,protein,p07204,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5022178'],['nan'],1,100,40,1,140
+727,mtor,protein,p42345,nan,nan,nan,nan,nan,bcr,protein,p11274,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8532523'],['nan'],1,100,40,1,140
+616,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,socs3,protein,o14543,nan,nan,i,['nan'],['nan'],['pmc6929154'],['nan'],1,100,40,1,140
+21,akt1,protein,p31749,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,viii,protein,p10176,nan,nan,i,['nan'],['nan'],['pmc5359873'],['nan'],1,100,40,1,140
+609,il2,protein,p60568,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9401500'],['nan'],1,100,40,1,140
+702,mammalian target of rapamycin,protein,p42345,nan,nan,nan,nan,nan,glutaminase,protein,o94925,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7761500'],['nan'],1,100,40,1,140
+611,il2,protein,p60568,nan,nan,nan,nan,nan,hpl,protein,p09382,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6883585'],['nan'],1,100,40,1,140
+612,il2,protein,p60568,nan,nan,nan,nan,nan,igf-i,protein,p05019,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,100,40,1,140
+615,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,i,['nan'],['nan'],['pmc8904293'],['nan'],1,100,40,1,140
+613,il2,protein,p60568,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8821972'],['nan'],1,100,40,1,140
+729,mtor,protein,p42345,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc8758144'],['nan'],1,10,40,1,50
+887,tc,protein,p08174,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10002487'],['nan'],1,10,40,1,50
+6,4-1bb,protein,q07011,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc6256819', 'pmc6307389', 'pmc5638568', 'pmc6256819', 'pmc6307389', 'pmc5638568']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,1,40,1,46
+596,il-7,protein,p13232,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc5767585', 'pmc6509561', 'pmc5839992', 'pmc5767585', 'pmc6509561', 'pmc5839992']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,1,40,1,46
+285,cd4,protein,p01730,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc5767585', 'pmc8353356', 'pmc6509561', 'pmc5767585', 'pmc8353356', 'pmc6509561']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,1,40,1,46
+871,t cell activation,biological process,go:0042110,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc6562702', 'pmc9986336', 'pmc6511336', 'pmc9098815', 'pmc9549966', 'pmc9708373']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,1,40,1,46
+691,lck,protein,p06239,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8834324', 'pmc9975250', 'pmc8834324', 'pmc9975250']","['nan', 'nan', 'nan', 'nan']",4,1,40,1,44
+159,cart,protein,q16568,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc5767585', 'pmc5767585', 'pmc5767585', 'pmc5767585']","['nan', 'nan', 'nan', 'nan']",4,1,40,1,44
+281,cd4,protein,p01730,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8016106', 'pmc8488356', 'pmc8016106', 'pmc8488356']","['nan', 'nan', 'nan', 'nan']",4,1,40,1,44
+496,ifng,protein,p01579,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc6732842', 'pmc7885876', 'pmc8593824']","['nan', 'nan', 'nan']",3,1,40,1,43
+508,il-10,protein,p22301,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc9599749', 'pmc8575891', 'pmc3382912']","['nan', 'nan', 'nan']",3,1,40,1,43
+354,crs,protein,q15672,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7560100', 'pmc9830230', 'pmc7511472', 'pmc10191231', 'pmc7349474', 'pmc7318076', 'pmc5819207', 'pmc6966463', 'pmc9331024', 'pmc9816141', 'pmc7982884', 'pmc9927007', 'pmc10512655', 'pmc9643340', 'pmc7399644', 'pmc7560100', 'pmc9830230', 'pmc7511472', 'pmc10191231', 'pmc7349474', 'pmc7318076', 'pmc5819207', 'pmc6966463', 'pmc9331024', 'pmc9816141', 'pmc7982884', 'pmc9927007', 'pmc10512655', 'pmc9643340', 'pmc7399644']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",30,0.1,40,1,43.0
+948,tyk2,protein,p29597,nan,nan,nan,nan,nan,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc8904293', 'pmc8904293', 'pmc8904293']","['nan', 'nan', 'nan']",3,1,40,1,43
+11,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8137188', 'pmc8137188']","['nan', 'nan']",2,1,40,1,42
+533,il-15,protein,p40933,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767585', 'pmc5767585']","['nan', 'nan']",2,1,40,1,42
+334,cd80,protein,p33681,nan,nan,nan,nan,nan,pik3ca,protein,p42336,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9435509', 'pmc9435509']","['nan', 'nan']",2,1,40,1,42
+14,41bb,protein,q07011,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8812682', 'pmc8812682']","['nan', 'nan']",2,1,40,1,42
+288,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6369367', 'pmc6369367']","['nan', 'nan']",2,1,40,1,42
+460,granzyme b,protein,p10144,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6543840', 'pmc10177415']","['nan', 'nan']",2,1,40,1,42
+512,il-10,protein,p22301,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc3382912', 'pmc3382912']","['nan', 'nan']",2,1,40,1,42
+682,killer,protein,o14763,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10177415', 'pmc10177415']","['nan', 'nan']",2,1,40,1,42
+182,ccr7,protein,p32248,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8018158', 'pmc8832753']","['nan', 'nan']",2,1,40,1,42
+583,il-6,protein,p05231,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7378699', 'pmc9599749']","['nan', 'nan']",2,1,40,1,42
+216,cd19,protein,p15391,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8762141', 'pmc8762141']","['nan', 'nan']",2,1,40,1,42
+186,ccr7,protein,p32248,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc3672777', 'pmc3672777']","['nan', 'nan']",2,1,40,1,42
+362,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7419675', 'pmc7126394', 'pmc7569026', 'pmc7405542', 'pmc7352710', 'pmc10433898', 'pmc9809278', 'pmc7419675', 'pmc7126394', 'pmc7569026', 'pmc7405542', 'pmc7352710', 'pmc10433898', 'pmc9809278']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",14,0.1,40,1,41.4
+60,april,protein,o75888,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7226350', 'pmc8085238', 'pmc8297441', 'pmc7226350', 'pmc8085238', 'pmc8297441', 'pmc7226350', 'pmc8085238', 'pmc8297441', 'pmc7226350', 'pmc8085238', 'pmc8297441']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",12,0.1,40,1,41.2
+90,bcma,protein,q02223,nan,nan,nan,nan,nan,april,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9317279', 'pmc9639149', 'pmc7214244', 'pmc9317279', 'pmc9639149', 'pmc7214244', 'pmc9317279', 'pmc9639149', 'pmc7214244', 'pmc9317279', 'pmc9639149', 'pmc7214244']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",12,0.1,40,1,41.2
+143,car-t,protein,q16568,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9581047', 'pmc9814974', 'pmc8133263', 'pmc8913256', 'pmc10082278', 'pmc8018404', 'pmc9581047', 'pmc9814974', 'pmc8133263', 'pmc8913256', 'pmc10082278', 'pmc8018404']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",12,0.1,40,1,41.2
+440,fviii,protein,p00451,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,i,['nan'],['nan'],['pmc5613123'],['nan'],1,1,40,1,41
+319,cd69,protein,q07108,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8575891'],['nan'],1,1,40,1,41
+710,mcl,protein,q8wxi8,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7701665'],['nan'],1,1,40,1,41
+931,tnf-alpha,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1.t,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,1,40,1,41
+171,cbl-b,protein,q13191,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc6929154'],['nan'],1,1,40,1,41
+310,cd56,protein,p13591,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458615'],['nan'],1,1,40,1,41
+199,cd127,protein,p16871,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1.t,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,1,40,1,41
+515,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,1,40,1,41
+866,stat5b,protein,p51692,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,1,40,1,41
+517,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,i,['nan'],['nan'],['pmc3382912'],['nan'],1,1,40,1,41
+594,il-7,protein,p13232,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7985831'],['nan'],1,1,40,1,41
+954,vav,other,vav,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7178546'],['nan'],1,1,40,1,41
+196,cd107a,protein,p11279,nan,nan,nan,nan,nan,cr,protein,p08174,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10481596'],['nan'],1,1,40,1,41
+193,cd107a,protein,p11279,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8018404'],['nan'],1,1,40,1,41
+799,pi 3,protein,p19957,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc2839303'],['nan'],1,1,40,1,41
+278,cd3z,protein,p20963,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4482147'],['nan'],1,1,40,1,41
+808,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,cd25,protein,p01589,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7775630'],['nan'],1,1,40,1,41
+814,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,protein kinase b,protein,p31749,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6307389'],['nan'],1,1,40,1,41
+872,t cell co-stimulation,biological process,go:0031295,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9141239'],['nan'],1,1,40,1,41
+877,t-bet,protein,q9ul17,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7318076'],['nan'],1,1,40,1,41
+779,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,cd25,protein,p01589,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7268496'],['nan'],1,1,40,1,41
+873,t cell costimulation,biological process,go:0031295,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7397569'],['nan'],1,1,40,1,41
+377,ctla-4,protein,p16410,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,1,40,1,41
+485,hpl,protein,p09382,nan,nan,nan,nan,nan,transforming growth factor beta 1,protein,p01137,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9043864'],['nan'],1,1,40,1,41
+822,rank,protein,q9y6q6,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9939256'],['nan'],1,1,40,1,41
+911,til,protein,q15399,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6307389'],['nan'],1,1,40,1,41
+445,gitr,protein,q9y5u5,nan,nan,nan,nan,nan,il2ra,protein,p01589,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9939256'],['nan'],1,1,40,1,41
+8,4-1bb,protein,q07011,nan,nan,nan,nan,nan,mtor,protein,p42345,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8575891'],['nan'],1,1,40,1,41
+234,cd23,protein,p06734,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,c-jun,protein,p05412,nan,nan,i,['nan'],['nan'],['pmc5766637'],['nan'],1,1,40,1,41
+896,th1,protein,q8ixh7,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7973425'],['nan'],1,1,40,1,41
+825,reg,protein,p05451,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5767585'],['nan'],1,1,40,1,41
+901,th1,protein,q8ixh7,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9043864'],['nan'],1,1,40,1,41
+733,myelin oligodendrocyte glycoprotein,protein,q16653,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8920845'],['nan'],1,1,40,1,41
+579,il-4,protein,p05112,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc8417451'],['nan'],1,1,40,1,41
+442,gata3,protein,p23771,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7318076'],['nan'],1,1,40,1,41
+407,dnam-1,protein,q15762,nan,nan,nan,nan,nan,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,1,40,1,41
+443,gc,protein,p02774,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9549957'],['nan'],1,1,40,1,41
+376,ctla-4,protein,p16410,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,1,40,1,41
+83,bcl-x,protein,q07817,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4095682'],['nan'],1,1,40,1,41
+752,nkg2d,protein,p26718,nan,nan,nan,nan,nan,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,1,40,1,41
+880,t-cell activation,biological process,go:0042110,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7290012'],['nan'],1,1,40,1,41
+874,t cell differentiation,biological process,go:0030217,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7709221'],['nan'],1,1,40,1,41
+671,itam,protein family,pf02189,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7178546'],['nan'],1,1,40,1,41
+416,eomes,protein,o95936,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7318076'],['nan'],1,1,40,1,41
+772,p65,protein,p21579,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nf-kb,protein,p19838,nan,nan,i,['nan'],['nan'],['pmc8189155'],['nan'],1,1,40,1,41
+497,ifng,protein,p01579,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc8593824'],['nan'],1,1,40,1,41
+62,arginase-1,protein,p05089,nan,nan,nan,nan,nan,nf-kb,protein,p19838,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6558778'],['nan'],1,1,40,1,41
+12,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,mtor,protein,p42345,nan,nan,i,['nan'],['nan'],['pmc8575891'],['nan'],1,1,40,1,41
+249,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nf-kb,protein,p19838,nan,nan,i,['nan'],['nan'],['pmc8189155'],['nan'],1,1,40,1,41
+81,bcl-2,protein,p10415,nan,nan,nan,nan,nan,protein kinase b,protein,p31749,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9496564'],['nan'],1,1,40,1,41
+248,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,['nan'],['nan'],['pmc9868136'],['nan'],1,1,40,1,41
+246,cd26,protein,p27487,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,1,40,1,41
+365,crt,protein,p27797,nan,nan,nan,nan,nan,tc,protein,p08174,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7174069'],['nan'],1,1,40,1,41
+724,ml,protein,p40225,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6883585'],['nan'],1,1,40,1,41
+370,csn5,protein,q92905,nan,nan,nan,nan,nan,p50,protein,p19838,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10002487'],['nan'],1,1,40,1,41
+267,cd30,protein,p28908,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7603553'],['nan'],1,1,40,1,41
+949,tyk2,protein,p29597,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8904293', 'pmc8904293', 'pmc8904293', 'pmc8904293', 'pmc8904293', 'pmc8904293', 'pmc8904293', 'pmc8904293']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+961,zap70,protein,p43403,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7000777', 'pmc6006764', 'pmc8893275', 'pmc9399690', 'pmc7000777', 'pmc6006764', 'pmc8893275', 'pmc9399690']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+358,crs,protein,q15672,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9226391', 'pmc7349474', 'pmc6368716', 'pmc9816141', 'pmc9226391', 'pmc7349474', 'pmc6368716', 'pmc9816141']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+89,bcma,protein,q02223,nan,nan,nan,nan,nan,a proliferation-inducing ligand,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7970693', 'pmc10145905', 'pmc7970693', 'pmc10145905', 'pmc7970693', 'pmc10145905', 'pmc7970693', 'pmc10145905']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+131,car,protein,p36575,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc5330718', 'pmc6540776', 'pmc6254427', 'pmc9454442', 'pmc5330718', 'pmc6540776', 'pmc6254427', 'pmc9454442']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+68,baff,protein,q9y275,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8752722', 'pmc6423312', 'pmc8752722', 'pmc6423312', 'pmc8752722', 'pmc6423312', 'pmc8752722', 'pmc6423312']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+747,nkg2d,protein,p26718,nan,nan,nan,nan,nan,dap10,protein,q9ubk5,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9218287', 'pmc6287795', 'pmc9218287', 'pmc6287795', 'pmc9218287', 'pmc6287795', 'pmc9218287', 'pmc6287795']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']",8,0.1,40,1,40.8
+884,taci,protein,o14836,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8085238', 'pmc7290012', 'pmc7290012', 'pmc8085238', 'pmc7290012', 'pmc7290012']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+213,cd19,protein,p15391,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8864095', 'pmc8279746', 'pmc10125987', 'pmc8864095', 'pmc8279746', 'pmc10125987']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+364,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc9226391', 'pmc7076393', 'pmc8018404', 'pmc9226391', 'pmc7076393', 'pmc8018404']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+70,baff,protein,q9y275,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8752722', 'pmc7226350', 'pmc8085238', 'pmc8752722', 'pmc7226350', 'pmc8085238']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+859,stat3,protein,p40763,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7872024', 'pmc9105926', 'pmc10478223', 'pmc7872024', 'pmc9105926', 'pmc10478223']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+960,zap-70,protein,p43403,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc7318076', 'pmc8575966', 'pmc7178546', 'pmc7318076', 'pmc8575966', 'pmc7178546']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+857,stat3,protein,p40763,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']","['pmc8638458', 'pmc8220804', 'pmc5839992', 'pmc8638458', 'pmc8220804', 'pmc5839992']","['nan', 'nan', 'nan', 'nan', 'nan', 'nan']",6,0.1,40,1,40.6
+43,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,fas,protein,p25445,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan', 'nan']","['pmc9841868', 'pmc8130796', 'pmc6297364', 'pmc10185706', 'pmc9649996']","['nan', 'nan', 'nan', 'nan', 'nan']",5,0.1,40,1,40.5
+5,4-1bb,protein,q07011,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9136177', 'pmc7701665', 'pmc9136177', 'pmc7701665']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+231,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7519582', 'pmc8516648', 'pmc7519582', 'pmc8516648']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+474,her2,protein,p04626,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc4664810', 'pmc8573881', 'pmc4664810', 'pmc8573881']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+393,dap10,protein,q9ubk5,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9372572', 'pmc9372572', 'pmc9372572', 'pmc9372572']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+526,il-13,protein,p35225,nan,nan,nan,nan,nan,il-13r,protein,p78552,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc6174845', 'pmc6174845', 'pmc6174845', 'pmc6174845']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+337,cd86,protein,p42081,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7920435', 'pmc10505960', 'pmc7920435', 'pmc10505960']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+636,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc5837988', 'pmc7727716', 'pmc5837988', 'pmc7727716']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+607,il13r,protein,p78552,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il13,protein,p35225,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc10035515', 'pmc10035515', 'pmc10035515', 'pmc10035515']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+332,cd80,protein,p33681,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7920435', 'pmc10505960', 'pmc7920435', 'pmc10505960']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+221,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8864095', 'pmc8920845', 'pmc8864095', 'pmc8920845']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+621,il6,protein,p05231,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc10468803', 'pmc8437938', 'pmc10468803', 'pmc8437938']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+307,cd5,protein,p06127,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8948246', 'pmc8948246', 'pmc8948246', 'pmc8948246']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+305,cd47,protein,q08722,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,sirp,protein,p78324,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8811602', 'pmc8811602', 'pmc8811602', 'pmc8811602']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+299,cd40,protein,p25942,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9841868', 'pmc4395796', 'pmc9841868', 'pmc4395796']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+327,cd7,protein,p09564,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8948246', 'pmc8948246', 'pmc8948246', 'pmc8948246']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+606,il13r,protein,p78552,nan,nan,nan,nan,nan,il13,protein,p35225,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc10035515', 'pmc10035515', 'pmc10035515', 'pmc10035515']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+692,lck,protein,p06239,nan,nan,nan,nan,nan,csk,protein,p41240,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc6929154', 'pmc6929154', 'pmc6929154', 'pmc6929154']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+153,cart,protein,q16568,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9868136', 'pmc5995247', 'pmc9868136', 'pmc5995247']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+58,april,protein,o75888,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc6423312', 'pmc6423312', 'pmc6423312', 'pmc6423312']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+59,april,protein,o75888,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc10504087', 'pmc10504087', 'pmc10504087', 'pmc10504087']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+913,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8391477', 'pmc8391477', 'pmc8391477', 'pmc8391477']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+846,sirpa,protein,p78324,nan,nan,nan,nan,nan,cd47,protein,q08722,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9905824', 'pmc9905824', 'pmc9905824', 'pmc9905824']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+633,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7607631', 'pmc9961031', 'pmc7607631', 'pmc9961031']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+91,bcma,protein,q02223,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc9317279', 'pmc9317279', 'pmc9317279', 'pmc9317279']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+69,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7352710', 'pmc7352710', 'pmc7352710', 'pmc7352710']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+847,sirpalpha,protein,p78324,nan,nan,nan,nan,nan,cd47,protein,q08722,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8811602', 'pmc8811602', 'pmc8811602', 'pmc8811602']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+209,cd19,protein,p15391,nan,nan,nan,nan,nan,all,protein,p11274,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8592274', 'pmc7926700', 'pmc8592274', 'pmc7926700']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+73,baff-r,protein,q96rj3,nan,nan,nan,nan,nan,cd19-,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8983465', 'pmc8983465', 'pmc8983465', 'pmc8983465']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+210,cd19,protein,p15391,nan,nan,nan,nan,nan,baff-r,protein,q96rj3,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8983465', 'pmc8983465', 'pmc8983465', 'pmc8983465']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+886,tbk1,protein,q9uhd2,nan,nan,nan,nan,nan,sting,protein,q86wv6,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7745059', 'pmc7745059', 'pmc7745059', 'pmc7745059']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+883,taci,protein,o14836,nan,nan,nan,nan,nan,april,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc8085238', 'pmc8085238', 'pmc8085238', 'pmc8085238']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+158,cart,protein,q16568,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc6940894', 'pmc5767585', 'pmc6940894', 'pmc5767585']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+869,sting,protein,q86wv6,nan,nan,nan,nan,nan,tbk1,protein,q9uhd2,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan', 'nan']","['nan', 'nan', 'nan', 'nan']","['pmc7745059', 'pmc7745059', 'pmc7745059', 'pmc7745059']","['nan', 'nan', 'nan', 'nan']",4,0.1,40,1,40.4
+947,tyk2,protein,p29597,nan,nan,nan,nan,nan,il15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc8904293', 'pmc8904293', 'pmc8904293']","['nan', 'nan', 'nan']",3,0.1,40,1,40.3
+45,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,fasl,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc5615327', 'pmc6739330', 'pmc8396358']","['nan', 'nan', 'nan']",3,0.1,40,1,40.3
+639,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc3654581', 'pmc10288912', 'pmc8016106']","['nan', 'nan', 'nan']",3,0.1,40,1,40.3
+844,signaling pathway,biological process,go:0007165,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc6021366', 'pmc3264628', 'pmc9961031']","['nan', 'nan', 'nan']",3,0.1,40,1,40.3
+52,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,"['nan', 'nan', 'nan']","['nan', 'nan', 'nan']","['pmc7827522', 'pmc8398498', 'pmc8398498']","['nan', 'nan', 'nan']",3,0.1,40,1,40.3
+134,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,her-2,protein,p04626,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8790321', 'pmc8790321']","['nan', 'nan']",2,0.1,40,1,40.2
+762,nlrp3,protein,q96p20,nan,nan,nan,nan,nan,caspase-1,protein,p29466,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8191503', 'pmc8191503']","['nan', 'nan']",2,0.1,40,1,40.2
+675,jak2,protein,o60674,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8904293', 'pmc8904293']","['nan', 'nan']",2,0.1,40,1,40.2
+916,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10098269', 'pmc10098269']","['nan', 'nan']",2,0.1,40,1,40.2
+674,jak2,protein,o60674,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8904293', 'pmc8904293']","['nan', 'nan']",2,0.1,40,1,40.2
+136,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,prdm1,protein,o75626,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10257143', 'pmc10257143']","['nan', 'nan']",2,0.1,40,1,40.2
+140,car-t,protein,q16568,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8472544', 'pmc8472544']","['nan', 'nan']",2,0.1,40,1,40.2
+135,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc4673284', 'pmc4673284']","['nan', 'nan']",2,0.1,40,1,40.2
+767,ox40,protein,p43489,nan,nan,nan,nan,nan,ox40l,protein,p23510,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8091475', 'pmc8091475']","['nan', 'nan']",2,0.1,40,1,40.2
+495,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8018404', 'pmc8018404']","['nan', 'nan']",2,0.1,40,1,40.2
+589,il-6,protein,p05231,nan,nan,nan,nan,nan,mcp-1,protein,p13500,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10378049', 'pmc10378049']","['nan', 'nan']",2,0.1,40,1,40.2
+139,car-t,protein,q16568,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9729744', 'pmc9729744']","['nan', 'nan']",2,0.1,40,1,40.2
+832,shp-2,protein,q06124,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6558778', 'pmc6558778']","['nan', 'nan']",2,0.1,40,1,40.2
+148,car-t,protein,q16568,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9307822', 'pmc9307822']","['nan', 'nan']",2,0.1,40,1,40.2
+145,car-t,protein,q16568,nan,nan,nan,nan,nan,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8753449', 'pmc10264288']","['nan', 'nan']",2,0.1,40,1,40.2
+333,cd80,protein,p33681,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cytotoxic t-lymphocyte associated protein 4,protein,p16410,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5837988', 'pmc5837988']","['nan', 'nan']",2,0.1,40,1,40.2
+785,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,immune surveillance,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6109480', 'pmc6109480']","['nan', 'nan']",2,0.1,40,1,40.2
+620,il6,protein,p05231,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5486173', 'pmc5486173']","['nan', 'nan']",2,0.1,40,1,40.2
+667,irf3,protein,q14653,nan,nan,nan,nan,nan,sting,protein,q86wv6,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7745059', 'pmc7745059']","['nan', 'nan']",2,0.1,40,1,40.2
+328,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd27,protein,p26842,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6558778', 'pmc6558778']","['nan', 'nan']",2,0.1,40,1,40.2
+504,ikk2,protein,o14920,nan,nan,nan,nan,nan,ikk1,protein,o15111,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8832753', 'pmc8832753']","['nan', 'nan']",2,0.1,40,1,40.2
+721,mice,protein,p31944,nan,nan,nan,nan,nan,il-17a,protein,q16552,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7333770', 'pmc7333770']","['nan', 'nan']",2,0.1,40,1,40.2
+331,cd80,protein,p33681,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc4482147', 'pmc4482147']","['nan', 'nan']",2,0.1,40,1,40.2
+157,cart,protein,q16568,nan,nan,nan,nan,nan,hla-g,protein,p17693,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8227123', 'pmc8227123']","['nan', 'nan']",2,0.1,40,1,40.2
+152,car-t,protein,q16568,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8327729', 'pmc8327729']","['nan', 'nan']",2,0.1,40,1,40.2
+146,car-t,protein,q16568,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc4810120', 'pmc10055096']","['nan', 'nan']",2,0.1,40,1,40.2
+778,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8548718', 'pmc4457995']","['nan', 'nan']",2,0.1,40,1,40.2
+591,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8133263', 'pmc8133263']","['nan', 'nan']",2,0.1,40,1,40.2
+338,cd86,protein,p42081,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cytotoxic t-lymphocyte associated protein 4,protein,p16410,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5837988', 'pmc5837988']","['nan', 'nan']",2,0.1,40,1,40.2
+685,killer,protein,o14763,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7341825', 'pmc7341825']","['nan', 'nan']",2,0.1,40,1,40.2
+676,janus kinase 2,protein,o60674,nan,nan,nan,nan,nan,stat3,protein,p40763,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8750340', 'pmc8750340']","['nan', 'nan']",2,0.1,40,1,40.2
+672,itam,protein family,pf02189,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8575966', 'pmc9399690']","['nan', 'nan']",2,0.1,40,1,40.2
+693,lck,protein,p06239,nan,nan,nan,nan,nan,fyn,protein,p06241,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9975250', 'pmc9975250']","['nan', 'nan']",2,0.1,40,1,40.2
+498,ifng,protein,p01579,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp1,protein,p29350,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9846171', 'pmc9846171']","['nan', 'nan']",2,0.1,40,1,40.2
+359,crs,protein,q15672,nan,nan,nan,nan,nan,il6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8050776', 'pmc8050776']","['nan', 'nan']",2,0.1,40,1,40.2
+126,car,protein,p36575,nan,nan,nan,nan,nan,ccr4,protein,p51679,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8877886', 'pmc8877886']","['nan', 'nan']",2,0.1,40,1,40.2
+133,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7226998', 'pmc7226998']","['nan', 'nan']",2,0.1,40,1,40.2
+1,2b4,protein,q9bzw8,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8529192', 'pmc8529192']","['nan', 'nan']",2,0.1,40,1,40.2
+478,her2,protein,p04626,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7607631', 'pmc7607631']","['nan', 'nan']",2,0.1,40,1,40.2
+390,cxcr5,protein,p32302,nan,nan,nan,nan,nan,icos,protein,q9y6w8,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7000777', 'pmc7000777']","['nan', 'nan']",2,0.1,40,1,40.2
+92,bcma,protein,q02223,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8198014', 'pmc8198014']","['nan', 'nan']",2,0.1,40,1,40.2
+7,4-1bb,protein,q07011,nan,nan,nan,nan,nan,mice,protein,p31944,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6524286', 'pmc6524286']","['nan', 'nan']",2,0.1,40,1,40.2
+95,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7877347', 'pmc7877347']","['nan', 'nan']",2,0.1,40,1,40.2
+395,dap12,protein,o43914,nan,nan,nan,nan,nan,trem2,protein,q9nzc2,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10413520', 'pmc10413520']","['nan', 'nan']",2,0.1,40,1,40.2
+396,dc,protein,o43602,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8122391', 'pmc8122391']","['nan', 'nan']",2,0.1,40,1,40.2
+96,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd138,protein,p18827,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7352710', 'pmc7352710']","['nan', 'nan']",2,0.1,40,1,40.2
+4,4-1bb,protein,q07011,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10504071', 'pmc9533140']","['nan', 'nan']",2,0.1,40,1,40.2
+900,th1,protein,q8ixh7,nan,nan,nan,nan,nan,icos,protein,q9y6w8,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9496564', 'pmc8773791']","['nan', 'nan']",2,0.1,40,1,40.2
+734,nck,protein,p16333,nan,nan,nan,nan,nan,zap-70,protein,p43403,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8005572', 'pmc8005572']","['nan', 'nan']",2,0.1,40,1,40.2
+577,il-3,protein,p08700,nan,nan,nan,nan,nan,cd123,protein,p26951,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7697374', 'pmc7697374']","['nan', 'nan']",2,0.1,40,1,40.2
+477,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7607631', 'pmc7607631']","['nan', 'nan']",2,0.1,40,1,40.2
+476,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,epidermal growth factor receptor,protein,p00533,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8508330', 'pmc8508330']","['nan', 'nan']",2,0.1,40,1,40.2
+475,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6540776', 'pmc6540776']","['nan', 'nan']",2,0.1,40,1,40.2
+2,4-1bb,protein,q07011,nan,nan,nan,nan,nan,4-1bb ligand,protein,p41273,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6524286', 'pmc6524286']","['nan', 'nan']",2,0.1,40,1,40.2
+100,bcma,protein,q02223,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9986336', 'pmc8974082']","['nan', 'nan']",2,0.1,40,1,40.2
+726,monocyte chemotactic protein 1,protein,p13500,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6804784', 'pmc6804784']","['nan', 'nan']",2,0.1,40,1,40.2
+745,nkg2d,protein,p26718,nan,nan,nan,nan,nan,2b4,protein,q9bzw8,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8529192', 'pmc8529192']","['nan', 'nan']",2,0.1,40,1,40.2
+414,egfr,protein,p00533,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,egf,protein,p01133,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8331026', 'pmc8331026']","['nan', 'nan']",2,0.1,40,1,40.2
+384,cxcl13,protein,o43927,nan,nan,nan,nan,nan,cxcr5,protein,p32302,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9941136', 'pmc9941136']","['nan', 'nan']",2,0.1,40,1,40.2
+130,car,protein,p36575,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10277551', 'pmc10277551']","['nan', 'nan']",2,0.1,40,1,40.2
+129,car,protein,p36575,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7349474', 'pmc7349474']","['nan', 'nan']",2,0.1,40,1,40.2
+758,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,killer,protein,o14763,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767051', 'pmc5767051']","['nan', 'nan']",2,0.1,40,1,40.2
+413,egfr,protein,p00533,nan,nan,nan,nan,nan,egf,protein,p01133,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8331026', 'pmc8331026']","['nan', 'nan']",2,0.1,40,1,40.2
+755,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd56,protein,p13591,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8529192', 'pmc8529192']","['nan', 'nan']",2,0.1,40,1,40.2
+420,erythropoietin,protein,p01588,nan,nan,nan,nan,nan,epha2,protein,p29317,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5684428', 'pmc7979733']","['nan', 'nan']",2,0.1,40,1,40.2
+754,nkg2d,protein,p26718,nan,nan,nan,nan,nan,killer,protein,o14763,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767051', 'pmc5767051']","['nan', 'nan']",2,0.1,40,1,40.2
+10,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5486173', 'pmc5486173']","['nan', 'nan']",2,0.1,40,1,40.2
+487,id2,protein,q02363,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl11b,protein,q9c0k0,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8943975', 'pmc8943975']","['nan', 'nan']",2,0.1,40,1,40.2
+587,il-6,protein,p05231,nan,nan,nan,nan,nan,dc,protein,o43602,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8021099', 'pmc8021099']","['nan', 'nan']",2,0.1,40,1,40.2
+9,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,apoptosis,biological process,go:0006915,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7691374', 'pmc7691374']","['nan', 'nan']",2,0.1,40,1,40.2
+586,il-6,protein,p05231,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7405542', 'pmc7405542']","['nan', 'nan']",2,0.1,40,1,40.2
+912,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,g-csf,protein,p09919,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9271987', 'pmc9271987']","['nan', 'nan']",2,0.1,40,1,40.2
+380,cxcl10,protein,p02778,nan,nan,nan,nan,nan,apcs,protein,p02743,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9012394', 'pmc9012394']","['nan', 'nan']",2,0.1,40,1,40.2
+483,hmgb1,protein,p09429,nan,nan,nan,nan,nan,crt,protein,p27797,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8750340', 'pmc8750340']","['nan', 'nan']",2,0.1,40,1,40.2
+118,btn3a1,protein,o00481,nan,nan,nan,nan,nan,periplakin,protein,o60437,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8396358', 'pmc8396358']","['nan', 'nan']",2,0.1,40,1,40.2
+482,hla-g,protein,p17693,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8227123', 'pmc8227123']","['nan', 'nan']",2,0.1,40,1,40.2
+160,cart,protein,q16568,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767585', 'pmc5767585']","['nan', 'nan']",2,0.1,40,1,40.2
+17,adhesion,biological process,go:0007155,nan,nan,nan,nan,nan,lfa-1,protein,p05107,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8005572', 'pmc7308553']","['nan', 'nan']",2,0.1,40,1,40.2
+788,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7607631', 'pmc7607631']","['nan', 'nan']",2,0.1,40,1,40.2
+950,tyk2,protein,p29597,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8904293', 'pmc8904293']","['nan', 'nan']",2,0.1,40,1,40.2
+205,cd155,protein,p15151,nan,nan,nan,nan,nan,dnam-1,protein,q15762,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7226319', 'pmc7226319']","['nan', 'nan']",2,0.1,40,1,40.2
+940,trail,protein,p50591,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8936073', 'pmc7174069']","['nan', 'nan']",2,0.1,40,1,40.2
+941,trail,protein,p50591,nan,nan,nan,nan,nan,tumor necrosis factor,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8145105', 'pmc6480870']","['nan', 'nan']",2,0.1,40,1,40.2
+409,dr5,protein,o14763,nan,nan,nan,nan,nan,indo,protein,p14902,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9330341', 'pmc9330341']","['nan', 'nan']",2,0.1,40,1,40.2
+608,il15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5980417', 'pmc5980417']","['nan', 'nan']",2,0.1,40,1,40.2
+202,cd138,protein,p18827,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8637449', 'pmc8637449']","['nan', 'nan']",2,0.1,40,1,40.2
+33,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7691374', 'pmc7691374']","['nan', 'nan']",2,0.1,40,1,40.2
+30,apcs,protein,p02743,nan,nan,nan,nan,nan,cxcl10,protein,p02778,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9012394', 'pmc9012394']","['nan', 'nan']",2,0.1,40,1,40.2
+694,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7851051', 'pmc7851051']","['nan', 'nan']",2,0.1,40,1,40.2
+161,cart,protein,q16568,nan,nan,nan,nan,nan,il-7-,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6940894', 'pmc6940894']","['nan', 'nan']",2,0.1,40,1,40.2
+266,cd30,protein,p28908,nan,nan,nan,nan,nan,ccr4,protein,p51679,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8018404', 'pmc8018404']","['nan', 'nan']",2,0.1,40,1,40.2
+848,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8327729', 'pmc8327729']","['nan', 'nan']",2,0.1,40,1,40.2
+189,ccr8,protein,p51685,nan,nan,nan,nan,nan,ccl1,protein,p22362,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9182403', 'pmc9182403']","['nan', 'nan']",2,0.1,40,1,40.2
+23,all,protein,p11274,nan,nan,nan,nan,nan,cd19-,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8821938', 'pmc8821938']","['nan', 'nan']",2,0.1,40,1,40.2
+926,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ptp1b,protein,p18031,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8904293', 'pmc8904293']","['nan', 'nan']",2,0.1,40,1,40.2
+22,all,protein,p11274,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6489634', 'pmc6489634']","['nan', 'nan']",2,0.1,40,1,40.2
+65,b7-1,protein,p33681,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7563532', 'pmc7563532']","['nan', 'nan']",2,0.1,40,1,40.2
+273,cd38,protein,p28907,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8297441', 'pmc8297441']","['nan', 'nan']",2,0.1,40,1,40.2
+57,april,protein,o75888,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8936073', 'pmc8297441']","['nan', 'nan']",2,0.1,40,1,40.2
+928,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tim-3,protein,q8tdq0,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9807865', 'pmc9807865']","['nan', 'nan']",2,0.1,40,1,40.2
+531,il-15,protein,p40933,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767585', 'pmc5767585']","['nan', 'nan']",2,0.1,40,1,40.2
+55,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,trail,protein,p50591,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9330341', 'pmc8396358']","['nan', 'nan']",2,0.1,40,1,40.2
+539,il-18,protein,q14116,nan,nan,nan,nan,nan,caspase-1,protein,p29466,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8191503', 'pmc8191503']","['nan', 'nan']",2,0.1,40,1,40.2
+224,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd81,protein,p60033,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9649996', 'pmc9649996']","['nan', 'nan']",2,0.1,40,1,40.2
+538,il-17a,protein,q16552,nan,nan,nan,nan,nan,mice,protein,p31944,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7333770', 'pmc7333770']","['nan', 'nan']",2,0.1,40,1,40.2
+829,ripk3,protein,q9y572,nan,nan,nan,nan,nan,ripk1,protein,q13546,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8546260', 'pmc8546260']","['nan', 'nan']",2,0.1,40,1,40.2
+219,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,all,protein,p11274,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9713842', 'pmc9713842']","['nan', 'nan']",2,0.1,40,1,40.2
+932,tnf-alpha,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8018404', 'pmc8018404']","['nan', 'nan']",2,0.1,40,1,40.2
+218,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7378699', 'pmc7378699']","['nan', 'nan']",2,0.1,40,1,40.2
+833,shp-2,protein,q06124,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6558778', 'pmc6558778']","['nan', 'nan']",2,0.1,40,1,40.2
+534,il-15,protein,p40933,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8304527', 'pmc8304527']","['nan', 'nan']",2,0.1,40,1,40.2
+707,mbl,protein,p11226,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9793449', 'pmc9793449']","['nan', 'nan']",2,0.1,40,1,40.2
+48,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8919567', 'pmc5991383']","['nan', 'nan']",2,0.1,40,1,40.2
+211,cd19,protein,p15391,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8637449', 'pmc8637449']","['nan', 'nan']",2,0.1,40,1,40.2
+935,traf3,protein,q13114,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,traf2,protein,q12933,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8832753', 'pmc8832753']","['nan', 'nan']",2,0.1,40,1,40.2
+820,ptp1b,protein,p18031,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8904293', 'pmc8904293']","['nan', 'nan']",2,0.1,40,1,40.2
+625,il7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5980417', 'pmc5980417']","['nan', 'nan']",2,0.1,40,1,40.2
+624,il6-,protein,p05231,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8437938', 'pmc8437938']","['nan', 'nan']",2,0.1,40,1,40.2
+697,lfa-1,protein,p05107,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8529192', 'pmc8529192']","['nan', 'nan']",2,0.1,40,1,40.2
+441,fyn,protein,p06241,nan,nan,nan,nan,nan,csk,protein,p41240,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6929154', 'pmc6929154']","['nan', 'nan']",2,0.1,40,1,40.2
+429,flt3 ligand,protein,p49771,nan,nan,nan,nan,nan,flt3,protein,p36888,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8896098', 'pmc8896098']","['nan', 'nan']",2,0.1,40,1,40.2
+297,cd40,protein,p25942,nan,nan,nan,nan,nan,apcs,protein,p02743,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8410039', 'pmc8410039']","['nan', 'nan']",2,0.1,40,1,40.2
+800,plcg1,protein,p19174,nan,nan,nan,nan,nan,itk,protein,q08881,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8005572', 'pmc8005572']","['nan', 'nan']",2,0.1,40,1,40.2
+855,stat-1,protein,p42224,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,stat-3,protein,p40763,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10002487', 'pmc10002487']","['nan', 'nan']",2,0.1,40,1,40.2
+858,stat3,protein,p40763,nan,nan,nan,nan,nan,il-21 receptor,protein,q9hbe5,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8638458', 'pmc8638458']","['nan', 'nan']",2,0.1,40,1,40.2
+300,cd40,protein,p25942,nan,nan,nan,nan,nan,map3k14,protein,q99558,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9841868', 'pmc9841868']","['nan', 'nan']",2,0.1,40,1,40.2
+72,baff-,protein,q9y275,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8297441', 'pmc8297441']","['nan', 'nan']",2,0.1,40,1,40.2
+303,cd40l,protein,p29965,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7710757', 'pmc7710757']","['nan', 'nan']",2,0.1,40,1,40.2
+516,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-10r,protein,q13651,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9872249', 'pmc9872249']","['nan', 'nan']",2,0.1,40,1,40.2
+593,il-7,protein,p13232,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5767585', 'pmc5767585']","['nan', 'nan']",2,0.1,40,1,40.2
+868,stat5b,protein,p51692,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8220804', 'pmc8220804']","['nan', 'nan']",2,0.1,40,1,40.2
+308,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8948246', 'pmc8948246']","['nan', 'nan']",2,0.1,40,1,40.2
+955,vav-1,protein,p15498,nan,nan,nan,nan,nan,zap-70,protein,p43403,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8005572', 'pmc8005572']","['nan', 'nan']",2,0.1,40,1,40.2
+311,cd56,protein,p13591,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8529192', 'pmc8529192']","['nan', 'nan']",2,0.1,40,1,40.2
+312,cd62l,protein,p14151,nan,nan,nan,nan,nan,cd105,protein,p17813,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9849980', 'pmc9849980']","['nan', 'nan']",2,0.1,40,1,40.2
+956,vegfr-2,protein,p35968,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,vegf-a,protein,p15692,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8365827', 'pmc8365827']","['nan', 'nan']",2,0.1,40,1,40.2
+162,cart,protein,q16568,nan,nan,nan,nan,nan,il6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8437938', 'pmc8437938']","['nan', 'nan']",2,0.1,40,1,40.2
+222,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10362402', 'pmc10362402']","['nan', 'nan']",2,0.1,40,1,40.2
+789,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,lag-3,protein,p18627,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9351179', 'pmc9351179']","['nan', 'nan']",2,0.1,40,1,40.2
+318,cd69,protein,q07108,nan,nan,nan,nan,nan,cd105,protein,p17813,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9849980', 'pmc9849980']","['nan', 'nan']",2,0.1,40,1,40.2
+66,b7-2,protein,p42081,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7563532', 'pmc7563532']","['nan', 'nan']",2,0.1,40,1,40.2
+97,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7352710', 'pmc7352710']","['nan', 'nan']",2,0.1,40,1,40.2
+284,cd4,protein,p01730,nan,nan,nan,nan,nan,il-16,protein,q14005,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8016106', 'pmc8016106']","['nan', 'nan']",2,0.1,40,1,40.2
+179,ccr4,protein,p51679,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8865283', 'pmc8865283']","['nan', 'nan']",2,0.1,40,1,40.2
+807,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7076393', 'pmc9091016']","['nan', 'nan']",2,0.1,40,1,40.2
+180,ccr4,protein,p51679,nan,nan,nan,nan,nan,cd30,protein,p28908,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6404322', 'pmc6404322']","['nan', 'nan']",2,0.1,40,1,40.2
+715,mek-1,protein,q02750,nan,nan,nan,nan,nan,b-raf,protein,p15056,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6658873', 'pmc6658873']","['nan', 'nan']",2,0.1,40,1,40.2
+689,lag-3,protein,p18627,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7761500', 'pmc7761500']","['nan', 'nan']",2,0.1,40,1,40.2
+423,fas,protein,p25445,nan,nan,nan,nan,nan,caspase-8,protein,q14790,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8919567', 'pmc8919567']","['nan', 'nan']",2,0.1,40,1,40.2
+181,ccr7,protein,p32248,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7710757', 'pmc8018158']","['nan', 'nan']",2,0.1,40,1,40.2
+286,cd4,protein,p01730,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8353356', 'pmc8353356']","['nan', 'nan']",2,0.1,40,1,40.2
+287,cd4,protein,p01730,nan,nan,nan,nan,nan,il15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc2888148', 'pmc2888148']","['nan', 'nan']",2,0.1,40,1,40.2
+595,il-7,protein,p13232,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5839992', 'pmc5839992']","['nan', 'nan']",2,0.1,40,1,40.2
+289,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd38,protein,p28907,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8021099', 'pmc8021099']","['nan', 'nan']",2,0.1,40,1,40.2
+717,mice,protein,p31944,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7691374', 'pmc7691374']","['nan', 'nan']",2,0.1,40,1,40.2
+291,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,mbl,protein,p11226,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc8853520', 'pmc8853520']","['nan', 'nan']",2,0.1,40,1,40.2
+292,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp-1,protein,p29350,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc5264497', 'pmc5264497']","['nan', 'nan']",2,0.1,40,1,40.2
+424,fas ligand,protein,p48023,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,fas-tnfr,protein,p25445,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc10185706', 'pmc10185706']","['nan', 'nan']",2,0.1,40,1,40.2
+279,cd4,protein,p01730,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7691374', 'pmc8016106']","['nan', 'nan']",2,0.1,40,1,40.2
+687,lag-3,protein,p18627,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+684,killer,protein,o14763,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ceacam1,protein,p13688,nan,nan,i,['nan'],['nan'],['pmc8296838'],['nan'],1,0.1,40,1,40.1
+688,lag-3,protein,p18627,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,i,['nan'],['nan'],['pmc8304527'],['nan'],1,0.1,40,1,40.1
+686,lag-3,protein,p18627,nan,nan,nan,nan,nan,g-csf,protein,p09919,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9271987'],['nan'],1,0.1,40,1,40.1
+696,lfa-1,protein,p05107,nan,nan,nan,nan,nan,2b4,protein,q9bzw8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8529192'],['nan'],1,0.1,40,1,40.1
+695,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,dasatinib,chemical,3062316,nan,nan,i,['nan'],['nan'],['pmc8293573'],['nan'],1,0.1,40,1,40.1
+690,lag3,protein,p18627,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,i,['nan'],['nan'],['pmc8293573'],['nan'],1,0.1,40,1,40.1
+645,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,susd2,protein,q9ugt4,nan,nan,i,['nan'],['nan'],['pmc9669207'],['nan'],1,0.1,40,1,40.1
+683,killer,protein,o14763,nan,nan,nan,nan,nan,il-4,protein,p05112,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc3310246'],['nan'],1,0.1,40,1,40.1
+635,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7215892'],['nan'],1,0.1,40,1,40.1
+646,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7408985'],['nan'],1,0.1,40,1,40.1
+699,lilrb1,protein,q8nhl6,nan,nan,nan,nan,nan,zap70,protein,p43403,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8524382'],['nan'],1,0.1,40,1,40.1
+644,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,hla-g,protein,p17693,nan,nan,i,['nan'],['nan'],['pmc8524382'],['nan'],1,0.1,40,1,40.1
+643,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,hla-g,protein,p17693,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8524382'],['nan'],1,0.1,40,1,40.1
+642,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6540944'],['nan'],1,0.1,40,1,40.1
+641,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10055096'],['nan'],1,0.1,40,1,40.1
+640,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8410010'],['nan'],1,0.1,40,1,40.1
+638,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+637,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,til,protein,q15399,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6562702'],['nan'],1,0.1,40,1,40.1
+634,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l2,protein,q9bq51,nan,nan,i,['nan'],['nan'],['pmc5837988'],['nan'],1,0.1,40,1,40.1
+681,killer,protein,o14763,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8530183'],['nan'],1,0.1,40,1,40.1
+632,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ctla-4,protein,p16410,nan,nan,i,['nan'],['nan'],['pmc4810120'],['nan'],1,0.1,40,1,40.1
+631,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,b7h3,protein,q5zpr3,nan,nan,i,['nan'],['nan'],['pmc10354409'],['nan'],1,0.1,40,1,40.1
+630,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9249670'],['nan'],1,0.1,40,1,40.1
+629,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,icos,protein,q9y6w8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7215892'],['nan'],1,0.1,40,1,40.1
+628,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9249670'],['nan'],1,0.1,40,1,40.1
+627,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,cytotoxic t-lymphocyte-associated protein 4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7727716'],['nan'],1,0.1,40,1,40.1
+626,immune response,biological process,go:0006955,nan,nan,nan,nan,nan,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8753449'],['nan'],1,0.1,40,1,40.1
+623,il6,protein,p05231,nan,nan,nan,nan,nan,il1ra,protein,p14778,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8437938'],['nan'],1,0.1,40,1,40.1
+622,il6,protein,p05231,nan,nan,nan,nan,nan,hey1,protein,q9y5j3,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+647,inflammation,biological process,go:0006954,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+648,inflammation,biological process,go:0006954,nan,nan,nan,nan,nan,il6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9372572'],['nan'],1,0.1,40,1,40.1
+649,inflammation,biological process,go:0006954,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,p2x7,protein,q99572,nan,nan,i,['nan'],['nan'],['pmc9905824'],['nan'],1,0.1,40,1,40.1
+650,inflammation,biological process,go:0006954,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+680,killer,protein,o14763,nan,nan,nan,nan,nan,cd94,protein,q13241,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7341825'],['nan'],1,0.1,40,1,40.1
+679,ki67,other,uaz4b693637,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9105926'],['nan'],1,0.1,40,1,40.1
+678,kcnn4,protein,o15554,nan,nan,nan,nan,nan,potassium,chemical,813,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8632331'],['nan'],1,0.1,40,1,40.1
+677,junb,protein,p17275,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,jun,other,jun_family.t,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+673,jak2,protein,o60674,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,lestaurtinib,chemical,126565,nan,nan,i,['nan'],['nan'],['pmc9841868'],['nan'],1,0.1,40,1,40.1
+670,isa,protein,p27216,nan,nan,nan,nan,nan,p53,protein,p04637,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8297441'],['nan'],1,0.1,40,1,40.1
+669,irf4,protein,q15306,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,jun,other,jun_family.t,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+668,irf3,protein,q14653,nan,nan,nan,nan,nan,tbk1,protein,q9uhd2.p,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9098815'],['nan'],1,0.1,40,1,40.1
+665,ip-10,protein,p02778,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+664,ip-10,protein,p02778,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+659,interferon-gamma,protein,p01579,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+658,interferon-gamma,protein,p01579,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+657,interferon-gamma,protein,p01579,nan,nan,nan,nan,nan,cd6,protein,p30203,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6328988'],['nan'],1,0.1,40,1,40.1
+656,interferon-gamma,protein,p01579,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+655,interferon gamma,protein,p01579,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6300726'],['nan'],1,0.1,40,1,40.1
+654,insulin receptor,protein,p06213,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,atm,protein,q13315,nan,nan,i,['nan'],['nan'],['pmc10000606'],['nan'],1,0.1,40,1,40.1
+653,inos,protein,p35228,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7761500'],['nan'],1,0.1,40,1,40.1
+652,inos,protein,p35228,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7349474'],['nan'],1,0.1,40,1,40.1
+651,innate immune response,biological process,go:0045087,nan,nan,nan,nan,nan,cgas,protein,q8n884,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7745059'],['nan'],1,0.1,40,1,40.1
+698,li,protein,p22735,nan,nan,nan,nan,nan,tp53,protein,p04637,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7213909'],['nan'],1,0.1,40,1,40.1
+794,pd-l2,protein,q9bq51,nan,nan,nan,nan,nan,granulocyte-macrophage colony-stimulating factor,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6140403'],['nan'],1,0.1,40,1,40.1
+700,lyn,protein,p07948,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,dasatinib,chemical,3062316,nan,nan,i,['nan'],['nan'],['pmc10000606'],['nan'],1,0.1,40,1,40.1
+830,ror1,protein,p35398,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10010331'],['nan'],1,0.1,40,1,40.1
+867,stat5b,protein,p51692,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,0.1,40,1,40.1
+870,sup,protein,p60880,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9313125'],['nan'],1,0.1,40,1,40.1
+875,t cell proliferation,biological process,go:0042098,nan,nan,nan,nan,nan,light,protein,o43557,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6509561'],['nan'],1,0.1,40,1,40.1
+876,t-bet,protein,q9ul17,nan,nan,nan,nan,nan,cd226,protein,q15762,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,0.1,40,1,40.1
+878,t-bet,protein,q9ul17,nan,nan,nan,nan,nan,gata-3,protein,p23771,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6021366'],['nan'],1,0.1,40,1,40.1
+879,t-cell activation,biological process,go:0042110,nan,nan,nan,nan,nan,cd26,protein,p27487,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10453178'],['nan'],1,0.1,40,1,40.1
+881,t-cell activation,biological process,go:0042110,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+882,t-cell activation,biological process,go:0042110,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,['nan'],['nan'],['pmc9101510'],['nan'],1,0.1,40,1,40.1
+890,tcf-1,protein,p20823,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tox,protein,o94900.t,nan,nan,i,['nan'],['nan'],['pmc8218695'],['nan'],1,0.1,40,1,40.1
+891,tcf1,protein,p20823,nan,nan,nan,nan,nan,nr4a3,protein,q92570,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10257143'],['nan'],1,0.1,40,1,40.1
+892,tcf7,protein,p36402,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,prdm1,protein,o75626,nan,nan,i,['nan'],['nan'],['pmc10257143'],['nan'],1,0.1,40,1,40.1
+893,telomerase reverse transcriptase,protein,o14746,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bmi1,protein,p35226,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+894,th1,protein,q8ixh7,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5751546'],['nan'],1,0.1,40,1,40.1
+895,th1,protein,q8ixh7,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+897,th1,protein,q8ixh7,nan,nan,nan,nan,nan,cd30,protein,p28908,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,0.1,40,1,40.1
+898,th1,protein,q8ixh7,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4746098'],['nan'],1,0.1,40,1,40.1
+899,th1,protein,q8ixh7,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+865,stat5b,protein,p51692,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,0.1,40,1,40.1
+860,stat4,protein,q14765,nan,nan,nan,nan,nan,il37,protein,q9nzh6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7884049'],['nan'],1,0.1,40,1,40.1
+856,stat3,protein,p40763,nan,nan,nan,nan,nan,hes1,protein,a0a0b4j2d5,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+841,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10044396'],['nan'],1,0.1,40,1,40.1
+834,siglec5,protein,o15389,nan,nan,nan,nan,nan,interleukin-8,protein,p10145,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10246440'],['nan'],1,0.1,40,1,40.1
+835,signal transducer and activator of transcription 1,protein,p42224,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,0.1,40,1,40.1
+836,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,april,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,0.1,40,1,40.1
+837,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,0.1,40,1,40.1
+838,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,0.1,40,1,40.1
+839,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,cd38,protein,p28907,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9814974'],['nan'],1,0.1,40,1,40.1
+840,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,erbb2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10014562'],['nan'],1,0.1,40,1,40.1
+842,signal transduction,biological process,go:0007165,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,i,['nan'],['nan'],['pmc9649996'],['nan'],1,0.1,40,1,40.1
+854,src,protein,p12931,nan,nan,nan,nan,nan,wnt3a,protein,p56704,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+843,signal transduction pathways,biological process,go:0007165,nan,nan,nan,nan,nan,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10259078'],['nan'],1,0.1,40,1,40.1
+845,signaling pathway,biological process,go:0007165,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,april,protein,o75888,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+849,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ikzf1,protein,q13422,nan,nan,i,['nan'],['nan'],['pmc8657018'],['nan'],1,0.1,40,1,40.1
+850,slc7a11,protein,q9upy5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nrf2,protein,q16236,nan,nan,i,['nan'],['nan'],['pmc8191503'],['nan'],1,0.1,40,1,40.1
+851,slc7a11,protein,q9upy5,nan,nan,nan,nan,nan,p53,protein,p04637,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8191503'],['nan'],1,0.1,40,1,40.1
+852,snail family transcriptional repressor 2,protein,o43623,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,hey1,protein,q9y5j3,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+853,sorafenib,chemical,216239,nan,nan,nan,nan,nan,igf-ir,protein,p08069,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+902,th1,protein,q8ixh7,nan,nan,nan,nan,nan,il10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8018158'],['nan'],1,0.1,40,1,40.1
+903,th1,protein,q8ixh7,nan,nan,nan,nan,nan,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7920435'],['nan'],1,0.1,40,1,40.1
+904,th1,protein,q8ixh7,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+944,translation initiation,biological process,go:0006413,nan,nan,nan,nan,nan,eif3,protein,q14152,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8758144'],['nan'],1,0.1,40,1,40.1
+934,tp53,protein,p04637,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9745195'],['nan'],1,0.1,40,1,40.1
+936,traf6,protein,q9y4k3,nan,nan,nan,nan,nan,tumor necrosis factor,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+937,trail,protein,p50591,nan,nan,nan,nan,nan,fas ligand,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7174069'],['nan'],1,0.1,40,1,40.1
+938,trail,protein,p50591,nan,nan,nan,nan,nan,fasl,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8936073'],['nan'],1,0.1,40,1,40.1
+939,trail,protein,p50591,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+942,transcription,biological process,go:0006351,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,rna polymerase ii subunit a,protein,p24928,nan,nan,i,['nan'],['nan'],['pmc9820921'],['nan'],1,0.1,40,1,40.1
+943,transformed follicular lymphoma,protein,a2a288,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8428364'],['nan'],1,0.1,40,1,40.1
+945,tumor necrosis factor,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ril,protein,p50479,nan,nan,i,['nan'],['nan'],['pmc7884049'],['nan'],1,0.1,40,1,40.1
+930,tnf-alpha,protein,p01375,nan,nan,nan,nan,nan,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9868136'],['nan'],1,0.1,40,1,40.1
+946,tumor necrosis factor,protein,p01375,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,0.1,40,1,40.1
+951,ulbp1,protein,q9bzm6,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nkg2d,protein,p26718.t,nan,nan,i,['nan'],['nan'],['pmc10323088'],['nan'],1,0.1,40,1,40.1
+952,ulbp2,protein,q9bzm5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cse,protein,p11166,nan,nan,i,['nan'],['nan'],['pmc7728592'],['nan'],1,0.1,40,1,40.1
+953,ulbp2,protein,q9bzm5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nkg2d,protein,p26718.t,nan,nan,i,['nan'],['nan'],['pmc10323088'],['nan'],1,0.1,40,1,40.1
+957,vwf,protein,p04275,nan,nan,nan,nan,nan,adamts13,protein,q76lx8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9226391'],['nan'],1,0.1,40,1,40.1
+958,wisp2,protein,o76076,nan,nan,nan,nan,nan,wnt3a,protein,p56704.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+959,wnt1,protein,p04628,nan,nan,nan,nan,nan,wnt3a,protein,p56704.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+933,toll-like receptor 7,protein,q9nyk1,nan,nan,nan,nan,nan,smac,protein,q9nr28,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9098815'],['nan'],1,0.1,40,1,40.1
+929,tnf,protein,p01375,nan,nan,nan,nan,nan,ox40l,protein,p23510,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8091475'],['nan'],1,0.1,40,1,40.1
+905,th1-,protein,q8ixh7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+917,tissue factor,protein,p13726,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9226391'],['nan'],1,0.1,40,1,40.1
+906,tigit,protein,q495a1,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10287952'],['nan'],1,0.1,40,1,40.1
+907,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd73,protein,p21589,nan,nan,i,['nan'],['nan'],['pmc8218695'],['nan'],1,0.1,40,1,40.1
+908,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pvrl2,protein,q92692,nan,nan,i,['nan'],['nan'],['pmc8218695'],['nan'],1,0.1,40,1,40.1
+909,til,protein,q15399,nan,nan,nan,nan,nan,cx3cr1,protein,p49238,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10105289'],['nan'],1,0.1,40,1,40.1
+910,til,protein,q15399,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6658873'],['nan'],1,0.1,40,1,40.1
+914,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc9961031'],['nan'],1,0.1,40,1,40.1
+915,tim-3,protein,q8tdq0,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7761500'],['nan'],1,0.1,40,1,40.1
+918,tlr2 signaling pathway,biological process,go:0034134,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+927,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,0.1,40,1,40.1
+919,tlr3,protein,o15455,nan,nan,nan,nan,nan,protein kinase r,protein,p19525,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8130796'],['nan'],1,0.1,40,1,40.1
+920,tmd,protein,q8wz42,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,std,protein,p43403,nan,nan,i,['nan'],['nan'],['pmc7957710'],['nan'],1,0.1,40,1,40.1
+921,tnf,protein,p01375,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9401500'],['nan'],1,0.1,40,1,40.1
+922,tnf,protein,p01375,nan,nan,nan,nan,nan,cd33,protein,p20138,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8764454'],['nan'],1,0.1,40,1,40.1
+923,tnf,protein,p01375,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8410039'],['nan'],1,0.1,40,1,40.1
+924,tnf,protein,p01375,nan,nan,nan,nan,nan,cd96,protein,p40200,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9856660'],['nan'],1,0.1,40,1,40.1
+925,tnf,protein,p01375,nan,nan,nan,nan,nan,muc1,protein,p15941,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7211288'],['nan'],1,0.1,40,1,40.1
+831,sectm1,protein,q8wvn6,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10320215'],['nan'],1,0.1,40,1,40.1
+828,rim,protein,q86ur5,nan,nan,nan,nan,nan,albumin,protein,p02768,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6357218'],['nan'],1,0.1,40,1,40.1
+701,mage-a12,protein,p43365,nan,nan,nan,nan,nan,mage-a3,protein,p43357,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7449295'],['nan'],1,0.1,40,1,40.1
+827,rig-i,protein,o95786,nan,nan,nan,nan,nan,pkr,protein,p19525,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8130796'],['nan'],1,0.1,40,1,40.1
+742,nis,protein,q92911,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9280998'],['nan'],1,0.1,40,1,40.1
+743,nitrogen,chemical,947,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,fpp,protein,p35548,nan,nan,i,['nan'],['nan'],['pmc8396358'],['nan'],1,0.1,40,1,40.1
+744,nkg2a,protein,p26715,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8227123'],['nan'],1,0.1,40,1,40.1
+746,nkg2d,protein,p26718,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8864095'],['nan'],1,0.1,40,1,40.1
+748,nkg2d,protein,p26718,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+749,nkg2d,protein,p26718,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+750,nkg2d,protein,p26718,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7409228'],['nan'],1,0.1,40,1,40.1
+751,nkg2d,protein,p26718,nan,nan,nan,nan,nan,il15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,0.1,40,1,40.1
+753,nkg2d,protein,p26718,nan,nan,nan,nan,nan,il7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,0.1,40,1,40.1
+756,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd73,protein,p21589,nan,nan,i,['nan'],['nan'],['pmc8887605'],['nan'],1,0.1,40,1,40.1
+757,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cse,protein,p11166,nan,nan,i,['nan'],['nan'],['pmc7728592'],['nan'],1,0.1,40,1,40.1
+759,nkp30,protein,o14931,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+760,nkp44,protein,o95944,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+761,nkp44,protein,o95944,nan,nan,nan,nan,nan,nkg2d,protein,p26718.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+763,nlrp3,protein,q96p20,nan,nan,nan,nan,nan,sting,protein,q86wv6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8191503'],['nan'],1,0.1,40,1,40.1
+764,nos2,protein,p35228,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7349474'],['nan'],1,0.1,40,1,40.1
+765,ny-eso-1,protein,p78358,nan,nan,nan,nan,nan,cd1c,protein,p29017,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7947882'],['nan'],1,0.1,40,1,40.1
+741,nik,protein,o95819,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,traf3,protein,q13114,nan,nan,i,['nan'],['nan'],['pmc9841868'],['nan'],1,0.1,40,1,40.1
+732,mycn,protein,p04198,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ornithine decarboxylase 1,protein,p11926,nan,nan,i,['nan'],['nan'],['pmc4633945'],['nan'],1,0.1,40,1,40.1
+731,myc,protein,p01106,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ornithine decarboxylase 1,protein,p11926,nan,nan,i,['nan'],['nan'],['pmc4633945'],['nan'],1,0.1,40,1,40.1
+713,mcp-1,protein,p13500,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,stat-3,protein,p40763,nan,nan,i,['nan'],['nan'],['pmc10002487'],['nan'],1,0.1,40,1,40.1
+704,mass,protein,p35555,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,i,['nan'],['nan'],['pmc6709654'],['nan'],1,0.1,40,1,40.1
+705,matrix metalloproteinase 1,protein,p03956,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,par1,protein,p25116.t,nan,nan,i,['nan'],['nan'],['pmc10478223'],['nan'],1,0.1,40,1,40.1
+706,matrix metalloproteinase-9,protein,p14780,nan,nan,nan,nan,nan,msln,protein,q13421.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6307389'],['nan'],1,0.1,40,1,40.1
+708,mcl,protein,q8wxi8,nan,nan,nan,nan,nan,cd163,protein,q86vb7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+709,mcl,protein,q8wxi8,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7701665'],['nan'],1,0.1,40,1,40.1
+711,mcl-1,protein,q07820,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+712,mcl-1,protein,q07820,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+714,mda-5,protein,q9byx4,nan,nan,nan,nan,nan,protein kinase r,protein,p19525,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8130796'],['nan'],1,0.1,40,1,40.1
+730,muc1,protein,p15941,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,siglec9,protein,q9y336,nan,nan,i,['nan'],['nan'],['pmc10246440'],['nan'],1,0.1,40,1,40.1
+716,mica,protein,q29983,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nkg2d,protein,p26718.t,nan,nan,i,['nan'],['nan'],['pmc10323088'],['nan'],1,0.1,40,1,40.1
+718,mice,protein,p31944,nan,nan,nan,nan,nan,ank,protein,p16157,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6378304'],['nan'],1,0.1,40,1,40.1
+719,mice,protein,p31944,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+720,mice,protein,p31944,nan,nan,nan,nan,nan,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc3382904'],['nan'],1,0.1,40,1,40.1
+722,mice,protein,p31944,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,li,protein,p22735,nan,nan,i,['nan'],['nan'],['pmc7378699'],['nan'],1,0.1,40,1,40.1
+723,micl,protein,q5qgz9,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,msu,protein,p12694,nan,nan,i,['nan'],['nan'],['pmc6480870'],['nan'],1,0.1,40,1,40.1
+725,monocyte chemotactic protein 1,protein,p13500,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+770,p56,protein,p09914,nan,nan,nan,nan,nan,cd45,protein,p08575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,0.1,40,1,40.1
+771,p56,protein,p09914,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd45,protein,p08575,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,0.1,40,1,40.1
+773,par1,protein,p25116,nan,nan,nan,nan,nan,mmp1,protein,p03956,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10478223'],['nan'],1,0.1,40,1,40.1
+812,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,il-18,protein,q14116,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10145930'],['nan'],1,0.1,40,1,40.1
+803,pro-survival,biological process,go:0043066,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bid,protein,p55957,nan,nan,i,['nan'],['nan'],['pmc8398498'],['nan'],1,0.1,40,1,40.1
+804,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,abs,protein,q9ujv9,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8116602'],['nan'],1,0.1,40,1,40.1
+805,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,b7-h3,protein,q5zpr3,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10164129'],['nan'],1,0.1,40,1,40.1
+806,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9986336'],['nan'],1,0.1,40,1,40.1
+809,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6558778'],['nan'],1,0.1,40,1,40.1
+810,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,egfr,protein,p00533,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7279007'],['nan'],1,0.1,40,1,40.1
+811,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,gs,protein,p15104,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7290012'],['nan'],1,0.1,40,1,40.1
+813,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+801,plck,protein,p06239,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8552146'],['nan'],1,0.1,40,1,40.1
+815,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,shp-1,protein,p29350,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5264497'],['nan'],1,0.1,40,1,40.1
+816,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,tnfrsf17,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9479060'],['nan'],1,0.1,40,1,40.1
+818,ps1,protein,p49768,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9511648'],['nan'],1,0.1,40,1,40.1
+819,psmad2,protein,q15796,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,relaxin-2,protein,p04090,nan,nan,i,['nan'],['nan'],['pmc7773537'],['nan'],1,0.1,40,1,40.1
+821,pyroptosis,biological process,go:0070269,nan,nan,nan,nan,nan,gsdmd,protein,p57764,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8191503'],['nan'],1,0.1,40,1,40.1
+823,rantes,protein,p13501,nan,nan,nan,nan,nan,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9092941'],['nan'],1,0.1,40,1,40.1
+824,rap,protein,p30533,nan,nan,nan,nan,nan,albumin,protein,p02768,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6357218'],['nan'],1,0.1,40,1,40.1
+802,pro-survival,biological process,go:0043066,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,['nan'],['nan'],['pmc8398498'],['nan'],1,0.1,40,1,40.1
+797,pdpn,protein,q86yl7,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10313378'],['nan'],1,0.1,40,1,40.1
+774,par1,protein,p25116,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,mmp1,protein,p03956,nan,nan,i,['nan'],['nan'],['pmc10478223'],['nan'],1,0.1,40,1,40.1
+784,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6966649'],['nan'],1,0.1,40,1,40.1
+775,pd-1,protein,p18621,nan,nan,nan,nan,nan,cars,protein,p49589,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7865760'],['nan'],1,0.1,40,1,40.1
+776,pd-1,protein,p18621,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cars,protein,p49589,nan,nan,i,['nan'],['nan'],['pmc8198014'],['nan'],1,0.1,40,1,40.1
+777,pd-1,protein,p18621,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,p4,protein,q01780,nan,nan,i,['nan'],['nan'],['pmc8429583'],['nan'],1,0.1,40,1,40.1
+780,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7268496'],['nan'],1,0.1,40,1,40.1
+781,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4485571'],['nan'],1,0.1,40,1,40.1
+782,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,granulocyte-macrophage colony-stimulating factor,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5855562'],['nan'],1,0.1,40,1,40.1
+783,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5739560'],['nan'],1,0.1,40,1,40.1
+786,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,myc,protein,p01106,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6747233'],['nan'],1,0.1,40,1,40.1
+796,pdpn,protein,q86yl7,nan,nan,nan,nan,nan,lt,protein,p01374,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10313378'],['nan'],1,0.1,40,1,40.1
+787,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,brd4,protein,o60885,nan,nan,i,['nan'],['nan'],['pmc6747233'],['nan'],1,0.1,40,1,40.1
+790,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,pkm2,protein,p14618,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10352629'],['nan'],1,0.1,40,1,40.1
+791,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,spd-l1,protein,q96ea4,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9683725'],['nan'],1,0.1,40,1,40.1
+792,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,stat3,protein,p40763,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5839992'],['nan'],1,0.1,40,1,40.1
+793,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+618,il4,protein,p05112,nan,nan,nan,nan,nan,mb,protein,p02144,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5944113'],['nan'],1,0.1,40,1,40.1
+795,pd-l2,protein,q9bq51,nan,nan,nan,nan,nan,il-4,protein,p05112,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6140403'],['nan'],1,0.1,40,1,40.1
+619,il4,protein,p05112,nan,nan,nan,nan,nan,mda,chemical,10964,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5944113'],['nan'],1,0.1,40,1,40.1
+0,2b4,protein,q9bzw8,nan,nan,nan,nan,nan,eat-2,protein,o14796,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6524286'],['nan'],1,0.1,40,1,40.1
+617,il4,protein,p05112,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5486173'],['nan'],1,0.1,40,1,40.1
+195,cd107a,protein,p11279,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+178,ccr2,protein,p41597,nan,nan,nan,nan,nan,cd26,protein,p27487,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,0.1,40,1,40.1
+183,ccr7,protein,p32248,nan,nan,nan,nan,nan,cxcl12,protein,p48061,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+184,ccr7,protein,p32248,nan,nan,nan,nan,nan,igf-i,protein,p05019,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+185,ccr7,protein,p32248,nan,nan,nan,nan,nan,il7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+187,ccr7,protein,p32248,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,i,['nan'],['nan'],['pmc3672777'],['nan'],1,0.1,40,1,40.1
+188,ccr7,protein,p32248,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+190,ccr8,protein,p51685,nan,nan,nan,nan,nan,ccl1,protein,p22362.s,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10185706'],['nan'],1,0.1,40,1,40.1
+194,cd107a,protein,p11279,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+197,cd107a,protein,p11279,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+320,cd69,protein,q07108,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,0.1,40,1,40.1
+198,cd107a,protein,p11279,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,unc13d,protein,q70j99,nan,nan,i,['nan'],['nan'],['pmc9094425'],['nan'],1,0.1,40,1,40.1
+200,cd127,protein,p16871,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tox,protein,o94900.t,nan,nan,i,['nan'],['nan'],['pmc8218695'],['nan'],1,0.1,40,1,40.1
+201,cd137,protein,q07011,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+203,cd138,protein,p18827,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8637449'],['nan'],1,0.1,40,1,40.1
+204,cd14,protein,p08571,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6540944'],['nan'],1,0.1,40,1,40.1
+206,cd155,protein,p15151,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,i,['nan'],['nan'],['pmc10354409'],['nan'],1,0.1,40,1,40.1
+207,cd155,protein,p15151,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,0.1,40,1,40.1
+208,cd16a,protein,p08637,nan,nan,nan,nan,nan,her2,protein,p04626,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6378304'],['nan'],1,0.1,40,1,40.1
+177,ccl5,protein,p13501,nan,nan,nan,nan,nan,sting,protein,q86wv6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8461872'],['nan'],1,0.1,40,1,40.1
+176,ccl22,protein,o00626,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8423656'],['nan'],1,0.1,40,1,40.1
+175,ccl2,protein,p13500,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9638445'],['nan'],1,0.1,40,1,40.1
+174,ccl17,protein,q92583,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8423656'],['nan'],1,0.1,40,1,40.1
+147,car-t,protein,q16568,nan,nan,nan,nan,nan,glypican-3,protein,p51654,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10493094'],['nan'],1,0.1,40,1,40.1
+149,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+150,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,programmed cell death protein 1,protein,q15116,nan,nan,i,['nan'],['nan'],['pmc8807490'],['nan'],1,0.1,40,1,40.1
+151,car-t,protein,q16568,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10425681'],['nan'],1,0.1,40,1,40.1
+154,cart,protein,q16568,nan,nan,nan,nan,nan,cd33,protein,p20138,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6480870'],['nan'],1,0.1,40,1,40.1
+155,cart,protein,q16568,nan,nan,nan,nan,nan,cll-1,protein,q5qgz9,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6480870'],['nan'],1,0.1,40,1,40.1
+156,cart,protein,q16568,nan,nan,nan,nan,nan,hla-e,protein,p13747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8227123'],['nan'],1,0.1,40,1,40.1
+163,cart,protein,q16568,nan,nan,nan,nan,nan,lck,protein,p06239,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6940894'],['nan'],1,0.1,40,1,40.1
+164,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,hla-e,protein,p13747,nan,nan,i,['nan'],['nan'],['pmc8227123'],['nan'],1,0.1,40,1,40.1
+165,casp1,protein,p29466,nan,nan,nan,nan,nan,gzma,protein,p12544,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9561169'],['nan'],1,0.1,40,1,40.1
+166,caspase 3,protein,p42574,nan,nan,nan,nan,nan,fas,protein,p25445,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8310625'],['nan'],1,0.1,40,1,40.1
+167,caspase 3,protein,p42574,nan,nan,nan,nan,nan,fas ligand,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8310625'],['nan'],1,0.1,40,1,40.1
+168,caspase 3,protein,p42574,nan,nan,nan,nan,nan,nps,protein,p0c0p6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9006034'],['nan'],1,0.1,40,1,40.1
+169,caspase-3,protein,p42574,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7335752'],['nan'],1,0.1,40,1,40.1
+170,caspase9,protein,p55211,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8437938'],['nan'],1,0.1,40,1,40.1
+172,cbl-b,protein,q13191,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp1,protein,p29350,nan,nan,i,['nan'],['nan'],['pmc6929154'],['nan'],1,0.1,40,1,40.1
+173,cbl-b,protein,q13191,nan,nan,nan,nan,nan,shp1,protein,p29350,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6929154'],['nan'],1,0.1,40,1,40.1
+212,cd19,protein,p15391,nan,nan,nan,nan,nan,ccr5,protein,p51681,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5363294'],['nan'],1,0.1,40,1,40.1
+214,cd19,protein,p15391,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10010331'],['nan'],1,0.1,40,1,40.1
+215,cd19,protein,p15391,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6940894'],['nan'],1,0.1,40,1,40.1
+276,cd38,protein,p28907,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,i,['nan'],['nan'],['pmc8657018'],['nan'],1,0.1,40,1,40.1
+280,cd4,protein,p01730,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8865283'],['nan'],1,0.1,40,1,40.1
+282,cd4,protein,p01730,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8021099'],['nan'],1,0.1,40,1,40.1
+283,cd4,protein,p01730,nan,nan,nan,nan,nan,clec12a,protein,q5qgz9,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6480870'],['nan'],1,0.1,40,1,40.1
+290,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+293,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,stat-1,protein,p42224,nan,nan,i,['nan'],['nan'],['pmc7494758'],['nan'],1,0.1,40,1,40.1
+294,cd4,protein,p01730,nan,nan,nan,nan,nan,t-bet,protein,q9ul17,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6021366'],['nan'],1,0.1,40,1,40.1
+295,cd4,protein,p01730,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+296,cd4,protein,p01730,nan,nan,nan,nan,nan,tnfr2,protein,p20333,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8546260'],['nan'],1,0.1,40,1,40.1
+298,cd40,protein,p25942,nan,nan,nan,nan,nan,ccr2,protein,p41597,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8021099'],['nan'],1,0.1,40,1,40.1
+301,cd40,protein,p25942,nan,nan,nan,nan,nan,nik,protein,o95819,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+302,cd40,protein,p25942,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+304,cd40l,protein,p29965,nan,nan,nan,nan,nan,cd103,protein,p38570,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7710757'],['nan'],1,0.1,40,1,40.1
+306,cd48,protein,p09326,nan,nan,nan,nan,nan,eat-2,protein,o14796,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6524286'],['nan'],1,0.1,40,1,40.1
+309,cd56,protein,p13591,nan,nan,nan,nan,nan,fasl,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6739330'],['nan'],1,0.1,40,1,40.1
+313,cd62l,protein,p14151,nan,nan,nan,nan,nan,cxcl12,protein,p48061,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+314,cd62l,protein,p14151,nan,nan,nan,nan,nan,igf-i,protein,p05019,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+315,cd62l,protein,p14151,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6940894'],['nan'],1,0.1,40,1,40.1
+277,cd39,protein,p49961,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8218695'],['nan'],1,0.1,40,1,40.1
+275,cd38,protein,p28907,nan,nan,nan,nan,nan,il6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8657018'],['nan'],1,0.1,40,1,40.1
+217,cd19,protein,p15391,nan,nan,nan,nan,nan,il-7-,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6940894'],['nan'],1,0.1,40,1,40.1
+274,cd38,protein,p28907,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8657018'],['nan'],1,0.1,40,1,40.1
+220,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bca,protein,q8wv28,nan,nan,i,['nan'],['nan'],['pmc8823293'],['nan'],1,0.1,40,1,40.1
+223,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd30,protein,p28908,nan,nan,i,['nan'],['nan'],['pmc2888148'],['nan'],1,0.1,40,1,40.1
+225,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,lag-3,protein,p18627,nan,nan,i,['nan'],['nan'],['pmc6709654'],['nan'],1,0.1,40,1,40.1
+226,cd19,protein,p15391,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8637449'],['nan'],1,0.1,40,1,40.1
+227,cd20,protein,p11836,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,i,['nan'],['nan'],['pmc7519582'],['nan'],1,0.1,40,1,40.1
+228,cd22,protein,p20273,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8864095'],['nan'],1,0.1,40,1,40.1
+229,cd22,protein,p20273,nan,nan,nan,nan,nan,cd19,protein,p15391.d,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7126394'],['nan'],1,0.1,40,1,40.1
+230,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,i,['nan'],['nan'],['pmc8864095'],['nan'],1,0.1,40,1,40.1
+232,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc9149589'],['nan'],1,0.1,40,1,40.1
+233,cd226,protein,q15762,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9513944'],['nan'],1,0.1,40,1,40.1
+245,cd26,protein,p27487,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,0.1,40,1,40.1
+247,cd27,protein,p26842,nan,nan,nan,nan,nan,bcl-xl,protein,q07817,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8804167'],['nan'],1,0.1,40,1,40.1
+268,cd30,protein,p28908,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7603553'],['nan'],1,0.1,40,1,40.1
+269,cd33,protein,p20138,nan,nan,nan,nan,nan,bike,protein,q9nsy1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8571204'],['nan'],1,0.1,40,1,40.1
+270,cd33,protein,p20138,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bite,protein,q8nhq1,nan,nan,i,['nan'],['nan'],['pmc7603553'],['nan'],1,0.1,40,1,40.1
+271,cd33,protein,p20138,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd123,protein,p26951,nan,nan,i,['nan'],['nan'],['pmc9905824'],['nan'],1,0.1,40,1,40.1
+272,cd34,protein,p28906,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9105926'],['nan'],1,0.1,40,1,40.1
+144,car-t,protein,q16568,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10453178'],['nan'],1,0.1,40,1,40.1
+142,car-t,protein,q16568,nan,nan,nan,nan,nan,cd133,protein,o43490,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10464109'],['nan'],1,0.1,40,1,40.1
+141,car-t,protein,q16568,nan,nan,nan,nan,nan,beta-2 microglobulin,protein,p61769,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8317439'],['nan'],1,0.1,40,1,40.1
+38,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,caspase-8,protein,q14790,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9564159'],['nan'],1,0.1,40,1,40.1
+40,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,cd95l,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9564159'],['nan'],1,0.1,40,1,40.1
+41,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,cea,protein,p06731,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5615327'],['nan'],1,0.1,40,1,40.1
+42,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,dr5,protein,o14763,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10052453'],['nan'],1,0.1,40,1,40.1
+44,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,fas ligand,protein,p48023,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8945637'],['nan'],1,0.1,40,1,40.1
+46,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,gal1,protein,p09382,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7408985'],['nan'],1,0.1,40,1,40.1
+47,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,galectin 1,protein,p09382,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8018158'],['nan'],1,0.1,40,1,40.1
+49,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10368531'],['nan'],1,0.1,40,1,40.1
+50,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,irf3,protein,q14653,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10002487'],['nan'],1,0.1,40,1,40.1
+51,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,killer,protein,o14763,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9317279'],['nan'],1,0.1,40,1,40.1
+53,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,sgk1,protein,o00141,nan,nan,i,['nan'],['nan'],['pmc9841868'],['nan'],1,0.1,40,1,40.1
+54,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,tr1,protein,o00300,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8721281'],['nan'],1,0.1,40,1,40.1
+56,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,trail-r1,protein,o00220,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8721281'],['nan'],1,0.1,40,1,40.1
+61,arginase 1,protein,p05089,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nps,protein,p0c0p6,nan,nan,i,['nan'],['nan'],['pmc9006034'],['nan'],1,0.1,40,1,40.1
+63,asc,protein,p08842,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bim,protein,o43521,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+64,b cell activation,biological process,go:0042113,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8864095'],['nan'],1,0.1,40,1,40.1
+67,b7-h3,protein,q5zpr3,nan,nan,nan,nan,nan,b7-h1,protein,q9nzq7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6959446'],['nan'],1,0.1,40,1,40.1
+71,baff,protein,q9y275,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+39,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,cd262,protein,o14763,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8145105'],['nan'],1,0.1,40,1,40.1
+37,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,caspase 9,protein,p55211,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8437262'],['nan'],1,0.1,40,1,40.1
+75,bak,protein,q16611,nan,nan,nan,nan,nan,bcl2,protein,p10415,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9775488'],['nan'],1,0.1,40,1,40.1
+36,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,c-flip,protein,o15519,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9564159'],['nan'],1,0.1,40,1,40.1
+3,4-1bb,protein,q07011,nan,nan,nan,nan,nan,acr,protein,p10323,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7321819'],['nan'],1,0.1,40,1,40.1
+13,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9372572'],['nan'],1,0.1,40,1,40.1
+15,activation-induced cytidine deaminase,protein,q9gzx7,nan,nan,nan,nan,nan,myd88,protein,q99836,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+16,activation-induced cytidine deaminase,protein,q9gzx7,nan,nan,nan,nan,nan,taci,protein,o14836,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+18,adhesion,biological process,go:0007155,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8657018'],['nan'],1,0.1,40,1,40.1
+19,ado,protein,q96sz5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd73,protein,p21589,nan,nan,i,['nan'],['nan'],['pmc6278070'],['nan'],1,0.1,40,1,40.1
+20,adp,protein,q8n5d0,nan,nan,nan,nan,nan,cd39,protein,p49961,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,0.1,40,1,40.1
+24,all,protein,p11274,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8821938'],['nan'],1,0.1,40,1,40.1
+25,all,protein,p11274,nan,nan,nan,nan,nan,flt3,protein,p36888,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9890025'],['nan'],1,0.1,40,1,40.1
+26,angiogenesis,biological process,go:0001525,nan,nan,nan,nan,nan,il-8,protein,p10145,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+27,apc,protein,p25054,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+28,apc,protein,p25054,nan,nan,nan,nan,nan,vegfr2,protein,p35968,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9549957'],['nan'],1,0.1,40,1,40.1
+29,apcs,protein,p02743,nan,nan,nan,nan,nan,cd40l,protein,p29965,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,0.1,40,1,40.1
+31,apcs,protein,p02743,nan,nan,nan,nan,nan,icam1,protein,p05362,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8810553'],['nan'],1,0.1,40,1,40.1
+32,apcs,protein,p02743,nan,nan,nan,nan,nan,tlr9,protein,q9nr96,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+34,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+35,apoptosis,biological process,go:0006915,nan,nan,nan,nan,nan,bcl2,protein,p10415,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9775488'],['nan'],1,0.1,40,1,40.1
+74,baff-r,protein,q96rj3,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7511472'],['nan'],1,0.1,40,1,40.1
+76,batf,protein,q16520,nan,nan,nan,nan,nan,brd4,protein,o60885,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9043864'],['nan'],1,0.1,40,1,40.1
+138,car,protein,p36575,nan,nan,nan,nan,nan,r5nt,protein,p51681,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7261873'],['nan'],1,0.1,40,1,40.1
+107,blast,protein,p09326,nan,nan,nan,nan,nan,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9745195'],['nan'],1,0.1,40,1,40.1
+109,blast,protein,p09326,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,['nan'],['nan'],['pmc8988144'],['nan'],1,0.1,40,1,40.1
+110,blimp-1,protein,o75626,nan,nan,nan,nan,nan,april,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7226350'],['nan'],1,0.1,40,1,40.1
+111,bmp-7,protein,p18075,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,gpc3,protein,p51654,nan,nan,i,['nan'],['nan'],['pmc8296838'],['nan'],1,0.1,40,1,40.1
+112,bone resorption,biological process,go:0045453,nan,nan,nan,nan,nan,rankl,protein,o14788,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9986336'],['nan'],1,0.1,40,1,40.1
+113,brl,protein,o95696,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,mb,protein,p02144,nan,nan,i,['nan'],['nan'],['pmc5944113'],['nan'],1,0.1,40,1,40.1
+114,btk,protein,q06187,nan,nan,nan,nan,nan,bcr,protein,p11274,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9581047'],['nan'],1,0.1,40,1,40.1
+115,btk,protein,q06187,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcr,protein,p11274,nan,nan,i,['nan'],['nan'],['pmc8798430'],['nan'],1,0.1,40,1,40.1
+116,btk,protein,q06187,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,mcl,protein,q8wxi8,nan,nan,i,['nan'],['nan'],['pmc8267255'],['nan'],1,0.1,40,1,40.1
+117,btk,protein,q06187,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc8267255'],['nan'],1,0.1,40,1,40.1
+119,btn3a1,protein,o00481,nan,nan,nan,nan,nan,rhob,protein,p62745,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8396358'],['nan'],1,0.1,40,1,40.1
+120,c-myc,protein,p01106,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,notch1,protein,p46531,nan,nan,i,['nan'],['nan'],['pmc7318076'],['nan'],1,0.1,40,1,40.1
+121,c-myc,protein,p01106,nan,nan,nan,nan,nan,wnt3a,protein,p56704.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+122,c-reactive protein,protein,p02741,nan,nan,nan,nan,nan,interleukin-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8310625'],['nan'],1,0.1,40,1,40.1
+127,car,protein,p36575,nan,nan,nan,nan,nan,ccr5,protein,p51681,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9098815'],['nan'],1,0.1,40,1,40.1
+128,car,protein,p36575,nan,nan,nan,nan,nan,cd3z,protein,p20963,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10295952'],['nan'],1,0.1,40,1,40.1
+132,car,protein,p36575,nan,nan,nan,nan,nan,mass,protein,p35555,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10196106'],['nan'],1,0.1,40,1,40.1
+137,car,protein,p36575,nan,nan,nan,nan,nan,prdm1,protein,o75626,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10257143'],['nan'],1,0.1,40,1,40.1
+108,blast,protein,p09326,nan,nan,nan,nan,nan,cd70,protein,p32970,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9745195'],['nan'],1,0.1,40,1,40.1
+106,bite,protein,q8nhq1,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6368716'],['nan'],1,0.1,40,1,40.1
+77,batf,protein,q16520,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,jun,other,jun_family.t,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+105,bfl-1,protein,q16548,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+78,batf,protein,q16520,nan,nan,nan,nan,nan,shp2,protein,q06124,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6739330'],['nan'],1,0.1,40,1,40.1
+79,batf3,protein,q9nr55,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,jun,other,jun_family.t,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+80,bax,protein,q07812,nan,nan,nan,nan,nan,bcl2,protein,p10415,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9775488'],['nan'],1,0.1,40,1,40.1
+82,bcl-2-like protein-10,protein,q9hd36,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+84,bcl-xl,protein,q07817,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl-2,protein,p10415,nan,nan,i,['nan'],['nan'],['pmc7827522'],['nan'],1,0.1,40,1,40.1
+85,bcl-xl,protein,q07817,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,shp-2,protein,q06124,nan,nan,i,['nan'],['nan'],['pmc5354697'],['nan'],1,0.1,40,1,40.1
+86,bcl-xl,protein,q07817,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc3672777'],['nan'],1,0.1,40,1,40.1
+87,bcl6,protein,p41182,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,all,protein,p11274,nan,nan,i,['nan'],['nan'],['pmc8565984'],['nan'],1,0.1,40,1,40.1
+88,bclx,protein,q07817,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+93,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,baff-r,protein,q96rj3,nan,nan,i,['nan'],['nan'],['pmc7352710'],['nan'],1,0.1,40,1,40.1
+94,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bfp,protein,q9ulx5,nan,nan,i,['nan'],['nan'],['pmc5363294'],['nan'],1,0.1,40,1,40.1
+98,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd38-,protein,p28907,nan,nan,i,['nan'],['nan'],['pmc7865760'],['nan'],1,0.1,40,1,40.1
+99,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,i,['nan'],['nan'],['pmc7352710'],['nan'],1,0.1,40,1,40.1
+101,bcma-,protein,q02223,nan,nan,nan,nan,nan,slamf7,protein,q9nq25,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7399644'],['nan'],1,0.1,40,1,40.1
+102,bcr,protein,p11274,nan,nan,nan,nan,nan,cd79a,protein,p11912,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9775488'],['nan'],1,0.1,40,1,40.1
+103,bcr,protein,p11274,nan,nan,nan,nan,nan,cd79b,protein,p40259,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9775488'],['nan'],1,0.1,40,1,40.1
+104,bcr,protein,p11274,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,i,['nan'],['nan'],['pmc9780083'],['nan'],1,0.1,40,1,40.1
+317,cd69,protein,q07108,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8752722'],['nan'],1,0.1,40,1,40.1
+316,cd62l,protein,p14151,nan,nan,nan,nan,nan,il7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+321,cd69,protein,q07108,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+492,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc3096697'],['nan'],1,0.1,40,1,40.1
+473,her2,protein,p04626,nan,nan,nan,nan,nan,bite,protein,q8nhq1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9905824'],['nan'],1,0.1,40,1,40.1
+479,hla-a,protein,p04439,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,rna-binding protein mex3b,protein,q6zn04,nan,nan,i,['nan'],['nan'],['pmc7215892'],['nan'],1,0.1,40,1,40.1
+480,hla-a,protein,p04439,nan,nan,nan,nan,nan,rna-binding protein mex3b,protein,q6zn04,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7215892'],['nan'],1,0.1,40,1,40.1
+484,hpl,protein,p09382,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,abs,protein,q9ujv9,nan,nan,i,['nan'],['nan'],['pmc6883585'],['nan'],1,0.1,40,1,40.1
+488,id3,protein,q02535,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,blimp1,protein,o75626,nan,nan,i,['nan'],['nan'],['pmc8791860'],['nan'],1,0.1,40,1,40.1
+489,ido,protein,p14902,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,i,['nan'],['nan'],['pmc7709221'],['nan'],1,0.1,40,1,40.1
+490,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7333410'],['nan'],1,0.1,40,1,40.1
+491,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,b7h6,protein,q68d85,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4529373'],['nan'],1,0.1,40,1,40.1
+493,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,cd27,protein,p26842,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9868136'],['nan'],1,0.1,40,1,40.1
+449,glut1,protein,p11166,nan,nan,nan,nan,nan,pgc,protein,p20142,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10277526'],['nan'],1,0.1,40,1,40.1
+494,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,lectin-like transcript 1,protein,q9uhp7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7409338'],['nan'],1,0.1,40,1,40.1
+499,iga,protein,p11912,nan,nan,nan,nan,nan,a proliferation-inducing ligand,protein,o75888,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9153033'],['nan'],1,0.1,40,1,40.1
+500,ii,protein,p04233,nan,nan,nan,nan,nan,cd34,protein,p28906,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8947001'],['nan'],1,0.1,40,1,40.1
+501,ikaros,protein,q13422,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cereblon,protein,q96sw2,nan,nan,i,['nan'],['nan'],['pmc8122391'],['nan'],1,0.1,40,1,40.1
+502,ikaros,protein,q13422,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ikzf3,protein,q9ukt9,nan,nan,i,['nan'],['nan'],['pmc9729744'],['nan'],1,0.1,40,1,40.1
+503,ikk1,protein,o15111,nan,nan,nan,nan,nan,nik,protein,o95819,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+505,ikzf1,protein,q13422,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cereblon,protein,q96sw2,nan,nan,i,['nan'],['nan'],['pmc9105926'],['nan'],1,0.1,40,1,40.1
+506,ikzf3,protein,q9ukt9,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cereblon,protein,q96sw2,nan,nan,i,['nan'],['nan'],['pmc9105926'],['nan'],1,0.1,40,1,40.1
+472,hd,protein,p42858,nan,nan,nan,nan,nan,il4,protein,p05112,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8137188'],['nan'],1,0.1,40,1,40.1
+471,gzmb,protein,p10144,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-7r,protein,p16871,nan,nan,i,['nan'],['nan'],['pmc8792103'],['nan'],1,0.1,40,1,40.1
+470,gzmb,protein,p10144,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,hla-drb1,protein,p01911,nan,nan,i,['nan'],['nan'],['pmc8792103'],['nan'],1,0.1,40,1,40.1
+469,gzmb,protein,p10144,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,bcl11b,protein,q9c0k0,nan,nan,i,['nan'],['nan'],['pmc8943975'],['nan'],1,0.1,40,1,40.1
+322,cd69,protein,q07108,nan,nan,nan,nan,nan,cd7,protein,p09564,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8948246'],['nan'],1,0.1,40,1,40.1
+452,gm-csf,protein,p04141,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+453,gm-csf,protein,p04141,nan,nan,nan,nan,nan,scf,protein,p21583,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9007937'],['nan'],1,0.1,40,1,40.1
+454,gp120,protein,q14624,nan,nan,nan,nan,nan,scd4,protein,q86sk9,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5788973'],['nan'],1,0.1,40,1,40.1
+455,gpc3,protein,p51654,nan,nan,nan,nan,nan,cd45,protein,p08575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7226201'],['nan'],1,0.1,40,1,40.1
+456,granulocyte colony-stimulating factor,protein,p09919,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+457,granulocyte colony-stimulating factor,protein,p09919,nan,nan,nan,nan,nan,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+458,granzyme b,protein,p10144,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7973425'],['nan'],1,0.1,40,1,40.1
+459,granzyme b,protein,p10144,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+461,granzyme b,protein,p10144,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,0.1,40,1,40.1
+462,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,i,['nan'],['nan'],['pmc9101510'],['nan'],1,0.1,40,1,40.1
+463,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc6558778'],['nan'],1,0.1,40,1,40.1
+464,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nkp44,protein,o95944,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7341825'],['nan'],1,0.1,40,1,40.1
+465,granzyme b,protein,p10144,nan,nan,nan,nan,nan,runx family transcription factor 3,protein,q13761,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9972435'],['nan'],1,0.1,40,1,40.1
+466,grb,protein,p10144,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9237814'],['nan'],1,0.1,40,1,40.1
+467,gsk3b,protein,p49841,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,muc1,protein,p15941,nan,nan,i,['nan'],['nan'],['pmc7211288'],['nan'],1,0.1,40,1,40.1
+468,gzma,protein,p12544,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,il-7r,protein,p16871,nan,nan,i,['nan'],['nan'],['pmc8792103'],['nan'],1,0.1,40,1,40.1
+507,il-10,protein,p22301,nan,nan,nan,nan,nan,axl,protein,p30530,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5832765'],['nan'],1,0.1,40,1,40.1
+509,il-10,protein,p22301,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+510,il-10,protein,p22301,nan,nan,nan,nan,nan,gata3,protein,p23771,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7885876'],['nan'],1,0.1,40,1,40.1
+541,il-1r,protein,p14778,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,anakinra,protein,p18510,nan,nan,i,['nan'],['nan'],['pmc9830211'],['nan'],1,0.1,40,1,40.1
+580,il-6,protein,p05231,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6562712'],['nan'],1,0.1,40,1,40.1
+581,il-6,protein,p05231,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+582,il-6,protein,p05231,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6562712'],['nan'],1,0.1,40,1,40.1
+584,il-6,protein,p05231,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6756044'],['nan'],1,0.1,40,1,40.1
+585,il-6,protein,p05231,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8021099'],['nan'],1,0.1,40,1,40.1
+588,il-6,protein,p05231,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+590,il-6,protein,p05231,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cereblon,protein,q96sw2,nan,nan,i,['nan'],['nan'],['pmc8122391'],['nan'],1,0.1,40,1,40.1
+592,il-7,protein,p13232,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8304527'],['nan'],1,0.1,40,1,40.1
+597,il-7,protein,p13232,nan,nan,nan,nan,nan,il-21,protein,q9gzx6,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5839992'],['nan'],1,0.1,40,1,40.1
+598,il-8,protein,p10145,nan,nan,nan,nan,nan,cd137,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7872024'],['nan'],1,0.1,40,1,40.1
+599,il-8,protein,p10145,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8021099'],['nan'],1,0.1,40,1,40.1
+600,il-8,protein,p10145,nan,nan,nan,nan,nan,cd5,protein,p06127,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5766637'],['nan'],1,0.1,40,1,40.1
+601,il-8,protein,p10145,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+602,il-8,protein,p10145,nan,nan,nan,nan,nan,tlr5,protein,o60602,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+603,il-9,protein,p15248,nan,nan,nan,nan,nan,il-13,protein,p35225,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4810120'],['nan'],1,0.1,40,1,40.1
+604,il-9,protein,p15248,nan,nan,nan,nan,nan,il-5,protein,p05113,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4810120'],['nan'],1,0.1,40,1,40.1
+605,il10,protein,p22301,nan,nan,nan,nan,nan,hl,protein,p11150,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8018158'],['nan'],1,0.1,40,1,40.1
+578,il-3,protein,p08700,nan,nan,nan,nan,nan,stem cell factor,protein,p21583,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9007937'],['nan'],1,0.1,40,1,40.1
+540,il-18,protein,q14116,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6658873'],['nan'],1,0.1,40,1,40.1
+511,il-10,protein,p22301,nan,nan,nan,nan,nan,il-13,protein,p35225,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7773537'],['nan'],1,0.1,40,1,40.1
+537,il-17a,protein,q16552,nan,nan,nan,nan,nan,il-23,protein,q9npf7,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,0.1,40,1,40.1
+513,il-10,protein,p22301,nan,nan,nan,nan,nan,mcl,protein,q8wxi8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+514,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,c5ar1,protein,p21730,nan,nan,i,['nan'],['nan'],['pmc6658873'],['nan'],1,0.1,40,1,40.1
+518,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nps,protein,p0c0p6,nan,nan,i,['nan'],['nan'],['pmc9006034'],['nan'],1,0.1,40,1,40.1
+519,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,i,['nan'],['nan'],['pmc8773791'],['nan'],1,0.1,40,1,40.1
+520,il-10,protein,p22301,nan,nan,nan,nan,nan,r-848,chemical,159603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+521,il-10,protein,p22301,nan,nan,nan,nan,nan,tigit,protein,q495a1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9807865'],['nan'],1,0.1,40,1,40.1
+522,il-10,protein,p22301,nan,nan,nan,nan,nan,tlr2,protein,o60603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+523,il-10,protein,p22301,nan,nan,nan,nan,nan,tlr5,protein,o60602,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8606765'],['nan'],1,0.1,40,1,40.1
+524,il-13,protein,p35225,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5697351'],['nan'],1,0.1,40,1,40.1
+525,il-13,protein,p35225,nan,nan,nan,nan,nan,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5697351'],['nan'],1,0.1,40,1,40.1
+527,il-13,protein,p35225,nan,nan,nan,nan,nan,il-8,protein,p10145,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5697351'],['nan'],1,0.1,40,1,40.1
+528,il-13,protein,p35225,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,t-bet,protein,q9ul17,nan,nan,i,['nan'],['nan'],['pmc6021366'],['nan'],1,0.1,40,1,40.1
+529,il-13,protein,p35225,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,th1,protein,q8ixh7,nan,nan,i,['nan'],['nan'],['pmc6021366'],['nan'],1,0.1,40,1,40.1
+530,il-15,protein,p40933,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8304527'],['nan'],1,0.1,40,1,40.1
+532,il-15,protein,p40933,nan,nan,nan,nan,nan,cd107a,protein,p11279,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8571204'],['nan'],1,0.1,40,1,40.1
+535,il-17,protein,q16552,nan,nan,nan,nan,nan,immunity,biological process,go:0006955,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4782938'],['nan'],1,0.1,40,1,40.1
+536,il-17a,protein,q16552,nan,nan,nan,nan,nan,cd26,protein,p27487,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,0.1,40,1,40.1
+450,gm-csf,protein,p04141,nan,nan,nan,nan,nan,bcma,protein,q02223,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9401500'],['nan'],1,0.1,40,1,40.1
+451,gm-csf,protein,p04141,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6804784'],['nan'],1,0.1,40,1,40.1
+448,glut1,protein,p11166,nan,nan,nan,nan,nan,il-7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7409228'],['nan'],1,0.1,40,1,40.1
+382,cxcl10,protein,p02778,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9638445'],['nan'],1,0.1,40,1,40.1
+353,crkl,protein,p46109,nan,nan,nan,nan,nan,ephb4,protein,p54760,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7985479'],['nan'],1,0.1,40,1,40.1
+355,crs,protein,q15672,nan,nan,nan,nan,nan,g-csf,protein,p09919,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9622902'],['nan'],1,0.1,40,1,40.1
+356,crs,protein,q15672,nan,nan,nan,nan,nan,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7333770'],['nan'],1,0.1,40,1,40.1
+357,crs,protein,q15672,nan,nan,nan,nan,nan,il-17a,protein,q16552,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7333770'],['nan'],1,0.1,40,1,40.1
+360,crs,protein,q15672,nan,nan,nan,nan,nan,myd88,protein,q99836,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6511336'],['nan'],1,0.1,40,1,40.1
+361,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,aes,protein,q08117,nan,nan,i,['nan'],['nan'],['pmc8059303'],['nan'],1,0.1,40,1,40.1
+363,crs,protein,q15672,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,i,['nan'],['nan'],['pmc7547336'],['nan'],1,0.1,40,1,40.1
+366,cs1,protein,o94985,nan,nan,nan,nan,nan,sap,protein,o60880,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7409338'],['nan'],1,0.1,40,1,40.1
+367,csf,protein,p04141,nan,nan,nan,nan,nan,cd19,protein,p15391,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8131494'],['nan'],1,0.1,40,1,40.1
+368,csf1r,protein,p07333,nan,nan,nan,nan,nan,mcl,protein,q8wxi8,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+369,csk,protein,p41240,nan,nan,nan,nan,nan,cbp,protein,p04000,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,0.1,40,1,40.1
+371,cspg4,protein,q6uvk1,nan,nan,nan,nan,nan,tnf,protein,p01375,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6796553'],['nan'],1,0.1,40,1,40.1
+373,ct26,protein,q86tm3,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,tnfr2,protein,p20333,nan,nan,i,['nan'],['nan'],['pmc8546260'],['nan'],1,0.1,40,1,40.1
+374,ct26,protein,q86tm3,nan,nan,nan,nan,nan,tnfr2,protein,p20333,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8546260'],['nan'],1,0.1,40,1,40.1
+447,gli family zinc finger 1,protein,p08151,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,hes1,protein,a0a0b4j2d5,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+378,ctla-4,protein,p16410,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,pd-l1,protein,q9nzq7,nan,nan,i,['nan'],['nan'],['pmc9961031'],['nan'],1,0.1,40,1,40.1
+379,ctla-4,protein,p16410,nan,nan,nan,nan,nan,p56,protein,p09914,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8005572'],['nan'],1,0.1,40,1,40.1
+350,cpt1a,protein,p50416,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7494758'],['nan'],1,0.1,40,1,40.1
+349,chemotaxis,biological process,go:0006935,nan,nan,nan,nan,nan,il-8,protein,p10145,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7408985'],['nan'],1,0.1,40,1,40.1
+348,chemotaxis,biological process,go:0006935,nan,nan,nan,nan,nan,cxcl10,protein,p02778,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8461872'],['nan'],1,0.1,40,1,40.1
+336,cd86,protein,p42081,nan,nan,nan,nan,nan,cd4,protein,p01730,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc4746098'],['nan'],1,0.1,40,1,40.1
+323,cd69,protein,q07108,nan,nan,nan,nan,nan,cd81,protein,p60033,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8812682'],['nan'],1,0.1,40,1,40.1
+324,cd69,protein,q07108,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+325,cd69,protein,q07108,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+326,cd7,protein,p09564,nan,nan,nan,nan,nan,car-t,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9753314'],['nan'],1,0.1,40,1,40.1
+329,cd71,protein,p02786,nan,nan,nan,nan,nan,mlr,protein,p08235,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8488356'],['nan'],1,0.1,40,1,40.1
+330,cd79a,protein,p11912,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd20,protein,p11836,nan,nan,i,['nan'],['nan'],['pmc9941136'],['nan'],1,0.1,40,1,40.1
+335,cd83,protein,q01151,nan,nan,nan,nan,nan,btk,protein,q06187,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10011883'],['nan'],1,0.1,40,1,40.1
+339,cdkn1b,protein,p46527,nan,nan,nan,nan,nan,hes1,protein,a0a0b4j2d5,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+347,chemotaxis,biological process,go:0006935,nan,nan,nan,nan,nan,ccl5,protein,p13501,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8461872'],['nan'],1,0.1,40,1,40.1
+340,cea,protein,p06731,nan,nan,nan,nan,nan,il-10,protein,p22301,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9872249'],['nan'],1,0.1,40,1,40.1
+341,cell adhesion,biological process,go:0007155,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cs1,protein,o94985,nan,nan,i,['nan'],['nan'],['pmc3967004'],['nan'],1,0.1,40,1,40.1
+342,cell adhesion,biological process,go:0007155,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,icam1,protein,p05362,nan,nan,i,['nan'],['nan'],['pmc8864095'],['nan'],1,0.1,40,1,40.1
+343,cell proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,baff,protein,q9y275,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8832753'],['nan'],1,0.1,40,1,40.1
+344,cell proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,igf-i,protein,p05019,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9973402'],['nan'],1,0.1,40,1,40.1
+345,cell proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,stat3,protein,p40763,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5839992'],['nan'],1,0.1,40,1,40.1
+346,cflip,protein,o15519,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,indo,protein,p14902,nan,nan,i,['nan'],['nan'],['pmc9330341'],['nan'],1,0.1,40,1,40.1
+381,cxcl10,protein,p02778,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+375,ctgf,protein,p29279,nan,nan,nan,nan,nan,wnt3a,protein,p56704.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9048543'],['nan'],1,0.1,40,1,40.1
+383,cxcl11,protein,o14625,nan,nan,nan,nan,nan,gm-csf,protein,p04141,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8750340'],['nan'],1,0.1,40,1,40.1
+419,era,protein,p03372,nan,nan,nan,nan,nan,cart,protein,q16568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6791516'],['nan'],1,0.1,40,1,40.1
+406,dnam-1,protein,q15762,nan,nan,nan,nan,nan,il15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,0.1,40,1,40.1
+385,cxcr1,protein,p25024,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8865283'],['nan'],1,0.1,40,1,40.1
+410,dr5,protein,o14763,nan,nan,nan,nan,nan,mice,protein,p31944,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9330341'],['nan'],1,0.1,40,1,40.1
+411,drug metabolism,biological process,go:0017144,nan,nan,nan,nan,nan,cytochrome p450 3a4,protein,p08684,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+412,ecl,protein,o00585,nan,nan,nan,nan,nan,kit,protein,p10721,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7985479'],['nan'],1,0.1,40,1,40.1
+415,elongation factor 2,protein,p13639,nan,nan,nan,nan,nan,adp,protein,q8n5d0,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7947882'],['nan'],1,0.1,40,1,40.1
+417,ephb4,protein,p54760,nan,nan,nan,nan,nan,ephrin b2,protein,p52799,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7985479'],['nan'],1,0.1,40,1,40.1
+418,eps8,protein,q12929,nan,nan,nan,nan,nan,proliferation,biological process,go:0008283,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7279007'],['nan'],1,0.1,40,1,40.1
+421,erythropoietin,protein,p01588,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,i,['nan'],['nan'],['pmc9226391'],['nan'],1,0.1,40,1,40.1
+404,dna repair,biological process,go:0006281,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cgas,protein,q8n884,nan,nan,i,['nan'],['nan'],['pmc9062427'],['nan'],1,0.1,40,1,40.1
+422,fas,protein,p25445,nan,nan,nan,nan,nan,afp,protein,p02771,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8296838'],['nan'],1,0.1,40,1,40.1
+425,fasl,protein,p48023,nan,nan,nan,nan,nan,cd40,protein,p25942,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc10185706'],['nan'],1,0.1,40,1,40.1
+426,fasl,protein,p48023,nan,nan,nan,nan,nan,gal-9,protein,o00182,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8391477'],['nan'],1,0.1,40,1,40.1
+427,figure 4b,protein,p01579,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd22,protein,p20273,nan,nan,i,['nan'],['nan'],['pmc5774642'],['nan'],1,0.1,40,1,40.1
+428,flt,protein,p17948,nan,nan,nan,nan,nan,flt3,protein,p36888,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8896098'],['nan'],1,0.1,40,1,40.1
+439,fpp synthase,protein,p14324,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,zol,chemical,68740,nan,nan,i,['nan'],['nan'],['pmc8396358'],['nan'],1,0.1,40,1,40.1
+444,gitr,protein,q9y5u5,nan,nan,nan,nan,nan,4-1bb,protein,q07011,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9939256'],['nan'],1,0.1,40,1,40.1
+446,gitr,protein,q9y5u5,nan,nan,nan,nan,nan,ox40,protein,p43489,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9939256'],['nan'],1,0.1,40,1,40.1
+405,dnam-1,protein,q15762,nan,nan,nan,nan,nan,il-15,protein,p40933,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6343266'],['nan'],1,0.1,40,1,40.1
+408,dnam-1,protein,q15762,nan,nan,nan,nan,nan,il7,protein,p13232,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9599140'],['nan'],1,0.1,40,1,40.1
+403,dna demethylation,biological process,go:0080111,nan,nan,nan,nan,nan,tet2,protein,q6n021,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8593824'],['nan'],1,0.1,40,1,40.1
+397,dcr,protein,q7z4w1,nan,nan,nan,nan,nan,tace,protein,p78536,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7563532'],['nan'],1,0.1,40,1,40.1
+386,cxcr2,protein,p25025,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8865283'],['nan'],1,0.1,40,1,40.1
+387,cxcr4,protein,p61073,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8865283'],['nan'],1,0.1,40,1,40.1
+388,cxcr4,protein,p61073,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,epcam,protein,p16422,nan,nan,i,['nan'],['nan'],['pmc9043864'],['nan'],1,0.1,40,1,40.1
+389,cxcr5,protein,p32302,nan,nan,nan,nan,nan,car,protein,p36575,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9793449'],['nan'],1,0.1,40,1,40.1
+391,cxcr6,protein,o00574,nan,nan,nan,nan,nan,cd26,protein,p27487,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7458458'],['nan'],1,0.1,40,1,40.1
+392,cytolysis,biological process,go:0019835,nan,nan,nan,nan,nan,granzyme b,protein,p10144,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7973425'],['nan'],1,0.1,40,1,40.1
+394,dap10,protein,q9ubk5,nan,nan,nan,nan,nan,src,other,uaz537263,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5465249'],['nan'],1,0.1,40,1,40.1
+402,dll4,protein,q9nr61,nan,nan,nan,nan,nan,vegfa,protein,p15692,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6984804'],['nan'],1,0.1,40,1,40.1
+481,hla-e,protein,p13747,nan,nan,nan,nan,nan,ifn-gamma,protein,p01579,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8227123'],['nan'],1,0.1,40,1,40.1
+398,de novo dna methylation,biological process,go:0043045,nan,nan,nan,nan,nan,dnmt3a,protein,q9y6k1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc7947882'],['nan'],1,0.1,40,1,40.1
+399,differentiation,biological process,go:0030154,nan,nan,nan,nan,nan,csf1,protein,p09603,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8122391'],['nan'],1,0.1,40,1,40.1
+400,differentiation,biological process,go:0030154,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,i,['nan'],['nan'],['pmc9372572'],['nan'],1,0.1,40,1,40.1
+401,differentiation,biological process,go:0030154,nan,nan,nan,nan,nan,nkg2d,protein,p26718,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc6299907'],['nan'],1,0.1,40,1,40.1
+257,cd28,protein,p10747,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc3751305', 'pmc3751305']","['nan', 'nan']",2,10,20,1,40
+662,interleukin-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc3070115', 'pmc3070115']","['nan', 'nan']",2,10,20,1,40
+703,mammalian target of rapamycin,protein,p42345,nan,nan,nan,nan,nan,protein kinase b,protein,p31749,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc9496564', 'pmc9496564']","['nan', 'nan']",2,10,1,1,21
+548,il-2,protein,p60568,nan,nan,nan,nan,nan,cd25,protein,p01589,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc7775630', 'pmc7775630']","['nan', 'nan']",2,10,1,1,21
+610,il2,protein,p60568,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,"['nan', 'nan']","['nan', 'nan']","['pmc6732842', 'pmc6732842']","['nan', 'nan']",2,10,1,1,21
+235,cd25,protein,p01589,nan,nan,nan,nan,nan,cd28,protein,p10747,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9895440'],['nan'],1,10,1,1,11
+239,cd25,protein,p01589,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,10,1,1,11
+240,cd25,protein,p01589,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1.t,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc9522664'],['nan'],1,10,1,1,11
+554,il-2,protein,p60568,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc5808295'],['nan'],1,10,1,1,11
+614,il2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,foxp3,protein,b7zlg1,nan,nan,i,['nan'],['nan'],['pmc10083618'],['nan'],1,10,1,1,11
+862,stat5a,protein,p42229,nan,nan,nan,nan,nan,il-2,protein,p60568,nan,nan,nan,nan,nan,nan,nan,i,['nan'],['nan'],['pmc8220804'],['nan'],1,10,1,1,11
