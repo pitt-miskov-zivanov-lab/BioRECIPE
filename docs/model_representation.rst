@@ -62,7 +62,7 @@ Whenever an individual regulator (positive or negative) has an *empty* attribute
 
 |
 
-Finally, several new model attributes are included in executable models to define element update rules, as well as element value and timing parameters for the simulation. These attributes are included under **Simulation parameters** in the figure above.
+Finally, several new model attributes are included in executable models to define element update rules, as well as element value and timing parameters for the simulation. These attributes are included under **Simulation parameters** in the figure above. More details on how these parameters are used in simulation can be found int the `DiSH simulator documentation <https://github.com/pitt-miskov-zivanov-lab/dyse_wm/blob/main/README.md>`_.
 
 |
 
