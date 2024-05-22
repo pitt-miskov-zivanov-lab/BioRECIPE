@@ -2,14 +2,14 @@
 Biocuration resources
 ######################
 
-Biocuration Resource Table - main table
+
 
 
 .. raw:: html
 
     <div class="sticky-first-column">
 
-.. csv-table::
+.. csv-table:: Biocuration Resource Table - main table
     :header: Name,GO (Gene Ontology),miRBase,UniProt,ChEBI,BioGRID,HPRD,KEGG,MINT,PathwayCommons ,Reactome,SIGNOR,STITCH,STRING,WikiPathways,FLUTE,INDRA,IntAct,OmniPath,PCnet,BioModels,CellCollective,Path2Models,MINERVA,BioKC,nDex,REACH,RLIMS-P,Sparser
     :widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
