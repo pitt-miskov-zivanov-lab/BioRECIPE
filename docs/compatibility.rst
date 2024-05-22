@@ -6,7 +6,7 @@ The BioRECIPE format is compatible with a range of representation formats, datab
 
 Attribute compatibility
 -----------------------
-Here we provide an overview of which attributes that BioRECIPE considers are included in other representation formats, output by several tools, including LLMs, or input in models by human curators.
+Here we provide a summary attributes that BioRECIPE considers and whether they are included in other representation formats, output by several tools, including large alnguage models (LLMs), or added to models by human curators.
 
 Additional standards, databases, and tools and their compatibilities with BioRECIPE are listed in the following sections.
 
