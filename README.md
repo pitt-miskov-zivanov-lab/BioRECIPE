@@ -58,7 +58,7 @@ BioRECIPE supports the features of ***Standardization, Expressiveness, Scalabili
 
 ## Funding
 
-This work was funded in part by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135); and in part by the University of Pittsburgh, Swanson School of Engineering.
+This work was funded in part by a DARPA Big Mechanism award AIMCancer (W911NF-17-1-0135) and in part by the NSF EAGER award CCF-2324742
 
 ## Support
 For translation and workflow concerns, feel free to reach out to Natasa Miskov-Zivanov: nmzivanov@pitt.edu
