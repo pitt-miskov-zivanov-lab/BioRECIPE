@@ -15,4 +15,4 @@ The authors of this documentation are Dr. Natasa Miskov-Zivanov, Dr. Gaoxiang Zh
 
 **Funding**
 
-This work was funded by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135), but NSF EAGER award (CCF-2324742), and by the University of Pittsburgh, Swanson School of Engineering.
+This work was funded by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135), by NSF EAGER award (CCF-2324742), and by the University of Pittsburgh, Swanson School of Engineering.
