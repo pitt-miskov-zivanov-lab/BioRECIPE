@@ -5,6 +5,7 @@ from indra.belief import SimpleScorer
 from indra.sources import indra_db_rest as idr
 from indra.statements import *
 from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
+import copy
 
 def parse_pmc(input, outdir):
 	if os.path.isdir(input):
@@ -35,8 +36,33 @@ def get_biorecipeI_from_pmcids(infile, outdir):
 	fName = outdir
 	#fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
 
-	papers_df = pd.read_csv(infile,usecols=["PMCID"]).dropna()
-	papers = list(papers_df.values.reshape(-1,))
+	papers_df = pd.read_csv(infile, dtype=str)
+	ext_cols = []
+	if "PMID" in papers_df.columns:
+		ext_cols.append("PMID")
+
+	if "PMCID" in papers_df.columns:
+		ext_cols.append("PMCID")
+
+	if len(ext_cols) == 0:
+		raise ValueError("No PMCID or PMID column found in the input file")
+
+	papers_df = papers_df[ext_cols]
+    
+	papers = []
+	for idx, row in papers_df.iterrows():
+		tag = False
+		if "PMCID" in papers_df.columns:
+			pmcid = row["PMCID"]
+			if pd.notna(pmcid):
+				papers.append('PMC' + pmcid.lstrip('PMC'))
+				tag = True
+
+		if not tag:
+			if "PMID" in papers_df.columns:
+				pmid = row["PMID"]
+				if pd.notna(pmid):
+					papers.append(pmid)
 
 	# Reading output in BioRECIPE format
 	fOut= pd.DataFrame(columns=biorecipe_int_cols)
@@ -57,7 +83,10 @@ def get_biorecipeI_from_pmcids(infile, outdir):
 	#print(papers)
 
 	for p in papers:
-		idrp = idr.get_statements_for_papers(ids=[('pmcid',p)],)
+		if "PMC" in p:
+			idrp = idr.get_statements_for_papers(ids=[('pmcid',p)],)
+		else:
+			idrp = idr.get_statements_for_papers(ids=[('pmid',p)],)
 		stmts = idrp.statements
 
 		if(stmts):
