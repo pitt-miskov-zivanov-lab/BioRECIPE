@@ -1,10 +1,47 @@
-from translators.within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
+import re
+import warnings
+import argparse
+
 import pandas as pd
 import numpy as np
 import networkx as nx
-import warnings
-import re
-import argparse
+
+from translators.within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
+
+
+HGNC_SYMBOL = r'^[A-Za-z-0-9_]+(\@)?$'
+# Local unique identifiers and patterns found at bioregistry
+HGNC_LOCAL = r'^\d{1,5}$'
+GO_LOCAL = r'^\d{7}$'
+UNIPROT_LOCAL = r'^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$'
+CHEBI_LOCAL = r'^\d+$'
+PUBCHEM_LOCAL = r'^\d+$'
+MESH_LOCAL = r'^(C|D|M)\d{6,9}$'
+
+# Global unique identifiers and patterns
+HGNC_GLOBAL = r'^hgnc:\d{1,5}$'
+GO_GLOBAL = r'^GO:\d{7}$'
+UNIPROT_GLOBAL = r'^uniprot:([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$'
+CHEBI_GLOBAL = r'^CHEBI:\d+$'
+PUBCHEM_GLOBAL = r'^pubchem\.compound:\d+$'
+MESH_GLOBAL = r'^mesh:(C|D|M)\d{6,9}$'
+
+REVERSE_DB_PATTERNS = [
+    (UNIPROT_LOCAL, 'uniprot'),
+    (GO_GLOBAL, 'go'),
+    (CHEBI_GLOBAL, 'chebi'),
+    (MESH_LOCAL, 'mesh')
+]
+
+def reverse_db_mapping(id):
+    """
+    Mapping database name from entity ID
+    """
+    for (pt, db) in REVERSE_DB_PATTERNS:
+        if re.fullmatch(pt, str(id)):
+            return db
+
+    return ''
 
 def get_element(reg_rule: str, layer=0):
 
@@ -528,6 +565,8 @@ def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
                 if input_df.isnull().loc[i, reach_tab["NegReg_Name"]]:
                     output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["PosReg_Name"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["PosReg_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_type"]] = input_df.loc[i, reach_tab["PosReg_Type"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_database"]] = reverse_db_mapping(input_df.loc[i, reach_tab["PosReg_ID"]])
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
                         i, reach_tab["PosReg_Location"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
@@ -537,6 +576,8 @@ def get_biorecipeI_from_reach_tab(reach_tab_file, interactions_file):
                 else:
                     output_df_biorecipe.loc[i, biorecipe_col] = input_df.loc[i, reach_tab["NegReg_Name"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_id"]] = input_df.loc[i, reach_tab["NegReg_ID"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_type"]] = input_df.loc[i, reach_tab["NegReg_Type"]]
+                    output_df_biorecipe.loc[i, biorecipe["regulator_database"]] = reverse_db_mapping(input_df.loc[i, reach_tab["NegReg_ID"]])
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment"]] = input_df.loc[
                         i, reach_tab["NegReg_Location"]]
                     output_df_biorecipe.loc[i, biorecipe["regulator_compartment_id"]] = input_df.loc[
