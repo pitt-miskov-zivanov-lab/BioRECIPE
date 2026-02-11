@@ -1,0 +1,3108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+ xml:base="pc14:">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Catalysis rdf:about="pid:pid_11609">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11611" />
+ <bp:evidence rdf:resource="pid:pid_11610" />
+ <bp:controlled rdf:resource="pid:pid_11606" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11608">
+ <bp:physicalEntity rdf:resource="pid:pid_8900" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11607">
+ <bp:physicalEntity rdf:resource="pid:pid_8899" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11606">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11608" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11607" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11611" />
+ <bp:evidence rdf:resource="pid:pid_11610" />
+ <bp:right rdf:resource="pid:pid_8900" />
+ <bp:left rdf:resource="pid:pid_8899" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Evidence rdf:about="pid:pid_11603">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000012" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11602">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11601">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000021" />
+</bp:Evidence>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_phosphorylated">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">phosphorylated</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:PublicationXref rdf:about="pubmed:15356135">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15356135</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL6_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="uniprot:P40189">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P40189</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P60568">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:PublicationXref rdf:about="pubmed:12734330">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2003</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hamano, Shinjiro</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hanada, Toshikatsu</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Yoshida, H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Yamanaka, Atsushi</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Yoshimura, A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mak, Tak W</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ishibashi, Tatsuro</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Takeda, Atsunobu</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">12734330</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J. Immunol. 170:4886-90</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cutting edge: role of IL-27/WSX-1 signaling for induction of T-bet through activation of STAT1 during initial Th1 commitment</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="pubmed:15308705">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15308705</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P01375">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_8940">
+ <bp:physicalEntity rdf:resource="pid:pid_8794" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P40189">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-6 receptor subunit beta</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P40189" />
+ <bp:xref rdf:resource="#RX_ncbigene_3572_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL6ST_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6RB_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-6 signal transducer</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-6R subunit beta</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-6R-beta</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDw130</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oncostatin-M receptor subunit alpha</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6ST</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-6RB</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">gp130</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-6 receptor subunit beta</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Membrane glycoprotein 130</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD130</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6RB_HUMAN Reviewed; 918 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:PublicationXref rdf:about="pubmed:16906167">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16906167</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="pubmed:16906166">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16906166</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="uniprot:P23771">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P23771</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P01584">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3595_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3595</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:f9bc0e73-59ab-4c6b-a545-4355766b2d36">
+ <bp:modificationType rdf:resource="#SMV_phosphorylated" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3592_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3592</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3553_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3553</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P01579">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P23771">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Trans-acting T-cell-specific transcription factor GATA-3</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_2625_identity" />
+ <bp:xref rdf:resource="uniprot:P23771" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_GATA3_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA3_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA-binding factor 3</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA3</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA3_HUMAN Reviewed; 443 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:SequenceSite rdf:about="pid:pid_5899">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">705</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_5898">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_5899" />
+</bp:ModificationFeature>
+
+<bp:Complex rdf:about="pid:pid_11556">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27/IL27R/JAK2/TYK2</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11568" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11572" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11571" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11570" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11567" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11569" />
+ <bp:component rdf:resource="pid:pid_11564" />
+ <bp:component rdf:resource="pid:pid_8623" />
+ <bp:component rdf:resource="pid:pid_5904" />
+ <bp:component rdf:resource="pid:pid_11560" />
+ <bp:component rdf:resource="pid:pid_11557" />
+ <bp:component rdf:resource="pid:pid_11563" />
+ <bp:feature rdf:resource="pid:pid_11573" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:UnificationXref rdf:about="uniprot:P60568">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P60568</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="pid:pid_7637">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_7552" />
+ <bp:feature rdf:resource="pid:pid_7550" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P23458" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P05231">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="go:0016021">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0016021</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">go</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P60568">
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P60568" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P60568" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-2</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3558_identity" />
+ <bp:xref rdf:resource="uniprot:P60568" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL2_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL2_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Aldesleukin</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-cell growth factor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TCGF</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL2_HUMAN Reviewed; 153 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="uniprot:P01584">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P01584</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="pid:pid_8899">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P42224" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="pid:pid_11573">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P01584">
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P01584" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P01584" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-1 beta</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL1B_identity" />
+ <bp:xref rdf:resource="uniprot:P01584" />
+ <bp:xref rdf:resource="#RX_ncbigene_3553_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1B_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-1 beta</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1B</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catabolin</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1F2</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1B_HUMAN Reviewed; 269 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:Control rdf:about="pid:pid_11579">
+ <bp:controlled rdf:resource="pid:pid_8858" />
+ <bp:controller rdf:resource="pid:pid_8854" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:UnificationXref rdf:about="uniprot:P01579">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P01579</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Stoichiometry rdf:about="pid:pid_11582">
+ <bp:physicalEntity rdf:resource="pid:pid_11564" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11583">
+ <bp:physicalEntity rdf:resource="pid:pid_11557" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:SequenceSite rdf:about="pid:pid_7752">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1054</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_6776_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6776</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="uniprot:P42224">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P42224</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Stoichiometry rdf:about="pid:pid_11595">
+ <bp:physicalEntity rdf:resource="pid:pid_11563" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Pathway rdf:about="pid:pid_8871">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell proliferation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell proliferation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P40763">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_6773_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6773</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:ID="UX_evidence_code_ontology_ECO_0000021">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ECO:0000021</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">evidence code ontology</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL12A_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12A</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="pid:pid_8865">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_8864">
+ <bp:physicalEntity rdf:resource="pid:pid_8862" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ModificationFeature rdf:about="pid:pid_8863">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00046" />
+ <bp:featureLocation rdf:resource="pid:pid_7802" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_8862">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_8863" />
+ <bp:feature rdf:resource="pid:pid_5898" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P40763" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Complex rdf:about="pid:pid_8861">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3 (dimer)</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_8864" />
+ <bp:component rdf:resource="pid:pid_8862" />
+ <bp:feature rdf:resource="pid:pid_8865" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3 (dimer)-active</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3 (dimer )</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:ModificationFeature rdf:about="biofactoid:2fca89f3-ad76-42ca-be2b-df71add8cbe4">
+ <bp:modificationType rdf:resource="#SMV_phosphorylated" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:ID="UX_evidence_code_ontology_ECO_0000015">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ECO:0000015</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">evidence code ontology</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:ID="UX_evidence_code_ontology_ECO_0000012">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ECO:0000012</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">evidence code ontology</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL6ST_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6ST</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:SequenceSite rdf:about="pid:pid_8628">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1055</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:Pathway rdf:about="pid:pid_8858">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-helper cell lineage commitment</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-helper cell lineage commitment</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Protein rdf:about="pid:pid_8854">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q16552" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="http://bioregistry.io/ncbitaxon:9606">
+ <bp:xref rdf:resource="ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiologicalState8</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens (human)</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Human</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens (Human)</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">human</bp:name>
+</bp:BioSource>
+
+<bp:UnificationXref rdf:ID="UX_evidence_code_ontology_ECO_0000002">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ECO:0000002</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">evidence code ontology</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="pid:pid_8843">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005576" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P05231" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P29597">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_JAK1_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Evidence rdf:about="pid:pid_11720">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL12RB1_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12RB1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:a6efd43c-2491-4b6f-a582-d4244d7dd4ff">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P01375">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P01375</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:00c7300c-aea0-4029-b663-640cbbc70dcd">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P42229">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P42229</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Evidence rdf:about="pid:pid_11796">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11795">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11793">
+ <bp:controlled rdf:resource="pid:pid_11789" />
+ <bp:controller rdf:resource="pid:pid_11761" />
+ <bp:xref rdf:resource="pubmed:15944269" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11796" />
+ <bp:evidence rdf:resource="pid:pid_11795" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Pathway rdf:about="pid:pid_8836">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of T cell mediated cytotoxicity</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of T cell mediated cytotoxicity</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Pathway rdf:about="pid:pid_11791">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell differentiation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell differentiation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Control rdf:about="pid:pid_11790">
+ <bp:controlled rdf:resource="pid:pid_11789" />
+ <bp:controller rdf:resource="pid:pid_11791" />
+ <bp:xref rdf:resource="pubmed:15944269" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11796" />
+ <bp:evidence rdf:resource="pid:pid_11795" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:PublicationXref rdf:about="pubmed:11057672">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11057672</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_O60674">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P42229">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription 5A</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_STAT5A_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_6776_identity" />
+ <bp:xref rdf:resource="uniprot:P42229" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STA5A_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5A</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STA5A_HUMAN Reviewed; 794 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:SequenceSite rdf:about="pid:pid_11734">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">690</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:UnificationXref rdf:about="mod:00048">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00048</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mod</bp:db>
+</bp:UnificationXref>
+
+<bp:Evidence rdf:about="pid:pid_11788">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:UnificationXref rdf:about="mod:00046">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00046</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mod</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="pid:pid_11786">
+ <bp:controller rdf:resource="pid:pid_11588" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:evidence rdf:resource="pid:pid_11788" />
+ <bp:evidence rdf:resource="pid:pid_11787" />
+ <bp:controlled rdf:resource="pid:pid_11783" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11785">
+ <bp:physicalEntity rdf:resource="pid:pid_8900" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11784">
+ <bp:physicalEntity rdf:resource="pid:pid_8899" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11783">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11785" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11784" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:evidence rdf:resource="pid:pid_11788" />
+ <bp:evidence rdf:resource="pid:pid_11787" />
+ <bp:right rdf:resource="pid:pid_8900" />
+ <bp:left rdf:resource="pid:pid_8899" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11782">
+ <bp:controlled rdf:resource="pid:pid_11780" />
+ <bp:controller rdf:resource="pid:pid_11617" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11781">
+ <bp:controlled rdf:resource="pid:pid_11780" />
+ <bp:controller rdf:resource="pid:pid_11614" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReaction rdf:about="pid:pid_11780">
+ <bp:product rdf:resource="pid:pid_8813" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:participant rdf:resource="pid:pid_8813" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:ModificationFeature rdf:about="biofactoid:fe780623-e618-4fd7-a4a6-05e34477aa22">
+ <bp:modificationType rdf:resource="#SMV_phosphorylated" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P42701">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P42701</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Evidence rdf:about="pid:pid_11779">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_7124_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7124</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11776">
+ <bp:controlled rdf:resource="pid:pid_11770" />
+ <bp:controller rdf:resource="pid:pid_8900" />
+ <bp:xref rdf:resource="pubmed:16906166" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11779" />
+ <bp:evidence rdf:resource="pid:pid_11778" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Protein rdf:about="pid:pid_11773">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB1</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005576" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P01137" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11772">
+ <bp:controlled rdf:resource="pid:pid_11770" />
+ <bp:controller rdf:resource="pid:pid_11773" />
+ <bp:xref rdf:resource="pubmed:16906166" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11779" />
+ <bp:evidence rdf:resource="pid:pid_11778" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11771">
+ <bp:controlled rdf:resource="pid:pid_11770" />
+ <bp:controller rdf:resource="pid:pid_8843" />
+ <bp:xref rdf:resource="pubmed:16906166" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11779" />
+ <bp:evidence rdf:resource="pid:pid_11778" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:TemplateReaction rdf:about="pid:pid_11770">
+ <bp:product rdf:resource="pid:pid_8854" />
+ <bp:xref rdf:resource="pubmed:16906166" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:evidence rdf:resource="pid:pid_11779" />
+ <bp:evidence rdf:resource="pid:pid_11778" />
+ <bp:participant rdf:resource="pid:pid_8854" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Protein rdf:about="pid:pid_8813">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL18</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q14116" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="pubmed:16365415">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16365415</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="uniprot:P29597">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P29597</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P42701">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-12 receptor subunit beta-1</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3594_identity" />
+ <bp:xref rdf:resource="uniprot:P42701" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL12RB1_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I12R1_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD212</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12 receptor subunit beta-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12RB1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12RB1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12R-beta-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12RB</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12R</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12 receptor beta component</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12R subunit beta-1</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I12R1_HUMAN Reviewed; 662 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:PublicationXref rdf:about="pubmed:15749890">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15749890</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_residue_modification__active">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">residue modification, active</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:PublicationXref rdf:about="pubmed:14657353">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14657353</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:Evidence rdf:about="pid:pid_11769">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11768">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11767">
+ <bp:controlled rdf:resource="pid:pid_8871" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11768" />
+ <bp:evidence rdf:resource="pid:pid_11769" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11765">
+ <bp:controlled rdf:resource="pid:pid_11760" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:16365415" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Pathway rdf:about="pid:pid_11763">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell activation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell activation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Control rdf:about="pid:pid_11762">
+ <bp:controlled rdf:resource="pid:pid_11760" />
+ <bp:controller rdf:resource="pid:pid_11763" />
+ <bp:xref rdf:resource="pubmed:16365415" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Protein rdf:about="pid:pid_11761">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL2</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005576" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P60568" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:TemplateReaction rdf:about="pid:pid_11760">
+ <bp:product rdf:resource="pid:pid_11761" />
+ <bp:xref rdf:resource="pubmed:16365415" />
+ <bp:participant rdf:resource="pid:pid_11761" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P29597">
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P29597" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P29597" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Non-receptor tyrosine-protein kinase TYK2</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_7297_identity" />
+ <bp:xref rdf:resource="uniprot:P29597" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_TYK2_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2.7.10.2</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2_HUMAN Reviewed; 1187 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_TGFB1_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_active">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">active</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:UnificationXref rdf:about="uniprot:O60674">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O60674</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:EvidenceCodeVocabulary rdf:ID="EV_evidence_code_ontology_ECO_0000201">
+ <bp:xref rdf:resource="#UX_evidence_code_ontology_ECO_0000201" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inferred from sequence orthology</bp:term>
+</bp:EvidenceCodeVocabulary>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11759">
+ <bp:controlled rdf:resource="pid:pid_11757" />
+ <bp:controller rdf:resource="pid:pid_11617" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11758">
+ <bp:controlled rdf:resource="pid:pid_11757" />
+ <bp:controller rdf:resource="pid:pid_11614" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReaction rdf:about="pid:pid_11757">
+ <bp:product rdf:resource="pid:pid_11694" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:participant rdf:resource="pid:pid_11694" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Evidence rdf:about="pid:pid_11756">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11755">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11754">
+ <bp:controlled rdf:resource="pid:pid_11751" />
+ <bp:controller rdf:resource="pid:pid_8900" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11756" />
+ <bp:evidence rdf:resource="pid:pid_11755" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11753">
+ <bp:controlled rdf:resource="pid:pid_11751" />
+ <bp:controller rdf:resource="pid:pid_11633" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11756" />
+ <bp:evidence rdf:resource="pid:pid_11755" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Protein rdf:about="pid:pid_11752">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12Rbeta2</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0016021" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q99665" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:TemplateReaction rdf:about="pid:pid_11751">
+ <bp:product rdf:resource="pid:pid_11752" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:evidence rdf:resource="pid:pid_11756" />
+ <bp:evidence rdf:resource="pid:pid_11755" />
+ <bp:participant rdf:resource="pid:pid_11752" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Evidence rdf:about="pid:pid_11750">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P01137">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:O60674">
+ <bp:entityFeature rdf:resource="drugbank:mod_active_O60674" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_O60674" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tyrosine-protein kinase JAK2</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_JAK2_identity" />
+ <bp:xref rdf:resource="uniprot:O60674" />
+ <bp:xref rdf:resource="#RX_ncbigene_3717_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2.7.10.2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Janus kinase 2</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2_HUMAN Reviewed; 1132 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:Evidence rdf:about="pid:pid_11749">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000002" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11778">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11747">
+ <bp:controlled rdf:resource="pid:pid_8871" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11749" />
+ <bp:evidence rdf:resource="pid:pid_11750" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Stoichiometry rdf:about="pid:pid_11746">
+ <bp:physicalEntity rdf:resource="pid:pid_11584" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11745">
+ <bp:physicalEntity rdf:resource="pid:pid_11585" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11744">
+ <bp:physicalEntity rdf:resource="pid:pid_11560" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11743">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11744" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11746" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11745" />
+ <bp:right rdf:resource="pid:pid_11584" />
+ <bp:spontaneous rdf:datatype = "http://www.w3.org/2001/XMLSchema#boolean">true</bp:spontaneous>
+ <bp:left rdf:resource="pid:pid_11585" />
+ <bp:left rdf:resource="pid:pid_11560" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Evidence rdf:about="pid:pid_11742">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11741">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000002" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11740">
+ <bp:controlled rdf:resource="pid:pid_8836" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:15308705" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11742" />
+ <bp:evidence rdf:resource="pid:pid_11741" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P05231">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="biofactoid:02b1a6cf-5111-48ab-8990-6f4e5090efbb">
+ <bp:modificationType rdf:resource="#SMV_phosphorylated" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IFNG_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFNG</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P01375">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P01375" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P01375" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tumor necrosis factor</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_TNF_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_7124_identity" />
+ <bp:xref rdf:resource="uniprot:P01375" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNFA_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ICD2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ICD1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Intracellular domain 2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Intracellular domain 1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cachectin</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NTF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">N-terminal fragment</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tumor necrosis factor ligand superfamily member 2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNFSF2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNF-a</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tumor necrosis factor, soluble form</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNFA</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tumor necrosis factor, membrane form</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C-domain 2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNF-alpha</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C-domain 1</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNFA_HUMAN Reviewed; 233 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_30009_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">30009</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Evidence rdf:about="pid:pid_11787">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000021" />
+</bp:Evidence>
+
+<bp:Stoichiometry rdf:about="pid:pid_11738">
+ <bp:physicalEntity rdf:resource="pid:pid_11731" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11737">
+ <bp:physicalEntity rdf:resource="pid:pid_11728" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ModificationFeature rdf:about="pid:pid_11736">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_11735">
+ <bp:physicalEntity rdf:resource="pid:pid_11732" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_TYK2_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="pid:pid_11733">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_11734" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_11732">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_11733" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P52630" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Complex rdf:about="pid:pid_11731">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2 (dimer)</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11735" />
+ <bp:component rdf:resource="pid:pid_11732" />
+ <bp:feature rdf:resource="pid:pid_11736" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:PublicationXref rdf:about="pubmed:15494513">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15494513</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_O60674">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_246778_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">246778</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="uniprot:Q6UWB1">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q6UWB1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="pid:pid_11728">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P52630" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11727">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11738" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11737" />
+ <bp:right rdf:resource="pid:pid_11731" />
+ <bp:left rdf:resource="pid:pid_11728" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Evidence rdf:about="pid:pid_11726">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11725">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11724">
+ <bp:controlled rdf:resource="pid:pid_11722" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14614852" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11726" />
+ <bp:evidence rdf:resource="pid:pid_11725" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3606_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3606</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Pathway rdf:about="pid:pid_11722">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell proliferation during immune response</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T cell proliferation during immune response</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Evidence rdf:about="pid:pid_11721">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q6UWB1">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-27 receptor subunit alpha</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL27RA_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_9466_identity" />
+ <bp:xref rdf:resource="uniprot:Q6UWB1" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I27RA_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytokine receptor-like 1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27RA</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRL1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27 receptor subunit alpha</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytokine receptor WSX-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type I T-cell cytokine receptor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27R subunit alpha</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TCCR</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27R-alpha</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27RA</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WSX1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZcytoR1</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I27RA_HUMAN Reviewed; 636 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ModificationFeature rdf:about="pid:pid_7799">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_7800" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3558_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3558</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:CellularLocationVocabulary rdf:ID="LV_go_GO_0005737">
+ <bp:xref rdf:resource="go:0005737" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytoplasm</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytoplasm</bp:term>
+</bp:CellularLocationVocabulary>
+
+<bp:PublicationXref rdf:about="pubmed:14614853">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14614853</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="pubmed:14614852">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14614852</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_TNF_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNF</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Protein rdf:about="pid:pid_8660">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P29597" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tyk2</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11719">
+ <bp:controlled rdf:resource="pid:pid_11714" />
+ <bp:controller rdf:resource="pid:pid_8900" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11720" />
+ <bp:evidence rdf:resource="pid:pid_11721" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11718">
+ <bp:controlled rdf:resource="pid:pid_11714" />
+ <bp:controller rdf:resource="pid:pid_11553" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11720" />
+ <bp:evidence rdf:resource="pid:pid_11721" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Protein rdf:about="pid:pid_11715">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA3</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P23771" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:TemplateReaction rdf:about="pid:pid_11714">
+ <bp:product rdf:resource="pid:pid_11715" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11720" />
+ <bp:evidence rdf:resource="pid:pid_11721" />
+ <bp:participant rdf:resource="pid:pid_11715" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Evidence rdf:about="pid:pid_11713">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11712">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:UnificationXref rdf:about="uniprot:P05231">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P05231</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P40763">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="pid:pid_11708">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_11707">
+ <bp:physicalEntity rdf:resource="pid:pid_5904" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11706">
+ <bp:physicalEntity rdf:resource="pid:pid_11697" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11705">
+ <bp:physicalEntity rdf:resource="pid:pid_8623" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11704">
+ <bp:physicalEntity rdf:resource="pid:pid_8639" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11703">
+ <bp:physicalEntity rdf:resource="pid:pid_11694" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11702">
+ <bp:physicalEntity rdf:resource="pid:pid_8632" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:SequenceSite rdf:about="pid:pid_11701">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">800</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_11700">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_11701" />
+</bp:ModificationFeature>
+
+<bp:PublicationXref rdf:about="pubmed:12121660">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2002</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Travis, M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">de Waal Malefyt, R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rennick, D</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hibbert, L</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pflanz, S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cheung, J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vaisberg, E</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rosales, R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Blumenschein, WM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mattson, JD</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wagner, JL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kanzler, H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zurawski, S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">To, W</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Churakova, T</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gilbert, J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gorman, DM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kastelein, RA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">McClanahan, TK</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Timans, JC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bazan, JF</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">12121660</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Immunity 16:779-90</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27, a heterodimeric cytokine composed of EBI3 and p28 protein, induces proliferation of naive CD4(+) T cells</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:Stoichiometry rdf:about="pid:pid_11598">
+ <bp:physicalEntity rdf:resource="pid:pid_11588" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11597">
+ <bp:physicalEntity rdf:resource="pid:pid_11581" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11596">
+ <bp:physicalEntity rdf:resource="pid:pid_11584" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Protein rdf:about="pid:pid_8639">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12B</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P29460" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="pid:pid_11594">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_11593">
+ <bp:physicalEntity rdf:resource="pid:pid_11557" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11592">
+ <bp:physicalEntity rdf:resource="pid:pid_11563" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11591">
+ <bp:physicalEntity rdf:resource="pid:pid_11564" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11590">
+ <bp:physicalEntity rdf:resource="pid:pid_11560" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Protein rdf:about="pid:pid_8632">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12Rbeta1</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P42701" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="biofactoid:5ac118dc-0862-4c18-a5d9-f6ba67754c97">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL1B_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1B</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipTypeVocabulary rdf:about="http://bioregistry.io/mi:0356">
+ <bp:xref rdf:resource="mi:0356" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">identity</bp:term>
+</bp:RelationshipTypeVocabulary>
+
+<bp:UnificationXref rdf:about="uniprot:Q9UL17">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q9UL17</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Stoichiometry rdf:about="pid:pid_11589">
+ <bp:physicalEntity rdf:resource="pid:pid_7637" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Complex rdf:about="pid:pid_11588">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27/IL27R/JAK1</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11589" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11590" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11593" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11592" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11591" />
+ <bp:component rdf:resource="pid:pid_11564" />
+ <bp:component rdf:resource="pid:pid_11563" />
+ <bp:component rdf:resource="pid:pid_11560" />
+ <bp:component rdf:resource="pid:pid_11557" />
+ <bp:component rdf:resource="pid:pid_7637" />
+ <bp:feature rdf:resource="pid:pid_11594" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:Stoichiometry rdf:about="pid:pid_11587">
+ <bp:physicalEntity rdf:resource="pid:pid_11585" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11586">
+ <bp:physicalEntity rdf:resource="pid:pid_11560" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Protein rdf:about="pid:pid_11585">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P23458" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Complex rdf:about="pid:pid_11584">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27RA/JAK1</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11587" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11586" />
+ <bp:component rdf:resource="pid:pid_11585" />
+ <bp:component rdf:resource="pid:pid_11560" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:ModificationFeature rdf:about="pid:pid_8627">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_8628" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P40763">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P40763</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Complex rdf:about="pid:pid_11581">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27/EBI3</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11583" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11582" />
+ <bp:component rdf:resource="pid:pid_11564" />
+ <bp:component rdf:resource="pid:pid_11557" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11580">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11598" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11597" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11596" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11595" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:evidence rdf:resource="pid:pid_11603" />
+ <bp:evidence rdf:resource="pid:pid_11602" />
+ <bp:evidence rdf:resource="pid:pid_11601" />
+ <bp:right rdf:resource="pid:pid_11588" />
+ <bp:spontaneous rdf:datatype = "http://www.w3.org/2001/XMLSchema#boolean">true</bp:spontaneous>
+ <bp:left rdf:resource="pid:pid_11563" />
+ <bp:left rdf:resource="pid:pid_11584" />
+ <bp:left rdf:resource="pid:pid_11581" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Protein rdf:about="pid:pid_8623">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYK2</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_8627" />
+ <bp:feature rdf:resource="pid:pid_8626" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P29597" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tyk2</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q9UL17">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-box transcription factor TBX21</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_30009_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_TBX21_identity" />
+ <bp:xref rdf:resource="uniprot:Q9UL17" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBX21_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBX21</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transcription factor TBLYM</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-box protein 21</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBLYM</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBET</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-cell-specific T-box transcription factor T-bet</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBX21_HUMAN Reviewed; 535 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_STAT5A_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5A</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:EvidenceCodeVocabulary rdf:ID="EV_evidence_code_ontology_ECO_0000021">
+ <bp:xref rdf:resource="#UX_evidence_code_ontology_ECO_0000021" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inferred from physical interaction</bp:term>
+</bp:EvidenceCodeVocabulary>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P40763">
+ <bp:entityFeature rdf:resource="biofactoid:5ac118dc-0862-4c18-a5d9-f6ba67754c97" />
+ <bp:entityFeature rdf:resource="biofactoid:02b1a6cf-5111-48ab-8990-6f4e5090efbb" />
+ <bp:entityFeature rdf:resource="biofactoid:28e3b8e1-971a-4bf0-a67b-466977f43067" />
+ <bp:entityFeature rdf:resource="biofactoid:a6efd43c-2491-4b6f-a582-d4244d7dd4ff" />
+ <bp:entityFeature rdf:resource="biofactoid:f9bc0e73-59ab-4c6b-a545-4355766b2d36" />
+ <bp:entityFeature rdf:resource="biofactoid:00c7300c-aea0-4029-b663-640cbbc70dcd" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P40763" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P40763" />
+ <bp:entityFeature rdf:resource="biofactoid:2fca89f3-ad76-42ca-be2b-df71add8cbe4" />
+ <bp:entityFeature rdf:resource="biofactoid:fe780623-e618-4fd7-a4a6-05e34477aa22" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription 3</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P40763" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_STAT3_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_6774_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acute-phase response factor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">APRF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3_HUMAN Reviewed; 770 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:Evidence rdf:about="pid:pid_11578">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11577">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Pathway rdf:about="pid:pid_8619">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of tyrosine phosphorylation of STAT protein</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of tyrosine phosphorylation of STAT protein</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_2625_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2625</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Protein rdf:about="pid:pid_8617">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFN-gamma</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005576" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P01579" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Stoichiometry rdf:about="pid:pid_11572">
+ <bp:physicalEntity rdf:resource="pid:pid_11557" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11571">
+ <bp:physicalEntity rdf:resource="pid:pid_5904" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11570">
+ <bp:physicalEntity rdf:resource="pid:pid_8623" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_Q16552">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:EvidenceCodeVocabulary rdf:ID="EV_evidence_code_ontology_ECO_0000015">
+ <bp:xref rdf:resource="#UX_evidence_code_ontology_ECO_0000015" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inferred from mutant phenotype</bp:term>
+</bp:EvidenceCodeVocabulary>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_6775_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6775</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:EvidenceCodeVocabulary rdf:ID="EV_evidence_code_ontology_ECO_0000012">
+ <bp:xref rdf:resource="#UX_evidence_code_ontology_ECO_0000012" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inferred from functional complementation</bp:term>
+</bp:EvidenceCodeVocabulary>
+
+<bp:Stoichiometry rdf:about="pid:pid_11569">
+ <bp:physicalEntity rdf:resource="pid:pid_11563" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11568">
+ <bp:physicalEntity rdf:resource="pid:pid_11560" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11567">
+ <bp:physicalEntity rdf:resource="pid:pid_11564" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Protein rdf:about="pid:pid_11564">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q8NEV9" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Protein rdf:about="pid:pid_11563">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">gp130</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P40189" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Protein rdf:about="pid:pid_11560">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27RA</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q6UWB1" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_6772_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6772</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:CellularLocationVocabulary rdf:ID="LV_go_GO_0005576">
+ <bp:xref rdf:resource="go:0005576" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">extracellular region</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">extracellular</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Extracellular</bp:term>
+</bp:CellularLocationVocabulary>
+
+<bp:UnificationXref rdf:about="uniprot:Q14213">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q14213</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:EvidenceCodeVocabulary rdf:ID="EV_evidence_code_ontology_ECO_0000002">
+ <bp:xref rdf:resource="#UX_evidence_code_ontology_ECO_0000002" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inferred from direct assay</bp:term>
+</bp:EvidenceCodeVocabulary>
+
+<bp:Protein rdf:about="pid:pid_11557">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBI3</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q14213" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL27_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Control rdf:about="pid:pid_11555">
+ <bp:controlled rdf:resource="pid:pid_11553" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:xref rdf:resource="pubmed:15494513" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11577" />
+ <bp:evidence rdf:resource="pid:pid_11578" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Pathway rdf:about="pid:pid_11553">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-helper 2 cell differentiation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-helper 2 cell differentiation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Pathway rdf:about="pid:pid_11552">
+ <bp:pathwayComponent rdf:resource="pid:pid_11714" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11609" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11606" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11776" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11772" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11668" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11770" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11665" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11664" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11555" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11612" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11767" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11765" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11762" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11760" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11656" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11653" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11759" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11758" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11757" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11754" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11753" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11649" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11751" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11783" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11748" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11747" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11743" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11638" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11740" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11635" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11790" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11632" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11579" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11692" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11691" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11690" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11659" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11739" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11580" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11771" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11628" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11624" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11621" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11793" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11689" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11688" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11687" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11686" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11685" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11682" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11727" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11724" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11618" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11616" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11789" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11613" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11786" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11648" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11782" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11781" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11780" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11673" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11719" />
+ <bp:pathwayComponent rdf:resource="pid:pid_11718" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27-mediated signaling events</bp:standardName>
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27-mediated signaling events</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">il27pathway</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="uniprot:P52630">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P52630</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P01375">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:PublicationXref rdf:about="pubmed:15944269">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15944269</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P52630">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription 2</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_6773_identity" />
+ <bp:xref rdf:resource="uniprot:P52630" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_STAT2_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p113</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2_HUMAN Reviewed; 851 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q8NEV9">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-27 subunit alpha</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL27_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_246778_identity" />
+ <bp:xref rdf:resource="uniprot:Q8NEV9" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27A_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p28</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27-A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-30</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27-A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL30</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27 subunit alpha</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27A_HUMAN Reviewed; 243 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3717_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3717</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P01137">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_11651">
+ <bp:physicalEntity rdf:resource="pid:pid_11650" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_STAT2_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_mod_MOD_00048">
+ <bp:xref rdf:resource="mod:00048" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">optyr</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O4&apos;-phospho-L-tyrosine</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:UnificationXref rdf:about="uniprot:Q14116">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q14116</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_mod_MOD_00046">
+ <bp:xref rdf:resource="mod:00046" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">opser</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O-phospho-L-serine</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P01579">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P01579" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P01579" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interferon gamma</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3458_identity" />
+ <bp:xref rdf:resource="uniprot:P01579" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IFNG_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFNG_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Immune interferon</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFN-gamma</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFNG</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFNG_HUMAN Reviewed; 166 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q14116">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-18</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3606_identity" />
+ <bp:xref rdf:resource="uniprot:Q14116" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL18_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL18_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-1 gamma</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-18</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interferon gamma-inducing factor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL18</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFN-gamma-inducing factor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-1 gamma</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Iboctadekin</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IGIF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1F4</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL18_HUMAN Reviewed; 193 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_inactive">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inactive</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P23458">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3569_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3569</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL17A_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17A</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="uniprot:P01137">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P01137</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="pid:pid_8941">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_JAK2_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3594_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3594</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_9466_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9466</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:PublicationXref rdf:about="pubmed:11672539">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11672539</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P01137">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P01137" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P01137" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transforming growth factor beta-1 proprotein</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P01137" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_TGFB1_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_7040_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB1_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LAP</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGF-beta-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transforming growth factor beta-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Latency-associated peptide</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFB1_HUMAN Reviewed; 390 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:TemplateReaction rdf:about="pid:pid_11628">
+ <bp:product rdf:resource="pid:pid_11629" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:evidence rdf:resource="pid:pid_11636" />
+ <bp:evidence rdf:resource="pid:pid_11637" />
+ <bp:participant rdf:resource="pid:pid_11629" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3458_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3458</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Complex rdf:about="pid:pid_8939">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4 (dimer)</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_8940" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0016021" />
+ <bp:component rdf:resource="pid:pid_8794" />
+ <bp:feature rdf:resource="pid:pid_8941" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:UnificationXref rdf:about="go:0005576">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005576</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">go</bp:db>
+</bp:UnificationXref>
+
+<bp:SequenceSite rdf:about="pid:pid_5910">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1008</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11635">
+ <bp:controlled rdf:resource="pid:pid_11628" />
+ <bp:controller rdf:resource="pid:pid_8900" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11636" />
+ <bp:evidence rdf:resource="pid:pid_11637" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:PublicationXref rdf:about="pubmed:15004160">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15004160</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P29460">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="pid:pid_5909">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_5910" />
+</bp:ModificationFeature>
+
+<bp:SequenceSite rdf:about="pid:pid_5908">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1007</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_5907">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_5908" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_5904">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Jak2</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_5907" />
+ <bp:feature rdf:resource="pid:pid_5909" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:O60674" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:SequenceSite rdf:about="pid:pid_7553">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1023</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_7552">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_7553" />
+</bp:ModificationFeature>
+
+<bp:SequenceSite rdf:about="pid:pid_7551">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1022</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_7550">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_7551" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_1816">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TNF-alpha</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005576" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P01375" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P05231">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P05231" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P05231" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-6</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL6_identity" />
+ <bp:xref rdf:resource="uniprot:P05231" />
+ <bp:xref rdf:resource="#RX_ncbigene_3569_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFNB2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IFN-beta-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">B-cell stimulatory factor 2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BSF-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interferon beta-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hybridoma growth factor</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTL differentiation factor</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL6_HUMAN Reviewed; 212 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:CellularLocationVocabulary rdf:ID="LV_go_GO_0016021">
+ <bp:xref rdf:resource="go:0016021" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">integral to membrane</bp:term>
+</bp:CellularLocationVocabulary>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL27RA_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27RA</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_10148_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10148</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Evidence rdf:about="pid:pid_11655">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_TBX21_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBX21</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="pid:pid_8903">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_8902">
+ <bp:physicalEntity rdf:resource="pid:pid_8901" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Protein rdf:about="pid:pid_8901">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_7799" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P42224" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Complex rdf:about="pid:pid_8900">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1 (dimer)</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_8902" />
+ <bp:component rdf:resource="pid:pid_8901" />
+ <bp:feature rdf:resource="pid:pid_8903" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:Catalysis rdf:about="pid:pid_11739">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:controlled rdf:resource="pid:pid_11727" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_7040_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7040</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Evidence rdf:about="pid:pid_11669">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3605_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3605</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_Q16552">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="pid:pid_11353">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:SequenceSite rdf:about="pid:pid_8796">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">693</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_8795">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_8796" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_8794">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_8795" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q14765" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Protein rdf:about="pid:pid_8791">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P40763" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3593_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3593</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL18_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL18</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="uniprot:P23458">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P23458</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:28e3b8e1-971a-4bf0-a67b-466977f43067">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P42224">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription 1-alpha/beta</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_6772_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_STAT1_identity" />
+ <bp:xref rdf:resource="uniprot:P42224" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transcription factor ISGF-3 components p91/p84</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1_HUMAN Reviewed; 750 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="pid:pid_8788">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005737" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q14765" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Control rdf:about="pid:pid_11748">
+ <bp:controlled rdf:resource="pid:pid_8871" />
+ <bp:controller rdf:resource="pid:pid_11633" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11749" />
+ <bp:evidence rdf:resource="pid:pid_11750" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3572_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3572</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Complex rdf:about="pid:pid_11693">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12/IL12R/TYK2/JAK2</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11705" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11704" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11703" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11702" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11707" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11706" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0016021" />
+ <bp:component rdf:resource="pid:pid_11697" />
+ <bp:component rdf:resource="pid:pid_8632" />
+ <bp:component rdf:resource="pid:pid_8623" />
+ <bp:component rdf:resource="pid:pid_5904" />
+ <bp:component rdf:resource="pid:pid_11694" />
+ <bp:component rdf:resource="pid:pid_8639" />
+ <bp:feature rdf:resource="pid:pid_11708" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:Pathway rdf:about="pid:pid_1861">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPKKK cascade</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPKKK cascade</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="mi:0356">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MI:0356</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mi</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_STAT3_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="ncbitaxon:9606">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9606</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbitaxon</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="uniprot:Q16552">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q16552</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="pid:pid_8764">
+ <bp:modificationType rdf:resource="#SMV_residue_modification__active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_8763">
+ <bp:physicalEntity rdf:resource="pid:pid_8760" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:SequenceSite rdf:about="pid:pid_8762">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">694</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:ModificationFeature rdf:about="pid:pid_8761">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_8762" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_8760">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5A</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_8761" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P42229" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q16552">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_Q16552" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_Q16552" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-17A</bp:standardName>
+ <bp:xref rdf:resource="uniprot:Q16552" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL17A_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_3605_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTLA8</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-17</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTLA-8</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytotoxic T-lymphocyte-associated antigen 8</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-17A</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL17_HUMAN Reviewed; 155 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P60568">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Complex rdf:about="pid:pid_8759">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5A (dimer)</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_8763" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005737" />
+ <bp:component rdf:resource="pid:pid_8760" />
+ <bp:feature rdf:resource="pid:pid_8764" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:Evidence rdf:about="pid:pid_11670">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:TemplateReaction rdf:about="pid:pid_11789">
+ <bp:product rdf:resource="pid:pid_11560" />
+ <bp:xref rdf:resource="pubmed:15944269" />
+ <bp:evidence rdf:resource="pid:pid_11796" />
+ <bp:evidence rdf:resource="pid:pid_11795" />
+ <bp:participant rdf:resource="pid:pid_11560" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:SequenceSite rdf:about="pid:pid_7802">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">727</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:UnificationXref rdf:about="go:0005737">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005737</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">go</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="uniprot:Q8NEV9">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q8NEV9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P01584">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_8176">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Jak2</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:O60674" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK2</bp:name>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="pid:pid_8626">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00048" />
+ <bp:featureLocation rdf:resource="pid:pid_7752" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_8756">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT5A</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P42229" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P23458">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_6774_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6774</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P01579">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="pid:pid_11697">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12Rbeta2</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_11700" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q99665" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:Protein rdf:about="pid:pid_11694">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12A</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P29459" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL12B_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12B</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11692">
+ <bp:controlled rdf:resource="pid:pid_11688" />
+ <bp:controller rdf:resource="pid:pid_11693" />
+ <bp:xref rdf:resource="pubmed:11672539" />
+ <bp:xref rdf:resource="pubmed:15356135" />
+ <bp:xref rdf:resource="pubmed:11057672" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11713" />
+ <bp:evidence rdf:resource="pid:pid_11712" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11691">
+ <bp:controlled rdf:resource="pid:pid_11688" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:11672539" />
+ <bp:xref rdf:resource="pubmed:15356135" />
+ <bp:xref rdf:resource="pubmed:11057672" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11713" />
+ <bp:evidence rdf:resource="pid:pid_11712" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11690">
+ <bp:controlled rdf:resource="pid:pid_11688" />
+ <bp:controller rdf:resource="pid:pid_11633" />
+ <bp:xref rdf:resource="pubmed:11672539" />
+ <bp:xref rdf:resource="pubmed:15356135" />
+ <bp:xref rdf:resource="pubmed:11057672" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11713" />
+ <bp:evidence rdf:resource="pid:pid_11712" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Provenance rdf:ID="pid">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NCI Pathway Interaction Database: Pathway</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pid</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Source type: BIOPAX, NCI Curated Human Pathways from PID (final); 27-Jul-2015</bp:comment>
+</bp:Provenance>
+
+<bp:Control rdf:about="pid:pid_11689">
+ <bp:controlled rdf:resource="pid:pid_11688" />
+ <bp:controller rdf:resource="pid:pid_8619" />
+ <bp:xref rdf:resource="pubmed:11672539" />
+ <bp:xref rdf:resource="pubmed:15356135" />
+ <bp:xref rdf:resource="pubmed:11057672" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11713" />
+ <bp:evidence rdf:resource="pid:pid_11712" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReaction rdf:about="pid:pid_11688">
+ <bp:product rdf:resource="pid:pid_8617" />
+ <bp:xref rdf:resource="pubmed:11672539" />
+ <bp:xref rdf:resource="pubmed:15356135" />
+ <bp:xref rdf:resource="pubmed:11057672" />
+ <bp:xref rdf:resource="pubmed:12121660" />
+ <bp:evidence rdf:resource="pid:pid_11713" />
+ <bp:evidence rdf:resource="pid:pid_11712" />
+ <bp:participant rdf:resource="pid:pid_8617" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11687">
+ <bp:controlled rdf:resource="pid:pid_11685" />
+ <bp:controller rdf:resource="pid:pid_11617" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Control rdf:about="pid:pid_11686">
+ <bp:controlled rdf:resource="pid:pid_11685" />
+ <bp:controller rdf:resource="pid:pid_11614" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReaction rdf:about="pid:pid_11685">
+ <bp:product rdf:resource="pid:pid_1816" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:participant rdf:resource="pid:pid_1816" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Evidence rdf:about="pid:pid_11684">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11683">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11682">
+ <bp:controlled rdf:resource="pid:pid_11680" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:15494513" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11684" />
+ <bp:evidence rdf:resource="pid:pid_11683" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Pathway rdf:about="pid:pid_11680">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mast cell activation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mast cell activation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Protein rdf:about="pid:pid_8721">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL1 beta</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P01584" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="uniprot:Q14765">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q14765</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Evidence rdf:about="pid:pid_11679">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11678">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11673">
+ <bp:controlled rdf:resource="pid:pid_11671" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14614853" />
+ <bp:xref rdf:resource="pubmed:14614852" />
+ <bp:xref rdf:resource="pubmed:15004160" />
+ <bp:xref rdf:resource="pubmed:15749890" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11679" />
+ <bp:evidence rdf:resource="pid:pid_11678" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Pathway rdf:about="pid:pid_11671">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytokine production during immune response</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytokine production during immune response</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q14765">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription 4</bp:standardName>
+ <bp:xref rdf:resource="uniprot:Q14765" />
+ <bp:xref rdf:resource="#RX_ncbigene_6775_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_STAT4_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4_HUMAN Reviewed; 748 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_3716_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3716</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P29460">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL12RB2_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12RB2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_STAT4_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT4</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Catalysis rdf:about="pid:pid_11668">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11669" />
+ <bp:evidence rdf:resource="pid:pid_11670" />
+ <bp:controlled rdf:resource="pid:pid_11665" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11667">
+ <bp:physicalEntity rdf:resource="pid:pid_8861" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11666">
+ <bp:physicalEntity rdf:resource="pid:pid_8791" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11665">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11667" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11666" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11669" />
+ <bp:evidence rdf:resource="pid:pid_11670" />
+ <bp:right rdf:resource="pid:pid_8861" />
+ <bp:left rdf:resource="pid:pid_8791" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Control rdf:about="pid:pid_11664">
+ <bp:controlled rdf:resource="pid:pid_11662" />
+ <bp:controller rdf:resource="pid:pid_8861" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Pathway rdf:about="pid:pid_11662">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of mast cell cytokine production</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">positive regulation of mast cell cytokine production</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Evidence rdf:about="pid:pid_11661">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11660">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P23458">
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P23458" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P23458" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tyrosine-protein kinase JAK1</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3716_identity" />
+ <bp:xref rdf:resource="uniprot:P23458" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_JAK1_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Janus kinase 1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2.7.10.2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK-1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1B</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">JAK1_HUMAN Reviewed; 1154 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_STAT1_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Catalysis rdf:about="pid:pid_11659">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11661" />
+ <bp:evidence rdf:resource="pid:pid_11660" />
+ <bp:controlled rdf:resource="pid:pid_11656" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11658">
+ <bp:physicalEntity rdf:resource="pid:pid_8759" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11657">
+ <bp:physicalEntity rdf:resource="pid:pid_8756" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11656">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11658" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11657" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11661" />
+ <bp:evidence rdf:resource="pid:pid_11660" />
+ <bp:right rdf:resource="pid:pid_8759" />
+ <bp:left rdf:resource="pid:pid_8756" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:UnificationXref rdf:about="uniprot:Q99665">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q99665</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Evidence rdf:about="pid:pid_11654">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Catalysis rdf:about="pid:pid_11653">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11655" />
+ <bp:evidence rdf:resource="pid:pid_11654" />
+ <bp:controlled rdf:resource="pid:pid_11649" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11652">
+ <bp:physicalEntity rdf:resource="pid:pid_11617" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:PublicationXref rdf:about="pubmed:14764690">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vaisberg, E</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pflanz, S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kastelein, RA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hibbert, L</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bazan, JF</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mattson, J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rosales, R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">de Waal Malefyt, R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phillips, JH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">McClanahan, TK</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14764690</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Immunol 172:2225-31</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WSX-1 and glycoprotein 130 constitute a signal-transducing receptor for IL-27</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:Complex rdf:about="pid:pid_11650">
+ <bp:memberPhysicalEntity rdf:resource="pid:pid_8861" />
+ <bp:memberPhysicalEntity rdf:resource="pid:pid_8900" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1-3 (dimer)</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q99665">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-12 receptor subunit beta-2</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_3595_identity" />
+ <bp:xref rdf:resource="uniprot:Q99665" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL12RB2_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I12R2_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12 receptor subunit beta-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12RB2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12RB2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12R-beta-2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12R subunit beta-2</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">I12R2_HUMAN Reviewed; 862 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="pid:pid_11649">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11652" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11651" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11655" />
+ <bp:evidence rdf:resource="pid:pid_11654" />
+ <bp:right rdf:resource="pid:pid_11617" />
+ <bp:left rdf:resource="pid:pid_11650" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:BiochemicalReaction>
+
+<bp:Control rdf:about="pid:pid_11648">
+ <bp:controlled rdf:resource="pid:pid_1861" />
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Evidence rdf:about="pid:pid_11647">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000012" />
+</bp:Evidence>
+
+<bp:Stoichiometry rdf:about="pid:pid_11646">
+ <bp:physicalEntity rdf:resource="pid:pid_11556" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11645">
+ <bp:physicalEntity rdf:resource="pid:pid_11581" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11644">
+ <bp:physicalEntity rdf:resource="pid:pid_11639" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11643">
+ <bp:physicalEntity rdf:resource="pid:pid_8176" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11642">
+ <bp:physicalEntity rdf:resource="pid:pid_11563" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11641">
+ <bp:physicalEntity rdf:resource="pid:pid_11560" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="pid:pid_11640">
+ <bp:physicalEntity rdf:resource="pid:pid_8660" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:UnificationXref rdf:about="uniprot:P29460">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P29460</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Complex rdf:about="pid:pid_11639">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27R/JAK2/TYK2</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="pid:pid_11643" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11642" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11641" />
+ <bp:componentStoichiometry rdf:resource="pid:pid_11640" />
+ <bp:component rdf:resource="pid:pid_8660" />
+ <bp:component rdf:resource="pid:pid_11563" />
+ <bp:component rdf:resource="pid:pid_8176" />
+ <bp:component rdf:resource="pid:pid_11560" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11638">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11646" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11645" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11644" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:evidence rdf:resource="pid:pid_11647" />
+ <bp:right rdf:resource="pid:pid_11556" />
+ <bp:spontaneous rdf:datatype = "http://www.w3.org/2001/XMLSchema#boolean">true</bp:spontaneous>
+ <bp:left rdf:resource="pid:pid_11639" />
+ <bp:left rdf:resource="pid:pid_11581" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Evidence rdf:about="pid:pid_11637">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11636">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:SequenceSite rdf:about="pid:pid_7800">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">701</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:Pathway rdf:about="pid:pid_11633">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD4-positive alpha-beta T cell lineage commitment</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD4-positive alpha-beta T cell lineage commitment</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Control rdf:about="pid:pid_11632">
+ <bp:controlled rdf:resource="pid:pid_11628" />
+ <bp:controller rdf:resource="pid:pid_11633" />
+ <bp:xref rdf:resource="pubmed:12734330" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11636" />
+ <bp:evidence rdf:resource="pid:pid_11637" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:UnificationXref rdf:about="uniprot:P29459">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P29459</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P29460">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P29460" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P29460" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-12 subunit beta</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P29460" />
+ <bp:xref rdf:resource="#RX_ncbigene_3593_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL12B_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12B_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NKSF2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12B</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytotoxic lymphocyte maturation factor 40 kDa subunit</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CLMF p40</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12B</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NK cell stimulatory factor chain 2</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12 subunit p40</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12B_HUMAN Reviewed; 328 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_IL2_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_GATA3_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GATA3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:Protein rdf:about="pid:pid_11629">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T-bet</bp:displayName>
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q9UL17" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_7297_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7297</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Evidence rdf:about="pid:pid_11627">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11626">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Control rdf:about="pid:pid_11624">
+ <bp:controlled rdf:resource="pid:pid_8871" />
+ <bp:controller rdf:resource="pid:pid_8843" />
+ <bp:xref rdf:resource="pubmed:16906167" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:evidence rdf:resource="pid:pid_11627" />
+ <bp:evidence rdf:resource="pid:pid_11626" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:Evidence rdf:about="pid:pid_11623">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11622">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:Catalysis rdf:about="pid:pid_11621">
+ <bp:controller rdf:resource="pid:pid_11556" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11623" />
+ <bp:evidence rdf:resource="pid:pid_11622" />
+ <bp:controlled rdf:resource="pid:pid_11618" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Catalysis>
+
+<bp:Stoichiometry rdf:about="pid:pid_11620">
+ <bp:physicalEntity rdf:resource="pid:pid_8939" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P29459">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-12 subunit alpha</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P29459" />
+ <bp:xref rdf:resource="#RX_ncbigene_3592_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_IL12A_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12A_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NKSF1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CLMF p35</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NK cell stimulatory factor chain 1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytotoxic lymphocyte maturation factor 35 kDa subunit</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-12 subunit p35</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL12A_HUMAN Reviewed; 219 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_EBI3_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBI3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q14213">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interleukin-27 subunit beta</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_10148_identity" />
+ <bp:xref rdf:resource="uniprot:Q14213" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_EBI3_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27B_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBV-induced gene 3 protein</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27 subunit beta</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Epstein-Barr virus-induced gene 3 protein</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27B</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBI3</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-27B</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL27B_HUMAN Reviewed; 229 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P29597">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Stoichiometry rdf:about="pid:pid_11619">
+ <bp:physicalEntity rdf:resource="pid:pid_8788" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">2.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:ComplexAssembly rdf:about="pid:pid_11618">
+ <bp:participantStoichiometry rdf:resource="pid:pid_11619" />
+ <bp:participantStoichiometry rdf:resource="pid:pid_11620" />
+ <bp:xref rdf:resource="pubmed:14657353" />
+ <bp:evidence rdf:resource="pid:pid_11623" />
+ <bp:evidence rdf:resource="pid:pid_11622" />
+ <bp:right rdf:resource="pid:pid_8939" />
+ <bp:left rdf:resource="pid:pid_8788" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:ComplexAssembly>
+
+<bp:Complex rdf:about="pid:pid_11617">
+ <bp:memberPhysicalEntity rdf:resource="pid:pid_8861" />
+ <bp:memberPhysicalEntity rdf:resource="pid:pid_8900" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT1-3 (dimer)</bp:displayName>
+ <bp:feature rdf:resource="pid:pid_11353" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Complex>
+
+<bp:TemplateReactionRegulation rdf:about="pid:pid_11616">
+ <bp:controlled rdf:resource="pid:pid_11612" />
+ <bp:controller rdf:resource="pid:pid_11617" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReactionRegulation>
+
+<bp:Pathway rdf:about="pid:pid_11614">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">monocyte differentiation</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">monocyte differentiation</bp:displayName>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Pathway>
+
+<bp:Control rdf:about="pid:pid_11613">
+ <bp:controlled rdf:resource="pid:pid_11612" />
+ <bp:controller rdf:resource="pid:pid_11614" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:dataSource rdf:resource="#pid" />
+</bp:Control>
+
+<bp:TemplateReaction rdf:about="pid:pid_11612">
+ <bp:product rdf:resource="pid:pid_8721" />
+ <bp:xref rdf:resource="pubmed:14764690" />
+ <bp:participant rdf:resource="pid:pid_8721" />
+ <bp:dataSource rdf:resource="#pid" />
+</bp:TemplateReaction>
+
+<bp:Evidence rdf:about="pid:pid_11611">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000201" />
+</bp:Evidence>
+
+<bp:Evidence rdf:about="pid:pid_11610">
+ <bp:evidenceCode rdf:resource="#EV_evidence_code_ontology_ECO_0000015" />
+</bp:Evidence>
+
+<bp:UnificationXref rdf:ID="UX_evidence_code_ontology_ECO_0000201">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ECO:0000201</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">evidence code ontology</bp:db>
+</bp:UnificationXref>
+</rdf:RDF>

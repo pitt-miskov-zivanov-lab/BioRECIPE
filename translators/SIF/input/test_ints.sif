@@ -1,0 +1,3 @@
+nodeA	pp	nodeB
+nodeC	pp	nodeA
+nodeD	pp	nodeE	nodeF	nodeB

@@ -30,6 +30,11 @@ biorecipe_int_cols  =   ['Regulator Name', 'Regulator Type', 'Regulator Subtype'
 						 'Cell Line', 'Cell Type', 'Tissue Type', 'Organism',
 						 'Score', 'Source', 'Statements', 'Paper IDs']
 
+INTERACTION_ATTR = ['Sign', 'Connection Type', 'Mechanism', 'Site']
+CONTEXT_ATTR = ['Cell Line', 'Cell Type', 'Tissue Type', 'Organism']
+PROVENANCE_ATTR = ['Source', 'Statements', 'Paper IDs']
+
+
 # define regex for valid characters in variable names
 _VALID_CHARS = r'a-zA-Z0-9\_'
 
@@ -373,6 +378,8 @@ def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
         model.drop([''],axis=0,inplace=True)
 
     return model
+
+
 
 def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
 

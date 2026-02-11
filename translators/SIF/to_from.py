@@ -14,6 +14,7 @@ import argparse
 import pandas as pd
 import re
 from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
+from tqdm import tqdm
 
 class SIF():
 
@@ -102,23 +103,29 @@ class SIF():
         Translate SIF to BioRECIPE interaction lists
         """
 
-        df = pd.read_csv(input_file, sep="\t", header=None, keep_default_na=False)
+        df = pd.read_csv(input_file, sep="\s+", header=None)
+        df.fillna('', inplace=True)
         output_df = pd.DataFrame(columns=biorecipe_int_cols)
 
         row = 0
-        for i in range(len(df)):
+        pbar = tqdm(range(len(df)), desc="SIF2BioRECIPE")
+        for i in pbar:
             s = df.loc[i, 0]
-            t = df.loc[i, 1]
-            sign = df.loc[i, 2]
-            type = df.loc[i, 3]
+            sign = df.loc[i, 1]
+            ts = []
+            for k in range(2, len(df.columns)):
+                if df.loc[i, k] != '':
+                    ts.append(str(df.loc[i, k]))
+            t = ','.join(ts)
+            # type = df.loc[i, 3] if len(df.columns) > 3 else ''
 
             if not t:
                 continue
             elif sign:
                 output_df.loc[row, 'Regulator Name'] = s
                 output_df.loc[row, 'Regulated Name'] = t
-                output_df.loc[row, 'Regulated Type'] = type
-                output_df.loc[row, 'Sign'] = sign.lower()
+                # output_df.loc[row, 'Regulated Type'] = ''
+                output_df.loc[row, 'Mechanism'] = sign.lower()
                 row += 1
             else:
                 raise ValueError("Empty value for relationType")

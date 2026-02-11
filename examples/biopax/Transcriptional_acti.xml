@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+ xml:base="pc14:">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Pathway rdf:about="http://bioregistry.io/reactome:R-HSA-69895">
+ <bp:pathwayOrder rdf:resource="reactome:PathwayStep6977" />
+ <bp:pathwayOrder rdf:resource="reactome:PathwayStep6976" />
+ <bp:pathwayOrder rdf:resource="reactome:PathwayStep6975" />
+ <bp:pathwayOrder rdf:resource="reactome:PathwayStep6979" />
+ <bp:pathwayOrder rdf:resource="reactome:PathwayStep6978" />
+ <bp:pathwayComponent rdf:resource="http://bioregistry.io/reactome:R-HSA-6803411" />
+ <bp:pathwayComponent rdf:resource="http://bioregistry.io/reactome:R-HSA-6803719" />
+ <bp:pathwayComponent rdf:resource="http://bioregistry.io/reactome:R-HSA-6803801" />
+ <bp:pathwayComponent rdf:resource="http://bioregistry.io/reactome:R-HSA-6803403" />
+ <bp:pathwayComponent rdf:resource="http://bioregistry.io/reactome:R-HSA-6803388" />
+ <bp:xref rdf:resource="pubmed:8242752" />
+ <bp:xref rdf:resource="reactome:R-HSA-69895" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transcriptional activation of cell cycle inhibitor p21</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Both p53-independent and p53-dependent mechanisms of induction of p21 mRNA have been demonstrated. p21 is transcriptionally activated by p53 after DNA damage (el-Deiry et al., 1993).</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="mod:00046">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00046</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mod</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P57723">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Poly(rC)-binding protein 4</bp:standardName>
+ <bp:xref rdf:resource="uniprot:P57723" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_PCBP4_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_57060_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Alpha-CP4</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4_HUMAN Reviewed; 403 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_phosphorylated">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">phosphorylated</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:PublicationXref rdf:about="pubmed:17719541">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2007</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Aaronson, Stuart A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zhao, Bo</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bernstein, Alan</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Das, Sanjeev</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kimura, Yuki</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lee, Sam W</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Raj, Lakshmi</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17719541</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cell 130:624-37</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hzf Determines cell survival upon genotoxic stress by modulating p53 transactivation</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_PCBP4_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="mi:0356">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MI:0356</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mi</bp:db>
+</bp:UnificationXref>
+
+<bp:SequenceInterval rdf:about="reactome:SequenceInterval2147">
+ <bp:sequenceIntervalEnd rdf:resource="reactome:SequenceSite4566" />
+ <bp:sequenceIntervalBegin rdf:resource="reactome:SequenceSite4565" />
+</bp:SequenceInterval>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_mod_MOD_00046">
+ <bp:xref rdf:resource="mod:00046" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">opser</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O-phospho-L-serine</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:Rna rdf:about="reactome:Rna135">
+ <bp:xref rdf:resource="reactome:R-HSA-6803386" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p21 mRNA</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005829" />
+ <bp:entityReference rdf:resource="reactome:RnaReference81" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A mRNA</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803386</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Rna>
+
+<bp:RnaReference rdf:about="reactome:RnaReference81">
+ <bp:xref rdf:resource="ensembl:ENST00000244741" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSEMBL:ENST00000244741 CDKN1A</bp:name>
+</bp:RnaReference>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite25706">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">164</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite25705">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite25704">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">403</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite25703">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:UnificationXref rdf:about="ensembl:ENSG00000124762">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000124762</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="http://bioregistry.io/reactome:R-HSA-6803801">
+ <bp:xref rdf:resource="pubmed:8242752" />
+ <bp:xref rdf:resource="pubmed:14580351" />
+ <bp:xref rdf:resource="reactome:R-HSA-6803801" />
+ <bp:xref rdf:resource="pubmed:17719541" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53 in complex with ZNF385A binds the CDKN1A promoter</bp:displayName>
+ <bp:right rdf:resource="reactome:Complex5728" />
+ <bp:left rdf:resource="reactome:Complex5727" />
+ <bp:left rdf:resource="reactome:Dna202" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Inga, Alberto, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, M, 2013-07-15</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Zaccara, Sara, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Samarajiwa, Shamith, 2013-09-03</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53 (p53) binds at least two p53 response elements in the promoter of the CDKN1A (p21, WAF1) gene (El-Deiry et al. 1993, Espinosa et al. 2003). Formation of the complex of TP53 and ZNF385A (HZF) facilitates binding of TP53 to the CDKN1A promoter (Das et al. 2007).</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="reactome:Protein2513">
+ <bp:xref rdf:resource="reactome:R-HSA-69683" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p-S15,S20-TP53</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:feature rdf:resource="reactome:ModificationFeature296" />
+ <bp:feature rdf:resource="reactome:ModificationFeature295" />
+ <bp:feature rdf:resource="reactome:FragmentFeature2147" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P04637" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 69683</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Protein>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_1026_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1026</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:PathwayStep rdf:about="reactome:PathwayStep6975">
+ <bp:nextStep rdf:resource="reactome:PathwayStep6976" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803719" />
+</bp:PathwayStep>
+
+<bp:PathwayStep rdf:about="reactome:PathwayStep6979">
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803416" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803411" />
+</bp:PathwayStep>
+
+<bp:PathwayStep rdf:about="reactome:PathwayStep6978">
+ <bp:nextStep rdf:resource="reactome:PathwayStep6979" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803403" />
+</bp:PathwayStep>
+
+<bp:PathwayStep rdf:about="reactome:PathwayStep6977">
+ <bp:nextStep rdf:resource="reactome:PathwayStep6979" />
+ <bp:nextStep rdf:resource="reactome:PathwayStep6978" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803387" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803388" />
+</bp:PathwayStep>
+
+<bp:PathwayStep rdf:about="reactome:PathwayStep6976">
+ <bp:nextStep rdf:resource="reactome:PathwayStep6977" />
+ <bp:stepProcess rdf:resource="http://bioregistry.io/reactome:R-HSA-6803801" />
+</bp:PathwayStep>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803719">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803719.3</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803719</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803718">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803718.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803718</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_CDKN1A_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_57060_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">57060</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="go:0005829">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005829</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">go</bp:db>
+</bp:UnificationXref>
+
+<bp:CellularLocationVocabulary rdf:ID="LV_go_GO_0005829">
+ <bp:xref rdf:resource="go:0005829" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cytosol</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytosol</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYTOSOL</bp:term>
+</bp:CellularLocationVocabulary>
+
+<bp:ModificationFeature rdf:about="biofactoid:2e725768-0d67-40c8-817c-c769d6b58172">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="biofactoid:d38840cd-18bc-44f8-8b54-8bed7baaa2d6">
+ <bp:modificationType rdf:resource="#SMV_phosphorylated" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="biofactoid:863fd1a2-c5dd-43f3-a9d1-0d94c2495adb">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803387">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803387.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803387</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803386">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803386.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803386</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="pubmed:8242752">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1993</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lin, D</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Parsons, R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Velculescu, VE</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tokino, T</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kinzler, KW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vogelstein, B</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mercer, WE</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Trent, JM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Levy, DB</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">el-Deiry, WS</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">8242752</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cell 75:817-25</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAF1, a potential mediator of p53 tumor suppression.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803382">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803382.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803382</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:d00c2d35-fc6a-4d10-bcdf-69249d8d504f">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:PublicationXref rdf:about="pubmed:14580351">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2003</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Espinosa, Joaquín M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Emerson, Beverly M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Verdun, Ramiro E</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14580351</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mol. Cell 12:1015-27</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p53 functions through stress- and promoter-specific recruitment of transcription initiation components before and after DNA damage</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-69683">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69683.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-69683</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-182585">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-182585.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-182585</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803421">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803421.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803421</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="reactome:Protein13465">
+ <bp:xref rdf:resource="reactome:R-HSA-6803382" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005829" />
+ <bp:feature rdf:resource="reactome:FragmentFeature11986" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P57723" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MCG10</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Poly(rC)-binding protein 4</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Alpha-CP4</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803382</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P38936">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P38936">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P38936</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-3222171">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3222171.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-3222171</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:Dna rdf:about="reactome:Dna202">
+ <bp:xref rdf:resource="reactome:R-HSA-3786256" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p21 gene</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:entityReference rdf:resource="reactome:DnaReference183" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A gene</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAF1 gene</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIP1 gene</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 3786256</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Dna>
+
+<bp:Complex rdf:about="reactome:Complex5729">
+ <bp:xref rdf:resource="reactome:R-HSA-6803405" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4:CDKN1A mRNA</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14468" />
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14467" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005829" />
+ <bp:component rdf:resource="reactome:Protein13465" />
+ <bp:component rdf:resource="reactome:Rna135" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803405</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Complex>
+
+<bp:Complex rdf:about="reactome:Complex5728">
+ <bp:xref rdf:resource="reactome:R-HSA-6803802" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p-S15,S20-TP53 Tetramer:ZNF385A:CDKN1A Gene</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14466" />
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14465" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:component rdf:resource="reactome:Complex5727" />
+ <bp:component rdf:resource="reactome:Dna202" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803802</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Complex>
+
+<bp:Complex rdf:about="reactome:Complex5727">
+ <bp:xref rdf:resource="reactome:R-HSA-6803718" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p-S15,S20-TP53 Tetramer:ZNF385A</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14463" />
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry14464" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:component rdf:resource="reactome:Protein13464" />
+ <bp:component rdf:resource="reactome:Complex1005" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803718</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Complex>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_ZNF385A_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385A</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-69895">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69895.5</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-69895</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="http://bioregistry.io/reactome:R-HSA-6803719">
+ <bp:xref rdf:resource="reactome:R-HSA-6803719" />
+ <bp:xref rdf:resource="pubmed:17719541" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53 binds ZNF385A</bp:displayName>
+ <bp:right rdf:resource="reactome:Complex5727" />
+ <bp:left rdf:resource="reactome:Protein13464" />
+ <bp:left rdf:resource="reactome:Complex1005" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Inga, Alberto, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385A (HZF) forms a complex with TP53 (p53), interacting with the DNA binding domain of TP53. The complex of TP53 and ZNF385A associates with p53 response elements of cell cycle arrest genes, such as CDKN1A (p21) and stimulates their transcription. Under prolonged stress, ZNF385A undergoes ubiquitination and proteasome-mediated degradation, which coincides with expression of TP53-regulated pro-apoptotic genes (Das et al. 2007).</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Zaccara, Sara, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803416">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803416.2</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803416</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803411">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803411.6</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803411</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_25946_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">25946</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_inactive">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">inactive</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:Protein rdf:about="reactome:Protein13466">
+ <bp:xref rdf:resource="reactome:R-HSA-182585" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p21</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:feature rdf:resource="reactome:FragmentFeature11987" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:P38936" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 182585</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Protein>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P38936">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="reactome:Protein13464">
+ <bp:xref rdf:resource="reactome:R-HSA-6803421" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HZF</bp:displayName>
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:entityReference rdf:resource="http://bioregistry.io/uniprot:Q96PM9" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zinc finger protein 385A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Retinal zinc finger protein</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hematopoietic zinc finger protein</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 6803421</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Protein>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_ubiquitinated">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ubiquitinated</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803405">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803405.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803405</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803403">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803403.3</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803403</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:FragmentFeature rdf:about="reactome:FragmentFeature11987">
+ <bp:featureLocation rdf:resource="reactome:SequenceInterval11987" />
+</bp:FragmentFeature>
+
+<bp:UnificationXref rdf:about="ncbitaxon:9606">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9606</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbitaxon</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="uniprot:Q96PM9">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q96PM9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:DnaReference rdf:about="reactome:DnaReference183">
+ <bp:xref rdf:resource="ensembl:ENSG00000124762" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIP1</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSEMBL:ENSG00000124762 CDKN1A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAP20</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PIC1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDI1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MDA6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAF1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A</bp:name>
+</bp:DnaReference>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_inactive_P04637">
+ <bp:modificationType rdf:resource="#SMV_inactive" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="uniprot:P04637">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P04637</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="http://bioregistry.io/reactome:R-HSA-6803388">
+ <bp:xref rdf:resource="reactome:R-HSA-6803388" />
+ <bp:xref rdf:resource="pubmed:8242752" />
+ <bp:xref rdf:resource="pubmed:17719541" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53 stimulates CDKN1A (p21) transcription</bp:displayName>
+ <bp:right rdf:resource="reactome:Rna135" />
+ <bp:left rdf:resource="reactome:Dna202" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Inga, Alberto, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Binding of TP53 (p53) to its response elements in the promoter of the CDKN1A (p21) gene stimulates CDKN1A transcription (El-Deiry et al. 1993). Binding of ZNF385A (HZF) to the DNA binding domain of TP53 facilitates CDKN1A induction and the consequent cell cycle arrest (Das et al. 2007).</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Zaccara, Sara, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Matthews, L, 2006-09-29 13:54:26</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Coqueret, O, 2006-10-06 08:59:06</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:Control rdf:about="http://bioregistry.io/reactome:R-HSA-6803387">
+ <bp:controlled rdf:resource="http://bioregistry.io/reactome:R-HSA-6803388" />
+ <bp:controller rdf:resource="reactome:Complex5728" />
+ <bp:xref rdf:resource="reactome:R-HSA-6803387" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTIVATION</bp:controlType>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">activeUnit: #Complex5727</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Control>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite4566">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">393</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite4565">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite4564">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">15</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:SequenceSite rdf:about="reactome:SequenceSite4563">
+ <bp:sequencePosition rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">20</bp:sequencePosition>
+ <bp:positionStatus rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EQUAL</bp:positionStatus>
+</bp:SequenceSite>
+
+<bp:PublicationXref rdf:about="pubmed:20817677">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2011</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cho, Seong Jun</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zhang, Jin</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Scoumanne, Ariane</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chen, Xinbin</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">20817677</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res. 39:213-24</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The cyclin-dependent kinase inhibitor p21 is regulated by RNA-binding protein PCBP4 via mRNA stability</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pubmed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:Q96PM9">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zinc finger protein 385A</bp:standardName>
+ <bp:xref rdf:resource="#RX_hgnc_symbol_ZNF385A_identity" />
+ <bp:xref rdf:resource="#RX_ncbigene_25946_identity" />
+ <bp:xref rdf:resource="uniprot:Q96PM9" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Z385A_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RZF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HZF</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Retinal zinc finger protein</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZNF385A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hematopoietic zinc finger protein</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Z385A_HUMAN Reviewed; 386 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:Provenance rdf:ID="reactome">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Source http://www.reactome.org/download/current/biopax.zip type: BIOPAX, Reactome v88 (only &apos;Homo_sapiens.owl&apos;) 20-Mar-2024</bp:comment>
+</bp:Provenance>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P04637">
+ <bp:entityFeature rdf:resource="biofactoid:2e725768-0d67-40c8-817c-c769d6b58172" />
+ <bp:entityFeature rdf:resource="biofactoid:94af6558-0d4f-47d5-a5a6-2af13d95a287" />
+ <bp:entityFeature rdf:resource="biofactoid:863fd1a2-c5dd-43f3-a9d1-0d94c2495adb" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P04637" />
+ <bp:entityFeature rdf:resource="biofactoid:8ed2fad6-b1b1-46b4-a350-320f2e13337b" />
+ <bp:entityFeature rdf:resource="biofactoid:d00c2d35-fc6a-4d10-bcdf-69249d8d504f" />
+ <bp:entityFeature rdf:resource="biofactoid:d38840cd-18bc-44f8-8b54-8bed7baaa2d6" />
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P04637" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular tumor antigen p53</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_7157_identity" />
+ <bp:xref rdf:resource="uniprot:P04637" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_TP53_identity" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P53_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P53</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tumor suppressor p53</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphoprotein p53</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Antigen NY-CO-13</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P53_HUMAN Reviewed; 393 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="http://bioregistry.io/uniprot:P38936">
+ <bp:entityFeature rdf:resource="drugbank:mod_inactive_P38936" />
+ <bp:entityFeature rdf:resource="drugbank:mod_active_P38936" />
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyclin-dependent kinase inhibitor 1</bp:standardName>
+ <bp:xref rdf:resource="#RX_ncbigene_1026_identity" />
+ <bp:xref rdf:resource="#RX_hgnc_symbol_CDKN1A_identity" />
+ <bp:xref rdf:resource="uniprot:P38936" />
+ <bp:organism rdf:resource="http://bioregistry.io/ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDN1A_HUMAN</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PIC1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1A</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIP1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAP20</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDKN1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDK-interacting protein 1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDI1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Melanoma differentiation-associated protein 6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAF1</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MDA-6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MDA6</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p21</bp:name>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDN1A_HUMAN Reviewed; 164 AA.</bp:comment>
+</bp:ProteinReference>
+
+<bp:ModificationFeature rdf:about="drugbank:mod_active_P04637">
+ <bp:modificationType rdf:resource="#SMV_active" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="biofactoid:8ed2fad6-b1b1-46b4-a350-320f2e13337b">
+ <bp:modificationType rdf:resource="#SMV_ubiquitinated" />
+</bp:ModificationFeature>
+
+<bp:Complex rdf:about="reactome:Complex1005">
+ <bp:xref rdf:resource="reactome:R-HSA-3222171" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">p-S15,S20-TP53 Tetramer</bp:displayName>
+ <bp:componentStoichiometry rdf:resource="reactome:Stoichiometry2447" />
+ <bp:cellularLocation rdf:resource="#LV_go_GO_0005654" />
+ <bp:component rdf:resource="reactome:Protein2513" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome DB_ID: 3222171</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Complex>
+
+<bp:Control rdf:about="http://bioregistry.io/reactome:R-HSA-6803416">
+ <bp:controlled rdf:resource="http://bioregistry.io/reactome:R-HSA-6803411" />
+ <bp:controller rdf:resource="reactome:Complex5729" />
+ <bp:xref rdf:resource="reactome:R-HSA-6803416" />
+ <bp:controlType rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHIBITION</bp:controlType>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">activeUnit: #Protein13465</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+</bp:Control>
+
+<bp:UnificationXref rdf:about="ensembl:ENST00000244741">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENST00000244741</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="biofactoid:94af6558-0d4f-47d5-a5a6-2af13d95a287">
+ <bp:modificationType rdf:resource="#SMV_ubiquitinated" />
+</bp:ModificationFeature>
+
+<bp:BiochemicalReaction rdf:about="http://bioregistry.io/reactome:R-HSA-6803411">
+ <bp:xref rdf:resource="pubmed:20817677" />
+ <bp:xref rdf:resource="reactome:R-HSA-6803411" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4 modulates CDKN1A translation</bp:displayName>
+ <bp:right rdf:resource="reactome:Protein13466" />
+ <bp:left rdf:resource="reactome:Rna135" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Inga, Alberto, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Donlon, Timothy, 2018-10-17</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2018-10-31</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Zaccara, Sara, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Bertaggia, Enrico, 2018-10-26</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4 binding to the 3&apos;-UTR of the CDKN1A (p21) mRNA reduces half-life of the CDKN1A mRNA and the amount of CDKN1A protein. Upon DNA damage, TP53-mediated induction of CDKN1A is rapid, while the induction of PCBP4 is more gradual. It is hypothesized that, under prolonged stress, PCBP4-mediated down-regulation of CDKN1A may switch from G1 cell cycle arrest to G2 arrest, which may precede apoptosis (Scoumanne et al. 2011).</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:FragmentFeature rdf:about="reactome:FragmentFeature2147">
+ <bp:featureLocation rdf:resource="reactome:SequenceInterval2147" />
+</bp:FragmentFeature>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry2447">
+ <bp:physicalEntity rdf:resource="reactome:Protein2513" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">4.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:SequenceModificationVocabulary rdf:ID="SMV_active">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">active</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:RelationshipXref rdf:ID="RX_ncbigene_7157_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7157</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ncbigene</bp:db>
+</bp:RelationshipXref>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14468">
+ <bp:physicalEntity rdf:resource="reactome:Rna135" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14467">
+ <bp:physicalEntity rdf:resource="reactome:Protein13465" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14466">
+ <bp:physicalEntity rdf:resource="reactome:Complex5727" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14465">
+ <bp:physicalEntity rdf:resource="reactome:Dna202" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14464">
+ <bp:physicalEntity rdf:resource="reactome:Complex1005" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:Stoichiometry rdf:about="reactome:Stoichiometry14463">
+ <bp:physicalEntity rdf:resource="reactome:Protein13464" />
+ <bp:stoichiometricCoefficient rdf:datatype = "http://www.w3.org/2001/XMLSchema#float">1.0</bp:stoichiometricCoefficient>
+</bp:Stoichiometry>
+
+<bp:FragmentFeature rdf:about="reactome:FragmentFeature11986">
+ <bp:featureLocation rdf:resource="reactome:SequenceInterval11986" />
+</bp:FragmentFeature>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803388">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803388.4</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803388</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="http://bioregistry.io/reactome:R-HSA-6803403">
+ <bp:xref rdf:resource="pubmed:20817677" />
+ <bp:xref rdf:resource="reactome:R-HSA-6803403" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4 binds the CDKN1A mRNA</bp:displayName>
+ <bp:right rdf:resource="reactome:Complex5729" />
+ <bp:left rdf:resource="reactome:Protein13465" />
+ <bp:left rdf:resource="reactome:Rna135" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Inga, Alberto, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCBP4 binds the 3&apos;-UTR of the CDKN1A (p21) mRNA and reduces its stability (Scoumanne et al. 2011).</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Donlon, Timothy, 2018-10-17</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edited: Orlic-Milacic, Marija, 2018-10-31</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Zaccara, Sara, 2016-02-04</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reviewed: Bertaggia, Enrico, 2018-10-26</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Authored: Orlic-Milacic, Marija, 2015-10-14</bp:comment>
+ <bp:dataSource rdf:resource="#reactome" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:SequenceInterval rdf:about="reactome:SequenceInterval11987">
+ <bp:sequenceIntervalEnd rdf:resource="reactome:SequenceSite25706" />
+ <bp:sequenceIntervalBegin rdf:resource="reactome:SequenceSite25705" />
+</bp:SequenceInterval>
+
+<bp:SequenceInterval rdf:about="reactome:SequenceInterval11986">
+ <bp:sequenceIntervalEnd rdf:resource="reactome:SequenceSite25704" />
+ <bp:sequenceIntervalBegin rdf:resource="reactome:SequenceSite25703" />
+</bp:SequenceInterval>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-3786256">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3786256.2</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-3786256</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="reactome:ModificationFeature296">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00046" />
+ <bp:featureLocation rdf:resource="reactome:SequenceSite4564" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="reactome:ModificationFeature295">
+ <bp:modificationType rdf:resource="#SMV_mod_MOD_00046" />
+ <bp:featureLocation rdf:resource="reactome:SequenceSite4563" />
+</bp:ModificationFeature>
+
+<bp:RelationshipXref rdf:ID="RX_hgnc_symbol_TP53_identity">
+ <bp:relationshipType rdf:resource="http://bioregistry.io/mi:0356" />
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TP53</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hgnc.symbol</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803802">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803802.1</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803802</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="reactome:R-HSA-6803801">
+ <bp:idVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2</bp:idVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactome stable identifier. Use this URL to connect to the web page of this instance in Reactome: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6803801.2</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R-HSA-6803801</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">reactome</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="go:0005654">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005654</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">go</bp:db>
+</bp:UnificationXref>
+
+<bp:CellularLocationVocabulary rdf:ID="LV_go_GO_0005654">
+ <bp:xref rdf:resource="go:0005654" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nucleoplasm</bp:term>
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nucleoplasm</bp:term>
+</bp:CellularLocationVocabulary>
+
+<bp:UnificationXref rdf:about="uniprot:P57723">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P57723</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:BioSource rdf:about="http://bioregistry.io/ncbitaxon:9606">
+ <bp:xref rdf:resource="ncbitaxon:9606" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiologicalState8</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens (human)</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Human</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens (Human)</bp:name>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">human</bp:name>
+</bp:BioSource>
+
+<bp:RelationshipTypeVocabulary rdf:about="http://bioregistry.io/mi:0356">
+ <bp:xref rdf:resource="mi:0356" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">identity</bp:term>
+</bp:RelationshipTypeVocabulary>
+</rdf:RDF>

@@ -26,7 +26,7 @@ In network analysis or social network research, a SIF file is a format used to r
 3) From SIF to BioRECIPE interaction lists:
 
     ```
-    python to_from.py -i --input_file input/gbm_ints.sif.xlsx --output_file output/gbm_ints.xlsx
+    python to_from.py -i sif --input_file input/pc-mdm2-network.sif.txt --output_file output/mdm2.xlsx
     
     ```
 #### note: You need to have python version 3.8, 3.7 or 3.6

@@ -8,6 +8,7 @@ setup(
         'translators.sbml',
         'translators.sbmlqual',
         'translators.SIF',
+        'translators.biopax',
         'translators.indra_engine',
         'translators.reach_engine',
         'translators.within_biorecipe',
@@ -24,7 +25,10 @@ setup(
         'nltk',
         'casq==1.2.0',
         'numpy',
-        'indra==1.21',
+        'indra==1.23',
+        'gilda',
+        'pybiopax',
+        'bioregistry',
     ],
 
 )
