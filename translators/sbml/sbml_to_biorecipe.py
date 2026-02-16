@@ -8,7 +8,7 @@
 import re
 import argparse
 import casq.celldesigner2qual as casq
-from typing import Optional
+from typing import Optional, Union
 import xml.etree.ElementTree as etree
 import pandas as pd
 import networkx as nx
@@ -136,7 +136,7 @@ def mathml_to_biorecipes(math: Optional[etree.Element], info):
         neg = ""
     return pos, neg
 
-def write_biorecipes(filename, info):
+def write_biorecipes(filename:Union[str, bool], info) -> Optional[pd.DataFrame]:
     df = pd.DataFrame(columns=biorecipe_mdl_cols)
 
     for species, data in sorted(info.items()):
@@ -151,8 +151,12 @@ def write_biorecipes(filename, info):
                             "Variable": urlify(data["name"]+'_'+species), "Levels": 2, "State List 0": 'r'}
             new_df = pd.DataFrame([new_row])
             df = pd.concat([df, new_df], ignore_index=True)
-
-    df.to_excel(filename, index=True)
+    if filename and isinstance(filename, str):
+        df.to_excel(filename, index=True)
+    elif filename == False:
+            return df
+    else:
+        raise ValueError("filename should be a filepath or boolean False to return the dataframe.")
 
 def write_qual_modified(
     filename: str, info, width: str, height: str, remove: int = 0
@@ -193,12 +197,22 @@ def write_qual_modified(
     casq.remove_connected_components(tlist, info, graph, remove)
     casq.add_qual_species(layout, qlist, info)
 
-def get_biorecipeM_from_sbml(map_filename: str, model_filename: str):
-    with open(map_filename, "r", encoding="utf-8") as f:
-        info, width, height = casq.read_celldesigner(f)
+def get_biorecipeM_from_sbml(map_filename: str=None, file_str: str=None, model_filename: str=None):
+    if map_filename:
+        with open(map_filename, "r", encoding="utf-8") as f:
+            info, width, height = casq.read_celldesigner(f)
+    elif file_str:
+        import io
+        info, width, height = casq.read_celldesigner(io.StringIO(file_str))
+    else:
+        raise ValueError("Either map_filename or file_str must be provided.")
+    
     casq.simplify_model(info, [], [])
     write_qual_modified(model_filename, info, width, height)
-    write_biorecipes(model_filename, info)
+    if model_filename:  
+        write_biorecipes(model_filename, info)
+    else:
+        return write_biorecipes(False, info)
     #print("Finished: {}".format(model_filename.split('/')[-1]))
 
 def main():
@@ -214,7 +228,7 @@ def main():
 
     args = parser.parse_args()
 
-    get_biorecipeM_from_sbml(args.input, args.output)
+    get_biorecipeM_from_sbml(map_filename=args.input, model_filename=args.output)
 
 if __name__ == "__main__":
     main()

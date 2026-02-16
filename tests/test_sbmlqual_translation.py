@@ -32,8 +32,8 @@ def test_sbmlqual_from_biorecipeI():
 def test_biorecipeM_from_sbmlqual():
 
     get_biorecipeM_from_sbmlqual(
-    test_files_rl_path + sbmlqual_input,
-    test_files_rl_path + biorecipe_output
+    input_filename=test_files_rl_path + sbmlqual_input,
+    output_filename=test_files_rl_path + biorecipe_output
     )
 
 def main():

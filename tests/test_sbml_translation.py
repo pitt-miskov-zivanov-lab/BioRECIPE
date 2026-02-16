@@ -14,8 +14,8 @@ test_files_rl_path = '../examples/'
 def test_biorecipeM_from_sbml():
 
     get_biorecipeM_from_sbml(
-    test_files_rl_path + sbml_input,
-    test_files_rl_path + biorecipe_output
+    map_filename=test_files_rl_path + sbml_input,
+    model_filename=test_files_rl_path + biorecipe_output
     )
 
 def test_sbml_from_biorecipe():

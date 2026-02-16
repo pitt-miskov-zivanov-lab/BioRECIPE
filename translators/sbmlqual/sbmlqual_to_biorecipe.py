@@ -22,7 +22,7 @@ class SBMLQualMath():
     SBMLQual processor
     """
 
-    def sbmlqual_biorecipe(self, input_file, output_file):
+    def sbmlqual_biorecipe(self, input_file=None, input_str=None, output_file=None):
 
         """
         translate SBMLQual XML file to BioRECIPE format
@@ -37,7 +37,12 @@ class SBMLQualMath():
         biorecipe_df = pd.DataFrame(columns=biorecipe_mdl_cols)
 
         # XML.etree has some issues of parsing the SBMLQual XML file. BeautifulSoup loses the upper cases while reading
-        res = bs4.BeautifulSoup(open(input_file).read(), 'lxml')
+        if input_file:
+            res = bs4.BeautifulSoup(open(input_file).read(), 'lxml')
+        elif input_str:
+            res = bs4.BeautifulSoup(input_str, 'lxml')
+        else:
+            raise ValueError("Either input_file or input_str must be provided.")
 
         self.model = res.findAll("model")[0]
         self.model_dict = dict()
@@ -84,7 +89,10 @@ class SBMLQualMath():
 
             biorecipe_df.loc[biorecipe_df['Element IDs'] == outputs[0], 'Positive Regulation Rule'] = update_rule
 
-        biorecipe_df.to_excel(output_file, index=False)
+        if output_file: 
+            biorecipe_df.to_excel(output_file, index=False)
+        else:
+            return biorecipe_df
 
     def _get_reaction_from_mathml(self, contents):
 
@@ -123,9 +131,12 @@ class SBMLQualMath():
             lhs = ["(" + lhs + ")"]
         return lhs
 
-def get_biorecipeM_from_sbmlqual(input, output):
+def get_biorecipeM_from_sbmlqual(input_filename: str=None,input_str: str=None, output_filename:str=None):
     sbmlqual_math = SBMLQualMath()
-    sbmlqual_math.sbmlqual_biorecipe(input, output)
+    if output_filename:
+        sbmlqual_math.sbmlqual_biorecipe(input_file=input_filename, input_str=input_str, output_file=output_filename)
+    else:
+        return sbmlqual_math.sbmlqual_biorecipe(input_file=input_filename, input_str=input_str, output_file=output_filename)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -135,7 +146,7 @@ def main():
 
     args = parser.parse_args()
 
-    get_biorecipeM_from_sbmlqual(args.input_file, args.output_file)
+    get_biorecipeM_from_sbmlqual(input_filename=args.input_file, input_str=None, output_filename=args.output_file)
 
 if __name__ == "__main__":
     main()
