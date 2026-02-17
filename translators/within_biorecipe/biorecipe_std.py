@@ -465,6 +465,7 @@ def get_reading(reading_file: str=None, reading_data:pd.DataFrame=None) -> pd.Da
         reading_df = reading_data
     else:
         raise ValueError("Either reading_file or reading_data must be provided.")
+    
 
     # check if there are multiple entities in a single row
     for entity in ['Regulator', 'Regulated']:
@@ -577,7 +578,7 @@ def change_name_by_type(reading_df:pd.DataFrame, entity: str) -> pd.DataFrame:
     for name_, df in reading_df.groupby(by=f'{entity} Name'):
         index_list = list(df.index)
         for row in index_list:
-            entity_type = reading_df.loc[row, f'{entity} Type'].lower()
+            entity_type = str(reading_df.loc[row, f'{entity} Type']).lower()
 
             if '_' in entity_type:
                 type_multiple = entity_type.split('_')

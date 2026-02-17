@@ -208,7 +208,6 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
         'Tissue Type'
     ] # interaction intersect-column names
 
-    print(model.loc['MUTPTENpn_cytoMEL', 'Element Name'])
     for key,item in model_dict.items():
         for index in model_col_index:
             if type(item.get(index)) == str:
@@ -320,6 +319,7 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
     category_stack = []
 
     # Get all unique elements to index
+    interaction_df = interaction_df.fillna('').astype(str)
     category = set(interaction_df['Regulated Name'].str.lower())
     category = [str(ele) for ele in category]
     if 'nan' in category:
