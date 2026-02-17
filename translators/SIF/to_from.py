@@ -97,13 +97,20 @@ class SIF():
                 ofile.write("\t")
                 ofile.write('\n')
 
-    def sif_biorecipeI(self, input_file, output_file):
+    def sif_biorecipeI(self, input_file: str=None, input_str: str=None, output_file: str=None):
 
         """
         Translate SIF to BioRECIPE interaction lists
         """
 
-        df = pd.read_csv(input_file, sep="\s+", header=None)
+        if input_file:
+            df = pd.read_csv(input_file, sep='\t', header=None, keep_default_na=False)
+        elif input_str:
+            import io
+            df = pd.read_csv(io.StringIO(input_str), sep='\t', header=None, keep_default_na=False)
+        else:
+            raise ValueError("Either input_file or input_str must be provided.")
+        
         df.fillna('', inplace=True)
         output_df = pd.DataFrame(columns=biorecipe_int_cols)
 
@@ -130,8 +137,11 @@ class SIF():
             else:
                 raise ValueError("Empty value for relationType")
 
-        with pd.ExcelWriter(output_file) as writer:
-            output_df.to_excel(writer, index=False)
+        if output_file:
+            with pd.ExcelWriter(output_file) as writer:
+                output_df.to_excel(writer, index=False)
+        else:
+            return output_df
 
 def get_sif_from_biorecipeM(input, output):
     sif = SIF()
@@ -141,9 +151,12 @@ def get_sif_from_biorecipeI(input, output):
     sif = SIF()
     sif.biorecipeI_sif(input, output)
 
-def get_biorecipeI_from_sif(input, output):
+def get_biorecipeI_from_sif(input_file=None, input_str=None, output_file=None):
     sif = SIF()
-    sif.sif_biorecipeI(input, output)
+    if output_file:
+        sif.sif_biorecipeI(input_file=input_file, input_str=input_str, output_file=output_file)
+    else:
+        return sif.sif_biorecipeI(input_file=input_file, input_str=input_str, output_file=output_file)
 
 def main():
 
@@ -168,7 +181,7 @@ def main():
     elif args.input_format == 'interactions':
         get_sif_from_biorecipeI(args.input_file, args.output_file)
     elif args.input_format == 'sif':
-        get_biorecipeI_from_sif(args.input_file, args.output_file)
+        get_biorecipeI_from_sif(input_file=args.input_file, output_file=args.output_file)
 
 if __name__ == "__main__":
     main()

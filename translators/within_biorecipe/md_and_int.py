@@ -7,6 +7,7 @@ import numpy as np
 import networkx as nx
 
 from translators.within_biorecipe.biorecipe_std import BioRECIPE, get_model, get_reading
+from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
 
 
 HGNC_SYMBOL = r'^[A-Za-z-0-9_]+(\@)?$'
@@ -178,26 +179,36 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     biorecipe_col = BioRECIPE().biorecipe_int_cols
     interactions_dict, model_item_dict, i = dict(), dict(), 0
 
-    model_col_index = ['Element Name',
-    'Element Type',
-    'Element Subtype',
-    'Element IDs',
-    'Cell Line',
-    'Cell Type',
-    'Organism',
-    'Compartment',
-    'Compartment ID',
-    'Tissue Type'] # model intersect-column names
-    interaction_col_index = ['Regulated Name',
-    'Regulated Type',
-    'Regulated Subtype',
-    'Regulated ID',
-    'Cell Line',
-    'Cell Type',
-    'Organism',
-    'Regulated Compartment',
-    'Regulated Compartment ID',
-    'Tissue Type'] # interaction intersect-column names
+    model_col_index = [
+        'Element Name',
+        'Element Type',
+        'Element Subtype',
+        'Element HGNC Symbol',
+        'Element Database',
+        'Element IDs',
+        'Cell Line',
+        'Cell Type',
+        'Organism',
+        'Compartment',
+        'Compartment ID',
+        'Tissue Type'
+    ] # model intersect-column names
+    interaction_col_index = [
+        'Regulated Name',
+        'Regulated Type',
+        'Regulated Subtype',
+        'Regulated HGNC Symbol', 
+        'Regulated Database',
+        'Regulated ID',
+        'Cell Line',
+        'Cell Type',
+        'Organism',
+        'Regulated Compartment',
+        'Regulated Compartment ID',
+        'Tissue Type'
+    ] # interaction intersect-column names
+
+    print(model.loc['MUTPTENpn_cytoMEL', 'Element Name'])
     for key,item in model_dict.items():
         for index in model_col_index:
             if type(item.get(index)) == str:
@@ -217,12 +228,24 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
             for pos in pos_list:
                 dict_ = dict()
                 dict_ = {interc_index: model_item_dict[model_index] for interc_index, model_index in zip(interaction_col_index, model_col_index) }
+
                 if pos[0] != '!':
                     dict_['Sign'] = 'Positive'
-                    dict_['Regulator Name'] = pos
+                    pos_idx = pos
+
                 else:
                     dict_['Sign'] = 'NOT Positive'
-                    dict_['Regulator Name'] = pos[1:]
+                    pos_idx = pos[1:]
+
+                dict_['Regulator Name'] = model.loc[pos_idx, 'Element Name']
+                dict_['Regulator Type'] = model.loc[pos_idx, 'Element Type']
+                dict_['Regulator Subtype'] = model.loc[pos_idx, 'Element Subtype']
+                dict_['Regulator HGNC Symbol'] = model.loc[pos_idx, 'Element HGNC Symbol']
+                dict_['Regulator ID'] = model.loc[pos_idx, 'Element IDs']
+                dict_['Regulator Database'] = model.loc[pos_idx, 'Element Database']
+                dict_['Regulator Compartment'] = model.loc[pos_idx, 'Compartment']
+                dict_['Regulator Compartment ID'] = model.loc[pos_idx, 'Compartment ID']
+
                 pos_dict[k] = dict_
                 k+=1
             i+= len(pos_list)
@@ -235,12 +258,24 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
             for neg in neg_list:
                 dict_ = dict()
                 dict_ = {interc_index: model_item_dict[model_index] for interc_index, model_index in zip(interaction_col_index, model_col_index) }
+                # Element attributes vector
                 if neg[0] != '!':
                     dict_['Sign'] = 'Negative'
-                    dict_['Regulator Name'] = neg
+                    neg_idx = neg
+
                 else:
                     dict_['Sign'] = 'NOT Negative'
-                    dict_['Regulator Name'] = neg[1:]
+                    neg_idx = neg[1:]
+
+                dict_['Regulator Name'] = model.loc[neg_idx, 'Element Name']
+                dict_['Regulator Type'] = model.loc[neg_idx, 'Element Type']
+                dict_['Regulator Subtype'] = model.loc[neg_idx, 'Element Subtype']
+                dict_['Regulator HGNC Symbol'] = model.loc[neg_idx, 'Element HGNC Symbol']
+                dict_['Regulator Database'] = model.loc[neg_idx, 'Element Database']
+                dict_['Regulator ID'] = model.loc[neg_idx, 'Element IDs']
+                dict_['Regulator Compartment'] = model.loc[neg_idx, 'Compartment']
+                dict_['Regulator Compartment ID'] = model.loc[neg_idx, 'Compartment ID']
+
                 neg_dict[j] = dict_
                 j+=1
             i+=len(neg_list)
@@ -254,6 +289,7 @@ def model_to_interactions(model : pd.DataFrame) -> pd.DataFrame:
     other_cols = list(set(biorecipe_col) - set(interaction_df.columns))
     # build BioRECIPE up
     interaction_bio_df = pd.concat([interaction_df, pd.DataFrame(columns=other_cols)], axis=1)
+    interaction_bio_df.fillna('', inplace=True)
     # reorder the columns
     return interaction_bio_df[biorecipe_col]
 
@@ -423,7 +459,7 @@ def interactions_to_model(interaction_df : pd.DataFrame) -> pd.DataFrame:
             output_ele_df.loc[k, 'Element Database'] = ','.join([i for i in list(ele_db) if not pd.isna(i)])
             k+=1
 
-    output_ele_df.fillna('',inplace=True)
+    output_ele_df.replace('nan', '',inplace=True)
     # build BioRECIPE up
     return output_ele_df
 

@@ -307,6 +307,8 @@ def sample_test():
     biopax_parser = Biopax()
     test_dir = '../../examples/biopax'
 
+    # If you want to test the files not in example folder, please download them from 
+    # https://github.com/BioPAX/specification/tree/master/Level3/examples
     # # ControlInteraction test
     # filename = 'biopax3-phosphorylation-reaction.owl'
 

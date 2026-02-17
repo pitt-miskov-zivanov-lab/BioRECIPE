@@ -30,8 +30,8 @@ def test_sif_from_biorecipeI():
 def test_biorecipeI_from_sif():
 
     get_biorecipeI_from_sif(
-    test_files_rl_path + sif_input,
-    test_files_rl_path + biorecipe_output
+    input_file=test_files_rl_path + sif_input,
+    output_file=test_files_rl_path + biorecipe_output
     )
 
 def main():

@@ -16,6 +16,7 @@ import glob
 import argparse
 
 def get_reach_smy_from_fries(reach_input_dir, reach_output_file):
+    
 
     path = os.path.join(reach_input_dir, '*.txt')
     files = glob.glob(path)
@@ -31,6 +32,7 @@ def get_reach_smy_from_fries(reach_input_dir, reach_output_file):
         events_fn = os.path.join(reach_input_dir, basename + '.uaz.events.json')
         entities_fn = os.path.join(reach_input_dir, basename + '.uaz.entities.json')
         sentences_fn = os.path.join(reach_input_dir, basename + '.uaz.sentences.json')
+            
 
         with open(events_fn, 'r', encoding='utf-8') as json_file:
             events = json.load(json_file)

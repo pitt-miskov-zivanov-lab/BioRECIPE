@@ -206,7 +206,7 @@ class BioRECIPE:
         """Register a format providing the format name and the instance"""
         cls.__FORMAT[format_name] = obj
 
-def get_model(model_file: str) -> pd.DataFrame:
+def get_model(model_file: str=None, model_data:pd.ExcelFile=None) -> pd.DataFrame:
 
     """
     Load model into a DataFrame and standardize column names
@@ -228,7 +228,12 @@ def get_model(model_file: str) -> pd.DataFrame:
     type_col_name = 'Element Type'
 
     # Load the input file containing elements and regulators
-    model_sheets = pd.ExcelFile(model_file)
+    if model_file is not None:
+        model_sheets = pd.ExcelFile(model_file)
+    elif model_data is not None:
+        model_sheets = model_data
+    else:
+        raise ValueError('Must provide either a model file or a model dataframe')
     # get the model from the first sheet, will check the other sheets for truth tables later
     model = model_sheets.parse(0,na_values='NaN',keep_default_na=False,index_col=None)
 
@@ -361,7 +366,6 @@ def get_model(model_file: str) -> pd.DataFrame:
             )
 
     model.fillna('',inplace=True)
-
     return model
 
 def drop_x_indices(model: pd.DataFrame) -> pd.DataFrame:
@@ -421,7 +425,7 @@ def format_variable_names(model: pd.DataFrame) -> pd.DataFrame:
     return model
 
 
-def get_type(input_type):
+def get_type(input_type, differ_gene=False):
 
     """
     Standardize element types, used in get_model() to standardize model spreadsheet
@@ -429,18 +433,22 @@ def get_type(input_type):
 
     global _VALID_TYPES
 
-    if input_type.lower() in _VALID_TYPES:
-        return input_type
-    elif input_type.lower().startswith('protein'):
-        return 'protein'
-    elif input_type.lower().startswith('chemical'):
-        return 'chemical'
-    elif input_type.lower().startswith('biological'):
-        return 'biological'
+    input_type = re.findall(r'[A-z\s]+', input_type) if str(input_type).lower() != 'nan' else 'other'
+    input_type = set(x.lower().strip() for x in input_type)
+    if differ_gene and input_type.intersection(['gene']):
+        return 'gene'
+    if input_type.intersection(_VALID_TYPES):
+        return list(input_type.intersection(_VALID_TYPES))[0]
+    # elif input_type.lower().startswith('protein'):
+    #     return 'protein'
+    # elif input_type.lower().startswith('chemical'):
+    #     return 'chemical'
+    # elif input_type.lower().startswith('biological'):
+    #     return 'biological'
     else:
         return 'other'
 
-def get_reading(reading_file: str) -> pd.DataFrame:
+def get_reading(reading_file: str=None, reading_data:pd.DataFrame=None) -> pd.DataFrame:
 
     """
     This is a function to normalize entity name. Entities
@@ -451,7 +459,12 @@ def get_reading(reading_file: str) -> pd.DataFrame:
         3. Entities with same name but different type, their element names should be distinguished
     """
 
-    reading_df = pd.read_excel(reading_file, index_col=None)
+    if reading_file is not None:
+        reading_df = pd.read_excel(reading_file, index_col=None)
+    elif reading_data is not None:
+        reading_df = reading_data
+    else:
+        raise ValueError("Either reading_file or reading_data must be provided.")
 
     # check if there are multiple entities in a single row
     for entity in ['Regulator', 'Regulated']:
