@@ -14,7 +14,7 @@ def main():
 	args = parser.parse_args()
 	input = args.input
 	output = args.output
-	get_biorecipeI_from_pmcids(input, output)
+	get_biorecipeI_from_pmcids(infile=input, outdir=output)
 
 if __name__ == '__main__':
 	main()

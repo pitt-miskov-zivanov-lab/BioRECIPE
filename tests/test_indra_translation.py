@@ -20,8 +20,8 @@ def test_INDRAstmts_from_biorecipeI():
 def test_biorecipeI_from_pmcids():
 
     get_biorecipeI_from_pmcids(
-    test_files_rl_path + ids,
-    test_files_rl_path + outdir
+    infile=test_files_rl_path + ids,
+    outdir=test_files_rl_path + outdir
     )
 
 def main():

@@ -213,7 +213,7 @@ def parse_pmc(input, outdir):
         infile = input
         get_biorecipeI_from_pmcids(infile, outdir)
 
-def get_biorecipeI_from_pmcids(infile, outdir):
+def get_biorecipeI_from_pmcids(infile: str=None, iddict: dict=None, outdir: str=None):
     """
     This function queries PMCIDs using INDRA database API and
     outputs the reading file from INDRA statements in BioRECIPE format.
@@ -222,6 +222,8 @@ def get_biorecipeI_from_pmcids(infile, outdir):
     ----------
     infile : str
         Input file that has "PMCID" and/or "PMID" column headers
+    iddict : dict
+        Dictionary of PMCIDs or PMIDs (if infile is not provided)
     outdir : str
         Output directory path
 
@@ -232,10 +234,21 @@ def get_biorecipeI_from_pmcids(infile, outdir):
         as an Excel file with two sheets: "statements" and "Paper Not Found"
     """
 
-    infile_ = os.path.splitext(os.path.basename(infile))[0]
-    fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
 
-    papers_df = pd.read_csv(infile, dtype=str)
+    if infile is not None:
+        infile_ = os.path.splitext(os.path.basename(infile))[0]
+        papers_df = pd.read_csv(infile, dtype=str)
+    elif iddict is not None:
+        papers_df = pd.DataFrame(iddict)
+    else:
+        raise ValueError("Either infile or iddict must be provided")
+    
+    if outdir is not None:
+        os.makedirs(outdir, exist_ok=True)
+        fName = os.path.join(outdir, f'{infile_}_reading.xlsx')
+    else:
+        pass
+    
     ext_cols = []
     if "PMID" in papers_df.columns:
         ext_cols.append("PMID")
@@ -569,18 +582,21 @@ def get_biorecipeI_from_pmcids(infile, outdir):
     fix_hgnc_symbols_in_dataframe(fOut)
 
     # Create output directory if it doesn't exist
-    os.makedirs(outdir, exist_ok=True)
+    if outdir is not None:
+        os.makedirs(outdir, exist_ok=True)
     
-    # IMPORTANT: Reorder columns to match the original biorecipe_int_cols order
-    fOut = fOut.reindex(columns=biorecipe_int_cols)
+        # IMPORTANT: Reorder columns to match the original biorecipe_int_cols order
+        fOut = fOut.reindex(columns=biorecipe_int_cols)
 
-    with pd.ExcelWriter(fName, engine='openpyxl') as writer:
-        fOut.fillna("").to_excel(writer, sheet_name="statements", index=False)
+        with pd.ExcelWriter(fName, engine='openpyxl') as writer:
+            fOut.fillna("").to_excel(writer, sheet_name="statements", index=False)
 
-        noStatements_df = pd.DataFrame(noStatements, columns=["Paper ID"])
-        noStatements_df.to_excel(writer, sheet_name="Paper Not Found", index=False)
+            noStatements_df = pd.DataFrame(noStatements, columns=["Paper ID"])
+            noStatements_df.to_excel(writer, sheet_name="Paper Not Found", index=False)
 
-    print(f"✓ Wrote {rowCount} interactions → {fName}")
+        print(f"✓ Wrote {rowCount} interactions → {fName}")
+    else: 
+        return fOut
 
 def get_INDRAstmts_from_biorecipeI(infile, outfile):
     """

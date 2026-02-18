@@ -18,7 +18,7 @@ from indra.belief import SimpleScorer
 import pandas as pd
 from translators.within_biorecipe.biorecipe_std import biorecipe_int_cols
 
-def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
+def get_indra_stmts_by_reach(file_name: str=None, file_str: str=None, citation=None, organism_priority=None):
 
 	"""
 	Return indra statements by processing the input REACH json file.
@@ -28,6 +28,8 @@ def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
 	----------
 	file_name : str
         The name of the json file to be processed.
+    file_str : str
+        The string content of the json file to be processed.
     citation : Optional[str]
         A PubMed ID passed to be used in the evidence for the extracted INDRA
         Statements. Default: None
@@ -42,11 +44,13 @@ def get_indra_stmts_by_reach(file_name, citation=None, organism_priority=None):
     rp : ReachProcessor
         A ReachProcessor containing the extracted INDRA Statements in rp.statements.
 	"""
-
-	rp = reach.process_json_file(file_name)
+	if file_name is not None:
+		rp = reach.process_json_file(file_name)
+	else:
+		rp = reach.process_json_str(file_str)
 	return rp
 
-def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute=False, violin=False):
+def indra_stmts_to_interactions(processor, output_file=None, indra_stats=False, flute=False, violin=False):
 
 	"""
 	This function outputs a reading file from indra statements
@@ -72,15 +76,16 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 	# TODO: rewrite this setting
 
 	# rename file suffix to .xlsx
-	pathname, suffix = os.path.splitext(output_file)
-	if suffix != '.xlsx':
-		fName = output_file.replace(suffix, ".xlsx")
-	else:
-		fName = output_file
+	if output_file is not None:
+		pathname, suffix = os.path.splitext(output_file)
+		if suffix != '.xlsx':
+			fName = output_file.replace(suffix, ".xlsx")
+		else:
+			fName = output_file
+		fName_stats = output_file.replace(".csv","_statements.xlsx")
+		fName_VIOLIN = output_file.replace(".csv", "_statements_VIOLIN.xlsx")
+		fName_FLUTE = output_file.replace(".csv", "_statements_FLUTE.xlsx")
 
-	fName_stats = output_file.replace(".csv","_statements.xlsx")
-	fName_VIOLIN = output_file.replace(".csv", "_statements_VIOLIN.xlsx")
-	fName_FLUTE = output_file.replace(".csv", "_statements_FLUTE.xlsx")
 
 	networkArray = np.empty((6000, 13),dtype=">U250")
 	rowCount = 0
@@ -334,7 +339,10 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 		fOut_BioRECIPE.loc[i, "Statements"] = fOut.loc[i, "Evidence"]
 		fOut_BioRECIPE.loc[i, "Paper IDs"] = fOut.loc[i, "PMCID"]
 
-	fOut_BioRECIPE.to_excel(fName, index=False)
+	if output_file is not None:
+		fOut_BioRECIPE.to_excel(fName, index=False)
+	else:
+		return fOut_BioRECIPE
 
 	if indra_stats:
 		fOut.to_excel(fName_stats, index=False)
@@ -350,6 +358,14 @@ def indra_stmts_to_interactions(processor, output_file, indra_stats=False, flute
 def get_biorecipeI_from_reach_smy(json_file_name, output_file_name):
 	rp = get_indra_stmts_by_reach(json_file_name)
 	indra_stmts_to_interactions(processor=rp, output_file=output_file_name)
+
+def get_biorecipeI_from_reach_smy_str(json_file_str, output_file_name=None):
+	rp = get_indra_stmts_by_reach(file_str=json_file_str)
+	if output_file_name is not None:
+		indra_stmts_to_interactions(processor=rp, output_file=output_file_name)
+	else:
+		return indra_stmts_to_interactions(processor=rp)
+
 
 def main():
 	parser = argparse.ArgumentParser(description='translate reach file using INDRA to a BioRECIPE interaction lists file')
