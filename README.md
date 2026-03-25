@@ -52,7 +52,7 @@ BioRECIPE supports the features of ***Standardization, Expressiveness, Scalabili
 
 ## Citation
 
-- Holtzapple, Emilee, et al. “The BioRECIPE Knowledge Representation Format,” bioRxiv, 2024.
+- Holtzapple, Emilee, et al. “The BioRECIPE Knowledge Representation Format,” ACS Synthetic Biology, Vol. 13, Issue 8, pp. 2621-2624, 2024.
 
 - Sayed, Khaled, et al., “Recipes for translating big data machine reading to executable cellular signaling models,” Machine Learning, Optimization, and Big Data: Third International Conference, MOD 2017, Volterra, Italy, September 14–17, 2017, Revised Selected Papers 3. Springer International Publishing, 2018.
 
